@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowIcon } from "@/components/common/Icons";
@@ -16,6 +16,8 @@ export default function ServicesSticky({
   title?: string;
   sub?: string;
 }) {
+  const [activeIdx, setActiveIdx] = useState(0);
+
   return (
     <section className="sec" style={{ paddingBottom: 0 }}>
       <div className="wrap">
@@ -31,9 +33,15 @@ export default function ServicesSticky({
             const s = services[key];
             if (!s) return null;
             const chips = s.chips || s.inc.slice(0, 3).map((x) => x[0]);
+            const isOpen = activeIdx === i;
 
             return (
-              <div className={`sv ${i === 0 ? "on" : ""}`} key={key}>
+              <div
+                className={`sv ${isOpen ? "on" : ""}`}
+                key={key}
+                onMouseEnter={() => setActiveIdx(i)}
+                onClick={() => setActiveIdx(i)}
+              >
                 <div className="bgi">
                   <Image
                     src={`/img/${s.img}.webp`}

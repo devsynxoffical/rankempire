@@ -200,18 +200,25 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
       svLayout();
     }
 
+    let isSvHovered = false;
+    if (svcw) {
+      svcw.addEventListener("mouseenter", () => {
+        isSvHovered = true;
+      });
+      svcw.addEventListener("mouseleave", () => {
+        isSvHovered = false;
+      });
+    }
+
     svs.forEach((s, i) => {
+      s.addEventListener("mouseenter", () => {
+        setSv(i);
+      });
       const row = s.querySelector(".row");
       if (!row) return;
       row.addEventListener("click", (e) => {
         if ((e.target as HTMLElement).closest("a")) return;
-        if (svPin && lenis && svcw) {
-          const r = svcw.getBoundingClientRect();
-          const span = svcw.offsetHeight - window.innerHeight;
-          lenis.scrollTo(window.scrollY + r.top + (span * (i + 0.5)) / svs.length);
-        } else {
-          setSv(i === svOn && !svPin ? -1 : i);
-        }
+        setSv(i);
       });
     });
 
@@ -246,7 +253,7 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
       if (band && band.parentElement) {
         const r = band.parentElement.getBoundingClientRect();
         if (r.bottom > 0 && r.top < vh) {
-          band.style.transform = `translate3d(0, ${(r.top * -0.12).toFixed(1)}px, 0)`;
+          band.style.transform = `translate3d(0, ${(r.top * -0.04).toFixed(1)}px, 0)`;
         }
       }
 
@@ -279,7 +286,7 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
       }
 
       // Sticky service active sync
-      if (svPin && svcw) {
+      if (svPin && svcw && !isSvHovered) {
         const r = svcw.getBoundingClientRect();
         const span = svcw.offsetHeight - vh;
         const p = cl(-r.top / span);
