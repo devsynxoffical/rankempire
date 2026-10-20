@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { UsersIcon, BulbIcon, ShieldIcon } from "@/components/common/Icons";
 import { LineReveal } from "@/components/common/LineReveal";
 
@@ -37,27 +36,23 @@ export default function ValuesSection() {
           </p>
         </div>
 
-        <div className="vals">
-          <div className="im" data-r="s">
-            <Image
-              src="/img/team.webp"
-              alt="RankEmpire SEO specialists collaborating"
-              width={600}
-              height={400}
-              style={{ objectFit: "cover", width: "100%", height: "100%" }}
-            />
-          </div>
-
+        <div className="g3" data-stagger>
           {values.map((v, i) => (
             <div
-              className="val"
-              data-r
+              className="box"
               key={i}
-              style={{ "--d": v.delay } as React.CSSProperties}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "16px",
+                padding: "36px 32px",
+              }}
             >
-              <div className="ic">{v.icon}</div>
-              <h4>{v.title}</h4>
-              <p>{v.desc}</p>
+              <div style={{ width: "44px", height: "44px", color: "var(--acc)" }}>
+                {v.icon}
+              </div>
+              <h4 style={{ fontSize: "22px", fontWeight: 600 }}>{v.title}</h4>
+              <p style={{ color: "var(--mute)", fontSize: "15.5px", lineHeight: 1.6 }}>{v.desc}</p>
             </div>
           ))}
         </div>
