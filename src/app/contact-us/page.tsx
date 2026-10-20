@@ -2,8 +2,12 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { ArrowIcon, MailIcon, ClockIcon, PinIcon } from "@/components/common/Icons";
-import { BRAND_EMAIL, services, serviceOrderCore, serviceOrderSvc } from "@/data";
+import Image from "next/image";
+import { ArrowIcon, StarSparkIcon, MailIcon, ClockIcon, PinIcon } from "@/components/common/Icons";
+import { LineReveal } from "@/components/common/LineReveal";
+import FAQSection from "@/components/sections/FAQSection";
+import CTASection from "@/components/sections/CTASection";
+import { BRAND_EMAIL, services, serviceOrderCore, serviceOrderSvc, faqHome } from "@/data";
 
 export default function ContactUsPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -11,9 +15,8 @@ export default function ContactUsPage() {
     firstName: "",
     lastName: "",
     email: "",
-    phone: "",
     website: "",
-    service: "Local SEO",
+    service: "",
     message: "",
   });
 
@@ -23,7 +26,7 @@ export default function ContactUsPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const body = `First Name: ${formData.firstName}\nLast Name: ${formData.lastName}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nWebsite: ${formData.website}\nService: ${formData.service}\n\nGoals/Message:\n${formData.message}`;
+    const body = `First Name: ${formData.firstName}\nLast Name: ${formData.lastName}\nEmail: ${formData.email}\nWebsite: ${formData.website}\nService: ${formData.service || "Not sure yet"}\n\nGoals/Message:\n${formData.message}`;
 
     window.location.href = `mailto:${BRAND_EMAIL}?subject=${encodeURIComponent(
       "Free SEO audit request"
@@ -40,20 +43,29 @@ export default function ContactUsPage() {
             <span aria-hidden="true">&rsaquo;</span>
             <span>Contact Us</span>
           </nav>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: "30px", flexWrap: "wrap" }}>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "flex-end",
+              gap: "30px",
+              flexWrap: "wrap",
+            }}
+          >
             <h1 data-r>
               Contact us <em>today</em>
             </h1>
             <p data-r style={{ maxWidth: "360px", color: "var(--mute)", textAlign: "right" }}>
-              Tell us about your business and goals. We reply within one business day with next steps and a free audit offer.
+              Tell us about your business and goals. We reply within one business day with next steps
+              and a free audit offer.
             </p>
           </div>
         </div>
       </section>
 
+      {/* Form Split Section */}
       <section style={{ paddingBottom: "clamp(70px,9vw,120px)" }}>
         <div className="wrap split" style={{ alignItems: "stretch" }}>
-          {/* Contact Form */}
           <form className={`form ${submitted ? "sent" : ""}`} onSubmit={handleSubmit} data-r>
             <div className="two">
               <label>
@@ -61,7 +73,7 @@ export default function ContactUsPage() {
                 <input
                   type="text"
                   required
-                  placeholder="Your first name"
+                  placeholder="Please enter your name"
                   value={formData.firstName}
                   onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
                 />
@@ -70,7 +82,7 @@ export default function ContactUsPage() {
                 Last name
                 <input
                   type="text"
-                  placeholder="Your last name"
+                  placeholder="Please enter your last name"
                   value={formData.lastName}
                   onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
                 />
@@ -79,103 +91,174 @@ export default function ContactUsPage() {
 
             <div className="two">
               <label>
-                Work email
+                Email
                 <input
                   type="email"
                   required
-                  placeholder="you@company.com"
+                  placeholder="Please enter your email"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 />
               </label>
               <label>
-                Phone (optional)
+                Website
                 <input
-                  type="tel"
-                  placeholder="(555) 000-0000"
-                  value={formData.phone}
-                  onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                />
-              </label>
-            </div>
-
-            <div className="two">
-              <label>
-                Website URL
-                <input
-                  type="url"
-                  required
-                  placeholder="https://example.com"
+                  type="text"
+                  placeholder="https://"
                   value={formData.website}
                   onChange={(e) => setFormData({ ...formData, website: e.target.value })}
                 />
               </label>
-              <label>
-                Service of interest
-                <select
-                  value={formData.service}
-                  onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                >
-                  {allServices.map((name) => (
-                    <option key={name} value={name}>
-                      {name}
-                    </option>
-                  ))}
-                </select>
-              </label>
             </div>
 
             <label>
-              Tell us about your goals
+              Select service
+              <select
+                value={formData.service}
+                onChange={(e) => setFormData({ ...formData, service: e.target.value })}
+              >
+                <option value="">Select a service</option>
+                {allServices.map((name) => (
+                  <option key={name} value={name}>
+                    {name}
+                  </option>
+                ))}
+                <option value="Not sure yet">Not sure yet</option>
+              </select>
+            </label>
+
+            <label>
+              Message
               <textarea
-                rows={4}
-                placeholder="What challenges are you facing with search rankings, traffic or leads?"
+                placeholder="Tell us about your business, your market and your goals"
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
               />
             </label>
 
-            <button className="btn acc" type="submit" style={{ alignSelf: "flex-start" }}>
-              Request free audit
+            <button className="btn acc full" type="submit">
+              Send message
               <ArrowIcon />
             </button>
 
             <div className="ok">
-              Thank you! Your request has been sent. We will review your site and reply within one business day.
+              Your email app has opened with your message. Press send and we will reply within one
+              business day.
             </div>
           </form>
 
-          {/* Direct Details Side Box */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-            <div className="box bg" data-r>
-              <h3 style={{ fontSize: "22px", marginBottom: "16px" }}>What happens next?</h3>
-              <ol className="checks" style={{ paddingLeft: 0, listStyle: "none" }}>
-                <li>1. We crawl your website and review your top local competitors.</li>
-                <li>2. We prepare an honest audit finding the bottlenecks holding you back.</li>
-                <li>3. We jump on a 20-minute call to share the prioritized roadmap.</li>
-              </ol>
-            </div>
+          {/* Right image */}
+          <div
+            className="phimg"
+            data-r="s"
+            style={{
+              aspectRatio: "auto",
+              minHeight: "520px",
+              position: "relative",
+              overflow: "hidden",
+            }}
+          >
+            <Image
+              src="/img/contact.webp"
+              alt="RankEmpire SEO team"
+              fill
+              priority
+              sizes="(max-width: 980px) 100vw, 50vw"
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+        </div>
+      </section>
 
-            <div className="box dk" data-r>
-              <h3 style={{ fontSize: "22px", marginBottom: "16px" }}>Direct contact</h3>
-              <div style={{ display: "grid", gap: "14px" }}>
-                <a href={`mailto:${BRAND_EMAIL}`} style={{ display: "flex", gap: "10px", alignItems: "center" }}>
-                  <MailIcon />
-                  <span>{BRAND_EMAIL}</span>
-                </a>
-                <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
-                  <ClockIcon />
-                  <span>Monday - Friday, 9am - 6pm ET</span>
-                </div>
-                <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
-                  <PinIcon />
-                  <span>Serving clients nationwide across the US</span>
-                </div>
+      {/* We would love to hear from you */}
+      <section className="sec" style={{ paddingTop: 0 }}>
+        <div className="wrap">
+          <div className="shead c">
+            <LineReveal lines={["We would love to hear from you"]} />
+          </div>
+
+          <div className="g4" data-stagger>
+            <a className="box bg" href={`mailto:${BRAND_EMAIL}`} style={{ textAlign: "center" }}>
+              <div
+                style={{
+                  width: "44px",
+                  height: "44px",
+                  margin: "0 auto 18px",
+                  color: "var(--acc)",
+                  display: "grid",
+                  placeItems: "center",
+                }}
+              >
+                <MailIcon size={30} />
               </div>
+              <h3>{BRAND_EMAIL}</h3>
+              <p>Pricing, plans and new projects</p>
+            </a>
+
+            <Link className="box bg" href="/seo-tools/seo-audit-tool/" style={{ textAlign: "center" }}>
+              <div
+                style={{
+                  width: "44px",
+                  height: "44px",
+                  margin: "0 auto 18px",
+                  color: "var(--acc)",
+                  display: "grid",
+                  placeItems: "center",
+                }}
+              >
+                <StarSparkIcon className="ic" />
+              </div>
+              <h3>Free SEO audit</h3>
+              <p>Start with a review of your site</p>
+            </Link>
+
+            <Link className="box bg" href="/locations/" style={{ textAlign: "center" }}>
+              <div
+                style={{
+                  width: "44px",
+                  height: "44px",
+                  margin: "0 auto 18px",
+                  color: "var(--acc)",
+                  display: "grid",
+                  placeItems: "center",
+                }}
+              >
+                <PinIcon size={30} />
+              </div>
+              <h3>Across the US</h3>
+              <p>Remote-first, serving 17 metros</p>
+            </Link>
+
+            <div className="box bg" style={{ textAlign: "center" }}>
+              <div
+                style={{
+                  width: "44px",
+                  height: "44px",
+                  margin: "0 auto 18px",
+                  color: "var(--acc)",
+                  display: "grid",
+                  placeItems: "center",
+                }}
+              >
+                <ClockIcon size={30} />
+              </div>
+              <h3>Mon to Fri</h3>
+              <p>9am to 6pm Eastern Time</p>
             </div>
           </div>
         </div>
       </section>
+
+      {/* FAQs */}
+      <FAQSection
+        items={faqHome}
+        tabs={true}
+        title="Frequently Asked Questions"
+        sub="Straight answers about how RankEmpire works"
+      />
+
+      {/* CTA Section */}
+      <CTASection />
     </>
   );
 }

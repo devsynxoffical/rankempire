@@ -41,27 +41,27 @@ export function QuoteIcon({ className }: { className?: string }) {
   );
 }
 
-export function MailIcon({ className }: { className?: string }) {
+export function MailIcon({ className, size = 20 }: { className?: string; size?: number }) {
   return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+    <svg className={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
       <rect x="3" y="5" width="18" height="14" rx="3" />
       <path d="m4 7 8 6 8-6" />
     </svg>
   );
 }
 
-export function ClockIcon({ className }: { className?: string }) {
+export function ClockIcon({ className, size = 20 }: { className?: string; size?: number }) {
   return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+    <svg className={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
       <circle cx="12" cy="12" r="9" />
       <path d="M12 7v5l3 2" />
     </svg>
   );
 }
 
-export function PinIcon({ className }: { className?: string }) {
+export function PinIcon({ className, size = 20 }: { className?: string; size?: number }) {
   return (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+    <svg className={className} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
       <path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z" />
       <circle cx="12" cy="9" r="2.5" />
     </svg>
