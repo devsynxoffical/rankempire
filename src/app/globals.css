@@ -46,10 +46,10 @@ button,input,select,textarea{font:inherit;color:inherit}
 .links>a:hover::after,.links>a.on::after,.links>.dd:hover>button::after{transform:scaleX(1);transform-origin:left}
 .dd{position:relative}
 .dd svg{width:12px;height:12px;transition:transform .3s}.dd:hover svg{transform:rotate(180deg)}
-.mega{position:fixed;left:50%;top:84px;transform:translate(-50%,10px);width:min(1100px,calc(100vw - 40px));background:#fff;border-radius:28px;box-shadow:0 30px 80px rgba(0,0,0,.14);padding:28px;display:grid;grid-template-columns:repeat(5,1fr);gap:22px;opacity:0;visibility:hidden;transition:opacity .3s,transform .4s var(--ease),visibility .3s;max-height:calc(100vh - 110px);overflow:auto}
+.mega{position:fixed;left:50%;top:84px;transform:translate(-50%,10px);width:min(1280px,calc(100vw - 40px));background:#fff;border-radius:28px;box-shadow:0 30px 80px rgba(0,0,0,.14);padding:28px;display:grid;grid-template-columns:repeat(7,1fr);gap:18px;opacity:0;visibility:hidden;transition:opacity .3s,transform .4s var(--ease),visibility .3s;max-height:calc(100vh - 110px);overflow:auto}
 .dd:hover .mega,.dd:focus-within .mega{opacity:1;visibility:visible;transform:translate(-50%,0)}
 .mega h6{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-bottom:10px;font-weight:600}
-.mega a{display:block;font-size:14.5px;padding:5px 0;color:var(--ink2);transition:color .25s,transform .25s}
+.mega a{display:block;font-size:14px;padding:4px 0;color:var(--ink2);transition:color .25s,transform .25s;line-height:1.35}
 .mega a:hover{color:var(--acc);transform:translateX(3px)}
 .mega .more{color:var(--acc);font-weight:600}
 .nav .ncta{display:flex;align-items:center;gap:10px}
