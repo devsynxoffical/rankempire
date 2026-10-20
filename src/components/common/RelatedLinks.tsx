@@ -39,7 +39,6 @@ function getLinkTitle(slug: string): string {
     "case-studies": "Case Studies",
     "blog": "SEO Blog",
     "seo-tools": "SEO Tools",
-    "our-team": "Our Team",
     "about-us": "About Us",
     "contact-us": "Contact Us",
     "locations": "Locations",

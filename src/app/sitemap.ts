@@ -17,7 +17,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "seo-company",
     "seo-services",
     "about-us",
-    "our-team",
     "case-studies",
     "contact-us",
     "privacy-policy",

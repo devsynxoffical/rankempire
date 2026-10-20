@@ -81,7 +81,6 @@ export default function Navbar() {
                   <Link href="/">Home</Link>
                   <Link href="/seo-company/">SEO Company</Link>
                   <Link href="/about-us/">About Us</Link>
-                  <Link href="/our-team/">Our Team</Link>
                   <Link href="/case-studies/">Case Studies</Link>
                   <Link href="/blog/">SEO Blog</Link>
                   <Link href="/contact-us/">Contact Us</Link>
