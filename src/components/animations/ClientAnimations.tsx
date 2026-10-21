@@ -7,9 +7,72 @@ export default function ClientAnimations() {
   const pathname = usePathname();
 
   useEffect(() => {
+    const $ = (s: string, c: ParentNode = document) =>
+      c.querySelector<HTMLElement>(s);
+    const $$ = (s: string, c: ParentNode = document) => [
+      ...c.querySelectorAll<HTMLElement>(s),
+    ];
+    const cl = (v: number, a = 0, b = 1) => Math.max(a, Math.min(b, v));
     const RM = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const isDesk = () => window.innerWidth > 1024;
 
-    // 1. Reveal on scroll
+    const intervals: (NodeJS.Timeout | number)[] = [];
+    const animFrameIds: number[] = [];
+
+    // 1. Opening: first visit per session
+    const pre = $(".pre");
+    if (pre) {
+      let seen = false;
+      try {
+        seen = !!sessionStorage.getItem("re-seen");
+        sessionStorage.setItem("re-seen", "1");
+      } catch (e) {}
+
+      if (seen || RM) {
+        pre.remove();
+      } else {
+        const n = $(".pc b", pre);
+        const t0 = performance.now();
+        const tick = (t: number) => {
+          const k = Math.min(1, (t - t0) / 1800);
+          if (n) n.textContent = String(Math.round(k * k * (3 - 2 * k) * 100));
+          if (k < 1) {
+            animFrameIds.push(requestAnimationFrame(tick));
+          }
+        };
+        animFrameIds.push(requestAnimationFrame(tick));
+        const toId = setTimeout(() => pre.remove(), 3300);
+        intervals.push(toId);
+      }
+    }
+
+    // 2. Short accents in .ph become script font
+    $$(".ph h1 .acc").forEach((a) => {
+      const t = a.textContent?.trim() || "";
+      if (t.length <= 16 && !/[A-Z]{2}|\d/.test(t)) {
+        a.classList.add("scr");
+      }
+    });
+
+    // 3. Header hide on scroll down, show on scroll up & shadow
+    const hdr = $(".hdr");
+    let ly = window.scrollY;
+    const onScrollHeader = () => {
+      const y = window.scrollY;
+      if (hdr) {
+        hdr.classList.toggle("sc", y > 8);
+        if (
+          !hdr.querySelector(".mi.op") &&
+          !document.body.classList.contains("mopen")
+        ) {
+          hdr.classList.toggle("hide", y > ly && y > 420);
+        }
+      }
+      ly = y;
+    };
+    window.addEventListener("scroll", onScrollHeader, { passive: true });
+
+    // 4. Reveal observer for [data-r], .chart, [data-vis]
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
@@ -19,147 +82,346 @@ export default function ClientAnimations() {
           }
         });
       },
-      { rootMargin: "0px 0px -8% 0px", threshold: 0.05 }
+      { rootMargin: "100px 0px 40px 0px", threshold: 0 }
     );
 
-    document.querySelectorAll("[data-r], .chart, [data-vis]").forEach((el) => {
-      io.observe(el);
-    });
+    const observeOrReveal = (el: HTMLElement, observer: IntersectionObserver) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight + 100 && rect.bottom > -50) {
+        el.classList.add("in");
+      } else {
+        observer.observe(el);
+      }
+    };
 
-    document.querySelectorAll("[data-stagger]").forEach((g) => {
+    $$("[data-r], .chart, [data-vis]").forEach((el) => observeOrReveal(el, io));
+
+    // Stagger containers
+    $$("[data-stagger]").forEach((g) => {
       [...g.children].forEach((c, i) => {
         c.setAttribute("data-r", "");
-        (c as HTMLElement).style.setProperty("--d", (i % 8) * 0.06 + "s");
-        io.observe(c);
+        (c as HTMLElement).style.setProperty("--d", `${(i % 8) * 0.06}s`);
+        observeOrReveal(c as HTMLElement, io);
       });
     });
 
-    // Word split
-    document.querySelectorAll("[data-split]").forEach((el) => {
-      if (el.classList.contains("split-w")) return;
-      let i = 0;
-      const walk = (n: Node) => {
-        [...n.childNodes].forEach((ch) => {
-          if (ch.nodeType === 3 && ch.textContent) {
-            const f = document.createDocumentFragment();
-            ch.textContent.split(/(\s+)/).forEach((w) => {
-              if (!w) return;
-              if (/^\s+$/.test(w)) {
-                f.appendChild(document.createTextNode(w));
-              } else {
-                const s = document.createElement("span");
-                s.className = "w";
-                s.style.setProperty("--d", i++ * 0.045 + "s");
-                s.textContent = w;
-                f.appendChild(s);
-              }
-            });
-            ch.replaceWith(f);
-          } else if (ch.nodeType === 1) {
-            walk(ch);
-          }
-        });
-      };
-      walk(el);
-      el.classList.add("split-w");
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => el.classList.add("in"));
-      });
-    });
-
-    // SVG chart path length
-    document.querySelectorAll<SVGPathElement>(".chart .ln").forEach((p) => {
+    // Chart path total length for stroke-dasharray
+    $$(".chart .ln").forEach((p) => {
       try {
-        p.style.setProperty("--len", String(Math.ceil(p.getTotalLength())));
+        const svgPath = p as unknown as SVGPathElement;
+        if (typeof svgPath.getTotalLength === "function") {
+          p.style.setProperty(
+            "--len",
+            String(Math.ceil(svgPath.getTotalLength()))
+          );
+        }
       } catch (e) {}
     });
 
-    // 2. Animated counters
+    // 5. Generic in-view for [data-io] (e.g. .ot .rs, .hw .c.ph, .hw .c.dark)
+    const ioDirect = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("in");
+            ioDirect.unobserve(e.target);
+          }
+        });
+      },
+      { rootMargin: "100px 0px 40px 0px", threshold: 0 }
+    );
+    $$("[data-io]").forEach((el) => observeOrReveal(el, ioDirect));
+
+    // 6. Counters [data-count]
+    const startCounter = (el: HTMLElement) => {
+      if (el.dataset.counted) return;
+      el.dataset.counted = "1";
+      const endStr = el.dataset.count || "0";
+      const end = parseFloat(endStr);
+      const dec = (endStr.split(".")[1] || "").length;
+      const pre = el.dataset.pre || "";
+      const suf = el.dataset.suf || "";
+      if (RM) {
+        el.textContent =
+          pre +
+          end.toLocaleString("en-US", { minimumFractionDigits: dec }) +
+          suf;
+        return;
+      }
+      const t0 = performance.now();
+      const D = 1600;
+      const st = (t: number) => {
+        const k = cl((t - t0) / D);
+        const v = end * (1 - Math.pow(1 - k, 3));
+        el.textContent =
+          pre +
+          v.toLocaleString("en-US", {
+            minimumFractionDigits: dec,
+            maximumFractionDigits: dec,
+          }) +
+          suf;
+        if (k < 1) animFrameIds.push(requestAnimationFrame(st));
+      };
+      animFrameIds.push(requestAnimationFrame(st));
+    };
+
     const cio = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
           if (!e.isIntersecting) return;
           cio.unobserve(e.target);
-          const el = e.target as HTMLElement;
-          const endStr = el.dataset.count;
-          if (!endStr) return;
-          const end = parseFloat(endStr);
-          const dec = (endStr.split(".")[1] || "").length;
-          const pre = el.dataset.pre || "";
-          const suf = el.dataset.suf || "";
-          if (RM) {
-            el.textContent =
-              pre +
-              end.toLocaleString("en-US", { minimumFractionDigits: dec }) +
-              suf;
-            return;
-          }
-          const t0 = performance.now();
-          const D = 1600;
-          const st = (t: number) => {
-            const k = Math.max(0, Math.min(1, (t - t0) / D));
-            const v = end * (1 - Math.pow(1 - k, 3));
-            el.textContent =
-              pre +
-              v.toLocaleString("en-US", {
-                minimumFractionDigits: dec,
-                maximumFractionDigits: dec,
-              }) +
-              suf;
-            if (k < 1) requestAnimationFrame(st);
-          };
-          requestAnimationFrame(st);
+          startCounter(e.target as HTMLElement);
         });
       },
-      { threshold: 0.3 }
+      { rootMargin: "100px 0px 20px 0px", threshold: 0 }
     );
-    document.querySelectorAll("[data-count]").forEach((el) => cio.observe(el));
+    $$("[data-count]").forEach((el) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight + 50 && rect.bottom > -50) {
+        startCounter(el);
+      } else {
+        cio.observe(el);
+      }
+    });
 
-    // 3. 7x7 Local Map Rank Grid (.grid9) simulation
-    const gridIntervals: NodeJS.Timeout[] = [];
-    document.querySelectorAll(".grid9").forEach((g) => {
-      const cells = [...g.querySelectorAll("i")];
-      if (cells.length === 0) return;
-      const paint = () => {
+    // 7. Hero grain canvas
+    const cv = $(".nh canvas.grain") as HTMLCanvasElement | null;
+    let grainIo: IntersectionObserver | null = null;
+    if (cv && !RM) {
+      const x = cv.getContext("2d");
+      if (x) {
+        let w = 0,
+          h = 0,
+          vis = true,
+          last = 0;
+        const sz = () => {
+          w = cv.width = Math.ceil(cv.offsetWidth / 3);
+          h = cv.height = Math.ceil(cv.offsetHeight / 3);
+        };
+        sz();
+        window.addEventListener("resize", sz);
+        grainIo = new IntersectionObserver((entries) => {
+          vis = entries[0]?.isIntersecting ?? true;
+        });
+        grainIo.observe(cv);
+        let d = x.createImageData(Math.max(1, w), Math.max(1, h));
+        const draw = (t: number) => {
+          animFrameIds.push(requestAnimationFrame(draw));
+          if (!vis || t - last < 80) return;
+          last = t;
+          if (d.width !== w || d.height !== h) {
+            d = x.createImageData(Math.max(1, w), Math.max(1, h));
+          }
+          const a = d.data;
+          for (let i = 0; i < a.length; i += 4) {
+            const v = (Math.random() * 255) | 0;
+            a[i] = a[i + 1] = a[i + 2] = v;
+            a[i + 3] = 255;
+          }
+          x.putImageData(d, 0, 0);
+        };
+        animFrameIds.push(requestAnimationFrame(draw));
+      }
+    }
+
+    // 8. Hero parallax on giant word and background image
+    const word = $(".nh .word");
+    const bgi = $(".nh .bgi img");
+    const onHeroScroll = () => {
+      const y = window.scrollY;
+      if (y > window.innerHeight * 1.2) return;
+      if (word && !RM) word.style.transform = `translateY(${y * 0.18}px)`;
+      if (bgi && !RM) bgi.style.transform = `translateY(${y * 0.3}px)`;
+    };
+    if ((word || bgi) && !RM) {
+      window.addEventListener("scroll", onHeroScroll, { passive: true });
+    }
+
+    // 9. Dot grid shimmer [data-dots]
+    $$("[data-dots]").forEach((g) => {
+      const dots = [...g.querySelectorAll("i")];
+      if (RM || dots.length === 0) return;
+      let n = 26;
+      const dotInterval = setInterval(() => {
+        if (g.getBoundingClientRect().top > window.innerHeight) return;
+        n = n >= 33 ? 18 : n + 1;
+        dots.forEach((x, i) => x.classList.toggle("on", i < n));
+      }, 420);
+      intervals.push(dotInterval);
+    });
+
+    // 10. Point-of-view words light up with scroll [data-words]
+    $$("[data-words]").forEach((el) => {
+      const ws = [...el.querySelectorAll<HTMLElement>(".w")];
+      if (ws.length === 0) return;
+      const up = () => {
+        const r = el.getBoundingClientRect();
+        const p = Math.min(
+          1,
+          Math.max(
+            0,
+            (window.innerHeight * 0.85 - r.top) /
+              (r.height + window.innerHeight * 0.35)
+          )
+        );
+        const k = Math.round(p * ws.length * 1.15);
+        ws.forEach((w, i) => w.classList.toggle("lit", i < k));
+      };
+      if (RM) {
+        ws.forEach((w) => w.classList.add("lit"));
+      } else {
+        window.addEventListener("scroll", up, { passive: true });
+        up();
+      }
+    });
+
+    // 11. Trust section dual column parallax scroll & giant watermark
+    const trust = $(".trust");
+    const cols = $$(".trust .tcol");
+    const giant = $(".giant");
+
+    const frameScrollScenes = () => {
+      const y = window.scrollY;
+      const vh = window.innerHeight;
+
+      if (trust && isDesk() && !RM) {
+        const r = trust.getBoundingClientRect();
+        if (r.bottom > 0 && r.top < vh) {
+          const p = cl(-r.top / (trust.offsetHeight - vh));
+          cols.forEach((c, i) => {
+            const H = c.offsetHeight;
+            const from = vh * (i ? 1.35 : 1.05);
+            const to = -H + vh * (i ? 0.05 : 0.15);
+            c.style.transform = `translate3d(0, ${(
+              from +
+              (to - from) * cl(p * (i ? 1.1 : 1))
+            ).toFixed(1)}px, 0)`;
+          });
+        }
+      }
+
+      if (giant) {
+        const r = giant.getBoundingClientRect();
+        if (r.top < vh) {
+          const p = cl((vh - r.top) / (r.height + vh * 0.3));
+          giant.style.setProperty("--gy", `${((1 - p) * 40).toFixed(1)}%`);
+        }
+      }
+    };
+
+    let tick = false;
+    const reqScrollScenes = () => {
+      if (!tick) {
+        tick = true;
+        requestAnimationFrame(() => {
+          tick = false;
+          frameScrollScenes();
+        });
+      }
+    };
+
+    window.addEventListener("scroll", reqScrollScenes, { passive: true });
+    window.addEventListener("resize", reqScrollScenes);
+    frameScrollScenes();
+
+    // 12. Footer clock (Eastern Time)
+    const clk = $("[data-clock]");
+    if (clk) {
+      const f = new Intl.DateTimeFormat("en-US", {
+        timeZone: "America/New_York",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: false,
+      });
+      const updateClock = () => {
+        clk.textContent = f.format(new Date());
+      };
+      updateClock();
+      const clockInterval = setInterval(updateClock, 1000);
+      intervals.push(clockInterval);
+    }
+
+    // 13. Map rank grid (.grid9)
+    $$(".grid9").forEach((g) => {
+      const cells = $$("i", g);
+      const paint = () =>
         cells.forEach((c, i) => {
           const x = (i % 7) - 3;
           const y = Math.floor(i / 7) - 3;
           const d = Math.hypot(x, y);
           const r = Math.max(1, Math.round(1 + d * 1.1 + Math.random() * 1.6));
           c.textContent = r > 9 ? "9+" : String(r);
-          c.className = r <= 3 ? "t1" : r <= 5 ? "t2" : r <= 7 ? "t3" : "t4";
+          c.className =
+            r <= 3 ? "t1" : r <= 5 ? "t2" : r <= 7 ? "t3" : "t4";
         });
-      };
       paint();
       if (!RM) {
-        const interval = setInterval(() => {
-          const rect = g.getBoundingClientRect();
-          if (rect.top < window.innerHeight && rect.bottom > 0) {
-            paint();
-          }
+        const gridInterval = setInterval(() => {
+          if (g.getBoundingClientRect().top < window.innerHeight) paint();
         }, 3200);
-        gridIntervals.push(interval);
+        intervals.push(gridInterval);
       }
     });
 
-    // 4. Tabs
-    document.querySelectorAll("[data-tabs]").forEach((w) => {
-      const bs = [...w.querySelectorAll<HTMLButtonElement>(".tabs button")];
-      const ps = [...w.querySelectorAll(".tpanel")];
-      bs.forEach((b, i) => {
+    // 14. About Us: Mara Voss movable spotlight (--lx, --ly) & backdrop selector
+    const mv = $(".mv");
+    if (mv) {
+      mv.onpointermove = (e) => {
+        const r = mv.getBoundingClientRect();
+        mv.style.setProperty(
+          "--lx",
+          (((e.clientX - r.left) / r.width) * 100).toFixed(1) + "%"
+        );
+        mv.style.setProperty(
+          "--ly",
+          (((e.clientY - r.top) / r.height) * 100).toFixed(1) + "%"
+        );
+      };
+      const bs = $$(".bd button", mv);
+      bs.forEach((b) => {
         b.onclick = () => {
-          bs.forEach((x) => {
-            x.classList.toggle("on", x === b);
-            x.setAttribute("aria-selected", String(x === b));
-          });
-          ps.forEach((p, k) => p.classList.toggle("on", k === i));
+          mv.dataset.bd = b.dataset.bd;
+          bs.forEach((x) =>
+            x.setAttribute("aria-pressed", String(x === b))
+          );
         };
+      });
+      mv.onclick = (e) => {
+        if ((e.target as HTMLElement).closest("a, button")) return;
+        const order = ["l", "o", "d"];
+        const cur = mv.dataset.bd || "l";
+        const nxt = order[(order.indexOf(cur) + 1) % 3];
+        const b = bs.find((x) => x.dataset.bd === nxt);
+        if (b) b.click();
+      };
+    }
+
+    // 15. FAQ accordion
+    $$(".faqs").forEach((w) => {
+      const qs = $$(".fq", w);
+      qs.forEach((q) => {
+        const btn = $("button", q);
+        if (btn) {
+          btn.onclick = () => {
+            const o = !q.classList.contains("on");
+            qs.forEach((x) => {
+              x.classList.remove("on");
+              const b = $("button", x);
+              if (b) b.setAttribute("aria-expanded", "false");
+            });
+            if (o) {
+              q.classList.add("on");
+              btn.setAttribute("aria-expanded", "true");
+            }
+          };
+        }
       });
     });
 
-    // 5. Pricing toggle
-    document.querySelectorAll("[data-price]").forEach((w) => {
-      const bs = [...w.querySelectorAll<HTMLButtonElement>(".toggle button")];
+    // 16. Pricing toggle [data-price]
+    $$("[data-price]").forEach((w) => {
+      const bs = $$(".toggle button", w);
       bs.forEach((b) => {
         b.onclick = () => {
           const y = b.dataset.v === "y";
@@ -167,86 +429,87 @@ export default function ClientAnimations() {
             x.classList.toggle("on", x === b);
             x.setAttribute("aria-pressed", String(x === b));
           });
-          w.querySelectorAll<HTMLElement>("[data-m]").forEach((el) => {
+          $$("[data-m]", w).forEach((el) => {
             el.textContent = (y ? el.dataset.y : el.dataset.m) || "";
           });
-          w.querySelectorAll<HTMLElement>(".bill").forEach((el) => {
+          $$(".bill", w).forEach((el) => {
             el.textContent = (y ? el.dataset.yb : el.dataset.mb) || "";
           });
         };
       });
     });
 
-    // 6. FAQ Accordion
-    document.querySelectorAll(".faqs").forEach((w) => {
-      const qs = [...w.querySelectorAll(".fq")];
-      qs.forEach((q) => {
-        const btn = q.querySelector("button");
-        if (!btn) return;
-        btn.onclick = () => {
-          const isOpen = q.classList.contains("on");
-          qs.forEach((x) => {
-            x.classList.remove("on");
-            x.querySelector("button")?.setAttribute("aria-expanded", "false");
+    // 17. TOC highlight
+    const tl = $$('.toc a[href^="#"]');
+    let tio: IntersectionObserver | null = null;
+    if (tl.length) {
+      const secs = tl
+        .map((a) => {
+          const href = a.getAttribute("href");
+          return href ? $(href) : null;
+        })
+        .filter(Boolean) as HTMLElement[];
+      tio = new IntersectionObserver(
+        (es) => {
+          es.forEach((e) => {
+            if (e.isIntersecting) {
+              const id = "#" + e.target.id;
+              tl.forEach((a) =>
+                a.classList.toggle("on", a.getAttribute("href") === id)
+              );
+            }
           });
-          if (!isOpen) {
-            q.classList.add("on");
-            btn.setAttribute("aria-expanded", "true");
-          }
-        };
-      });
+        },
+        { rootMargin: "-30% 0px -60% 0px" }
+      );
+      secs.forEach((s) => tio?.observe(s));
+    }
+
+    // 18. Audit forms submit -> /contact-us/?site=...
+    $$("form.audit").forEach((f) => {
+      f.onsubmit = (e) => {
+        e.preventDefault();
+        const inp = $("input", f) as HTMLInputElement | null;
+        const v = inp?.value.trim() || "";
+        if (!v) {
+          inp?.focus();
+          return;
+        }
+        window.location.href = `/contact-us/?site=${encodeURIComponent(v)}`;
+      };
     });
 
-    // 7. Scroll scenes: Header shadow, Trust parallax, Giant wordmark parallax
-    const hdr = document.querySelector(".hdr");
-    const trust = document.querySelector(".trust") as HTMLElement | null;
-    const cols = [...document.querySelectorAll<HTMLElement>(".trust .tcol")];
-    const giant = document.querySelector(".giant") as HTMLElement | null;
-
-    let ticking = false;
-    const onScroll = () => {
-      if (ticking) return;
-      ticking = true;
-      requestAnimationFrame(() => {
-        ticking = false;
-        const y = window.scrollY;
-        const vh = window.innerHeight;
-        if (hdr) hdr.classList.toggle("sc", y > 8);
-
-        if (trust && window.innerWidth > 1024 && !RM) {
-          const r = trust.getBoundingClientRect();
-          if (r.bottom > 0 && r.top < vh) {
-            const p = Math.max(0, Math.min(1, -r.top / (trust.offsetHeight - vh)));
-            cols.forEach((c, i) => {
-              const H = c.offsetHeight;
-              const from = vh * (i ? 1.35 : 1.05);
-              const to = -H + vh * (i ? 0.05 : 0.15);
-              const factor = Math.max(0, Math.min(1, p * (i ? 1.1 : 1)));
-              c.style.transform = `translate3d(0, ${(from + (to - from) * factor).toFixed(1)}px, 0)`;
-            });
-          }
+    // 19. Newsletter forms
+    $$("form[data-news]").forEach((f) => {
+      f.onsubmit = (e) => {
+        e.preventDefault();
+        const i = $("input", f) as HTMLInputElement | null;
+        if (!i || !i.value.includes("@")) {
+          i?.focus();
+          return;
         }
-
-        if (giant) {
-          const r = giant.getBoundingClientRect();
-          if (r.top < vh) {
-            const p = Math.max(0, Math.min(1, (vh - r.top) / (r.height + vh * 0.3)));
-            giant.style.setProperty("--gy", ((1 - p) * 40).toFixed(1) + "%");
-          }
-        }
-      });
-    };
-
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll);
-    onScroll();
+        window.location.href = `mailto:${f.dataset.news}?subject=${encodeURIComponent(
+          "Newsletter signup"
+        )}&body=${encodeURIComponent(
+          "Please add " + i.value + " to the RankEmpire newsletter."
+        )}`;
+        i.value = "";
+        i.placeholder = "Thanks, check your email app";
+      };
+    });
 
     return () => {
+      window.removeEventListener("scroll", onScrollHeader);
+      window.removeEventListener("scroll", onHeroScroll);
+      window.removeEventListener("scroll", reqScrollScenes);
+      window.removeEventListener("resize", reqScrollScenes);
       io.disconnect();
+      ioDirect.disconnect();
       cio.disconnect();
-      gridIntervals.forEach(clearInterval);
-      window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("resize", onScroll);
+      if (grainIo) grainIo.disconnect();
+      if (tio) tio.disconnect();
+      intervals.forEach((id) => clearInterval(id as number));
+      animFrameIds.forEach(cancelAnimationFrame);
     };
   }, [pathname]);
 

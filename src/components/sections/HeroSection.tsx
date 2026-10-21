@@ -1,202 +1,192 @@
 "use client";
 
-import React, { useState } from "react";
-import { useRouter } from "next/navigation";
-import { ArrowIcon, GlobeIcon, PinIcon, ChartIcon } from "@/components/common/Icons";
+import React, { useEffect, useRef } from "react";
+import Link from "next/link";
+import { logos } from "@/data";
 
 export default function HeroSection() {
-  const router = useRouter();
-  const [site, setSite] = useState("");
+  const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
-  const handleAudit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const query = site.trim();
-    if (!query) return;
-    router.push(`/contact-us/?site=${encodeURIComponent(query)}`);
-  };
+  // 2D Grain Canvas Effect from RankEmpire v3
+  useEffect(() => {
+    const cv = canvasRef.current;
+    const RM = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (!cv || RM) return;
+
+    const ctx = cv.getContext("2d");
+    if (!ctx) return;
+
+    let w = 0;
+    let h = 0;
+    let vis = true;
+    let last = 0;
+    let animationFrameId: number;
+
+    const sz = () => {
+      w = cv.width = Math.ceil(cv.offsetWidth / 3);
+      h = cv.height = Math.ceil(cv.offsetHeight / 3);
+    };
+    sz();
+    window.addEventListener("resize", sz);
+
+    const observer = new IntersectionObserver((entries) => {
+      vis = entries[0]?.isIntersecting ?? true;
+    });
+    observer.observe(cv);
+
+    let imgData = ctx.createImageData(Math.max(1, w), Math.max(1, h));
+
+    const draw = (t: number) => {
+      animationFrameId = requestAnimationFrame(draw);
+      if (!vis || t - last < 80) return;
+      last = t;
+
+      if (imgData.width !== w || imgData.height !== h) {
+        imgData = ctx.createImageData(Math.max(1, w), Math.max(1, h));
+      }
+      const a = imgData.data;
+      for (let i = 0; i < a.length; i += 4) {
+        const v = (Math.random() * 255) | 0;
+        a[i] = a[i + 1] = a[i + 2] = v;
+        a[i + 3] = 255;
+      }
+      ctx.putImageData(imgData, 0, 0);
+    };
+
+    animationFrameId = requestAnimationFrame(draw);
+
+    return () => {
+      window.removeEventListener("resize", sz);
+      observer.disconnect();
+      cancelAnimationFrame(animationFrameId);
+    };
+  }, []);
+
+  const heroLetters = [
+    { char: "r", delay: "0.15s" },
+    { char: "a", delay: "0.20s" },
+    { char: "n", delay: "0.25s" },
+    { char: "k", delay: "0.30s" },
+    { char: "e", delay: "0.35s" },
+    { char: "m", delay: "0.40s" },
+    { char: "p", delay: "0.45s" },
+    { char: "i", delay: "0.50s" },
+    { char: "r", delay: "0.55s" },
+    { char: "e", delay: "0.60s" },
+  ];
 
   return (
-    <section className="hero">
-      <div className="bgd"></div>
-      <div className="wrap hgrid">
-        <div>
-          <span className="eyb pill" data-r>
-            <i></i>SEO company for local, e-commerce and SaaS brands
+    <section className="nh" aria-label="Introduction">
+      <div className="bgi">
+        <img src="/img/v3-hero.webp" alt="" fetchPriority="high" />
+      </div>
+      <canvas ref={canvasRef} className="grain" aria-hidden="true" />
+
+      <div className="nw">
+        <div className="tr1">
+          <span>US SEO company &nbsp; 2026&copy;</span>
+          <span>
+            Free audits this week
+            <span className="slots" aria-hidden="true">
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+            </span>
+            Open
           </span>
+        </div>
 
-          <h1 className="h1" data-split>
-            SEO company that turns search into <span className="acc">revenue.</span>
-          </h1>
+        <div className="tr2">
+          <span>
+            <em>01.</em>Technical SEO &amp; site health
+          </span>
+          <span>
+            <em>02.</em>Local SEO &amp; Google Maps
+          </span>
+          <span>
+            <em>03.</em>Content &amp; authority
+          </span>
+        </div>
 
-          <p className="lead" data-r style={{ "--d": ".2s" } as React.CSSProperties}>
-            RankEmpire combines technical SEO, local SEO, content and link building
-            into one program that grows the numbers that matter: calls, leads and
-            sales from Google.
-          </p>
+        <h1>
+          <span className="word" aria-hidden="true">
+            {heroLetters.map((item, idx) => (
+              <span key={idx} style={{ animationDelay: item.delay }}>
+                {item.char}
+              </span>
+            ))}
+          </span>
+          <span className="sr-only">
+            RankEmpire: SEO company for local, e-commerce and SaaS brands
+          </span>
+        </h1>
 
-          <div data-r style={{ "--d": ".3s" } as React.CSSProperties}>
-            <form
-              className="audit"
-              onSubmit={handleAudit}
-              role="search"
-              aria-label="Free SEO audit"
-            >
-              <GlobeIcon className="g" />
-              <label className="sr-only" htmlFor="hero-site-input">
-                Your website
-              </label>
-              <input
-                id="hero-site-input"
-                name="site"
-                type="text"
-                inputMode="url"
-                value={site}
-                onChange={(e) => setSite(e.target.value)}
-                placeholder="Enter your website, e.g. yourbusiness.com"
-                autoComplete="url"
-              />
-              <button className="btn ac" type="submit">
-                Get my free audit
-                <ArrowIcon />
-              </button>
-            </form>
+        <span className="script" aria-hidden="true">
+          rank higher. grow faster.
+        </span>
 
-            <div className="ticks">
-              <span>Free audit in 2 business days</span>
-              <span>No long-term contracts</span>
-              <span>You own everything</span>
+        <div className="tr3">
+          <div></div>
+          <div>
+            <p>
+              We help local businesses, online stores and SaaS brands turn
+              Google searches into calls, leads and revenue.
+            </p>
+            <Link className="btn dk" href="/contact-us/">
+              Get a free SEO audit
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+            </Link>
+          </div>
+          <div>
+            <div className="proof">
+              <div className="av">
+                <img src="/img/t1.webp" alt="" loading="lazy" />
+                <img src="/img/t2.webp" alt="" loading="lazy" />
+                <img src="/img/t3.webp" alt="" loading="lazy" />
+                <img src="/img/t4.webp" alt="" loading="lazy" />
+                <b>4</b>
+              </div>
+              <div>
+                <small>
+                  <span className="dots">&#9679;&#9679;&#9679;&#9679;&#9679;</span>
+                  Verified result
+                </small>
+                <strong>42.1K Google clicks in 6 months</strong>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Visual Dashboard Mockup */}
-        <div className="vis">
-          <div
-            className="dash"
-            data-r="s"
-            aria-label="Example SEO performance dashboard"
-            role="img"
-          >
-            <div className="dwin">
-              <div className="dbar">
-                <b>RankEmpire</b>
-                <span>/ Client dashboard</span>
-                <span className="seg">
-                  <i>Week</i>
-                  <i className="on">Month</i>
-                  <i>Year</i>
-                </span>
-              </div>
-              <div className="dbody">
-                <div className="dhead">
-                  <div>
-                    <h4>Organic performance</h4>
-                    <small>All pages, United States</small>
-                  </div>
-                  <small>Last 6 months</small>
-                </div>
-
-                <div className="kgrid">
-                  <div className="kt hi">
-                    <small>Organic clicks</small>
-                    <b data-count="48210">48,210</b>
-                    <em>+212% vs. start</em>
-                  </div>
-                  <div className="kt">
-                    <small>Top 3 keywords</small>
-                    <b data-count="186">186</b>
-                    <em>+141</em>
-                  </div>
-                  <div className="kt">
-                    <small>Map pack visibility</small>
-                    <b>
-                      <span data-count="78">78</span>%
-                    </b>
-                    <em>+46 pts</em>
-                  </div>
-                  <div className="kt">
-                    <small>Organic leads</small>
-                    <b data-count="642">642</b>
-                    <em>+3.1x</em>
-                  </div>
-                </div>
-
-                <div className="chart">
-                  <div className="ct">
-                    <i>Organic clicks</i>
-                    <i className="b">Before RankEmpire</i>
-                  </div>
-                  <svg viewBox="0 0 480 104" preserveAspectRatio="none">
-                    <defs>
-                      <linearGradient id="ga" x1="0" x2="0" y1="0" y2="1">
-                        <stop offset="0" stopColor="#ff4c39" stopOpacity=".22" />
-                        <stop offset="1" stopColor="#ff4c39" stopOpacity="0" />
-                      </linearGradient>
-                    </defs>
-                    <path
-                      className="ar"
-                      d="M0 96 L40 92 L80 88 L120 90 L160 78 L200 72 L240 70 L280 58 L320 52 L360 44 L400 36 L440 30 L480 18 L480 104 L0 104Z"
-                    />
-                    <path
-                      className="ln2"
-                      d="M0 98 L80 95 L160 93 L240 90 L320 88 L400 86 L480 84"
-                    />
-                    <path
-                      className="ln"
-                      d="M0 96 L40 92 L80 88 L120 90 L160 78 L200 72 L240 70 L280 58 L320 52 L360 44 L400 36 L440 30 L480 18"
-                    />
+        <div className="tr4">
+          <div className="sc">
+            <i></i>Scroll to explore
+          </div>
+          <div className="lgm">
+            <div className="t">
+              {[...logos, ...logos].map((l, idx) => (
+                <span key={idx} className="lg">
+                  <svg
+                    viewBox="0 0 24 24"
+                    role="img"
+                    aria-label={`${l.name} logo`}
+                  >
+                    <path d={l.path} />
                   </svg>
-                </div>
-
-                <div className="ktab">
-                  <div className="r">
-                    <span>Keyword</span>
-                    <span>Position</span>
-                    <span>Change</span>
-                  </div>
-                  <div className="r">
-                    <span>seo company near me</span>
-                    <span>#3</span>
-                    <span className="up">+9</span>
-                  </div>
-                  <div className="r">
-                    <span>local seo services</span>
-                    <span>#2</span>
-                    <span className="up">+5</span>
-                  </div>
-                  <div className="r">
-                    <span>technical seo audit</span>
-                    <span>#4</span>
-                    <span className="up">+12</span>
-                  </div>
-                  <div className="r">
-                    <span>ecommerce seo agency</span>
-                    <span>#6</span>
-                    <span className="up">+14</span>
-                  </div>
-                </div>
-              </div>
+                  {l.name}
+                </span>
+              ))}
             </div>
-
-            <div className="dfloat b">
-              <span className="g">
-                <PinIcon />
-              </span>
-              <span>
-                <b>Map pack #1</b>&ldquo;plumber near me&rdquo;
-              </span>
-            </div>
-
-            <div className="dfloat a">
-              <span className="g">
-                <ChartIcon />
-              </span>
-              <span>
-                <b>+38 new leads</b>from organic this week
-              </span>
-            </div>
-
-            <span className="dnote">Illustrative example dashboard</span>
           </div>
         </div>
       </div>

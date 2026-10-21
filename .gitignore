@@ -42,6 +42,7 @@ next-env.d.ts
 
 # reference folders
 ref/
+ref_main.html
 
 # python
 __pycache__/

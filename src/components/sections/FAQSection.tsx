@@ -67,10 +67,12 @@ export default function FAQSection({
                   onClick={() => toggle(idx)}
                 >
                   <span>{item.q}</span>
-                  <ChevronIcon />
+                  <i className="pm" aria-hidden="true"></i>
                 </button>
-                <div className="fqa">
-                  <p>{item.a}</p>
+                <div className="a">
+                  <div>
+                    <p>{item.a}</p>
+                  </div>
                 </div>
               </div>
             );

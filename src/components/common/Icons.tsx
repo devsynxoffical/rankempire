@@ -27,9 +27,19 @@ export function ChevronIcon({ className = "" }: { className?: string }) {
 export function BrandMark({ className = "mk" }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 32 32" aria-hidden="true">
-      <rect width="32" height="32" rx="9" fill="#0b0b0c" />
-      <path d="M7 21.5 6 11l5 4 5-7.5 5 7.5 5-4-1 10.5Z" fill="#ff4c39" />
-      <rect x="7" y="23" width="18" height="2.6" rx="1.3" fill="#fff" />
+      <rect width="32" height="32" fill="#0b0b0c" />
+      <path d="M7 21.5 6 11l5 4 5-7.5 5 7.5 5-4-1 10.5Z" fill="#ff3d2e" />
+      <rect x="7" y="23" width="18" height="2.6" fill="#fff" />
+    </svg>
+  );
+}
+
+export function TargetIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="9" />
+      <circle cx="12" cy="12" r="5" />
+      <circle cx="12" cy="12" r="1" />
     </svg>
   );
 }
@@ -206,4 +216,23 @@ export function DocIcon({ className }: { className?: string }) {
     </svg>
   );
 }
+
+export function InfoIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 11v6M12 7.5v.5" />
+    </svg>
+  );
+}
+
+export const SparkleIcon = SparkIcon;
+export const SaaSIcon = RocketIcon;
+export const WrenchIcon = GearIcon;
+export const StoreIcon = ShopIcon;
+export const FileTextIcon = DocIcon;
+export const ExternalLinkIcon = ArrowUpRightIcon;
+export const PenToolIcon = DocIcon;
+export const ChatIcon = MailIcon;
+export const CodeIcon = TagIcon;
 

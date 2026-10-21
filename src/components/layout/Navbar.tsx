@@ -91,7 +91,7 @@ export default function Navbar() {
         <div className="in">
           <Link href="/" className="logo" aria-label="RankEmpire home">
             <BrandMark />
-            RankEmpire
+            RankEmpire<em>Built to Rank</em>
           </Link>
 
           <nav className="mnu" aria-label="Main">
@@ -107,7 +107,7 @@ export default function Navbar() {
                 aria-haspopup="true"
                 onClick={() => toggleDropdown("services")}
               >
-                Services
+                Services<sup>18</sup>
                 <ChevronIcon />
               </button>
               <div className="dd" role="menu">
@@ -138,7 +138,7 @@ export default function Navbar() {
 
                   <div className="dsl">
                     <h6>Specialist services</h6>
-                    {serviceOrderSvc.concat(["link-building", "content-seo"]).map((slug) => (
+                    {serviceOrderSvc.map((slug) => (
                       <Link key={slug} href={`/${slug}/`}>
                         {services[slug]?.name || slug}
                       </Link>
@@ -181,7 +181,7 @@ export default function Navbar() {
                 aria-haspopup="true"
                 onClick={() => toggleDropdown("industries")}
               >
-                Industries
+                Industries<sup>45</sup>
                 <ChevronIcon />
               </button>
               <div
@@ -358,7 +358,7 @@ export default function Navbar() {
                 aria-haspopup="true"
                 onClick={() => toggleDropdown("tools")}
               >
-                Free tools
+                Free tools<sup>11</sup>
                 <ChevronIcon />
               </button>
               <div
@@ -410,7 +410,7 @@ export default function Navbar() {
                 aria-haspopup="true"
                 onClick={() => toggleDropdown("locations")}
               >
-                Locations
+                Locations<sup>17</sup>
                 <ChevronIcon />
               </button>
               <div
@@ -535,7 +535,17 @@ export default function Navbar() {
             </Link>
             <Link className="btn dk sm" href="/contact-us/">
               Free SEO audit
-              <ArrowIcon />
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M12 5v14M5 12h14" />
+              </svg>
             </Link>
             <button
               className="burger"

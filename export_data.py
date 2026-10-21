@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import os, sys, json
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ref', 'RankEmpire 2', 'source'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ref', 'RankEmpire 3', 'source'))
 from data_services import S, SERVICE_ORDER_CORE, SERVICE_ORDER_SVC, HOME_SVCS
 from data_services_long import LONG as S_LONG
 from data_industries import I, CATS

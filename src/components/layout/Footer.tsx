@@ -1,159 +1,212 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { BrandMark, ArrowIcon, MailIcon, ClockIcon, PinIcon } from "@/components/common/Icons";
 import {
   BRAND_NAME,
   BRAND_EMAIL,
   services,
   serviceOrderCore,
-  packages,
-  tools,
+  industries,
   locations,
+  tools,
 } from "@/data";
 
 export default function Footer() {
   const [email, setEmail] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+  const [clock, setClock] = useState("09:00:00");
+
+  useEffect(() => {
+    const formatter = new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/New_York",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: false,
+    });
+
+    const updateTime = () => {
+      setClock(formatter.format(new Date()));
+    };
+
+    updateTime();
+    const timer = setInterval(updateTime, 1000);
+    return () => clearInterval(timer);
+  }, []);
 
   const handleNewsletter = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !email.includes("@")) return;
     window.location.href = `mailto:${BRAND_EMAIL}?subject=${encodeURIComponent(
       "Newsletter signup"
-    )}&body=${encodeURIComponent("Please add " + email + " to the RankEmpire newsletter.")}`;
-    setSubmitted(true);
+    )}&body=${encodeURIComponent(
+      "Please add " + email + " to the RankEmpire newsletter."
+    )}`;
     setEmail("");
   };
 
+  const footerServices = serviceOrderCore
+    .slice(0, 6)
+    .concat(["link-building", "content-seo", "seo-consulting"]);
+
   return (
-    <footer className="foot">
-      <div className="tp">
-        <div>
-          <Link className="logo" href="/" style={{ color: "#fff" }}>
-            <BrandMark />
-            {BRAND_NAME}
-          </Link>
-          <p>
-            RankEmpire is an SEO agency for local businesses, e-commerce brands and SaaS
-            companies, building rankings that compound into calls, leads and revenue.
-          </p>
+    <footer className="af">
+      <div className="tp1">
+        <div className="soc">
+          <a href={`mailto:${BRAND_EMAIL}`}>Email</a>
+          <Link href="/contact-us/">Contact</Link>
+          <Link href="/blog/">Blog</Link>
+          <Link href="/seo-tools/">Tools</Link>
+        </div>
+        <Link className="lo" href="/">
+          RankEmpire<sup>&reg;</sup>
+        </Link>
+        <span className="bur" aria-hidden="true"></span>
+      </div>
+
+      <div className="hero2">
+        <div className="bw">
+          <div className="w" aria-hidden="true">
+            RankEmpire<sup>R</sup>
+          </div>
+          <div className="sf">
+            The SEO
+            <br />
+            Company.
+          </div>
         </div>
 
-        <div className="news">
-          <h5>Subscribe to our newsletter</h5>
-          <form onSubmit={handleNewsletter}>
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder={submitted ? "Thanks! Check your email" : "Enter your email"}
-              aria-label="Email address"
-              required
-            />
-            <button className="btn ac sm" type="submit">
-              Subscribe
-              <ArrowIcon />
-            </button>
-          </form>
-          <small>One practical SEO tip a month. No spam.</small>
+        <div className="rc">
+          <p>We work remotely with businesses across the United States.</p>
+          <div className="clk" data-clock>
+            {clock}
+          </div>
+          <div className="tz">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+            </svg>
+            Eastern Time (New York)
+          </div>
+          <span className="dot" aria-hidden="true"></span>
         </div>
       </div>
 
-      <div className="fcols">
-        {/* Main pages */}
-        <div>
-          <h6>Main pages</h6>
+      <div className="gr">
+        <div className="ln">
           <Link href="/">Home</Link>
-          <Link href="/seo-company/">SEO Company</Link>
-          <Link href="/seo-services/">SEO Services</Link>
-          <Link href="/about-us/">About Us</Link>
-          <Link href="/case-studies/">Case Studies</Link>
-          <Link href="/blog/">SEO Blog</Link>
-          <Link href="/contact-us/">Contact Us</Link>
+          <Link href="/seo-services/">Services</Link>
+          <Link href="/industries/">Industries</Link>
+          <Link href="/seo-packages/">Pricing</Link>
+          <Link href="/case-studies/">Results</Link>
+          <Link href="/contact-us/">Contact</Link>
         </div>
 
-        {/* Services */}
+        <div className="ln">
+          <Link href="/about-us/">About</Link>
+          <Link href="/about-us/">Team</Link>
+          <Link href="/blog/">Journal</Link>
+          <Link href="/privacy-policy/">Privacy Policy</Link>
+          <Link href="/terms/">Terms of Service</Link>
+          <Link className="m" href="/sitemap.xml">
+            Sitemap
+          </Link>
+        </div>
+
+        <div className="nl">
+          <h4>Stay in the Loop</h4>
+          <p>
+            One practical SEO tip a month, written by the team doing the work.
+          </p>
+          <small>We respect your inbox. No spam, just useful updates.</small>
+          <form onSubmit={handleNewsletter} data-news={BRAND_EMAIL}>
+            <input
+              type="email"
+              placeholder="Your email"
+              aria-label="Email address"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <button type="submit" aria-label="Subscribe">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </button>
+          </form>
+        </div>
+
+        <div className="sl">
+          <Link href="/contact-us/">Free SEO audit</Link>
+          <a href={`mailto:${BRAND_EMAIL}`}>Email us</a>
+          <Link href="/seo-tools/">Free tools</Link>
+          <Link href="/locations/">Locations</Link>
+          <Link href="/case-studies/">Case studies</Link>
+        </div>
+      </div>
+
+      <div className="seo">
         <div>
-          <h6>Services</h6>
-          {serviceOrderCore.slice(0, 4).concat(["link-building", "content-seo"]).map((slug) => (
+          <h6>SEO services</h6>
+          <Link href="/seo-services/">All services</Link>
+          {footerServices.map((slug) => (
             <Link key={slug} href={`/${slug}/`}>
               {services[slug]?.name || slug}
             </Link>
           ))}
         </div>
 
-        {/* Packages */}
         <div>
-          <h6>Packages</h6>
-          {Object.entries(packages).map(([slug, pkg]) => (
-            <Link key={slug} href={`/${slug}/`}>
-              {pkg.name}
-            </Link>
-          ))}
-          <Link href="/seo-consulting/">SEO Consulting</Link>
-          <Link href="/keyword-research/">Keyword Research</Link>
-        </div>
-
-        {/* Free tools */}
-        <div>
-          <h6>Free tools</h6>
-          {tools.slice(0, 8).map((tool) => (
-            <Link key={tool.slug} href={`/seo-tools/${tool.slug}/`}>
-              {tool.name}
+          <h6>Industries</h6>
+          <Link href="/industries/">All industries</Link>
+          {industries.slice(0, 8).map((ind) => (
+            <Link key={ind.slug} href={`/seo-for-${ind.slug}/`}>
+              {ind.name}
             </Link>
           ))}
         </div>
 
-        {/* Popular cities */}
         <div>
-          <h6>Popular cities</h6>
-          {locations.slice(0, 8).map((loc) => (
-            <Link key={loc.slug} href={`/locations/${loc.slug}/`}>
-              {loc.name}
+          <h6>Locations</h6>
+          <Link href="/locations/">All locations</Link>
+          {locations.slice(0, 8).map((c) => (
+            <Link key={c.slug} href={`/locations/${c.slug}/`}>
+              {c.name}
             </Link>
           ))}
         </div>
 
-        {/* Contact info */}
-        <div className="ct">
-          <h6>Have a question?</h6>
-          <a href={`mailto:${BRAND_EMAIL}`}>
-            <MailIcon />
-            <span>
-              {BRAND_EMAIL}
-              <small>We reply within one business day</small>
-            </span>
-          </a>
-          <Link href="/contact-us/">
-            <ClockIcon />
-            <span>
-              Mon to Fri, 9am to 6pm ET
-              <small>Book a free strategy call</small>
-            </span>
-          </Link>
-          <Link href="/locations/">
-            <PinIcon />
-            <span>
-              Serving clients across the US
-              <small>See all locations</small>
-            </span>
-          </Link>
+        <div>
+          <h6>Free SEO tools</h6>
+          <Link href="/seo-tools/">All free tools</Link>
+          {tools.slice(0, 8).map((t) => (
+            <Link key={t.slug} href={`/seo-tools/${t.slug}/`}>
+              {t.name}
+            </Link>
+          ))}
         </div>
       </div>
 
-      <div className="giant" aria-hidden="true">
-        {BRAND_NAME}
-      </div>
-
-      <div className="fbot">
+      <div className="fb">
         <span>&copy; 2026 {BRAND_NAME}. All rights reserved.</span>
-        <span>
-          <Link href="/privacy-policy/">Privacy Policy</Link> &nbsp;&middot;&nbsp;{" "}
-          <Link href="/terms/">Terms</Link> &nbsp;&middot;&nbsp;{" "}
-          <Link href="/sitemap.xml">Sitemap</Link>
-        </span>
+        <span>{BRAND_EMAIL}</span>
+        <span>Built to rank</span>
       </div>
     </footer>
   );

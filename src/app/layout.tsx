@@ -1,5 +1,4 @@
-import type { Metadata } from "next";
-import { Inter, Inter_Tight, JetBrains_Mono, Urbanist } from "next/font/google";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import SmoothScroll from "@/components/animations/SmoothScroll";
 import ClientAnimations from "@/components/animations/ClientAnimations";
@@ -7,41 +6,20 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { BRAND_NAME, SITE_URL } from "@/data";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const interTight = Inter_Tight({
-  weight: ["500", "600", "700"],
-  subsets: ["latin"],
-  variable: "--font-inter-tight",
-  display: "swap",
-});
-
-const mono = JetBrains_Mono({
-  weight: ["400", "500"],
-  subsets: ["latin"],
-  variable: "--font-mono",
-  display: "swap",
-});
-
-const urbanist = Urbanist({
-  weight: ["500", "600", "700"],
-  subsets: ["latin"],
-  variable: "--font-urbanist",
-  display: "swap",
-});
+export const viewport: Viewport = {
+  themeColor: "#f1f1f0",
+  width: "device-width",
+  initialScale: 1,
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "RankEmpire | SEO Agency for Local, E-commerce and SaaS Growth",
+    default: "RankEmpire: SEO Company for Local, E-commerce and SaaS",
     template: `%s | ${BRAND_NAME}`,
   },
   description:
-    "RankEmpire is an SEO agency that builds rankings that compound: local SEO, technical SEO, content, link building and Google Business Profile optimization for US businesses.",
+    "RankEmpire is an SEO company that grows organic traffic, leads and revenue with technical SEO, local SEO, content and link building. Get a free SEO audit.",
   alternates: {
     canonical: "/",
   },
@@ -51,21 +29,24 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: BRAND_NAME,
-    title: "RankEmpire | SEO Agency for Local, E-commerce and SaaS Growth",
+    title: "RankEmpire: SEO Company for Local, E-commerce and SaaS",
     description:
-      "RankEmpire is an SEO agency that builds rankings that compound: local SEO, technical SEO, content, link building and Google Business Profile optimization for US businesses.",
+      "RankEmpire is an SEO company that grows organic traffic, leads and revenue with technical SEO, local SEO, content and link building. Get a free SEO audit.",
     url: SITE_URL,
     images: [
       {
-        url: "/img/hero.webp",
+        url: "/img/team.webp",
         width: 1200,
         height: 630,
-        alt: "RankEmpire SEO Agency",
+        alt: "RankEmpire Senior SEO Specialists",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
+    title: "RankEmpire: SEO Company for Local, E-commerce and SaaS",
+    description:
+      "RankEmpire is an SEO company that grows organic traffic, leads and revenue with technical SEO, local SEO, content and link building. Get a free SEO audit.",
   },
 };
 
@@ -76,13 +57,26 @@ export default function RootLayout({
 }) {
   const orgSchema = {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "ProfessionalService",
+    "@id": `${SITE_URL}/#org`,
     name: BRAND_NAME,
     url: SITE_URL,
     email: "hello@rankempire.com",
-    logo: `${SITE_URL}/img/logo.png`,
+    logo: `${SITE_URL}/img/favicon.svg`,
+    image: `${SITE_URL}/img/team.webp`,
+    areaServed: {
+      "@type": "Country",
+      name: "United States",
+    },
     description:
-      "RankEmpire is an SEO agency for local businesses, e-commerce brands and SaaS companies.",
+      "RankEmpire is an SEO company for local businesses, e-commerce brands and SaaS companies.",
+    knowsAbout: [
+      "Search engine optimization",
+      "Local SEO",
+      "Technical SEO",
+      "Link building",
+      "Content marketing",
+    ],
   };
 
   const webSiteSchema = {
@@ -93,11 +87,23 @@ export default function RootLayout({
   };
 
   return (
-    <html
-      lang="en"
-      className={`${inter.variable} ${interTight.variable} ${mono.variable} ${urbanist.variable}`}
-    >
+    <html lang="en-US">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin=""
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Mrs+Saint+Delafield&family=Instrument+Serif&family=Anton&family=JetBrains+Mono:wght@400;500&display=swap"
+          rel="stylesheet"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{if(sessionStorage.getItem("re-seen"))document.documentElement.classList.add("seen")}catch(e){}`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
@@ -111,6 +117,31 @@ export default function RootLayout({
         <a className="skip" href="#main">
           Skip to content
         </a>
+        <div className="pre" aria-hidden="true">
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <div className="pw">
+            <div>
+              <span style={{ animationDelay: "0.550s" }}>R</span>
+              <span style={{ animationDelay: "0.595s" }}>a</span>
+              <span style={{ animationDelay: "0.640s" }}>n</span>
+              <span style={{ animationDelay: "0.685s" }}>k</span>
+              <span style={{ animationDelay: "0.730s" }}>E</span>
+              <span style={{ animationDelay: "0.775s" }}>m</span>
+              <span style={{ animationDelay: "0.820s" }}>p</span>
+              <span style={{ animationDelay: "0.910s" }}>i</span>
+              <span style={{ animationDelay: "0.955s" }}>r</span>
+              <span style={{ animationDelay: "1.000s" }}>e</span>
+            </div>
+          </div>
+          <div className="pc">
+            Loading <b>0</b>%
+          </div>
+        </div>
         <SmoothScroll>
           <ClientAnimations />
           <Navbar />
