@@ -43,6 +43,7 @@ next-env.d.ts
 # reference folders
 ref/
 ref_main.html
+RankEmpire 4/
 
 # python
 __pycache__/
