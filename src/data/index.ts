@@ -108,15 +108,18 @@ export interface LogoItem {
 }
 
 export const services: Record<string, ServiceData> = rawData.services as unknown as Record<string, ServiceData>;
-export const servicesLong: Record<string, any> = (rawData as any).servicesLong || {};
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const servicesLong: Record<string, any> = (rawData as Record<string, unknown>).servicesLong as Record<string, any> || {};
 export const serviceOrderCore: string[] = rawData.serviceOrderCore;
 export const serviceOrderSvc: string[] = rawData.serviceOrderSvc;
 export const homeServices: string[] = rawData.homeServices;
 export const industries: IndustryData[] = rawData.industries as unknown as IndustryData[];
-export const industriesLong: Record<string, any> = (rawData as any).industriesLong || {};
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const industriesLong: Record<string, any> = (rawData as Record<string, unknown>).industriesLong as Record<string, any> || {};
 export const locations: LocationData[] = rawData.locations as unknown as LocationData[];
-export const locationsLong: Record<string, any> = (rawData as any).locationsLong || {};
-export const logos: LogoItem[] = ((rawData as any).logos || []) as LogoItem[];
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const locationsLong: Record<string, any> = (rawData as Record<string, unknown>).locationsLong as Record<string, any> || {};
+export const logos: LogoItem[] = (((rawData as Record<string, unknown>).logos || []) as LogoItem[]);
 export const packages: Record<string, PackageData> = rawData.packages as unknown as Record<string, PackageData>;
 export const tools: ToolData[] = rawData.tools as unknown as ToolData[];
 export const team: TeamMember[] = rawData.team as unknown as TeamMember[];

@@ -18,18 +18,16 @@ const SAMPLES: Record<string, string> = {
 };
 
 export default function ToolRunner({
-  toolSlug,
   toolType,
 }: {
-  toolSlug: string;
+  toolSlug?: string;
   toolType: string;
 }) {
   const [inputHtml, setInputHtml] = useState("");
-  const [domain, setDomain] = useState("example.com");
-  const [userAgent, setUserAgent] = useState("Googlebot");
-  const [path, setPath] = useState("/");
-  const [keyword, setKeyword] = useState("plumber");
-  const [city, setCity] = useState("Denver");
+  const [userAgent] = useState("Googlebot");
+  const [path] = useState("/");
+  const [keyword] = useState("plumber");
+  const [city] = useState("Denver");
 
   // SERP state
   const [serpTitle, setSerpTitle] = useState("Emergency Plumber in Denver | 24/7 Fast Response");
@@ -173,7 +171,11 @@ export default function ToolRunner({
 
   useEffect(() => {
     // Run default demo on mount
-    handleRun();
+    const timer = setTimeout(() => {
+      handleRun();
+    }, 0);
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [toolType]);
 
   if (toolType === "serp") {

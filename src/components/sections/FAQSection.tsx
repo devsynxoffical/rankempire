@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { ArrowIcon, ChevronIcon } from "@/components/common/Icons";
+import { ArrowIcon } from "@/components/common/Icons";
 import { FAQItem } from "@/data";
 
 export default function FAQSection({

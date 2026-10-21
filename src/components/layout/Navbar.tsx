@@ -8,7 +8,6 @@ import {
   services,
   serviceOrderCore,
   serviceOrderSvc,
-  packages,
   industries,
   tools,
   locations,
@@ -22,8 +21,11 @@ export default function Navbar() {
 
   // Close mobile nav on route change
   useEffect(() => {
-    setMobileOpen(false);
-    setOpenDropdown(null);
+    const t = setTimeout(() => {
+      setMobileOpen(false);
+      setOpenDropdown(null);
+    }, 0);
+    return () => clearTimeout(t);
   }, [pathname]);
 
   // Lock body scroll when mobile menu is open

@@ -22,7 +22,10 @@ export default function ContactUsPage() {
       const sp = new URLSearchParams(window.location.search);
       const site = sp.get("site");
       if (site) {
-        setFormData((prev) => ({ ...prev, website: site }));
+        const timer = setTimeout(() => {
+          setFormData((prev) => ({ ...prev, website: site }));
+        }, 0);
+        return () => clearTimeout(timer);
       }
     }
   }, []);
