@@ -109,27 +109,38 @@ export default function PointOfView() {
             <span className="pl d">Five disciplines, one growth system</span>
             <h3>Where should your next ranking come from?</h3>
             <div className="tl" role="tablist" aria-label="SEO disciplines">
-              {disciplines.map((d, i) => (
-                <React.Fragment key={d.title}>
-                  <button
-                    type="button"
-                    className={activeTab === i ? "on" : ""}
-                    aria-selected={activeTab === i}
-                    role="tab"
-                    data-i={i}
-                    onClick={() => setActiveTab(i)}
-                  >
-                    <small>0{i + 1}</small>
-                    {d.title}
-                  </button>
-                  <p className={`tp ${activeTab === i ? "on" : ""}`}>
-                    {d.desc}{" "}
-                    <Link href={`/${d.slug}/`}>
-                      Explore {d.title.toLowerCase()}
-                    </Link>
-                  </p>
-                </React.Fragment>
-              ))}
+              {disciplines.map((d, i) => {
+                const colors = ["#ec4e3b", "#e37a38", "#4a9f5f", "#8c2fe2", "#ffd23f"];
+                return (
+                  <React.Fragment key={d.title}>
+                    <button
+                      type="button"
+                      className={activeTab === i ? "on" : ""}
+                      aria-selected={activeTab === i}
+                      role="tab"
+                      data-i={i}
+                      style={{ "--dc": colors[i] } as React.CSSProperties}
+                      onClick={() => setActiveTab(i)}
+                    >
+                      <small>0{i + 1}</small>
+                      <span className="tt">{d.title}</span>
+                      <i
+                        className="bar"
+                        aria-hidden="true"
+                        onAnimationEnd={() =>
+                          setActiveTab((prev) => (prev + 1) % disciplines.length)
+                        }
+                      ></i>
+                    </button>
+                    <p className={`tp ${activeTab === i ? "on" : ""}`}>
+                      {d.desc}{" "}
+                      <Link href={`/${d.slug}/`}>
+                        Explore {d.title.toLowerCase()}
+                      </Link>
+                    </p>
+                  </React.Fragment>
+                );
+              })}
             </div>
           </div>
 

@@ -498,11 +498,265 @@ export default function ClientAnimations() {
       };
     });
 
+    // 20. Split text reveal [data-split]
+    $$("[data-split]").forEach((el) => {
+      if (el.classList.contains("split-w")) return;
+      let i = 0;
+      const walk = (n: Node) =>
+        [...n.childNodes].forEach((ch) => {
+          if (ch.nodeType === 3) {
+            const f = document.createDocumentFragment();
+            const text = ch.textContent || "";
+            text.split(/(\s+)/).forEach((w) => {
+              if (!w) return;
+              if (/^\s+$/.test(w)) {
+                f.appendChild(document.createTextNode(w));
+              } else {
+                const s = document.createElement("span");
+                s.className = "w";
+                s.style.setProperty("--d", `${i++ * 0.045}s`);
+                s.textContent = w;
+                f.appendChild(s);
+              }
+            });
+            ch.replaceWith(f);
+          } else if (ch.nodeType === 1) {
+            walk(ch);
+          }
+        });
+      walk(el);
+      el.classList.add("split-w");
+      requestAnimationFrame(() =>
+        requestAnimationFrame(() => el.classList.add("in"))
+      );
+    });
+
+    // 21. General tabs [data-tabs]
+    $$("[data-tabs]").forEach((w) => {
+      const bs = $$(".tabs button", w);
+      const ps = $$(".tpanel", w);
+      bs.forEach((b, i) => {
+        b.onclick = () => {
+          bs.forEach((x) => {
+            x.classList.toggle("on", x === b);
+            x.setAttribute("aria-selected", String(x === b));
+          });
+          ps.forEach((p, k) => p.classList.toggle("on", k === i));
+        };
+      });
+    });
+
+    // 22. Vertical expandable panels (.gv .pan)
+    $$(".gv .pan").forEach((pan) => {
+      const ps = $$(".p", pan);
+      const set = (p: HTMLElement) => {
+        ps.forEach((x) => {
+          const on = x === p && !x.classList.contains("on");
+          x.classList.toggle("on", x === p ? on : false);
+          x.setAttribute("aria-expanded", String(x.classList.contains("on")));
+          $$("a", x).forEach(
+            (a) => (a.tabIndex = x.classList.contains("on") ? 0 : -1)
+          );
+        });
+      };
+      ps.forEach((p) => {
+        p.onclick = (e) => {
+          if ((e.target as HTMLElement).closest("a")) return;
+          set(p);
+        };
+        p.onkeydown = (e) => {
+          if ((e.key === "Enter" || e.key === " ") && e.target === p) {
+            e.preventDefault();
+            set(p);
+          }
+        };
+        p.onpointerenter = (e) => {
+          if (
+            e.pointerType === "mouse" &&
+            window.innerWidth > 1024 &&
+            !p.classList.contains("on")
+          ) {
+            set(p);
+          }
+        };
+      });
+    });
+
+    // 23. Spartan pricing switch (.spx)
+    $$(".spx").forEach((s) => {
+      const sw = $(".sw-b", s);
+      const m = $(".toggle [data-v=m]", s);
+      const y = $(".toggle [data-v=y]", s);
+      if (!sw) return;
+      sw.onclick = () => {
+        const on = sw.getAttribute("aria-pressed") !== "true";
+        sw.setAttribute("aria-pressed", String(on));
+        const target = on ? y : m;
+        if (target) (target as HTMLElement).click();
+      };
+    });
+
+    // 24. Mailto forms [data-mail]
+    $$("form[data-mail]").forEach((f) => {
+      f.onsubmit = (e) => {
+        e.preventDefault();
+        const d = new FormData(f as HTMLFormElement);
+        let body = "";
+        for (const [k, v] of d.entries()) {
+          if (v) body += `${k}: ${v}\n`;
+        }
+        window.location.href = `mailto:${f.dataset.mail}?subject=${encodeURIComponent(
+          f.dataset.subject || "Website enquiry"
+        )}&body=${encodeURIComponent(body)}`;
+        f.classList.add("sent");
+      };
+    });
+
+    // 25. URL query param prefill for #f-site and #f-msg
+    if (typeof window !== "undefined") {
+      const qs = new URLSearchParams(window.location.search);
+      const site = qs.get("site");
+      const sf = $("#f-site") as HTMLInputElement | null;
+      if (site && sf) {
+        sf.value = site;
+        const m = $("#f-msg") as HTMLTextAreaElement | null;
+        if (m && !m.value) {
+          m.value = `Please send me a free SEO audit for ${site}.`;
+        }
+      }
+    }
+
+    // 26. Neiden-style hero motion: letter sweep & mouse follow
+    const scp = $(".nh .script");
+    if (scp && !RM && !scp.dataset.splitDone) {
+      scp.dataset.splitDone = "1";
+      let k = 0;
+      scp.innerHTML = [...(scp.textContent || "")]
+        .map((c) =>
+          c === " "
+            ? '<span class="sp"> </span>'
+            : `<span class="ch" style="--i:${k++}">${c}</span>`
+        )
+        .join("");
+    }
+
+    const nh = $(".nh");
+    let nhPointerMove: ((e: PointerEvent) => void) | null = null;
+    let nhPointerLeave: (() => void) | null = null;
+    if (nh && !RM && window.matchMedia("(hover:hover)").matches) {
+      let nhRaf = 0;
+      let mx = 0;
+      let my = 0;
+      nhPointerMove = (e: PointerEvent) => {
+        const r = nh.getBoundingClientRect();
+        mx = (e.clientX - r.left) / r.width - 0.5;
+        my = (e.clientY - r.top) / r.height - 0.5;
+        if (!nhRaf) {
+          nhRaf = requestAnimationFrame(() => {
+            nhRaf = 0;
+            nh.style.setProperty("--ex", (-mx * 0.07).toFixed(3) + "em");
+            nh.style.setProperty(
+              "--ey",
+              (-my * 0.06 + 0.015).toFixed(3) + "em"
+            );
+            nh.style.setProperty("--bx", (-mx * 40).toFixed(1) + "px");
+            nh.style.setProperty("--by", (-my * 30).toFixed(1) + "px");
+          });
+        }
+      };
+      nhPointerLeave = () => {
+        nh.style.setProperty("--ex", "-.022em");
+        nh.style.setProperty("--ey", ".022em");
+        nh.style.setProperty("--bx", "0px");
+        nh.style.setProperty("--by", "0px");
+      };
+      nh.addEventListener("pointermove", nhPointerMove);
+      nh.addEventListener("pointerleave", nhPointerLeave);
+    }
+
+    // 27. Custom smooth cursor on desktop fine pointer
+    let curCleanup: (() => void) | null = null;
+    if (!RM && window.matchMedia("(hover:hover) and (pointer:fine)").matches) {
+      let d = $(".cur");
+      let r = $(".cur-r");
+      if (!d) {
+        d = document.createElement("div");
+        d.className = "cur";
+        document.body.appendChild(d);
+      }
+      if (!r) {
+        r = document.createElement("div");
+        r.className = "cur-r";
+        document.body.appendChild(r);
+      }
+      let x = window.innerWidth / 2,
+        y = window.innerHeight / 2,
+        rx = x,
+        ry = y,
+        on = false;
+      const onMove = (e: PointerEvent) => {
+        x = e.clientX;
+        y = e.clientY;
+        if (!on) {
+          on = true;
+          rx = x;
+          ry = y;
+        }
+        if (d) d.style.transform = `translate(${x}px,${y}px)`;
+        if (r) {
+          const target = e.target as HTMLElement | null;
+          const isInteractive = !!target?.closest?.(
+            "a, button, [role=button], summary, input, select, textarea, label"
+          );
+          r.classList.toggle("big", isInteractive);
+        }
+      };
+      const onDown = () => r?.classList.add("dn");
+      const onUp = () => r?.classList.remove("dn");
+      const onLeave = () => {
+        if (d) d.style.opacity = "0";
+        if (r) r.style.opacity = "0";
+      };
+      const onEnter = () => {
+        if (d) d.style.opacity = "1";
+        if (r) r.style.opacity = "1";
+      };
+
+      window.addEventListener("pointermove", onMove, { passive: true });
+      window.addEventListener("pointerdown", onDown);
+      window.addEventListener("pointerup", onUp);
+      document.addEventListener("pointerleave", onLeave);
+      document.addEventListener("pointerenter", onEnter);
+
+      let curRaf = 0;
+      const loop = () => {
+        rx += (x - rx) * 0.16;
+        ry += (y - ry) * 0.16;
+        if (r) r.style.transform = `translate(${rx}px,${ry}px)`;
+        curRaf = requestAnimationFrame(loop);
+      };
+      curRaf = requestAnimationFrame(loop);
+
+      curCleanup = () => {
+        window.removeEventListener("pointermove", onMove);
+        window.removeEventListener("pointerdown", onDown);
+        window.removeEventListener("pointerup", onUp);
+        document.removeEventListener("pointerleave", onLeave);
+        document.removeEventListener("pointerenter", onEnter);
+        cancelAnimationFrame(curRaf);
+        d?.remove();
+        r?.remove();
+      };
+    }
+
     return () => {
       window.removeEventListener("scroll", onScrollHeader);
       window.removeEventListener("scroll", onHeroScroll);
       window.removeEventListener("scroll", reqScrollScenes);
       window.removeEventListener("resize", reqScrollScenes);
+      if (nh && nhPointerMove) nh.removeEventListener("pointermove", nhPointerMove);
+      if (nh && nhPointerLeave) nh.removeEventListener("pointerleave", nhPointerLeave);
+      if (curCleanup) curCleanup();
       io.disconnect();
       ioDirect.disconnect();
       cio.disconnect();

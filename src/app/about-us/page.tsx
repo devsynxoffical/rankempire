@@ -298,8 +298,8 @@ export default function AboutUsPage() {
               <h2 className="h2">The people behind the work</h2>
             </div>
             <div data-r>
-              <Link className="btn ln" href="/our-team/">
-                Meet the team
+              <Link className="btn ln" href="/contact-us/">
+                Work with our team
                 <ArrowIcon />
               </Link>
             </div>
