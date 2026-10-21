@@ -2,128 +2,108 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { LineReveal } from "@/components/common/LineReveal";
+import { ArrowIcon } from "@/components/common/Icons";
 import { packages } from "@/data";
 
-interface PlanTier {
-  name: string;
-  who: string;
-  price: number;
-  pop: string;
-  feats: string[];
-}
-
 export default function PricingSection({
-  packageKey = "seo-packages",
-  title = "Simple, Transparent Pricing",
-  sub = "Choose the plan that fits your market. Month to month after onboarding, with every deliverable listed up front.",
+  title = "Simple, transparent SEO pricing",
+  sub = "Month to month after a 3 month onboarding. Every deliverable listed up front.",
+  eyb = "Pricing",
+  packageKey,
 }: {
-  packageKey?: string;
   title?: string;
   sub?: string;
+  eyb?: string;
+  packageKey?: string;
 }) {
   const [isYearly, setIsYearly] = useState(false);
-  const pkg = packages[packageKey] || packages["seo-packages"];
-
-  const plans: PlanTier[] = pkg.plans.map((p) => ({
-    name: p[0],
-    who: p[1],
-    price: p[2],
-    pop: p[3],
-    feats: p[4],
-  }));
+  const pkgData =
+    (packageKey && packages[packageKey]) ||
+    packages["seo-packages"] ||
+    Object.values(packages)[0];
+  const plans = pkgData?.plans || [];
 
   return (
-    <section className="sec">
-      <div className="wrap">
-        <div className="shead c">
-          <LineReveal lines={title.split("<br>")} />
-          <p data-r>{sub}</p>
+    <section className="sec" id="pricing" data-price>
+      <div className="wrap" style={{ textAlign: "center" }}>
+        <div className="sh c" data-r>
+          <span className="eyb">{eyb}</span>
+          <h2 className="h2">{title}</h2>
+          <p>{sub}</p>
         </div>
 
-        {/* Billing Toggle */}
-        <div className={`tog ${isYearly ? "y" : ""}`}>
-          <span
-            className="m"
-            role="button"
-            tabIndex={0}
+        <div className="toggle" role="group" aria-label="Billing period">
+          <button
+            type="button"
+            className={!isYearly ? "on" : ""}
+            aria-pressed={!isYearly}
             onClick={() => setIsYearly(false)}
           >
             Monthly
-          </span>
+          </button>
           <button
-            className="sw"
             type="button"
-            role="switch"
-            aria-checked={isYearly}
-            aria-label="Toggle yearly billing"
-            onClick={() => setIsYearly(!isYearly)}
-          />
-          <span
-            className="yl"
-            role="button"
-            tabIndex={0}
+            className={isYearly ? "on" : ""}
+            aria-pressed={isYearly}
             onClick={() => setIsYearly(true)}
           >
             Yearly
-          </span>
-          <span className="off">10% off</span>
+          </button>
         </div>
 
-        {/* Plans Grid */}
+        <p className="save">Save 10% with yearly billing</p>
+
         <div className="plans">
-          {plans.map((plan, i) => {
-            const isPop = plan.pop === "pop";
-            const currentPrice = isYearly ? Math.round(plan.price * 0.9) : plan.price;
+          {plans.map(([name, who, price, pop, feats], idx) => {
+            const yearlyPrice = Math.round(price * 0.9);
+            const isPopular = pop === "pop";
+            const currentPrice = isYearly ? yearlyPrice : price;
+            const savings = (price - yearlyPrice) * 12;
 
             return (
               <article
-                className={`plan ${isPop ? "pop" : ""}`}
+                key={idx}
+                className={`plan ${isPopular ? "pop" : ""}`}
                 data-r
-                key={i}
               >
-                <div className="hd">
-                  <div className="t">
-                    <h3>{plan.name}</h3>
-                    {isPop && <span className="bdg">Popular</span>}
-                  </div>
-                  <p className="sub">{plan.who}</p>
+                <span className="lbl">{isPopular ? "Most popular" : "Plan"}</span>
+                <h3>{name}</h3>
+                <p className="who">{who}</p>
 
-                  <div className="pr">
-                    <sup>$</sup>
-                    <b>{currentPrice.toLocaleString()}</b>
-                    <small>
-                      {isYearly ? "/mo, billed yearly" : "/month"}
-                    </small>
-                  </div>
-
-                  <Link
-                    className={`btn ${isPop ? "acc" : "line"}`}
-                    href="/contact-us/"
-                  >
-                    Select plan
-                  </Link>
+                <div className="pr">
+                  <b>${currentPrice.toLocaleString("en-US")}</b>
+                  <small>/ month</small>
                 </div>
 
-                <div className="ft">
-                  <h5>Features:</h5>
-                  <ul>
-                    {plan.feats.map((feat, fIdx) => (
-                      <li key={fIdx}>{feat}</li>
-                    ))}
-                  </ul>
+                <div className="bill">
+                  {isYearly
+                    ? `Billed yearly, save $${savings.toLocaleString("en-US")}`
+                    : "Billed monthly"}
                 </div>
+
+                <Link
+                  className={`btn ${isPopular ? "ac" : "dk"}`}
+                  href="/contact-us/"
+                >
+                  Get started
+                  <ArrowIcon />
+                </Link>
+
+                <ul>
+                  {feats.map((feat, fIdx) => (
+                    <li key={fIdx}>{feat}</li>
+                  ))}
+                </ul>
               </article>
             );
           })}
         </div>
 
-        <p className="note" style={{ marginTop: "20px", textAlign: "center" }}>
-          Need something custom?{" "}
-          <Link href="/contact-us/" style={{ color: "var(--acc)", fontWeight: 600 }}>
-            Talk to us
-          </Link>{" "}
-          about enterprise and multi-brand programs.
+        <p style={{ marginTop: "22px", color: "var(--mute)", fontSize: "14.5px" }}>
+          Need multi-location or enterprise SEO?{" "}
+          <Link className="tlink" href="/contact-us/">
+            Get a custom quote
+          </Link>
         </p>
       </div>
     </section>

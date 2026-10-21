@@ -1,20 +1,34 @@
 import type { Metadata } from "next";
-import { Anton, Urbanist } from "next/font/google";
+import { Inter, Inter_Tight, JetBrains_Mono, Urbanist } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/animations/SmoothScroll";
+import ClientAnimations from "@/components/animations/ClientAnimations";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import { BRAND_NAME, SITE_URL } from "@/data";
 
-const anton = Anton({
-  weight: "400",
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-anton",
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const interTight = Inter_Tight({
+  weight: ["500", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-inter-tight",
+  display: "swap",
+});
+
+const mono = JetBrains_Mono({
+  weight: ["400", "500"],
+  subsets: ["latin"],
+  variable: "--font-mono",
   display: "swap",
 });
 
 const urbanist = Urbanist({
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["500", "600", "700"],
   subsets: ["latin"],
   variable: "--font-urbanist",
   display: "swap",
@@ -79,7 +93,10 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${anton.variable} ${urbanist.variable}`}>
+    <html
+      lang="en"
+      className={`${inter.variable} ${interTight.variable} ${mono.variable} ${urbanist.variable}`}
+    >
       <head>
         <script
           type="application/ld+json"
@@ -91,9 +108,13 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <a className="skip" href="#main">
+          Skip to content
+        </a>
         <SmoothScroll>
+          <ClientAnimations />
           <Navbar />
-          <main>{children}</main>
+          <main id="main">{children}</main>
           <Footer />
         </SmoothScroll>
       </body>

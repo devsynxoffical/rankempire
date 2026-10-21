@@ -1,30 +1,26 @@
 import React from "react";
-import { StarSparkIcon } from "@/components/common/Icons";
-import { LineReveal } from "@/components/common/LineReveal";
-import { stack } from "@/data";
+import { logos } from "@/data";
 
 export default function StackSection() {
-  const allItems = stack.concat(stack);
+  const allLogos = logos.concat(logos);
 
   return (
-    <section className="stack">
-      <div className="wrap">
-        <div className="shead">
-          <LineReveal lines={["Our Stack"]} />
-          <p data-r>
-            The platforms and tools we work in every day
-            <br />
-            Search, analytics, local and e-commerce
-          </p>
-        </div>
-      </div>
-
-      <div className="cards-mq" aria-label="Tools we use">
+    <section className="lmq" aria-label="Platforms we work with">
+      <p>
+        <b>Built into your stack.</b> We work inside the platforms you already use
+      </p>
+      <div className="mq">
         <div className="tr">
-          {allItems.map((name, i) => (
-            <span className="c" key={i}>
-              <StarSparkIcon />
-              {name}
+          {allLogos.map((l, i) => (
+            <span
+              className="lg"
+              key={i}
+              style={{ "--c": `#${l.hex}` } as React.CSSProperties}
+            >
+              <svg viewBox="0 0 24 24" role="img" aria-label={`${l.name} logo`}>
+                <path fill={`#${l.hex}`} d={l.path} />
+              </svg>
+              {l.name}
             </span>
           ))}
         </div>

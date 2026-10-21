@@ -101,12 +101,22 @@ export interface TrustItem {
   badge: string;
 }
 
+export interface LogoItem {
+  name: string;
+  hex: string;
+  path: string;
+}
+
 export const services: Record<string, ServiceData> = rawData.services as unknown as Record<string, ServiceData>;
+export const servicesLong: Record<string, any> = (rawData as any).servicesLong || {};
 export const serviceOrderCore: string[] = rawData.serviceOrderCore;
 export const serviceOrderSvc: string[] = rawData.serviceOrderSvc;
 export const homeServices: string[] = rawData.homeServices;
 export const industries: IndustryData[] = rawData.industries as unknown as IndustryData[];
+export const industriesLong: Record<string, any> = (rawData as any).industriesLong || {};
 export const locations: LocationData[] = rawData.locations as unknown as LocationData[];
+export const locationsLong: Record<string, any> = (rawData as any).locationsLong || {};
+export const logos: LogoItem[] = ((rawData as any).logos || []) as LogoItem[];
 export const packages: Record<string, PackageData> = rawData.packages as unknown as Record<string, PackageData>;
 export const tools: ToolData[] = rawData.tools as unknown as ToolData[];
 export const team: TeamMember[] = rawData.team as unknown as TeamMember[];

@@ -52,7 +52,7 @@ export default function Footer() {
               aria-label="Email address"
               required
             />
-            <button className="btn acc sm" type="submit">
+            <button className="btn ac sm" type="submit">
               Subscribe
               <ArrowIcon />
             </button>

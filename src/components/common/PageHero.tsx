@@ -31,10 +31,10 @@ export default function PageHero({
     <>
       <section className={`ph wrap ${left ? "l" : ""}`}>
         {/* Breadcrumb nav */}
-        <nav className="crumb" aria-label="Breadcrumb">
+        <nav className="crumbs" aria-label="Breadcrumb">
           {crumbs.map((c, i) => (
             <React.Fragment key={i}>
-              {i > 0 && <span aria-hidden="true">&rsaquo;</span>}
+              {i > 0 && <span aria-hidden="true">&nbsp;&rsaquo;&nbsp;</span>}
               {i === crumbs.length - 1 ? (
                 <span>{c.label}</span>
               ) : (
@@ -50,13 +50,13 @@ export default function PageHero({
 
         <div className="bts">
           {primaryBtn && (
-            <Link className="btn acc" href={primaryBtn.href}>
+            <Link className="btn ac" href={primaryBtn.href}>
               {primaryBtn.label}
               <ArrowIcon />
             </Link>
           )}
           {secondaryBtn && (
-            <Link className="btn line" href={secondaryBtn.href}>
+            <Link className="btn ln" href={secondaryBtn.href}>
               {secondaryBtn.label}
               <ArrowIcon />
             </Link>

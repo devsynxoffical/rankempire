@@ -1,67 +1,99 @@
 import React from "react";
-import Image from "next/image";
-import { LineReveal } from "@/components/common/LineReveal";
 
-interface Step {
+export interface ProcessStep {
   title: string;
   desc: string;
+  vis?: React.ReactNode;
 }
 
-const DEFAULT_STEPS: Step[] = [
+const DEFAULT_STEPS: ProcessStep[] = [
   {
     title: "Audit",
-    desc: "We crawl your site, study your market and competitors and find what is holding rankings back.",
+    desc: "We crawl your site, study your market and competitors and find exactly what is holding rankings back.",
+    vis: (
+      <div className="prog" style={{ "--w": "72%" } as React.CSSProperties}>
+        <i></i>
+      </div>
+    ),
   },
   {
-    title: "Strategize",
-    desc: "We build a roadmap of pages, fixes and links ranked by revenue impact before any work begins.",
+    title: "Roadmap",
+    desc: "Every fix, page and link is ranked by revenue impact into a 90-day plan before any work begins.",
+    vis: (
+      <div className="chk">
+        <span>Fix canonical tags</span>
+        <span>Build 6 service pages</span>
+        <span>Optimize GBP categories</span>
+      </div>
+    ),
   },
   {
     title: "Execute",
-    desc: "Our specialists ship the fixes, content and links, with every task visible in your dashboard.",
+    desc: "Specialists ship technical fixes, content and links, and every task is visible in your dashboard.",
+    vis: (
+      <div className="bars" style={{ height: "80px" }}>
+        {[30, 44, 52, 70, 88, 100].map((h, j) => (
+          <i
+            key={j}
+            style={{ "--h": `${h}%` } as React.CSSProperties}
+            className={j > 2 ? "a" : ""}
+          ></i>
+        ))}
+      </div>
+    ),
   },
   {
     title: "Compound",
-    desc: "We track every ranking, call and sale, double down on what works and cut what does not.",
+    desc: "We track rankings, calls and revenue, double down on what works and cut what does not.",
+    vis: (
+      <div
+        style={{
+          fontFamily: "var(--fd)",
+          fontSize: "34px",
+          fontWeight: 600,
+          letterSpacing: "-.03em",
+        }}
+      >
+        +<span data-count="212">212</span>%
+      </div>
+    ),
   },
 ];
 
 export default function ProcessSection({
   steps = DEFAULT_STEPS,
-  title = "Our Process",
-  sub = "A disciplined four step framework that removes<br>guesswork and builds rankings that last.",
+  title = "Audit. Roadmap. Execute. Compound.",
+  sub = "A disciplined process that removes guesswork and builds rankings that last.",
 }: {
-  steps?: Step[];
+  steps?: ProcessStep[];
   title?: string;
   sub?: string;
 }) {
-  return (
-    <section className="sec dark proc">
-      <div className="pin">
-        <div className="wrap">
-          <div className="shead">
-            <LineReveal lines={title.split("<br>")} />
-            <p data-r dangerouslySetInnerHTML={{ __html: sub }} />
-          </div>
+  const displaySteps = steps.slice(0, 4);
 
-          <div className="pcards">
-            {steps.slice(0, 4).map((step, i) => (
-              <article className="pc" key={i}>
-                <Image
-                  src={`/img/p${i + 1}.webp`}
-                  alt=""
-                  fill
-                  sizes="(max-width: 768px) 100vw, 25vw"
-                  style={{ objectFit: "cover" }}
-                />
-                <span className="n">0{i + 1}</span>
-                <div className="tx">
-                  <h3>{step.title}</h3>
-                  <p>{step.desc}</p>
+  return (
+    <section className="sec alt">
+      <div className="wrap">
+        <div className="sh c" data-r>
+          <span className="eyb">How it works</span>
+          <h2 className="h2">{title}</h2>
+          <p>{sub}</p>
+        </div>
+
+        <div className="steps4" data-stagger>
+          {displaySteps.map((st, i) => {
+            const fallbackVis = DEFAULT_STEPS[i]?.vis || null;
+            return (
+              <div className="card st4" key={i}>
+                <span className="badge">0{i + 1}</span>
+                <div className="mini" data-vis>
+                  {st.vis || fallbackVis}
                 </div>
-              </article>
-            ))}
-          </div>
+                <h3>{st.title}</h3>
+                <p>{st.desc}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -1,20 +1,28 @@
 #!/usr/bin/env python3
 import os, sys, json
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'rankempire', 'source'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ref', 'RankEmpire 2', 'source'))
 from data_services import S, SERVICE_ORDER_CORE, SERVICE_ORDER_SVC, HOME_SVCS
+from data_services_long import LONG as S_LONG
 from data_industries import I, CATS
+from data_industries_long import IND_LONG
 from data_locations import C
+from data_locations_long import CITY_LONG
+from data_logos import LOGOS
 from data_misc import PACKAGES, TOOLS, TEAM, BLOG, FAQ_HOME, PLAYBOOKS, TRUST, STACK
 
 data = {
     "services": S,
+    "servicesLong": S_LONG,
     "serviceOrderCore": SERVICE_ORDER_CORE,
     "serviceOrderSvc": SERVICE_ORDER_SVC,
     "homeServices": HOME_SVCS,
     "industries": I,
+    "industriesLong": IND_LONG,
     "categories": CATS,
     "locations": C,
+    "locationsLong": CITY_LONG,
+    "logos": LOGOS,
     "packages": PACKAGES,
     "tools": [
         {"slug": t[0], "name": t[1], "type": t[2], "desc": t[3]}
@@ -37,7 +45,14 @@ data = {
     "stack": STACK
 }
 
-with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'site_data.json'), 'w', encoding='utf-8') as f:
+out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src', 'data', 'site_data.json')
+with open(out_path, 'w', encoding='utf-8') as f:
     json.dump(data, f, indent=2, ensure_ascii=False)
 
-print("Exported site_data.json successfully!")
+# Also write to root site_data.json if it exists
+root_json = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'site_data.json')
+with open(root_json, 'w', encoding='utf-8') as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+
+print("Exported site_data.json successfully with v2 content!")
+
