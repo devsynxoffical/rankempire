@@ -1,15 +1,13 @@
-"use client";
+'use client';
 
-import { useEffect, useRef } from "react";
-import { usePathname } from "next/navigation";
-import Lenis from "lenis";
+import { useEffect, useRef } from 'react';
+import Lenis from 'lenis';
 
 export default function SmoothScroll({ children }: { children: React.ReactNode }) {
-  const pathname = usePathname();
   const lenisRef = useRef<Lenis | null>(null);
 
   useEffect(() => {
-    const RM = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const RM = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (RM) return;
 
     let lenis: Lenis | null = null;
@@ -29,13 +27,13 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
       };
       rafId = requestAnimationFrame(raf);
     } catch (e) {
-      console.error("Lenis init error:", e);
+      console.error('Lenis init error:', e);
     }
 
     const handleAnchorClick = (e: MouseEvent) => {
       const target = (e.target as HTMLElement).closest('a[href^="#"]');
       if (!target) return;
-      const href = target.getAttribute("href");
+      const href = target.getAttribute('href');
       if (!href || href.length < 2) return;
       const el = document.querySelector(href);
       if (!el) return;
@@ -43,23 +41,22 @@ export default function SmoothScroll({ children }: { children: React.ReactNode }
       if (lenis) {
         lenis.scrollTo(el as HTMLElement, { offset: -90 });
       } else {
-        el.scrollIntoView({ behavior: "smooth" });
+        el.scrollIntoView({ behavior: 'smooth' });
       }
-      history.replaceState(null, "", href);
+      history.replaceState(null, '', href);
     };
 
-    document.addEventListener("click", handleAnchorClick);
+    document.addEventListener('click', handleAnchorClick);
 
     return () => {
       if (rafId) cancelAnimationFrame(rafId);
-      document.removeEventListener("click", handleAnchorClick);
+      document.removeEventListener('click', handleAnchorClick);
       if (lenis) {
         lenis.destroy();
         lenisRef.current = null;
       }
     };
-  }, [pathname]);
+  }, []);
 
   return <>{children}</>;
 }
-

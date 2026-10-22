@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Suspense } from "react";
 import "./globals.css";
 import SmoothScroll from "@/components/animations/SmoothScroll";
 import ClientAnimations from "@/components/animations/ClientAnimations";
@@ -143,8 +144,10 @@ export default function RootLayout({
           </div>
         </div>
         <SmoothScroll>
-          <ClientAnimations />
-          <Navbar />
+          <Suspense fallback={null}>
+            <ClientAnimations />
+            <Navbar />
+          </Suspense>
           <main id="main">{children}</main>
           <Footer />
         </SmoothScroll>

@@ -1,27 +1,25 @@
-"use client";
+'use client';
 
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import {
-  BRAND_NAME,
-  BRAND_EMAIL,
-  services,
-  serviceOrderCore,
-  industries,
-  locations,
-  tools,
-} from "@/data";
+import React, { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
+import { BRAND_NAME, BRAND_EMAIL } from '@/data';
 
 export default function Footer() {
-  const [email, setEmail] = useState("");
-  const [clock, setClock] = useState("09:00:00");
+  const [clock, setClock] = useState('00:00:00');
+  const [nlEmail, setNlEmail] = useState('');
+  const [nlSubmitted, setNlSubmitted] = useState(false);
 
+  const footerRef = useRef<HTMLElement>(null);
+  const fwRef = useRef<HTMLDivElement>(null);
+  const fstartRef = useRef<HTMLAnchorElement>(null);
+
+  // Live ET Clock
   useEffect(() => {
-    const formatter = new Intl.DateTimeFormat("en-US", {
-      timeZone: "America/New_York",
-      hour: "2-digit",
-      minute: "2-digit",
-      second: "2-digit",
+    const formatter = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/New_York',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
       hour12: false,
     });
 
@@ -34,179 +32,199 @@ export default function Footer() {
     return () => clearInterval(timer);
   }, []);
 
-  const handleNewsletter = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!email || !email.includes("@")) return;
-    window.location.href = `mailto:${BRAND_EMAIL}?subject=${encodeURIComponent(
-      "Newsletter signup"
-    )}&body=${encodeURIComponent(
-      "Please add " + email + " to the RankEmpire newsletter."
-    )}`;
-    setEmail("");
+  // Responsive font size fit for 'Start ranking'
+  useEffect(() => {
+    const fw = fwRef.current;
+    const st = fstartRef.current;
+    if (!fw || !st) return;
+
+    const fit = () => {
+      fw.style.fontSize = '100px';
+      const cs = getComputedStyle(st);
+      const arr = st.querySelector('.arr');
+      const arrWidth = arr ? arr.getBoundingClientRect().width : 60;
+      const av =
+        st.clientWidth -
+        parseFloat(cs.paddingLeft || '0') -
+        parseFloat(cs.paddingRight || '0') -
+        arrWidth -
+        30;
+      if (fw.scrollWidth > 0 && av > 0) {
+        fw.style.fontSize = `${Math.floor((100 * av) / fw.scrollWidth * 0.98)}px`;
+      }
+    };
+
+    fit();
+    if (typeof document !== 'undefined' && document.fonts) {
+      document.fonts.ready.then(fit);
+    }
+    window.addEventListener('resize', fit);
+    return () => window.removeEventListener('resize', fit);
+  }, []);
+
+  // Pointer move spotlight on footer
+  useEffect(() => {
+    const f = footerRef.current;
+    if (!f) return;
+
+    let mx = 0;
+    let my = 0;
+    let ticking = false;
+
+    const paint = () => {
+      ticking = false;
+      const r = f.getBoundingClientRect();
+      f.style.setProperty('--mx', `${mx - r.left}px`);
+      f.style.setProperty('--my', `${my - r.top}px`);
+    };
+
+    const onPointerMove = (e: PointerEvent) => {
+      mx = e.clientX;
+      my = e.clientY;
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(paint);
+      }
+    };
+
+    f.addEventListener('pointermove', onPointerMove);
+    return () => f.removeEventListener('pointermove', onPointerMove);
+  }, []);
+
+  const handleBackToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const footerServices = serviceOrderCore
-    .slice(0, 6)
-    .concat(["link-building", "content-seo", "seo-consulting"]);
+  const handleNewsletterSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const v = nlEmail.trim();
+    if (!v) return;
+    setNlSubmitted(true);
+    window.location.href = `mailto:${BRAND_EMAIL}?subject=${encodeURIComponent(
+      'Newsletter signup'
+    )}&body=${encodeURIComponent('Please subscribe ' + v)}`;
+  };
+
+  const startRankingText = 'Start ranking';
 
   return (
-    <footer className="af">
-      <div className="tp1">
-        <div className="soc">
-          <a href={`mailto:${BRAND_EMAIL}`}>Email</a>
-          <Link href="/contact-us/">Contact</Link>
-          <Link href="/blog/">Blog</Link>
-          <Link href="/seo-tools/">Tools</Link>
+    <footer ref={footerRef} className="foot" id="foot">
+      <Link ref={fstartRef} className="fstart" href="/contact-us" id="fstart">
+        <div ref={fwRef} className="fw" id="fw">
+          {startRankingText.split('').map((char, index) =>
+            char === ' ' ? ' ' : <span key={index}>{char}</span>
+          )}
         </div>
-        <Link className="lo" href="/">
-          RankEmpire<sup>&reg;</sup>
-        </Link>
-        <span className="bur" aria-hidden="true"></span>
-      </div>
+        <svg className="arr" viewBox="0 0 100 100" aria-hidden="true">
+          <path d="M30 70 L70 30 M40 30 H70 V60" />
+        </svg>
+      </Link>
 
-      <div className="hero2">
-        <div className="bw">
-          <div className="w" aria-hidden="true">
-            RankEmpire<sup>R</sup>
+      <div className="fg">
+        <div className="fbr">
+          <div>
+            <div className="mk">
+              RE<sup>&reg;</sup>
+            </div>
+            <div className="ico">
+              <Link href="/" aria-label="Home">
+                &#10033;
+              </Link>
+              <Link href="/seo-services" aria-label="Services">
+                &#9673;
+              </Link>
+              <Link href="/seo-tools" aria-label="Free tools">
+                &lt;/&gt;
+              </Link>
+            </div>
           </div>
-          <div className="sf">
-            The SEO
-            <br />
-            Company.
+          <div>
+            <h4>SEO, answer engines and AI search, built around calls and revenue.</h4>
+            <div className="cp">
+              &copy; 2026 {BRAND_NAME}. All rights reserved.{' '}
+              <Link href="/privacy-policy">Privacy</Link> &middot;{' '}
+              <Link href="/terms">Terms</Link>
+            </div>
           </div>
-        </div>
-
-        <div className="rc">
-          <p>We work remotely with businesses across the United States.</p>
-          <div className="clk" data-clock>
-            {clock}
-          </div>
-          <div className="tz">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.8"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              aria-hidden="true"
-            >
-              <circle cx="12" cy="12" r="10" />
-              <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-            </svg>
-            Eastern Time (New York)
-          </div>
-          <span className="dot" aria-hidden="true"></span>
-        </div>
-      </div>
-
-      <div className="gr">
-        <div className="ln">
-          <Link href="/">Home</Link>
-          <Link href="/seo-services/">Services</Link>
-          <Link href="/industries/">Industries</Link>
-          <Link href="/seo-packages/">Pricing</Link>
-          <Link href="/case-studies/">Results</Link>
-          <Link href="/contact-us/">Contact</Link>
         </div>
 
-        <div className="ln">
-          <Link href="/about-us/">About</Link>
-          <Link href="/about-us/">Team</Link>
-          <Link href="/blog/">Journal</Link>
-          <Link href="/privacy-policy/">Privacy Policy</Link>
-          <Link href="/terms/">Terms of Service</Link>
-          <Link className="m" href="/sitemap.xml">
-            Sitemap
+        <nav className="flk" aria-label="Footer">
+          <Link href="/seo-services">
+            Services <i>&#8599;</i>
           </Link>
+          <Link href="/industries">
+            Industries <i>&#8599;</i>
+          </Link>
+          <Link href="/case-studies">
+            Results <i>&#8599;</i>
+          </Link>
+          <Link href="/seo-packages">
+            Pricing <i>&#8599;</i>
+          </Link>
+          <Link href="/seo-tools">
+            Free tools <i>&#8599;</i>
+          </Link>
+          <Link href="/contact-us">
+            Contact <i>&#8599;</i>
+          </Link>
+        </nav>
+
+        <div className="ffl">
+          <span className="fh">Follow us</span>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            X/Twitter
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            Instagram
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+            YouTube
+          </a>
         </div>
 
-        <div className="nl">
-          <h4>Stay in the Loop</h4>
-          <p>
-            One practical SEO tip a month, written by the team doing the work.
-          </p>
-          <small>We respect your inbox. No spam, just useful updates.</small>
-          <form onSubmit={handleNewsletter} data-news={BRAND_EMAIL}>
+        <div className="fnl">
+          <div className="gh" aria-hidden="true">
+            Stay ahead
+          </div>
+          <img className="env" src="/img/envelope.webp" alt="" loading="lazy" />
+          <div className="nb">
+            <span className="fh">Newsletter</span>
+            <p>One practical SEO tip a month, written by the team doing the work. No spam.</p>
+          </div>
+          <form id="nl" onSubmit={handleNewsletterSubmit}>
             <input
+              id="nl-e"
               type="email"
               placeholder="Your email"
-              aria-label="Email address"
+              aria-label="Email"
               required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              value={nlEmail}
+              onChange={(e) => setNlEmail(e.target.value)}
             />
-            <button type="submit" aria-label="Subscribe">
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.8"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                aria-hidden="true"
-              >
-                <path d="M5 12h14M13 6l6 6-6 6" />
-              </svg>
-            </button>
+            <button type="submit">{nlSubmitted ? 'Thanks!' : 'Subscribe'}</button>
           </form>
         </div>
-
-        <div className="sl">
-          <Link href="/contact-us/">Free SEO audit</Link>
-          <a href={`mailto:${BRAND_EMAIL}`}>Email us</a>
-          <Link href="/seo-tools/">Free tools</Link>
-          <Link href="/locations/">Locations</Link>
-          <Link href="/case-studies/">Case studies</Link>
-        </div>
       </div>
 
-      <div className="seo">
+      <div className="freach">
         <div>
-          <h6>SEO services</h6>
-          <Link href="/seo-services/">All services</Link>
-          {footerServices.map((slug) => (
-            <Link key={slug} href={`/${slug}/`}>
-              {services[slug]?.name || slug}
-            </Link>
-          ))}
+          <span className="fh">Reach out</span>
+          <a className="femail" href={`mailto:${BRAND_EMAIL}`}>
+            {BRAND_EMAIL}
+          </a>
         </div>
-
-        <div>
-          <h6>Industries</h6>
-          <Link href="/industries/">All industries</Link>
-          {industries.slice(0, 8).map((ind) => (
-            <Link key={ind.slug} href={`/seo-for-${ind.slug}/`}>
-              {ind.name}
-            </Link>
-          ))}
+        <div className="fmeta">
+          <span>rankempire.us</span>
+          <span>
+            Remote &middot; US business hours &middot; <b data-clock>{clock}</b> ET
+          </span>
+          <button type="button" id="ftop" onClick={handleBackToTop}>
+            Back to top &uarr;
+          </button>
         </div>
-
-        <div>
-          <h6>Locations</h6>
-          <Link href="/locations/">All locations</Link>
-          {locations.slice(0, 8).map((c) => (
-            <Link key={c.slug} href={`/locations/${c.slug}/`}>
-              {c.name}
-            </Link>
-          ))}
-        </div>
-
-        <div>
-          <h6>Free SEO tools</h6>
-          <Link href="/seo-tools/">All free tools</Link>
-          {tools.slice(0, 8).map((t) => (
-            <Link key={t.slug} href={`/seo-tools/${t.slug}/`}>
-              {t.name}
-            </Link>
-          ))}
-        </div>
-      </div>
-
-      <div className="fb">
-        <span>&copy; 2026 {BRAND_NAME}. All rights reserved.</span>
-        <span>{BRAND_EMAIL}</span>
-        <span>Built to rank</span>
       </div>
     </footer>
   );

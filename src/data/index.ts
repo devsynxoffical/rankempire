@@ -121,12 +121,59 @@ export const locations: LocationData[] = rawData.locations as unknown as Locatio
 export const locationsLong: Record<string, any> = (rawData as Record<string, unknown>).locationsLong as Record<string, any> || {};
 export const logos: LogoItem[] = (((rawData as Record<string, unknown>).logos || []) as LogoItem[]);
 export const packages: Record<string, PackageData> = rawData.packages as unknown as Record<string, PackageData>;
-export const tools: ToolData[] = rawData.tools as unknown as ToolData[];
-export const team: TeamMember[] = rawData.team as unknown as TeamMember[];
+export const tools: ToolData[] = (
+  (rawData.tools as unknown as (ToolData | [string, string, string, string])[]) || []
+).map((t) => {
+  if (Array.isArray(t)) {
+    return {
+      slug: t[0],
+      name: t[1],
+      type: t[2],
+      desc: t[3],
+    };
+  }
+  return t;
+});
+export const team: TeamMember[] = (
+  (rawData.team as unknown as (TeamMember | [string, string, string, string])[]) || []
+).map((tm) => {
+  if (Array.isArray(tm)) {
+    return {
+      id: tm[0],
+      name: tm[1],
+      role: tm[2],
+      bio: tm[3],
+    };
+  }
+  return tm;
+});
 export const blogPosts: BlogPost[] = rawData.blog as unknown as BlogPost[];
-export const faqHome: FAQItem[] = rawData.faqHome as unknown as FAQItem[];
+export const faqHome: FAQItem[] = (
+  (rawData.faqHome as unknown as (FAQItem | [string, string, string])[]) || []
+).map((f) => {
+  if (Array.isArray(f)) {
+    return {
+      cat: f[0],
+      q: f[1],
+      a: f[2],
+    };
+  }
+  return f;
+});
 export const playbooks: PlaybookItem[] = rawData.playbooks as unknown as PlaybookItem[];
-export const trustItems: TrustItem[] = rawData.trust as unknown as TrustItem[];
+export const trustItems: TrustItem[] = (
+  (rawData.trust as unknown as (TrustItem | [string, string, string, string])[]) || []
+).map((tr) => {
+  if (Array.isArray(tr)) {
+    return {
+      title: tr[0],
+      desc: tr[1],
+      bold: tr[2],
+      badge: tr[3],
+    };
+  }
+  return tr;
+});
 export const stack: string[] = rawData.stack as unknown as string[];
 
 export const SITE_URL = "https://www.rankempire.com";

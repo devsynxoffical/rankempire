@@ -674,7 +674,64 @@ export default function ClientAnimations() {
       nh.addEventListener("pointerleave", nhPointerLeave);
     }
 
-    // 27. Custom smooth cursor on desktop fine pointer
+    // 27. Motion loops autoplay kicker
+    const videoElements = [...document.querySelectorAll<HTMLVideoElement>('video[autoplay]')];
+    if (videoElements.length > 0) {
+      const kick = (v: HTMLVideoElement) => {
+        v.muted = true;
+        v.playsInline = true;
+        const p = v.play();
+        if (p && typeof p.catch === "function") p.catch(() => {});
+      };
+      const videoIo = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            const vid = e.target as HTMLVideoElement;
+            if (e.isIntersecting) kick(vid);
+            else vid.pause();
+          });
+        },
+        { rootMargin: "200px" }
+      );
+      videoElements.forEach((v) => {
+        v.setAttribute("preload", "auto");
+        videoIo.observe(v);
+      });
+      window.addEventListener("pointerdown", () => videoElements.forEach(kick), { once: true });
+      window.addEventListener("touchstart", () => videoElements.forEach(kick), { once: true });
+    }
+
+    // 28. yfacts animated counters
+    const factCounters = $$(".yfacts b[data-count]");
+    if (factCounters.length > 0) {
+      const factIo = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            factIo.unobserve(entry.target);
+            const b = entry.target as HTMLElement;
+            const raw = b.dataset.raw || b.textContent || "";
+            const n = parseFloat(raw);
+            if (isNaN(n)) return;
+            const t0 = performance.now();
+            const d = 1400;
+            const tick = (t: number) => {
+              const k = Math.min(1, (t - t0) / d);
+              const v = n * (1 - Math.pow(1 - k, 3));
+              b.textContent =
+                (Number.isInteger(n) ? Math.round(v) : v.toFixed(1)) +
+                raw.replace(/[\d.]/g, "");
+              if (k < 1) requestAnimationFrame(tick);
+            };
+            requestAnimationFrame(tick);
+          });
+        },
+        { threshold: 0.5 }
+      );
+      factCounters.forEach((el) => factIo.observe(el));
+    }
+
+    // 29. Custom smooth cursor on desktop fine pointer
     let curCleanup: (() => void) | null = null;
     if (!RM && window.matchMedia("(hover:hover) and (pointer:fine)").matches) {
       let d = $(".cur");

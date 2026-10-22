@@ -1,210 +1,204 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
-import TrustSection from "@/components/sections/TrustSection";
-import FAQSection from "@/components/sections/FAQSection";
-import CTASection from "@/components/sections/CTASection";
-import { ArrowIcon, GlobeIcon, ChartIcon, TargetIcon } from "@/components/common/Icons";
-import { faqHome } from "@/data";
+import Founder from "@/components/sections/Founder";
+
+export const metadata: Metadata = {
+  title: "About Us | RankEmpire",
+  description:
+    "RankEmpire was built on a simple idea: SEO should be transparent, measurable and designed to last. Meet our strategists, technical specialists and writers.",
+  alternates: {
+    canonical: "/about-us/",
+  },
+};
 
 export default function AboutUsPage() {
-  const [backdrop, setBackdrop] = useState<"l" | "o" | "d">("l");
-
-  const handlePointerMove = (e: React.PointerEvent<HTMLElement>) => {
-    const el = e.currentTarget;
-    const r = el.getBoundingClientRect();
-    el.style.setProperty("--lx", (((e.clientX - r.left) / r.width) * 100).toFixed(1) + "%");
-    el.style.setProperty("--ly", (((e.clientY - r.top) / r.height) * 100).toFixed(1) + "%");
-  };
-
-  const cycleBackdrop = (e: React.MouseEvent<HTMLElement>) => {
-    if ((e.target as HTMLElement).closest("a, button")) return;
-    const order: ("l" | "o" | "d")[] = ["l", "o", "d"];
-    const nextIdx = (order.indexOf(backdrop) + 1) % 3;
-    setBackdrop(order[nextIdx]);
-  };
-
   return (
     <>
-      {/* 1. Mara Voss Interactive Hero */}
-      <section
-        className="mv"
-        data-bd={backdrop}
-        aria-labelledby="mv-h"
-        onPointerMove={handlePointerMove}
-        onClick={cycleBackdrop}
-      >
-        <div className="w2">
-          <div>
-            <nav className="crumb" aria-label="Breadcrumb">
-              <Link href="/">Home</Link>
-              <span className="sep">/</span>
-              <span aria-current="page">About Us</span>
-            </nav>
-            <h1 id="mv-h" style={{ marginTop: "22px" }}>
-              SEO strategists &amp; builders
-            </h1>
-            <p className="ld">
-              RankEmpire is an SEO company for local businesses, e-commerce brands
-              and SaaS companies that want rankings to become a lasting asset.
-            </p>
-            <div className="bts">
-              <Link className="vb" href="/case-studies/">
-                See our results
-                <b>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.8"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    aria-hidden="true"
-                  >
-                    <path d="M7 17 17 7M8 7h9v9" />
-                  </svg>
-                </b>
-              </Link>
-              <Link className="vb l" href="#team">
-                Meet the team
-                <b>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.8"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    aria-hidden="true"
-                  >
-                    <path d="M7 17 17 7M8 7h9v9" />
-                  </svg>
-                </b>
-              </Link>
-            </div>
-          </div>
-
-          <div className="meta">
-            <div>
-              <i></i>Taking new clients &middot; Nov 2026
-            </div>
-            <div>Remote &middot; US business hours</div>
-            <div>45 industry playbooks</div>
-          </div>
-        </div>
-
-        <div className="giant" aria-hidden="true">
-          RankEmpire
-        </div>
-
-        <div className="person">
-          <img src="/img/v3-person.webp" alt="Senior SEO Strategist" fetchPriority="high" />
-        </div>
-
-        <div className="hint" aria-hidden="true">
-          Move the light &middot; pick a backdrop
-        </div>
-
-        <div className="bd" role="group" aria-label="Backdrop color">
-          Backdrop
-          <button
-            type="button"
-            data-bd="l"
-            aria-pressed={backdrop === "l"}
-            style={{ background: "#e9e3da" }}
-            aria-label="Sand"
-            onClick={() => setBackdrop("l")}
-          />
-          <button
-            type="button"
-            data-bd="o"
-            aria-pressed={backdrop === "o"}
-            style={{ background: "#ff5a3c" }}
-            aria-label="Coral"
-            onClick={() => setBackdrop("o")}
-          />
-          <button
-            type="button"
-            data-bd="d"
-            aria-pressed={backdrop === "d"}
-            style={{ background: "#141416" }}
-            aria-label="Dark"
-            onClick={() => setBackdrop("d")}
-          />
-        </div>
-      </section>
-
-      {/* 2. Stand for KPIs */}
-      <section className="sec tight">
+      {/* 1. V7 YH Hero with 3D Desk video */}
+      <section className="yh">
+        <canvas className="grain" aria-hidden="true" />
         <div className="wrap">
-          <div className="kpis" data-stagger>
-            <div className="kpi ac">
-              <b>45+</b>
-              <span>Industries with dedicated strategies</span>
+          <nav className="crumb" aria-label="Breadcrumb">
+            <Link href="/">Home</Link>
+            <span className="sep">/</span>
+            <span aria-current="page">About Us</span>
+          </nav>
+          <div className="yh-g">
+            <div className="yh-l">
+              <span className="eyb pill lt" data-r>
+                <i />
+                About RankEmpire
+              </span>
+              <h1 data-r>
+                We build search <span className="acc">empires</span> for ambitious businesses
+              </h1>
+              <p className="lead" data-r>
+                RankEmpire is an SEO company for local businesses, e-commerce brands and SaaS
+                companies that want rankings to become a lasting asset.
+              </p>
+              <div className="yh-cta" data-r>
+                <form className="audit" action="/contact-us/" role="search" aria-label="Free SEO audit">
+                  <svg className="g" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <circle cx="12" cy="12" r="9" />
+                    <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" />
+                  </svg>
+                  <label className="sr-only" htmlFor="au-about">
+                    Your website
+                  </label>
+                  <input
+                    id="au-about"
+                    name="site"
+                    type="text"
+                    inputMode="url"
+                    placeholder="Enter your website, e.g. yourbusiness.com"
+                    autoComplete="url"
+                  />
+                  <button className="btn ac" type="submit">
+                    Get my free audit
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.8"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M5 12h14M13 6l6 6-6 6" />
+                    </svg>
+                  </button>
+                </form>
+                <div className="ticks lt">
+                  <span>Free audit in 2 business days</span>
+                  <span>Month to month</span>
+                  <span>Plain-English reporting</span>
+                </div>
+              </div>
             </div>
-            <div className="kpi">
-              <b>17</b>
-              <span>US metro markets served</span>
+
+            <div className="yh-v" data-r="s">
+              <div className="yh-m">
+                <video
+                  className="mv3d"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  poster="/img/m-desk.jpg"
+                  aria-label="About RankEmpire"
+                >
+                  <source src="/img/m-desk.mp4" type="video/mp4" />
+                </video>
+                <div className="yh-ch">
+                  <span style={{ ['--i' as string]: 0 }}>Audit first</span>
+                  <span style={{ ['--i' as string]: 1 }}>Plain English</span>
+                  <span style={{ ['--i' as string]: 2 }}>You own it</span>
+                  <span style={{ ['--i' as string]: 3 }}>Built to last</span>
+                </div>
+                <div className="yh-ring" aria-hidden="true" />
+              </div>
             </div>
-            <div className="kpi">
-              <b>11</b>
-              <span>Free SEO tools for anyone</span>
+          </div>
+
+          <div className="yfacts" data-r>
+            <div style={{ ['--c' as string]: '#ec4e3b' }}>
+              <b data-count="45" data-raw="45">
+                45
+              </b>
+              <span>Industry playbooks</span>
             </div>
-            <div className="kpi">
-              <b>0</b>
-              <span>Long-term lock-in contracts</span>
+            <div style={{ ['--c' as string]: '#2b55e8' }}>
+              <b data-count="17" data-raw="17">
+                17
+              </b>
+              <span>US metros</span>
+            </div>
+            <div style={{ ['--c' as string]: '#e37a38' }}>
+              <b data-count="11" data-raw="11">
+                11
+              </b>
+              <span>Free SEO tools</span>
+            </div>
+            <div style={{ ['--c' as string]: '#4a9f5f' }}>
+              <b data-count="0" data-raw="0">
+                0
+              </b>
+              <span>Lock-in contracts</span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 3. Our Story */}
-      <section className="sec">
-        <div className="wrap fwrap">
-          <div className="side" data-r>
-            <span className="eyb">Our story</span>
-            <h2 className="h2" style={{ marginTop: "14px" }}>
-              Not just another SEO agency.
-            </h2>
+      {/* 2. Statement Section */}
+      <section className="yst">
+        <div className="wrap">
+          <span className="eyb" data-r>
+            Our story
+          </span>
+          <p className="st" data-words>
+            RankEmpire was built on a simple idea: SEO should be transparent, measurable and
+            designed to last. Too many businesses pay for activity they cannot see and reports
+            they cannot read. We are strategists, technical specialists and writers who do the work
+            ourselves, report in plain English and leave you owning everything we build.
+          </p>
+        </div>
+      </section>
+
+      {/* 3. Four Rules We Never Break */}
+      <section className="x xfeat" id="beliefs">
+        <div className="wrap">
+          <div className="xh" data-r>
+            <span className="xe">
+              <i />
+              What we believe
+            </span>
+            <h2 className="h2">Four rules we never break</h2>
           </div>
-          <div className="prose" data-r>
-            <p>
-              RankEmpire was built on a simple idea: SEO should be transparent,
-              measurable and designed to last. Too many businesses pay for activity
-              they cannot see and reports they cannot read.
-            </p>
-            <p>
-              We are a team of strategists, technical specialists and writers who do
-              the work ourselves. Every engagement starts with an audit, follows a
-              roadmap ranked by revenue impact and is reported in plain English.
-            </p>
-            <h3>What we believe</h3>
-            <ul>
-              <li>Audit before action, always.</li>
-              <li>Report on calls, leads and revenue, not vanity metrics.</li>
-              <li>Use only tactics that survive algorithm updates.</li>
-              <li>Clients own everything we build.</li>
-            </ul>
+          <div className="xf-g n4">
+            <article className="xf" style={{ ['--c' as string]: '#ec4e3b' }} data-r>
+              <span className="n">01</span>
+              <h3>Audit before action</h3>
+              <p>Every engagement starts with a full audit, so the first month goes to the work that matters most.</p>
+            </article>
+            <article className="xf" style={{ ['--c' as string]: '#2b55e8' }} data-r>
+              <span className="n">02</span>
+              <h3>Report what pays</h3>
+              <p>Calls, leads and revenue, not vanity metrics or 40-page PDFs.</p>
+            </article>
+            <article className="xf" style={{ ['--c' as string]: '#e37a38' }} data-r>
+              <span className="n">03</span>
+              <h3>Built to last</h3>
+              <p>Only tactics that survive algorithm updates. No link networks, no shortcuts.</p>
+            </article>
+            <article className="xf" style={{ ['--c' as string]: '#4a9f5f' }} data-r>
+              <span className="n">04</span>
+              <h3>You own it</h3>
+              <p>Content, pages, links and data belong to you, during and after our work together.</p>
+            </article>
           </div>
         </div>
       </section>
 
-      {/* 4. Results Section */}
+      {/* 4. Founder Section */}
+      <Founder />
+
+      {/* 5. Verified Results Stats */}
       <section className="sec results alt" id="results">
         <div className="wrap rgrid">
           <div data-r>
             <span className="eyb pill">
-              <i></i>Verified client results
+              <i />
+              Verified client results
             </span>
-            <h2 className="h2" style={{ margin: "16px 0 14px" }}>
+            <h2 className="h2" style={{ margin: '16px 0 14px' }}>
               Results we are proud of.
             </h2>
-            <p className="lead" style={{ fontSize: "17px" }}>
-              Real performance data from a client&apos;s Google Search Console, last 6
-              months. No mockups, no estimates, just what Google reports.
+            <p className="lead" style={{ fontSize: '17px' }}>
+              Real performance data from a client&apos;s Google Search Console, last 6 months. No
+              mockups, no estimates, just what Google reports.
             </p>
-
             <div className="rk" data-stagger>
               <div className="k1">
                 <b>
@@ -231,145 +225,94 @@ export default function AboutUsPage() {
                 <span>Average position</span>
               </div>
             </div>
-
             <div className="rmeta">
               <span>Education website</span>
               <span>Search type: Web</span>
               <span>Apr to Oct 2026</span>
             </div>
-
-            <div style={{ marginTop: "24px", display: "flex", gap: "10px", flexWrap: "wrap" }}>
+            <div style={{ marginTop: '24px', display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
               <Link className="btn dk" href="/case-studies/">
                 See case studies
-                <ArrowIcon />
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
               </Link>
               <Link className="btn ln" href="/contact-us/">
                 Get results like this
-                <ArrowIcon />
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
               </Link>
-            </div>
-          </div>
-
-          <div className="rwrap" data-r="s">
-            <div className="bframe">
-              <div className="bb">
-                <i></i>
-                <i></i>
-                <i></i>
-                <span>search.google.com / search-console / performance</span>
-              </div>
-              <img
-                src="/img/r-gsc1.webp"
-                alt="Google Search Console performance report showing 42.1K clicks, 240K impressions, 17.6% average CTR and 7.5 average position over 6 months"
-                loading="lazy"
-                width={1600}
-                height={868}
-              />
-            </div>
-            <div className="rbadge b">
-              <span className="g">
-                <ChartIcon />
-              </span>
-              <span>
-                <b>17.6% CTR</b>6-month average
-              </span>
-            </div>
-            <div className="rbadge a">
-              <span className="g">
-                <TargetIcon />
-              </span>
-              <span>
-                <b>Avg. position 7.5</b>first page of Google
-              </span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 5. Six Commitments Trust Section */}
-      <TrustSection />
-
-      {/* 6. Team */}
-      <section className="sec" id="team">
+      {/* 6. YCTA Section */}
+      <section className="ycta">
         <div className="wrap">
-          <div className="shr">
-            <div className="sh" data-r>
-              <span className="eyb">Team</span>
-              <h2 className="h2">The people behind the work</h2>
-            </div>
-            <div data-r>
-              <Link className="btn ln" href="/contact-us/">
-                Work with our team
-                <ArrowIcon />
-              </Link>
-            </div>
-          </div>
-
-          <div className="team" data-stagger>
-            <div className="tm">
-              <div className="ph2">
-                <img
-                  src="/img/t1.webp"
-                  alt="Daniel Brooks, Founder and Head of Strategy"
-                  loading="lazy"
-                />
-              </div>
-              <h3>Daniel Brooks</h3>
-              <p className="rl">Founder and Head of Strategy</p>
-              <p>Leads strategy across every account and still runs audits himself.</p>
-            </div>
-
-            <div className="tm">
-              <div className="ph2">
-                <img
-                  src="/img/t2.webp"
-                  alt="Sofia Ramirez, Director of Local SEO"
-                  loading="lazy"
-                />
-              </div>
-              <h3>Sofia Ramirez</h3>
-              <p className="rl">Director of Local SEO</p>
-              <p>Runs the local search program for service businesses and multi-location brands.</p>
-            </div>
-
-            <div className="tm">
-              <div className="ph2">
-                <img
-                  src="/img/t3.webp"
-                  alt="Marcus Lee, Technical SEO Lead"
-                  loading="lazy"
-                />
-              </div>
-              <h3>Marcus Lee</h3>
-              <p className="rl">Technical SEO Lead</p>
-              <p>Owns crawling, rendering, site speed and migrations.</p>
-            </div>
-
-            <div className="tm">
-              <div className="ph2">
-                <img
-                  src="/img/t4.webp"
-                  alt="Helen Carter, Head of Content"
-                  loading="lazy"
-                />
-              </div>
-              <h3>Helen Carter</h3>
-              <p className="rl">Head of Content</p>
-              <p>Plans topic clusters and edits every piece before it ships.</p>
-            </div>
+          <div className="ycta-b" data-r>
+            <div className="g1" />
+            <div className="g2" />
+            <span className="eyb pill lt">
+              <i />
+              Free SEO audit
+            </span>
+            <h2>Ready to see what is holding your site back?</h2>
+            <p>
+              We run a full audit across technical SEO, on-page factors, backlinks and competitors,
+              then send a prioritized plan within 2 business days.
+            </p>
+            <form className="audit" action="/contact-us/" role="search" aria-label="Free SEO audit">
+              <svg className="g" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" />
+              </svg>
+              <label className="sr-only" htmlFor="au-about-cta">
+                Your website
+              </label>
+              <input
+                id="au-about-cta"
+                name="site"
+                type="text"
+                inputMode="url"
+                placeholder="Enter your website, e.g. yourbusiness.com"
+                autoComplete="url"
+              />
+              <button className="btn ac" type="submit">
+                Get my free audit
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" />
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
       </section>
-
-      {/* 7. FAQs */}
-      <FAQSection
-        items={faqHome.slice(0, 6)}
-        title="About working with us"
-        sub="Straight answers about SEO and how we work."
-      />
-
-      {/* 8. CTA */}
-      <CTASection />
     </>
   );
 }

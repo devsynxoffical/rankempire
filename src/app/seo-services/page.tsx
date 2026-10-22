@@ -27,7 +27,7 @@ import {
 export const metadata: Metadata = {
   title: "SEO Services: Technical, Local, Content & Link Building | RankEmpire",
   description:
-    "Pick a single service or combine them into a full program. 18 SEO services for local, e-commerce and SaaS brands.",
+    "Pick a single service or combine them into a full program. 21 SEO services for local, e-commerce and SaaS brands.",
   alternates: {
     canonical: "/seo-services/",
   },

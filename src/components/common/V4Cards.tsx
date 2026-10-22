@@ -32,6 +32,43 @@ export function XHeader({
   );
 }
 
+export function getVideoForService(serviceOrImg: string): { video: string; poster: string } | null {
+  const s = serviceOrImg.toLowerCase();
+  if (s.includes("local") || s.includes("google-business") || s.includes("map")) {
+    return { video: "/img/m-local.mp4", poster: "/img/m-local.jpg" };
+  }
+  if (s.includes("tech") || s.includes("speed") || s.includes("crawl")) {
+    return { video: "/img/m-tech.mp4", poster: "/img/m-tech.jpg" };
+  }
+  if (s.includes("content") || s.includes("page-seo") || s.includes("copy")) {
+    return { video: "/img/m-content.mp4", poster: "/img/m-content.jpg" };
+  }
+  if (s.includes("aeo") || s.includes("geo") || s.includes("ai")) {
+    return { video: "/img/m-ai.mp4", poster: "/img/m-ai.jpg" };
+  }
+  if (
+    s.includes("audit") ||
+    s.includes("strat") ||
+    s.includes("keyword") ||
+    s.includes("competitor") ||
+    s.includes("consult")
+  ) {
+    return { video: "/img/m-strat.mp4", poster: "/img/m-strat.jpg" };
+  }
+  if (
+    s.includes("ecommerce") ||
+    s.includes("saas") ||
+    s.includes("b2b") ||
+    s.includes("growth") ||
+    s.includes("link") ||
+    s.includes("national") ||
+    s.includes("enterprise")
+  ) {
+    return { video: "/img/m-growth.mp4", poster: "/img/m-growth.jpg" };
+  }
+  return { video: "/img/m-desk.mp4", poster: "/img/m-desk.jpg" };
+}
+
 export function XHero({
   crumbs,
   pill,
@@ -53,10 +90,12 @@ export function XHero({
   facts?: [string, string][];
   extra?: React.ReactNode;
 }) {
+  const videoData = getVideoForService(img || alt || pill);
   const imgSrc = img.startsWith("/") ? img : `/img/${img.replace(/^img\//, "")}`;
 
   return (
-    <section className="ph xph">
+    <section className="yh">
+      <canvas className="grain" aria-hidden="true" />
       <div className="wrap">
         <nav className="crumb" aria-label="Breadcrumb">
           {crumbs.map((c, i) => (
@@ -71,19 +110,19 @@ export function XHero({
           ))}
         </nav>
 
-        <div className="phg">
-          <div>
-            <span className="eyb pill" data-r>
-              <i></i>
+        <div className="yh-g">
+          <div className="yh-l">
+            <span className="eyb pill lt" data-r>
+              <i />
               {pill}
             </span>
             <h1 data-r dangerouslySetInnerHTML={{ __html: h1 }} />
             <p className="lead" data-r>
               {lead}
             </p>
-            <div data-r>
+            <div className="yh-cta" data-r>
               <AuditForm />
-              <div className="ticks">
+              <div className="ticks lt">
                 <span>Free audit in 2 business days</span>
                 <span>Month to month</span>
                 <span>Plain-English reporting</span>
@@ -91,36 +130,59 @@ export function XHero({
             </div>
           </div>
 
-          <div className="vis" data-r="s">
-            <div className="xhim">
-              <Image
-                src={imgSrc}
-                alt={alt || "SEO"}
-                width={600}
-                height={550}
-                priority
-                style={{ objectFit: "cover", width: "100%", height: "100%" }}
-              />
+          <div className="yh-v" data-r="s">
+            <div className="yh-m">
+              {videoData ? (
+                <video
+                  className="mv3d"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  poster={videoData.poster}
+                  aria-label={alt || "SEO"}
+                >
+                  <source src={videoData.video} type="video/mp4" />
+                </video>
+              ) : (
+                <Image
+                  src={imgSrc}
+                  alt={alt || "SEO"}
+                  width={600}
+                  height={550}
+                  priority
+                  style={{ objectFit: "cover", width: "100%", height: "100%" }}
+                />
+              )}
               {chips.length > 0 && (
-                <div className="tg">
-                  {chips.slice(0, 4).map((ch, i) => (
-                    <span key={i}>{ch}</span>
+                <div className="yh-ch">
+                  {chips.slice(0, 5).map((ch, i) => (
+                    <span key={i} style={{ ["--i" as string]: i }}>
+                      {ch}
+                    </span>
                   ))}
                 </div>
               )}
+              <div className="yh-ring" aria-hidden="true" />
             </div>
             {extra}
           </div>
         </div>
 
         {facts.length > 0 && (
-          <div className="xfacts" data-r>
-            {facts.map(([val, label], i) => (
-              <div key={i} style={{ "--c": col(i) } as React.CSSProperties}>
-                <b>{val}</b>
-                <span>{label}</span>
-              </div>
-            ))}
+          <div className="yfacts" data-r>
+            {facts.map(([val, label], i) => {
+              const rawVal = val.replace(/[^0-9.]/g, "");
+              return (
+                <div key={i} style={{ ["--c" as string]: col(i) }}>
+                  <b data-count={rawVal || val} data-raw={val}>
+                    {val}
+                  </b>
+                  <span>{label}</span>
+                </div>
+              );
+            })}
           </div>
         )}
       </div>
@@ -145,6 +207,7 @@ export function XOverview({
   alt?: string;
   id?: string;
 }) {
+  const videoData = getVideoForService(img || alt || eyb || h2);
   const imgSrc = img.startsWith("/") ? img : `/img/${img.replace(/^img\//, "")}`;
 
   return (
@@ -167,21 +230,36 @@ export function XOverview({
 
           <div className="xov-v" data-r="s">
             <div className="xim">
-              <Image
-                src={imgSrc}
-                alt={alt || "Overview"}
-                width={560}
-                height={480}
-                loading="lazy"
-                style={{ objectFit: "cover", width: "100%", height: "100%" }}
-              />
+              {videoData ? (
+                <video
+                  className="mv3d"
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  preload="metadata"
+                  poster={videoData.poster}
+                  aria-label={alt || "Overview"}
+                >
+                  <source src={videoData.video} type="video/mp4" />
+                </video>
+              ) : (
+                <Image
+                  src={imgSrc}
+                  alt={alt || "Overview"}
+                  width={560}
+                  height={480}
+                  loading="lazy"
+                  style={{ objectFit: "cover", width: "100%", height: "100%" }}
+                />
+              )}
             </div>
             {facts.length > 0 && (
               <div className="xglance">
                 <b className="t">At a glance</b>
                 <ul>
                   {facts.map(([f, l], i) => (
-                    <li key={i} style={{ "--c": col(i) } as React.CSSProperties}>
+                    <li key={i} style={{ ["--c" as string]: col(i) }}>
                       <b>{f}</b>
                       <span>{l}</span>
                     </li>

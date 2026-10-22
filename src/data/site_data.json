@@ -1207,6 +1207,249 @@
         "contact-us"
       ],
       "slug": "seo-consulting"
+    },
+    "b2b-seo": {
+      "name": "B2B SEO",
+      "group": "core",
+      "img": "x-ai",
+      "title": "B2B SEO Agency: Pipeline From Organic Search | RankEmpire",
+      "desc": "B2B SEO that fills the pipeline: bottom-funnel pages, buyer-intent content, account-based landing pages and attribution from organic search to closed deals.",
+      "h1": "B2B SEO that turns searches into <em>pipeline</em>",
+      "sub": "Built for long sales cycles, multiple decision makers and deals that start with a search months before the demo.",
+      "intro": "B2B buyers research quietly. They compare vendors, read guides, check reviews and only then book a call. B2B SEO means being the clear answer at every one of those steps, from problem-aware searches to vendor comparisons, with pages that speak to each role on the buying committee.",
+      "inc": [
+        [
+          "Buyer-intent keyword map",
+          "Searches grouped by funnel stage and buyer role, so every page has one job."
+        ],
+        [
+          "Bottom-funnel pages",
+          "Comparison, alternative, pricing and use-case pages that convert evaluators into demos."
+        ],
+        [
+          "Thought leadership content",
+          "Original research, guides and expert bylines that earn links and trust."
+        ],
+        [
+          "Account-based landing pages",
+          "Industry and company-size pages that mirror how your sales team pitches."
+        ],
+        [
+          "Technical foundation",
+          "Crawl, speed, schema and site architecture fixed for complex B2B sites."
+        ],
+        [
+          "Pipeline attribution",
+          "Organic leads tracked through your CRM to opportunities and revenue."
+        ]
+      ],
+      "fit": [
+        "B2B software and services with 30 to 180 day sales cycles",
+        "Companies selling to multiple decision makers",
+        "Teams whose blog traffic does not turn into demos",
+        "Businesses entering a new market or vertical"
+      ],
+      "steps": [
+        [
+          "Buying-committee research",
+          "We map how each role searches, from the champion to the CFO."
+        ],
+        [
+          "Money pages first",
+          "Comparison, alternative and solution pages go live in the first 60 days."
+        ],
+        [
+          "Authority content",
+          "Research reports and guides build topical depth and earn editorial links."
+        ],
+        [
+          "CRM attribution",
+          "Organic leads are tracked to pipeline and closed revenue every month."
+        ]
+      ],
+      "faq": [
+        [
+          "How is B2B SEO different from regular SEO?",
+          "B2B searches are lower volume but far higher value. We optimize for intent and buyer role, not raw traffic, and report on pipeline instead of pageviews."
+        ],
+        [
+          "How long until B2B SEO produces leads?",
+          "Bottom-funnel pages often produce demo requests within 2 to 4 months. Authority content compounds over 6 to 12 months."
+        ],
+        [
+          "Do you integrate with our CRM?",
+          "Yes. We connect organic leads to HubSpot, Salesforce or Pipedrive so you can see which pages create pipeline."
+        ]
+      ],
+      "related": [
+        "saas-seo",
+        "content-seo",
+        "link-building",
+        "aeo"
+      ],
+      "slug": "b2b-seo"
+    },
+    "aeo": {
+      "name": "Answer Engine Optimization",
+      "group": "core",
+      "img": "x-ai",
+      "title": "AEO: Answer Engine Optimization Services | RankEmpire",
+      "desc": "Answer engine optimization that wins featured snippets, People Also Ask, voice answers and AI answer boxes with structured, quotable content.",
+      "h1": "Be the <em>answer</em>, not just a result",
+      "sub": "Answer engine optimization puts your pages inside featured snippets, People Also Ask, voice search and AI answer boxes.",
+      "intro": "More than half of searches now end without a click. The answer appears on the results page, in a voice assistant or inside an AI summary. AEO structures your content so engines can lift it directly: clear question headings, concise answers, schema markup and the entity signals that prove you are the source worth quoting.",
+      "inc": [
+        [
+          "Question research",
+          "Every question your customers ask, mapped from search data, support tickets and sales calls."
+        ],
+        [
+          "Answer-first page structure",
+          "Headings, 40 to 60 word answers and supporting detail laid out the way engines parse."
+        ],
+        [
+          "FAQ and HowTo schema",
+          "Structured data that makes answers machine readable and eligible for rich results."
+        ],
+        [
+          "Featured snippet targeting",
+          "Pages rebuilt to win position zero for the questions that matter most."
+        ],
+        [
+          "Voice search optimization",
+          "Conversational phrasing and local signals for Siri, Alexa and Google Assistant."
+        ],
+        [
+          "Answer tracking",
+          "Monthly report on snippets, PAA boxes and voice answers won or lost."
+        ]
+      ],
+      "fit": [
+        "Service businesses answering the same questions on every call",
+        "Brands with expertise that competitors keep getting credit for",
+        "Sites with traffic but low click share on informational searches",
+        "Companies preparing for AI-first search"
+      ],
+      "steps": [
+        [
+          "Question mining",
+          "We collect the questions your buyers ask and rank them by value."
+        ],
+        [
+          "Answer architecture",
+          "Pages are restructured with answer-first sections and schema."
+        ],
+        [
+          "Entity building",
+          "Author profiles, about pages and citations establish you as a trusted source."
+        ],
+        [
+          "Win and defend",
+          "We track every snippet and answer box and keep improving the ones that slip."
+        ]
+      ],
+      "faq": [
+        [
+          "Is AEO different from SEO?",
+          "AEO is a layer on top of SEO. Rankings still matter, but AEO makes your content the one engines extract and show as the answer."
+        ],
+        [
+          "Does AEO reduce clicks to my site?",
+          "Winning the answer increases brand visibility and usually increases qualified clicks, because the answer carries your name and link."
+        ],
+        [
+          "Which schema types do you use?",
+          "FAQPage, HowTo, Speakable, Organization, Product and LocalBusiness, chosen per page."
+        ]
+      ],
+      "related": [
+        "geo",
+        "content-seo",
+        "on-page-seo",
+        "technical-seo"
+      ],
+      "slug": "aeo"
+    },
+    "geo": {
+      "name": "Generative Engine Optimization",
+      "group": "core",
+      "img": "x-ai",
+      "title": "GEO: Generative Engine Optimization for AI Search | RankEmpire",
+      "desc": "Generative engine optimization that gets your business cited in Google AI Overviews, ChatGPT, Perplexity, Gemini and Copilot answers.",
+      "h1": "Get cited by <em>AI search</em>",
+      "sub": "Generative engine optimization makes your brand the source AI Overviews, ChatGPT and Perplexity quote when customers ask.",
+      "intro": "AI engines do not rank ten blue links. They write one answer and cite a handful of sources. GEO is the work of becoming one of those sources: entity-rich content, original data, consistent facts across the web and the technical access AI crawlers need. We track your share of voice across the major engines and grow it month by month.",
+      "inc": [
+        [
+          "AI visibility audit",
+          "Where you appear, and where competitors do, across AI Overviews, ChatGPT, Perplexity, Gemini and Copilot."
+        ],
+        [
+          "Entity and knowledge graph work",
+          "Consistent name, facts and relationships across your site, Wikipedia-style sources and directories."
+        ],
+        [
+          "Citation-worthy content",
+          "Original statistics, expert quotes and clear definitions that language models prefer to cite."
+        ],
+        [
+          "AI crawler access",
+          "robots.txt, llms.txt and rendering set up so AI systems can read your pages."
+        ],
+        [
+          "Brand mention building",
+          "Digital PR and partnerships that put your brand in the sources AI models learn from."
+        ],
+        [
+          "AI share-of-voice reporting",
+          "Monthly tracking of prompts, citations and sentiment across every major engine."
+        ]
+      ],
+      "fit": [
+        "Brands losing visibility as AI Overviews expand",
+        "Companies whose competitors are cited by ChatGPT and they are not",
+        "Businesses with real expertise and data to share",
+        "Teams that want to lead their category in AI answers"
+      ],
+      "steps": [
+        [
+          "Prompt research",
+          "We find the questions buyers ask AI engines about your category."
+        ],
+        [
+          "Source building",
+          "Content and entity work make you citable and consistent across the web."
+        ],
+        [
+          "Access and structure",
+          "Crawlers, schema and page structure are opened and cleaned for AI systems."
+        ],
+        [
+          "Track and expand",
+          "Citations and share of voice are measured monthly and the plan adjusts."
+        ]
+      ],
+      "faq": [
+        [
+          "Can you guarantee citations in ChatGPT or AI Overviews?",
+          "No one can guarantee AI output. We can show measurable growth in how often and how favorably you are cited, which is what we report on."
+        ],
+        [
+          "Does GEO replace SEO?",
+          "No. AI engines draw heavily on top-ranking pages. Strong SEO is the base, and GEO adds the entity, data and access work on top."
+        ],
+        [
+          "How do you measure GEO?",
+          "We run a fixed set of prompts across each engine every month and record citations, position in the answer and sentiment."
+        ]
+      ],
+      "related": [
+        "aeo",
+        "content-seo",
+        "link-building",
+        "technical-seo"
+      ],
+      "slug": "geo"
     }
   },
   "servicesLong": {
@@ -3125,7 +3368,10 @@
     "saas-seo",
     "technical-seo",
     "seo-audit",
-    "google-business-profile-seo"
+    "google-business-profile-seo",
+    "b2b-seo",
+    "aeo",
+    "geo"
   ],
   "serviceOrderSvc": [
     "national-seo",
@@ -3141,11 +3387,14 @@
   ],
   "homeServices": [
     "local-seo",
-    "technical-seo",
     "ecommerce-seo",
-    "content-seo",
-    "link-building",
-    "saas-seo"
+    "saas-seo",
+    "technical-seo",
+    "seo-audit",
+    "google-business-profile-seo",
+    "b2b-seo",
+    "aeo",
+    "geo"
   ],
   "industries": [
     {
@@ -10740,98 +10989,98 @@
     }
   },
   "tools": [
-    {
-      "slug": "seo-audit-tool",
-      "name": "SEO Audit Tool",
-      "type": "audit",
-      "desc": "Run a quick on-page SEO audit of any page by pasting its HTML. Checks titles, meta tags, headings, images, links, canonical and structured data."
-    },
-    {
-      "slug": "keyword-rank-checker",
-      "name": "Keyword Rank Checker",
-      "type": "rank",
-      "desc": "Find where a domain appears in a results list. Paste the result URLs for a keyword and we show the position of your domain and competitors."
-    },
-    {
-      "slug": "keyword-research-tool",
-      "name": "Keyword Research Tool",
-      "type": "kw",
-      "desc": "Generate hundreds of keyword ideas from a seed term, grouped by intent: questions, commercial, local and comparisons."
-    },
-    {
-      "slug": "backlink-checker",
-      "name": "Backlink Checker",
-      "type": "backlink",
-      "desc": "Analyze a backlink export from any tool. Paste URLs to see referring domains, anchor text mix and link patterns."
-    },
-    {
-      "slug": "website-seo-checker",
-      "name": "Website SEO Checker",
-      "type": "audit",
-      "desc": "Check the SEO basics of any page in seconds by pasting the page source code."
-    },
-    {
-      "slug": "serp-checker",
-      "name": "SERP Checker",
-      "type": "serp",
-      "desc": "Preview how your title and description appear in Google search results on desktop and mobile, with pixel width checks."
-    },
-    {
-      "slug": "seo-score-checker",
-      "name": "SEO Score Checker",
-      "type": "audit",
-      "desc": "Get a 0 to 100 SEO score for any page based on 14 on-page checks, with a clear fix for every issue."
-    },
-    {
-      "slug": "meta-tag-checker",
-      "name": "Meta Tag Checker",
-      "type": "meta",
-      "desc": "Check title, description, robots, canonical, Open Graph and Twitter tags from any page source."
-    },
-    {
-      "slug": "schema-checker",
-      "name": "Schema Checker",
-      "type": "schema",
-      "desc": "Validate JSON-LD structured data and see which schema types and required properties are present."
-    },
-    {
-      "slug": "sitemap-checker",
-      "name": "Sitemap Checker",
-      "type": "sitemap",
-      "desc": "Paste an XML sitemap to count URLs, find duplicates, check formats and spot common errors."
-    },
-    {
-      "slug": "robots-txt-checker",
-      "name": "Robots.txt Checker",
-      "type": "robots",
-      "desc": "Test whether a URL is allowed or blocked for Googlebot and other crawlers based on your robots.txt rules."
-    }
+    [
+      "seo-audit-tool",
+      "SEO Audit Tool",
+      "audit",
+      "Run a quick on-page SEO audit of any page by pasting its HTML. Checks titles, meta tags, headings, images, links, canonical and structured data."
+    ],
+    [
+      "keyword-rank-checker",
+      "Keyword Rank Checker",
+      "rank",
+      "Find where a domain appears in a results list. Paste the result URLs for a keyword and we show the position of your domain and competitors."
+    ],
+    [
+      "keyword-research-tool",
+      "Keyword Research Tool",
+      "kw",
+      "Generate hundreds of keyword ideas from a seed term, grouped by intent: questions, commercial, local and comparisons."
+    ],
+    [
+      "backlink-checker",
+      "Backlink Checker",
+      "backlink",
+      "Analyze a backlink export from any tool. Paste URLs to see referring domains, anchor text mix and link patterns."
+    ],
+    [
+      "website-seo-checker",
+      "Website SEO Checker",
+      "audit",
+      "Check the SEO basics of any page in seconds by pasting the page source code."
+    ],
+    [
+      "serp-checker",
+      "SERP Checker",
+      "serp",
+      "Preview how your title and description appear in Google search results on desktop and mobile, with pixel width checks."
+    ],
+    [
+      "seo-score-checker",
+      "SEO Score Checker",
+      "audit",
+      "Get a 0 to 100 SEO score for any page based on 14 on-page checks, with a clear fix for every issue."
+    ],
+    [
+      "meta-tag-checker",
+      "Meta Tag Checker",
+      "meta",
+      "Check title, description, robots, canonical, Open Graph and Twitter tags from any page source."
+    ],
+    [
+      "schema-checker",
+      "Schema Checker",
+      "schema",
+      "Validate JSON-LD structured data and see which schema types and required properties are present."
+    ],
+    [
+      "sitemap-checker",
+      "Sitemap Checker",
+      "sitemap",
+      "Paste an XML sitemap to count URLs, find duplicates, check formats and spot common errors."
+    ],
+    [
+      "robots-txt-checker",
+      "Robots.txt Checker",
+      "robots",
+      "Test whether a URL is allowed or blocked for Googlebot and other crawlers based on your robots.txt rules."
+    ]
   ],
   "team": [
-    {
-      "id": "t1",
-      "name": "Daniel Brooks",
-      "role": "Founder and Head of Strategy",
-      "bio": "Leads strategy across every account and still runs audits himself."
-    },
-    {
-      "id": "t2",
-      "name": "Sofia Ramirez",
-      "role": "Director of Local SEO",
-      "bio": "Runs the local search program for service businesses and multi-location brands."
-    },
-    {
-      "id": "t3",
-      "name": "Marcus Lee",
-      "role": "Technical SEO Lead",
-      "bio": "Owns crawling, rendering, site speed and migrations."
-    },
-    {
-      "id": "t4",
-      "name": "Helen Carter",
-      "role": "Head of Content",
-      "bio": "Plans topic clusters and edits every piece before it ships."
-    }
+    [
+      "t1",
+      "Daniel Brooks",
+      "Founder and Head of Strategy",
+      "Leads strategy across every account and still runs audits himself."
+    ],
+    [
+      "t2",
+      "Sofia Ramirez",
+      "Director of Local SEO",
+      "Runs the local search program for service businesses and multi-location brands."
+    ],
+    [
+      "t3",
+      "Marcus Lee",
+      "Technical SEO Lead",
+      "Owns crawling, rendering, site speed and migrations."
+    ],
+    [
+      "t4",
+      "Helen Carter",
+      "Head of Content",
+      "Plans topic clusters and edits every piece before it ships."
+    ]
   ],
   "blog": [
     {
@@ -10860,66 +11109,66 @@
     }
   ],
   "faqHome": [
-    {
-      "cat": "general",
-      "q": "How long does SEO take to work?",
-      "a": "Most clients see early movement in 60 to 90 days and meaningful results in 4 to 6 months. Competitive markets and new websites take longer. We share a realistic timeline after the audit."
-    },
-    {
-      "cat": "general",
-      "q": "What is included in every RankEmpire plan?",
-      "a": "An initial audit, a prioritized roadmap, the work itself, monthly reporting in plain English and a live dashboard. You also get a named strategist you can reach directly."
-    },
-    {
-      "cat": "general",
-      "q": "Do you work with businesses outside the US?",
-      "a": "Our focus is the US market, but we support international SEO for US companies expanding abroad and for brands entering the US."
-    },
-    {
-      "cat": "pricing",
-      "q": "Do I have to sign a long contract?",
-      "a": "No. After a 3 month onboarding period, plans are month to month. You can cancel with 30 days notice."
-    },
-    {
-      "cat": "pricing",
-      "q": "Are there setup fees?",
-      "a": "No setup fees on standard plans. Custom enterprise programs may include a one-time onboarding project, quoted up front."
-    },
-    {
-      "cat": "pricing",
-      "q": "Can I change plans later?",
-      "a": "Yes. You can upgrade or downgrade at the start of any month."
-    },
-    {
-      "cat": "results",
-      "q": "Do you guarantee first page rankings?",
-      "a": "No honest SEO company can guarantee rankings, because Google controls the results. We commit to the work, the transparency and the process that produce results."
-    },
-    {
-      "cat": "results",
-      "q": "How do you report results?",
-      "a": "Monthly reports cover rankings, traffic, conversions and the work completed, plus a live dashboard you can check anytime."
-    },
-    {
-      "cat": "results",
-      "q": "What happens if results stall?",
-      "a": "We review the data with you, explain what we see and adjust the plan. You will never be left guessing."
-    },
-    {
-      "cat": "technical",
-      "q": "Do you need access to my website?",
-      "a": "Yes, editor access to your CMS plus read access to Google Search Console and Analytics. We never need ownership."
-    },
-    {
-      "cat": "technical",
-      "q": "Which platforms do you work with?",
-      "a": "WordPress, Shopify, Webflow, Wix, Squarespace, WooCommerce, BigCommerce, Framer and custom builds."
-    },
-    {
-      "cat": "technical",
-      "q": "Will SEO slow down my website?",
-      "a": "No. Our work usually makes sites faster by removing bloat, compressing images and fixing slow templates."
-    }
+    [
+      "general",
+      "How long does SEO take to work?",
+      "Most clients see early movement in 60 to 90 days and meaningful results in 4 to 6 months. Competitive markets and new websites take longer. We share a realistic timeline after the audit."
+    ],
+    [
+      "general",
+      "What is included in every RankEmpire plan?",
+      "An initial audit, a prioritized roadmap, the work itself, monthly reporting in plain English and a live dashboard. You also get a named strategist you can reach directly."
+    ],
+    [
+      "general",
+      "Do you work with businesses outside the US?",
+      "Our focus is the US market, but we support international SEO for US companies expanding abroad and for brands entering the US."
+    ],
+    [
+      "pricing",
+      "Do I have to sign a long contract?",
+      "No. After a 3 month onboarding period, plans are month to month. You can cancel with 30 days notice."
+    ],
+    [
+      "pricing",
+      "Are there setup fees?",
+      "No setup fees on standard plans. Custom enterprise programs may include a one-time onboarding project, quoted up front."
+    ],
+    [
+      "pricing",
+      "Can I change plans later?",
+      "Yes. You can upgrade or downgrade at the start of any month."
+    ],
+    [
+      "results",
+      "Do you guarantee first page rankings?",
+      "No honest SEO company can guarantee rankings, because Google controls the results. We commit to the work, the transparency and the process that produce results."
+    ],
+    [
+      "results",
+      "How do you report results?",
+      "Monthly reports cover rankings, traffic, conversions and the work completed, plus a live dashboard you can check anytime."
+    ],
+    [
+      "results",
+      "What happens if results stall?",
+      "We review the data with you, explain what we see and adjust the plan. You will never be left guessing."
+    ],
+    [
+      "technical",
+      "Do you need access to my website?",
+      "Yes, editor access to your CMS plus read access to Google Search Console and Analytics. We never need ownership."
+    ],
+    [
+      "technical",
+      "Which platforms do you work with?",
+      "WordPress, Shopify, Webflow, Wix, Squarespace, WooCommerce, BigCommerce, Framer and custom builds."
+    ],
+    [
+      "technical",
+      "Will SEO slow down my website?",
+      "No. Our work usually makes sites faster by removing bloat, compressing images and fixing slow templates."
+    ]
   ],
   "playbooks": [
     {
@@ -10964,42 +11213,42 @@
     }
   ],
   "trust": [
-    {
-      "title": "You own everything",
-      "desc": "Every page, account, report and piece of content we create belongs to you from day one. If you ever leave, you keep it all.",
-      "bold": "No lock-in, ever.",
-      "badge": "Commitment 01"
-    },
-    {
-      "title": "Reports you can read",
-      "desc": "Our monthly report explains what we did, what changed and what comes next, in plain English instead of screenshots and jargon.",
-      "bold": "No vanity metrics.",
-      "badge": "Commitment 02"
-    },
-    {
-      "title": "No shortcuts",
-      "desc": "We never buy links from networks, publish spun content or use tactics that put your site at risk of a penalty.",
-      "bold": "Safe, durable growth.",
-      "badge": "Commitment 03"
-    },
-    {
-      "title": "A real strategist",
-      "desc": "You get a named strategist who knows your business and answers your messages, not a rotating support queue.",
-      "bold": "Direct access.",
-      "badge": "Commitment 04"
-    },
-    {
-      "title": "Audit before action",
-      "desc": "We never start work without understanding your site, market and competitors first, so time goes where it pays back.",
-      "bold": "Priorities by impact.",
-      "badge": "Commitment 05"
-    },
-    {
-      "title": "Honest timelines",
-      "desc": "We tell you how long results should take in your market, including when SEO is not the right channel for your goal.",
-      "bold": "Straight answers.",
-      "badge": "Commitment 06"
-    }
+    [
+      "You own everything",
+      "Every page, account, report and piece of content we create belongs to you from day one. If you ever leave, you keep it all.",
+      "No lock-in, ever.",
+      "Commitment 01"
+    ],
+    [
+      "Reports you can read",
+      "Our monthly report explains what we did, what changed and what comes next, in plain English instead of screenshots and jargon.",
+      "No vanity metrics.",
+      "Commitment 02"
+    ],
+    [
+      "No shortcuts",
+      "We never buy links from networks, publish spun content or use tactics that put your site at risk of a penalty.",
+      "Safe, durable growth.",
+      "Commitment 03"
+    ],
+    [
+      "A real strategist",
+      "You get a named strategist who knows your business and answers your messages, not a rotating support queue.",
+      "Direct access.",
+      "Commitment 04"
+    ],
+    [
+      "Audit before action",
+      "We never start work without understanding your site, market and competitors first, so time goes where it pays back.",
+      "Priorities by impact.",
+      "Commitment 05"
+    ],
+    [
+      "Honest timelines",
+      "We tell you how long results should take in your market, including when SEO is not the right channel for your goal.",
+      "Straight answers.",
+      "Commitment 06"
+    ]
   ],
   "stack": [
     "Google Search Console",

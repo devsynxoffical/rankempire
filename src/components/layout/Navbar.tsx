@@ -109,7 +109,7 @@ export default function Navbar() {
                 aria-haspopup="true"
                 onClick={() => toggleDropdown("services")}
               >
-                Services<sup>18</sup>
+                Services<sup>{Object.keys(services).length || 21}</sup>
                 <ChevronIcon />
               </button>
               <div className="dd" role="menu">
@@ -163,7 +163,7 @@ export default function Navbar() {
                   </div>
                 </div>
                 <div className="dfoot">
-                  <span>18 SEO services for local, e-commerce and SaaS brands</span>
+                  <span>{Object.keys(services).length || 21} SEO services for local, e-commerce and SaaS brands</span>
                   <Link className="tlink" href="/seo-services/">
                     All SEO services
                   </Link>
