@@ -252,6 +252,32 @@ export default function ClientAnimations() {
 
     // 10. Point-of-view words light up with scroll [data-words]
     $$("[data-words]").forEach((el) => {
+      if (!el.querySelector(".w")) {
+        const walk = (n: Node) => {
+          [...n.childNodes].forEach((ch) => {
+            if (ch.nodeType === 3) {
+              const text = ch.textContent || "";
+              const f = document.createDocumentFragment();
+              text.split(/(\s+)/).forEach((w) => {
+                if (!w) return;
+                if (/^\s+$/.test(w)) {
+                  f.appendChild(document.createTextNode(w));
+                } else {
+                  const s = document.createElement("span");
+                  s.className = "w";
+                  s.textContent = w;
+                  f.appendChild(s);
+                }
+              });
+              ch.replaceWith(f);
+            } else if (ch.nodeType === 1) {
+              walk(ch);
+            }
+          });
+        };
+        walk(el);
+      }
+
       const ws = [...el.querySelectorAll<HTMLElement>(".w")];
       if (ws.length === 0) return;
       const up = () => {
@@ -675,7 +701,7 @@ export default function ClientAnimations() {
     }
 
     // 27. Motion loops autoplay kicker
-    const videoElements = [...document.querySelectorAll<HTMLVideoElement>('video[autoplay]')];
+    const videoElements = [...document.querySelectorAll<HTMLVideoElement>("video")];
     if (videoElements.length > 0) {
       const kick = (v: HTMLVideoElement) => {
         v.muted = true;
@@ -696,6 +722,7 @@ export default function ClientAnimations() {
       videoElements.forEach((v) => {
         v.setAttribute("preload", "auto");
         videoIo.observe(v);
+        kick(v);
       });
       window.addEventListener("pointerdown", () => videoElements.forEach(kick), { once: true });
       window.addEventListener("touchstart", () => videoElements.forEach(kick), { once: true });

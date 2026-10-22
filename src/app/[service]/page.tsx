@@ -23,6 +23,8 @@ import {
   XImageCards,
   XPricing,
   XRelated,
+  XStatement,
+  YTabs,
 } from "@/components/common/V4Cards";
 import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
@@ -184,19 +186,28 @@ export default async function DynamicRootDetailPage({
           }
         />
 
-        <XOverview
-          eyb="Overview"
-          h2={`Why ${nl} need SEO`}
-          paras={iLong.intro || [d.angle]}
-          facts={[
-            [d.pains.length.toString(), "Industry challenges solved"],
-            [(iLong.pages?.length || 4).toString(), "Page types to build"],
-            ["Local", "Map pack plus organic"],
-          ]}
-          img="v3-people.webp"
-          alt="Team planning an SEO campaign"
-          id="overview"
-        />
+        {d.angle && (
+          <XStatement
+            eyb={`Why ${nl} need SEO`}
+            text={d.angle}
+          />
+        )}
+
+        {iLong.intro && iLong.intro.length > 0 && (
+          <XOverview
+            eyb="In depth"
+            h2={`SEO for ${d.name} explained`}
+            paras={iLong.intro}
+            facts={[
+              [d.pains.length.toString(), "Industry challenges solved"],
+              [(iLong.pages?.length || 4).toString(), "Page types to build"],
+              ["Local", "Map pack plus organic"],
+            ]}
+            img={d.grp}
+            alt={d.name}
+            id="overview"
+          />
+        )}
 
         <XSearch
           eyb="Keyword targets"
@@ -213,12 +224,12 @@ export default async function DynamicRootDetailPage({
         />
 
         {iLong.pages && iLong.pages.length > 0 && (
-          <XBento
+          <YTabs
             eyb="Site structure"
             h2={`Pages every ${d.noun} website needs`}
             items={iLong.pages}
+            serviceOrImg="content"
             img={d.grp}
-            title={`Website plan for ${d.name}`}
             id="pages"
           />
         )}
@@ -369,19 +380,28 @@ export default async function DynamicRootDetailPage({
         ]}
       />
 
-      <XOverview
-        eyb="Overview"
-        h2={sLong.what_h || `${s.name} with RankEmpire`}
-        paras={sLong.what || [s.intro]}
-        facts={[
-          [(s.inc?.length || 6).toString(), "Core deliverables"],
-          ["Monthly", "Reporting and strategy call"],
-          ["Live", "Ranking dashboard"],
-        ]}
-        img="v3-desk.webp"
-        alt={s.name}
-        id="what"
-      />
+      {s.intro && (
+        <XStatement
+          eyb="Overview"
+          text={s.intro}
+        />
+      )}
+
+      {sLong.what && sLong.what.length > 0 && (
+        <XOverview
+          eyb="In depth"
+          h2={sLong.what_h || `What is ${nm}?`}
+          paras={sLong.what}
+          facts={[
+            [(s.inc?.length || 6).toString(), "Core deliverables"],
+            ["Monthly", "Reporting and strategy call"],
+            ["Live", "Ranking dashboard"],
+          ]}
+          img={s.img}
+          alt={s.name}
+          id="what"
+        />
+      )}
 
       {sLong.why && sLong.why.length > 0 && (
         <XFeatures
@@ -393,12 +413,12 @@ export default async function DynamicRootDetailPage({
       )}
 
       {s.inc && s.inc.length > 0 && (
-        <XBento
+        <YTabs
           eyb="Deliverables"
           h2={`What is included in our ${nm} service`}
           items={s.inc}
+          serviceOrImg={service}
           img={s.img}
-          title={s.name}
           id="included"
         />
       )}

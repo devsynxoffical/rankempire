@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowIcon, SearchIcon, ShieldIcon, TargetIcon, ChartIcon, PinIcon, SparkIcon, UsersIcon } from "@/components/common/Icons";
@@ -6,6 +8,14 @@ import AuditForm from "@/components/common/AuditForm";
 
 export const PAL = ["#ec4e3b", "#2b55e8", "#e37a38", "#4a9f5f", "#8c2fe2", "#e0a800"];
 export const col = (i: number) => PAL[i % PAL.length];
+
+export function resolveImgSrc(img?: string, fallback = "v3-desk.webp"): string {
+  if (!img) return `/img/${fallback}`;
+  let clean = img.trim().replace(/^\/?img\//, "").replace(/^\//, "");
+  if (!clean) return `/img/${fallback}`;
+  if (!clean.includes(".")) clean = `${clean}.webp`;
+  return `/img/${clean}`;
+}
 
 export function XHeader({
   eyb,
@@ -32,18 +42,49 @@ export function XHeader({
   );
 }
 
-export function getVideoForService(serviceOrImg: string): { video: string; poster: string } | null {
-  const s = serviceOrImg.toLowerCase();
-  if (s.includes("local") || s.includes("google-business") || s.includes("map")) {
+export function getVideoForService(serviceOrImg?: string, context?: string): { video: string; poster: string } | null {
+  const s = `${serviceOrImg || ""} ${context || ""}`.toLowerCase();
+  if (
+    s.includes("local") ||
+    s.includes("google-business") ||
+    s.includes("map") ||
+    s.includes("nearby") ||
+    s.includes("city") ||
+    s.includes("area")
+  ) {
     return { video: "/img/m-local.mp4", poster: "/img/m-local.jpg" };
   }
-  if (s.includes("tech") || s.includes("speed") || s.includes("crawl")) {
+  if (
+    s.includes("tech") ||
+    s.includes("speed") ||
+    s.includes("crawl") ||
+    s.includes("index") ||
+    s.includes("architecture") ||
+    s.includes("code")
+  ) {
     return { video: "/img/m-tech.mp4", poster: "/img/m-tech.jpg" };
   }
-  if (s.includes("content") || s.includes("page-seo") || s.includes("copy")) {
+  if (
+    s.includes("content") ||
+    s.includes("page-seo") ||
+    s.includes("copy") ||
+    s.includes("write") ||
+    s.includes("blog") ||
+    s.includes("article") ||
+    s.includes("pages") ||
+    s.includes("structure")
+  ) {
     return { video: "/img/m-content.mp4", poster: "/img/m-content.jpg" };
   }
-  if (s.includes("aeo") || s.includes("geo") || s.includes("ai")) {
+  if (
+    s.includes("aeo") ||
+    s.includes("geo") ||
+    s.includes("ai") ||
+    s.includes("answer") ||
+    s.includes("overview") ||
+    s.includes("chatgpt") ||
+    s.includes("perplexity")
+  ) {
     return { video: "/img/m-ai.mp4", poster: "/img/m-ai.jpg" };
   }
   if (
@@ -51,18 +92,24 @@ export function getVideoForService(serviceOrImg: string): { video: string; poste
     s.includes("strat") ||
     s.includes("keyword") ||
     s.includes("competitor") ||
-    s.includes("consult")
+    s.includes("consult") ||
+    s.includes("research") ||
+    s.includes("analysis")
   ) {
     return { video: "/img/m-strat.mp4", poster: "/img/m-strat.jpg" };
   }
   if (
+    s.includes("growth") ||
     s.includes("ecommerce") ||
+    s.includes("e-commerce") ||
     s.includes("saas") ||
     s.includes("b2b") ||
-    s.includes("growth") ||
     s.includes("link") ||
     s.includes("national") ||
-    s.includes("enterprise")
+    s.includes("enterprise") ||
+    s.includes("lead") ||
+    s.includes("pipeline") ||
+    s.includes("revenue")
   ) {
     return { video: "/img/m-growth.mp4", poster: "/img/m-growth.jpg" };
   }
@@ -91,7 +138,7 @@ export function XHero({
   extra?: React.ReactNode;
 }) {
   const videoData = getVideoForService(img || alt || pill);
-  const imgSrc = img.startsWith("/") ? img : `/img/${img.replace(/^img\//, "")}`;
+  const imgSrc = resolveImgSrc(img, "v3-desk.webp");
 
   return (
     <section className="yh">
@@ -208,7 +255,7 @@ export function XOverview({
   id?: string;
 }) {
   const videoData = getVideoForService(img || alt || eyb || h2);
-  const imgSrc = img.startsWith("/") ? img : `/img/${img.replace(/^img\//, "")}`;
+  const imgSrc = resolveImgSrc(img, "v3-desk.webp");
 
   return (
     <section className="x xov" id={id}>
@@ -326,7 +373,8 @@ export function XBento({
   sub?: string;
   id?: string;
 }) {
-  const imgSrc = img.startsWith("/") ? img : `/img/${img.replace(/^img\//, "")}`;
+  const videoData = getVideoForService(img || title || eyb || h2);
+  const imgSrc = resolveImgSrc(img, "s-local.webp");
   const nn = items.length;
   const r = (4 + nn) % 4;
 
@@ -360,14 +408,29 @@ export function XBento({
         <XHeader eyb={eyb} h2={h2} sub={sub} />
         <div className="xb-g">
           <article className="xb big" data-r>
-            <Image
-              src={imgSrc}
-              alt=""
-              width={560}
-              height={480}
-              loading="lazy"
-              style={{ objectFit: "cover", width: "100%", height: "100%" }}
-            />
+            {videoData ? (
+              <video
+                className="mv3d"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                poster={videoData.poster}
+                aria-label={title || "Deliverables"}
+              >
+                <source src={videoData.video} type="video/mp4" />
+              </video>
+            ) : (
+              <Image
+                src={imgSrc}
+                alt={title || "Deliverables"}
+                width={560}
+                height={480}
+                loading="lazy"
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
+              />
+            )}
             <div className="ov">
               <span className="k">{items.length} deliverables</span>
               <h3>{title}</h3>
@@ -389,6 +452,189 @@ export function XBento({
         </div>
       </div>
     </section>
+  );
+}
+
+export function XStatement({
+  eyb = "Overview",
+  text,
+}: {
+  eyb?: string;
+  text: string;
+}) {
+  return (
+    <section className="yst">
+      <div className="wrap">
+        <span className="eyb" data-r>
+          {eyb}
+        </span>
+        <p className="st" data-words>
+          {text}
+        </p>
+      </div>
+    </section>
+  );
+}
+
+export function YTabs({
+  eyb = "Deliverables",
+  h2,
+  items,
+  serviceOrImg,
+  img,
+  video,
+  poster,
+  id = "included",
+  marquee = true,
+}: {
+  eyb?: string;
+  h2: string;
+  items: [string, string][];
+  serviceOrImg?: string;
+  img?: string;
+  video?: string;
+  poster?: string;
+  id?: string;
+  marquee?: boolean;
+}) {
+  const [active, setActive] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+  const pimRef = useRef<HTMLDivElement>(null);
+
+  const videoData =
+    video && poster
+      ? { video, poster }
+      : getVideoForService(serviceOrImg || img || h2 || eyb);
+  const imgSrc = resolveImgSrc(img || serviceOrImg, "v3-desk.webp");
+
+  useEffect(() => {
+    if (isPaused || items.length <= 1) return;
+    const t = setInterval(() => {
+      setActive((prev) => (prev + 1) % items.length);
+    }, 5000);
+    return () => clearInterval(t);
+  }, [isPaused, items.length]);
+
+  const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    const pim = pimRef.current;
+    if (!pim) return;
+    const r = pim.getBoundingClientRect();
+    const x = (e.clientX - r.left) / r.width - 0.5;
+    const y = (e.clientY - r.top) / r.height - 0.5;
+    pim.style.setProperty("--tx", `${(x * 8).toFixed(2)}deg`);
+    pim.style.setProperty("--ty", `${(-y * 8).toFixed(2)}deg`);
+  };
+
+  const handlePointerLeave = () => {
+    const pim = pimRef.current;
+    if (!pim) return;
+    pim.style.setProperty("--tx", "0deg");
+    pim.style.setProperty("--ty", "0deg");
+  };
+
+  const total = String(items.length).padStart(2, "0");
+  const currentNum = String(active + 1).padStart(2, "0");
+
+  return (
+    <>
+      <section className="ytb" id={id}>
+        <div className="wrap">
+          <div className="xh lt" data-r>
+            <span className="xe">
+              <i />
+              {eyb}
+            </span>
+            <h2 className="h2" dangerouslySetInnerHTML={{ __html: h2 }} />
+          </div>
+
+          <div
+            className="svx"
+            data-ptabs
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+          >
+            <div className="sr2">
+              <div
+                className="pim"
+                ref={pimRef}
+                onPointerMove={handlePointerMove}
+                onPointerLeave={handlePointerLeave}
+              >
+                {videoData ? (
+                  <video
+                    className="mv3d"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    preload="metadata"
+                    poster={videoData.poster}
+                    aria-label={h2}
+                  >
+                    <source src={videoData.video} type="video/mp4" />
+                  </video>
+                ) : (
+                  <Image
+                    src={imgSrc}
+                    alt={h2}
+                    fill
+                    loading="lazy"
+                    style={{ objectFit: "cover" }}
+                  />
+                )}
+                <div className="ix">
+                  <b data-ix>{currentNum}</b>/{total}
+                </div>
+                <div className="kps">
+                  {items.map(([t], i) => (
+                    <div
+                      key={i}
+                      className={`kp${i === active ? " on" : ""}`}
+                      style={{ ["--dc" as string]: col(i) }}
+                    >
+                      <b>{String(i + 1).padStart(2, "0")}</b>
+                      <span>{t}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="sl">
+              <div className="tl" role="tablist">
+                {items.map(([t, d], i) => (
+                  <React.Fragment key={i}>
+                    <button
+                      type="button"
+                      className={i === active ? "on" : ""}
+                      role="tab"
+                      aria-selected={i === active}
+                      onClick={() => setActive(i)}
+                      style={{ ["--dc" as string]: col(i) }}
+                    >
+                      <small>{String(i + 1).padStart(2, "0")}</small>
+                      <span className="tt">{t}</span>
+                      <i className="bar" />
+                    </button>
+                    <p className={`tp${i === active ? " on" : ""}`}>{d}</p>
+                  </React.Fragment>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {marquee && items.length > 0 && (
+        <div className="ymq" aria-hidden="true">
+          <div className="t">
+            {[...items, ...items, ...items, ...items].map(([t], i) => (
+              <span key={i}>{t}</span>
+            ))}
+          </div>
+        </div>
+      )}
+    </>
   );
 }
 
@@ -734,7 +980,7 @@ export function XImageCards({
         <XHeader eyb={eyb} h2={h2} />
         <div className="xi-g">
           {items.map((it, i) => {
-            const imgSrc = it.img.startsWith("/") ? it.img : `/img/${it.img.replace(/^img\//, "")}`;
+            const imgSrc = resolveImgSrc(it.img, "i-home.webp");
             return (
               <Link key={i} className="xi" href={it.href} data-r>
                 <Image
