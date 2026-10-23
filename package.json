@@ -1,8 +1,21 @@
 {
   "name": "rankempire",
-  "version": "6.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo 'RankEmpire 6 ready in public/'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build"
+  },
+  "dependencies": {
+    "next": "15.1.6",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "@types/react": "19.0.4",
+    "typescript": "5.7.3"
   }
 }

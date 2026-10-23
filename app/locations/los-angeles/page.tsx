@@ -1,0 +1,57 @@
+import type { Metadata } from 'next';
+import SkipLink from '@/components/layout/SkipLink';
+import Preloader from '@/components/layout/Preloader';
+import Header from '@/components/layout/Header';
+import MobileMenu from '@/components/layout/MobileMenu';
+import Footer from '@/components/layout/Footer';
+import Hero from '@/components/pages/locations__los-angeles/Hero';
+import Statement from '@/components/pages/locations__los-angeles/Statement';
+import Considerations from '@/components/pages/locations__los-angeles/Considerations';
+import ServiceAreas from '@/components/pages/locations__los-angeles/ServiceAreas';
+import Keywords from '@/components/pages/locations__los-angeles/Keywords';
+import Marquee from '@/components/pages/locations__los-angeles/Marquee';
+import Industries from '@/components/pages/locations__los-angeles/Industries';
+import Services from '@/components/pages/locations__los-angeles/Services';
+import Pricing from '@/components/pages/locations__los-angeles/Pricing';
+import Faq from '@/components/pages/locations__los-angeles/Faq';
+import Related from '@/components/pages/locations__los-angeles/Related';
+import Robo from '@/components/sections/Robo';
+
+export const metadata: Metadata = {
+  title: "SEO Company in Los Angeles, CA | RankEmpire",
+  description: "RankEmpire is an SEO company serving Los Angeles, California. Local SEO, Google Business Profile.",
+  alternates: { canonical: "https://www.rankempire.com/locations/los-angeles/" },
+  robots: "index,follow,max-image-preview:large,max-snippet:-1",
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Los Angeles, CA | RankEmpire", description: "RankEmpire is an SEO company serving Los Angeles, California. Local SEO, Google Business Profile.", url: "https://www.rankempire.com/locations/los-angeles/", images: ["https://www.rankempire.com/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Company in Los Angeles, CA | RankEmpire", description: "RankEmpire is an SEO company serving Los Angeles, California. Local SEO, Google Business Profile." },
+};
+
+export default function Page() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ProfessionalService\", \"@id\": \"https://www.rankempire.com/#org\", \"name\": \"RankEmpire\", \"url\": \"https://www.rankempire.com\", \"email\": \"hello@rankempire.com\", \"logo\": \"https://www.rankempire.com/img/favicon.svg\", \"image\": \"https://www.rankempire.com/img/team.webp\", \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"description\": \"RankEmpire is an SEO company for local businesses, e-commerce brands and SaaS companies.\", \"knowsAbout\": [\"Search engine optimization\", \"Local SEO\", \"Technical SEO\", \"Link building\", \"Content marketing\"]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.rankempire.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Locations\", \"item\": \"https://www.rankempire.com/locations/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"SEO Company in Los Angeles\", \"item\": \"https://www.rankempire.com/locations/los-angeles/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"SEO services in Los Angeles\", \"serviceType\": \"Search engine optimization\", \"areaServed\": {\"@type\": \"City\", \"name\": \"Los Angeles\", \"containedInPlace\": {\"@type\": \"State\", \"name\": \"California\"}}, \"provider\": {\"@id\": \"https://www.rankempire.com/#org\"}, \"url\": \"https://www.rankempire.com/locations/los-angeles/\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Can you help my business rank in both the Valley and the Westside?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, though it usually takes a deliberate plan. Google ties map results closely to your verified address, so ranking far from it is difficult. We strengthen your profile where you are located, then build distinct service area pages for other communities you serve, supported by reviews and content that genuinely reference those neighborhoods.\"}}, {\"@type\": \"Question\", \"name\": \"Is it worth creating Spanish language pages for my LA business?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"If you have staff who can serve Spanish speaking customers, it is often worth it. Many Los Angeles residents search in Spanish, and competition for those queries can be lighter. The pages should be written properly for that audience, with accurate service descriptions, and your team needs to be ready to respond to inquiries in Spanish.\"}}, {\"@type\": \"Question\", \"name\": \"How do you work with Los Angeles clients without a local office?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"RankEmpire is remote first. We work through video calls, shared documents, and regular reports, which suits a metro where in person meetings across town can take half a day anyway. Your local knowledge about customers and neighborhoods feeds into our research, and we handle the technical, content, and profile work.\"}}, {\"@type\": \"Question\", \"name\": \"Does seasonality affect SEO for businesses in Southern California?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"It can. Home services see demand shifts around fire season and winter storms, tourism businesses follow travel patterns, and some retail categories follow the holidays. We plan content ahead of those periods so pages are indexed and ranking before demand rises, rather than publishing after customers have already started searching.\"}}, {\"@type\": \"Question\", \"name\": \"How much does local SEO cost?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Local plans start at $799 per month. We recommend a plan after reviewing your competition in a free audit.\"}}]}" }} />
+      <SkipLink />
+      <Preloader />
+      <Header active="locations" />
+      <MobileMenu />
+      <main id="main">
+        <Hero />
+        <Statement />
+        <Considerations />
+        <ServiceAreas />
+        <Keywords />
+        <Marquee />
+        <Industries />
+        <Services />
+        <Pricing />
+        <Faq />
+        <Related />
+        <Robo />
+      </main>
+      <Footer />
+    </>
+  );
+}

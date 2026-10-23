@@ -1,0 +1,57 @@
+import type { Metadata } from 'next';
+import SkipLink from '@/components/layout/SkipLink';
+import Preloader from '@/components/layout/Preloader';
+import Header from '@/components/layout/Header';
+import MobileMenu from '@/components/layout/MobileMenu';
+import Footer from '@/components/layout/Footer';
+import Hero from '@/components/pages/locations__houston/Hero';
+import Statement from '@/components/pages/locations__houston/Statement';
+import Considerations from '@/components/pages/locations__houston/Considerations';
+import ServiceAreas from '@/components/pages/locations__houston/ServiceAreas';
+import Keywords from '@/components/pages/locations__houston/Keywords';
+import Marquee from '@/components/pages/locations__houston/Marquee';
+import Industries from '@/components/pages/locations__houston/Industries';
+import Services from '@/components/pages/locations__houston/Services';
+import Pricing from '@/components/pages/locations__houston/Pricing';
+import Faq from '@/components/pages/locations__houston/Faq';
+import Related from '@/components/pages/locations__houston/Related';
+import Robo from '@/components/sections/Robo';
+
+export const metadata: Metadata = {
+  title: "SEO Company in Houston, TX: Local SEO Services | RankEmpire",
+  description: "RankEmpire is an SEO company serving Houston, Texas. Local SEO, Google Business Profile, technical SEO and content for businesses across Katy, Sugar Land.",
+  alternates: { canonical: "https://www.rankempire.com/locations/houston/" },
+  robots: "index,follow,max-image-preview:large,max-snippet:-1",
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Houston, TX: Local SEO Services | RankEmpire", description: "RankEmpire is an SEO company serving Houston, Texas. Local SEO, Google Business Profile, technical SEO and content for businesses across Katy, Sugar Land.", url: "https://www.rankempire.com/locations/houston/", images: ["https://www.rankempire.com/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Company in Houston, TX: Local SEO Services | RankEmpire", description: "RankEmpire is an SEO company serving Houston, Texas. Local SEO, Google Business Profile, technical SEO and content for businesses across Katy, Sugar Land." },
+};
+
+export default function Page() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ProfessionalService\", \"@id\": \"https://www.rankempire.com/#org\", \"name\": \"RankEmpire\", \"url\": \"https://www.rankempire.com\", \"email\": \"hello@rankempire.com\", \"logo\": \"https://www.rankempire.com/img/favicon.svg\", \"image\": \"https://www.rankempire.com/img/team.webp\", \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"description\": \"RankEmpire is an SEO company for local businesses, e-commerce brands and SaaS companies.\", \"knowsAbout\": [\"Search engine optimization\", \"Local SEO\", \"Technical SEO\", \"Link building\", \"Content marketing\"]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.rankempire.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Locations\", \"item\": \"https://www.rankempire.com/locations/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"SEO Company in Houston\", \"item\": \"https://www.rankempire.com/locations/houston/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"Service\", \"name\": \"SEO services in Houston\", \"serviceType\": \"Search engine optimization\", \"areaServed\": {\"@type\": \"City\", \"name\": \"Houston\", \"containedInPlace\": {\"@type\": \"State\", \"name\": \"Texas\"}}, \"provider\": {\"@id\": \"https://www.rankempire.com/#org\"}, \"url\": \"https://www.rankempire.com/locations/houston/\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How do I rank across such a large metro like Houston?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Usually not all at once. Google prioritizes businesses near the searcher, so we start with the areas closest to your location and the submarkets that bring the most valuable customers. From there, we expand with service area pages, reviews from those communities, and content that references local landmarks and conditions.\"}}, {\"@type\": \"Question\", \"name\": \"Should my Houston business prepare SEO content before hurricane season?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"If you work in roofing, restoration, plumbing, electrical, or similar trades, yes. Pages need time to be crawled and earn trust. We plan storm related content and profile updates well before the season, so when residents start searching urgently, your business is already visible with clear, helpful information.\"}}, {\"@type\": \"Question\", \"name\": \"Do you work with energy and industrial companies in Houston?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. B2B companies in energy, petrochemicals, and industrial services often need SEO focused on technical buyers rather than map packs. That means detailed service pages, clear specifications, and content that answers procurement questions. We tailor the approach to how your buyers research, which differs from consumer local search.\"}}, {\"@type\": \"Question\", \"name\": \"Do you meet Houston clients in person?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"RankEmpire is a remote first agency without a Houston office. We work through scheduled video calls, shared dashboards, and written reports. Many clients prefer this because it saves drive time across the metro, and all the work that affects rankings, from technical fixes to content and profile management, is done online anyway.\"}}, {\"@type\": \"Question\", \"name\": \"How much does local SEO cost?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Local plans start at $799 per month. We recommend a plan after reviewing your competition in a free audit.\"}}]}" }} />
+      <SkipLink />
+      <Preloader />
+      <Header active="locations" />
+      <MobileMenu />
+      <main id="main">
+        <Hero />
+        <Statement />
+        <Considerations />
+        <ServiceAreas />
+        <Keywords />
+        <Marquee />
+        <Industries />
+        <Services />
+        <Pricing />
+        <Faq />
+        <Related />
+        <Robo />
+      </main>
+      <Footer />
+    </>
+  );
+}

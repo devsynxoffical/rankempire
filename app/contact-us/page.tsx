@@ -1,0 +1,38 @@
+import type { Metadata } from 'next';
+import SkipLink from '@/components/layout/SkipLink';
+import Preloader from '@/components/layout/Preloader';
+import Header from '@/components/layout/Header';
+import MobileMenu from '@/components/layout/MobileMenu';
+import Footer from '@/components/layout/Footer';
+import Yc from '@/components/pages/contact-us/Yc';
+import Next from '@/components/pages/contact-us/Next';
+import Faq from '@/components/pages/contact-us/Faq';
+
+export const metadata: Metadata = {
+  title: "Contact RankEmpire: Get a Free SEO Audit",
+  description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day.",
+  alternates: { canonical: "https://www.rankempire.com/contact-us/" },
+  robots: "index,follow,max-image-preview:large,max-snippet:-1",
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Contact RankEmpire: Get a Free SEO Audit", description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day.", url: "https://www.rankempire.com/contact-us/", images: ["https://www.rankempire.com/img/contact.webp"] },
+  twitter: { card: 'summary_large_image', title: "Contact RankEmpire: Get a Free SEO Audit", description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day." },
+};
+
+export default function Page() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ProfessionalService\", \"@id\": \"https://www.rankempire.com/#org\", \"name\": \"RankEmpire\", \"url\": \"https://www.rankempire.com\", \"email\": \"hello@rankempire.com\", \"logo\": \"https://www.rankempire.com/img/favicon.svg\", \"image\": \"https://www.rankempire.com/img/team.webp\", \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"description\": \"RankEmpire is an SEO company for local businesses, e-commerce brands and SaaS companies.\", \"knowsAbout\": [\"Search engine optimization\", \"Local SEO\", \"Technical SEO\", \"Link building\", \"Content marketing\"]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.rankempire.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Contact Us\", \"item\": \"https://www.rankempire.com/contact-us/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ContactPage\", \"name\": \"Contact RankEmpire\", \"url\": \"https://www.rankempire.com/contact-us/\"}" }} />
+      <SkipLink />
+      <Preloader />
+      <Header active="company" />
+      <MobileMenu />
+      <main id="main">
+        <Yc />
+        <Next />
+        <Faq />
+      </main>
+      <Footer />
+    </>
+  );
+}

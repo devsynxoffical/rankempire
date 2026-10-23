@@ -1,0 +1,185 @@
+export default function Pages() {
+  return (
+    <section className="ytb" id="pages">
+      <div className="wrap">
+        <div className="xh lt" data-r="">
+          <span className="xe">
+            <i></i>
+            {"Site structure"}
+          </span>
+          <h2 className="h2">
+            {"Pages every pest control company website needs"}
+          </h2>
+        </div>
+        <div className="svx" data-ptabs="">
+          <div className="sr2">
+            <div className="pim">
+              <div className="pm on">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-content.jpg" aria-label="Rodent control page">
+                  <source src="/img/m-content.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-strat.jpg" aria-label="Termite services page">
+                  <source src="/img/m-strat.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-tech.jpg" aria-label="Bed bug treatment page">
+                  <source src="/img/m-tech.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-local.jpg" aria-label="Recurring pest protection page">
+                  <source src="/img/m-local.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-growth.jpg" aria-label="Pet and child safety page">
+                  <source src="/img/m-growth.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.jpg" aria-label="Wildlife removal page">
+                  <source src="/img/m-ai.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="ix">
+                <b data-ix="">
+                  {"01"}
+                </b>
+                {"/06"}
+              </div>
+              <div className="kps">
+                <div className="kp on" style={{"--dc": "#ec4e3b"} as React.CSSProperties}>
+                  <b>
+                    {"01"}
+                  </b>
+                  <span>
+                    {"Rodent control page"}
+                  </span>
+                </div>
+                <div className="kp" style={{"--dc": "#2b55e8"} as React.CSSProperties}>
+                  <b>
+                    {"02"}
+                  </b>
+                  <span>
+                    {"Termite services page"}
+                  </span>
+                </div>
+                <div className="kp" style={{"--dc": "#e37a38"} as React.CSSProperties}>
+                  <b>
+                    {"03"}
+                  </b>
+                  <span>
+                    {"Bed bug treatment page"}
+                  </span>
+                </div>
+                <div className="kp" style={{"--dc": "#4a9f5f"} as React.CSSProperties}>
+                  <b>
+                    {"04"}
+                  </b>
+                  <span>
+                    {"Recurring pest protection page"}
+                  </span>
+                </div>
+                <div className="kp" style={{"--dc": "#8c2fe2"} as React.CSSProperties}>
+                  <b>
+                    {"05"}
+                  </b>
+                  <span>
+                    {"Pet and child safety page"}
+                  </span>
+                </div>
+                <div className="kp" style={{"--dc": "#e0a800"} as React.CSSProperties}>
+                  <b>
+                    {"06"}
+                  </b>
+                  <span>
+                    {"Wildlife removal page"}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="sl">
+            <div className="tl" role="tablist">
+              <button type="button" className="on" role="tab" aria-selected="true" data-i="0" style={{"--dc": "#ec4e3b"} as React.CSSProperties}>
+                <small>
+                  {"01"}
+                </small>
+                <span className="tt">
+                  {"Rodent control page"}
+                </span>
+                <i className="bar"></i>
+              </button>
+              <p className="tp on">
+                {"Explains inspection, exclusion, and removal methods for mice and rats, targeting one of the most common and urgent pest problems."}
+              </p>
+              <button type="button" className="" role="tab" aria-selected="false" data-i="1" style={{"--dc": "#2b55e8"} as React.CSSProperties}>
+                <small>
+                  {"02"}
+                </small>
+                <span className="tt">
+                  {"Termite services page"}
+                </span>
+                <i className="bar"></i>
+              </button>
+              <p className="tp">
+                {"Covers inspections, treatment options, and real estate requirements, attracting homeowners and buyers dealing with potentially costly structural damage."}
+              </p>
+              <button type="button" className="" role="tab" aria-selected="false" data-i="2" style={{"--dc": "#e37a38"} as React.CSSProperties}>
+                <small>
+                  {"03"}
+                </small>
+                <span className="tt">
+                  {"Bed bug treatment page"}
+                </span>
+                <i className="bar"></i>
+              </button>
+              <p className="tp">
+                {"Describes inspection and treatment methods, preparation steps, and follow up visits, reaching customers who urgently want the problem gone."}
+              </p>
+              <button type="button" className="" role="tab" aria-selected="false" data-i="3" style={{"--dc": "#4a9f5f"} as React.CSSProperties}>
+                <small>
+                  {"04"}
+                </small>
+                <span className="tt">
+                  {"Recurring pest protection page"}
+                </span>
+                <i className="bar"></i>
+              </button>
+              <p className="tp">
+                {"Explains quarterly or monthly plans, what is included, and guarantees, building long term relationships with homeowners who prefer prevention."}
+              </p>
+              <button type="button" className="" role="tab" aria-selected="false" data-i="4" style={{"--dc": "#8c2fe2"} as React.CSSProperties}>
+                <small>
+                  {"05"}
+                </small>
+                <span className="tt">
+                  {"Pet and child safety page"}
+                </span>
+                <i className="bar"></i>
+              </button>
+              <p className="tp">
+                {"Addresses product safety, application methods, and precautions, reassuring families who hesitate to schedule treatments in their homes."}
+              </p>
+              <button type="button" className="" role="tab" aria-selected="false" data-i="5" style={{"--dc": "#e0a800"} as React.CSSProperties}>
+                <small>
+                  {"06"}
+                </small>
+                <span className="tt">
+                  {"Wildlife removal page"}
+                </span>
+                <i className="bar"></i>
+              </button>
+              <p className="tp">
+                {"Targets raccoons, squirrels, and bats in attics with humane removal and exclusion details, a distinct search group with its own licensing rules."}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

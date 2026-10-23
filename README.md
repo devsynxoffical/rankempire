@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RankEmpire on Next.js
 
-## Getting Started
+Next.js 15 (App Router) + React 19 + TypeScript. One route file per page, one component file per section.
 
-First, run the development server:
+## Run
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # http://localhost:3000
+npm run build && npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+app/
+  layout.tsx                 fonts, stylesheet, loader logic, Lenis + site scripts
+  page.tsx                   home
+  <slug>/page.tsx            every other page (112 routes), metadata + JSON-LD per page
+  not-found.tsx              404
+  sitemap.ts                 sitemap.xml
+components/
+  layout/                    SkipLink, Preloader, Header (active prop), MobileMenu, Footer
+  sections/                  sections shared by several pages (Robo, Faq, Founder, MoreResults, Related, Trust...)
+  pages/<slug>/              the sections of that page (Hero, InDepth, WhyItMatters, Deliverables, Monthly,
+                             Process, WhoItIsFor, Comparison, Pricing, Faq, Related...)
+public/
+  assets/site.css            all styles
+  assets/site.js, v3.js      all animations and interactions (loader, 3D hero, word fill, cursor, tabs,
+                             rank grid, founder light, FAQ chat, robo, timeline, counters, footer)
+  assets/tools.js            free SEO tools
+  img/                       3D renders, motion loops (mp4 + poster), photos
+content/routes.json          list of routes (used by the sitemap)
+```
 
-## Learn More
+Links are plain anchors on purpose: every page is a full document so the loader and the scroll animations
+start fresh on each page, exactly as on the static site.
 
-To learn more about Next.js, take a look at the following resources:
+## Static export
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Uncomment `output: 'export'` in `next.config.mjs`, run `npm run build`, upload the `out/` folder anywhere.

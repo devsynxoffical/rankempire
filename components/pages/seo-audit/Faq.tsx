@@ -1,0 +1,122 @@
+export default function Faq() {
+  return (
+    <section className="fxs" id="faq" aria-labelledby="fx-h">
+      <div className="wrap">
+        {"\n"}
+        <div className="fx-head">
+          <div>
+            <span className="eyb pill" data-r="">
+              <i></i>
+              {"FAQ"}
+            </span>
+            <h2 id="fx-h" className="h2" data-r="">
+              {"SEO Audit "}
+              <em>
+                {"FAQ"}
+              </em>
+            </h2>
+            <p data-r="">
+              {"Common questions about SEO audit."}
+            </p>
+          </div>
+          {"\n"}
+          <div className="fx-stats" data-r="">
+            <div>
+              <b>
+                {"2 days"}
+              </b>
+              <span>
+                {"to your free audit"}
+              </span>
+            </div>
+            <div>
+              <b>
+                {"<24h"}
+              </b>
+              <span>
+                {"reply time"}
+              </span>
+            </div>
+            <div>
+              <b>
+                {"7"}
+              </b>
+              <span>
+                {"questions answered"}
+              </span>
+            </div>
+          </div>
+        </div>
+        {"\n"}
+        <div className="fx" id="fx">
+          <aside className="fx-l">
+            <label className="fx-search">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="7" />
+                <path d="m20 20-4-4" />
+              </svg>
+              <input id="fxs" type="search" placeholder="Search questions" aria-label="Search questions" />
+            </label>
+            <div className="fx-tabs" id="fxt">
+              <button type="button" className="on" data-c="all">
+                {"All"}
+                <b>
+                  {"7"}
+                </b>
+              </button>
+            </div>
+            <ol className="fx-list" id="fxl"></ol>
+            <div className="fx-empty" id="fxe">
+              {"No match. Ask it below and we will answer."}
+            </div>
+          </aside>
+          {"\n"}
+          <div className="fx-r">
+            <div className="fx-top">
+              <span className="fx-av">
+                {"RE"}
+              </span>
+              <div>
+                <b>
+                  {"RankEmpire"}
+                </b>
+                <small>
+                  {"Usually replies within a day"}
+                </small>
+              </div>
+              <span className="fx-ct" id="fxc">
+                <em>
+                  {"01"}
+                </em>
+                {" / 7"}
+              </span>
+              <div className="fx-nav">
+                <button type="button" id="fxp" aria-label="Previous question">
+                  {"←"}
+                </button>
+                <button type="button" id="fxn" aria-label="Next question">
+                  {"→"}
+                </button>
+              </div>
+            </div>
+            {"\n"}
+            <div className="fx-chat" id="fxchat" aria-live="polite"></div>
+            <div className="fx-rel" id="fxr"></div>
+            {"\n"}
+            <form className="fx-ask" id="fxa">
+              <input id="fxq" placeholder="Ask your own question..." aria-label="Ask your own question" />
+              <button type="submit">
+                <span>
+                  {"Send"}
+                </span>
+                {" ↗"}
+              </button>
+            </form>
+          </div>
+        </div>
+        {"\n"}
+      </div>
+      <script dangerouslySetInnerHTML={{ __html: "window.FXDATA=[{\"c\": \"general\", \"q\": \"How long does an SEO audit take?\", \"a\": \"Most audits are delivered within 10 business days. Large sites can take longer.\", \"t\": [\"Plain English\", \"Free audit\", \"No contracts\"]}, {\"c\": \"general\", \"q\": \"Do I need to buy ongoing SEO after the audit?\", \"a\": \"No. Many clients implement the audit in-house. If you want help, we can do the work for you.\", \"t\": [\"Plain English\", \"Free audit\", \"No contracts\"]}, {\"c\": \"general\", \"q\": \"Is there a free version?\", \"a\": \"You can run our free SEO Audit Tool for a quick check. The full audit goes much deeper.\", \"t\": [\"Plain English\", \"Free audit\", \"No contracts\"]}, {\"c\": \"general\", \"q\": \"What do you need from me to run an SEO audit?\", \"a\": \"We need access to Google Search Console and Google Analytics, and ideally your CMS or a staging environment. A list of your main products or services, target markets and key competitors helps us focus. If you have had previous SEO work done, any documentation of past changes, migrations or link building is useful context.\", \"t\": [\"Plain English\", \"Free audit\", \"No contracts\"]}, {\"c\": \"general\", \"q\": \"Is a free SEO audit worth it?\", \"a\": \"Free audits are usually automated reports generated by a tool. They can highlight obvious issues like missing titles or broken links, but they rarely prioritize based on your business or explain root causes. They are a starting point for learning, not a substitute for an expert review if your site is important to revenue.\", \"t\": [\"Plain English\", \"Free audit\", \"No contracts\"]}, {\"c\": \"general\", \"q\": \"Will the audit fix the problems it finds?\", \"a\": \"An audit diagnoses issues and provides a plan to fix them. Implementation is a separate step. Many clients handle fixes in house using our recommendations, while others hire us to implement them or continue into an ongoing SEO program. Either way, the audit document gives you everything needed to act.\", \"t\": [\"Plain English\", \"Free audit\", \"No contracts\"]}, {\"c\": \"general\", \"q\": \"How often should I audit my website?\", \"a\": \"Most businesses benefit from a full audit once a year, plus a focused review before and after major site changes. Sites that publish frequently, run large catalogs or deploy code often should add monthly monitoring between full audits, so new problems are caught early rather than discovered after traffic falls.\", \"t\": [\"Plain English\", \"Free audit\", \"No contracts\"]}];window.FXMAIL=\"hello@rankempire.com\"" }} />
+    </section>
+  );
+}
