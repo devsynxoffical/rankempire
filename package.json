@@ -3,6 +3,6 @@
   "version": "6.0.0",
   "private": true,
   "scripts": {
-    "build": "echo 'RankEmpire 6 static site ready'"
+    "build": "echo 'RankEmpire 6 ready in public/'"
   }
 }
