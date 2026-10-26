@@ -811,7 +811,7 @@ export default function Header({ active = '' }: { active?: string }) {
                     </span>
                   </span>
                 </a>
-                <a className={active === 'results' ? 'on' : ''} href="/case-studies/">
+                <a className="dl" href="/case-studies/">
                   <span className="ic">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                       <path d="M4 20V4M4 20h16M8 16l4-5 3 3 5-7" />
