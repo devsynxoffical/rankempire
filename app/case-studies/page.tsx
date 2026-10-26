@@ -9,7 +9,6 @@ import Results from '@/components/pages/case-studies/Results';
 import MoreResults from '@/components/pages/case-studies/MoreResults';
 import Xpb from '@/components/pages/case-studies/Xpb';
 import Measure from '@/components/pages/case-studies/Measure';
-import Trust from '@/components/sections/Trust';
 import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
@@ -37,7 +36,6 @@ export default function Page() {
         <MoreResults />
         <Xpb />
         <Measure />
-        <Trust />
         <Pmq />
         <Robo />
       </main>
