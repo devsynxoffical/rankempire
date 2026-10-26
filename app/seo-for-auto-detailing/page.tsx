@@ -4,7 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/seo-for-auto-detailing/Hero';
+import V0 from '@/components/pages/seo-for-auto-detailing/V0';
 import Statement from '@/components/pages/seo-for-auto-detailing/Statement';
 import Searches from '@/components/pages/seo-for-auto-detailing/Searches';
 import Challenges from '@/components/pages/seo-for-auto-detailing/Challenges';
@@ -15,6 +15,7 @@ import Services from '@/components/pages/seo-for-auto-detailing/Services';
 import Cities from '@/components/pages/seo-for-auto-detailing/Cities';
 import Pricing from '@/components/pages/seo-for-auto-detailing/Pricing';
 import Faq from '@/components/pages/seo-for-auto-detailing/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Related from '@/components/pages/seo-for-auto-detailing/Related';
 import Robo from '@/components/sections/Robo';
 
@@ -39,7 +40,7 @@ export default function Page() {
       <Header active="industries" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V0 />
         <Statement />
         <Searches />
         <Challenges />
@@ -50,6 +51,7 @@ export default function Page() {
         <Cities />
         <Pricing />
         <Faq />
+        <Pmq />
         <Related />
         <Robo />
       </main>

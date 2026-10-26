@@ -15,33 +15,33 @@ export default function Pages() {
           <div className="sr2">
             <div className="pim">
               <div className="pm on">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-content.jpg" aria-label="Luxury vinyl plank page">
-                  <source src="/img/m-content.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-strat.jpg" aria-label="Hardwood flooring page">
-                  <source src="/img/m-strat.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-tech.jpg" aria-label="Showroom and samples page">
-                  <source src="/img/m-tech.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-local.jpg" aria-label="Refinishing and repair page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-local.jpg" aria-label="Luxury vinyl plank page">
                   <source src="/img/m-local.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-growth.jpg" aria-label="Flooring comparison guide">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-growth.jpg" aria-label="Hardwood flooring page">
                   <source src="/img/m-growth.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.jpg" aria-label="Commercial flooring page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.jpg" aria-label="Showroom and samples page">
                   <source src="/img/m-ai.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-desk.jpg" aria-label="Refinishing and repair page">
+                  <source src="/img/m-desk.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-services.jpg" aria-label="Flooring comparison guide">
+                  <source src="/img/m-services.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-map.jpg" aria-label="Commercial flooring page">
+                  <source src="/img/m-map.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="ix">

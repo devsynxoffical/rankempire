@@ -4,7 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/seo-for-fencing-companies/Hero';
+import V0 from '@/components/pages/seo-for-fencing-companies/V0';
 import Statement from '@/components/pages/seo-for-fencing-companies/Statement';
 import Searches from '@/components/pages/seo-for-fencing-companies/Searches';
 import Challenges from '@/components/pages/seo-for-fencing-companies/Challenges';
@@ -15,6 +15,7 @@ import Services from '@/components/pages/seo-for-fencing-companies/Services';
 import Cities from '@/components/pages/seo-for-fencing-companies/Cities';
 import Pricing from '@/components/pages/seo-for-fencing-companies/Pricing';
 import Faq from '@/components/pages/seo-for-fencing-companies/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Related from '@/components/pages/seo-for-fencing-companies/Related';
 import Robo from '@/components/sections/Robo';
 
@@ -39,7 +40,7 @@ export default function Page() {
       <Header active="industries" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V0 />
         <Statement />
         <Searches />
         <Challenges />
@@ -50,6 +51,7 @@ export default function Page() {
         <Cities />
         <Pricing />
         <Faq />
+        <Pmq />
         <Related />
         <Robo />
       </main>

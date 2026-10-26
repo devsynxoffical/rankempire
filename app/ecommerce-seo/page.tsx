@@ -4,7 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/ecommerce-seo/Hero';
+import V2 from '@/components/pages/ecommerce-seo/V2';
 import Statement from '@/components/pages/ecommerce-seo/Statement';
 import InDepth from '@/components/pages/ecommerce-seo/InDepth';
 import WhyItMatters from '@/components/pages/ecommerce-seo/WhyItMatters';
@@ -16,6 +16,7 @@ import WhoItIsFor from '@/components/pages/ecommerce-seo/WhoItIsFor';
 import Comparison from '@/components/pages/ecommerce-seo/Comparison';
 import Pricing from '@/components/pages/ecommerce-seo/Pricing';
 import Faq from '@/components/pages/ecommerce-seo/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Related from '@/components/pages/ecommerce-seo/Related';
 import Robo from '@/components/sections/Robo';
 
@@ -40,7 +41,7 @@ export default function Page() {
       <Header active="services" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V2 />
         <Statement />
         <InDepth />
         <WhyItMatters />
@@ -52,6 +53,7 @@ export default function Page() {
         <Comparison />
         <Pricing />
         <Faq />
+        <Pmq />
         <Related />
         <Robo />
       </main>

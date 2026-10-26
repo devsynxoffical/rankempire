@@ -4,7 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/aeo/Hero';
+import V0 from '@/components/pages/aeo/V0';
 import Statement from '@/components/pages/aeo/Statement';
 import Deliverables from '@/components/pages/aeo/Deliverables';
 import Marquee from '@/components/pages/aeo/Marquee';
@@ -12,6 +12,7 @@ import Process from '@/components/pages/aeo/Process';
 import WhoItIsFor from '@/components/pages/aeo/WhoItIsFor';
 import Pricing from '@/components/pages/aeo/Pricing';
 import Faq from '@/components/pages/aeo/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Related from '@/components/pages/aeo/Related';
 import Robo from '@/components/sections/Robo';
 
@@ -36,7 +37,7 @@ export default function Page() {
       <Header active="services" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V0 />
         <Statement />
         <Deliverables />
         <Marquee />
@@ -44,6 +45,7 @@ export default function Page() {
         <WhoItIsFor />
         <Pricing />
         <Faq />
+        <Pmq />
         <Related />
         <Robo />
       </main>

@@ -15,33 +15,33 @@ export default function Pages() {
           <div className="sr2">
             <div className="pim">
               <div className="pm on">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-content.jpg" aria-label="AC repair page">
-                  <source src="/img/m-content.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-strat.jpg" aria-label="Furnace and heating repair page">
-                  <source src="/img/m-strat.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-tech.jpg" aria-label="Heat pump installation page">
-                  <source src="/img/m-tech.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-local.jpg" aria-label="Maintenance plan page">
-                  <source src="/img/m-local.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-growth.jpg" aria-label="Ductless mini split page">
-                  <source src="/img/m-growth.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.jpg" aria-label="Financing and rebates page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.jpg" aria-label="AC repair page">
                   <source src="/img/m-ai.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-desk.jpg" aria-label="Furnace and heating repair page">
+                  <source src="/img/m-desk.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-services.jpg" aria-label="Heat pump installation page">
+                  <source src="/img/m-services.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-industries.jpg" aria-label="Maintenance plan page">
+                  <source src="/img/m-industries.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-map.jpg" aria-label="Ductless mini split page">
+                  <source src="/img/m-map.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-team.jpg" aria-label="Financing and rebates page">
+                  <source src="/img/m-team.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="ix">

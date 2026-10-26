@@ -1,6 +1,6 @@
 export default function InDepth() {
   return (
-    <section className="x yp" id="what">
+    <section className="x yp flip" id="what">
       <div className="wrap">
         <div className="yp-g">
           <div className="yp-l">
@@ -57,8 +57,8 @@ export default function InDepth() {
           <div className="yp-r">
             <div className="yp-stick">
               <div className="yp-m">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-strat.jpg" aria-label="What is keyword research?">
-                  <source src="/img/m-strat.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-content.jpg" aria-label="What is keyword research?">
+                  <source src="/img/m-content.mp4" type="video/mp4" />
                 </video>
                 <div className="yp-ring"></div>
               </div>

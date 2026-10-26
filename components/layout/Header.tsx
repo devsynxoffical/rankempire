@@ -17,7 +17,7 @@ export default function Header({ active = '' }: { active?: string }) {
         {"\n"}
         <nav className="mnu" aria-label="Main">
           <div className="mi">
-            <button type="button" className={active === 'services' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
+            <a href="/seo-services/" className={active === 'services' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
               {"Services"}
               <sup>
                 {"21"}
@@ -25,7 +25,7 @@ export default function Header({ active = '' }: { active?: string }) {
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m6 9 6 6 6-6" />
               </svg>
-            </button>
+            </a>
             <div className="dd" role="menu">
               <div className="ddg" style={{gridTemplateColumns: "1.35fr .9fr .85fr"} as React.CSSProperties}>
                 {"\n"}
@@ -243,7 +243,7 @@ export default function Header({ active = '' }: { active?: string }) {
             </div>
           </div>
           <div className="mi">
-            <button type="button" className={active === 'industries' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
+            <a href="/industries/" className={active === 'industries' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
               {"Industries"}
               <sup>
                 {"45"}
@@ -251,7 +251,7 @@ export default function Header({ active = '' }: { active?: string }) {
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m6 9 6 6 6-6" />
               </svg>
-            </button>
+            </a>
             <div className="dd" role="menu" style={{width: "min(1180px,calc(100vw - 32px))"} as React.CSSProperties}>
               <div className="dsl dcols">
                 <h6>
@@ -425,12 +425,12 @@ export default function Header({ active = '' }: { active?: string }) {
             </div>
           </div>
           <div className="mi">
-            <button type="button" className={active === 'pricing' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
+            <a href="/seo-packages/" className={active === 'pricing' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
               {"Pricing"}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m6 9 6 6 6-6" />
               </svg>
-            </button>
+            </a>
             <div className="dd sm" role="menu">
               <div className="ddg">
                 <a className="dl" href="/seo-packages/">
@@ -509,7 +509,7 @@ export default function Header({ active = '' }: { active?: string }) {
             </div>
           </div>
           <div className="mi">
-            <button type="button" className={active === 'free' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
+            <a href="/seo-tools/" className={active === 'free' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
               {"Free tools"}
               <sup>
                 {"11"}
@@ -517,7 +517,7 @@ export default function Header({ active = '' }: { active?: string }) {
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m6 9 6 6 6-6" />
               </svg>
-            </button>
+            </a>
             <div className="dd" role="menu" style={{width: "min(760px,calc(100vw - 32px))"} as React.CSSProperties}>
               <div className="ddg" style={{gridTemplateColumns: "1fr 1fr"} as React.CSSProperties}>
                 <a className="dl" href="/seo-tools/seo-audit-tool/">
@@ -692,7 +692,7 @@ export default function Header({ active = '' }: { active?: string }) {
             </div>
           </div>
           <div className="mi opt">
-            <button type="button" className={active === 'locations' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
+            <a href="/locations/" className={active === 'locations' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
               {"Locations"}
               <sup>
                 {"17"}
@@ -700,7 +700,7 @@ export default function Header({ active = '' }: { active?: string }) {
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m6 9 6 6 6-6" />
               </svg>
-            </button>
+            </a>
             <div className="dd" role="menu" style={{width: "min(720px,calc(100vw - 32px))"} as React.CSSProperties}>
               <div className="ddg dsl" style={{gridTemplateColumns: "repeat(3,1fr)", gap: "2px 16px"} as React.CSSProperties}>
                 <a href="/locations/new-york/">
@@ -771,12 +771,12 @@ export default function Header({ active = '' }: { active?: string }) {
             </a>
           </div>
           <div className="mi">
-            <button type="button" className={active === 'company' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
+            <a href="/about-us/" className={active === 'company' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
               {"Company"}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m6 9 6 6 6-6" />
               </svg>
-            </button>
+            </a>
             <div className="dd sm" role="menu">
               <div className="ddg" style={{gridTemplateColumns: "1fr 1fr"} as React.CSSProperties}>
                 <a className="dl" href="/about-us/">

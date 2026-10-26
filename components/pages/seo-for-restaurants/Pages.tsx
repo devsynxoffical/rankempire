@@ -20,28 +20,28 @@ export default function Pages() {
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-strat.jpg" aria-label="Private events page">
-                  <source src="/img/m-strat.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-tech.jpg" aria-label="Catering page">
-                  <source src="/img/m-tech.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-local.jpg" aria-label="Signature dishes page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-local.jpg" aria-label="Private events page">
                   <source src="/img/m-local.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-growth.jpg" aria-label="Dietary options page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-growth.jpg" aria-label="Catering page">
                   <source src="/img/m-growth.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.jpg" aria-label="Location pages">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.jpg" aria-label="Signature dishes page">
                   <source src="/img/m-ai.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-desk.jpg" aria-label="Dietary options page">
+                  <source src="/img/m-desk.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-services.jpg" aria-label="Location pages">
+                  <source src="/img/m-services.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="ix">

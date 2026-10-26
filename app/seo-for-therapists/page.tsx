@@ -4,7 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/seo-for-therapists/Hero';
+import V0 from '@/components/pages/seo-for-therapists/V0';
 import Statement from '@/components/pages/seo-for-therapists/Statement';
 import Searches from '@/components/pages/seo-for-therapists/Searches';
 import Challenges from '@/components/pages/seo-for-therapists/Challenges';
@@ -15,6 +15,7 @@ import Services from '@/components/pages/seo-for-therapists/Services';
 import Cities from '@/components/pages/seo-for-therapists/Cities';
 import Pricing from '@/components/pages/seo-for-therapists/Pricing';
 import Faq from '@/components/pages/seo-for-therapists/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Related from '@/components/pages/seo-for-therapists/Related';
 import Robo from '@/components/sections/Robo';
 
@@ -39,7 +40,7 @@ export default function Page() {
       <Header active="industries" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V0 />
         <Statement />
         <Searches />
         <Challenges />
@@ -50,6 +51,7 @@ export default function Page() {
         <Cities />
         <Pricing />
         <Faq />
+        <Pmq />
         <Related />
         <Robo />
       </main>

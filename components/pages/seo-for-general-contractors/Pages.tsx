@@ -15,33 +15,33 @@ export default function Pages() {
           <div className="sr2">
             <div className="pim">
               <div className="pm on">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-content.jpg" aria-label="Kitchen remodeling page">
-                  <source src="/img/m-content.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-strat.jpg" aria-label="Home additions page">
-                  <source src="/img/m-strat.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-tech.jpg" aria-label="Project portfolio page">
-                  <source src="/img/m-tech.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-local.jpg" aria-label="Insurance restoration page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-local.jpg" aria-label="Kitchen remodeling page">
                   <source src="/img/m-local.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-growth.jpg" aria-label="Our process page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-growth.jpg" aria-label="Home additions page">
                   <source src="/img/m-growth.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.jpg" aria-label="Commercial construction page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.jpg" aria-label="Project portfolio page">
                   <source src="/img/m-ai.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-desk.jpg" aria-label="Insurance restoration page">
+                  <source src="/img/m-desk.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-services.jpg" aria-label="Our process page">
+                  <source src="/img/m-services.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div className="pm">
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-industries.jpg" aria-label="Commercial construction page">
+                  <source src="/img/m-industries.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="ix">

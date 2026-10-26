@@ -4,7 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/link-building/Hero';
+import V1 from '@/components/pages/link-building/V1';
 import Statement from '@/components/pages/link-building/Statement';
 import InDepth from '@/components/pages/link-building/InDepth';
 import WhyItMatters from '@/components/pages/link-building/WhyItMatters';
@@ -16,6 +16,7 @@ import WhoItIsFor from '@/components/pages/link-building/WhoItIsFor';
 import Comparison from '@/components/pages/link-building/Comparison';
 import Pricing from '@/components/pages/link-building/Pricing';
 import Faq from '@/components/pages/link-building/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Related from '@/components/pages/link-building/Related';
 import Robo from '@/components/sections/Robo';
 
@@ -40,7 +41,7 @@ export default function Page() {
       <Header active="services" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V1 />
         <Statement />
         <InDepth />
         <WhyItMatters />
@@ -52,6 +53,7 @@ export default function Page() {
         <Comparison />
         <Pricing />
         <Faq />
+        <Pmq />
         <Related />
         <Robo />
       </main>

@@ -8,6 +8,7 @@ import PageHero from '@/components/pages/blog__technical-seo-basics/PageHero';
 import Wrap from '@/components/pages/blog__technical-seo-basics/Wrap';
 import Sec from '@/components/pages/blog__technical-seo-basics/Sec';
 import Tight from '@/components/pages/blog__technical-seo-basics/Tight';
+import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
@@ -34,6 +35,7 @@ export default function Page() {
         <Wrap />
         <Sec />
         <Tight />
+        <Pmq />
         <Robo />
       </main>
       <Footer />

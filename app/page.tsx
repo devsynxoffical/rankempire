@@ -6,14 +6,15 @@ import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
 import Hero from '@/components/pages/home/Hero';
 import Results from '@/components/pages/home/Results';
-import MoreResults from '@/components/sections/MoreResults';
+import MoreResults from '@/components/pages/home/MoreResults';
 import AiSearch from '@/components/pages/home/AiSearch';
 import Cols3 from '@/components/pages/home/Cols3';
 import Benefits from '@/components/pages/home/Benefits';
 import Explore from '@/components/pages/home/Explore';
 import Rankgrid from '@/components/pages/home/Rankgrid';
-import Founder from '@/components/sections/Founder';
+import Fd5 from '@/components/sections/Fd5';
 import Faq from '@/components/pages/home/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 import Script from '@/components/pages/home/Script';
 
@@ -45,8 +46,9 @@ export default function Page() {
         <Benefits />
         <Explore />
         <Rankgrid />
-        <Founder />
+        <Fd5 />
         <Faq />
+        <Pmq />
         <Robo />
         <Script />
       </main>

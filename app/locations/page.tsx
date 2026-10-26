@@ -4,9 +4,10 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/locations/Hero';
+import V0 from '@/components/pages/locations/V0';
 import Cities from '@/components/pages/locations/Cities';
 import WhyItMatters from '@/components/pages/locations/WhyItMatters';
+import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
@@ -28,9 +29,10 @@ export default function Page() {
       <Header active="locations" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V0 />
         <Cities />
         <WhyItMatters />
+        <Pmq />
         <Robo />
       </main>
       <Footer />

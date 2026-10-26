@@ -4,7 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/seo-services/Hero';
+import V1 from '@/components/pages/seo-services/V1';
 import Statement from '@/components/pages/seo-services/Statement';
 import Core from '@/components/pages/seo-services/Core';
 import Specialist from '@/components/pages/seo-services/Specialist';
@@ -17,6 +17,7 @@ import WhoItIsFor from '@/components/pages/seo-services/WhoItIsFor';
 import Comparison from '@/components/pages/seo-services/Comparison';
 import Pricing from '@/components/pages/seo-services/Pricing';
 import Faq from '@/components/pages/seo-services/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Related from '@/components/pages/seo-services/Related';
 import Robo from '@/components/sections/Robo';
 
@@ -41,7 +42,7 @@ export default function Page() {
       <Header active="services" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V1 />
         <Statement />
         <Core />
         <Specialist />
@@ -54,6 +55,7 @@ export default function Page() {
         <Comparison />
         <Pricing />
         <Faq />
+        <Pmq />
         <Related />
         <Robo />
       </main>

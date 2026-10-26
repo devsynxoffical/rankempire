@@ -7,6 +7,7 @@ import Footer from '@/components/layout/Footer';
 import Yc from '@/components/pages/contact-us/Yc';
 import Next from '@/components/pages/contact-us/Next';
 import Faq from '@/components/pages/contact-us/Faq';
+import Pmq from '@/components/sections/Pmq';
 
 export const metadata: Metadata = {
   title: "Contact RankEmpire: Get a Free SEO Audit",
@@ -31,6 +32,7 @@ export default function Page() {
         <Yc />
         <Next />
         <Faq />
+        <Pmq />
       </main>
       <Footer />
     </>

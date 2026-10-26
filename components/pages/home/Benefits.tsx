@@ -27,9 +27,7 @@ export default function Benefits() {
         <div className="grid" data-stagger="">
           {"\n"}
           <a className="t tall photo top" href="/seo-packages/">
-            <video className="mv3d bg" autoPlay muted loop playsInline preload="metadata" poster="/img/m-desk.jpg" aria-label="SEO analytics dashboard">
-              <source src="/img/m-desk.mp4" type="video/mp4" />
-            </video>
+            <img className="bg" src="/img/b-pack.webp" alt="SEO packages" loading="lazy" style={{objectFit: "cover", objectPosition: "center 30%"} as React.CSSProperties} />
             <div className="pz">
               <h3>
                 <sup></sup>
@@ -64,7 +62,7 @@ export default function Benefits() {
           </div>
           {"\n"}
           <a className="t tall photo" href="/seo-packages/">
-            <img className="bg" src="/img/x-price.webp" alt="Transparent pricing" loading="lazy" />
+            <img className="bg" src="/img/b-price.webp" alt="Transparent pricing" loading="lazy" style={{objectFit: "cover", objectPosition: "center 25%"} as React.CSSProperties} />
             <div className="pz">
               <h3>
                 <sup></sup>
@@ -229,15 +227,13 @@ export default function Benefits() {
           </div>
           {"\n"}
           <div className="t photo">
-            <video className="mv3d bg" autoPlay muted loop playsInline preload="metadata" poster="/img/m-growth.jpg" aria-label="Average position 7.5">
-              <source src="/img/m-growth.mp4" type="video/mp4" />
-            </video>
+            <img className="bg" src="/img/b-pos.webp" alt="" loading="lazy" style={{objectFit: "cover", objectPosition: "center 0%", background: "#fff"} as React.CSSProperties} />
             <div className="pz">
               <h3 style={{fontSize: "clamp(22px,2vw,30px)"} as React.CSSProperties}>
                 {"Average position"}
               </h3>
               <div className="big">
-                <span data-count="7.5">{"7.5"}</span>
+                {"7.5"}
               </div>
               <p style={{marginTop: "0"} as React.CSSProperties}>
                 {"First page of Google, verified client data"}
@@ -271,7 +267,7 @@ export default function Benefits() {
           </div>
           {"\n"}
           <div className="t photo dkp" style={{background: "#f3f1ec"} as React.CSSProperties}>
-            <img className="bg" src="/img/gaurav-cut.png" alt="" loading="lazy" style={{objectFit: "contain", objectPosition: "100% 100%", left: "34%", width: "66%"} as React.CSSProperties} />
+            <img className="bg" src="/img/b-strat.webp" alt="" loading="lazy" style={{objectFit: "contain", objectPosition: "100% 0", left: "38%", width: "62%", top: "0", height: "78%"} as React.CSSProperties} />
             <div className="pz" style={{marginTop: "auto"} as React.CSSProperties}>
               <span className="stars" aria-hidden="true">
                 {"★★★★★"}

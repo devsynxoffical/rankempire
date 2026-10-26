@@ -9,6 +9,7 @@ import Pricing from '@/components/pages/seo-packages/Pricing';
 import Alt from '@/components/pages/seo-packages/Alt';
 import Tight from '@/components/pages/seo-packages/Tight';
 import Faq from '@/components/sections/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
@@ -37,6 +38,7 @@ export default function Page() {
         <Alt />
         <Tight />
         <Faq />
+        <Pmq />
         <Robo />
       </main>
       <Footer />

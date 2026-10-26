@@ -4,7 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/locations__new-york/Hero';
+import V2 from '@/components/pages/locations__new-york/V2';
 import Statement from '@/components/pages/locations__new-york/Statement';
 import Considerations from '@/components/pages/locations__new-york/Considerations';
 import ServiceAreas from '@/components/pages/locations__new-york/ServiceAreas';
@@ -14,6 +14,7 @@ import Industries from '@/components/pages/locations__new-york/Industries';
 import Services from '@/components/pages/locations__new-york/Services';
 import Pricing from '@/components/pages/locations__new-york/Pricing';
 import Faq from '@/components/pages/locations__new-york/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Related from '@/components/pages/locations__new-york/Related';
 import Robo from '@/components/sections/Robo';
 
@@ -38,7 +39,7 @@ export default function Page() {
       <Header active="locations" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V2 />
         <Statement />
         <Considerations />
         <ServiceAreas />
@@ -48,6 +49,7 @@ export default function Page() {
         <Services />
         <Pricing />
         <Faq />
+        <Pmq />
         <Related />
         <Robo />
       </main>

@@ -12,12 +12,12 @@ $$('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const id=a.getAttri
 
 /* header dropdowns */
 const hdr=$('.hdr');const items=$$('.mi');let closeT=null;
-const closeAll=ex=>items.forEach(m=>{if(m!==ex){m.classList.remove('op');const b=$('button',m);b&&b.setAttribute('aria-expanded','false')}});
-items.forEach(m=>{const b=$('button',m);if(!b)return;
+const closeAll=ex=>items.forEach(m=>{if(m!==ex){m.classList.remove('op');const b=m.querySelector(':scope>[aria-haspopup]');b&&b.setAttribute('aria-expanded','false')}});
+items.forEach(m=>{const b=m.querySelector(':scope>[aria-haspopup]');if(!b)return;
   const open=()=>{clearTimeout(closeT);closeAll(m);m.classList.add('op');b.setAttribute('aria-expanded','true')};
   const close=()=>{closeT=setTimeout(()=>{m.classList.remove('op');b.setAttribute('aria-expanded','false')},140)};
   m.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')open()});m.addEventListener('pointerleave',e=>{if(e.pointerType==='mouse')close()});
-  b.addEventListener('click',()=>{m.classList.contains('op')?(m.classList.remove('op'),b.setAttribute('aria-expanded','false')):open()});
+  b.addEventListener('click',e=>{if(b.tagName==='A'&&matchMedia('(hover:hover)').matches)return;e.preventDefault();m.classList.contains('op')?(m.classList.remove('op'),b.setAttribute('aria-expanded','false')):open()});
   m.addEventListener('focusout',e=>{if(!m.contains(e.relatedTarget))close()})});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeAll();if(document.body.classList.contains('mopen'))toggleMob(false)}});
 document.addEventListener('click',e=>{if(!e.target.closest('.mi'))closeAll()});

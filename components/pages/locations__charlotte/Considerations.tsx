@@ -20,7 +20,11 @@ export default function Considerations() {
                   <circle className="p" cx="50" cy="50" r="44" />
                 </svg>
                 <b>
-                  {"01"}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="9" />
+                    <circle cx="12" cy="12" r="5" />
+                    <circle cx="12" cy="12" r="1" />
+                  </svg>
                 </b>
               </span>
               <span className="ic">
@@ -45,7 +49,10 @@ export default function Considerations() {
                   <circle className="p" cx="50" cy="50" r="44" />
                 </svg>
                 <b>
-                  {"02"}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M7 3h7l5 5v13H7z" />
+                    <path d="M14 3v5h5M10 13h6M10 17h6" />
+                  </svg>
                 </b>
               </span>
               <span className="ic">
@@ -71,7 +78,9 @@ export default function Considerations() {
                   <circle className="p" cx="50" cy="50" r="44" />
                 </svg>
                 <b>
-                  {"03"}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M4 20V4M4 20h16M8 16l4-5 3 3 5-7" />
+                  </svg>
                 </b>
               </span>
               <span className="ic">

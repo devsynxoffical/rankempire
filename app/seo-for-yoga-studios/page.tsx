@@ -4,7 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/seo-for-yoga-studios/Hero';
+import V2 from '@/components/pages/seo-for-yoga-studios/V2';
 import Statement from '@/components/pages/seo-for-yoga-studios/Statement';
 import Searches from '@/components/pages/seo-for-yoga-studios/Searches';
 import Challenges from '@/components/pages/seo-for-yoga-studios/Challenges';
@@ -15,6 +15,7 @@ import Services from '@/components/pages/seo-for-yoga-studios/Services';
 import Cities from '@/components/pages/seo-for-yoga-studios/Cities';
 import Pricing from '@/components/pages/seo-for-yoga-studios/Pricing';
 import Faq from '@/components/pages/seo-for-yoga-studios/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Related from '@/components/pages/seo-for-yoga-studios/Related';
 import Robo from '@/components/sections/Robo';
 
@@ -39,7 +40,7 @@ export default function Page() {
       <Header active="industries" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V2 />
         <Statement />
         <Searches />
         <Challenges />
@@ -50,6 +51,7 @@ export default function Page() {
         <Cities />
         <Pricing />
         <Faq />
+        <Pmq />
         <Related />
         <Robo />
       </main>

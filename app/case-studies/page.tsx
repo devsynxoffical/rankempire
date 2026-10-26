@@ -4,12 +4,13 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/case-studies/Hero';
+import V0 from '@/components/pages/case-studies/V0';
 import Results from '@/components/pages/case-studies/Results';
-import MoreResults from '@/components/sections/MoreResults';
+import MoreResults from '@/components/pages/case-studies/MoreResults';
 import Xpb from '@/components/pages/case-studies/Xpb';
 import Measure from '@/components/pages/case-studies/Measure';
 import Trust from '@/components/sections/Trust';
+import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
@@ -31,12 +32,13 @@ export default function Page() {
       <Header active="results" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V0 />
         <Results />
         <MoreResults />
         <Xpb />
         <Measure />
         <Trust />
+        <Pmq />
         <Robo />
       </main>
       <Footer />

@@ -9,6 +9,7 @@ import Section from '@/components/pages/seo-tools__seo-audit-tool/Section';
 import How from '@/components/pages/seo-tools__seo-audit-tool/How';
 import More from '@/components/pages/seo-tools__seo-audit-tool/More';
 import Faq from '@/components/pages/seo-tools__seo-audit-tool/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
@@ -37,6 +38,7 @@ export default function Page() {
         <How />
         <More />
         <Faq />
+        <Pmq />
         <Robo />
       </main>
       <Footer />

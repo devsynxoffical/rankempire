@@ -8,6 +8,7 @@ import PageHero from '@/components/pages/blog__why-most-seo-campaigns-fail/PageH
 import Wrap from '@/components/pages/blog__why-most-seo-campaigns-fail/Wrap';
 import Sec from '@/components/pages/blog__why-most-seo-campaigns-fail/Sec';
 import Tight from '@/components/pages/blog__why-most-seo-campaigns-fail/Tight';
+import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
@@ -34,6 +35,7 @@ export default function Page() {
         <Wrap />
         <Sec />
         <Tight />
+        <Pmq />
         <Robo />
       </main>
       <Footer />

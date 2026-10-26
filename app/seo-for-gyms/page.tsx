@@ -4,7 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/seo-for-gyms/Hero';
+import V1 from '@/components/pages/seo-for-gyms/V1';
 import Statement from '@/components/pages/seo-for-gyms/Statement';
 import Searches from '@/components/pages/seo-for-gyms/Searches';
 import Challenges from '@/components/pages/seo-for-gyms/Challenges';
@@ -15,6 +15,7 @@ import Services from '@/components/pages/seo-for-gyms/Services';
 import Cities from '@/components/pages/seo-for-gyms/Cities';
 import Pricing from '@/components/pages/seo-for-gyms/Pricing';
 import Faq from '@/components/pages/seo-for-gyms/Faq';
+import Pmq from '@/components/sections/Pmq';
 import Related from '@/components/pages/seo-for-gyms/Related';
 import Robo from '@/components/sections/Robo';
 
@@ -39,7 +40,7 @@ export default function Page() {
       <Header active="industries" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V1 />
         <Statement />
         <Searches />
         <Challenges />
@@ -50,6 +51,7 @@ export default function Page() {
         <Cities />
         <Pricing />
         <Faq />
+        <Pmq />
         <Related />
         <Robo />
       </main>

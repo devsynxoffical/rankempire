@@ -6,6 +6,9 @@ export default function MobileMenu() {
           {"Services"}
         </summary>
         <div>
+          <a href="/seo-services/" style={{fontWeight: "700"} as React.CSSProperties}>
+            {"All services →"}
+          </a>
           <a href="/seo-services/">
             {"SEO Services"}
           </a>
@@ -73,6 +76,9 @@ export default function MobileMenu() {
           {"Industries"}
         </summary>
         <div>
+          <a href="/industries/" style={{fontWeight: "700"} as React.CSSProperties}>
+            {"All industries →"}
+          </a>
           <a href="/industries/">
             {"Industries We Serve"}
           </a>
@@ -218,6 +224,9 @@ export default function MobileMenu() {
           {"Pricing"}
         </summary>
         <div>
+          <a href="/seo-packages/" style={{fontWeight: "700"} as React.CSSProperties}>
+            {"All pricing →"}
+          </a>
           <a href="/seo-packages/">
             {"SEO Packages"}
           </a>
@@ -237,6 +246,9 @@ export default function MobileMenu() {
           {"Free tools"}
         </summary>
         <div>
+          <a href="/seo-tools/" style={{fontWeight: "700"} as React.CSSProperties}>
+            {"All free tools →"}
+          </a>
           <a href="/seo-tools/">
             {"SEO Tools"}
           </a>
@@ -280,6 +292,9 @@ export default function MobileMenu() {
           {"Locations"}
         </summary>
         <div>
+          <a href="/locations/" style={{fontWeight: "700"} as React.CSSProperties}>
+            {"All locations →"}
+          </a>
           <a href="/locations/">
             {"Locations"}
           </a>
@@ -341,6 +356,9 @@ export default function MobileMenu() {
           {"Company"}
         </summary>
         <div>
+          <a href="/about-us/" style={{fontWeight: "700"} as React.CSSProperties}>
+            {"All company →"}
+          </a>
           <a href="/about-us/">
             {"About Us"}
           </a>

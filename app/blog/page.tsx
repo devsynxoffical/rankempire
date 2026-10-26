@@ -4,8 +4,9 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
-import Hero from '@/components/pages/blog/Hero';
+import V0 from '@/components/pages/blog/V0';
 import X from '@/components/pages/blog/X';
+import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
@@ -27,8 +28,9 @@ export default function Page() {
       <Header active="company" />
       <MobileMenu />
       <main id="main">
-        <Hero />
+        <V0 />
         <X />
+        <Pmq />
         <Robo />
       </main>
       <Footer />

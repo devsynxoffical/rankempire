@@ -61,8 +61,8 @@ export default function InDepth() {
           <div className="yp-r">
             <div className="yp-stick">
               <div className="yp-m">
-                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-local.jpg" aria-label="What is Google Business Profile SEO?">
-                  <source src="/img/m-local.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.jpg" aria-label="What is Google Business Profile SEO?">
+                  <source src="/img/m-ai.mp4" type="video/mp4" />
                 </video>
                 <div className="yp-ring"></div>
               </div>
