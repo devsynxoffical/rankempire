@@ -1,8 +1,10 @@
+import TrustedLogos from './TrustedLogos';
+
 export default function Results() {
   return (
     <section className="ot" id="results" aria-labelledby="ot-h">
       <div className="box">
-        {"\n"}
+        <TrustedLogos />
         <span className="pl">
           {"Verified SEO results"}
         </span>
