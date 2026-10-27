@@ -1,8 +1,14 @@
 import type { ReactNode } from 'react';
+import type { Metadata } from 'next';
 import Script from 'next/script';
 import './globals.css';
 
-export const metadata = { metadataBase: new URL('https://www.rankempire.com') };
+export const metadata: Metadata = {
+  metadataBase: new URL('https://www.rankempire.com'),
+  verification: {
+    google: '5Ptm68tJx32eJtyqruB7T4rOSsnFGEaxft6XCeDZSFk',
+  },
+};
 
 // Marks the document as "seen" on same-site navigations so the intro loader only plays on fresh visits and reloads.
 const SEEN = `try{if("scrollRestoration" in history)history.scrollRestoration="manual";if(!location.hash)window.scrollTo(0,0);addEventListener("pageshow",function(){if(!location.hash)window.scrollTo(0,0)});}catch(e){}try{var n=performance.getEntriesByType("navigation")[0],t=n?n.type:"navigate",r=document.referrer,same=false;try{same=!!r&&new URL(r).host===location.host}catch(_){}if(t!=="reload"&&same)document.documentElement.classList.add("seen")}catch(e){}`;
