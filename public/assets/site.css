@@ -2039,7 +2039,7 @@ body,.sec,.sec.tint,.x,.xov,.xbento,.xsearch,.xprice,.ph,.hw,.sb,.gv,.spx,.faqs,
 .robo .rr{display:flex;align-items:center;padding:clamp(20px,3vw,50px)}
 .robo .rr p{display:grid;grid-template-columns:22px 1fr;gap:14px;font-size:clamp(18px,1.6vw,24px);line-height:1.4;max-width:30ch;font-weight:500}
 .robo .rr p::before{content:"";width:14px;height:14px;border-top:3px solid #fff;border-right:3px solid #fff;margin-top:8px}
-@media (max-width:860px){.robo{grid-template-columns:1fr}.robo>div{border-right:0}.robo .rl{min-height:320px}.robo .rl img{left:50%;top:50%;width:min(300px,62vw);translate:-50% -50%!important}.robo .rm h2{padding-top:30px}.robo .rr{padding-top:0}}
+@media (max-width:860px){.robo{grid-template-columns:1fr}.robo>div{border-right:0}.robo .rl{min-height:280px}.robo .rl img{left:clamp(20px,4vw,40px);top:50%;width:min(300px,62vw);translate:0 -50%!important}.robo .rm h2{padding-top:30px}.robo .rr{padding-top:0}}
 .robo+.sec.tight{margin-top:0}
 /* founder: reference-accurate shadow, lagging light, single-word name */
 .fd{--lx:62%;--ly:50%;--sx:0px;--sk:0deg}
@@ -2607,10 +2607,10 @@ body.in-fd .cur,body.in-fd .cur-r{opacity:0!important}
 .pmq-tw{position:relative;overflow:hidden}
 /* ===== mobile polish ===== */
 @media (max-width:760px){
-  /* robo: full robot visible */
+  /* robo: robot aligned to left side */
   .robo{display:flex;flex-direction:column}
-  .robo .rl{min-height:0;height:auto;padding:28px 20px 0;order:0}
-  .robo .rl img{position:static!important;width:min(62%,260px)!important;translate:0!important;transform:none!important;display:block;margin:0 auto;filter:drop-shadow(0 20px 30px rgba(0,0,0,.3))}
+  .robo .rl{min-height:0;height:auto;padding:28px 20px 0;order:0;display:flex;justify-content:flex-start}
+  .robo .rl img{position:static!important;width:min(62%,260px)!important;translate:0!important;transform:none!important;display:block;margin:0 auto 0 0!important;filter:drop-shadow(0 20px 30px rgba(0,0,0,.3))}
   .robo .rm{padding:14px 20px 24px}.robo .rm h2{font-size:clamp(44px,15vw,64px)}
   .robo .rr{padding:0 20px 34px}
   /* footer */
