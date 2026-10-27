@@ -19,9 +19,6 @@ export default function Header({ active = '' }: { active?: string }) {
           <div className="mi">
             <a href="/seo-services/" className={active === 'services' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
               {"Services"}
-              <sup>
-                {"21"}
-              </sup>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m6 9 6 6 6-6" />
               </svg>
@@ -245,9 +242,6 @@ export default function Header({ active = '' }: { active?: string }) {
           <div className="mi">
             <a href="/industries/" className={active === 'industries' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
               {"Industries"}
-              <sup>
-                {"45"}
-              </sup>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m6 9 6 6 6-6" />
               </svg>
@@ -511,9 +505,6 @@ export default function Header({ active = '' }: { active?: string }) {
           <div className="mi">
             <a href="/seo-tools/" className={active === 'free' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
               {"Free tools"}
-              <sup>
-                {"11"}
-              </sup>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m6 9 6 6 6-6" />
               </svg>
@@ -694,9 +685,6 @@ export default function Header({ active = '' }: { active?: string }) {
           <div className="mi opt">
             <a href="/locations/" className={active === 'locations' ? 'on' : ''} aria-expanded="false" aria-haspopup="true">
               {"Locations"}
-              <sup>
-                {"17"}
-              </sup>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="m6 9 6 6 6-6" />
               </svg>
