@@ -4,7 +4,72 @@ import Script from 'next/script';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.rankempire.com'),
+  metadataBase: new URL('https://www.rankempire.us'),
+  title: {
+    default: 'RankEmpire — SEO, AEO & GEO Agency | Rank #1 on Google & AI',
+    template: '%s | RankEmpire',
+  },
+  description:
+    'RankEmpire delivers data-driven SEO, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO) to dominate Google search, AI Overviews, Perplexity, and ChatGPT.',
+  keywords: [
+    'SEO Agency',
+    'Answer Engine Optimization',
+    'AEO',
+    'GEO',
+    'Generative Engine Optimization',
+    'AI Search Visibility',
+    'AI Overviews Optimization',
+    'Perplexity SEO',
+    'ChatGPT SEO',
+    'Local SEO',
+    'SaaS SEO',
+    'Enterprise SEO',
+    'Technical SEO',
+    'Google Search Console',
+  ],
+  authors: [{ name: 'RankEmpire', url: 'https://www.rankempire.us' }],
+  creator: 'RankEmpire',
+  publisher: 'RankEmpire',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.rankempire.us',
+    siteName: 'RankEmpire',
+    title: 'RankEmpire — SEO, AEO & GEO Agency | Rank #1 on Google & AI',
+    description:
+      'RankEmpire delivers data-driven SEO, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO) to dominate Google search, AI Overviews, Perplexity, and ChatGPT.',
+    images: [
+      {
+        url: 'https://www.rankempire.us/img/team.webp',
+        width: 1200,
+        height: 630,
+        alt: 'RankEmpire SEO & AI Search Visibility Agency',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'RankEmpire — SEO, AEO & GEO Agency | Rank #1 on Google & AI',
+    description:
+      'RankEmpire delivers data-driven SEO, Answer Engine Optimization (AEO), and Generative Engine Optimization (GEO) to dominate Google search, AI Overviews, Perplexity, and ChatGPT.',
+    images: ['https://www.rankempire.us/img/team.webp'],
+  },
   verification: {
     google: '5Ptm68tJx32eJtyqruB7T4rOSsnFGEaxft6XCeDZSFk',
   },

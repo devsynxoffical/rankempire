@@ -17,17 +17,17 @@ import Robo from '@/components/sections/Robo';
 export const metadata: Metadata = {
   title: "About RankEmpire: SEO Built for Compounding Growth",
   description: "Learn about RankEmpire, an SEO company for local businesses, e-commerce brands and SaaS companies, and the principles behind how we work.",
-  alternates: { canonical: "https://www.rankempire.com/about-us/" },
+  alternates: { canonical: "https://www.rankempire.us/about-us/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "About RankEmpire: SEO Built for Compounding Growth", description: "Learn about RankEmpire, an SEO company for local businesses, e-commerce brands and SaaS companies, and the principles behind how we work.", url: "https://www.rankempire.com/about-us/", images: ["https://www.rankempire.com/img/team.webp"] },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "About RankEmpire: SEO Built for Compounding Growth", description: "Learn about RankEmpire, an SEO company for local businesses, e-commerce brands and SaaS companies, and the principles behind how we work.", url: "https://www.rankempire.us/about-us/", images: ["https://www.rankempire.us/img/team.webp"] },
   twitter: { card: 'summary_large_image', title: "About RankEmpire: SEO Built for Compounding Growth", description: "Learn about RankEmpire, an SEO company for local businesses, e-commerce brands and SaaS companies, and the principles behind how we work." },
 };
 
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ProfessionalService\", \"@id\": \"https://www.rankempire.com/#org\", \"name\": \"RankEmpire\", \"url\": \"https://www.rankempire.com\", \"email\": \"hello@rankempire.com\", \"logo\": \"https://www.rankempire.com/img/favicon.svg\", \"image\": \"https://www.rankempire.com/img/team.webp\", \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"description\": \"RankEmpire is an SEO company for local businesses, e-commerce brands and SaaS companies.\", \"knowsAbout\": [\"Search engine optimization\", \"Local SEO\", \"Technical SEO\", \"Link building\", \"Content marketing\"]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.rankempire.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"About Us\", \"item\": \"https://www.rankempire.com/about-us/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ProfessionalService\", \"@id\": \"https://www.rankempire.us/#org\", \"name\": \"RankEmpire\", \"url\": \"https://www.rankempire.us\", \"email\": \"hello@rankempire.com\", \"logo\": \"https://www.rankempire.us/img/favicon.svg\", \"image\": \"https://www.rankempire.us/img/team.webp\", \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"description\": \"RankEmpire is an SEO company for local businesses, e-commerce brands and SaaS companies.\", \"knowsAbout\": [\"Search engine optimization\", \"Local SEO\", \"Technical SEO\", \"Link building\", \"Content marketing\"]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.rankempire.us/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"About Us\", \"item\": \"https://www.rankempire.us/about-us/\"}]}" }} />
       <SkipLink />
       <Preloader />
       <Header active="company" />

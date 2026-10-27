@@ -18,7 +18,7 @@ export default function Section() {
             {"\n"}
             <label>
               {"URL"}
-              <input id="t-url" defaultValue="https://www.rankempire.com/" />
+              <input id="t-url" defaultValue="https://www.rankempire.us/" />
             </label>
           </div>
           <div className="out" id="t-out" aria-live="polite"></div>

@@ -12,18 +12,18 @@ import Pmq from '@/components/sections/Pmq';
 export const metadata: Metadata = {
   title: "Contact RankEmpire: Get a Free SEO Audit",
   description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day.",
-  alternates: { canonical: "https://www.rankempire.com/contact-us/" },
+  alternates: { canonical: "https://www.rankempire.us/contact-us/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Contact RankEmpire: Get a Free SEO Audit", description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day.", url: "https://www.rankempire.com/contact-us/", images: ["https://www.rankempire.com/img/contact.webp"] },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Contact RankEmpire: Get a Free SEO Audit", description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day.", url: "https://www.rankempire.us/contact-us/", images: ["https://www.rankempire.us/img/contact.webp"] },
   twitter: { card: 'summary_large_image', title: "Contact RankEmpire: Get a Free SEO Audit", description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day." },
 };
 
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ProfessionalService\", \"@id\": \"https://www.rankempire.com/#org\", \"name\": \"RankEmpire\", \"url\": \"https://www.rankempire.com\", \"email\": \"hello@rankempire.com\", \"logo\": \"https://www.rankempire.com/img/favicon.svg\", \"image\": \"https://www.rankempire.com/img/team.webp\", \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"description\": \"RankEmpire is an SEO company for local businesses, e-commerce brands and SaaS companies.\", \"knowsAbout\": [\"Search engine optimization\", \"Local SEO\", \"Technical SEO\", \"Link building\", \"Content marketing\"]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.rankempire.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Contact Us\", \"item\": \"https://www.rankempire.com/contact-us/\"}]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ContactPage\", \"name\": \"Contact RankEmpire\", \"url\": \"https://www.rankempire.com/contact-us/\"}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ProfessionalService\", \"@id\": \"https://www.rankempire.us/#org\", \"name\": \"RankEmpire\", \"url\": \"https://www.rankempire.us\", \"email\": \"hello@rankempire.com\", \"logo\": \"https://www.rankempire.us/img/favicon.svg\", \"image\": \"https://www.rankempire.us/img/team.webp\", \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"description\": \"RankEmpire is an SEO company for local businesses, e-commerce brands and SaaS companies.\", \"knowsAbout\": [\"Search engine optimization\", \"Local SEO\", \"Technical SEO\", \"Link building\", \"Content marketing\"]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.rankempire.us/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Contact Us\", \"item\": \"https://www.rankempire.us/contact-us/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ContactPage\", \"name\": \"Contact RankEmpire\", \"url\": \"https://www.rankempire.us/contact-us/\"}" }} />
       <SkipLink />
       <Preloader />
       <Header active="company" />

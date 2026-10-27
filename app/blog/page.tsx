@@ -10,19 +10,19 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Blog | RankEmpire",
+  title: "SEO Blog & AI Search Guides | RankEmpire",
   description: "Practical SEO guides from RankEmpire on local SEO, technical SEO, AI search, content strategy and growing organic revenue.",
-  alternates: { canonical: "https://www.rankempire.com/blog/" },
+  alternates: { canonical: "https://www.rankempire.us/blog/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Blog | RankEmpire", description: "Practical SEO guides from RankEmpire on local SEO, technical SEO, AI search, content strategy and growing organic revenue.", url: "https://www.rankempire.com/blog/", images: ["https://www.rankempire.com/img/b1.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Blog | RankEmpire", description: "Practical SEO guides from RankEmpire on local SEO, technical SEO, AI search, content strategy and growing organic revenue." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Blog & AI Search Guides | RankEmpire", description: "Practical SEO guides from RankEmpire on local SEO, technical SEO, AI search, content strategy and growing organic revenue.", url: "https://www.rankempire.us/blog/", images: ["https://www.rankempire.us/img/b1.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Blog & AI Search Guides | RankEmpire", description: "Practical SEO guides from RankEmpire on local SEO, technical SEO, AI search, content strategy and growing organic revenue." },
 };
 
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ProfessionalService\", \"@id\": \"https://www.rankempire.com/#org\", \"name\": \"RankEmpire\", \"url\": \"https://www.rankempire.com\", \"email\": \"hello@rankempire.com\", \"logo\": \"https://www.rankempire.com/img/favicon.svg\", \"image\": \"https://www.rankempire.com/img/team.webp\", \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"description\": \"RankEmpire is an SEO company for local businesses, e-commerce brands and SaaS companies.\", \"knowsAbout\": [\"Search engine optimization\", \"Local SEO\", \"Technical SEO\", \"Link building\", \"Content marketing\"]}" }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.rankempire.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"SEO Blog\", \"item\": \"https://www.rankempire.com/blog/\"}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"ProfessionalService\", \"@id\": \"https://www.rankempire.us/#org\", \"name\": \"RankEmpire\", \"url\": \"https://www.rankempire.us\", \"email\": \"hello@rankempire.com\", \"logo\": \"https://www.rankempire.us/img/favicon.svg\", \"image\": \"https://www.rankempire.us/img/team.webp\", \"areaServed\": {\"@type\": \"Country\", \"name\": \"United States\"}, \"description\": \"RankEmpire is an SEO company for local businesses, e-commerce brands and SaaS companies.\", \"knowsAbout\": [\"Search engine optimization\", \"Local SEO\", \"Technical SEO\", \"Link building\", \"Content marketing\"]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://www.rankempire.us/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"SEO Blog\", \"item\": \"https://www.rankempire.us/blog/\"}]}" }} />
       <SkipLink />
       <Preloader />
       <Header active="company" />
