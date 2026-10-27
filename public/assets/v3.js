@@ -176,3 +176,16 @@ $$('.yf').forEach(c=>{const io=new IntersectionObserver(es=>{if(es[0].isIntersec
 (()=>{const ro=document.querySelector('#robo');if(!ro)return;const on=()=>{const r=ro.getBoundingClientRect();if(r.top<innerHeight*.9&&r.bottom>0){ro.classList.add('in');removeEventListener('scroll',on)}};addEventListener('scroll',on,{passive:true});on();setTimeout(()=>{if(!ro.classList.contains('in'))on()},1500);document.querySelector('#robot')?.addEventListener('load',on)})();
 
 document.querySelectorAll('[data-more]').forEach(b=>b.addEventListener('click',()=>{const m=b.previousElementSibling;const o=m.hidden;m.hidden=!o;b.innerHTML=o?'Show less <i>&minus;</i>':'Read more <i>+</i>'}));
+
+/* mobile swipe tracks: progress bar + hint (<=760px only; see site.css) */
+(()=>{
+const MQ=matchMedia('(max-width:760px)');
+const SC='.mr-g,.ai-g,.yf-g,.xm-g,.xp-g,.xl-g,.xi-g,.ih-r,.tmc-g,.sb .grid,.trust .tcol';
+const $$=(s,c=document)=>[...c.querySelectorAll(s)];
+const init=()=>{if(!MQ.matches)return;$$(SC).forEach(sc=>{if(sc.dataset.sw)return;const n=[...sc.children].filter(c=>c.tagName!=='SCRIPT').length;if(n<2)return;sc.dataset.sw='1';
+  const bar=document.createElement('div');bar.className='m-bar';bar.setAttribute('aria-hidden','true');bar.appendChild(document.createElement('i'));sc.after(bar);
+  const hint=document.createElement('div');hint.className='m-hint';hint.setAttribute('aria-hidden','true');hint.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M14 6l6 6-6 6"/></svg><span>Swipe · '+n+' cards</span>';bar.after(hint);
+  const up=()=>{const max=sc.scrollWidth-sc.clientWidth;if(max<=2){bar.style.display='none';hint.style.display='none';return}bar.style.display='';const w=Math.max(.12,sc.clientWidth/sc.scrollWidth);const th=bar.firstChild;th.style.width=(w*100).toFixed(2)+'%';th.style.transform='translateX('+((sc.scrollLeft/max)*(1-w)/w*100).toFixed(2)+'%)'};
+  up();sc.addEventListener('scroll',()=>requestAnimationFrame(up),{passive:true});addEventListener('resize',up)})};
+init();MQ.addEventListener?MQ.addEventListener('change',init):MQ.addListener(init);
+})();

@@ -90,14 +90,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Mrs+Saint+Delafield&family=Instrument+Serif&family=Anton&family=JetBrains+Mono:wght@400;500&display=swap"
           rel="stylesheet"
         />
-        <link rel="stylesheet" href="/assets/site.css?v=32" />
+        <link rel="stylesheet" href="/assets/site.css?v=33" />
         <script dangerouslySetInnerHTML={{ __html: SEEN }} />
       </head>
       <body suppressHydrationWarning>
         {children}
         <Script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" strategy="beforeInteractive" />
         <Script src="/assets/site.js" strategy="afterInteractive" />
-        <Script src="/assets/v3.js?v=30" strategy="afterInteractive" />
+        <Script src="/assets/v3.js?v=31" strategy="afterInteractive" />
       </body>
     </html>
   );
