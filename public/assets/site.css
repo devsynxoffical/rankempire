@@ -2653,8 +2653,8 @@ body.in-fd .cur,body.in-fd .cur-r{opacity:0!important}
 .tr-logos-track{display:flex;align-items:center;gap:clamp(40px,5vw,68px);width:max-content;animation:trLogosScroll 38s linear infinite;will-change:transform}
 .tr-logos-marquee:hover .tr-logos-track{animation-play-state:paused}
 @keyframes trLogosScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.tr-logo-item{flex-shrink:0;display:flex;align-items:center;justify-content:center}
-.tr-logo-item img{height:clamp(28px,3.2vw,38px);width:auto;max-width:140px;object-fit:contain;filter:brightness(0) opacity(.68);transition:filter .25s ease,opacity .25s ease,transform .25s ease;user-select:none}
+.tr-logo-item img{height:clamp(28px,3.2vw,38px);width:auto;max-width:140px;object-fit:contain;opacity:.78;transition:opacity .25s ease,transform .25s ease;user-select:none}
+.tr-logo-item:hover img{opacity:1;transform:scale(1.06)}
 @media (prefers-reduced-motion:reduce){.tr-logos-track{animation:none!important}}
 
 /* ===== Case Studies Showcase Cards ===== */

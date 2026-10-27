@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Mrs+Saint+Delafield&family=Instrument+Serif&family=Anton&family=JetBrains+Mono:wght@400;500&display=swap"
           rel="stylesheet"
         />
-        <link rel="stylesheet" href="/assets/site.css?v=31" />
+        <link rel="stylesheet" href="/assets/site.css?v=32" />
         <script dangerouslySetInnerHTML={{ __html: SEEN }} />
       </head>
       <body suppressHydrationWarning>

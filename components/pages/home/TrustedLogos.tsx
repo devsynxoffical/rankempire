@@ -39,6 +39,14 @@ export default function TrustedLogos() {
                 loading="eager"
                 width={120}
                 height={40}
+                style={{
+                  height: 'clamp(28px, 3.2vw, 38px)',
+                  width: 'auto',
+                  maxWidth: '140px',
+                  objectFit: 'contain',
+                  opacity: 0.78,
+                  display: 'block'
+                }}
               />
             </div>
           ))}
@@ -50,6 +58,14 @@ export default function TrustedLogos() {
                 loading="lazy"
                 width={120}
                 height={40}
+                style={{
+                  height: 'clamp(28px, 3.2vw, 38px)',
+                  width: 'auto',
+                  maxWidth: '140px',
+                  objectFit: 'contain',
+                  opacity: 0.78,
+                  display: 'block'
+                }}
               />
             </div>
           ))}
