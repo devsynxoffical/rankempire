@@ -14,18 +14,6 @@ export default function Pricing() {
           </p>
         </div>
         {"\n"}
-        <div className="toggle" role="group" aria-label="Billing period">
-          <button type="button" className="on" data-v="m" aria-pressed="true">
-            {"Monthly"}
-          </button>
-          <button type="button" data-v="y" aria-pressed="false">
-            {"Yearly"}
-          </button>
-        </div>
-        <p className="save">
-          {"Save 10% with yearly billing"}
-        </p>
-        {"\n"}
         <div className="plans">
           <article className="plan" data-r="">
             <span className="lbl">
@@ -38,23 +26,8 @@ export default function Pricing() {
               {"Early-stage SaaS"}
             </p>
             {"\n"}
-            <div className="pr">
-              <b>
-                {"$"}
-                <span data-m="1,499" data-y="1,349">
-                  {"1,499"}
-                </span>
-              </b>
-              <small>
-                {"/ month"}
-              </small>
-            </div>
-            <div className="bill" data-mb="Billed monthly" data-yb="Billed yearly, save $1,800">
-              {"Billed monthly"}
-            </div>
-            {"\n"}
-            <a className="btn dk" href="/contact-us/">
-              {"Get started"}
+            <a className="btn dk" href="/contact-us/?plan=seed">
+              {"Request a quote"}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>
@@ -85,23 +58,8 @@ export default function Pricing() {
               {"Growth-stage SaaS"}
             </p>
             {"\n"}
-            <div className="pr">
-              <b>
-                {"$"}
-                <span data-m="2,999" data-y="2,699">
-                  {"2,999"}
-                </span>
-              </b>
-              <small>
-                {"/ month"}
-              </small>
-            </div>
-            <div className="bill" data-mb="Billed monthly" data-yb="Billed yearly, save $3,600">
-              {"Billed monthly"}
-            </div>
-            {"\n"}
-            <a className="btn ac" href="/contact-us/">
-              {"Get started"}
+            <a className="btn ac" href="/contact-us/?plan=series">
+              {"Request a quote"}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>
@@ -135,23 +93,8 @@ export default function Pricing() {
               {"Established SaaS"}
             </p>
             {"\n"}
-            <div className="pr">
-              <b>
-                {"$"}
-                <span data-m="5,499" data-y="4,949">
-                  {"5,499"}
-                </span>
-              </b>
-              <small>
-                {"/ month"}
-              </small>
-            </div>
-            <div className="bill" data-mb="Billed monthly" data-yb="Billed yearly, save $6,600">
-              {"Billed monthly"}
-            </div>
-            {"\n"}
-            <a className="btn dk" href="/contact-us/">
-              {"Get started"}
+            <a className="btn dk" href="/contact-us/?plan=category-leader">
+              {"Request a quote"}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>

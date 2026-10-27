@@ -14,18 +14,6 @@ export default function Pricing() {
           </p>
         </div>
         {"\n"}
-        <div className="toggle" role="group" aria-label="Billing period">
-          <button type="button" className="on" data-v="m" aria-pressed="true">
-            {"Monthly"}
-          </button>
-          <button type="button" data-v="y" aria-pressed="false">
-            {"Yearly"}
-          </button>
-        </div>
-        <p className="save">
-          {"Save 10% with yearly billing"}
-        </p>
-        {"\n"}
         <div className="plans">
           <article className="plan" data-r="">
             <span className="lbl">
@@ -38,23 +26,8 @@ export default function Pricing() {
               {"One location, one service area"}
             </p>
             {"\n"}
-            <div className="pr">
-              <b>
-                {"$"}
-                <span data-m="599" data-y="539">
-                  {"599"}
-                </span>
-              </b>
-              <small>
-                {"/ month"}
-              </small>
-            </div>
-            <div className="bill" data-mb="Billed monthly" data-yb="Billed yearly, save $720">
-              {"Billed monthly"}
-            </div>
-            {"\n"}
-            <a className="btn dk" href="/contact-us/">
-              {"Get started"}
+            <a className="btn dk" href="/contact-us/?plan=starter">
+              {"Request a quote"}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>
@@ -88,23 +61,8 @@ export default function Pricing() {
               {"Up to three locations"}
             </p>
             {"\n"}
-            <div className="pr">
-              <b>
-                {"$"}
-                <span data-m="1,199" data-y="1,079">
-                  {"1,199"}
-                </span>
-              </b>
-              <small>
-                {"/ month"}
-              </small>
-            </div>
-            <div className="bill" data-mb="Billed monthly" data-yb="Billed yearly, save $1,440">
-              {"Billed monthly"}
-            </div>
-            {"\n"}
-            <a className="btn ac" href="/contact-us/">
-              {"Get started"}
+            <a className="btn ac" href="/contact-us/?plan=pro">
+              {"Request a quote"}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>
@@ -141,23 +99,8 @@ export default function Pricing() {
               {"Four or more locations"}
             </p>
             {"\n"}
-            <div className="pr">
-              <b>
-                {"$"}
-                <span data-m="2,199" data-y="1,979">
-                  {"2,199"}
-                </span>
-              </b>
-              <small>
-                {"/ month"}
-              </small>
-            </div>
-            <div className="bill" data-mb="Billed monthly" data-yb="Billed yearly, save $2,640">
-              {"Billed monthly"}
-            </div>
-            {"\n"}
-            <a className="btn dk" href="/contact-us/">
-              {"Get started"}
+            <a className="btn dk" href="/contact-us/?plan=multi-location">
+              {"Request a quote"}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>
