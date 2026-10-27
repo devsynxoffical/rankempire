@@ -75,8 +75,8 @@ export default function Results() {
           </div>
           {"\n"}
           <div style={{marginTop: "24px", display: "flex", gap: "10px", flexWrap: "wrap"} as React.CSSProperties}>
-            <a className="btn dk" href="/seo-packages/">
-              {"See SEO pricing"}
+            <a className="btn dk" href="/contact-us/">
+              {"Request a quote"}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>

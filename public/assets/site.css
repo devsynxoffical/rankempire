@@ -2655,6 +2655,24 @@ body.in-fd .cur,body.in-fd .cur-r{opacity:0!important}
 @keyframes trLogosScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .tr-logo-item{flex-shrink:0;display:flex;align-items:center;justify-content:center}
 .tr-logo-item img{height:clamp(28px,3.2vw,38px);width:auto;max-width:140px;object-fit:contain;filter:brightness(0) opacity(.68);transition:filter .25s ease,opacity .25s ease,transform .25s ease;user-select:none}
-.tr-logo-item:hover img{filter:brightness(0) opacity(1);transform:scale(1.06)}
 @media (prefers-reduced-motion:reduce){.tr-logos-track{animation:none!important}}
+
+/* ===== Case Studies Showcase Cards ===== */
+.cs-list{display:flex;flex-direction:column;gap:clamp(36px,5vw,60px);margin-top:36px}
+.cs-card{background:#ffffff;border:1px solid var(--line);border-radius:28px;padding:clamp(28px,4vw,50px);box-shadow:0 24px 70px rgba(40,30,90,.07);position:relative;overflow:visible;transition:transform .4s var(--ease),box-shadow .4s var(--ease)}
+.cs-card:hover{box-shadow:0 32px 84px rgba(40,30,90,.12)}
+.cs-card::before{content:"";position:absolute;inset:0;border-radius:inherit;z-index:0;pointer-events:none;background:radial-gradient(45% 60% at 100% 0%,rgba(109,93,252,.06),transparent 60%),radial-gradient(40% 60% at 0% 100%,rgba(255,76,57,.06),transparent 60%)}
+.cs-card>.rgrid{position:relative;z-index:1}
+.cs-card .bframe{margin:0;box-shadow:0 30px 80px rgba(40,30,90,.14)}
+.cs-card .bframe img{width:100%;height:auto;display:block}
+.bb-live{margin-left:auto;font-style:normal;font-size:11.5px;font-weight:600;color:#16a34a;display:flex;align-items:center;gap:6px;white-space:nowrap;background:#f0fdf4;border:1px solid #bbf7d0;padding:3px 8px;border-radius:999px}
+.bb-live .live-dot{width:6px;height:6px;border-radius:50%;background:#22c55e;box-shadow:0 0 0 3px rgba(34,197,94,.25);animation:pulse 2s infinite}
+.cs-nav{margin:0 0 36px;padding:16px 20px;background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 10px 30px rgba(30,20,60,.04)}
+.cs-nav-lbl{display:block;font-size:12px;font-family:var(--fm);text-transform:uppercase;letter-spacing:.08em;color:var(--mute);margin-bottom:10px}
+.cs-nav-pills{display:flex;flex-wrap:wrap;gap:8px}
+.cs-pill{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--ink2);background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:6px 12px;text-decoration:none;transition:all .2s ease}
+.cs-pill:hover{background:#111;color:#fff;border-color:#111;transform:translateY(-1px)}
+.cs-pill .num{font-family:var(--fd);font-size:11px;font-weight:700;color:var(--acc)}
+.cs-pill:hover .num{color:#ff8a7a}
+
 
