@@ -15,7 +15,7 @@ import Services from '@/components/pages/locations__san-diego/Services';
 import Pricing from '@/components/pages/locations__san-diego/Pricing';
 import Faq from '@/components/pages/locations__san-diego/Faq';
 import Pmq from '@/components/sections/Pmq';
-import Related from '@/components/sections/Related';
+import Related from '@/components/pages/locations__san-diego/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {

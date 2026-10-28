@@ -20,11 +20,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: "SEO Company in Los Angeles, CA | RankEmpire",
-  description: "RankEmpire is an SEO company serving Los Angeles, California. Local SEO, Google Business Profile optimization, technical SEO and content for Southern California brands.",
+  description: "SEO company serving Los Angeles: local SEO, Google Business Profile optimization, technical SEO and content for Southern California brands.",
   alternates: { canonical: "https://www.rankempire.us/locations/los-angeles/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Los Angeles, CA | RankEmpire", description: "RankEmpire is an SEO company serving Los Angeles, California. Local SEO, Google Business Profile optimization, technical SEO and content for Southern California brands.", url: "https://www.rankempire.us/locations/los-angeles/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in Los Angeles, CA | RankEmpire", description: "RankEmpire is an SEO company serving Los Angeles, California. Local SEO, Google Business Profile optimization, technical SEO and content for Southern California brands." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Los Angeles, CA | RankEmpire", description: "SEO company serving Los Angeles: local SEO, Google Business Profile optimization, technical SEO and content for Southern California brands.", url: "https://www.rankempire.us/locations/los-angeles/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Company in Los Angeles, CA | RankEmpire", description: "SEO company serving Los Angeles: local SEO, Google Business Profile optimization, technical SEO and content for Southern California brands." },
 };
 
 export default function Page() {

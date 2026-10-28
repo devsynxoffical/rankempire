@@ -5,7 +5,7 @@ const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
 /* opening: first visit per session */
 const pre=$('.pre');
 if(pre){const seen=document.documentElement.classList.contains('seen');
-  if(seen||RM){pre.remove()}else{const n=$('.pc b',pre),t0=performance.now();const tick=t=>{const k=Math.min(1,(t-t0)/1800);if(n)n.textContent=Math.round(k*k*(3-2*k)*100);if(k<1)requestAnimationFrame(tick)};requestAnimationFrame(tick);setTimeout(()=>pre.remove(),3300)}}
+  if(seen||RM){pre.remove()}else{const n=$('.pc b',pre),t0=performance.now();const tick=t=>{const k=Math.min(1,(t-t0)/1300);if(n)n.textContent=Math.round(k*k*(3-2*k)*100);if(k<1)requestAnimationFrame(tick)};requestAnimationFrame(tick);setTimeout(()=>pre.remove(),2700)}}
 
 /* short accents become script */
 $$('.ph h1 .acc').forEach(a=>{const t=a.textContent.trim();if(t.length<=16&&!/[A-Z]{2}|\d/.test(t))a.classList.add('scr')});

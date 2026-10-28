@@ -15,7 +15,7 @@ import Services from '@/components/pages/locations__denver/Services';
 import Pricing from '@/components/pages/locations__denver/Pricing';
 import Faq from '@/components/pages/locations__denver/Faq';
 import Pmq from '@/components/sections/Pmq';
-import Related from '@/components/sections/Related';
+import Related from '@/components/pages/locations__denver/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {

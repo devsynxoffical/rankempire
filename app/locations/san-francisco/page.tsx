@@ -15,16 +15,16 @@ import Services from '@/components/pages/locations__san-francisco/Services';
 import Pricing from '@/components/pages/locations__san-francisco/Pricing';
 import Faq from '@/components/pages/locations__san-francisco/Faq';
 import Pmq from '@/components/sections/Pmq';
-import Related from '@/components/sections/Related';
+import Related from '@/components/pages/locations__san-francisco/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: "SEO Company in San Francisco, CA | RankEmpire",
-  description: "RankEmpire is an SEO company serving San Francisco, California. Local SEO, Google Business Profile optimization, technical SEO and content for Bay Area businesses.",
+  description: "SEO company serving San Francisco: local SEO, Google Business Profile optimization, technical SEO and content for Bay Area businesses that want more leads.",
   alternates: { canonical: "https://www.rankempire.us/locations/san-francisco/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in San Francisco, CA | RankEmpire", description: "RankEmpire is an SEO company serving San Francisco, California. Local SEO, Google Business Profile optimization, technical SEO and content for Bay Area businesses.", url: "https://www.rankempire.us/locations/san-francisco/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in San Francisco, CA | RankEmpire", description: "RankEmpire is an SEO company serving San Francisco, California. Local SEO, Google Business Profile optimization, technical SEO and content for Bay Area businesses." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in San Francisco, CA | RankEmpire", description: "SEO company serving San Francisco: local SEO, Google Business Profile optimization, technical SEO and content for Bay Area businesses that want more leads.", url: "https://www.rankempire.us/locations/san-francisco/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Company in San Francisco, CA | RankEmpire", description: "SEO company serving San Francisco: local SEO, Google Business Profile optimization, technical SEO and content for Bay Area businesses that want more leads." },
 };
 
 export default function Page() {

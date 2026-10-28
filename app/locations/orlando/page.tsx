@@ -15,7 +15,7 @@ import Services from '@/components/pages/locations__orlando/Services';
 import Pricing from '@/components/pages/locations__orlando/Pricing';
 import Faq from '@/components/pages/locations__orlando/Faq';
 import Pmq from '@/components/sections/Pmq';
-import Related from '@/components/sections/Related';
+import Related from '@/components/pages/locations__orlando/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {

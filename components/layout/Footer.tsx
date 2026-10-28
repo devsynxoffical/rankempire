@@ -1,4 +1,9 @@
+import site from '@/content/site.json';
+
+const LABELS: Record<string, string> = { x: 'X/Twitter', instagram: 'Instagram', linkedin: 'LinkedIn', youtube: 'YouTube' };
+
 export default function Footer() {
+  const socials = Object.entries(site.socials).filter(([, href]) => href).map(([k, href]) => [LABELS[k] || k, href] as [string, string]);
   return (
     <footer className="foot" id="foot">
       {"\n"}
@@ -91,20 +96,28 @@ export default function Footer() {
         {"\n"}
         <div className="ffl">
           <span className="fh">
-            {"Follow us"}
+            {socials.length ? "Follow us" : "Explore"}
           </span>
-          <a href="#" rel="noopener">
-            {"X/Twitter"}
-          </a>
-          <a href="#" rel="noopener">
-            {"Instagram"}
-          </a>
-          <a href="#" rel="noopener">
-            {"LinkedIn"}
-          </a>
-          <a href="#" rel="noopener">
-            {"YouTube"}
-          </a>
+          {socials.length ? socials.map(([label, href]) => (
+            <a key={label} href={href} target="_blank" rel="noopener">
+              {label}
+            </a>
+          )) : (
+            <>
+              <a href="/blog/">
+                {"Blog"}
+              </a>
+              <a href="/case-studies/">
+                {"Case studies"}
+              </a>
+              <a href="/our-team/">
+                {"Our team"}
+              </a>
+              <a href="/seo-tools/">
+                {"Free tools"}
+              </a>
+            </>
+          )}
         </div>
         {"\n"}
         <div className="fnl">

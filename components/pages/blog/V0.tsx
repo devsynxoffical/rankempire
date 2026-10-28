@@ -91,8 +91,8 @@ export default function V0() {
         {"\n"}
         <div className="yfacts" data-r="">
           <div style={{"--c": "#ec4e3b"} as React.CSSProperties}>
-            <b data-count="3" data-raw="3">
-              {"3"}
+            <b data-count="5" data-raw="5">
+              {"5"}
             </b>
             <span>
               {"Guides"}

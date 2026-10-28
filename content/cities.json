@@ -1,0 +1,189 @@
+[
+ {
+  "slug": "new-york",
+  "name": "New York",
+  "state": "NY",
+  "nearby": [
+   "boston",
+   "charlotte",
+   "atlanta",
+   "chicago"
+  ]
+ },
+ {
+  "slug": "los-angeles",
+  "name": "Los Angeles",
+  "state": "CA",
+  "nearby": [
+   "san-diego",
+   "san-francisco",
+   "las-vegas",
+   "phoenix"
+  ]
+ },
+ {
+  "slug": "chicago",
+  "name": "Chicago",
+  "state": "IL",
+  "nearby": [
+   "denver",
+   "new-york",
+   "boston",
+   "atlanta"
+  ]
+ },
+ {
+  "slug": "houston",
+  "name": "Houston",
+  "state": "TX",
+  "nearby": [
+   "dallas",
+   "austin",
+   "atlanta",
+   "orlando"
+  ]
+ },
+ {
+  "slug": "dallas",
+  "name": "Dallas",
+  "state": "TX",
+  "nearby": [
+   "houston",
+   "austin",
+   "denver",
+   "phoenix"
+  ]
+ },
+ {
+  "slug": "miami",
+  "name": "Miami",
+  "state": "FL",
+  "nearby": [
+   "orlando",
+   "atlanta",
+   "charlotte",
+   "houston"
+  ]
+ },
+ {
+  "slug": "phoenix",
+  "name": "Phoenix",
+  "state": "AZ",
+  "nearby": [
+   "las-vegas",
+   "san-diego",
+   "denver",
+   "los-angeles"
+  ]
+ },
+ {
+  "slug": "san-diego",
+  "name": "San Diego",
+  "state": "CA",
+  "nearby": [
+   "los-angeles",
+   "phoenix",
+   "las-vegas",
+   "san-francisco"
+  ]
+ },
+ {
+  "slug": "san-francisco",
+  "name": "San Francisco",
+  "state": "CA",
+  "nearby": [
+   "los-angeles",
+   "seattle",
+   "san-diego",
+   "denver"
+  ]
+ },
+ {
+  "slug": "austin",
+  "name": "Austin",
+  "state": "TX",
+  "nearby": [
+   "houston",
+   "dallas",
+   "denver",
+   "atlanta"
+  ]
+ },
+ {
+  "slug": "atlanta",
+  "name": "Atlanta",
+  "state": "GA",
+  "nearby": [
+   "charlotte",
+   "orlando",
+   "miami",
+   "houston"
+  ]
+ },
+ {
+  "slug": "seattle",
+  "name": "Seattle",
+  "state": "WA",
+  "nearby": [
+   "san-francisco",
+   "denver",
+   "los-angeles",
+   "boston"
+  ]
+ },
+ {
+  "slug": "denver",
+  "name": "Denver",
+  "state": "CO",
+  "nearby": [
+   "phoenix",
+   "dallas",
+   "seattle",
+   "chicago"
+  ]
+ },
+ {
+  "slug": "boston",
+  "name": "Boston",
+  "state": "MA",
+  "nearby": [
+   "new-york",
+   "chicago",
+   "charlotte",
+   "seattle"
+  ]
+ },
+ {
+  "slug": "las-vegas",
+  "name": "Las Vegas",
+  "state": "NV",
+  "nearby": [
+   "phoenix",
+   "los-angeles",
+   "san-diego",
+   "denver"
+  ]
+ },
+ {
+  "slug": "charlotte",
+  "name": "Charlotte",
+  "state": "NC",
+  "nearby": [
+   "atlanta",
+   "orlando",
+   "boston",
+   "new-york"
+  ]
+ },
+ {
+  "slug": "orlando",
+  "name": "Orlando",
+  "state": "FL",
+  "nearby": [
+   "miami",
+   "atlanta",
+   "charlotte",
+   "houston"
+  ]
+ }
+]

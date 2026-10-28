@@ -16,7 +16,7 @@ import Cities from '@/components/pages/seo-for-pest-control/Cities';
 import Pricing from '@/components/pages/seo-for-pest-control/Pricing';
 import Faq from '@/components/pages/seo-for-pest-control/Faq';
 import Pmq from '@/components/sections/Pmq';
-import Related2 from '@/components/sections/Related2';
+import Related from '@/components/pages/seo-for-pest-control/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
@@ -52,7 +52,7 @@ export default function Page() {
         <Pricing />
         <Faq />
         <Pmq />
-        <Related2 />
+        <Related />
         <Robo />
       </main>
       <Footer />

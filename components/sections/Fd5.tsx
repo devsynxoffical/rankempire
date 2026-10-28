@@ -1,6 +1,6 @@
 export default function Fd5() {
   return (
-    <section className="fd5" aria-labelledby="fd-h">
+    <section className="fd5" id="gaurav" aria-labelledby="fd-h">
       {"\n"}
       <div className="fd5-top">
         <div className="wrap">
@@ -27,6 +27,17 @@ export default function Fd5() {
             <div className="fd5-l" data-r="">
               <p className="t">
                 {"SEO strategist and funnel builder. Gaurav leads every RankEmpire account personally: the audit, the 90-day roadmap and the monthly call. No account managers in between."}
+              </p>
+              <p className="fd5-links">
+                <a href="/our-team/">
+                  {"Meet the team"}
+                </a>
+                <a href="/about-us/">
+                  {"How RankEmpire works"}
+                </a>
+                <a href="/blog/">
+                  {"Read Gaurav's guides"}
+                </a>
               </p>
             </div>
             {"\n"}

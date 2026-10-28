@@ -174,42 +174,6 @@ export default function Header({ active = '' }: { active?: string }) {
                   </div>
                 </div>
                 {"\n"}
-                <div className="dsl">
-                  <h6>
-                    {"Specialist services"}
-                  </h6>
-                  <a href="/national-seo/">
-                    {"National SEO"}
-                  </a>
-                  <a href="/enterprise-seo/">
-                    {"Enterprise SEO"}
-                  </a>
-                  <a href="/on-page-seo/">
-                    {"On-Page SEO"}
-                  </a>
-                  <a href="/off-page-seo/">
-                    {"Off-Page SEO"}
-                  </a>
-                  <a href="/link-building/">
-                    {"Link Building"}
-                  </a>
-                  <a href="/content-seo/">
-                    {"Content SEO"}
-                  </a>
-                  <a href="/international-seo/">
-                    {"International SEO"}
-                  </a>
-                  <a href="/keyword-research/">
-                    {"Keyword Research"}
-                  </a>
-                  <a href="/competitor-seo-analysis/">
-                    {"Competitor SEO Analysis"}
-                  </a>
-                  <a href="/seo-consulting/">
-                    {"SEO Consulting"}
-                  </a>
-                </div>
-                {"\n"}
                 <div className="dpro">
                   <span className="eyb" style={{color: "#ff8a7a"} as React.CSSProperties}>
                     {"Free"}
@@ -231,7 +195,7 @@ export default function Header({ active = '' }: { active?: string }) {
               </div>
               <div className="dfoot">
                 <span>
-                  {"21 SEO services for local, e-commerce and SaaS brands"}
+                  {"Core services, plus 12 specialist services on the full list"}
                 </span>
                 <a className="tlink" href="/seo-services/">
                   {"All SEO services"}
@@ -246,166 +210,34 @@ export default function Header({ active = '' }: { active?: string }) {
                 <path d="m6 9 6 6 6-6" />
               </svg>
             </a>
-            <div className="dd" role="menu" style={{width: "min(1180px,calc(100vw - 32px))"} as React.CSSProperties}>
-              <div className="dsl dcols">
+            <div className="dd sm" role="menu">
+              <div className="dsl" style={{columnCount: 2, columnGap: "20px"} as React.CSSProperties}>
                 <h6>
-                  {"Home Services"}
+                  {"Most requested playbooks"}
                 </h6>
-                <a href="/seo-for-cleaning/">
-                  {"Cleaning Companies"}
-                </a>
-                <a href="/seo-for-electricians/">
-                  {"Electricians"}
-                </a>
-                <a href="/seo-for-fencing-companies/">
-                  {"Fencing Companies"}
-                </a>
-                <a href="/seo-for-flooring-companies/">
-                  {"Flooring Companies"}
-                </a>
-                <a href="/seo-for-general-contractors/">
-                  {"General Contractors"}
-                </a>
                 <a href="/seo-for-hvac/">
                   {"HVAC Companies"}
-                </a>
-                <a href="/seo-for-landscaping/">
-                  {"Landscaping Companies"}
-                </a>
-                <a href="/seo-for-locksmiths/">
-                  {"Locksmiths"}
-                </a>
-                <a href="/seo-for-movers/">
-                  {"Moving Companies"}
-                </a>
-                <a href="/seo-for-painters/">
-                  {"Painting Contractors"}
-                </a>
-                <a href="/seo-for-pest-control/">
-                  {"Pest Control Companies"}
                 </a>
                 <a href="/seo-for-plumbers/">
                   {"Plumbers"}
                 </a>
-                <a href="/seo-for-pool-service-companies/">
-                  {"Pool Service Companies"}
-                </a>
                 <a href="/seo-for-roofing/">
                   {"Roofing Companies"}
-                </a>
-                <h6>
-                  {"Medical and Health"}
-                </h6>
-                <a href="/seo-for-chiropractors/">
-                  {"Chiropractors"}
                 </a>
                 <a href="/seo-for-dentists/">
                   {"Dentists"}
                 </a>
-                <a href="/seo-for-doctors/">
-                  {"Doctors and Medical Practices"}
-                </a>
-                <a href="/seo-for-orthodontists/">
-                  {"Orthodontists"}
-                </a>
-                <a href="/seo-for-plastic-surgeons/">
-                  {"Plastic Surgeons"}
-                </a>
-                <a href="/seo-for-therapists/">
-                  {"Therapists and Counselors"}
-                </a>
-                <a href="/seo-for-veterinarians/">
-                  {"Veterinarians"}
-                </a>
-                <h6>
-                  {"Legal"}
-                </h6>
                 <a href="/seo-for-lawyers/">
                   {"Lawyers"}
-                </a>
-                <a href="/seo-for-personal-injury-lawyers/">
-                  {"Personal Injury Lawyers"}
-                </a>
-                <h6>
-                  {"Automotive"}
-                </h6>
-                <a href="/seo-for-auto-detailing/">
-                  {"Auto Detailing Businesses"}
-                </a>
-                <a href="/seo-for-auto-repair/">
-                  {"Auto Repair Shops"}
-                </a>
-                <a href="/seo-for-towing/">
-                  {"Towing Companies"}
-                </a>
-                <h6>
-                  {"Food and Hospitality"}
-                </h6>
-                <a href="/seo-for-bakeries/">
-                  {"Bakeries"}
-                </a>
-                <a href="/seo-for-cafes/">
-                  {"Cafes"}
-                </a>
-                <a href="/seo-for-florists/">
-                  {"Florists"}
-                </a>
-                <a href="/seo-for-photographers/">
-                  {"Photographers"}
-                </a>
-                <a href="/seo-for-restaurants/">
-                  {"Restaurants"}
-                </a>
-                <a href="/seo-for-wedding-planners/">
-                  {"Wedding Planners"}
-                </a>
-                <h6>
-                  {"Professional Services"}
-                </h6>
-                <a href="/seo-for-accountants/">
-                  {"Accountants and CPAs"}
-                </a>
-                <a href="/seo-for-daycares/">
-                  {"Daycares and Preschools"}
-                </a>
-                <a href="/seo-for-financial-advisors/">
-                  {"Financial Advisors"}
-                </a>
-                <a href="/seo-for-insurance/">
-                  {"Insurance Agencies"}
-                </a>
-                <a href="/seo-for-tutors/">
-                  {"Tutors and Tutoring Centers"}
-                </a>
-                <h6>
-                  {"Real Estate and Property"}
-                </h6>
-                <a href="/seo-for-home-builders/">
-                  {"Home Builders"}
-                </a>
-                <a href="/seo-for-property-management/">
-                  {"Property Management Companies"}
-                </a>
-                <a href="/seo-for-real-estate/">
-                  {"Real Estate Agents and Brokerages"}
-                </a>
-                <h6>
-                  {"Beauty, Fitness and Lifestyle"}
-                </h6>
-                <a href="/seo-for-barbers/">
-                  {"Barbershops"}
-                </a>
-                <a href="/seo-for-gyms/">
-                  {"Gyms and Fitness Studios"}
-                </a>
-                <a href="/seo-for-salons/">
-                  {"Hair Salons"}
                 </a>
                 <a href="/seo-for-med-spas/">
                   {"Med Spas"}
                 </a>
-                <a href="/seo-for-yoga-studios/">
-                  {"Yoga Studios"}
+                <a href="/seo-for-real-estate/">
+                  {"Real Estate Agents"}
+                </a>
+                <a href="/seo-for-restaurants/">
+                  {"Restaurants"}
                 </a>
               </div>
               <div className="dfoot">
@@ -589,54 +421,6 @@ export default function Header({ active = '' }: { active?: string }) {
                     </span>
                   </span>
                 </a>
-                <a className="dl" href="/seo-tools/serp-checker/">
-                  <span className="ic">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                      <circle cx="12" cy="12" r="9" />
-                      <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" />
-                    </svg>
-                  </span>
-                  <span>
-                    <b>
-                      {"SERP Checker"}
-                    </b>
-                    <span>
-                      {"Preview your Google snippet"}
-                    </span>
-                  </span>
-                </a>
-                <a className="dl" href="/seo-tools/seo-score-checker/">
-                  <span className="ic">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                      <circle cx="11" cy="11" r="7" />
-                      <path d="m20 20-4-4" />
-                    </svg>
-                  </span>
-                  <span>
-                    <b>
-                      {"SEO Score Checker"}
-                    </b>
-                    <span>
-                      {"0 to 100 on-page score"}
-                    </span>
-                  </span>
-                </a>
-                <a className="dl" href="/seo-tools/meta-tag-checker/">
-                  <span className="ic">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                      <path d="M3 12V4h8l10 10-8 8L3 12Z" />
-                      <circle cx="7.5" cy="8.5" r="1.5" />
-                    </svg>
-                  </span>
-                  <span>
-                    <b>
-                      {"Meta Tag Checker"}
-                    </b>
-                    <span>
-                      {"Titles, descriptions, OG tags"}
-                    </span>
-                  </span>
-                </a>
                 <a className="dl" href="/seo-tools/schema-checker/">
                   <span className="ic">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -655,26 +439,10 @@ export default function Header({ active = '' }: { active?: string }) {
                     </span>
                   </span>
                 </a>
-                <a className="dl" href="/seo-tools/sitemap-checker/">
-                  <span className="ic">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                      <path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z" />
-                      <path d="M9 4v14M15 6v14" />
-                    </svg>
-                  </span>
-                  <span>
-                    <b>
-                      {"Sitemap Checker"}
-                    </b>
-                    <span>
-                      {"Find sitemap errors"}
-                    </span>
-                  </span>
-                </a>
               </div>
               <div className="dfoot">
                 <span>
-                  {"11 free tools, private and instant"}
+                  {"6 of 11 free tools, private and instant"}
                 </span>
                 <a className="tlink" href="/seo-tools/">
                   {"All SEO tools"}
@@ -689,8 +457,8 @@ export default function Header({ active = '' }: { active?: string }) {
                 <path d="m6 9 6 6 6-6" />
               </svg>
             </a>
-            <div className="dd" role="menu" style={{width: "min(720px,calc(100vw - 32px))"} as React.CSSProperties}>
-              <div className="ddg dsl" style={{gridTemplateColumns: "repeat(3,1fr)", gap: "2px 16px"} as React.CSSProperties}>
+            <div className="dd sm" role="menu">
+              <div className="ddg dsl" style={{gridTemplateColumns: "repeat(2,1fr)", gap: "2px 16px"} as React.CSSProperties}>
                 <a href="/locations/new-york/">
                   {"SEO Company in New York"}
                 </a>
@@ -709,43 +477,10 @@ export default function Header({ active = '' }: { active?: string }) {
                 <a href="/locations/miami/">
                   {"SEO Company in Miami"}
                 </a>
-                <a href="/locations/phoenix/">
-                  {"SEO Company in Phoenix"}
-                </a>
-                <a href="/locations/san-diego/">
-                  {"SEO Company in San Diego"}
-                </a>
-                <a href="/locations/san-francisco/">
-                  {"SEO Company in San Francisco"}
-                </a>
-                <a href="/locations/austin/">
-                  {"SEO Company in Austin"}
-                </a>
-                <a href="/locations/atlanta/">
-                  {"SEO Company in Atlanta"}
-                </a>
-                <a href="/locations/seattle/">
-                  {"SEO Company in Seattle"}
-                </a>
-                <a href="/locations/denver/">
-                  {"SEO Company in Denver"}
-                </a>
-                <a href="/locations/boston/">
-                  {"SEO Company in Boston"}
-                </a>
-                <a href="/locations/las-vegas/">
-                  {"SEO Company in Las Vegas"}
-                </a>
-                <a href="/locations/charlotte/">
-                  {"SEO Company in Charlotte"}
-                </a>
-                <a href="/locations/orlando/">
-                  {"SEO Company in Orlando"}
-                </a>
               </div>
               <div className="dfoot">
                 <span>
-                  {"Local SEO across 17 US metros"}
+                  {"Local SEO across 17 US metros, 6 shown"}
                 </span>
                 <a className="tlink" href="/locations/">
                   {"All locations"}

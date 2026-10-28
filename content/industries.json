@@ -1,0 +1,227 @@
+[
+ {
+  "slug": "seo-for-cleaning",
+  "name": "Cleaning Companies",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-electricians",
+  "name": "Electricians",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-fencing-companies",
+  "name": "Fencing Companies",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-flooring-companies",
+  "name": "Flooring Companies",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-general-contractors",
+  "name": "General Contractors",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-hvac",
+  "name": "HVAC Companies",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-landscaping",
+  "name": "Landscaping Companies",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-locksmiths",
+  "name": "Locksmiths",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-movers",
+  "name": "Moving Companies",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-painters",
+  "name": "Painting Contractors",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-pest-control",
+  "name": "Pest Control Companies",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-plumbers",
+  "name": "Plumbers",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-pool-service-companies",
+  "name": "Pool Service Companies",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-roofing",
+  "name": "Roofing Companies",
+  "category": "home-services"
+ },
+ {
+  "slug": "seo-for-chiropractors",
+  "name": "Chiropractors",
+  "category": "medical-and-health"
+ },
+ {
+  "slug": "seo-for-dentists",
+  "name": "Dentists",
+  "category": "medical-and-health"
+ },
+ {
+  "slug": "seo-for-doctors",
+  "name": "Doctors and Medical Practices",
+  "category": "medical-and-health"
+ },
+ {
+  "slug": "seo-for-orthodontists",
+  "name": "Orthodontists",
+  "category": "medical-and-health"
+ },
+ {
+  "slug": "seo-for-plastic-surgeons",
+  "name": "Plastic Surgeons",
+  "category": "medical-and-health"
+ },
+ {
+  "slug": "seo-for-therapists",
+  "name": "Therapists and Counselors",
+  "category": "medical-and-health"
+ },
+ {
+  "slug": "seo-for-veterinarians",
+  "name": "Veterinarians",
+  "category": "medical-and-health"
+ },
+ {
+  "slug": "seo-for-lawyers",
+  "name": "Lawyers",
+  "category": "legal"
+ },
+ {
+  "slug": "seo-for-personal-injury-lawyers",
+  "name": "Personal Injury Lawyers",
+  "category": "legal"
+ },
+ {
+  "slug": "seo-for-auto-detailing",
+  "name": "Auto Detailing Businesses",
+  "category": "automotive"
+ },
+ {
+  "slug": "seo-for-auto-repair",
+  "name": "Auto Repair Shops",
+  "category": "automotive"
+ },
+ {
+  "slug": "seo-for-towing",
+  "name": "Towing Companies",
+  "category": "automotive"
+ },
+ {
+  "slug": "seo-for-bakeries",
+  "name": "Bakeries",
+  "category": "food-and-hospitality"
+ },
+ {
+  "slug": "seo-for-cafes",
+  "name": "Cafes",
+  "category": "food-and-hospitality"
+ },
+ {
+  "slug": "seo-for-florists",
+  "name": "Florists",
+  "category": "food-and-hospitality"
+ },
+ {
+  "slug": "seo-for-photographers",
+  "name": "Photographers",
+  "category": "food-and-hospitality"
+ },
+ {
+  "slug": "seo-for-restaurants",
+  "name": "Restaurants",
+  "category": "food-and-hospitality"
+ },
+ {
+  "slug": "seo-for-wedding-planners",
+  "name": "Wedding Planners",
+  "category": "food-and-hospitality"
+ },
+ {
+  "slug": "seo-for-accountants",
+  "name": "Accountants and CPAs",
+  "category": "professional-services"
+ },
+ {
+  "slug": "seo-for-daycares",
+  "name": "Daycares and Preschools",
+  "category": "professional-services"
+ },
+ {
+  "slug": "seo-for-financial-advisors",
+  "name": "Financial Advisors",
+  "category": "professional-services"
+ },
+ {
+  "slug": "seo-for-insurance",
+  "name": "Insurance Agencies",
+  "category": "professional-services"
+ },
+ {
+  "slug": "seo-for-tutors",
+  "name": "Tutors and Tutoring Centers",
+  "category": "professional-services"
+ },
+ {
+  "slug": "seo-for-home-builders",
+  "name": "Home Builders",
+  "category": "real-estate-and-property"
+ },
+ {
+  "slug": "seo-for-property-management",
+  "name": "Property Management Companies",
+  "category": "real-estate-and-property"
+ },
+ {
+  "slug": "seo-for-real-estate",
+  "name": "Real Estate Agents and Brokerages",
+  "category": "real-estate-and-property"
+ },
+ {
+  "slug": "seo-for-barbers",
+  "name": "Barbershops",
+  "category": "beauty-fitness-and-lifestyle"
+ },
+ {
+  "slug": "seo-for-gyms",
+  "name": "Gyms and Fitness Studios",
+  "category": "beauty-fitness-and-lifestyle"
+ },
+ {
+  "slug": "seo-for-salons",
+  "name": "Hair Salons",
+  "category": "beauty-fitness-and-lifestyle"
+ },
+ {
+  "slug": "seo-for-med-spas",
+  "name": "Med Spas",
+  "category": "beauty-fitness-and-lifestyle"
+ },
+ {
+  "slug": "seo-for-yoga-studios",
+  "name": "Yoga Studios",
+  "category": "beauty-fitness-and-lifestyle"
+ }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "aeo-vs-geo-vs-seo",
+    "title": "AEO vs GEO vs SEO: How to Get Cited in AI Overviews, ChatGPT and Perplexity",
+    "metaTitle": "AEO vs GEO vs SEO: Get Cited by AI Search (2026 Guide)",
+    "description": "What answer engine optimization and generative engine optimization actually change, how AI answers pick their sources, and a 12-step playbook to earn citations without losing Google rankings.",
+    "category": "AI Search",
+    "image": "/img/x-ai.webp",
+    "imageAlt": "Illustration of AI search engines citing sources",
+    "published": "2026-10-28",
+    "modified": "2026-10-28",
+    "readTime": 11
+  },
+  {
+    "slug": "local-seo-90-day-roadmap",
+    "title": "Local SEO for Service Businesses: The 90-Day Roadmap, With Real Search Console Data",
+    "metaTitle": "Local SEO 90-Day Roadmap for Service Businesses (Real Data)",
+    "description": "A week-by-week local SEO plan for contractors, clinics and service companies: profile, citations, pages, reviews and links, with the Search Console numbers a real campaign produced.",
+    "category": "Local SEO",
+    "image": "/img/v4-local.webp",
+    "imageAlt": "Map pins over a city map representing local search rankings",
+    "published": "2026-10-28",
+    "modified": "2026-10-28",
+    "readTime": 12
+  },
+  {
+    "slug": "why-most-seo-campaigns-fail",
+    "title": "Why Most SEO Campaigns Fail in the First 6 Months",
+    "metaTitle": "Why Most SEO Campaigns Fail in the First 6 Months",
+    "description": "It is rarely the budget. It is the order of operations. The seven mistakes that stall SEO before it has a chance to work, and the sequence that fixes them.",
+    "category": "SEO Strategy",
+    "image": "/img/b1.webp",
+    "imageAlt": "Chart showing SEO results compounding after the first months",
+    "published": "2026-10-01",
+    "modified": "2026-10-28",
+    "readTime": 8
+  },
+  {
+    "slug": "local-seo-checklist",
+    "title": "The Local SEO Checklist for Service Businesses",
+    "metaTitle": "The Local SEO Checklist for Service Businesses",
+    "description": "A practical checklist to win the Google map pack: profile, citations, reviews, pages and links, in the order that matters, with what to track each month.",
+    "category": "Local SEO",
+    "image": "/img/b2.webp",
+    "imageAlt": "Checklist next to a map pack result",
+    "published": "2026-10-01",
+    "modified": "2026-10-28",
+    "readTime": 8
+  },
+  {
+    "slug": "technical-seo-basics",
+    "title": "Technical SEO Basics Every Business Owner Should Know",
+    "metaTitle": "Technical SEO Basics Every Business Owner Should Know",
+    "description": "You do not need to be a developer to understand what holds a website back. The seven technical checks that matter, explained in plain English, with free tools for each.",
+    "category": "Technical SEO",
+    "image": "/img/b3.webp",
+    "imageAlt": "Gears and code representing technical SEO",
+    "published": "2026-10-01",
+    "modified": "2026-10-28",
+    "readTime": 9
+  }
+]

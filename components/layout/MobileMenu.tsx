@@ -39,36 +39,6 @@ export default function MobileMenu() {
           <a href="/geo/">
             {"Generative Engine Optimization"}
           </a>
-          <a href="/national-seo/">
-            {"National SEO"}
-          </a>
-          <a href="/enterprise-seo/">
-            {"Enterprise SEO"}
-          </a>
-          <a href="/on-page-seo/">
-            {"On-Page SEO"}
-          </a>
-          <a href="/off-page-seo/">
-            {"Off-Page SEO"}
-          </a>
-          <a href="/link-building/">
-            {"Link Building"}
-          </a>
-          <a href="/content-seo/">
-            {"Content SEO"}
-          </a>
-          <a href="/international-seo/">
-            {"International SEO"}
-          </a>
-          <a href="/keyword-research/">
-            {"Keyword Research"}
-          </a>
-          <a href="/competitor-seo-analysis/">
-            {"Competitor SEO Analysis"}
-          </a>
-          <a href="/seo-consulting/">
-            {"SEO Consulting"}
-          </a>
         </div>
       </details>
       <details>
@@ -82,113 +52,20 @@ export default function MobileMenu() {
           <a href="/industries/">
             {"Industries We Serve"}
           </a>
-          <a href="/seo-for-accountants/">
-            {"Accountants and CPAs"}
-          </a>
-          <a href="/seo-for-auto-detailing/">
-            {"Auto Detailing Businesses"}
-          </a>
-          <a href="/seo-for-auto-repair/">
-            {"Auto Repair Shops"}
-          </a>
-          <a href="/seo-for-bakeries/">
-            {"Bakeries"}
-          </a>
-          <a href="/seo-for-barbers/">
-            {"Barbershops"}
-          </a>
-          <a href="/seo-for-cafes/">
-            {"Cafes"}
-          </a>
-          <a href="/seo-for-chiropractors/">
-            {"Chiropractors"}
-          </a>
-          <a href="/seo-for-cleaning/">
-            {"Cleaning Companies"}
-          </a>
-          <a href="/seo-for-daycares/">
-            {"Daycares and Preschools"}
-          </a>
           <a href="/seo-for-dentists/">
             {"Dentists"}
-          </a>
-          <a href="/seo-for-doctors/">
-            {"Doctors and Medical Practices"}
-          </a>
-          <a href="/seo-for-electricians/">
-            {"Electricians"}
-          </a>
-          <a href="/seo-for-fencing-companies/">
-            {"Fencing Companies"}
-          </a>
-          <a href="/seo-for-financial-advisors/">
-            {"Financial Advisors"}
-          </a>
-          <a href="/seo-for-flooring-companies/">
-            {"Flooring Companies"}
-          </a>
-          <a href="/seo-for-florists/">
-            {"Florists"}
-          </a>
-          <a href="/seo-for-general-contractors/">
-            {"General Contractors"}
-          </a>
-          <a href="/seo-for-gyms/">
-            {"Gyms and Fitness Studios"}
           </a>
           <a href="/seo-for-hvac/">
             {"HVAC Companies"}
           </a>
-          <a href="/seo-for-salons/">
-            {"Hair Salons"}
-          </a>
-          <a href="/seo-for-home-builders/">
-            {"Home Builders"}
-          </a>
-          <a href="/seo-for-insurance/">
-            {"Insurance Agencies"}
-          </a>
-          <a href="/seo-for-landscaping/">
-            {"Landscaping Companies"}
-          </a>
           <a href="/seo-for-lawyers/">
             {"Lawyers"}
-          </a>
-          <a href="/seo-for-locksmiths/">
-            {"Locksmiths"}
           </a>
           <a href="/seo-for-med-spas/">
             {"Med Spas"}
           </a>
-          <a href="/seo-for-movers/">
-            {"Moving Companies"}
-          </a>
-          <a href="/seo-for-orthodontists/">
-            {"Orthodontists"}
-          </a>
-          <a href="/seo-for-painters/">
-            {"Painting Contractors"}
-          </a>
-          <a href="/seo-for-personal-injury-lawyers/">
-            {"Personal Injury Lawyers"}
-          </a>
-          <a href="/seo-for-pest-control/">
-            {"Pest Control Companies"}
-          </a>
-          <a href="/seo-for-photographers/">
-            {"Photographers"}
-          </a>
-          <a href="/seo-for-plastic-surgeons/">
-            {"Plastic Surgeons"}
-          </a>
           <a href="/seo-for-plumbers/">
             {"Plumbers"}
-          </a>
-          <a href="/seo-for-pool-service-companies/">
-            {"Pool Service Companies"}
-          </a>
-          <a href="/seo-for-property-management/">
-            {"Property Management Companies"}
           </a>
           <a href="/seo-for-real-estate/">
             {"Real Estate Agents and Brokerages"}
@@ -198,24 +75,6 @@ export default function MobileMenu() {
           </a>
           <a href="/seo-for-roofing/">
             {"Roofing Companies"}
-          </a>
-          <a href="/seo-for-therapists/">
-            {"Therapists and Counselors"}
-          </a>
-          <a href="/seo-for-towing/">
-            {"Towing Companies"}
-          </a>
-          <a href="/seo-for-tutors/">
-            {"Tutors and Tutoring Centers"}
-          </a>
-          <a href="/seo-for-veterinarians/">
-            {"Veterinarians"}
-          </a>
-          <a href="/seo-for-wedding-planners/">
-            {"Wedding Planners"}
-          </a>
-          <a href="/seo-for-yoga-studios/">
-            {"Yoga Studios"}
           </a>
         </div>
       </details>
@@ -267,20 +126,8 @@ export default function MobileMenu() {
           <a href="/seo-tools/website-seo-checker/">
             {"Website SEO Checker"}
           </a>
-          <a href="/seo-tools/serp-checker/">
-            {"SERP Checker"}
-          </a>
-          <a href="/seo-tools/seo-score-checker/">
-            {"SEO Score Checker"}
-          </a>
-          <a href="/seo-tools/meta-tag-checker/">
-            {"Meta Tag Checker"}
-          </a>
           <a href="/seo-tools/schema-checker/">
             {"Schema Checker"}
-          </a>
-          <a href="/seo-tools/sitemap-checker/">
-            {"Sitemap Checker"}
           </a>
           <a href="/seo-tools/robots-txt-checker/">
             {"Robots.txt Checker"}
@@ -315,39 +162,6 @@ export default function MobileMenu() {
           </a>
           <a href="/locations/miami/">
             {"Miami"}
-          </a>
-          <a href="/locations/phoenix/">
-            {"Phoenix"}
-          </a>
-          <a href="/locations/san-diego/">
-            {"San Diego"}
-          </a>
-          <a href="/locations/san-francisco/">
-            {"San Francisco"}
-          </a>
-          <a href="/locations/austin/">
-            {"Austin"}
-          </a>
-          <a href="/locations/atlanta/">
-            {"Atlanta"}
-          </a>
-          <a href="/locations/seattle/">
-            {"Seattle"}
-          </a>
-          <a href="/locations/denver/">
-            {"Denver"}
-          </a>
-          <a href="/locations/boston/">
-            {"Boston"}
-          </a>
-          <a href="/locations/las-vegas/">
-            {"Las Vegas"}
-          </a>
-          <a href="/locations/charlotte/">
-            {"Charlotte"}
-          </a>
-          <a href="/locations/orlando/">
-            {"Orlando"}
           </a>
         </div>
       </details>
