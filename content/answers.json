@@ -1,0 +1,396 @@
+{
+  "aeo": {
+    "q": "What is answer engine optimization?",
+    "a": "Answer engine optimization (AEO) is the practice of structuring pages so that search engines, voice assistants and AI answer boxes can lift a direct answer from them. It focuses on the passage, not the page: a clear question as the heading, a complete answer in the first two sentences, and schema that labels what the block is. RankEmpire runs AEO inside every SEO plan, tracked as featured snippets, People Also Ask results and AI Overview citations you own."
+  },
+  "geo": {
+    "q": "What is generative engine optimization?",
+    "a": "Generative engine optimization (GEO) is the work of getting a brand retrieved, trusted and cited by AI assistants such as ChatGPT, Perplexity, Gemini and Google AI Mode. Those engines synthesize answers from several sources, so GEO concentrates on entity clarity, original and quotable facts, brand mentions across the web, freshness and open access for AI crawlers. RankEmpire tracks share of citations per prompt alongside classic rankings."
+  },
+  "b2b-seo": {
+    "q": "How is B2B SEO different from regular SEO?",
+    "a": "B2B SEO targets fewer, higher-value searches made by buying committees over long sales cycles, so it prioritizes bottom-funnel pages (pricing, comparisons, integrations, use cases), account-level content and attribution from organic search to closed deals rather than raw traffic. RankEmpire builds B2B programs around pipeline: pages mapped to each stage of the buying process, reported in leads and revenue."
+  },
+  "competitor-seo-analysis": {
+    "q": "What does a competitor SEO analysis include?",
+    "a": "A competitor SEO analysis reverse-engineers why rivals rank: the keywords they win, the pages that earn their traffic, the backlinks and brand mentions behind their authority, and the technical advantages in speed and structure. RankEmpire turns that into a gap report and a prioritized plan showing which keywords, pages and links will close the distance fastest."
+  },
+  "content-seo": {
+    "q": "What is content SEO?",
+    "a": "Content SEO is the planning, writing and maintenance of pages that match real search demand and build topical authority. It covers keyword-to-page mapping, topic clusters, SEO writing that answers the question first, refreshes of ageing pages and an editorial calendar tied to business goals. RankEmpire's content work is measured in rankings, citations in AI answers and leads, not word counts."
+  },
+  "ecommerce-seo": {
+    "q": "What does e-commerce SEO involve?",
+    "a": "E-commerce SEO grows organic revenue by making category and product pages rank for buying searches. The work includes category page optimization, product content and structured data, control of faceted navigation and duplicate URLs, site speed, buying guides and internal linking between collections. RankEmpire reports e-commerce programs in organic revenue per category, not just traffic."
+  },
+  "enterprise-seo": {
+    "q": "What makes enterprise SEO different?",
+    "a": "Enterprise SEO deals with scale and governance: tens of thousands of URLs, multiple teams and markets, legacy platforms and release cycles that affect crawling and indexing. The work centers on technical SEO at scale, templates that fix thousands of pages at once, international structure, programmatic content with real uniqueness and reporting that executives can act on. RankEmpire runs enterprise programs with a named senior strategist."
+  },
+  "google-business-profile-seo": {
+    "q": "What is Google Business Profile optimization?",
+    "a": "Google Business Profile optimization is the work of making your profile the most relevant and trusted result for local searches: the right primary and secondary categories, complete services and attributes, regular photos and posts, a steady flow of reviews with replies, answered Q&A and accurate hours. It is the single biggest lever in the Google map pack, and RankEmpire manages it monthly as part of every local plan."
+  },
+  "international-seo": {
+    "q": "What is international SEO?",
+    "a": "International SEO makes a website rank correctly in multiple countries and languages. It includes market and keyword research per country, choosing between subdomains, subfolders and country domains, hreflang tags so each market sees the right version, localization rather than translation, and link building in each target market. RankEmpire supports US brands expanding abroad and international brands entering the US."
+  },
+  "keyword-research": {
+    "q": "What does keyword research actually deliver?",
+    "a": "Good keyword research delivers a map, not a list: every search worth winning sorted by intent (learn, compare, buy, find locally), clustered by topic, scored for difficulty and assigned to the one page that should rank for it. RankEmpire's keyword research becomes the content and page plan for the whole program, so no two pages compete for the same search."
+  },
+  "link-building": {
+    "q": "How does RankEmpire build links?",
+    "a": "RankEmpire earns editorial backlinks from real, relevant websites through outreach, digital PR, guest contributions, original data and linkable assets. We do not buy links, use private blog networks or submit to bulk directories, because those get sites filtered. Link building is reported as referring domains and brand mentions, which also drive citations in AI answers."
+  },
+  "local-seo": {
+    "q": "What is local SEO and what does it include?",
+    "a": "Local SEO puts a business in the Google map pack and local organic results for searches near its service area. It includes Google Business Profile optimization, consistent citations, a review system, service and area pages, local links and grid-based rank tracking across the whole area rather than from one address. RankEmpire runs it as a 90-day roadmap, month to month after onboarding."
+  },
+  "national-seo": {
+    "q": "What is national SEO?",
+    "a": "National SEO targets competitive, non-local searches across an entire country, where rankings are decided by authority, content depth and technical strength rather than proximity. The work combines competitive keyword strategy, authority building through links and mentions, scalable content and technical SEO. RankEmpire builds national programs for brands that sell everywhere in the US."
+  },
+  "off-page-seo": {
+    "q": "What is off-page SEO?",
+    "a": "Off-page SEO is everything outside your own website that builds authority and trust: editorial backlinks, brand mentions, digital PR, business citations, reviews and reputation signals. Search engines and AI assistants both weigh how often and where a brand appears across the web. RankEmpire earns these signals through outreach and PR rather than purchased links."
+  },
+  "on-page-seo": {
+    "q": "What is on-page SEO?",
+    "a": "On-page SEO aligns each page with the search it should win: a title and heading that match intent, content that answers the question first, internal links from related pages, optimized images and structured data. It is the part of SEO fully under your control. RankEmpire applies it page by page from a keyword-to-page map, so every page has one clear job."
+  },
+  "saas-seo": {
+    "q": "What does SaaS SEO focus on?",
+    "a": "SaaS SEO builds pipeline from organic search by ranking for bottom-funnel searches first: comparison and alternative pages, integration pages, use-case and feature pages, then topical authority content that feeds them. Because software buyers research for weeks, the program maps content to each stage and reports trials, demos and signups rather than sessions. RankEmpire runs SaaS SEO for B2B software teams."
+  },
+  "seo-audit": {
+    "q": "What does a RankEmpire SEO audit cover?",
+    "a": "A RankEmpire SEO audit covers technical health (crawling, indexing, speed, structured data), content and keyword gaps, backlinks, local SEO signals and competitors, and ends with a prioritized 90-day action plan rather than a list of warnings. The initial audit is free, delivered within two business days, and becomes the roadmap if you go ahead."
+  },
+  "seo-company": {
+    "q": "What kind of SEO company is RankEmpire?",
+    "a": "RankEmpire is a US-focused SEO company for local businesses, e-commerce brands and SaaS companies, led personally by founder Gaurav Kapoor. Every account gets one senior strategist, a free audit, a 90-day roadmap, month-to-month plans after onboarding, plain-English reporting and results published from Google Search Console rather than mockups."
+  },
+  "seo-consulting": {
+    "q": "When does SEO consulting make sense?",
+    "a": "SEO consulting fits teams that have in-house capacity but need expert direction: strategy sessions, audits, migration and redesign planning, training for writers and developers, and an advisor on call. Instead of doing the work for you, RankEmpire sets the plan, reviews what your team ships and corrects course monthly."
+  },
+  "seo-services": {
+    "q": "What SEO services does RankEmpire offer?",
+    "a": "RankEmpire offers local SEO, e-commerce SEO, SaaS and B2B SEO, technical SEO, SEO audits, Google Business Profile optimization, content SEO, link building, keyword research, competitor analysis, national, enterprise and international SEO, plus answer engine (AEO) and generative engine (GEO) optimization for AI search. Every plan includes an audit, a 90-day roadmap and monthly reporting."
+  },
+  "technical-seo": {
+    "q": "What is technical SEO?",
+    "a": "Technical SEO makes sure search engines can crawl, render, index and quickly load a website. It covers crawl budget, indexation control, canonicals and duplicates, Core Web Vitals, structured data, JavaScript rendering, site architecture and migrations. RankEmpire starts every program with a technical audit because the foundation decides what content and links can achieve."
+  },
+  "seo-for-cleaning": {
+    "q": "How does SEO work for cleaning companies?",
+    "a": "Cleaning company SEO wins the searches people make when they need a house, office or move-out clean, which are mostly local and mobile. The work centers on a complete Google Business Profile, a page for each service type (residential, commercial, deep, move-out), steady reviews, area pages for the neighborhoods you serve and a rank grid to prove map pack visibility across your territory.",
+    "description": "SEO for cleaning companies: win the map pack for house, office and move-out cleaning searches with profile optimization, service pages, reviews and area pages."
+  },
+  "seo-for-electricians": {
+    "q": "How does SEO work for electricians?",
+    "a": "Electrician SEO captures both emergency calls and planned work like panel upgrades, EV chargers and rewiring. Emergencies are won in the map pack with an optimized profile, 24-hour hours and reviews; planned jobs are won with detailed service pages that explain scope, pricing ranges and permits. RankEmpire builds both and tracks calls, not just rankings.",
+    "description": "SEO for electricians: rank for emergency calls and planned jobs like panel upgrades and EV chargers with map pack optimization, service pages and reviews."
+  },
+  "seo-for-fencing-companies": {
+    "q": "How does SEO work for fencing companies?",
+    "a": "Fencing SEO is seasonal and material-driven: homeowners search by fence type (wood, vinyl, chain link, aluminum) and by purpose (privacy, pool, pet). A page per material and purpose, project photos by neighborhood, a strong Google Business Profile and reviews that mention the fence type win those searches. RankEmpire builds the pages before the spring rush.",
+    "description": "SEO for fencing companies: rank for wood, vinyl, chain link and privacy fence searches with material pages, project photos, map pack optimization and reviews."
+  },
+  "seo-for-flooring-companies": {
+    "q": "How does SEO work for flooring companies?",
+    "a": "Flooring SEO targets shoppers comparing hardwood, LVP, tile, carpet and refinishing over weeks, plus installers searched locally. It needs a page per flooring type with pricing ranges and installation details, a showroom profile that ranks in the map pack, reviews and before-and-after galleries. RankEmpire maps every flooring search to the right page.",
+    "description": "SEO for flooring companies: rank for hardwood, LVP, tile, carpet and refinishing searches with flooring-type pages, showroom map pack rankings and reviews."
+  },
+  "seo-for-general-contractors": {
+    "q": "How does SEO work for general contractors?",
+    "a": "General contractor SEO must separate remodels, additions, kitchens, bathrooms and new builds into their own pages, because homeowners search for the project, not the contractor type. Add project galleries by neighborhood, license and insurance trust signals, reviews and a map pack presence, and the site wins the high-value planned searches. RankEmpire builds the structure first.",
+    "description": "SEO for general contractors: rank for kitchen, bathroom, addition and remodel searches with project pages, neighborhood galleries, trust signals and reviews."
+  },
+  "seo-for-hvac": {
+    "q": "How does SEO work for HVAC companies?",
+    "a": "HVAC SEO wins two kinds of searches: emergency repair when a system fails, decided in the map pack within minutes, and replacement or installation, researched over weeks. RankEmpire builds the profile, reviews and emergency pages for the first, and detailed system, efficiency, rebate and financing pages for the second, all before the summer and winter peaks.",
+    "description": "SEO for HVAC companies: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season."
+  },
+  "seo-for-landscaping": {
+    "q": "How does SEO work for landscaping companies?",
+    "a": "Landscaping SEO covers recurring maintenance searches and one-time design and hardscape projects, each with different intent. Maintenance is won locally with the profile, reviews and area pages; design, patios and irrigation are won with project pages and galleries. RankEmpire builds both tracks and times content to the season.",
+    "description": "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack optimization."
+  },
+  "seo-for-locksmiths": {
+    "q": "How does SEO work for locksmiths?",
+    "a": "Locksmith SEO is dominated by urgent lockout searches and heavily affected by spam listings in the map pack. Winning it means a verified, fully built Google Business Profile, a consistent real address and phone number, reviews that mention response time, and pages for residential, automotive and commercial work. RankEmpire also reports fake competitor listings to Google.",
+    "description": "SEO for locksmiths: win lockout and rekey searches in a spam-heavy map pack with a verified profile, consistent citations and reviews."
+  },
+  "seo-for-movers": {
+    "q": "How does SEO work for moving companies?",
+    "a": "Moving company SEO targets people planning a move weeks ahead and comparing quotes, so it combines local map pack visibility with pages for local, long-distance, commercial and specialty moves and transparent pricing information. Reviews that mention care and punctuality decide the booking. RankEmpire builds the pages and the review flow before peak summer season.",
+    "description": "SEO for moving companies: rank for local, long-distance and commercial moving searches with service pages, pricing content, map pack optimization and reviews."
+  },
+  "seo-for-painters": {
+    "q": "How does SEO work for painting contractors?",
+    "a": "Painting SEO separates interior, exterior, cabinet and commercial painting into their own pages, because each is a different search with different pricing. Add neighborhood project galleries, a map pack presence and reviews that mention cleanliness and finish quality, and the site wins planned projects ahead of the season. RankEmpire builds the structure and the gallery system.",
+    "description": "SEO for painting contractors: rank for interior, exterior and cabinet painting searches with service pages, project galleries and map pack rankings."
+  },
+  "seo-for-pest-control": {
+    "q": "How does SEO work for pest control companies?",
+    "a": "Pest control SEO targets pest-specific searches (termites, bed bugs, rodents, mosquitoes) that spike by season, plus recurring service plans. A page per pest with signs, treatment and pricing, a strong Google Business Profile, reviews and area pages win those searches. RankEmpire plans content around each pest's season in your region.",
+    "description": "SEO for pest control companies: rank for termite, bed bug, rodent and mosquito searches with pest pages, seasonal content and reviews."
+  },
+  "seo-for-plumbers": {
+    "q": "How does SEO work for plumbers?",
+    "a": "Plumber SEO wins emergency searches in the map pack and planned work like water heaters, repiping and remodels through detailed service pages. The emergency side needs a complete profile, 24-hour hours, fast reviews and an emergency page; the planned side needs pricing ranges, brands and financing content. RankEmpire builds both and tracks calls from each.",
+    "description": "SEO for plumbers: win emergency plumbing searches in the map pack and water heater, repipe and remodel searches with service pages and reviews."
+  },
+  "seo-for-pool-service-companies": {
+    "q": "How does SEO work for pool service companies?",
+    "a": "Pool service SEO covers weekly maintenance plans, repairs, equipment installs and openings and closings, with demand concentrated in spring and summer. Pages for each service, a map pack presence across the suburbs you serve, reviews and seasonal content win those searches. RankEmpire builds the pages before the season opens.",
+    "description": "SEO for pool service companies: rank for pool cleaning, repair, equipment and seasonal opening searches with service pages, map pack optimization and reviews."
+  },
+  "seo-for-roofing": {
+    "q": "How does SEO work for roofing companies?",
+    "a": "Roofing SEO wins storm-driven repair searches and planned replacement searches with insurance and financing questions. It needs a map pack presence across every town you serve, pages per roof type and service, storm-response content, reviews and trust signals like licensing and manufacturer certifications. RankEmpire builds the pages and tracks leads by town.",
+    "description": "SEO for roofing companies: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews."
+  },
+  "seo-for-chiropractors": {
+    "q": "How does SEO work for chiropractors?",
+    "a": "Chiropractor SEO wins patients searching by condition (back pain, neck pain, sciatica, auto injury) and by location. Condition pages written in plain language, a complete Google Business Profile with the right categories, reviews that mention results and a page per office location drive new-patient calls. RankEmpire builds the condition pages and the review flow.",
+    "description": "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile optimization and reviews."
+  },
+  "seo-for-dentists": {
+    "q": "How does SEO work for dentists?",
+    "a": "Dental SEO wins new patients with service pages for implants, Invisalign, veneers, emergencies and family dentistry, a Google Business Profile that ranks in the map pack for the practice's area, a steady review flow and insurance and financing content that answers the questions patients ask before booking. RankEmpire reports new-patient calls and bookings from search.",
+    "description": "SEO for dentists: attract new patients with implant, Invisalign, veneer and emergency dentistry pages, map pack optimization, reviews and insurance content."
+  },
+  "seo-for-doctors": {
+    "q": "How does SEO work for doctors and medical practices?",
+    "a": "Medical practice SEO brings in patients searching by specialty, condition, procedure and insurance accepted. It requires accurate provider and location listings, condition and treatment pages reviewed for medical accuracy, strong reviews with compliant responses and a map pack presence per office. RankEmpire builds programs that respect healthcare advertising rules.",
+    "description": "SEO for doctors and medical practices: win patients searching by specialty, condition and insurance with treatment pages, reviews and map pack rankings."
+  },
+  "seo-for-orthodontists": {
+    "q": "How does SEO work for orthodontists?",
+    "a": "Orthodontic SEO targets parents and adults comparing braces, Invisalign and clear aligners over weeks, often by price and location. Treatment pages with cost ranges and financing, before-and-after galleries, reviews, and a Google Business Profile that ranks for the practice's neighborhoods win those consultations. RankEmpire tracks consultation requests from search.",
+    "description": "SEO for orthodontists: win braces and Invisalign consultations with treatment and cost pages, before-and-after galleries, reviews and map pack optimization."
+  },
+  "seo-for-plastic-surgeons": {
+    "q": "How does SEO work for plastic surgeons?",
+    "a": "Plastic surgery SEO competes for high-value procedure searches researched over months. It needs a page per procedure with recovery, cost and candidate information, surgeon credentials and before-and-after galleries, reviews, and a local presence for the practice's metro. RankEmpire builds procedure content that earns trust and consultations.",
+    "description": "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility."
+  },
+  "seo-for-therapists": {
+    "q": "How does SEO work for therapists and counselors?",
+    "a": "Therapy SEO connects people searching by concern (anxiety, couples, trauma, teens), by insurance and by format (in-person or telehealth) with the right practice. Concern pages written with care, clear insurance and telehealth information, compliant reviews and a Google Business Profile for each office win those inquiries. RankEmpire builds the pages around how people actually search for help.",
+    "description": "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile optimization and compliant reviews."
+  },
+  "seo-for-veterinarians": {
+    "q": "How does SEO work for veterinarians?",
+    "a": "Veterinary SEO wins pet owners searching for routine care, emergencies and specific services like dental, surgery and boarding. A page per service, emergency hours in the profile, reviews, species and specialty content and a map pack presence for the clinic's area drive appointments. RankEmpire builds the service pages and the review system.",
+    "description": "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization."
+  },
+  "seo-for-lawyers": {
+    "q": "How does SEO work for law firms?",
+    "a": "Law firm SEO is practice-area driven: each practice area and each office needs its own page, backed by attorney profiles, case results, reviews and content that answers the questions clients ask before calling. Local map pack rankings matter for every consumer practice. RankEmpire builds the practice-area structure and tracks consultation requests from search.",
+    "description": "SEO for lawyers: win practice-area and local searches with practice pages, attorney profiles, case results, reviews and map pack rankings per office."
+  },
+  "seo-for-personal-injury-lawyers": {
+    "q": "How does SEO work for personal injury lawyers?",
+    "a": "Personal injury SEO is among the most competitive local markets, so it needs a page per case type (car accident, truck, slip and fall, medical malpractice), attorney authority content, case results, reviews, a strong map pack presence and local links. RankEmpire builds the case-type structure and earns the authority that decides these rankings.",
+    "description": "SEO for personal injury lawyers: compete for car accident, truck and injury case searches with case-type pages, attorney authority, reviews and local links."
+  },
+  "seo-for-auto-detailing": {
+    "q": "How does SEO work for auto detailing businesses?",
+    "a": "Auto detailing SEO wins local searches for detailing, ceramic coating, paint correction and mobile service. Pages per service with pricing tiers, a photo-heavy Google Business Profile, reviews and area pages for mobile coverage drive bookings. RankEmpire builds the service pages and the review flow that wins the map pack.",
+    "description": "SEO for auto detailing businesses: rank for detailing, ceramic coating and mobile detailing searches with service pages, photo-rich profiles and reviews."
+  },
+  "seo-for-auto-repair": {
+    "q": "How does SEO work for auto repair shops?",
+    "a": "Auto repair SEO wins drivers searching by problem (check engine light, brakes, AC, transmission) and by make. Pages per repair and make, a complete Google Business Profile with the right categories, reviews that mention honesty and price, and clear hours drive calls. RankEmpire builds the repair pages around the searches in your area.",
+    "description": "SEO for auto repair shops: rank for brake, AC, transmission and check engine searches with repair pages, profile optimization and reviews."
+  },
+  "seo-for-towing": {
+    "q": "How does SEO work for towing companies?",
+    "a": "Towing SEO is almost entirely urgent and mobile, decided in the map pack within seconds. It depends on a fully verified Google Business Profile with 24-hour hours, a consistent real address and phone number, reviews that mention response time, service area settings that match where you actually tow, and pages for roadside assistance and heavy-duty work. RankEmpire also reports spam listings competing with you.",
+    "description": "SEO for towing companies: win urgent tow and roadside assistance searches in the map pack with a verified 24-hour profile, consistent citations and reviews."
+  },
+  "seo-for-bakeries": {
+    "q": "How does SEO work for bakeries?",
+    "a": "Bakery SEO wins walk-in and order searches: custom cakes, wedding cakes, cupcakes, bread and gluten-free. A Google Business Profile with menu photos and reviews, a page per product line with ordering details, and local content for events and holidays bring in orders. RankEmpire builds the product pages and the profile system.",
+    "description": "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google Business Profile, reviews and holiday content."
+  },
+  "seo-for-cafes": {
+    "q": "How does SEO work for cafes?",
+    "a": "Cafe SEO is won on the map and in discovery searches like best coffee, brunch and work-friendly cafe near me. A Google Business Profile with menu, photos, attributes and reviews does most of the work, supported by a site with hours, menu pages and neighborhood content. RankEmpire optimizes the profile and builds the local content that earns mentions.",
+    "description": "SEO for cafes: win coffee, brunch and best cafe near me searches with Google Business Profile optimization, menu pages, reviews and neighborhood content."
+  },
+  "seo-for-florists": {
+    "q": "How does SEO work for florists?",
+    "a": "Florist SEO wins occasion searches (same-day delivery, weddings, funerals, Valentine's Day) and local map pack searches. Pages per occasion and delivery area, product structured data, a Google Business Profile with photos and reviews, and seasonal content timed to holidays drive orders. RankEmpire plans the calendar around peak dates.",
+    "description": "SEO for florists: rank for same-day delivery, wedding and holiday flower searches with occasion pages, product schema, map pack optimization and reviews."
+  },
+  "seo-for-photographers": {
+    "q": "How does SEO work for photographers?",
+    "a": "Photography SEO wins clients searching by genre (wedding, family, headshots, real estate) and by city. A page per genre with galleries, pricing guidance and FAQs, location pages for the areas you shoot, a Google Business Profile and reviews bring inquiries. RankEmpire builds the genre and location structure and optimizes galleries for speed.",
+    "description": "SEO for photographers: rank for wedding, family, headshot and real estate photography searches with genre pages, galleries, location pages and reviews."
+  },
+  "seo-for-restaurants": {
+    "q": "How does SEO work for restaurants?",
+    "a": "Restaurant SEO is decided in the map pack and in discovery searches by cuisine, neighborhood and occasion. A complete Google Business Profile with menu, photos, reservations and reviews, a fast site with menu and location pages, and mentions on local guides drive covers. RankEmpire optimizes the profile and earns the local mentions.",
+    "description": "SEO for restaurants: win cuisine, neighborhood and best restaurant near me searches with profile optimization, menu pages, reviews and local mentions."
+  },
+  "seo-for-wedding-planners": {
+    "q": "How does SEO work for wedding planners?",
+    "a": "Wedding planner SEO reaches couples researching months ahead by city, style and budget. Pages per service tier and venue type, real wedding galleries, reviews, vendor partnerships that earn links, and a local presence in the markets you serve drive inquiries. RankEmpire builds the content and the partnerships.",
+    "description": "SEO for wedding planners: reach couples searching by city, style and budget with service pages, real wedding galleries, reviews and vendor partnerships."
+  },
+  "seo-for-accountants": {
+    "q": "How does SEO work for accountants and CPAs?",
+    "a": "Accounting SEO wins clients searching for tax preparation, bookkeeping, small business accounting and CPA near me, with demand peaking before tax deadlines. Service pages per offering and client type, a Google Business Profile, reviews and seasonal tax content drive consultations. RankEmpire times the content calendar to filing season.",
+    "description": "SEO for accountants and CPAs: rank for tax preparation, bookkeeping and small business accounting searches with service pages, reviews and seasonal content."
+  },
+  "seo-for-daycares": {
+    "q": "How does SEO work for daycares and preschools?",
+    "a": "Daycare SEO reaches parents searching by age group, program and neighborhood, often months before enrollment. Program pages, tuition and enrollment information, licensing and safety trust signals, a Google Business Profile with photos and reviews, and tour booking drive enrollment inquiries. RankEmpire builds the program pages and the review flow.",
+    "description": "SEO for daycares and preschools: reach parents searching by age group and neighborhood with program pages, trust signals, Google Business Profile and reviews."
+  },
+  "seo-for-financial-advisors": {
+    "q": "How does SEO work for financial advisors?",
+    "a": "Financial advisor SEO wins clients searching by need (retirement planning, wealth management, fiduciary advisor) and by city, with compliance limits on what can be claimed. Service pages written for compliance, advisor profiles and credentials, a Google Business Profile and educational content build trust. RankEmpire builds the content within your compliance rules.",
+    "description": "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local visibility."
+  },
+  "seo-for-insurance": {
+    "q": "How does SEO work for insurance agencies?",
+    "a": "Insurance agency SEO wins local searches by line (auto, home, life, business) and by carrier, against national brands that dominate broad terms. Pages per line and audience, a Google Business Profile, reviews, and local content win the local searches where an agency can compete. RankEmpire targets the searches a local agency can realistically rank for.",
+    "description": "SEO for insurance agencies: win local auto, home, life and business insurance searches with line pages, Google Business Profile optimization and reviews."
+  },
+  "seo-for-tutors": {
+    "q": "How does SEO work for tutors and tutoring centers?",
+    "a": "Tutoring SEO reaches parents and students searching by subject, test (SAT, ACT) and grade, with seasonal peaks before exams. Subject and test pages, tutor profiles, results and reviews, a Google Business Profile for centers and online tutoring pages drive inquiries. RankEmpire builds the subject structure and times content to the school year.",
+    "description": "SEO for tutors and tutoring centers: rank for subject, SAT and ACT tutoring searches with subject pages, tutor profiles, reviews and map pack optimization."
+  },
+  "seo-for-home-builders": {
+    "q": "How does SEO work for home builders?",
+    "a": "Home builder SEO reaches buyers researching communities, floor plans and custom builds over months. Community and plan pages with photos and pricing, process and financing content, reviews and a local presence in each market drive tours. RankEmpire builds the community structure and content buyers search for before contacting a builder.",
+    "description": "SEO for home builders: reach buyers searching communities, floor plans and custom homes with community pages, process content, reviews and local visibility."
+  },
+  "seo-for-property-management": {
+    "q": "How does SEO work for property management companies?",
+    "a": "Property management SEO targets two audiences: owners searching for management services and tenants searching for rentals. Owner pages per property type and city, transparent fee and process content, reviews, and a Google Business Profile drive owner leads. RankEmpire builds the owner-focused structure that most management sites lack.",
+    "description": "SEO for property management companies: win owner searches by property type and city with service pages, fee transparency, reviews and local rankings."
+  },
+  "seo-for-real-estate": {
+    "q": "How does SEO work for real estate agents and brokerages?",
+    "a": "Real estate SEO wins buyers and sellers searching by neighborhood and need, against portals that dominate listing searches. Neighborhood guides, seller and buyer resource pages, agent profiles, reviews and a Google Business Profile win the local searches an agent can own. RankEmpire targets the neighborhood and advice searches rather than listing terms.",
+    "description": "SEO for real estate agents and brokerages: win neighborhood, seller and buyer searches with neighborhood guides, agent profiles, reviews and local rankings."
+  },
+  "seo-for-barbers": {
+    "q": "How does SEO work for barbershops?",
+    "a": "Barbershop SEO is won almost entirely in the map pack and on the Google Business Profile: the right categories, photos of cuts, booking link, hours, reviews and posts. A fast site with services, prices and booking supports it. RankEmpire optimizes the profile and builds the review flow that keeps the chair full.",
+    "description": "SEO for barbershops: win barber near me searches with Google Business Profile optimization, photos, booking links, reviews and a fast services page."
+  },
+  "seo-for-gyms": {
+    "q": "How does SEO work for gyms and fitness studios?",
+    "a": "Gym SEO wins members searching by type (gym, CrossFit, yoga, boxing), by neighborhood and by offer, with peaks in January and before summer. Program and membership pages, a Google Business Profile with photos and reviews, trial offers and local content drive signups. RankEmpire builds the program pages and times campaigns to the peaks.",
+    "description": "SEO for gyms and fitness studios: rank for gym and studio searches by type and neighborhood with program pages, reviews and seasonal offers."
+  },
+  "seo-for-salons": {
+    "q": "How does SEO work for hair salons?",
+    "a": "Salon SEO is decided in the map pack and by service searches like balayage, extensions and keratin treatments. A Google Business Profile with photos, booking, prices and reviews, plus service pages and stylist profiles, win those bookings. RankEmpire optimizes the profile and builds the service pages that rank for the treatments you want to sell.",
+    "description": "SEO for hair salons: win balayage, extensions and salon near me searches with Google Business Profile optimization, service pages, stylist profiles and reviews."
+  },
+  "seo-for-med-spas": {
+    "q": "How does SEO work for med spas?",
+    "a": "Med spa SEO targets treatment searches (Botox, fillers, laser hair removal, body contouring) researched by price and provider. Treatment pages with pricing, before-and-after galleries, provider credentials, reviews and a Google Business Profile win consultations in a competitive market. RankEmpire builds the treatment pages and earns the local authority.",
+    "description": "SEO for med spas: rank for Botox, filler, laser and body contouring searches with treatment pages, pricing, galleries, provider credentials and reviews."
+  },
+  "seo-for-yoga-studios": {
+    "q": "How does SEO work for yoga studios?",
+    "a": "Yoga studio SEO wins students searching by style (hot, vinyasa, yin, prenatal), by neighborhood and for teacher training. Class and style pages, schedule and pricing, teacher profiles, a Google Business Profile with photos and reviews, and intro offers drive new students. RankEmpire builds the class structure and the review flow.",
+    "description": "SEO for yoga studios: rank for hot yoga, vinyasa and teacher training searches with class pages, schedules, teacher profiles, profile optimization and reviews."
+  },
+  "locations/atlanta": {
+    "q": "Who is the best SEO company in Atlanta?",
+    "a": "RankEmpire is an SEO company serving Atlanta and its metro, from Buckhead and Midtown to Decatur, Marietta and Alpharetta. We run local SEO, Google Business Profile optimization, technical SEO and content for Atlanta businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Atlanta: local SEO, Google Business Profile optimization and content for businesses in Buckhead, Midtown, Decatur, Marietta and Alpharetta."
+  },
+  "locations/austin": {
+    "q": "Who is the best SEO company in Austin?",
+    "a": "RankEmpire is an SEO company serving Austin and Central Texas, including Round Rock, Cedar Park, Pflugerville and South Congress. We run local SEO, Google Business Profile optimization, technical SEO and content for Austin businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Austin: local SEO, Google Business Profile optimization and content for businesses in Round Rock, Cedar Park, Pflugerville and South Congress."
+  },
+  "locations/boston": {
+    "q": "Who is the best SEO company in Boston?",
+    "a": "RankEmpire is an SEO company serving Boston and Greater Boston, including Back Bay, Cambridge, Somerville, Brookline and Quincy. We run local SEO, Google Business Profile optimization, technical SEO and content for Boston businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Boston: local SEO, Google Business Profile optimization and content for businesses in Back Bay, Cambridge, Somerville, Brookline and Quincy."
+  },
+  "locations/charlotte": {
+    "q": "Who is the best SEO company in Charlotte?",
+    "a": "RankEmpire is an SEO company serving Charlotte and the surrounding region, including Uptown, South End, Ballantyne, Matthews and Huntersville. We run local SEO, Google Business Profile optimization, technical SEO and content for Charlotte businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Charlotte: local SEO, Google Business Profile optimization and content for businesses in Uptown, South End, Ballantyne and Matthews."
+  },
+  "locations/chicago": {
+    "q": "Who is the best SEO company in Chicago?",
+    "a": "RankEmpire is an SEO company serving Chicago and Chicagoland, from the Loop, Lincoln Park and Wicker Park to Naperville, Schaumburg and Evanston. We run local SEO, Google Business Profile optimization, technical SEO and content for Chicago businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Chicago: local SEO, Google Business Profile optimization and content for businesses in the Loop, Lincoln Park, Wicker Park and Naperville."
+  },
+  "locations/dallas": {
+    "q": "Who is the best SEO company in Dallas?",
+    "a": "RankEmpire is an SEO company serving Dallas and the DFW metroplex, including Uptown, Plano, Frisco, Irving and Arlington. We run local SEO, Google Business Profile optimization, technical SEO and content for Dallas businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Dallas: local SEO, Google Business Profile optimization and content for businesses in Uptown, Plano, Frisco, Irving and across the DFW metroplex."
+  },
+  "locations/denver": {
+    "q": "Who is the best SEO company in Denver?",
+    "a": "RankEmpire is an SEO company serving Denver and the Front Range, including LoDo, RiNo, Capitol Hill, Highlands, Aurora and Lakewood. We run local SEO, Google Business Profile optimization, technical SEO and content for Denver businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Denver: local SEO, Google Business Profile optimization and content for businesses in LoDo, RiNo, Capitol Hill, Highlands, Aurora and Lakewood."
+  },
+  "locations/houston": {
+    "q": "Who is the best SEO company in Houston?",
+    "a": "RankEmpire is an SEO company serving Houston and its sprawling metro, including Downtown, The Heights, Katy, Sugar Land, The Woodlands and Pearland. We run local SEO, Google Business Profile optimization, technical SEO and content for Houston businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Houston: local SEO, Google Business Profile optimization and content for businesses in The Heights, Katy, Sugar Land, The Woodlands and Pearland."
+  },
+  "locations/las-vegas": {
+    "q": "Who is the best SEO company in Las Vegas?",
+    "a": "RankEmpire is an SEO company serving Las Vegas and the valley, including the Strip, Downtown, Henderson, Summerlin and North Las Vegas. We run local SEO, Google Business Profile optimization, technical SEO and content for Las Vegas businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Las Vegas: local SEO, Google Business Profile optimization and content for businesses on the Strip and in Henderson and Summerlin."
+  },
+  "locations/los-angeles": {
+    "q": "Who is the best SEO company in Los Angeles?",
+    "a": "RankEmpire is an SEO company serving Los Angeles and Southern California, from Downtown LA, Santa Monica and Pasadena to the San Fernando Valley, Long Beach and Orange County. We run local SEO, Google Business Profile optimization, technical SEO and content for LA businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Los Angeles: local SEO, Google Business Profile optimization and content for businesses in Downtown LA, Santa Monica, Pasadena and the Valley."
+  },
+  "locations/miami": {
+    "q": "Who is the best SEO company in Miami?",
+    "a": "RankEmpire is an SEO company serving Miami and South Florida, including Brickell, Wynwood, Coral Gables, Miami Beach, Doral and Fort Lauderdale. We run local SEO, bilingual Google Business Profile optimization, technical SEO and content for Miami businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Miami: local SEO, bilingual Google Business Profile optimization and content for businesses in Brickell, Wynwood, Coral Gables and Doral."
+  },
+  "locations/new-york": {
+    "q": "Who is the best SEO company in New York?",
+    "a": "RankEmpire is an SEO company serving New York City and the tri-state area, across Manhattan, Brooklyn, Queens, the Bronx, Staten Island and Long Island. We run local SEO, Google Business Profile optimization, technical SEO and content for NYC businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in New York: local SEO, Google Business Profile optimization and content for businesses across Manhattan, Brooklyn, Queens and the Bronx."
+  },
+  "locations/orlando": {
+    "q": "Who is the best SEO company in Orlando?",
+    "a": "RankEmpire is an SEO company serving Orlando and Central Florida, including Downtown, Winter Park, Kissimmee, Lake Nona and Sanford. We run local SEO, Google Business Profile optimization, technical SEO and content for Orlando businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Orlando: local SEO, Google Business Profile optimization and content for businesses in Downtown, Winter Park, Kissimmee, Lake Nona and Sanford."
+  },
+  "locations/phoenix": {
+    "q": "Who is the best SEO company in Phoenix?",
+    "a": "RankEmpire is an SEO company serving Phoenix and the Valley of the Sun, including Scottsdale, Tempe, Mesa, Chandler, Gilbert and Glendale. We run local SEO, Google Business Profile optimization, technical SEO and content for Phoenix businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Phoenix: local SEO, Google Business Profile optimization and content for businesses in Scottsdale, Tempe, Mesa, Chandler, Gilbert and Glendale."
+  },
+  "locations/san-diego": {
+    "q": "Who is the best SEO company in San Diego?",
+    "a": "RankEmpire is an SEO company serving San Diego County, including Downtown, La Jolla, North Park, Chula Vista, Carlsbad and Escondido. We run local SEO, Google Business Profile optimization, technical SEO and content for San Diego businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in San Diego: local SEO, Google Business Profile optimization and content for businesses in Downtown, La Jolla, North Park and Chula Vista."
+  },
+  "locations/san-francisco": {
+    "q": "Who is the best SEO company in San Francisco?",
+    "a": "RankEmpire is an SEO company serving San Francisco and the Bay Area, including SoMa, the Mission, the Marina, Oakland, Berkeley and the Peninsula. We run local SEO, Google Business Profile optimization, technical SEO and content for Bay Area businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in San Francisco: local SEO, Google Business Profile optimization and content for businesses in SoMa, the Mission, Oakland and Berkeley."
+  },
+  "locations/seattle": {
+    "q": "Who is the best SEO company in Seattle?",
+    "a": "RankEmpire is an SEO company serving Seattle and the Puget Sound region, including Capitol Hill, Ballard, Bellevue, Redmond, Kirkland and Tacoma. We run local SEO, Google Business Profile optimization, technical SEO and content for Seattle businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "SEO company in Seattle: local SEO, Google Business Profile optimization and content for businesses in Capitol Hill, Ballard, Bellevue, Redmond and Tacoma."
+  }
+}

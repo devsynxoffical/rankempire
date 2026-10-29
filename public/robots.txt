@@ -26,5 +26,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.rankempire.us/sitemap.xml
+# AI-readable site summary
+# https://www.rankempire.us/llms.txt
 Host: https://www.rankempire.us
 

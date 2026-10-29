@@ -1,5 +1,7 @@
 export default function V2() {
   return (
+    <>
+    <link rel="preload" as="image" href="/img/m-local.jpg" fetchPriority="high" />
     <section className="yh v2" style={{"--a1": "#ec4e3b", "--a2": "#8c2fe2"} as React.CSSProperties}>
       <canvas className="grain" aria-hidden="true"></canvas>
       <div className="wrap">
@@ -131,5 +133,6 @@ export default function V2() {
         </div>
       </div>
     </section>
+    </>
   );
 }

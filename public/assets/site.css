@@ -2754,3 +2754,11 @@ body.in-fd .cur,body.in-fd .cur-r{opacity:0!important}
 .fd5-links{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:18px;font-size:14px;font-weight:600}
 .fd5-links a{display:inline-flex;align-items:center;gap:6px;color:var(--ink);border-bottom:1px solid var(--line2);transition:color .3s}.fd5-links a::after{content:"\2192";color:var(--acc)}.fd5-links a:hover{color:var(--acc)}
 @media (max-width:600px){.prose .kt{grid-template-columns:1fr 1fr}}
+
+/* ===== Quick answer block (AEO/GEO) ===== */
+.qa{padding:clamp(28px,4vw,48px) 0 0;position:relative;z-index:2}
+.qa-box{background:#fff;border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:18px;padding:clamp(20px,2.6vw,30px) clamp(20px,3vw,36px);box-shadow:var(--sh);max-width:980px}
+.qa-box .eyb{color:var(--acc)}.qa-box .eyb i{width:7px;height:7px;border-radius:50%;background:var(--acc)}
+.qa-q{font-size:clamp(20px,2vw,26px);margin:10px 0 10px;letter-spacing:-.025em;line-height:1.2}
+.qa-a{font-size:clamp(15.5px,1.2vw,17.5px);line-height:1.6;color:var(--ink3);margin:0}
+.yh+.qa{margin-top:0}
