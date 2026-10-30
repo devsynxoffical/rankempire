@@ -23,10 +23,11 @@ for (const f of globSync('app/**/page.tsx')) {
       if (old !== entry.description) { s = s.split(old).join(entry.description); desc++; }
     }
   }
-  // Organization enrichment
-  const orgRe = /(\\"@type\\": \\"ProfessionalService\\", \\"@id\\": \\"https:\/\/www\.rankempire\.us\/#org\\", \\"name\\": \\"RankEmpire\\")(, \\"founder\\": \{[^}]*\}, \\"contactPoint\\": \{[^}]*\})?/;
+  // Organization enrichment: strip any previous founder/contactPoint, then insert once after the name
+  const strip = /, \\"founder\\": \{[^}]*\}, \\"contactPoint\\": \{[^}]*\}/g;
   const add = `, \\"founder\\": {\\"@type\\": \\"Person\\", \\"@id\\": \\"${site.url}/our-team/#gaurav\\", \\"name\\": \\"${site.founder.name}\\"}, \\"contactPoint\\": {\\"@type\\": \\"ContactPoint\\", \\"contactType\\": \\"sales\\", \\"email\\": \\"${site.email}\\", \\"availableLanguage\\": \\"en\\", \\"areaServed\\": \\"US\\"}`;
-  if (orgRe.test(s)) { const n = s.replace(orgRe, `$1${add}`); if (n !== s) { s = n; org++; } }
+  const nameRe = /(\\"@type\\": \\"ProfessionalService\\", \\"@id\\": \\"https:\/\/www\.rankempire\.us\/#org\\", \\"name\\": \\"RankEmpire\\")/;
+  if (nameRe.test(s)) { const n = s.replace(strip, '').replace(nameRe, `$1${add}`); if (n !== s) { s = n; org++; } }
   if (s !== before) writeFileSync(f, s);
 }
 console.log(`quick answers inserted: ${qa}, descriptions replaced: ${desc}, organization enriched: ${org}`);

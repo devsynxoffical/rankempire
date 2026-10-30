@@ -21,7 +21,7 @@ Contact: ${site.email}. Website: ${site.url}. Results: ${site.url}/case-studies/
 ## Services
 ${services.map((s) => `- [${label(s)}](${site.url}/${s}/): ${a[s]?.a ?? ''}`).join('\n')}
 
-## Industry playbooks (45)
+## Industry playbooks (51)
 ${industries.map((i) => line(i.slug, `SEO for ${i.name}`)).join('\n')}
 
 ## Locations (17 US metros)

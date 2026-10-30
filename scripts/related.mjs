@@ -15,7 +15,7 @@ const SERVICE_LABEL = {
   'international-seo': 'International SEO', 'keyword-research': 'Keyword Research', 'link-building': 'Link Building', 'local-seo': 'Local SEO', 'national-seo': 'National SEO',
   'off-page-seo': 'Off-Page SEO', 'on-page-seo': 'On-Page SEO', 'saas-seo': 'SaaS SEO', 'seo-audit': 'SEO Audit', 'seo-company': 'SEO Company', 'seo-consulting': 'SEO Consulting',
   'seo-services': 'All SEO Services', 'technical-seo': 'Technical SEO', 'seo-packages': 'SEO Packages and Pricing', 'seo-packages/local-seo': 'Local SEO Packages',
-  'seo-packages/ecommerce-seo': 'E-commerce SEO Packages', 'seo-packages/saas-seo': 'SaaS SEO Packages', 'about-us': 'About RankEmpire', 'industries': 'All 45 Industries', 'case-studies': 'Verified Results', 'locations': 'All 17 Locations',
+  'seo-packages/ecommerce-seo': 'E-commerce SEO Packages', 'seo-packages/saas-seo': 'SaaS SEO Packages', 'about-us': 'About RankEmpire', 'industries': 'All 51 Industries', 'case-studies': 'Verified Results', 'locations': 'All 17 Locations',
 };
 const svc = (slug) => ({ href: `/${slug}/`, label: SERVICE_LABEL[slug] });
 const SERVICES = {
@@ -41,7 +41,7 @@ const SERVICES = {
   'seo-services': [['local-seo', 'ecommerce-seo', 'saas-seo', 'technical-seo'], ['how-much-does-seo-cost', 'aeo-vs-geo-vs-seo']],
   'technical-seo': [['seo-audit', 'on-page-seo', 'enterprise-seo', 'ecommerce-seo'], ['technical-seo-basics', 'aeo-vs-geo-vs-seo']],
 };
-const INDUSTRY_POST = { 'home-services': 'local-seo-90-day-roadmap', 'medical-and-health': 'local-seo-checklist', 'legal': 'local-seo-90-day-roadmap', 'automotive': 'local-seo-checklist', 'food-and-hospitality': 'local-seo-checklist', 'professional-services': 'why-most-seo-campaigns-fail', 'real-estate-and-property': 'local-seo-90-day-roadmap', 'beauty-fitness-and-lifestyle': 'local-seo-checklist' };
+const INDUSTRY_POST = { 'home-services': 'local-seo-90-day-roadmap', 'medical-and-health': 'local-seo-checklist', 'legal': 'local-seo-90-day-roadmap', 'automotive': 'local-seo-checklist', 'food-and-hospitality': 'local-seo-checklist', 'professional-services': 'why-most-seo-campaigns-fail', 'real-estate-and-property': 'local-seo-90-day-roadmap', 'beauty-fitness-and-lifestyle': 'local-seo-checklist', 'luxury-travel-and-events': 'google-business-profile-optimization-checklist' };
 
 function write(key, title, items, pagePath) {
   const file = `components/pages/${key}/Related.tsx`;

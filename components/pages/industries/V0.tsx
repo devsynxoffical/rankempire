@@ -21,7 +21,7 @@ export default function V0() {
           <div className="yh-l">
             <span className="eyb pill lt" data-r="">
               <i></i>
-              {"45 industries"}
+              {"51 industries"}
             </span>
             <h1 data-r="">
               {"SEO for the industries we "}
@@ -66,7 +66,7 @@ export default function V0() {
           {"\n"}
           <div className="yh-v" data-r="s">
             <div className="yh-m">
-              <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-industries.jpg" aria-label="45 industries">
+              <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-industries.jpg" aria-label="51 industries">
                 <source src="/img/m-industries.mp4" type="video/mp4" />
               </video>
               <div className="yh-ch">
@@ -93,8 +93,8 @@ export default function V0() {
         {"\n"}
         <div className="yfacts" data-r="">
           <div style={{"--c": "#ec4e3b"} as React.CSSProperties}>
-            <b data-count="45" data-raw="45">
-              {"45"}
+            <b data-count="51" data-raw="51">
+              {"51"}
             </b>
             <span>
               {"Industry playbooks"}

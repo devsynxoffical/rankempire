@@ -70,6 +70,13 @@ export default function IhTop() {
                 {"5"}
               </b>
             </a>
+            <a href="#luxury-travel-and-events" style={{"--c": "#8c2fe2"} as React.CSSProperties}>
+              <i></i>
+              {"Luxury, Travel and Events"}
+              <b>
+                {"6"}
+              </b>
+            </a>
           </nav>
         </div>
       </div>

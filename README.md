@@ -53,6 +53,7 @@ Uncomment `output: 'export'` in `next.config.mjs`, run `npm run build`, upload t
 | `npm run posts` | Builds every blog post from `content/posts/<slug>.md` + `content/posts.json` into `app/blog/<slug>/page.tsx` and its body component. Adding a post = one Markdown file + one JSON entry + the route in `content/routes.json`. |
 | `npm run related` | Regenerates the "Keep exploring" related-links section on every industry, city and service page (hub-and-spoke internal linking). |
 | `npm run answers` | Applies `content/answers.json`: the Quick Answer block (with Speakable schema) after the hero of every service, industry and city page, per-page meta descriptions, and founder/contactPoint on the Organization schema. |
+| `npm run surfaces` | Places the SEO / AEO / GEO / AGO section on every industry, city, service and hub page with page-specific props (audience, a real search and a real question from the page). Re-run after adding pages. |
 | `npm run socials` | Fill the URLs in `content/site.json` first; this injects them as `sameAs` into the Organization schema on every page. The footer and Person schema read the same file. |
 | `npm run indexnow` | Submits all routes (or the paths you pass) to IndexNow for Bing and partners. |
 | `npm run gsc -- status \| sitemaps \| inspect` | Search Console: list sitemaps, submit the sitemap index, or run URL Inspection on every route into `reports/gsc-coverage-<date>.csv`. Needs `.secrets/gsc-service-account.json` (gitignored) and the service account added as a user on the property. |

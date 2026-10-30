@@ -392,5 +392,35 @@
     "q": "Who is the best SEO company in Seattle?",
     "a": "RankEmpire is an SEO company serving Seattle and the Puget Sound region, including Capitol Hill, Ballard, Bellevue, Redmond, Kirkland and Tacoma. We run local SEO, Google Business Profile optimization, technical SEO and content for Seattle businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
     "description": "SEO company in Seattle: local SEO, Google Business Profile optimization and content for businesses in Capitol Hill, Ballard, Bellevue, Redmond and Tacoma."
+  },
+  "seo-for-private-jet-charter": {
+    "q": "How does SEO work for private jet charter companies?",
+    "a": "Private jet charter SEO wins the specific searches buyers and their assistants make: city-pair routes, airports, aircraft categories, empty legs and jet card comparisons. The work centers on route and aircraft pages with real flight times and price ranges, prominent safety ratings, reviews from corporate clients and mentions in aviation and luxury travel sources that AI assistants cite.",
+    "description": "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI search visibility."
+  },
+  "seo-for-yacht-charter": {
+    "q": "How does SEO work for yacht charter companies?",
+    "a": "Yacht charter SEO wins two kinds of searches: day charters near a marina, decided on the map with photos and reviews, and week-long charters researched months ahead by destination and cost. The work combines a Google Business Profile per marina, destination and yacht pages, an honest all-in cost guide that explains APA, and reviews and travel mentions that AI assistants cite.",
+    "description": "SEO for yacht charter companies: rank for destination, yacht type and day charter searches with destination pages, fleet pages, reviews and AI visibility."
+  },
+  "seo-for-limousine-companies": {
+    "q": "How does SEO work for limousine companies?",
+    "a": "Limousine SEO wins local, event-driven searches: airport transfers, weddings, proms, corporate car service and nights out. The work centers on the Google Business Profile and map pack, a page per airport and occasion with real rates and minimums, fleet pages, reviews that mention punctuality and safety, and content timed to the wedding and prom seasons.",
+    "description": "SEO for limousine companies: rank for airport transfer, wedding, prom and corporate car service searches with map pack optimization, fleet pages and reviews."
+  },
+  "seo-for-exotic-car-rental": {
+    "q": "How does SEO work for exotic car rental companies?",
+    "a": "Exotic car rental SEO wins model-first searches such as Lamborghini, Ferrari and Rolls-Royce rentals in your city. The work centers on a page for every car with rates, mileage and deposits, a clear requirements page, occasion and delivery pages, a strong Google Business Profile, and reviews that prove there are no surprise fees.",
+    "description": "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements, reviews and AI visibility."
+  },
+  "seo-for-luxury-wedding-businesses": {
+    "q": "How does SEO work for luxury wedding businesses?",
+    "a": "Luxury wedding SEO reaches high-budget couples who search for the best rather than the nearest: luxury planners, designers, florists and photographers in a city or destination. The work centers on portfolio pages for each featured wedding, destination and venue guides, a transparent starting investment, and editorial features and preferred-vendor listings that couples and AI assistants trust.",
+    "description": "SEO for luxury wedding planners, designers, florists and photographers: reach high-budget couples with portfolio pages, editorial features and AI visibility."
+  },
+  "seo-for-wedding-venues": {
+    "q": "How does SEO work for wedding venues and event companies?",
+    "a": "Wedding venue and event company SEO wins local searches by style, capacity and price, plus corporate event space searches. The work centers on the Google Business Profile and map pack, a page for every space and event type, transparent starting prices and minimums, real event pages with vendor credits and consistent directory listings.",
+    "description": "SEO for wedding venues and event companies: win venue, capacity and pricing searches with map pack optimization, space pages, real events and AI visibility."
   }
 }

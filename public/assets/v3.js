@@ -180,7 +180,7 @@ document.querySelectorAll('[data-more]').forEach(b=>b.addEventListener('click',(
 /* mobile swipe tracks: progress bar + hint (<=760px only; see site.css) */
 (()=>{
 const MQ=matchMedia('(max-width:760px)');
-const SC='.mr-g,.ai-g,.yf-g,.xm-g,.xp-g,.xl-g,.xi-g,.ih-r,.tmc-g,.sb .grid,.trust .tcol';
+const SC='.mr-g,.ai-g,.yf-g,.xm-g,.xp-g,.xl-g,.xi-g,.ih-r,.tmc-g,.sb .grid,.trust .tcol,.srf-g';
 const $$=(s,c=document)=>[...c.querySelectorAll(s)];
 const init=()=>{if(!MQ.matches)return;$$(SC).forEach(sc=>{if(sc.dataset.sw)return;const n=[...sc.children].filter(c=>c.tagName!=='SCRIPT').length;if(n<2)return;sc.dataset.sw='1';
   const bar=document.createElement('div');bar.className='m-bar';bar.setAttribute('aria-hidden','true');bar.appendChild(document.createElement('i'));sc.after(bar);

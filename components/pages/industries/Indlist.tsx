@@ -1133,6 +1133,150 @@ export default function Indlist() {
           </div>
         </div>
       </section>
+      <section className="ih" data-grp="" style={{"--c": "#8c2fe2"} as React.CSSProperties} id="luxury-travel-and-events">
+        <div className="wrap">
+          <div className="ih-g">
+            {"\n"}
+            <div className="ih-l">
+              <div className="ih-stick" data-r="s">
+                <div className="ih-m">
+                  <img src="/img/v3-ring.webp" alt="Luxury, Travel and Events" loading="lazy" />
+                  <span className="n">
+                    {"09"}
+                  </span>
+                </div>
+                <span className="eyb pill">
+                  <i></i>
+                  {"6 playbooks"}
+                </span>
+                <h2 className="h2">
+                  {"Luxury, Travel and Events"}
+                </h2>
+                <p>
+                  {"Route, fleet, venue and portfolio pages for high-ticket buyers."}
+                </p>
+              </div>
+            </div>
+            {"\n"}
+            <div className="ih-r">
+              <a className="ih-c" data-k="private jet charter companies private-jet-charter" href="/seo-for-private-jet-charter/" data-r="" style={{"--d": "0.0s"} as React.CSSProperties}>
+                <span className="ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" />
+                  </svg>
+                </span>
+                <b>
+                  {"Private Jet Charter Companies"}
+                </b>
+                <small>
+                  {"private jet charter near me"}
+                </small>
+                <span className="go">
+                  {"SEO for private jet charter companies "}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </span>
+              </a>
+              <a className="ih-c" data-k="yacht charter companies yacht-charter" href="/seo-for-yacht-charter/" data-r="" style={{"--d": "0.06s"} as React.CSSProperties}>
+                <span className="ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" />
+                  </svg>
+                </span>
+                <b>
+                  {"Yacht Charter Companies"}
+                </b>
+                <small>
+                  {"yacht charter miami"}
+                </small>
+                <span className="go">
+                  {"SEO for yacht charter companies "}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </span>
+              </a>
+              <a className="ih-c" data-k="limousine companies limousine-companies" href="/seo-for-limousine-companies/" data-r="" style={{"--d": "0.12s"} as React.CSSProperties}>
+                <span className="ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" />
+                  </svg>
+                </span>
+                <b>
+                  {"Limousine Companies"}
+                </b>
+                <small>
+                  {"limo service near me"}
+                </small>
+                <span className="go">
+                  {"SEO for limousine companies "}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </span>
+              </a>
+              <a className="ih-c" data-k="exotic car rental companies exotic-car-rental" href="/seo-for-exotic-car-rental/" data-r="" style={{"--d": "0.18s"} as React.CSSProperties}>
+                <span className="ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" />
+                  </svg>
+                </span>
+                <b>
+                  {"Exotic Car Rental Companies"}
+                </b>
+                <small>
+                  {"exotic car rental miami"}
+                </small>
+                <span className="go">
+                  {"SEO for exotic car rental companies "}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </span>
+              </a>
+              <a className="ih-c" data-k="luxury wedding businesses luxury-wedding-businesses" href="/seo-for-luxury-wedding-businesses/" data-r="" style={{"--d": "0.24s"} as React.CSSProperties}>
+                <span className="ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" />
+                  </svg>
+                </span>
+                <b>
+                  {"Luxury Wedding Businesses"}
+                </b>
+                <small>
+                  {"luxury wedding planner"}
+                </small>
+                <span className="go">
+                  {"SEO for luxury wedding businesses "}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </span>
+              </a>
+              <a className="ih-c" data-k="wedding venues and event companies wedding-venues" href="/seo-for-wedding-venues/" data-r="" style={{"--d": "0.3s"} as React.CSSProperties}>
+                <span className="ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" />
+                  </svg>
+                </span>
+                <b>
+                  {"Wedding Venues & Event Companies"}
+                </b>
+                <small>
+                  {"wedding venues near me"}
+                </small>
+                <span className="go">
+                  {"SEO for wedding venues and event companies "}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
