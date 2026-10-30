@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/seo-services/","label":"All SEO Services"},{"href":"/seo-packages/","label":"SEO Packages and Pricing"},{"href":"/local-seo/","label":"Local SEO"},{"href":"/about-us/","label":"About RankEmpire"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/seo-services/","label":"All SEO Services"},{"href":"/seo-packages/","label":"SEO Packages and Pricing"},{"href":"/local-seo/","label":"Local SEO"},{"href":"/about-us/","label":"About RankEmpire"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

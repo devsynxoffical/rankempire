@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-cafes/","label":"SEO for Cafes"},{"href":"/seo-for-florists/","label":"SEO for Florists"},{"href":"/seo-for-photographers/","label":"SEO for Photographers"},{"href":"/seo-for-restaurants/","label":"SEO for Restaurants"},{"href":"/locations/seattle/","label":"SEO Company in Seattle"},{"href":"/locations/denver/","label":"SEO Company in Denver"},{"href":"/blog/local-seo-checklist/","label":"Guide: The Local SEO Checklist for Service Businesses"},{"href":"/industries/","label":"All 45 industry playbooks"}]} />;
+  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-cafes/","label":"SEO for Cafes"},{"href":"/seo-for-florists/","label":"SEO for Florists"},{"href":"/seo-for-photographers/","label":"SEO for Photographers"},{"href":"/seo-for-restaurants/","label":"SEO for Restaurants"},{"href":"/locations/seattle/","label":"SEO Company in Seattle"},{"href":"/locations/denver/","label":"SEO Company in Denver"},{"href":"/blog/local-seo-checklist/","label":"Guide: The Local SEO Checklist for Service Businesses"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"}]} />;
 }

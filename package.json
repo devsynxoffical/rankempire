@@ -13,7 +13,8 @@
     "related": "node scripts/related.mjs",
     "gsc": "node scripts/gsc.mjs",
     "indexnow": "node scripts/indexnow.mjs",
-    "answers": "node scripts/apply-answers.mjs"
+    "answers": "node scripts/apply-answers.mjs",
+    "perf": "node scripts/gsc-perf.mjs"
   },
   "dependencies": {
     "lenis": "^1.1.13",

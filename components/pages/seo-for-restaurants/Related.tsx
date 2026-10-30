@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-bakeries/","label":"SEO for Bakeries"},{"href":"/seo-for-cafes/","label":"SEO for Cafes"},{"href":"/seo-for-florists/","label":"SEO for Florists"},{"href":"/seo-for-photographers/","label":"SEO for Photographers"},{"href":"/locations/austin/","label":"SEO Company in Austin"},{"href":"/locations/atlanta/","label":"SEO Company in Atlanta"},{"href":"/blog/local-seo-checklist/","label":"Guide: The Local SEO Checklist for Service Businesses"},{"href":"/industries/","label":"All 45 industry playbooks"}]} />;
+  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-bakeries/","label":"SEO for Bakeries"},{"href":"/seo-for-cafes/","label":"SEO for Cafes"},{"href":"/seo-for-florists/","label":"SEO for Florists"},{"href":"/seo-for-photographers/","label":"SEO for Photographers"},{"href":"/locations/austin/","label":"SEO Company in Austin"},{"href":"/locations/atlanta/","label":"SEO Company in Atlanta"},{"href":"/blog/local-seo-checklist/","label":"Guide: The Local SEO Checklist for Service Businesses"},{"href":"/blog/google-business-profile-optimization-checklist/","label":"Guide: Google Business Profile Optimization Checklist"}]} />;
 }

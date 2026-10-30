@@ -132,6 +132,10 @@ export default function Pricing() {
           <a className="tlink" href="/contact-us/">
             {"Get a custom quote"}
           </a>
+          {" · Not sure what SEO should cost? Read our "}
+          <a href="/blog/how-much-does-seo-cost/" style={{textDecoration: "underline", textUnderlineOffset: "3px"} as React.CSSProperties}>
+            {"2026 SEO pricing guide"}
+          </a>
         </p>
       </div>
     </section>

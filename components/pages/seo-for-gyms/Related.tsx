@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-salons/","label":"SEO for Hair Salons"},{"href":"/seo-for-med-spas/","label":"SEO for Med Spas"},{"href":"/seo-for-yoga-studios/","label":"SEO for Yoga Studios"},{"href":"/seo-for-barbers/","label":"SEO for Barbershops"},{"href":"/locations/las-vegas/","label":"SEO Company in Las Vegas"},{"href":"/locations/charlotte/","label":"SEO Company in Charlotte"},{"href":"/blog/local-seo-checklist/","label":"Guide: The Local SEO Checklist for Service Businesses"},{"href":"/industries/","label":"All 45 industry playbooks"}]} />;
+  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-salons/","label":"SEO for Hair Salons"},{"href":"/seo-for-med-spas/","label":"SEO for Med Spas"},{"href":"/seo-for-yoga-studios/","label":"SEO for Yoga Studios"},{"href":"/seo-for-barbers/","label":"SEO for Barbershops"},{"href":"/locations/las-vegas/","label":"SEO Company in Las Vegas"},{"href":"/locations/charlotte/","label":"SEO Company in Charlotte"},{"href":"/blog/local-seo-checklist/","label":"Guide: The Local SEO Checklist for Service Businesses"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"}]} />;
 }

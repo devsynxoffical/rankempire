@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Other cities, industries and guides" items={[{"href":"/locations/boston/","label":"SEO Company in Boston"},{"href":"/locations/charlotte/","label":"SEO Company in Charlotte"},{"href":"/locations/atlanta/","label":"SEO Company in Atlanta"},{"href":"/locations/chicago/","label":"SEO Company in Chicago"},{"href":"/seo-for-cleaning/","label":"SEO for Cleaning Companies"},{"href":"/seo-for-locksmiths/","label":"SEO for Locksmiths"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/locations/","label":"All 17 locations"}]} />;
+  return <RelatedLinks title="Other cities, industries and guides" items={[{"href":"/locations/boston/","label":"SEO Company in Boston"},{"href":"/locations/charlotte/","label":"SEO Company in Charlotte"},{"href":"/locations/atlanta/","label":"SEO Company in Atlanta"},{"href":"/locations/chicago/","label":"SEO Company in Chicago"},{"href":"/seo-for-cleaning/","label":"SEO for Cleaning Companies"},{"href":"/seo-for-locksmiths/","label":"SEO for Locksmiths"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"}]} />;
 }

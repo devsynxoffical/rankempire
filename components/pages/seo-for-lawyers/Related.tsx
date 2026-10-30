@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-personal-injury-lawyers/","label":"SEO for Personal Injury Lawyers"},{"href":"/locations/san-francisco/","label":"SEO Company in San Francisco"},{"href":"/locations/austin/","label":"SEO Company in Austin"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/industries/","label":"All 45 industry playbooks"}]} />;
+  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-personal-injury-lawyers/","label":"SEO for Personal Injury Lawyers"},{"href":"/locations/san-francisco/","label":"SEO Company in San Francisco"},{"href":"/locations/austin/","label":"SEO Company in Austin"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"}]} />;
 }

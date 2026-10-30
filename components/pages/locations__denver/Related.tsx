@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Other cities, industries and guides" items={[{"href":"/locations/phoenix/","label":"SEO Company in Phoenix"},{"href":"/locations/dallas/","label":"SEO Company in Dallas"},{"href":"/locations/seattle/","label":"SEO Company in Seattle"},{"href":"/locations/chicago/","label":"SEO Company in Chicago"},{"href":"/seo-for-tutors/","label":"SEO for Tutors and Tutoring Centers"},{"href":"/seo-for-med-spas/","label":"SEO for Med Spas"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/locations/","label":"All 17 locations"}]} />;
+  return <RelatedLinks title="Other cities, industries and guides" items={[{"href":"/locations/phoenix/","label":"SEO Company in Phoenix"},{"href":"/locations/dallas/","label":"SEO Company in Dallas"},{"href":"/locations/seattle/","label":"SEO Company in Seattle"},{"href":"/locations/chicago/","label":"SEO Company in Chicago"},{"href":"/seo-for-tutors/","label":"SEO for Tutors and Tutoring Centers"},{"href":"/seo-for-med-spas/","label":"SEO for Med Spas"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"}]} />;
 }

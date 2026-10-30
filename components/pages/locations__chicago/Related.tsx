@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Other cities, industries and guides" items={[{"href":"/locations/denver/","label":"SEO Company in Denver"},{"href":"/locations/new-york/","label":"SEO Company in New York"},{"href":"/locations/boston/","label":"SEO Company in Boston"},{"href":"/locations/atlanta/","label":"SEO Company in Atlanta"},{"href":"/seo-for-landscaping/","label":"SEO for Landscaping Companies"},{"href":"/seo-for-roofing/","label":"SEO for Roofing Companies"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/locations/","label":"All 17 locations"}]} />;
+  return <RelatedLinks title="Other cities, industries and guides" items={[{"href":"/locations/denver/","label":"SEO Company in Denver"},{"href":"/locations/new-york/","label":"SEO Company in New York"},{"href":"/locations/boston/","label":"SEO Company in Boston"},{"href":"/locations/atlanta/","label":"SEO Company in Atlanta"},{"href":"/seo-for-landscaping/","label":"SEO for Landscaping Companies"},{"href":"/seo-for-roofing/","label":"SEO for Roofing Companies"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"}]} />;
 }
