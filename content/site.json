@@ -11,9 +11,14 @@
     "sameAs": []
   },
   "socials": {
-    "x": "",
-    "instagram": "",
-    "linkedin": "",
-    "youtube": ""
+    "facebook": "https://www.facebook.com/profile.php?id=61595708086096",
+    "linkedin": "https://www.linkedin.com/company/rank-empire-ai-seo-agency",
+    "instagram": "https://www.instagram.com/rankempireaiseoagency/",
+    "youtube": "https://www.youtube.com/@rankempireaiseoagency"
+  },
+  "community": {
+    "name": "RankEmpire SEO Community",
+    "url": "https://www.facebook.com/groups/rankempireaiseoagency",
+    "description": "A free Facebook group where business owners ask SEO, AI search and Google Business Profile questions and get straight answers from the RankEmpire team."
   }
 }

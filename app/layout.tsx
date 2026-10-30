@@ -88,7 +88,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="preload" href="/assets/fonts/dmsans-rP2Hp2ywxg089UriCZOIHQ.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <link rel="alternate" type="application/rss+xml" title="RankEmpire SEO Blog" href="/blog/feed.xml" />
         <link rel="stylesheet" href="/assets/fonts.css?v=1" />
-        <link rel="stylesheet" href="/assets/site.css?v=34" />
+        <link rel="stylesheet" href="/assets/site.css?v=35" />
         <script dangerouslySetInnerHTML={{ __html: SEEN }} />
       </head>
       <body suppressHydrationWarning>

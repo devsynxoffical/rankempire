@@ -1,6 +1,6 @@
 import site from '@/content/site.json';
 
-const LABELS: Record<string, string> = { x: 'X/Twitter', instagram: 'Instagram', linkedin: 'LinkedIn', youtube: 'YouTube' };
+const LABELS: Record<string, string> = { facebook: 'Facebook', linkedin: 'LinkedIn', instagram: 'Instagram', youtube: 'YouTube', x: 'X/Twitter' };
 
 export default function Footer() {
   const socials = Object.entries(site.socials).filter(([, href]) => href).map(([k, href]) => [LABELS[k] || k, href] as [string, string]);
@@ -142,6 +142,23 @@ export default function Footer() {
         </div>
         {"\n"}
       </div>
+      {"\n"}
+      <section className="fcom" aria-labelledby="fcom-h">
+        <div>
+          <span className="fh" id="fcom-h">
+            {"Community"}
+          </span>
+          <p>
+            {site.community.description}
+          </p>
+        </div>
+        <a className="btn wh" href={site.community.url} target="_blank" rel="noopener">
+          {"Join the Facebook group"}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </a>
+      </section>
       {"\n"}
       <div className="freach">
         <div>

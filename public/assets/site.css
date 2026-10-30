@@ -2762,3 +2762,10 @@ body.in-fd .cur,body.in-fd .cur-r{opacity:0!important}
 .qa-q{font-size:clamp(20px,2vw,26px);margin:10px 0 10px;letter-spacing:-.025em;line-height:1.2}
 .qa-a{font-size:clamp(15.5px,1.2vw,17.5px);line-height:1.6;color:var(--ink3);margin:0}
 .yh+.qa{margin-top:0}
+
+/* ===== Footer community strip ===== */
+.fcom{display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap;margin:clamp(28px,4vw,48px) var(--gut) 0;padding:clamp(26px,3.5vw,44px) clamp(20px,3vw,40px);border:1px solid var(--ld);border-radius:22px;background:linear-gradient(120deg,rgba(236,78,59,.14),rgba(140,47,226,.14))}
+.fcom .fh{margin-bottom:8px}
+.fcom p{max-width:60ch;color:#c4c4cc;font-size:15.5px;line-height:1.55;margin:0}
+.fcom .btn{flex:none}
+@media (max-width:600px){.fcom{padding:22px 18px}.fcom .btn{width:100%}}

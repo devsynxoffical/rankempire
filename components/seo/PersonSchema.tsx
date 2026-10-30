@@ -5,7 +5,7 @@ export const PERSON_ID = `${site.url}/our-team/#gaurav`;
 
 export function personJson() {
   const f = site.founder;
-  const sameAs = [...f.sameAs, ...Object.values(site.socials).filter(Boolean)];
+  const sameAs = f.sameAs.filter(Boolean); // founder's own profiles only; company socials live on the Organization
   return {
     '@context': 'https://schema.org',
     '@type': 'Person',
