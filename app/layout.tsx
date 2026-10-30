@@ -78,6 +78,11 @@ export const metadata: Metadata = {
 // Marks the document as "seen" on same-site navigations so the intro loader only plays on fresh visits and reloads.
 const SEEN = `try{if("scrollRestoration" in history)history.scrollRestoration="manual";if(!location.hash)window.scrollTo(0,0);addEventListener("pageshow",function(){if(!location.hash)window.scrollTo(0,0)});}catch(e){}try{var n=performance.getEntriesByType("navigation")[0],t=n?n.type:"navigate",r=document.referrer,same=false;try{same=!!r&&new URL(r).host===location.host}catch(_){}if(t!=="reload"&&same)document.documentElement.classList.add("seen")}catch(e){}`;
 
+
+// Meta Pixel (Facebook). Loaded after hydration so it never blocks rendering.
+const META_PIXEL_ID = '1636274691513458';
+const PIXEL = `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','${META_PIXEL_ID}');fbq('track','PageView');`;
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en-US">
@@ -92,7 +97,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <script dangerouslySetInnerHTML={{ __html: SEEN }} />
       </head>
       <body suppressHydrationWarning>
+        <noscript>
+          <img height="1" width="1" style={{ display: 'none' }} alt="" src={`https://www.facebook.com/tr?id=${META_PIXEL_ID}&ev=PageView&noscript=1`} />
+        </noscript>
         {children}
+        <Script id="meta-pixel" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: PIXEL }} />
         <Script src="/assets/lenis.min.js?v=1" strategy="beforeInteractive" />
         <Script src="/assets/site.js" strategy="afterInteractive" />
         <Script src="/assets/v3.js?v=32" strategy="afterInteractive" />
