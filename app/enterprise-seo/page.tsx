@@ -23,7 +23,7 @@ import Related from '@/components/pages/enterprise-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Enterprise SEO Services for Large Websites | RankEmpire",
+  title: { absolute: "Enterprise SEO Services for Large Websites | RankEmpire" },
   description: "Enterprise SEO for large and complex websites: governance, technical SEO at scale, international setups, programmatic content and stakeholder reporting.",
   alternates: { canonical: "https://www.rankempire.us/enterprise-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

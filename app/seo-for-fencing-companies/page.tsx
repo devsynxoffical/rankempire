@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-fencing-companies/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Fencing Companies: Rank Higher | RankEmpire",
+  title: { absolute: "Fence Company SEO Services & Company | RankEmpire" },
   description: "SEO for fencing companies: rank for wood, vinyl, chain link and privacy fence searches with material pages, project photos, map pack optimization and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-fencing-companies/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Fencing Companies: Rank Higher | RankEmpire", description: "SEO for fencing companies: rank for wood, vinyl, chain link and privacy fence searches with material pages, project photos, map pack optimization and reviews.", url: "https://www.rankempire.us/seo-for-fencing-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Fencing Companies: Rank Higher | RankEmpire", description: "SEO for fencing companies: rank for wood, vinyl, chain link and privacy fence searches with material pages, project photos, map pack optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Fence Company SEO Services & Company | RankEmpire", description: "SEO for fencing companies: rank for wood, vinyl, chain link and privacy fence searches with material pages, project photos, map pack optimization and reviews.", url: "https://www.rankempire.us/seo-for-fencing-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Fence Company SEO Services & Company | RankEmpire", description: "SEO for fencing companies: rank for wood, vinyl, chain link and privacy fence searches with material pages, project photos, map pack optimization and reviews." },
 };
 
 export default function Page() {

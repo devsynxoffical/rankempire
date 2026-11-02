@@ -21,12 +21,12 @@ import Related from '@/components/pages/locations__las-vegas/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company in Las Vegas, NV | RankEmpire",
+  title: { absolute: "Las Vegas SEO Company & SEO Agency | RankEmpire" },
   description: "SEO company in Las Vegas: local SEO, Google Business Profile optimization and content for businesses on the Strip and in Henderson and Summerlin.",
   alternates: { canonical: "https://www.rankempire.us/locations/las-vegas/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Las Vegas, NV | RankEmpire", description: "SEO company in Las Vegas: local SEO, Google Business Profile optimization and content for businesses on the Strip and in Henderson and Summerlin.", url: "https://www.rankempire.us/locations/las-vegas/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in Las Vegas, NV | RankEmpire", description: "SEO company in Las Vegas: local SEO, Google Business Profile optimization and content for businesses on the Strip and in Henderson and Summerlin." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Las Vegas SEO Company & SEO Agency | RankEmpire", description: "SEO company in Las Vegas: local SEO, Google Business Profile optimization and content for businesses on the Strip and in Henderson and Summerlin.", url: "https://www.rankempire.us/locations/las-vegas/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Las Vegas SEO Company & SEO Agency | RankEmpire", description: "SEO company in Las Vegas: local SEO, Google Business Profile optimization and content for businesses on the Strip and in Henderson and Summerlin." },
 };
 
 export default function Page() {

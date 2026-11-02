@@ -8,7 +8,7 @@ import PageHero from '@/components/pages/privacy-policy/PageHero';
 import Section from '@/components/pages/privacy-policy/Section';
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | RankEmpire",
+  title: { absolute: "Privacy Policy | RankEmpire" },
   description: "Read the RankEmpire privacy policy: how we handle your information, our free SEO tools and the terms for using this website.",
   alternates: { canonical: "https://www.rankempire.us/privacy-policy/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

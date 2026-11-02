@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-auto-detailing/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Auto Detailing Businesses: Rank Higher | RankEmpire",
+  title: { absolute: "Auto Detailing SEO Services & Company | RankEmpire" },
   description: "SEO for auto detailing businesses: rank for detailing, ceramic coating and mobile detailing searches with service pages, photo-rich profiles and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-auto-detailing/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Auto Detailing Businesses: Rank Higher | RankEmpire", description: "SEO for auto detailing businesses: rank for detailing, ceramic coating and mobile detailing searches with service pages, photo-rich profiles and reviews.", url: "https://www.rankempire.us/seo-for-auto-detailing/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Auto Detailing Businesses: Rank Higher | RankEmpire", description: "SEO for auto detailing businesses: rank for detailing, ceramic coating and mobile detailing searches with service pages, photo-rich profiles and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Auto Detailing SEO Services & Company | RankEmpire", description: "SEO for auto detailing businesses: rank for detailing, ceramic coating and mobile detailing searches with service pages, photo-rich profiles and reviews.", url: "https://www.rankempire.us/seo-for-auto-detailing/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "Auto Detailing SEO Services & Company | RankEmpire", description: "SEO for auto detailing businesses: rank for detailing, ceramic coating and mobile detailing searches with service pages, photo-rich profiles and reviews." },
 };
 
 export default function Page() {

@@ -23,7 +23,7 @@ import Related from '@/components/pages/national-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "National SEO Services to Rank Across the US | RankEmpire",
+  title: { absolute: "National SEO Services to Rank Across the US | RankEmpire" },
   description: "National SEO for brands that sell across the country: competitive keyword strategy, authority building, scalable content and technical SEO.",
   alternates: { canonical: "https://www.rankempire.us/national-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

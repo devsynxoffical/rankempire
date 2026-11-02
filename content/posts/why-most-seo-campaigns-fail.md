@@ -54,7 +54,7 @@ Put the seven mistakes in reverse and you get the plan:
 6. **Measure revenue**, with calls and forms tracked back to organic search.
 7. **Keep going past month four**, reviewing the roadmap monthly and reallocating effort to what is moving.
 
-It is not glamorous, but it is how rankings become an asset instead of an expense. If your current campaign is missing any of the first three steps, that is the place to start. If you would like a second opinion on a stalled program, [request a free audit](/contact-us/) and we will tell you plainly where it went off sequence.
+It is not glamorous, but it is how rankings become an asset instead of an expense. If your current campaign is missing any of the first three steps, that is the place to start. Before you hire anyone, read [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) for the twelve questions that expose these mistakes in a proposal. If you would like a second opinion on a stalled program, [request a free audit](/contact-us/) and we will tell you plainly where it went off sequence.
 
 ## FAQ
 

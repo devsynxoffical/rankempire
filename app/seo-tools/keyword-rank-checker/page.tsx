@@ -13,7 +13,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Free Keyword Rank Checker: Online SEO Tool | RankEmpire",
+  title: { absolute: "Free Keyword Rank Checker: Online SEO Tool | RankEmpire" },
   description: "Find where a domain appears in a results list. Paste the result URLs for a keyword and we show the position of your domain and competitors.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/keyword-rank-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

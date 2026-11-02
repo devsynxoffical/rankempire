@@ -23,7 +23,7 @@ import Related from '@/components/pages/technical-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Technical SEO Services | RankEmpire",
+  title: { absolute: "Technical SEO Services | RankEmpire" },
   description: "Technical SEO services that fix crawlability, indexation, Core Web Vitals, structured data, JavaScript rendering and site migrations.",
   alternates: { canonical: "https://www.rankempire.us/technical-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

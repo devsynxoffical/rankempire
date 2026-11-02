@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-yacht-charter/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Yacht Charter Companies: More Bookings | RankEmpire",
+  title: { absolute: "Yacht Charter SEO Services & Company | RankEmpire" },
   description: "SEO for yacht charter companies: rank for destination, yacht type and day charter searches with destination pages, fleet pages, reviews and AI visibility.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-yacht-charter/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Yacht Charter Companies: More Bookings | RankEmpire", description: "SEO for yacht charter companies: rank for destination, yacht type and day charter searches with destination pages, fleet pages, reviews and AI visibility.", url: "https://www.rankempire.us/seo-for-yacht-charter/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Yacht Charter Companies: More Bookings | RankEmpire", description: "SEO for yacht charter companies: rank for destination, yacht type and day charter searches with destination pages, fleet pages, reviews and AI visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Yacht Charter SEO Services & Company | RankEmpire", description: "SEO for yacht charter companies: rank for destination, yacht type and day charter searches with destination pages, fleet pages, reviews and AI visibility.", url: "https://www.rankempire.us/seo-for-yacht-charter/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "Yacht Charter SEO Services & Company | RankEmpire", description: "SEO for yacht charter companies: rank for destination, yacht type and day charter searches with destination pages, fleet pages, reviews and AI visibility." },
 };
 
 export default function Page() {

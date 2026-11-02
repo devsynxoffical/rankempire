@@ -8,7 +8,7 @@ import PageHero from '@/components/pages/terms/PageHero';
 import Section from '@/components/pages/terms/Section';
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions | RankEmpire",
+  title: { absolute: "Terms and Conditions | RankEmpire" },
   description: "Read the RankEmpire terms and conditions: how we handle your information, our free SEO tools and the terms for using this website.",
   alternates: { canonical: "https://www.rankempire.us/terms/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

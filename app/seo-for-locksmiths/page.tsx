@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-locksmiths/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Locksmiths: More Calls and Customers | RankEmpire",
+  title: { absolute: "Locksmith SEO Services & Company | RankEmpire" },
   description: "SEO for locksmiths: win lockout and rekey searches in a spam-heavy map pack with a verified profile, consistent citations and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-locksmiths/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Locksmiths: More Calls and Customers | RankEmpire", description: "SEO for locksmiths: win lockout and rekey searches in a spam-heavy map pack with a verified profile, consistent citations and reviews.", url: "https://www.rankempire.us/seo-for-locksmiths/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Locksmiths: More Calls and Customers | RankEmpire", description: "SEO for locksmiths: win lockout and rekey searches in a spam-heavy map pack with a verified profile, consistent citations and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Locksmith SEO Services & Company | RankEmpire", description: "SEO for locksmiths: win lockout and rekey searches in a spam-heavy map pack with a verified profile, consistent citations and reviews.", url: "https://www.rankempire.us/seo-for-locksmiths/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Locksmith SEO Services & Company | RankEmpire", description: "SEO for locksmiths: win lockout and rekey searches in a spam-heavy map pack with a verified profile, consistent citations and reviews." },
 };
 
 export default function Page() {

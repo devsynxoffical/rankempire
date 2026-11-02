@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-bakeries/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Bakeries: More Calls and Customers | RankEmpire",
+  title: { absolute: "Bakery SEO Services & Company | RankEmpire" },
   description: "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google Business Profile, reviews and holiday content.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-bakeries/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Bakeries: More Calls and Customers | RankEmpire", description: "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google Business Profile, reviews and holiday content.", url: "https://www.rankempire.us/seo-for-bakeries/", images: ["https://www.rankempire.us/img/i-food.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Bakeries: More Calls and Customers | RankEmpire", description: "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google Business Profile, reviews and holiday content." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Bakery SEO Services & Company | RankEmpire", description: "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google Business Profile, reviews and holiday content.", url: "https://www.rankempire.us/seo-for-bakeries/", images: ["https://www.rankempire.us/img/i-food.webp"] },
+  twitter: { card: 'summary_large_image', title: "Bakery SEO Services & Company | RankEmpire", description: "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google Business Profile, reviews and holiday content." },
 };
 
 export default function Page() {

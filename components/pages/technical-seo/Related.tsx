@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/seo-audit/","label":"SEO Audit"},{"href":"/on-page-seo/","label":"On-Page SEO"},{"href":"/enterprise-seo/","label":"Enterprise SEO"},{"href":"/ecommerce-seo/","label":"E-commerce SEO"},{"href":"/blog/technical-seo-basics/","label":"Guide: Technical SEO Basics Every Business Owner Should Know"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/seo-audit/","label":"SEO Audit"},{"href":"/on-page-seo/","label":"On-Page SEO"},{"href":"/enterprise-seo/","label":"Enterprise SEO"},{"href":"/international-seo/","label":"International SEO"},{"href":"/blog/technical-seo-basics/","label":"Guide: Technical SEO Basics Every Business Owner Should Know"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

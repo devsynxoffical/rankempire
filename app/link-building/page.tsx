@@ -23,7 +23,7 @@ import Related from '@/components/pages/link-building/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "White Hat Link Building Services | RankEmpire",
+  title: { absolute: "White Hat Link Building Services | RankEmpire" },
   description: "Link building services that earn editorial backlinks from relevant, real websites through outreach, digital PR and linkable assets.",
   alternates: { canonical: "https://www.rankempire.us/link-building/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

@@ -24,7 +24,7 @@ import Related from '@/components/pages/seo-services/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Services: Full-Funnel Search & AI Growth | RankEmpire",
+  title: { absolute: "SEO Services: Full-Funnel Search & AI Growth | RankEmpire" },
   description: "Explore RankEmpire's comprehensive SEO services: local SEO, technical audits, e-commerce, SaaS, link building, and Answer Engine Optimization (AEO/GEO).",
   alternates: { canonical: "https://www.rankempire.us/seo-services/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

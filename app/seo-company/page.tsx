@@ -24,7 +24,7 @@ import Related from '@/components/pages/seo-company/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company That Builds Rankings That Compound | RankEmpire",
+  title: { absolute: "SEO Company That Builds Rankings That Compound | RankEmpire" },
   description: "RankEmpire is a full-service SEO company for local businesses, e-commerce brands and SaaS teams. Technical SEO, content.",
   alternates: { canonical: "https://www.rankempire.us/seo-company/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

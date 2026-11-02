@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-lawyers/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Lawyers: More Calls and Customers | RankEmpire",
+  title: { absolute: "Law Firm SEO Services & Company | RankEmpire" },
   description: "SEO for lawyers: win practice-area and local searches with practice pages, attorney profiles, case results, reviews and map pack rankings per office.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-lawyers/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Lawyers: More Calls and Customers | RankEmpire", description: "SEO for lawyers: win practice-area and local searches with practice pages, attorney profiles, case results, reviews and map pack rankings per office.", url: "https://www.rankempire.us/seo-for-lawyers/", images: ["https://www.rankempire.us/img/i-legal.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Lawyers: More Calls and Customers | RankEmpire", description: "SEO for lawyers: win practice-area and local searches with practice pages, attorney profiles, case results, reviews and map pack rankings per office." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Law Firm SEO Services & Company | RankEmpire", description: "SEO for lawyers: win practice-area and local searches with practice pages, attorney profiles, case results, reviews and map pack rankings per office.", url: "https://www.rankempire.us/seo-for-lawyers/", images: ["https://www.rankempire.us/img/i-legal.webp"] },
+  twitter: { card: 'summary_large_image', title: "Law Firm SEO Services & Company | RankEmpire", description: "SEO for lawyers: win practice-area and local searches with practice pages, attorney profiles, case results, reviews and map pack rankings per office." },
 };
 
 export default function Page() {

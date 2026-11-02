@@ -13,7 +13,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Free Schema Checker: Online SEO Tool | RankEmpire",
+  title: { absolute: "Free Schema Checker: Online SEO Tool | RankEmpire" },
   description: "Validate JSON-LD structured data in seconds. Test schema types, required properties, and rich snippet readiness for Google and AI engines.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/schema-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

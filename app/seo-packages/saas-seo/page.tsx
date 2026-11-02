@@ -14,7 +14,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SaaS SEO Packages and Pricing | RankEmpire",
+  title: { absolute: "SaaS SEO Packages and Pricing | RankEmpire" },
   description: "SaaS SEO packages with bottom-funnel pages, comparison pages, topical authority content, technical SEO and pipeline reporting.",
   alternates: { canonical: "https://www.rankempire.us/seo-packages/saas-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

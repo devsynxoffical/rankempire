@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-plumbers/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Plumbers: More Calls and Customers | RankEmpire",
+  title: { absolute: "Plumber SEO Services & Company | RankEmpire" },
   description: "SEO for plumbers: win emergency plumbing searches in the map pack and water heater, repipe and remodel searches with service pages and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-plumbers/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Plumbers: More Calls and Customers | RankEmpire", description: "SEO for plumbers: win emergency plumbing searches in the map pack and water heater, repipe and remodel searches with service pages and reviews.", url: "https://www.rankempire.us/seo-for-plumbers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Plumbers: More Calls and Customers | RankEmpire", description: "SEO for plumbers: win emergency plumbing searches in the map pack and water heater, repipe and remodel searches with service pages and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Plumber SEO Services & Company | RankEmpire", description: "SEO for plumbers: win emergency plumbing searches in the map pack and water heater, repipe and remodel searches with service pages and reviews.", url: "https://www.rankempire.us/seo-for-plumbers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Plumber SEO Services & Company | RankEmpire", description: "SEO for plumbers: win emergency plumbing searches in the map pack and water heater, repipe and remodel searches with service pages and reviews." },
 };
 
 export default function Page() {

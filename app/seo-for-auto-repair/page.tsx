@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-auto-repair/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Auto Repair Shops: Rank Higher | RankEmpire",
+  title: { absolute: "Auto Repair SEO Services & Company | RankEmpire" },
   description: "SEO for auto repair shops: rank for brake, AC, transmission and check engine searches with repair pages, profile optimization and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-auto-repair/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Auto Repair Shops: Rank Higher | RankEmpire", description: "SEO for auto repair shops: rank for brake, AC, transmission and check engine searches with repair pages, profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-auto-repair/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Auto Repair Shops: Rank Higher | RankEmpire", description: "SEO for auto repair shops: rank for brake, AC, transmission and check engine searches with repair pages, profile optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Auto Repair SEO Services & Company | RankEmpire", description: "SEO for auto repair shops: rank for brake, AC, transmission and check engine searches with repair pages, profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-auto-repair/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "Auto Repair SEO Services & Company | RankEmpire", description: "SEO for auto repair shops: rank for brake, AC, transmission and check engine searches with repair pages, profile optimization and reviews." },
 };
 
 export default function Page() {

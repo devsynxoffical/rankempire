@@ -23,7 +23,7 @@ import Related from '@/components/pages/on-page-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "On-Page SEO Services | RankEmpire",
+  title: { absolute: "On-Page SEO Services | RankEmpire" },
   description: "On-page SEO that aligns every page with search intent: titles, headings, content, internal links, images and structured data.",
   alternates: { canonical: "https://www.rankempire.us/on-page-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

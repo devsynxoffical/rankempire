@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-pest-control/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Pest Control Companies: Rank Higher | RankEmpire",
+  title: { absolute: "Pest Control SEO Services & Company | RankEmpire" },
   description: "SEO for pest control companies: rank for termite, bed bug, rodent and mosquito searches with pest pages, seasonal content and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-pest-control/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Pest Control Companies: Rank Higher | RankEmpire", description: "SEO for pest control companies: rank for termite, bed bug, rodent and mosquito searches with pest pages, seasonal content and reviews.", url: "https://www.rankempire.us/seo-for-pest-control/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Pest Control Companies: Rank Higher | RankEmpire", description: "SEO for pest control companies: rank for termite, bed bug, rodent and mosquito searches with pest pages, seasonal content and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Pest Control SEO Services & Company | RankEmpire", description: "SEO for pest control companies: rank for termite, bed bug, rodent and mosquito searches with pest pages, seasonal content and reviews.", url: "https://www.rankempire.us/seo-for-pest-control/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Pest Control SEO Services & Company | RankEmpire", description: "SEO for pest control companies: rank for termite, bed bug, rodent and mosquito searches with pest pages, seasonal content and reviews." },
 };
 
 export default function Page() {

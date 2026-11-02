@@ -19,7 +19,7 @@ import Related from '@/components/pages/b2b-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "B2B SEO Agency: Pipeline From Organic Search | RankEmpire",
+  title: { absolute: "B2B SEO Agency: Pipeline From Organic Search | RankEmpire" },
   description: "B2B SEO that fills the pipeline: bottom-funnel pages, buyer-intent content, account-based landing pages and attribution from organic search to closed deals.",
   alternates: { canonical: "https://www.rankempire.us/b2b-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

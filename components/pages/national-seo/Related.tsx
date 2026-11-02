@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/enterprise-seo/","label":"Enterprise SEO"},{"href":"/content-seo/","label":"Content SEO"},{"href":"/link-building/","label":"Link Building"},{"href":"/technical-seo/","label":"Technical SEO"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/enterprise-seo/","label":"Enterprise SEO"},{"href":"/international-seo/","label":"International SEO"},{"href":"/link-building/","label":"Link Building"},{"href":"/seo-company/","label":"SEO Company"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

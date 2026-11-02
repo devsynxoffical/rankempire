@@ -23,7 +23,7 @@ import Related from '@/components/pages/google-business-profile-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Google Business Profile SEO and Optimization | RankEmpire",
+  title: { absolute: "Google Business Profile SEO and Optimization | RankEmpire" },
   description: "Google Business Profile optimization that improves map rankings, calls and direction requests: categories, services, photos, posts, reviews and Q&A.",
   alternates: { canonical: "https://www.rankempire.us/google-business-profile-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

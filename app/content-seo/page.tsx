@@ -23,7 +23,7 @@ import Related from '@/components/pages/content-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Content SEO Services | RankEmpire",
+  title: { absolute: "Content SEO Services | RankEmpire" },
   description: "Content SEO that builds topical authority: content strategy, SEO writing, topic clusters, content refreshes and editorial calendars.",
   alternates: { canonical: "https://www.rankempire.us/content-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

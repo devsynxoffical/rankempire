@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-veterinarians/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Veterinarians: Rank Higher | RankEmpire",
+  title: { absolute: "Veterinary SEO Services & Company | RankEmpire" },
   description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-veterinarians/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Veterinarians: Rank Higher | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-veterinarians/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Veterinarians: Rank Higher | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Veterinary SEO Services & Company | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-veterinarians/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Veterinary SEO Services & Company | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization." },
 };
 
 export default function Page() {

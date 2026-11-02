@@ -19,7 +19,7 @@ import Related from '@/components/pages/aeo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "AEO: Answer Engine Optimization Services | RankEmpire",
+  title: { absolute: "AEO: Answer Engine Optimization Services | RankEmpire" },
   description: "Answer engine optimization that wins featured snippets, People Also Ask, voice answers and AI answer boxes with structured, quotable content.",
   alternates: { canonical: "https://www.rankempire.us/aeo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

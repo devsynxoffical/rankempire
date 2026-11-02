@@ -23,12 +23,12 @@ import Related from '@/components/pages/seo-consulting/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Consulting for In-House Teams and Founders | RankEmpire",
+  title: { absolute: "SEO Consulting Services & SEO Consultant | RankEmpire" },
   description: "SEO consulting for teams that want expert guidance: strategy sessions, audits, migration planning, training and ongoing advisory.",
   alternates: { canonical: "https://www.rankempire.us/seo-consulting/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Consulting for In-House Teams and Founders | RankEmpire", description: "SEO consulting for teams that want expert guidance: strategy sessions, audits, migration planning, training and ongoing advisory.", url: "https://www.rankempire.us/seo-consulting/", images: ["https://www.rankempire.us/img/team.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Consulting for In-House Teams and Founders | RankEmpire", description: "SEO consulting for teams that want expert guidance: strategy sessions, audits, migration planning, training and ongoing advisory." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Consulting Services & SEO Consultant | RankEmpire", description: "SEO consulting for teams that want expert guidance: strategy sessions, audits, migration planning, training and ongoing advisory.", url: "https://www.rankempire.us/seo-consulting/", images: ["https://www.rankempire.us/img/team.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Consulting Services & SEO Consultant | RankEmpire", description: "SEO consulting for teams that want expert guidance: strategy sessions, audits, migration planning, training and ongoing advisory." },
 };
 
 export default function Page() {

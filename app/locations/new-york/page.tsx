@@ -21,12 +21,12 @@ import Related from '@/components/pages/locations__new-york/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company in New York, NY: Local SEO Services | RankEmpire",
+  title: { absolute: "New York SEO Company & NYC SEO Agency | RankEmpire" },
   description: "SEO company in New York: local SEO, Google Business Profile optimization and content for businesses across Manhattan, Brooklyn, Queens and the Bronx.",
   alternates: { canonical: "https://www.rankempire.us/locations/new-york/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in New York, NY: Local SEO Services | RankEmpire", description: "SEO company in New York: local SEO, Google Business Profile optimization and content for businesses across Manhattan, Brooklyn, Queens and the Bronx.", url: "https://www.rankempire.us/locations/new-york/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in New York, NY: Local SEO Services | RankEmpire", description: "SEO company in New York: local SEO, Google Business Profile optimization and content for businesses across Manhattan, Brooklyn, Queens and the Bronx." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "New York SEO Company & NYC SEO Agency | RankEmpire", description: "SEO company in New York: local SEO, Google Business Profile optimization and content for businesses across Manhattan, Brooklyn, Queens and the Bronx.", url: "https://www.rankempire.us/locations/new-york/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "New York SEO Company & NYC SEO Agency | RankEmpire", description: "SEO company in New York: local SEO, Google Business Profile optimization and content for businesses across Manhattan, Brooklyn, Queens and the Bronx." },
 };
 
 export default function Page() {

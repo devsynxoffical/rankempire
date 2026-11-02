@@ -14,7 +14,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Transparent SEO Packages & Pricing: No Contracts | RankEmpire",
+  title: { absolute: "Transparent SEO Packages & Pricing: No Contracts | RankEmpire" },
   description: "Compare transparent SEO packages for local, e-commerce, and SaaS brands. Month-to-month plans, dedicated strategists, and proven ROI. Request a quote.",
   alternates: { canonical: "https://www.rankempire.us/seo-packages/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-real-estate/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Real Estate Agents and Brokerages | RankEmpire",
+  title: { absolute: "Real Estate SEO Services & Company | RankEmpire" },
   description: "SEO for real estate agents and brokerages: win neighborhood, seller and buyer searches with neighborhood guides, agent profiles, reviews and local rankings.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-real-estate/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Real Estate Agents and Brokerages | RankEmpire", description: "SEO for real estate agents and brokerages: win neighborhood, seller and buyer searches with neighborhood guides, agent profiles, reviews and local rankings.", url: "https://www.rankempire.us/seo-for-real-estate/", images: ["https://www.rankempire.us/img/i-realestate.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Real Estate Agents and Brokerages | RankEmpire", description: "SEO for real estate agents and brokerages: win neighborhood, seller and buyer searches with neighborhood guides, agent profiles, reviews and local rankings." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Real Estate SEO Services & Company | RankEmpire", description: "SEO for real estate agents and brokerages: win neighborhood, seller and buyer searches with neighborhood guides, agent profiles, reviews and local rankings.", url: "https://www.rankempire.us/seo-for-real-estate/", images: ["https://www.rankempire.us/img/i-realestate.webp"] },
+  twitter: { card: 'summary_large_image', title: "Real Estate SEO Services & Company | RankEmpire", description: "SEO for real estate agents and brokerages: win neighborhood, seller and buyer searches with neighborhood guides, agent profiles, reviews and local rankings." },
 };
 
 export default function Page() {

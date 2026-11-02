@@ -23,7 +23,7 @@ import Related from '@/components/pages/international-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "International SEO Services | RankEmpire",
+  title: { absolute: "International SEO Services | RankEmpire" },
   description: "International SEO for brands entering new countries and languages: market research, hreflang, site structure, localization and global link building.",
   alternates: { canonical: "https://www.rankempire.us/international-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

@@ -21,12 +21,12 @@ import Related from '@/components/pages/locations__san-diego/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company in San Diego, CA | RankEmpire",
+  title: { absolute: "San Diego SEO Company & SEO Agency | RankEmpire" },
   description: "SEO company in San Diego: local SEO, Google Business Profile optimization and content for businesses in Downtown, La Jolla, North Park and Chula Vista.",
   alternates: { canonical: "https://www.rankempire.us/locations/san-diego/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in San Diego, CA | RankEmpire", description: "SEO company in San Diego: local SEO, Google Business Profile optimization and content for businesses in Downtown, La Jolla, North Park and Chula Vista.", url: "https://www.rankempire.us/locations/san-diego/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in San Diego, CA | RankEmpire", description: "SEO company in San Diego: local SEO, Google Business Profile optimization and content for businesses in Downtown, La Jolla, North Park and Chula Vista." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "San Diego SEO Company & SEO Agency | RankEmpire", description: "SEO company in San Diego: local SEO, Google Business Profile optimization and content for businesses in Downtown, La Jolla, North Park and Chula Vista.", url: "https://www.rankempire.us/locations/san-diego/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "San Diego SEO Company & SEO Agency | RankEmpire", description: "SEO company in San Diego: local SEO, Google Business Profile optimization and content for businesses in Downtown, La Jolla, North Park and Chula Vista." },
 };
 
 export default function Page() {

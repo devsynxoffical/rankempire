@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-salons/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Hair Salons: More Calls and Customers | RankEmpire",
+  title: { absolute: "Salon SEO Services & Company | RankEmpire" },
   description: "SEO for hair salons: win balayage, extensions and salon near me searches with Google Business Profile optimization, service pages, stylist profiles and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-salons/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Hair Salons: More Calls and Customers | RankEmpire", description: "SEO for hair salons: win balayage, extensions and salon near me searches with Google Business Profile optimization, service pages, stylist profiles and reviews.", url: "https://www.rankempire.us/seo-for-salons/", images: ["https://www.rankempire.us/img/i-beauty.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Hair Salons: More Calls and Customers | RankEmpire", description: "SEO for hair salons: win balayage, extensions and salon near me searches with Google Business Profile optimization, service pages, stylist profiles and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Salon SEO Services & Company | RankEmpire", description: "SEO for hair salons: win balayage, extensions and salon near me searches with Google Business Profile optimization, service pages, stylist profiles and reviews.", url: "https://www.rankempire.us/seo-for-salons/", images: ["https://www.rankempire.us/img/i-beauty.webp"] },
+  twitter: { card: 'summary_large_image', title: "Salon SEO Services & Company | RankEmpire", description: "SEO for hair salons: win balayage, extensions and salon near me searches with Google Business Profile optimization, service pages, stylist profiles and reviews." },
 };
 
 export default function Page() {

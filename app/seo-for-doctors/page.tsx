@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-doctors/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Doctors and Medical Practices | RankEmpire",
+  title: { absolute: "Medical Practice SEO Services & Company | RankEmpire" },
   description: "SEO for doctors and medical practices: win patients searching by specialty, condition and insurance with treatment pages, reviews and map pack rankings.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-doctors/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Doctors and Medical Practices | RankEmpire", description: "SEO for doctors and medical practices: win patients searching by specialty, condition and insurance with treatment pages, reviews and map pack rankings.", url: "https://www.rankempire.us/seo-for-doctors/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Doctors and Medical Practices | RankEmpire", description: "SEO for doctors and medical practices: win patients searching by specialty, condition and insurance with treatment pages, reviews and map pack rankings." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Medical Practice SEO Services & Company | RankEmpire", description: "SEO for doctors and medical practices: win patients searching by specialty, condition and insurance with treatment pages, reviews and map pack rankings.", url: "https://www.rankempire.us/seo-for-doctors/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Medical Practice SEO Services & Company | RankEmpire", description: "SEO for doctors and medical practices: win patients searching by specialty, condition and insurance with treatment pages, reviews and map pack rankings." },
 };
 
 export default function Page() {

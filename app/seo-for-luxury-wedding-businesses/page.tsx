@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-luxury-wedding-businesses/Relate
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Luxury Wedding Businesses | RankEmpire",
+  title: { absolute: "Luxury Wedding SEO Services & Company | RankEmpire" },
   description: "SEO for luxury wedding planners, designers, florists and photographers: reach high-budget couples with portfolio pages, editorial features and AI visibility.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-luxury-wedding-businesses/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Luxury Wedding Businesses | RankEmpire", description: "SEO for luxury wedding planners, designers, florists and photographers: reach high-budget couples with portfolio pages, editorial features and AI visibility.", url: "https://www.rankempire.us/seo-for-luxury-wedding-businesses/", images: ["https://www.rankempire.us/img/v3-ring.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Luxury Wedding Businesses | RankEmpire", description: "SEO for luxury wedding planners, designers, florists and photographers: reach high-budget couples with portfolio pages, editorial features and AI visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Luxury Wedding SEO Services & Company | RankEmpire", description: "SEO for luxury wedding planners, designers, florists and photographers: reach high-budget couples with portfolio pages, editorial features and AI visibility.", url: "https://www.rankempire.us/seo-for-luxury-wedding-businesses/", images: ["https://www.rankempire.us/img/v3-ring.webp"] },
+  twitter: { card: 'summary_large_image', title: "Luxury Wedding SEO Services & Company | RankEmpire", description: "SEO for luxury wedding planners, designers, florists and photographers: reach high-budget couples with portfolio pages, editorial features and AI visibility." },
 };
 
 export default function Page() {

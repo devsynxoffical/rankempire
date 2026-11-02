@@ -13,7 +13,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Free SEO Score Checker: Online SEO Tool | RankEmpire",
+  title: { absolute: "Free SEO Score Checker: Online SEO Tool | RankEmpire" },
   description: "Get an instant 0 to 100 on-page SEO score based on 14 essential checks with step-by-step recommendations to fix errors and boost Google rankings.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/seo-score-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

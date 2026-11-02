@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-pool-service-companies/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Pool Service Companies: Rank Higher | RankEmpire",
+  title: { absolute: "Pool Service SEO Services & Company | RankEmpire" },
   description: "SEO for pool service companies: rank for pool cleaning, repair, equipment and seasonal opening searches with service pages, map pack optimization and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-pool-service-companies/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Pool Service Companies: Rank Higher | RankEmpire", description: "SEO for pool service companies: rank for pool cleaning, repair, equipment and seasonal opening searches with service pages, map pack optimization and reviews.", url: "https://www.rankempire.us/seo-for-pool-service-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Pool Service Companies: Rank Higher | RankEmpire", description: "SEO for pool service companies: rank for pool cleaning, repair, equipment and seasonal opening searches with service pages, map pack optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Pool Service SEO Services & Company | RankEmpire", description: "SEO for pool service companies: rank for pool cleaning, repair, equipment and seasonal opening searches with service pages, map pack optimization and reviews.", url: "https://www.rankempire.us/seo-for-pool-service-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Pool Service SEO Services & Company | RankEmpire", description: "SEO for pool service companies: rank for pool cleaning, repair, equipment and seasonal opening searches with service pages, map pack optimization and reviews." },
 };
 
 export default function Page() {

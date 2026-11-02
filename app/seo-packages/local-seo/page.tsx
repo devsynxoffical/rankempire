@@ -14,7 +14,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Local SEO Packages and Pricing | RankEmpire",
+  title: { absolute: "Local SEO Packages and Pricing | RankEmpire" },
   description: "Local SEO packages with Google Business Profile optimization, citations, reviews, location pages and map pack tracking.",
   alternates: { canonical: "https://www.rankempire.us/seo-packages/local-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

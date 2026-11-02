@@ -21,12 +21,12 @@ import Related from '@/components/pages/locations__atlanta/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company in Atlanta, GA: Local SEO Services | RankEmpire",
+  title: { absolute: "Atlanta SEO Company & SEO Agency | RankEmpire" },
   description: "SEO company in Atlanta: local SEO, Google Business Profile optimization and content for businesses in Buckhead, Midtown, Decatur, Marietta and Alpharetta.",
   alternates: { canonical: "https://www.rankempire.us/locations/atlanta/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Atlanta, GA: Local SEO Services | RankEmpire", description: "SEO company in Atlanta: local SEO, Google Business Profile optimization and content for businesses in Buckhead, Midtown, Decatur, Marietta and Alpharetta.", url: "https://www.rankempire.us/locations/atlanta/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in Atlanta, GA: Local SEO Services | RankEmpire", description: "SEO company in Atlanta: local SEO, Google Business Profile optimization and content for businesses in Buckhead, Midtown, Decatur, Marietta and Alpharetta." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Atlanta SEO Company & SEO Agency | RankEmpire", description: "SEO company in Atlanta: local SEO, Google Business Profile optimization and content for businesses in Buckhead, Midtown, Decatur, Marietta and Alpharetta.", url: "https://www.rankempire.us/locations/atlanta/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Atlanta SEO Company & SEO Agency | RankEmpire", description: "SEO company in Atlanta: local SEO, Google Business Profile optimization and content for businesses in Buckhead, Midtown, Decatur, Marietta and Alpharetta." },
 };
 
 export default function Page() {

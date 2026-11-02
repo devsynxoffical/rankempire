@@ -108,6 +108,10 @@ Set a baseline before you change anything, then track monthly:
 
 If the generative numbers lag while classic rankings are strong, the usual causes are missing specifics, no named author, or thin presence on third-party lists. If classic rankings lag, go back to the foundation.
 
+## The next surface: AI agents
+
+Answers are turning into actions. Assistants increasingly compare providers, request quotes and book on a user's behalf, which adds a fourth discipline on top of SEO, AEO and GEO: making your business easy for an agent to verify and transact with. We cover it in depth in [what AI agent optimization is](/blog/ai-agent-optimization/), including a 10-step agent-readiness checklist.
+
 ## FAQ
 
 ### Is AEO or GEO replacing SEO?

@@ -11,7 +11,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Free SEO Tools: Audit, Schema, Sitemap and More | RankEmpire",
+  title: { absolute: "Free SEO Tools: Audit, Schema, Sitemap and More | RankEmpire" },
   description: "Free SEO tools: audit tool, keyword research, rank checker, backlink checker, SERP preview, meta tag, schema, sitemap and robots.txt checkers.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

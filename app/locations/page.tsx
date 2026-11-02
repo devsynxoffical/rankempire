@@ -12,7 +12,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company Locations Across the US | RankEmpire",
+  title: { absolute: "SEO Company Locations Across the US | RankEmpire" },
   description: "RankEmpire provides local SEO services in New York, Los Angeles, Chicago, Houston, Dallas, Miami and 11 more US cities.",
   alternates: { canonical: "https://www.rankempire.us/locations/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

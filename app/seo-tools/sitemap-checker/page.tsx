@@ -13,7 +13,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Free Sitemap Checker: Online SEO Tool | RankEmpire",
+  title: { absolute: "Free Sitemap Checker: Online SEO Tool | RankEmpire" },
   description: "Inspect and validate your XML sitemap for URL count, response codes, format compliance, duplicates, and common crawl errors with our free tool.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/sitemap-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

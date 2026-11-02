@@ -13,7 +13,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Free Meta Tag Checker: Online SEO Tool | RankEmpire",
+  title: { absolute: "Free Meta Tag Checker: Online SEO Tool | RankEmpire" },
   description: "Inspect title tags, meta descriptions, robots directives, canonical tags, Open Graph, and Twitter Cards to ensure optimal search ranking and CTR.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/meta-tag-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

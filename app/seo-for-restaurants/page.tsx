@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-restaurants/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Restaurants: More Calls and Customers | RankEmpire",
+  title: { absolute: "Restaurant SEO Services & Company | RankEmpire" },
   description: "SEO for restaurants: win cuisine, neighborhood and best restaurant near me searches with profile optimization, menu pages, reviews and local mentions.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-restaurants/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Restaurants: More Calls and Customers | RankEmpire", description: "SEO for restaurants: win cuisine, neighborhood and best restaurant near me searches with profile optimization, menu pages, reviews and local mentions.", url: "https://www.rankempire.us/seo-for-restaurants/", images: ["https://www.rankempire.us/img/i-food.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Restaurants: More Calls and Customers | RankEmpire", description: "SEO for restaurants: win cuisine, neighborhood and best restaurant near me searches with profile optimization, menu pages, reviews and local mentions." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Restaurant SEO Services & Company | RankEmpire", description: "SEO for restaurants: win cuisine, neighborhood and best restaurant near me searches with profile optimization, menu pages, reviews and local mentions.", url: "https://www.rankempire.us/seo-for-restaurants/", images: ["https://www.rankempire.us/img/i-food.webp"] },
+  twitter: { card: 'summary_large_image', title: "Restaurant SEO Services & Company | RankEmpire", description: "SEO for restaurants: win cuisine, neighborhood and best restaurant near me searches with profile optimization, menu pages, reviews and local mentions." },
 };
 
 export default function Page() {

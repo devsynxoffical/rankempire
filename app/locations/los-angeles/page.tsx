@@ -21,12 +21,12 @@ import Related from '@/components/pages/locations__los-angeles/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company in Los Angeles, CA | RankEmpire",
+  title: { absolute: "Los Angeles SEO Company & LA SEO Agency | RankEmpire" },
   description: "SEO company in Los Angeles: local SEO, Google Business Profile optimization and content for businesses in Downtown LA, Santa Monica, Pasadena and the Valley.",
   alternates: { canonical: "https://www.rankempire.us/locations/los-angeles/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Los Angeles, CA | RankEmpire", description: "SEO company in Los Angeles: local SEO, Google Business Profile optimization and content for businesses in Downtown LA, Santa Monica, Pasadena and the Valley.", url: "https://www.rankempire.us/locations/los-angeles/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in Los Angeles, CA | RankEmpire", description: "SEO company in Los Angeles: local SEO, Google Business Profile optimization and content for businesses in Downtown LA, Santa Monica, Pasadena and the Valley." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Los Angeles SEO Company & LA SEO Agency | RankEmpire", description: "SEO company in Los Angeles: local SEO, Google Business Profile optimization and content for businesses in Downtown LA, Santa Monica, Pasadena and the Valley.", url: "https://www.rankempire.us/locations/los-angeles/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Los Angeles SEO Company & LA SEO Agency | RankEmpire", description: "SEO company in Los Angeles: local SEO, Google Business Profile optimization and content for businesses in Downtown LA, Santa Monica, Pasadena and the Valley." },
 };
 
 export default function Page() {

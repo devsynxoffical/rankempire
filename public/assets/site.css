@@ -2802,3 +2802,9 @@ body.in-fd .cur,body.in-fd .cur-r{opacity:0!important}
   .srf-c:hover{transform:none}
   .srf-c dl{grid-template-columns:1fr}
 }
+
+/* Article grid: let the text column shrink so wide tables scroll inside .tbl-wrap instead of widening the page */
+.art>*{min-width:0}
+.prose{min-width:0;overflow-wrap:break-word}
+.prose .tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+@media (max-width:760px){.prose table{min-width:560px;font-size:14px}.prose th,.prose td{padding:9px 10px}}

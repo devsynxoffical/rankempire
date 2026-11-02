@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-personal-injury-lawyers/Related'
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Personal Injury Lawyers: Rank Higher | RankEmpire",
+  title: { absolute: "Personal Injury Lawyer SEO Services & Company | RankEmpire" },
   description: "SEO for personal injury lawyers: compete for car accident, truck and injury case searches with case-type pages, attorney authority, reviews and local links.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-personal-injury-lawyers/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Personal Injury Lawyers: Rank Higher | RankEmpire", description: "SEO for personal injury lawyers: compete for car accident, truck and injury case searches with case-type pages, attorney authority, reviews and local links.", url: "https://www.rankempire.us/seo-for-personal-injury-lawyers/", images: ["https://www.rankempire.us/img/i-legal.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Personal Injury Lawyers: Rank Higher | RankEmpire", description: "SEO for personal injury lawyers: compete for car accident, truck and injury case searches with case-type pages, attorney authority, reviews and local links." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Personal Injury Lawyer SEO Services & Company | RankEmpire", description: "SEO for personal injury lawyers: compete for car accident, truck and injury case searches with case-type pages, attorney authority, reviews and local links.", url: "https://www.rankempire.us/seo-for-personal-injury-lawyers/", images: ["https://www.rankempire.us/img/i-legal.webp"] },
+  twitter: { card: 'summary_large_image', title: "Personal Injury Lawyer SEO Services & Company | RankEmpire", description: "SEO for personal injury lawyers: compete for car accident, truck and injury case searches with case-type pages, attorney authority, reviews and local links." },
 };
 
 export default function Page() {

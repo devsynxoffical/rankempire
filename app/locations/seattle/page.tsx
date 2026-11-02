@@ -21,12 +21,12 @@ import Related from '@/components/pages/locations__seattle/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company in Seattle, WA: Local SEO Services | RankEmpire",
+  title: { absolute: "Seattle SEO Company & SEO Agency | RankEmpire" },
   description: "SEO company in Seattle: local SEO, Google Business Profile optimization and content for businesses in Capitol Hill, Ballard, Bellevue, Redmond and Tacoma.",
   alternates: { canonical: "https://www.rankempire.us/locations/seattle/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Seattle, WA: Local SEO Services | RankEmpire", description: "SEO company in Seattle: local SEO, Google Business Profile optimization and content for businesses in Capitol Hill, Ballard, Bellevue, Redmond and Tacoma.", url: "https://www.rankempire.us/locations/seattle/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in Seattle, WA: Local SEO Services | RankEmpire", description: "SEO company in Seattle: local SEO, Google Business Profile optimization and content for businesses in Capitol Hill, Ballard, Bellevue, Redmond and Tacoma." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Seattle SEO Company & SEO Agency | RankEmpire", description: "SEO company in Seattle: local SEO, Google Business Profile optimization and content for businesses in Capitol Hill, Ballard, Bellevue, Redmond and Tacoma.", url: "https://www.rankempire.us/locations/seattle/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Seattle SEO Company & SEO Agency | RankEmpire", description: "SEO company in Seattle: local SEO, Google Business Profile optimization and content for businesses in Capitol Hill, Ballard, Bellevue, Redmond and Tacoma." },
 };
 
 export default function Page() {

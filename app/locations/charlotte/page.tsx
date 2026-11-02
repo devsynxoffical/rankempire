@@ -21,12 +21,12 @@ import Related from '@/components/pages/locations__charlotte/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company in Charlotte, NC | RankEmpire",
+  title: { absolute: "Charlotte SEO Company & SEO Agency | RankEmpire" },
   description: "SEO company in Charlotte: local SEO, Google Business Profile optimization and content for businesses in Uptown, South End, Ballantyne and Matthews.",
   alternates: { canonical: "https://www.rankempire.us/locations/charlotte/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Charlotte, NC | RankEmpire", description: "SEO company in Charlotte: local SEO, Google Business Profile optimization and content for businesses in Uptown, South End, Ballantyne and Matthews.", url: "https://www.rankempire.us/locations/charlotte/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in Charlotte, NC | RankEmpire", description: "SEO company in Charlotte: local SEO, Google Business Profile optimization and content for businesses in Uptown, South End, Ballantyne and Matthews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Charlotte SEO Company & SEO Agency | RankEmpire", description: "SEO company in Charlotte: local SEO, Google Business Profile optimization and content for businesses in Uptown, South End, Ballantyne and Matthews.", url: "https://www.rankempire.us/locations/charlotte/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Charlotte SEO Company & SEO Agency | RankEmpire", description: "SEO company in Charlotte: local SEO, Google Business Profile optimization and content for businesses in Uptown, South End, Ballantyne and Matthews." },
 };
 
 export default function Page() {

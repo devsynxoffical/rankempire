@@ -23,7 +23,7 @@ import Related from '@/components/pages/off-page-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Off-Page SEO Services | RankEmpire",
+  title: { absolute: "Off-Page SEO Services | RankEmpire" },
   description: "Off-page SEO that builds real authority: editorial links, brand mentions, digital PR, citations and reputation signals.",
   alternates: { canonical: "https://www.rankempire.us/off-page-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

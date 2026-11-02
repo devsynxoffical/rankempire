@@ -13,7 +13,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Free SERP Checker: Online SEO Tool | RankEmpire",
+  title: { absolute: "Free SERP Checker: Online SEO Tool | RankEmpire" },
   description: "Preview how your title and description appear in Google search results on desktop and mobile, with pixel width checks.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/serp-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

@@ -13,7 +13,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Free Robots.txt Checker: Online SEO Tool | RankEmpire",
+  title: { absolute: "Free Robots.txt Checker: Online SEO Tool | RankEmpire" },
   description: "Test whether a URL is allowed or blocked for Googlebot and other crawlers based on your robots.txt rules.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/robots-txt-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

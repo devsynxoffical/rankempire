@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-insurance/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Insurance Agencies: Rank Higher | RankEmpire",
+  title: { absolute: "Insurance Agency SEO Services & Company | RankEmpire" },
   description: "SEO for insurance agencies: win local auto, home, life and business insurance searches with line pages, Google Business Profile optimization and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-insurance/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Insurance Agencies: Rank Higher | RankEmpire", description: "SEO for insurance agencies: win local auto, home, life and business insurance searches with line pages, Google Business Profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-insurance/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Insurance Agencies: Rank Higher | RankEmpire", description: "SEO for insurance agencies: win local auto, home, life and business insurance searches with line pages, Google Business Profile optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Insurance Agency SEO Services & Company | RankEmpire", description: "SEO for insurance agencies: win local auto, home, life and business insurance searches with line pages, Google Business Profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-insurance/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Insurance Agency SEO Services & Company | RankEmpire", description: "SEO for insurance agencies: win local auto, home, life and business insurance searches with line pages, Google Business Profile optimization and reviews." },
 };
 
 export default function Page() {

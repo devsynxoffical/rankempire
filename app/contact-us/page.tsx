@@ -10,12 +10,12 @@ import Faq from '@/components/pages/contact-us/Faq';
 import Pmq from '@/components/sections/Pmq';
 
 export const metadata: Metadata = {
-  title: "Contact RankEmpire: Get a Free SEO Audit",
+  title: "Contact Us: Get a Free SEO Audit",
   description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day.",
   alternates: { canonical: "https://www.rankempire.us/contact-us/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Contact RankEmpire: Get a Free SEO Audit", description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day.", url: "https://www.rankempire.us/contact-us/", images: ["https://www.rankempire.us/img/contact.webp"] },
-  twitter: { card: 'summary_large_image', title: "Contact RankEmpire: Get a Free SEO Audit", description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Contact Us: Get a Free SEO Audit", description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day.", url: "https://www.rankempire.us/contact-us/", images: ["https://www.rankempire.us/img/contact.webp"] },
+  twitter: { card: 'summary_large_image', title: "Contact Us: Get a Free SEO Audit", description: "Contact RankEmpire to get a free SEO audit, ask about pricing or start a project. We reply within one business day." },
 };
 
 export default function Page() {

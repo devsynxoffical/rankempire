@@ -1,7 +1,7 @@
 // Generated from content/posts/aeo-vs-geo-vs-seo.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
 
-export const WORDS = 2221;
+export const WORDS = 2283;
 export const FAQ = [{"q":"Is AEO or GEO replacing SEO?","a":"No. Both depend on the same search indexes and ranking systems to find candidate sources. SEO gets you into the candidate set, AEO makes your passage the one that gets quoted, and GEO makes your brand the one that gets named. Treat them as layers on one program."},{"q":"How long does it take to get cited in AI Overviews or ChatGPT?","a":"For pages that already rank on page one, structural changes often show up in citations within four to eight weeks. For new topics, expect three to six months, the same horizon as classic SEO, because you first need to rank and build the entity signals."},{"q":"Should I block AI crawlers to protect my content?","a":"If you want to be cited, no. Blocking GPTBot, PerplexityBot, ClaudeBot or Google-Extended removes you from those answers. Publishers with content they license may choose to block; service businesses almost always benefit from being included."},{"q":"Does FAQ schema still help?","a":"Google has reduced FAQ rich results for most commercial sites, so do not expect the dropdowns in results. The structure still helps answer and generative engines parse your questions and answers, and it costs nothing when the FAQ is genuinely unique to the page."},{"q":"Can a small local business do GEO?","a":"Yes, and it is often easier than for national brands because the competition in a metro is thinner. A complete Google Business Profile, consistent citations, steady reviews, a page per service with specific details and a few local mentions will get a local business named in AI answers for its category and city."},{"q":"What does RankEmpire include for AEO and GEO?","a":"Every plan includes AI Overview and citation tracking, an entity and schema layer, citation-worthy content and a monthly AI visibility report next to your rankings. See the AEO service page, the GEO service page and the SEO packages for what is included at each level."}];
 
 export default function Body() {
@@ -19,6 +19,7 @@ export default function Body() {
           <a href="#the-12-step-playbook">{"The 12-step playbook"}</a>
           <a href="#a-worked-example-one-service-page-three-surfaces">{"A worked example: one service page, three surfaces"}</a>
           <a href="#how-to-measure-progress">{"How to measure progress"}</a>
+          <a href="#the-next-surface-ai-agents">{"The next surface: AI agents"}</a>
           <a href="#faq">{"FAQ"}</a>
           <div className="tc">
             <strong>Need help?</strong>
@@ -68,6 +69,8 @@ export default function Body() {
           <p>{"Set a baseline before you change anything, then track monthly:"}</p>
           <ul><li>{"Classic: rankings for your 20 primary keywords, organic clicks, calls and leads from organic."}</li><li>{"Answer engines: which snippets and People Also Ask results you own, impressions on queries where you have no clicks (a sign you are the zero-click answer)."}</li><li>{"Generative engines: a prompt set of 30 to 50 questions your customers ask, run across the main assistants, scored by whether you are named, cited or linked. Share of voice against three competitors."}</li><li>{"Entity: brand search volume, brand mentions, referring domains."}</li></ul>
           <p>{"If the generative numbers lag while classic rankings are strong, the usual causes are missing specifics, no named author, or thin presence on third-party lists. If classic rankings lag, go back to the foundation."}</p>
+          <h2 id="the-next-surface-ai-agents">{"The next surface: AI agents"}</h2>
+          <p>{"Answers are turning into actions. Assistants increasingly compare providers, request quotes and book on a user's behalf, which adds a fourth discipline on top of SEO, AEO and GEO: making your business easy for an agent to verify and transact with. We cover it in depth in "}<a href="/blog/ai-agent-optimization/">{"what AI agent optimization is"}</a>{", including a 10-step agent-readiness checklist."}</p>
           <h2 id="faq">{"FAQ"}</h2>
           <h3>{"Is AEO or GEO replacing SEO?"}</h3>
           <p>{"No. Both depend on the same search indexes and ranking systems to find candidate sources. SEO gets you into the candidate set, AEO makes your passage the one that gets quoted, and GEO makes your brand the one that gets named. Treat them as layers on one program."}</p>

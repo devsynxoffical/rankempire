@@ -21,12 +21,12 @@ import Related from '@/components/pages/locations__san-francisco/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company in San Francisco, CA | RankEmpire",
+  title: { absolute: "San Francisco SEO Company & Bay Area Agency | RankEmpire" },
   description: "SEO company in San Francisco: local SEO, Google Business Profile optimization and content for businesses in SoMa, the Mission, Oakland and Berkeley.",
   alternates: { canonical: "https://www.rankempire.us/locations/san-francisco/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in San Francisco, CA | RankEmpire", description: "SEO company in San Francisco: local SEO, Google Business Profile optimization and content for businesses in SoMa, the Mission, Oakland and Berkeley.", url: "https://www.rankempire.us/locations/san-francisco/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in San Francisco, CA | RankEmpire", description: "SEO company in San Francisco: local SEO, Google Business Profile optimization and content for businesses in SoMa, the Mission, Oakland and Berkeley." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "San Francisco SEO Company & Bay Area Agency | RankEmpire", description: "SEO company in San Francisco: local SEO, Google Business Profile optimization and content for businesses in SoMa, the Mission, Oakland and Berkeley.", url: "https://www.rankempire.us/locations/san-francisco/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "San Francisco SEO Company & Bay Area Agency | RankEmpire", description: "SEO company in San Francisco: local SEO, Google Business Profile optimization and content for businesses in SoMa, the Mission, Oakland and Berkeley." },
 };
 
 export default function Page() {

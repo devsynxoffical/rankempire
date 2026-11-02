@@ -21,12 +21,12 @@ import Related from '@/components/pages/locations__orlando/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company in Orlando, FL: Local SEO Services | RankEmpire",
+  title: { absolute: "Orlando SEO Company & SEO Agency | RankEmpire" },
   description: "SEO company in Orlando: local SEO, Google Business Profile optimization and content for businesses in Downtown, Winter Park, Kissimmee, Lake Nona and Sanford.",
   alternates: { canonical: "https://www.rankempire.us/locations/orlando/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Orlando, FL: Local SEO Services | RankEmpire", description: "SEO company in Orlando: local SEO, Google Business Profile optimization and content for businesses in Downtown, Winter Park, Kissimmee, Lake Nona and Sanford.", url: "https://www.rankempire.us/locations/orlando/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in Orlando, FL: Local SEO Services | RankEmpire", description: "SEO company in Orlando: local SEO, Google Business Profile optimization and content for businesses in Downtown, Winter Park, Kissimmee, Lake Nona and Sanford." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Orlando SEO Company & SEO Agency | RankEmpire", description: "SEO company in Orlando: local SEO, Google Business Profile optimization and content for businesses in Downtown, Winter Park, Kissimmee, Lake Nona and Sanford.", url: "https://www.rankempire.us/locations/orlando/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Orlando SEO Company & SEO Agency | RankEmpire", description: "SEO company in Orlando: local SEO, Google Business Profile optimization and content for businesses in Downtown, Winter Park, Kissimmee, Lake Nona and Sanford." },
 };
 
 export default function Page() {

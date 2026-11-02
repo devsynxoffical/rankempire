@@ -23,7 +23,7 @@ import Related from '@/components/pages/seo-audit/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Free SEO Audit & Technical Analysis (Action Plan) | RankEmpire",
+  title: { absolute: "Free SEO Audit & Technical Analysis (Action Plan) | RankEmpire" },
   description: "Get a comprehensive SEO audit covering technical health, content, backlinks, local SEO, and competitors with a prioritized action plan to boost rankings.",
   alternates: { canonical: "https://www.rankempire.us/seo-audit/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

@@ -23,7 +23,7 @@ import Related from '@/components/pages/competitor-seo-analysis/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Competitor SEO Analysis | RankEmpire",
+  title: { absolute: "Competitor SEO Analysis | RankEmpire" },
   description: "Competitor SEO analysis that reveals the keywords, pages, links and technical advantages behind your competitors rankings, with a plan to beat them.",
   alternates: { canonical: "https://www.rankempire.us/competitor-seo-analysis/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

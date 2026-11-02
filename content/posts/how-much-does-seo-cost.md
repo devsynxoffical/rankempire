@@ -64,6 +64,7 @@ The time horizon matters too. SEO rarely pays back inside the first three months
 - **Multi-location businesses:** $2,000 to $8,000 a month, scaling with locations, since each needs its own profile, page and review flow.
 - **E-commerce stores:** $2,000 to $15,000 a month depending on catalog size and competition. Category pages, technical control of faceted navigation and content drive the cost. See [e-commerce SEO](/ecommerce-seo/).
 - **SaaS and B2B:** $3,000 to $15,000 a month. Fewer, higher-value keywords, comparison and integration pages, and attribution to pipeline. See [SaaS SEO](/saas-seo/).
+- **Luxury, travel and event businesses** (charters, limousines, exotic rentals, venues): $1,500 to $6,000 a month, because fewer searches carry much higher values and route, fleet and venue pages do most of the work. See [SEO for private jet charter companies](/seo-for-private-jet-charter/), [yacht charter companies](/seo-for-yacht-charter/) and [wedding venues and event companies](/seo-for-wedding-venues/).
 - **National and enterprise brands:** $8,000 to $30,000+ a month, with dedicated teams and governance. See [enterprise SEO](/enterprise-seo/).
 
 ## One-time costs you might also see
@@ -93,7 +94,7 @@ Avoid long lock-ins. A three-month onboarding period is reasonable because the e
 
 ### Does a higher price mean better results?
 
-Not by itself. Price reflects hours and overhead. What predicts results is the method, the people doing the work and the fit between the plan and your market. Use the seven questions above to compare, not the fee.
+Not by itself. Price reflects hours and overhead. What predicts results is the method, the people doing the work and the fit between the plan and your market. Use the seven questions above to compare, not the fee, and our longer guide on [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) for the full checklist and red flags.
 
 ### What results should I expect for the money?
 

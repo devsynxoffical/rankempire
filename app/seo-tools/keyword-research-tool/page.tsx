@@ -13,7 +13,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Free Keyword Research Tool: Online SEO Tool | RankEmpire",
+  title: { absolute: "Free Keyword Research Tool: Online SEO Tool | RankEmpire" },
   description: "Generate hundreds of keyword ideas from a seed term, grouped by intent: questions, commercial, local and comparisons.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/keyword-research-tool/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

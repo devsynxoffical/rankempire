@@ -21,12 +21,12 @@ import Related from '@/components/pages/locations__houston/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company in Houston, TX: Local SEO Services | RankEmpire",
+  title: { absolute: "Houston SEO Company & SEO Agency | RankEmpire" },
   description: "SEO company in Houston: local SEO, Google Business Profile optimization and content for businesses in The Heights, Katy, Sugar Land, The Woodlands and Pearland.",
   alternates: { canonical: "https://www.rankempire.us/locations/houston/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Houston, TX: Local SEO Services | RankEmpire", description: "SEO company in Houston: local SEO, Google Business Profile optimization and content for businesses in The Heights, Katy, Sugar Land, The Woodlands and Pearland.", url: "https://www.rankempire.us/locations/houston/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in Houston, TX: Local SEO Services | RankEmpire", description: "SEO company in Houston: local SEO, Google Business Profile optimization and content for businesses in The Heights, Katy, Sugar Land, The Woodlands and Pearland." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Houston SEO Company & SEO Agency | RankEmpire", description: "SEO company in Houston: local SEO, Google Business Profile optimization and content for businesses in The Heights, Katy, Sugar Land, The Woodlands and Pearland.", url: "https://www.rankempire.us/locations/houston/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Houston SEO Company & SEO Agency | RankEmpire", description: "SEO company in Houston: local SEO, Google Business Profile optimization and content for businesses in The Heights, Katy, Sugar Land, The Woodlands and Pearland." },
 };
 
 export default function Page() {

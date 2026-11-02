@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-movers/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Moving Companies: Rank Higher | RankEmpire",
+  title: { absolute: "Moving Company SEO Services & Company | RankEmpire" },
   description: "SEO for moving companies: rank for local, long-distance and commercial moving searches with service pages, pricing content, map pack optimization and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-movers/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Moving Companies: Rank Higher | RankEmpire", description: "SEO for moving companies: rank for local, long-distance and commercial moving searches with service pages, pricing content, map pack optimization and reviews.", url: "https://www.rankempire.us/seo-for-movers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Moving Companies: Rank Higher | RankEmpire", description: "SEO for moving companies: rank for local, long-distance and commercial moving searches with service pages, pricing content, map pack optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Moving Company SEO Services & Company | RankEmpire", description: "SEO for moving companies: rank for local, long-distance and commercial moving searches with service pages, pricing content, map pack optimization and reviews.", url: "https://www.rankempire.us/seo-for-movers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Moving Company SEO Services & Company | RankEmpire", description: "SEO for moving companies: rank for local, long-distance and commercial moving searches with service pages, pricing content, map pack optimization and reviews." },
 };
 
 export default function Page() {

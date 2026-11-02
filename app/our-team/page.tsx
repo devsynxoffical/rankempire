@@ -13,7 +13,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Meet Our Team of SEO & AI Specialists | RankEmpire",
+  title: { absolute: "Meet Our Team of SEO & AI Specialists | RankEmpire" },
   description: "Meet the RankEmpire team of SEO strategists, technical specialists and content writers who run every client program.",
   alternates: { canonical: "https://www.rankempire.us/our-team/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

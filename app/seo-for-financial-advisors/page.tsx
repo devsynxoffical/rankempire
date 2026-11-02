@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-financial-advisors/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Financial Advisors: Rank Higher | RankEmpire",
+  title: { absolute: "Financial Advisor SEO Services & Company | RankEmpire" },
   description: "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local visibility.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-financial-advisors/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Financial Advisors: Rank Higher | RankEmpire", description: "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local visibility.", url: "https://www.rankempire.us/seo-for-financial-advisors/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Financial Advisors: Rank Higher | RankEmpire", description: "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Financial Advisor SEO Services & Company | RankEmpire", description: "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local visibility.", url: "https://www.rankempire.us/seo-for-financial-advisors/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Financial Advisor SEO Services & Company | RankEmpire", description: "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local visibility." },
 };
 
 export default function Page() {

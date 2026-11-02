@@ -19,7 +19,7 @@ import Related from '@/components/pages/geo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "GEO: Generative Engine Optimization Services | RankEmpire",
+  title: { absolute: "GEO: Generative Engine Optimization Services | RankEmpire" },
   description: "Generative engine optimization that gets your business cited in Google AI Overviews, ChatGPT, Perplexity, Gemini and Copilot answers.",
   alternates: { canonical: "https://www.rankempire.us/geo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-electricians/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Electricians: Rank Higher | RankEmpire",
+  title: { absolute: "Electrician SEO Services & Company | RankEmpire" },
   description: "SEO for electricians: rank for emergency calls and planned jobs like panel upgrades and EV chargers with map pack optimization, service pages and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-electricians/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Electricians: Rank Higher | RankEmpire", description: "SEO for electricians: rank for emergency calls and planned jobs like panel upgrades and EV chargers with map pack optimization, service pages and reviews.", url: "https://www.rankempire.us/seo-for-electricians/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Electricians: Rank Higher | RankEmpire", description: "SEO for electricians: rank for emergency calls and planned jobs like panel upgrades and EV chargers with map pack optimization, service pages and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Electrician SEO Services & Company | RankEmpire", description: "SEO for electricians: rank for emergency calls and planned jobs like panel upgrades and EV chargers with map pack optimization, service pages and reviews.", url: "https://www.rankempire.us/seo-for-electricians/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Electrician SEO Services & Company | RankEmpire", description: "SEO for electricians: rank for emergency calls and planned jobs like panel upgrades and EV chargers with map pack optimization, service pages and reviews." },
 };
 
 export default function Page() {

@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-hvac/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for HVAC Companies: Rank Higher | RankEmpire",
+  title: { absolute: "HVAC SEO Services & Company | RankEmpire" },
   description: "SEO for HVAC companies: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-hvac/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for HVAC Companies: Rank Higher | RankEmpire", description: "SEO for HVAC companies: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season.", url: "https://www.rankempire.us/seo-for-hvac/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for HVAC Companies: Rank Higher | RankEmpire", description: "SEO for HVAC companies: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "HVAC SEO Services & Company | RankEmpire", description: "SEO for HVAC companies: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season.", url: "https://www.rankempire.us/seo-for-hvac/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "HVAC SEO Services & Company | RankEmpire", description: "SEO for HVAC companies: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season." },
 };
 
 export default function Page() {

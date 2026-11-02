@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-daycares/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Daycares and Preschools: Rank Higher | RankEmpire",
+  title: { absolute: "Daycare SEO Services & Company | RankEmpire" },
   description: "SEO for daycares and preschools: reach parents searching by age group and neighborhood with program pages, trust signals, Google Business Profile and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-daycares/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Daycares and Preschools: Rank Higher | RankEmpire", description: "SEO for daycares and preschools: reach parents searching by age group and neighborhood with program pages, trust signals, Google Business Profile and reviews.", url: "https://www.rankempire.us/seo-for-daycares/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Daycares and Preschools: Rank Higher | RankEmpire", description: "SEO for daycares and preschools: reach parents searching by age group and neighborhood with program pages, trust signals, Google Business Profile and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Daycare SEO Services & Company | RankEmpire", description: "SEO for daycares and preschools: reach parents searching by age group and neighborhood with program pages, trust signals, Google Business Profile and reviews.", url: "https://www.rankempire.us/seo-for-daycares/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Daycare SEO Services & Company | RankEmpire", description: "SEO for daycares and preschools: reach parents searching by age group and neighborhood with program pages, trust signals, Google Business Profile and reviews." },
 };
 
 export default function Page() {

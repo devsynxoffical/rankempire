@@ -14,7 +14,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Case Studies & Client Results: 3.5M+ Clicks | RankEmpire",
+  title: { absolute: "SEO Case Studies & Client Results: 3.5M+ Clicks | RankEmpire" },
   description: "Explore 9 verified SEO case studies with live Google Search Console proof: 3.5M+ clicks and proven revenue growth across local, e-commerce, and SaaS brands.",
   alternates: { canonical: "https://www.rankempire.us/case-studies/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

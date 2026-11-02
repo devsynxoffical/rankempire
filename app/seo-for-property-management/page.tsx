@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-property-management/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Property Management Companies | RankEmpire",
+  title: { absolute: "Property Management SEO Services & Company | RankEmpire" },
   description: "SEO for property management companies: win owner searches by property type and city with service pages, fee transparency, reviews and local rankings.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-property-management/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Property Management Companies | RankEmpire", description: "SEO for property management companies: win owner searches by property type and city with service pages, fee transparency, reviews and local rankings.", url: "https://www.rankempire.us/seo-for-property-management/", images: ["https://www.rankempire.us/img/i-realestate.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Property Management Companies | RankEmpire", description: "SEO for property management companies: win owner searches by property type and city with service pages, fee transparency, reviews and local rankings." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Property Management SEO Services & Company | RankEmpire", description: "SEO for property management companies: win owner searches by property type and city with service pages, fee transparency, reviews and local rankings.", url: "https://www.rankempire.us/seo-for-property-management/", images: ["https://www.rankempire.us/img/i-realestate.webp"] },
+  twitter: { card: 'summary_large_image', title: "Property Management SEO Services & Company | RankEmpire", description: "SEO for property management companies: win owner searches by property type and city with service pages, fee transparency, reviews and local rankings." },
 };
 
 export default function Page() {

@@ -21,7 +21,7 @@ Your Google Business Profile is the most important page you do not host. For mos
 ## Services, products and attributes
 
 - **Services.** Add every service with a description of one to two sentences and, where you can, a price or price range. Services feed relevance for searches like "water heater replacement near me" directly. Use Google's suggested services for your category first, then add custom ones.
-- **Products.** Retailers and restaurants should add products with photos and prices. Service businesses can use the product section for packages ("Spring HVAC tune-up, $129").
+- **Products.** Retailers and restaurants should add products with photos and prices. Service businesses can use the product section for packages ("Spring HVAC tune-up, $129"). Rental, charter and venue businesses should list each vehicle, yacht or space as a product with a starting price, as we recommend for [limousine companies](/seo-for-limousine-companies/), [exotic car rentals](/seo-for-exotic-car-rental/) and [wedding venues](/seo-for-wedding-venues/).
 - **Attributes.** Fill every attribute that applies: accessibility, payment types, amenities, "women-owned", "veteran-owned", "online appointments" and so on. Attributes appear as filters and as badges in results.
 - **Business description.** Up to 750 characters. Lead with what you do and where, in plain language, then what makes you different. Do not stuff keywords; it does not help ranking and it reads badly.
 

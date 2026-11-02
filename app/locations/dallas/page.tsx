@@ -21,12 +21,12 @@ import Related from '@/components/pages/locations__dallas/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Company in Dallas, TX: Local SEO Services | RankEmpire",
+  title: { absolute: "Dallas SEO Company & SEO Agency | RankEmpire" },
   description: "SEO company in Dallas: local SEO, Google Business Profile optimization and content for businesses in Uptown, Plano, Frisco, Irving and across the DFW metroplex.",
   alternates: { canonical: "https://www.rankempire.us/locations/dallas/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company in Dallas, TX: Local SEO Services | RankEmpire", description: "SEO company in Dallas: local SEO, Google Business Profile optimization and content for businesses in Uptown, Plano, Frisco, Irving and across the DFW metroplex.", url: "https://www.rankempire.us/locations/dallas/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company in Dallas, TX: Local SEO Services | RankEmpire", description: "SEO company in Dallas: local SEO, Google Business Profile optimization and content for businesses in Uptown, Plano, Frisco, Irving and across the DFW metroplex." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Dallas SEO Company & SEO Agency | RankEmpire", description: "SEO company in Dallas: local SEO, Google Business Profile optimization and content for businesses in Uptown, Plano, Frisco, Irving and across the DFW metroplex.", url: "https://www.rankempire.us/locations/dallas/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Dallas SEO Company & SEO Agency | RankEmpire", description: "SEO company in Dallas: local SEO, Google Business Profile optimization and content for businesses in Uptown, Plano, Frisco, Irving and across the DFW metroplex." },
 };
 
 export default function Page() {

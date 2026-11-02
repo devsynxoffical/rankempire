@@ -17,12 +17,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "About RankEmpire: SEO Built for Compounding Growth",
+  title: "About Us: SEO Built for Compounding Growth",
   description: "Learn about RankEmpire, an SEO company for local businesses, e-commerce brands and SaaS companies, and the principles behind how we work.",
   alternates: { canonical: "https://www.rankempire.us/about-us/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "About RankEmpire: SEO Built for Compounding Growth", description: "Learn about RankEmpire, an SEO company for local businesses, e-commerce brands and SaaS companies, and the principles behind how we work.", url: "https://www.rankempire.us/about-us/", images: ["https://www.rankempire.us/img/team.webp"] },
-  twitter: { card: 'summary_large_image', title: "About RankEmpire: SEO Built for Compounding Growth", description: "Learn about RankEmpire, an SEO company for local businesses, e-commerce brands and SaaS companies, and the principles behind how we work." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "About Us: SEO Built for Compounding Growth", description: "Learn about RankEmpire, an SEO company for local businesses, e-commerce brands and SaaS companies, and the principles behind how we work.", url: "https://www.rankempire.us/about-us/", images: ["https://www.rankempire.us/img/team.webp"] },
+  twitter: { card: 'summary_large_image', title: "About Us: SEO Built for Compounding Growth", description: "Learn about RankEmpire, an SEO company for local businesses, e-commerce brands and SaaS companies, and the principles behind how we work." },
 };
 
 export default function Page() {

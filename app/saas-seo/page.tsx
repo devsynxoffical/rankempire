@@ -23,7 +23,7 @@ import Related from '@/components/pages/saas-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SaaS SEO Agency for B2B Software Companies | RankEmpire",
+  title: { absolute: "SaaS SEO Agency for B2B Software Companies | RankEmpire" },
   description: "SaaS SEO that builds pipeline: bottom-funnel pages, comparison and alternative pages, integration pages and topical authority content for B2B software.",
   alternates: { canonical: "https://www.rankempire.us/saas-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

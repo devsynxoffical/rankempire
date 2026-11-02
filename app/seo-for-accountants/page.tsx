@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-accountants/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Accountants and CPAs: Rank Higher | RankEmpire",
+  title: { absolute: "CPA & Accountant SEO Services & Company | RankEmpire" },
   description: "SEO for accountants and CPAs: rank for tax preparation, bookkeeping and small business accounting searches with service pages, reviews and seasonal content.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-accountants/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Accountants and CPAs: Rank Higher | RankEmpire", description: "SEO for accountants and CPAs: rank for tax preparation, bookkeeping and small business accounting searches with service pages, reviews and seasonal content.", url: "https://www.rankempire.us/seo-for-accountants/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Accountants and CPAs: Rank Higher | RankEmpire", description: "SEO for accountants and CPAs: rank for tax preparation, bookkeeping and small business accounting searches with service pages, reviews and seasonal content." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "CPA & Accountant SEO Services & Company | RankEmpire", description: "SEO for accountants and CPAs: rank for tax preparation, bookkeeping and small business accounting searches with service pages, reviews and seasonal content.", url: "https://www.rankempire.us/seo-for-accountants/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "CPA & Accountant SEO Services & Company | RankEmpire", description: "SEO for accountants and CPAs: rank for tax preparation, bookkeeping and small business accounting searches with service pages, reviews and seasonal content." },
 };
 
 export default function Page() {

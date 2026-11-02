@@ -10,7 +10,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO Blog & AI Search Guides | RankEmpire",
+  title: { absolute: "SEO Blog & AI Search Guides | RankEmpire" },
   description: "Practical SEO guides from RankEmpire on local SEO, technical SEO, AI search, content strategy and growing organic revenue.",
   alternates: { canonical: "https://www.rankempire.us/blog/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

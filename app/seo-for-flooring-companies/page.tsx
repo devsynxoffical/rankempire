@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-flooring-companies/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Flooring Companies: Rank Higher | RankEmpire",
+  title: { absolute: "Flooring SEO Services & Company | RankEmpire" },
   description: "SEO for flooring companies: rank for hardwood, LVP, tile, carpet and refinishing searches with flooring-type pages, showroom map pack rankings and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-flooring-companies/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Flooring Companies: Rank Higher | RankEmpire", description: "SEO for flooring companies: rank for hardwood, LVP, tile, carpet and refinishing searches with flooring-type pages, showroom map pack rankings and reviews.", url: "https://www.rankempire.us/seo-for-flooring-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Flooring Companies: Rank Higher | RankEmpire", description: "SEO for flooring companies: rank for hardwood, LVP, tile, carpet and refinishing searches with flooring-type pages, showroom map pack rankings and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Flooring SEO Services & Company | RankEmpire", description: "SEO for flooring companies: rank for hardwood, LVP, tile, carpet and refinishing searches with flooring-type pages, showroom map pack rankings and reviews.", url: "https://www.rankempire.us/seo-for-flooring-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Flooring SEO Services & Company | RankEmpire", description: "SEO for flooring companies: rank for hardwood, LVP, tile, carpet and refinishing searches with flooring-type pages, showroom map pack rankings and reviews." },
 };
 
 export default function Page() {

@@ -97,6 +97,10 @@ Report monthly on five numbers: points in the top three on the grid, average gri
 
 Everything above can be done in-house by a disciplined owner or office manager with about five hours a week. Where businesses bring us in is when they lack that time, serve multiple locations, or are in a market where the competitors already have a hundred reviews and a page for every suburb. Our [local SEO packages](/seo-packages/local-seo/) start with a single-location plan that covers the profile, citations, review system, area pages and the rank grid report, month to month after onboarding. If you want to know where you stand first, request a [free audit](/contact-us/) and we will send the baseline and the 90-day plan for your business.
 
+## Getting your business ready for AI agents
+
+The same foundations, consistent listings, published prices and a simple booking path, are what AI assistants need when they compare and book local services for users. If you are finishing this roadmap, the next step is our [AI agent optimization checklist](/blog/ai-agent-optimization/).
+
 ## FAQ
 
 ### How long does local SEO take to work?

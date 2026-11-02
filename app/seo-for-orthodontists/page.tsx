@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-orthodontists/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Orthodontists: Rank Higher | RankEmpire",
+  title: { absolute: "Orthodontist SEO Services & Company | RankEmpire" },
   description: "SEO for orthodontists: win braces and Invisalign consultations with treatment and cost pages, before-and-after galleries, reviews and map pack optimization.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-orthodontists/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Orthodontists: Rank Higher | RankEmpire", description: "SEO for orthodontists: win braces and Invisalign consultations with treatment and cost pages, before-and-after galleries, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-orthodontists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Orthodontists: Rank Higher | RankEmpire", description: "SEO for orthodontists: win braces and Invisalign consultations with treatment and cost pages, before-and-after galleries, reviews and map pack optimization." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Orthodontist SEO Services & Company | RankEmpire", description: "SEO for orthodontists: win braces and Invisalign consultations with treatment and cost pages, before-and-after galleries, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-orthodontists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Orthodontist SEO Services & Company | RankEmpire", description: "SEO for orthodontists: win braces and Invisalign consultations with treatment and cost pages, before-and-after galleries, reviews and map pack optimization." },
 };
 
 export default function Page() {

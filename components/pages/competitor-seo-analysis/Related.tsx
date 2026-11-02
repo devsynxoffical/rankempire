@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/keyword-research/","label":"Keyword Research"},{"href":"/seo-audit/","label":"SEO Audit"},{"href":"/link-building/","label":"Link Building"},{"href":"/content-seo/","label":"Content SEO"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/blog/technical-seo-basics/","label":"Guide: Technical SEO Basics Every Business Owner Should Know"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/keyword-research/","label":"Keyword Research"},{"href":"/seo-audit/","label":"SEO Audit"},{"href":"/link-building/","label":"Link Building"},{"href":"/seo-consulting/","label":"SEO Consulting"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/blog/technical-seo-basics/","label":"Guide: Technical SEO Basics Every Business Owner Should Know"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

@@ -13,7 +13,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Industries We Serve: SEO for 51 Business Types | RankEmpire",
+  title: { absolute: "Industries We Serve: SEO for 51 Business Types | RankEmpire" },
   description: "Industry-specific SEO for home services, medical, legal, automotive, hospitality, professional services, real estate and beauty businesses.",
   alternates: { canonical: "https://www.rankempire.us/industries/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

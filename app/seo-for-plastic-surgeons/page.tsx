@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-plastic-surgeons/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Plastic Surgeons: Rank Higher | RankEmpire",
+  title: { absolute: "Plastic Surgeon SEO Services & Company | RankEmpire" },
   description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-plastic-surgeons/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Plastic Surgeons: Rank Higher | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility.", url: "https://www.rankempire.us/seo-for-plastic-surgeons/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Plastic Surgeons: Rank Higher | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Plastic Surgeon SEO Services & Company | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility.", url: "https://www.rankempire.us/seo-for-plastic-surgeons/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Plastic Surgeon SEO Services & Company | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility." },
 };
 
 export default function Page() {

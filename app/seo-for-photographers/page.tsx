@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-photographers/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Photographers: Rank Higher | RankEmpire",
+  title: { absolute: "Photographer SEO Services & Company | RankEmpire" },
   description: "SEO for photographers: rank for wedding, family, headshot and real estate photography searches with genre pages, galleries, location pages and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-photographers/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Photographers: Rank Higher | RankEmpire", description: "SEO for photographers: rank for wedding, family, headshot and real estate photography searches with genre pages, galleries, location pages and reviews.", url: "https://www.rankempire.us/seo-for-photographers/", images: ["https://www.rankempire.us/img/i-food.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Photographers: Rank Higher | RankEmpire", description: "SEO for photographers: rank for wedding, family, headshot and real estate photography searches with genre pages, galleries, location pages and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Photographer SEO Services & Company | RankEmpire", description: "SEO for photographers: rank for wedding, family, headshot and real estate photography searches with genre pages, galleries, location pages and reviews.", url: "https://www.rankempire.us/seo-for-photographers/", images: ["https://www.rankempire.us/img/i-food.webp"] },
+  twitter: { card: 'summary_large_image', title: "Photographer SEO Services & Company | RankEmpire", description: "SEO for photographers: rank for wedding, family, headshot and real estate photography searches with genre pages, galleries, location pages and reviews." },
 };
 
 export default function Page() {

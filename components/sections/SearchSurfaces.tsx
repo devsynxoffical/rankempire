@@ -73,7 +73,7 @@ export default function SearchSurfaces({ slug, kind, audience, kw, question, cit
       example: { label: 'AI prompt', text: kind === 'industry' ? `Who are the best ${audience}${where || ' near me'}?` : kind === 'city' ? `Which SEO agency should I hire${where}?` : `What is the best way to get more customers from search?` },
     },
     {
-      k: 'AGO', name: 'AI agent optimization', c: '#4a9f5f', href: '/contact-us/', cta: 'Get an agent-readiness check',
+      k: 'AGO', name: 'AI agent optimization', c: '#4a9f5f', href: '/blog/ai-agent-optimization/', cta: 'What AI agent optimization is',
       lead: 'Make your business the one AI agents choose when they book, buy and compare on behalf of users: clean data, schema, APIs.',
       what: [
         'Clean, structured business data: services, prices, hours, service area and availability',

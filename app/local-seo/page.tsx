@@ -23,7 +23,7 @@ import Related from '@/components/pages/local-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Local SEO Services: Rank in the Map Pack | RankEmpire",
+  title: { absolute: "Local SEO Services: Rank in the Map Pack | RankEmpire" },
   description: "Local SEO that puts your business in the Google map pack and local results. Google Business Profile optimization, citations, reviews and location pages.",
   alternates: { canonical: "https://www.rankempire.us/local-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

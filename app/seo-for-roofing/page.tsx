@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-roofing/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Roofing Companies: Rank Higher | RankEmpire",
+  title: { absolute: "Roofing SEO Services & Company | RankEmpire" },
   description: "SEO for roofing companies: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-roofing/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Roofing Companies: Rank Higher | RankEmpire", description: "SEO for roofing companies: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews.", url: "https://www.rankempire.us/seo-for-roofing/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Roofing Companies: Rank Higher | RankEmpire", description: "SEO for roofing companies: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Roofing SEO Services & Company | RankEmpire", description: "SEO for roofing companies: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews.", url: "https://www.rankempire.us/seo-for-roofing/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Roofing SEO Services & Company | RankEmpire", description: "SEO for roofing companies: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews." },
 };
 
 export default function Page() {

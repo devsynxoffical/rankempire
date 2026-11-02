@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-tutors/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Tutors and Tutoring Centers | RankEmpire",
+  title: { absolute: "Tutoring SEO Services & Company | RankEmpire" },
   description: "SEO for tutors and tutoring centers: rank for subject, SAT and ACT tutoring searches with subject pages, tutor profiles, reviews and map pack optimization.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-tutors/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Tutors and Tutoring Centers | RankEmpire", description: "SEO for tutors and tutoring centers: rank for subject, SAT and ACT tutoring searches with subject pages, tutor profiles, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-tutors/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Tutors and Tutoring Centers | RankEmpire", description: "SEO for tutors and tutoring centers: rank for subject, SAT and ACT tutoring searches with subject pages, tutor profiles, reviews and map pack optimization." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Tutoring SEO Services & Company | RankEmpire", description: "SEO for tutors and tutoring centers: rank for subject, SAT and ACT tutoring searches with subject pages, tutor profiles, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-tutors/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Tutoring SEO Services & Company | RankEmpire", description: "SEO for tutors and tutoring centers: rank for subject, SAT and ACT tutoring searches with subject pages, tutor profiles, reviews and map pack optimization." },
 };
 
 export default function Page() {

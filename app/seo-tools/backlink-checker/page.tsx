@@ -13,7 +13,7 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Free Backlink Checker: Online SEO Tool | RankEmpire",
+  title: { absolute: "Free Backlink Checker: Online SEO Tool | RankEmpire" },
   description: "Analyze a backlink export from any tool. Paste URLs to see referring domains, anchor text mix and link patterns.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/backlink-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",

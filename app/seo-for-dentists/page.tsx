@@ -22,12 +22,12 @@ import Related from '@/components/pages/seo-for-dentists/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "SEO for Dentists: More Calls and Customers | RankEmpire",
+  title: { absolute: "Dental SEO Services & Company | RankEmpire" },
   description: "SEO for dentists: attract new patients with implant, Invisalign, veneer and emergency dentistry pages, map pack optimization, reviews and insurance content.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-dentists/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Dentists: More Calls and Customers | RankEmpire", description: "SEO for dentists: attract new patients with implant, Invisalign, veneer and emergency dentistry pages, map pack optimization, reviews and insurance content.", url: "https://www.rankempire.us/seo-for-dentists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Dentists: More Calls and Customers | RankEmpire", description: "SEO for dentists: attract new patients with implant, Invisalign, veneer and emergency dentistry pages, map pack optimization, reviews and insurance content." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Dental SEO Services & Company | RankEmpire", description: "SEO for dentists: attract new patients with implant, Invisalign, veneer and emergency dentistry pages, map pack optimization, reviews and insurance content.", url: "https://www.rankempire.us/seo-for-dentists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Dental SEO Services & Company | RankEmpire", description: "SEO for dentists: attract new patients with implant, Invisalign, veneer and emergency dentistry pages, map pack optimization, reviews and insurance content." },
 };
 
 export default function Page() {
