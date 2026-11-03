@@ -56,8 +56,12 @@ Uncomment `output: 'export'` in `next.config.mjs`, run `npm run build`, upload t
 | `npm run surfaces` | Places the SEO / AEO / GEO / AGO section on every industry, city, service and hub page with page-specific props (audience, a real search and a real question from the page). Re-run after adding pages. |
 | `npm run guides` | Inserts the query-matched guide block (`content/guides.json`) before the pricing section on pages that have an entry. |
 | `npm run pages` | Search Console per-page query breakdown into `reports/gsc-pages-<date>.json`, to see which queries each page appears for and at what position. |
-| `npm run socials` | Fill the URLs in `content/site.json` first; this injects them as `sameAs` into the Organization schema on every page. The footer and Person schema read the same file. |
+| `npm run socials` | No longer needed: social URLs in `content/site.json` feed the Organization schema (`components/seo/OrgSchema.tsx`) and the footer directly. |
 | `npm run indexnow` | Submits all routes (or the paths you pass) to IndexNow for Bing and partners. |
 | `npm run gsc -- status \| sitemaps \| inspect` | Search Console: list sitemaps, submit the sitemap index, or run URL Inspection on every route into `reports/gsc-coverage-<date>.csv`. Needs `.secrets/gsc-service-account.json` (gitignored) and the service account added as a user on the property. |
 
 Sitemaps: `/sitemap.xml` is an index of `/sitemap-core.xml`, `/sitemap-industries.xml`, `/sitemap-locations.xml` and `/sitemap-content.xml`. The blog has an RSS feed at `/blog/feed.xml`. `/llms.txt` is a plain-text site summary for AI assistants, generated from the content JSON files.
+
+## Structured data
+
+One Organization entity (`OnlineBusiness`, `@id` `https://www.rankempire.us/#org`) is rendered on every page by `components/seo/OrgSchema.tsx` from `content/site.json`, with a 512x512 PNG logo at `/img/logo.png`. The homepage adds `WebSite` (site name and alternate names). Pages add BreadcrumbList, Service, FAQPage, ItemList, WebPage + Speakable, BlogPosting (author and publisher inline, image with dimensions), Blog (`/blog/`), ProfilePage (`/our-team/`), WebApplication (free tools) and ContactPage. `scripts/check-schema.py` validates every built page against Google's required properties.

@@ -1,5 +1,6 @@
 import site from '@/content/site.json';
 import { personJson, PERSON_ID } from '@/components/seo/PersonSchema';
+import { ORG_ID, orgJson } from '@/components/seo/OrgSchema';
 import type { Post } from './PostHero';
 
 export default function PostSchema({ post, wordCount, faq }: { post: Post; wordCount: number; faq: { q: string; a: string }[] }) {
@@ -12,17 +13,20 @@ export default function PostSchema({ post, wordCount, faq }: { post: Post; wordC
       mainEntityOfPage: url,
       headline: post.title,
       description: post.description,
-      image: `${site.url}${post.image}`,
-      author: { '@id': PERSON_ID },
-      publisher: { '@id': `${site.url}/#org` },
+      image: [{ '@type': 'ImageObject', url: `${site.url}${post.image}`, width: post.imageWidth, height: post.imageHeight, caption: post.imageAlt }],
+      author: [{ '@type': 'Person', '@id': PERSON_ID, name: site.founder.name, url: site.founder.url, jobTitle: site.founder.jobTitle }],
+      publisher: { '@type': 'OnlineBusiness', '@id': ORG_ID, name: site.name, url: `${site.url}/`, logo: { '@type': 'ImageObject', url: site.logo.url, width: site.logo.width, height: site.logo.height } },
       datePublished: post.published,
       dateModified: post.modified,
       wordCount,
       articleSection: post.category,
       inLanguage: 'en-US',
       isAccessibleForFree: true,
+      keywords: post.category,
+      isPartOf: { '@type': 'Blog', '@id': `${site.url}/blog/#blog`, name: 'RankEmpire SEO Blog', url: `${site.url}/blog/` },
     },
     personJson(),
+    orgJson(),
     {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',

@@ -3,6 +3,7 @@ import site from '@/content/site.json';
 export type Post = {
   slug: string; title: string; metaTitle: string; description: string; category: string;
   image: string; imageAlt: string; published: string; modified: string; readTime: number;
+  imageWidth?: number; imageHeight?: number;
 };
 
 const fmt = (d: string) => new Date(d + 'T12:00:00Z').toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });

@@ -20,5 +20,16 @@
     "name": "RankEmpire SEO Community",
     "url": "https://www.facebook.com/groups/rankempireaiseoagency",
     "description": "A free Facebook group where business owners ask SEO, AI search and Google Business Profile questions and get straight answers from the RankEmpire team."
+  },
+  "alternateName": [
+    "Rank Empire",
+    "RankEmpire SEO Agency"
+  ],
+  "slogan": "Built to Rank",
+  "description": "RankEmpire is a US SEO agency for local businesses, e-commerce brands and SaaS companies. It runs search engine optimization (SEO), answer engine optimization (AEO), generative engine optimization (GEO) and AI agent optimization (AGO) as one program, with a free audit, a 90-day roadmap and results reported from Google Search Console.",
+  "logo": {
+    "url": "https://www.rankempire.us/img/logo.png",
+    "width": 512,
+    "height": 512
   }
 }

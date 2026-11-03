@@ -9,7 +9,9 @@
     "imageAlt": "AI assistant comparing and booking businesses on a user's behalf",
     "published": "2026-11-02",
     "modified": "2026-11-02",
-    "readTime": 10
+    "readTime": 10,
+    "imageWidth": 720,
+    "imageHeight": 894
   },
   {
     "slug": "how-to-choose-an-seo-company",
@@ -21,7 +23,9 @@
     "imageAlt": "Handshake representing hiring the right SEO company",
     "published": "2026-11-02",
     "modified": "2026-11-02",
-    "readTime": 10
+    "readTime": 10,
+    "imageWidth": 886,
+    "imageHeight": 1100
   },
   {
     "slug": "how-much-does-seo-cost",
@@ -33,7 +37,9 @@
     "imageAlt": "Price tags and a rising chart representing SEO cost and return",
     "published": "2026-10-30",
     "modified": "2026-10-30",
-    "readTime": 10
+    "readTime": 10,
+    "imageWidth": 1100,
+    "imageHeight": 821
   },
   {
     "slug": "google-business-profile-optimization-checklist",
@@ -45,7 +51,9 @@
     "imageAlt": "Map pins over a city representing Google Business Profile map rankings",
     "published": "2026-10-30",
     "modified": "2026-10-30",
-    "readTime": 9
+    "readTime": 9,
+    "imageWidth": 720,
+    "imageHeight": 720
   },
   {
     "slug": "aeo-vs-geo-vs-seo",
@@ -57,7 +65,9 @@
     "imageAlt": "Illustration of AI search engines citing sources",
     "published": "2026-10-28",
     "modified": "2026-10-28",
-    "readTime": 11
+    "readTime": 11,
+    "imageWidth": 886,
+    "imageHeight": 1100
   },
   {
     "slug": "local-seo-90-day-roadmap",
@@ -69,7 +79,9 @@
     "imageAlt": "Map pins over a city map representing local search rankings",
     "published": "2026-10-28",
     "modified": "2026-10-28",
-    "readTime": 12
+    "readTime": 12,
+    "imageWidth": 886,
+    "imageHeight": 1100
   },
   {
     "slug": "why-most-seo-campaigns-fail",
@@ -81,7 +93,9 @@
     "imageAlt": "Chart showing SEO results compounding after the first months",
     "published": "2026-10-01",
     "modified": "2026-10-28",
-    "readTime": 8
+    "readTime": 8,
+    "imageWidth": 1100,
+    "imageHeight": 738
   },
   {
     "slug": "local-seo-checklist",
@@ -93,7 +107,9 @@
     "imageAlt": "Checklist next to a map pack result",
     "published": "2026-10-01",
     "modified": "2026-10-28",
-    "readTime": 8
+    "readTime": 8,
+    "imageWidth": 1100,
+    "imageHeight": 738
   },
   {
     "slug": "technical-seo-basics",
@@ -105,6 +121,8 @@
     "imageAlt": "Gears and code representing technical SEO",
     "published": "2026-10-01",
     "modified": "2026-10-28",
-    "readTime": 9
+    "readTime": 9,
+    "imageWidth": 1100,
+    "imageHeight": 738
   }
 ]
