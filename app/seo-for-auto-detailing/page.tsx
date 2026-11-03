@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
 import DeepGuide from '@/components/sections/DeepGuide';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-auto-detailing/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Auto Detailing SEO Services & Company | RankEmpire" },
-  description: "Car detailing SEO that books more details and ceramic coatings: Google Maps, service and package pages, reviews. Local plans from $599/mo. Free audit.",
+  title: { absolute: "Car Detailing SEO Services for Detailers | RankEmpire" },
+  description: "SEO for car detailing businesses and detailers: Google Maps, service and ceramic coating pages, reviews. Local plans from $599/mo. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-auto-detailing/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Auto Detailing SEO Services & Company | RankEmpire", description: "Car detailing SEO that books more details and ceramic coatings: Google Maps, service and package pages, reviews. Local plans from $599/mo. Free audit.", url: "https://www.rankempire.us/seo-for-auto-detailing/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "Auto Detailing SEO Services & Company | RankEmpire", description: "Car detailing SEO that books more details and ceramic coatings: Google Maps, service and package pages, reviews. Local plans from $599/mo. Free audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Car Detailing SEO Services for Detailers | RankEmpire", description: "SEO for car detailing businesses and detailers: Google Maps, service and ceramic coating pages, reviews. Local plans from $599/mo. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-auto-detailing/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "Car Detailing SEO Services for Detailers | RankEmpire", description: "SEO for car detailing businesses and detailers: Google Maps, service and ceramic coating pages, reviews. Local plans from $599/mo. Free audit in 2 days." },
 };
 
 export default function Page() {
@@ -45,6 +46,7 @@ export default function Page() {
       <main id="main">
         <V0 />
         <QuickAnswer slug="seo-for-auto-detailing" />
+        <ProofStrip context="car detailing SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-auto-detailing" kind="industry" audience="auto detailing businesses" kw="mobile car detailing near me" question="ceramic coating cost for suv" />
         <Searches />

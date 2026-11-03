@@ -30,13 +30,13 @@ export default function V1() {
               {"Home Services"}
             </span>
             <h1 data-r="">
-              {"SEO for "}
+              {"Electrician "}
               <span className="acc">
-                {"Electricians"}
+                {"SEO Services"}
               </span>
             </h1>
             <p className="lead" data-r="">
-              {"More calls, bookings and qualified leads for your electrical contractor, from customers already searching for what you do."}
+              {"Electrician SEO services that win emergency calls and planned jobs like panel upgrades and EV chargers, from homeowners already searching for an electrician."}
             </p>
             {"\n"}
             <div className="yh-cta" data-r="">

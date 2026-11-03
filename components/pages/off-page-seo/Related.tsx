@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/link-building/","label":"Link Building"},{"href":"/geo/","label":"Generative Engine Optimization"},{"href":"/content-seo/","label":"Content SEO"},{"href":"/competitor-seo-analysis/","label":"Competitor SEO Analysis"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/link-building/","label":"Link Building"},{"href":"/geo/","label":"Generative Engine Optimization"},{"href":"/seo-tools/backlink-checker/","label":"Free Backlink Checker"},{"href":"/competitor-seo-analysis/","label":"Competitor SEO Analysis"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

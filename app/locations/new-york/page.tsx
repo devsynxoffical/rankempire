@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
 import DeepGuide from '@/components/sections/DeepGuide';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -44,6 +45,7 @@ export default function Page() {
       <main id="main">
         <V2 />
         <QuickAnswer slug="locations/new-york" />
+        <ProofStrip context="New York SEO" />
         <Statement />
         <SearchSurfaces slug="locations/new-york" kind="city" audience="businesses in New York" city="New York" kw="seo company new york" question="How much does local SEO cost in New York?" />
         <Considerations />

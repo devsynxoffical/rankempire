@@ -30,10 +30,10 @@ export default function V0() {
               {"Chicago, IL"}
             </span>
             <h1 data-r="">
-              {"SEO company in "}
               <span className="acc">
                 {"Chicago"}
               </span>
+              {" SEO company"}
             </h1>
             <p className="lead" data-r="">
               {"Local SEO, technical SEO and content for Chicago businesses that want more calls, bookings and sales from Google."}

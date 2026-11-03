@@ -4,6 +4,8 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
+import DeepGuide from '@/components/sections/DeepGuide';
 import PageHero from '@/components/pages/seo-tools__backlink-checker/PageHero';
 import Section from '@/components/pages/seo-tools__backlink-checker/Section';
 import How from '@/components/pages/seo-tools__backlink-checker/How';
@@ -13,12 +15,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free Backlink Checker: Online SEO Tool | RankEmpire" },
-  description: "Analyze a backlink export from any tool. Paste URLs to see referring domains, anchor text mix and link patterns.",
+  title: { absolute: "Free Backlink Checker Tool: Check Backlinks Online | RankEmpire" },
+  description: "Free backlink checker tool: check backlinks, referring domains and anchor text from your Search Console export. Private, instant, no sign-up.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/backlink-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Backlink Checker: Online SEO Tool | RankEmpire", description: "Analyze a backlink export from any tool. Paste URLs to see referring domains, anchor text mix and link patterns.", url: "https://www.rankempire.us/seo-tools/backlink-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free Backlink Checker: Online SEO Tool | RankEmpire", description: "Analyze a backlink export from any tool. Paste URLs to see referring domains, anchor text mix and link patterns." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Backlink Checker Tool: Check Backlinks Online | RankEmpire", description: "Free backlink checker tool: check backlinks, referring domains and anchor text from your Search Console export. Private, instant, no sign-up.", url: "https://www.rankempire.us/seo-tools/backlink-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free Backlink Checker Tool: Check Backlinks Online | RankEmpire", description: "Free backlink checker tool: check backlinks, referring domains and anchor text from your Search Console export. Private, instant, no sign-up." },
 };
 
 export default function Page() {
@@ -35,8 +37,10 @@ export default function Page() {
       <main id="main">
         <PageHero />
         <Section />
+        <ProofStrip context="link building" />
         <How />
         <More />
+        <DeepGuide slug="seo-tools/backlink-checker" />
         <Faq />
         <Pmq />
         <Robo />

@@ -30,14 +30,14 @@ export default function V2() {
               {"SEO Consulting"}
             </span>
             <h1 data-r="">
-              {"SEO consulting when you need an "}
+              {"SEO consulting services from an "}
               <span className="acc">
                 {"expert"}
               </span>
-              {" in the room"}
+              {" SEO consultant"}
             </h1>
             <p className="lead" data-r="">
-              {"Strategy, second opinions, migration planning and training for teams that do the work in-house."}
+              {"Expert SEO consulting for teams that do the work in-house: strategy, audits, second opinions, migration planning and training. Your first SEO consultation is free."}
             </p>
             {"\n"}
             <div className="yh-cta" data-r="">
