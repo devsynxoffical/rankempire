@@ -457,8 +457,8 @@ export default function Header({ active = '' }: { active?: string }) {
                 <path d="m6 9 6 6 6-6" />
               </svg>
             </a>
-            <div className="dd sm" role="menu">
-              <div className="ddg dsl" style={{gridTemplateColumns: "repeat(2,1fr)", gap: "2px 16px"} as React.CSSProperties}>
+            <div className="dd" role="menu" style={{width: "min(720px,calc(100vw - 32px))"} as React.CSSProperties}>
+              <div className="ddg dsl" style={{gridTemplateColumns: "repeat(3,1fr)", gap: "2px 16px"} as React.CSSProperties}>
                 <a href="/locations/new-york/">
                   {"SEO Company in New York"}
                 </a>
@@ -477,10 +477,43 @@ export default function Header({ active = '' }: { active?: string }) {
                 <a href="/locations/miami/">
                   {"SEO Company in Miami"}
                 </a>
+                <a href="/locations/phoenix/">
+                  {"SEO Company in Phoenix"}
+                </a>
+                <a href="/locations/san-diego/">
+                  {"SEO Company in San Diego"}
+                </a>
+                <a href="/locations/san-francisco/">
+                  {"SEO Company in San Francisco"}
+                </a>
+                <a href="/locations/austin/">
+                  {"SEO Company in Austin"}
+                </a>
+                <a href="/locations/atlanta/">
+                  {"SEO Company in Atlanta"}
+                </a>
+                <a href="/locations/seattle/">
+                  {"SEO Company in Seattle"}
+                </a>
+                <a href="/locations/denver/">
+                  {"SEO Company in Denver"}
+                </a>
+                <a href="/locations/boston/">
+                  {"SEO Company in Boston"}
+                </a>
+                <a href="/locations/las-vegas/">
+                  {"SEO Company in Las Vegas"}
+                </a>
+                <a href="/locations/charlotte/">
+                  {"SEO Company in Charlotte"}
+                </a>
+                <a href="/locations/orlando/">
+                  {"SEO Company in Orlando"}
+                </a>
               </div>
               <div className="dfoot">
                 <span>
-                  {"Local SEO across 17 US metros, 6 shown"}
+                  {"Local SEO across 17 US metros"}
                 </span>
                 <a className="tlink" href="/locations/">
                   {"All locations"}
