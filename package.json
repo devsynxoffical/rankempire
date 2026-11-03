@@ -15,7 +15,9 @@
     "indexnow": "node scripts/indexnow.mjs",
     "answers": "node scripts/apply-answers.mjs",
     "perf": "node scripts/gsc-perf.mjs",
-    "surfaces": "node scripts/apply-surfaces.mjs"
+    "surfaces": "node scripts/apply-surfaces.mjs",
+    "pages": "node scripts/gsc-pages.mjs",
+    "guides": "node scripts/apply-guides.mjs"
   },
   "dependencies": {
     "lenis": "^1.1.13",

@@ -65,7 +65,8 @@
   },
   "seo-audit": {
     "q": "What does a RankEmpire SEO audit cover?",
-    "a": "A RankEmpire SEO audit covers technical health (crawling, indexing, speed, structured data), content and keyword gaps, backlinks, local SEO signals and competitors, and ends with a prioritized 90-day action plan rather than a list of warnings. The initial audit is free, delivered within two business days, and becomes the roadmap if you go ahead."
+    "a": "A RankEmpire SEO audit covers technical health (crawling, indexing, speed, structured data), content and keyword gaps, backlinks, local SEO signals and competitors, and ends with a prioritized 90-day action plan rather than a list of warnings. The initial audit is free, delivered within two business days, and becomes the roadmap if you go ahead.",
+    "description": "Professional SEO audit for US businesses: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days."
   },
   "seo-company": {
     "q": "What kind of SEO company is RankEmpire?",
@@ -73,11 +74,13 @@
   },
   "seo-consulting": {
     "q": "When does SEO consulting make sense?",
-    "a": "SEO consulting fits teams that have in-house capacity but need expert direction: strategy sessions, audits, migration and redesign planning, training for writers and developers, and an advisor on call. Instead of doing the work for you, RankEmpire sets the plan, reviews what your team ships and corrects course monthly."
+    "a": "SEO consulting fits teams that have in-house capacity but need expert direction: strategy sessions, audits, migration and redesign planning, training for writers and developers, and an advisor on call. Instead of doing the work for you, RankEmpire sets the plan, reviews what your team ships and corrects course monthly.",
+    "description": "SEO consulting services from a senior SEO consultant: audits, strategy sessions, migration plans and team reviews. Free initial review, no long contracts."
   },
   "seo-services": {
     "q": "What SEO services does RankEmpire offer?",
-    "a": "RankEmpire offers local SEO, e-commerce SEO, SaaS and B2B SEO, technical SEO, SEO audits, Google Business Profile optimization, content SEO, link building, keyword research, competitor analysis, national, enterprise and international SEO, plus answer engine (AEO) and generative engine (GEO) optimization for AI search. Every plan includes an audit, a 90-day roadmap and monthly reporting."
+    "a": "RankEmpire offers local SEO, e-commerce SEO, SaaS and B2B SEO, technical SEO, SEO audits, Google Business Profile optimization, content SEO, link building, keyword research, competitor analysis, national, enterprise and international SEO, plus answer engine (AEO) and generative engine (GEO) optimization for AI search. Every plan includes an audit, a 90-day roadmap and monthly reporting.",
+    "description": "SEO ranking services that turn rankings into revenue: local, e-commerce, SaaS and technical SEO plus AI search. Month to month. Free audit."
   },
   "technical-seo": {
     "q": "What is technical SEO?",
@@ -91,7 +94,7 @@
   "seo-for-electricians": {
     "q": "How does SEO work for electricians?",
     "a": "Electrician SEO captures both emergency calls and planned work like panel upgrades, EV chargers and rewiring. Emergencies are won in the map pack with an optimized profile, 24-hour hours and reviews; planned jobs are won with detailed service pages that explain scope, pricing ranges and permits. RankEmpire builds both and tracks calls, not just rankings.",
-    "description": "SEO for electricians: rank for emergency calls and planned jobs like panel upgrades and EV chargers with map pack optimization, service pages and reviews."
+    "description": "Electrician SEO services that win emergency calls and panel, EV charger and rewiring jobs. Map pack, service pages, reviews. Free audit in 2 days."
   },
   "seo-for-fencing-companies": {
     "q": "How does SEO work for fencing companies?",
@@ -131,7 +134,7 @@
   "seo-for-painters": {
     "q": "How does SEO work for painting contractors?",
     "a": "Painting SEO separates interior, exterior, cabinet and commercial painting into their own pages, because each is a different search with different pricing. Add neighborhood project galleries, a map pack presence and reviews that mention cleanliness and finish quality, and the site wins planned projects ahead of the season. RankEmpire builds the structure and the gallery system.",
-    "description": "SEO for painting contractors: rank for interior, exterior and cabinet painting searches with service pages, project galleries and map pack rankings."
+    "description": "Painting contractor SEO services for interior, exterior, cabinet and commercial jobs: Google Maps, project galleries, reviews. Free audit in 2 days."
   },
   "seo-for-pest-control": {
     "q": "How does SEO work for pest control companies?",
@@ -146,7 +149,7 @@
   "seo-for-pool-service-companies": {
     "q": "How does SEO work for pool service companies?",
     "a": "Pool service SEO covers weekly maintenance plans, repairs, equipment installs and openings and closings, with demand concentrated in spring and summer. Pages for each service, a map pack presence across the suburbs you serve, reviews and seasonal content win those searches. RankEmpire builds the pages before the season opens.",
-    "description": "SEO for pool service companies: rank for pool cleaning, repair, equipment and seasonal opening searches with service pages, map pack optimization and reviews."
+    "description": "Pool service SEO that fills routes before the season: Google Maps, cleaning and repair pages, reviews. Local plans from $599/mo. Free audit."
   },
   "seo-for-roofing": {
     "q": "How does SEO work for roofing companies?",
@@ -161,7 +164,7 @@
   "seo-for-dentists": {
     "q": "How does SEO work for dentists?",
     "a": "Dental SEO wins new patients with service pages for implants, Invisalign, veneers, emergencies and family dentistry, a Google Business Profile that ranks in the map pack for the practice's area, a steady review flow and insurance and financing content that answers the questions patients ask before booking. RankEmpire reports new-patient calls and bookings from search.",
-    "description": "SEO for dentists: attract new patients with implant, Invisalign, veneer and emergency dentistry pages, map pack optimization, reviews and insurance content."
+    "description": "Dental SEO services for implants, Invisalign and emergency dentist searches: treatment pages, Google Maps, reviews. Free audit in 2 days."
   },
   "seo-for-doctors": {
     "q": "How does SEO work for doctors and medical practices?",
@@ -201,7 +204,7 @@
   "seo-for-auto-detailing": {
     "q": "How does SEO work for auto detailing businesses?",
     "a": "Auto detailing SEO wins local searches for detailing, ceramic coating, paint correction and mobile service. Pages per service with pricing tiers, a photo-heavy Google Business Profile, reviews and area pages for mobile coverage drive bookings. RankEmpire builds the service pages and the review flow that wins the map pack.",
-    "description": "SEO for auto detailing businesses: rank for detailing, ceramic coating and mobile detailing searches with service pages, photo-rich profiles and reviews."
+    "description": "Car detailing SEO that books more details and ceramic coatings: Google Maps, service and package pages, reviews. Local plans from $599/mo. Free audit."
   },
   "seo-for-auto-repair": {
     "q": "How does SEO work for auto repair shops?",
@@ -246,7 +249,7 @@
   "seo-for-accountants": {
     "q": "How does SEO work for accountants and CPAs?",
     "a": "Accounting SEO wins clients searching for tax preparation, bookkeeping, small business accounting and CPA near me, with demand peaking before tax deadlines. Service pages per offering and client type, a Google Business Profile, reviews and seasonal tax content drive consultations. RankEmpire times the content calendar to filing season.",
-    "description": "SEO for accountants and CPAs: rank for tax preparation, bookkeeping and small business accounting searches with service pages, reviews and seasonal content."
+    "description": "CPA firm SEO services that win tax, bookkeeping and advisory clients: niche pages, Google Maps, tax-season content. Free audit in 2 days."
   },
   "seo-for-daycares": {
     "q": "How does SEO work for daycares and preschools?",
@@ -296,7 +299,7 @@
   "seo-for-salons": {
     "q": "How does SEO work for hair salons?",
     "a": "Salon SEO is decided in the map pack and by service searches like balayage, extensions and keratin treatments. A Google Business Profile with photos, booking, prices and reviews, plus service pages and stylist profiles, win those bookings. RankEmpire optimizes the profile and builds the service pages that rank for the treatments you want to sell.",
-    "description": "SEO for hair salons: win balayage, extensions and salon near me searches with Google Business Profile optimization, service pages, stylist profiles and reviews."
+    "description": "Salon SEO that fills chairs: Google Maps, balayage and extension pages, stylist profiles and reviews. Local plans from $599/mo. Free audit."
   },
   "seo-for-med-spas": {
     "q": "How does SEO work for med spas?",
@@ -331,7 +334,7 @@
   "locations/chicago": {
     "q": "Who is the best SEO company in Chicago?",
     "a": "RankEmpire is an SEO company serving Chicago and Chicagoland, from the Loop, Lincoln Park and Wicker Park to Naperville, Schaumburg and Evanston. We run local SEO, Google Business Profile optimization, technical SEO and content for Chicago businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
-    "description": "SEO company in Chicago: local SEO, Google Business Profile optimization and content for businesses in the Loop, Lincoln Park, Wicker Park and Naperville."
+    "description": "Chicago SEO company for city and suburban businesses. Local SEO, Google Maps and AI search, plans from $599/mo, month to month. Free audit in 2 days."
   },
   "locations/dallas": {
     "q": "Who is the best SEO company in Dallas?",
@@ -346,7 +349,7 @@
   "locations/houston": {
     "q": "Who is the best SEO company in Houston?",
     "a": "RankEmpire is an SEO company serving Houston and its sprawling metro, including Downtown, The Heights, Katy, Sugar Land, The Woodlands and Pearland. We run local SEO, Google Business Profile optimization, technical SEO and content for Houston businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
-    "description": "SEO company in Houston: local SEO, Google Business Profile optimization and content for businesses in The Heights, Katy, Sugar Land, The Woodlands and Pearland."
+    "description": "Houston SEO agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search from $599/mo. Get a free audit in 2 days."
   },
   "locations/las-vegas": {
     "q": "Who is the best SEO company in Las Vegas?",
@@ -366,7 +369,7 @@
   "locations/new-york": {
     "q": "Who is the best SEO company in New York?",
     "a": "RankEmpire is an SEO company serving New York City and the tri-state area, across Manhattan, Brooklyn, Queens, the Bronx, Staten Island and Long Island. We run local SEO, Google Business Profile optimization, technical SEO and content for NYC businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
-    "description": "SEO company in New York: local SEO, Google Business Profile optimization and content for businesses across Manhattan, Brooklyn, Queens and the Bronx."
+    "description": "New York SEO company for NYC businesses in every borough. Local SEO, Google Maps and AI search. Plans from $599/mo, free audit in 2 days."
   },
   "locations/orlando": {
     "q": "Who is the best SEO company in Orlando?",

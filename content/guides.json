@@ -1,0 +1,130 @@
+{
+  "locations/new-york": {
+    "title": "New York SEO company: how we rank NYC businesses",
+    "intro": "New York is the most competitive local search market in the country. Every borough behaves like its own city, the same search returns different results in Midtown and in Park Slope, and national brands bid on the terms independent businesses depend on. This is how RankEmpire approaches SEO for New York businesses, and what to expect from any NYC SEO agency you hire.",
+    "sections": [
+      { "h": "What a New York SEO company should do first", "p": "Start with the borough and neighborhood map, not a keyword list. A Brooklyn contractor, a Manhattan law firm and a Queens restaurant compete in different results, so we map which neighborhoods produce your customers, check where you appear from each of them on a rank grid, and build the plan around the gaps. Then come the technical audit, the Google Business Profile and the service pages, in that order, as described in our [90-day local SEO roadmap](/blog/local-seo-90-day-roadmap/)." },
+      { "h": "SEO services for New York businesses", "p": "Our New York programs combine [local SEO](/local-seo/) for the map pack, [Google Business Profile optimization](/google-business-profile-seo/), neighborhood and service pages written for each borough, [technical SEO](/technical-seo/) and [link building](/link-building/) from New York publications, associations and partners. Every plan also covers answer engines and AI assistants, because New Yorkers increasingly ask ChatGPT or Google AI Mode for recommendations instead of scrolling results." },
+      { "h": "How much SEO costs in New York", "p": "NYC SEO usually costs more than the national average because competition is denser and rankings take more content and authority to win. Single-location local plans start at $599 a month with RankEmpire; businesses competing across several boroughs or citywide typically need the Pro or Multi-location plan. Our [SEO cost guide](/blog/how-much-does-seo-cost/) explains the ranges and what drives them, and every plan is month to month after onboarding." },
+      { "h": "How long SEO takes in NYC", "p": "Expect movement on neighborhood and long-tail searches within 60 to 90 days, and on competitive citywide terms like seo company nyc after four to six months or more, depending on your starting authority. The first visible sign is usually impressions in Search Console, then average position, then calls and form leads." },
+      { "h": "Choosing an SEO agency in New York", "p": "Ask any New York SEO agency for real Search Console results, a named strategist, a 90-day plan and month-to-month terms after onboarding, and walk away from guaranteed rankings. Our guide on [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) lists the twelve questions to ask, and our [case studies](/case-studies/) show the verified reports behind our work." }
+    ]
+  },
+  "locations/chicago": {
+    "title": "Chicago SEO company: how we rank Chicagoland businesses",
+    "intro": "Chicago search is split by neighborhood and by suburb. A customer in Lincoln Park, one in the West Loop and one in Naperville see different map results for the same search, and suburban demand often rivals the city itself. This is how RankEmpire runs SEO for Chicago businesses and what to expect from a Chicago SEO agency.",
+    "sections": [
+      { "h": "What a Chicago SEO company should do first", "p": "Define the service area honestly: the neighborhoods you serve inside the city and the suburbs such as Evanston, Oak Park, Schaumburg and Naperville where your customers actually are. We measure visibility from each with a rank grid, then fix the technical foundation, the Google Business Profile and the service pages before building area pages and links." },
+      { "h": "SEO services for Chicago businesses", "p": "Chicago programs include [local SEO](/local-seo/), [Google Business Profile optimization](/google-business-profile-seo/), neighborhood and suburb pages with real local detail, [content SEO](/content-seo/) and [link building](/link-building/) from Chicago chambers, associations and publications. Seasonal planning matters here: winter and summer shift demand sharply for home services, events and hospitality." },
+      { "h": "How much SEO costs in Chicago", "p": "Chicago pricing sits between New York and smaller metros. RankEmpire local plans start at $599 a month for one location, and businesses covering the city and several suburbs usually need the Pro plan. See our [SEO cost guide](/blog/how-much-does-seo-cost/) for typical ranges by business type." },
+      { "h": "How long SEO takes in Chicago", "p": "Neighborhood and suburb searches often move within two to three months. Broad terms such as chicago seo company take four to six months or longer, because they depend on authority from Chicago and industry sites." },
+      { "h": "Choosing an SEO agency in Chicago", "p": "Look for a Chicago SEO agency that shows real Search Console data, explains its first 90 days and lets you leave month to month. Our guide on [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) covers the questions and red flags, and the [case studies](/case-studies/) page shows our verified results." }
+    ]
+  },
+  "locations/houston": {
+    "title": "Houston SEO company: how we rank businesses across Greater Houston",
+    "intro": "Houston is one of the largest metros by area in the US, so distance shapes local search more than almost anywhere else. A business in the Heights rarely appears for a customer in Katy or Sugar Land without dedicated work for those areas. This is how RankEmpire approaches SEO for Houston businesses.",
+    "sections": [
+      { "h": "What a Houston SEO company should do first", "p": "Map the areas that produce revenue, from Downtown, Midtown and the Heights to Katy, Sugar Land, The Woodlands, Pearland and Cypress, and measure your map visibility in each. The plan then fixes the website and Google Business Profile, builds service pages, and adds area pages only where you can say something genuinely local." },
+      { "h": "SEO services for Houston businesses", "p": "Houston programs combine [local SEO](/local-seo/), [Google Business Profile optimization](/google-business-profile-seo/), area pages for the suburbs you serve, bilingual content where your customers search in Spanish, [technical SEO](/technical-seo/) and [link building](/link-building/) from Houston organizations. Weather drives demand here, so home services and roofing content is timed to heat, storms and hurricane season." },
+      { "h": "How much SEO costs in Houston", "p": "RankEmpire local plans start at $599 a month for one location. Because the metro is so spread out, businesses that want visibility across several suburbs usually need the Pro or Multi-location plan. Our [SEO cost guide](/blog/how-much-does-seo-cost/) explains how scope drives price." },
+      { "h": "How long SEO takes in Houston", "p": "Searches near your location often improve within 60 to 90 days. Visibility across distant suburbs and broad terms like seo agency houston usually takes four to six months, as reviews, area pages and local links accumulate." },
+      { "h": "Choosing an SEO agency in Houston", "p": "A good Houston SEO agency will show you a rank grid across the whole metro, not a single ranking from its office. Use the twelve questions in [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) and ask for verified results like those on our [case studies](/case-studies/) page." }
+    ]
+  },
+  "seo-consulting": {
+    "title": "SEO consulting services: what an SEO consultant does for your team",
+    "intro": "SEO consulting is for teams that can do the work but want expert direction: a marketing manager, a developer, an in-house content writer, or a founder who wants a second opinion before spending on an agency. A good SEO consultant sets the strategy, reviews what your team ships and catches problems before they cost rankings.",
+    "sections": [
+      { "h": "What our SEO consulting services include", "p": "A full [SEO audit](/seo-audit/) and a prioritized 90-day plan, monthly strategy sessions, review of new pages and content before they go live, technical guidance for your developers, keyword and content planning, and migration or redesign planning when you change platforms. You get a named senior consultant, not a rotating account team." },
+      { "h": "SEO consultant vs SEO agency", "p": "An SEO consultant advises and your team executes; an agency does the work for you. Consulting costs less each month and builds skills in-house, but it only works if someone internally has time to implement. If you lack that capacity, a full [SEO services](/seo-services/) plan is usually the better value. Our guide on [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) covers the trade-off." },
+      { "h": "When to hire an SEO consultant", "p": "The most common moments are before a website redesign or migration, after a traffic drop, when building an in-house team, when a previous agency produced reports but no growth, and when a business wants an independent review of an agency proposal. Each benefits from experienced judgment more than extra hours." },
+      { "h": "SEO consultancy for AI search", "p": "Search now includes featured snippets, AI Overviews, ChatGPT and Perplexity answers, and AI agents that book on a user's behalf. Our consultancy covers [answer engine optimization](/aeo/), [generative engine optimization](/geo/) and [AI agent optimization](/blog/ai-agent-optimization/) so your team prepares for all of them in one plan." },
+      { "h": "How SEO consulting is priced", "p": "Consulting is usually priced as a monthly retainer for a set number of sessions and reviews, or as a fixed project for an audit or migration. We quote after a free initial review so the scope matches what your team can implement. See [SEO packages](/seo-packages/) for our full-service plans by comparison." }
+    ]
+  },
+  "seo-for-auto-detailing": {
+    "title": "Car detailing SEO: how detailers get more bookings from Google",
+    "intro": "Car detailing SEO is the work of making your detailing business the one drivers find when they search for detailing, ceramic coating, paint correction or mobile detailing near them. Most detailing searches are local and mobile, and most bookings are decided on the map, on photos and on reviews.",
+    "sections": [
+      { "h": "What SEO for car detailers includes", "p": "A fully built Google Business Profile with the right categories, before-and-after photos and a booking link; a page for each service and package (interior, exterior, full detail, ceramic coating, paint correction, PPF); area pages for mobile coverage; review requests after every job; and LocalBusiness and Service schema so search engines and AI assistants can read your prices and services." },
+      { "h": "Pages every detailing website needs", "p": "Service pages with what is included, time required and starting prices; a ceramic coating page that explains durability and maintenance; a mobile detailing page with your coverage area; a gallery with before-and-after sets labeled by vehicle; and an FAQ that answers how long a detail takes, how to prepare the car and what happens if it rains." },
+      { "h": "Ceramic coating and high-ticket searches", "p": "Ceramic coating, paint correction and paint protection film searches carry the highest job values and are researched for days. Detailed pages with warranty terms, prep steps and real examples outrank thin service lists, and give AI assistants specific facts to cite when drivers ask who to trust." },
+      { "h": "Choosing an auto detailing SEO company", "p": "Ask a detailing SEO company how it will win the map pack across your service area, which pages it will build, and how it tracks bookings, not just rankings. Our checklist in [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) applies, and the [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/) covers the profile work in detail." }
+    ]
+  },
+  "seo-for-electricians": {
+    "title": "Electrician SEO services: how electrical contractors win more calls",
+    "intro": "Electrician SEO services help electrical contractors appear when homeowners and businesses search for an electrician, whether it is an emergency outage tonight or a panel upgrade next month. The two kinds of searches need different pages and different signals, and the best electrician SEO company builds both.",
+    "sections": [
+      { "h": "What our electrician SEO services include", "p": "Google Business Profile optimization with 24-hour hours and service area; a page for each service (panel upgrades, EV charger installation, rewiring, lighting, generators, inspections, commercial work); emergency pages for same-day calls; license and insurance trust content; review requests that mention the job; and local links from suppliers, builders and associations." },
+      { "h": "Emergency vs planned electrical searches", "p": "Emergency searches such as electrician near me open now are decided in the map pack within minutes, on availability, distance and reviews. Planned work such as EV charger installation cost or 200 amp panel upgrade is researched, so detailed pages with scope, permit notes and price ranges win. A strong program covers both, as our [90-day local SEO roadmap](/blog/local-seo-90-day-roadmap/) explains." },
+      { "h": "EV chargers, solar and generators", "p": "EV charger installation, generator hookups and solar-ready panels are fast-growing searches with high job values. Dedicated pages that explain requirements, permits, rebates and typical costs rank well because few local competitors have them, and they give AI assistants specific answers to quote." },
+      { "h": "Choosing an electrician SEO company or agency", "p": "Ask an electrician SEO agency for its plan to win your service area on a rank grid, the specific pages it will build, and how it reports calls and booked jobs. The twelve questions in [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) apply, and our [SEO cost guide](/blog/how-much-does-seo-cost/) shows typical prices for trades." }
+    ]
+  },
+  "seo-for-pool-service-companies": {
+    "title": "Pool service SEO: how pool companies fill the route",
+    "intro": "Pool service SEO helps pool cleaning, repair and installation companies reach homeowners searching for weekly service, equipment repairs and seasonal openings. Demand is concentrated in spring and summer, so the pages and profile have to be ready before the season starts.",
+    "sections": [
+      { "h": "What pool company SEO includes", "p": "A Google Business Profile with service area set to the neighborhoods on your routes; pages for weekly cleaning, green pool recovery, equipment repair and replacement, openings and closings, and remodeling; seasonal content; review requests from route customers; and LocalBusiness schema with your service area and hours." },
+      { "h": "Weekly service vs one-time jobs", "p": "Weekly service customers search locally and compare price and reliability, so the map pack and reviews matter most. Repair and equipment searches such as pool pump replacement cost are researched, so detailed pages with brands, warranties and price ranges win." },
+      { "h": "Choosing a pool service SEO company", "p": "A good pool service SEO company will plan around your route density, your season and the equipment brands you service. Use the questions in [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) and ask how leads will be tracked by service type." }
+    ]
+  },
+  "seo-for-painters": {
+    "title": "Painting contractor SEO services: winning interior, exterior and commercial jobs",
+    "intro": "Painting contractor SEO services help painters rank for the projects they want most, from interior repaints and exterior jobs to cabinets and commercial work. Homeowners search by project and by area, and they decide on photos, reviews and how clearly you explain the process.",
+    "sections": [
+      { "h": "What SEO for painting companies includes", "p": "Separate pages for interior, exterior, cabinet, deck and commercial painting; project galleries by neighborhood; a Google Business Profile with photos of real jobs; review requests that mention cleanliness and finish; and content that answers cost and timing questions before the estimate." },
+      { "h": "Painter SEO for the busy season", "p": "Exterior demand peaks in spring and early summer, so exterior pages, before-and-after galleries and profile posts should be live in late winter. Interior and cabinet work can carry the off-season, and dedicated pages keep the calendar fuller year round." },
+      { "h": "Choosing an SEO agency for painting services", "p": "Ask a painting SEO agency which project pages it will build, how it will win the map pack across your service area and how it measures estimates booked. The questions in [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) apply to trades as much as any business." }
+    ]
+  },
+  "seo-for-accountants": {
+    "title": "CPA firm SEO services: how accounting firms win clients from search",
+    "intro": "CPA firm SEO services help accountants and accounting firms reach individuals and businesses searching for tax preparation, bookkeeping, payroll, advisory and CPA services near them. Demand spikes before tax deadlines, and clients choose on trust, specialization and clarity about fees.",
+    "sections": [
+      { "h": "What our accountant SEO services include", "p": "Service pages for tax preparation, small business accounting, bookkeeping, payroll, IRS representation and advisory; pages for the client types you specialize in, such as contractors, medical practices or real estate investors; a Google Business Profile per office; review requests timed after filing season; and FAQ content that answers fee and process questions." },
+      { "h": "Niche pages win for accounting firms", "p": "Broad terms like accountant near me are competitive, but searches like cpa for real estate investors or bookkeeping for contractors convert better and are easier to win. Dedicated niche pages with real expertise are often the fastest path to first-page rankings for a CPA firm." },
+      { "h": "Timing content to tax season", "p": "Publish and refresh tax-season content in December and January, extension and amendment content in spring, and year-end planning content in autumn. Search demand follows the filing calendar closely." },
+      { "h": "Choosing an accountant SEO company", "p": "Ask an accounting SEO company about its experience with professional services, how it handles compliance in marketing claims and how it tracks consultations booked. Our [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) guide lists the questions to ask." }
+    ]
+  },
+  "seo-for-salons": {
+    "title": "Salon SEO: how hair salons get more bookings from search",
+    "intro": "Salon SEO helps hair salons appear when clients search for a salon, a stylist or a specific treatment such as balayage, extensions or keratin near them. Most salon bookings start on the map and are decided by photos, reviews and a booking link.",
+    "sections": [
+      { "h": "What hair salon SEO includes", "p": "A Google Business Profile with the right categories, current photos of real work, prices and a booking link; service pages for the treatments you want to sell; stylist profile pages; review requests after appointments; and LocalBusiness schema with hours and services." },
+      { "h": "Treatment pages that rank", "p": "Searches for balayage, extensions, keratin and bridal hair carry higher ticket values than a basic cut. A page per treatment with photos, time required, price range and aftercare ranks for those searches and attracts the clients you want." },
+      { "h": "Choosing a salon SEO company", "p": "A good salon SEO company focuses on the profile, reviews and treatment pages rather than generic blog posts. Our [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/) covers the profile work, and [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) lists the questions to ask." }
+    ]
+  },
+  "seo-for-dentists": {
+    "title": "Dental SEO services: implants, Invisalign and emergency dentist SEO",
+    "intro": "Dental SEO services help practices attract new patients for the treatments that matter most, from implants and Invisalign to family dentistry and same-day emergencies. Each treatment is a different search with different intent, and each deserves its own page.",
+    "sections": [
+      { "h": "Emergency dentist SEO", "p": "Emergency dentist searches are urgent and local: a patient with a broken tooth or severe pain calls the first practice that shows same-day availability. Emergency dentist SEO means an emergency page with real hours and what to do before arriving, accurate hours on the Google Business Profile, reviews that mention fast care, and call tracking to prove the leads." },
+      { "h": "Dental implant and Invisalign SEO", "p": "Implant and clear aligner searches are researched for weeks and carry the highest case values. Treatment pages with candidacy, process, recovery, financing and price ranges, plus before-and-after cases, win those searches and the consultations that follow." },
+      { "h": "Choosing a dental SEO company", "p": "Ask a dental SEO company how it tracks new patient calls and bookings, how it handles HIPAA-safe reviews and which treatment pages it will build first. The questions in [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) apply." }
+    ]
+  },
+  "seo-audit": {
+    "title": "Professional SEO audit: what a full audit covers",
+    "intro": "A professional SEO audit is a structured review of everything that affects how your website ranks: technical health, content, links, local signals, AI search readiness and competitors. The output that matters is a prioritized plan, not a list of warnings.",
+    "sections": [
+      { "h": "What our professional SEO audit covers", "p": "Crawling, indexing and Search Console coverage; site speed and Core Web Vitals; structured data; site architecture and internal links; content gaps and cannibalization against your target keywords; backlink profile and toxic link risk; Google Business Profile and citations for local businesses; and visibility in AI Overviews and assistants." },
+      { "h": "SEO audit for US businesses", "p": "Our audits are built for the US market: local map pack competition by metro, US-specific directories and citations, and the search behavior of US customers. Businesses expanding abroad can add an [international SEO](/international-seo/) review." },
+      { "h": "What you get from the audit", "p": "A written report in plain English, a prioritized 90-day action plan, and a call to walk through it. The initial audit is free and delivered within two business days, and it becomes the roadmap if you choose a [plan](/seo-packages/). Our [technical SEO basics](/blog/technical-seo-basics/) guide explains the checks in simple terms." }
+    ]
+  },
+  "seo-services": {
+    "title": "SEO ranking services: how we move rankings that turn into revenue",
+    "intro": "SEO ranking services are only worth paying for if the rankings bring customers. Our services are organized around the searches that produce calls, leads and sales for your business, measured in Search Console and in your revenue, not in vanity keyword counts.",
+    "sections": [
+      { "h": "How our SEO ranking service works", "p": "Every engagement starts with an [SEO audit](/seo-audit/) and a keyword-to-page map, then fixes the technical foundation, builds or rewrites the pages that should rank, earns links and mentions, and reports monthly on rankings, traffic and leads. One senior strategist owns the work from start to finish." },
+      { "h": "Which SEO service fits your business", "p": "Local businesses start with [local SEO](/local-seo/) and the Google Business Profile; online stores with [e-commerce SEO](/ecommerce-seo/); software companies with [SaaS SEO](/saas-seo/); and large sites with [enterprise SEO](/enterprise-seo/). Every plan includes answer engine, generative engine and AI agent optimization for AI search." },
+      { "h": "What ranking results to expect", "p": "Early movement on branded and low-competition searches in four to eight weeks, meaningful gains for core terms in four to six months, and compounding growth after that. Our [case studies](/case-studies/) show real Search Console reports, and our [SEO cost guide](/blog/how-much-does-seo-cost/) explains pricing." }
+    ]
+  }
+}

@@ -2808,3 +2808,17 @@ body.in-fd .cur,body.in-fd .cur-r{opacity:0!important}
 .prose{min-width:0;overflow-wrap:break-word}
 .prose .tbl-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
 @media (max-width:760px){.prose table{min-width:560px;font-size:14px}.prose th,.prose td{padding:9px 10px}}
+
+/* ===== Deep guide block (query-matched long-form on high-impression pages) ===== */
+.dg{border-top:1px solid var(--line)}
+.dg-g{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(28px,5vw,72px);align-items:start}
+.dg-l{position:sticky;top:100px}
+.dg-toc{display:grid;gap:2px;margin-top:6px}
+.dg-toc a{display:block;padding:8px 0 8px 14px;border-left:2px solid var(--line);color:var(--ink3);font-size:14.5px;transition:color .25s,border-color .25s}
+.dg-toc a:hover{color:var(--ink);border-color:var(--acc)}
+.dg-intro{font-size:18px;color:var(--ink);line-height:1.65}
+.dg-s{scroll-margin-top:110px}
+.dg-s h3{font-size:clamp(20px,1.7vw,24px)!important;margin:30px 0 10px}
+.dg-cta{margin-top:30px}
+.dg-cta .btn{text-decoration:none;color:#fff}
+@media (max-width:900px){.dg-g{grid-template-columns:1fr}.dg-l{position:static}.dg-toc{display:none}.dg-intro{font-size:17px}}
