@@ -12,6 +12,7 @@
     "posts": "node scripts/build-posts.mjs",
     "related": "node scripts/related.mjs",
     "gsc": "node scripts/gsc.mjs",
+    "gindex": "node scripts/gindex.mjs",
     "indexnow": "node scripts/indexnow.mjs",
     "answers": "node scripts/apply-answers.mjs",
     "perf": "node scripts/gsc-perf.mjs",
