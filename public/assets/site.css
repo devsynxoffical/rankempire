@@ -2838,3 +2838,6 @@ body.in-fd .cur,body.in-fd .cur-r{opacity:0!important}
 .prf-ft .tlink{color:#fff}
 @media (max-width:1000px){.prf-box{grid-template-columns:1fr}}
 @media (max-width:600px){.prf-g{grid-template-columns:1fr 1fr}.prf-ft .btn{width:100%}}
+
+/* perf: hero copy paints immediately (keeps the slide-up), so LCP is not held by the reveal */
+.yh [data-r],.ph [data-r],.yh .split-w .w,.ph .split-w .w{opacity:1}

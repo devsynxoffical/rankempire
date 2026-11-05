@@ -14,8 +14,8 @@ export default function Xpb() {
         <div className="pbk-g">
           <article className="pbk" data-r="" style={{"--c": "#ec4e3b"} as React.CSSProperties}>
             <div className="im">
-              <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-local.jpg" aria-label="Map Pack Takeover">
-                <source src="/img/m-local.mp4" type="video/mp4" />
+              <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-local.jpg" aria-label="Map Pack Takeover">
+                <source data-src="/img/m-local.mp4" type="video/mp4" />
               </video>
             </div>
             <div>
@@ -52,8 +52,8 @@ export default function Xpb() {
           </article>
           <article className="pbk" data-r="" style={{"--c": "#2b55e8"} as React.CSSProperties}>
             <div className="im">
-              <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-growth.jpg" aria-label="Organic Revenue Engine">
-                <source src="/img/m-growth.mp4" type="video/mp4" />
+              <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.jpg" aria-label="Organic Revenue Engine">
+                <source data-src="/img/m-growth.mp4" type="video/mp4" />
               </video>
             </div>
             <div>
@@ -90,8 +90,8 @@ export default function Xpb() {
           </article>
           <article className="pbk" data-r="" style={{"--c": "#e37a38"} as React.CSSProperties}>
             <div className="im">
-              <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-tech.jpg" aria-label="Technical Recovery">
-                <source src="/img/m-tech.mp4" type="video/mp4" />
+              <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-tech.jpg" aria-label="Technical Recovery">
+                <source data-src="/img/m-tech.mp4" type="video/mp4" />
               </video>
             </div>
             <div>
@@ -128,8 +128,8 @@ export default function Xpb() {
           </article>
           <article className="pbk" data-r="" style={{"--c": "#4a9f5f"} as React.CSSProperties}>
             <div className="im">
-              <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-content.jpg" aria-label="Practice Growth">
-                <source src="/img/m-content.mp4" type="video/mp4" />
+              <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-content.jpg" aria-label="Practice Growth">
+                <source data-src="/img/m-content.mp4" type="video/mp4" />
               </video>
             </div>
             <div>

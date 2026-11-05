@@ -84,7 +84,7 @@ if(!RM){const ims=$$('main img').filter(i=>!i.closest('.nh,.pov,.mq,.lgm,.av,.hd
 
 /* point of view: autoplay disciplines, index + KPI card */
 $$('[data-ptabs]').forEach(w=>{const bs=$$('.tl button',w),kp=$$('.kp',w),ix=$('[data-ix]',w);let cur=0,t=0,vis=false;
-  const fc=$$('.fch',w),pim=$('.pim',w),pm=$$('.pim .pm',w);const sync=i=>{cur=i;kp.forEach((k,j)=>k.classList.toggle('on',j===i));pm.forEach((k,j)=>{k.classList.toggle('on',j===i);const v=k.querySelector('video');if(v){if(j===i){v.play&&v.play().catch(()=>{})}else v.pause()}});fc.forEach((k,j)=>k.classList.toggle('on',j===i));if(ix)ix.textContent='0'+(i+1)};
+  const fc=$$('.fch',w),pim=$('.pim',w),pm=$$('.pim .pm',w);const sync=i=>{cur=i;kp.forEach((k,j)=>k.classList.toggle('on',j===i));pm.forEach((k,j)=>{k.classList.toggle('on',j===i);const v=k.querySelector('video');if(v){if(j===i){{const s=v.querySelector('source[data-src]');if(s){s.src=s.dataset.src;s.removeAttribute('data-src');v.load()}}v.play&&v.play().catch(()=>{})}else v.pause()}});fc.forEach((k,j)=>k.classList.toggle('on',j===i));if(ix)ix.textContent='0'+(i+1)};
   bs.forEach((b,i)=>b.addEventListener('click',()=>{sync(i);const bar=b.querySelector('.bar');if(bar){bar.style.animation='none';bar.offsetWidth;bar.style.animation=''}}));
   new IntersectionObserver(es=>{const was=vis;vis=es[0].isIntersecting;if(vis&&!was&&bs[cur])bs[cur].click()}).observe(w);
   if(pim&&!RM&&matchMedia('(hover:hover)').matches){pim.addEventListener('pointermove',e=>{const r=pim.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;pim.style.setProperty('--tx',(x*8).toFixed(2)+'deg');pim.style.setProperty('--ty',(-y*8).toFixed(2)+'deg')});pim.addEventListener('pointerleave',()=>{pim.style.setProperty('--tx','0deg');pim.style.setProperty('--ty','0deg')})}
@@ -160,10 +160,10 @@ const nl=document.getElementById('nl');if(nl)nl.addEventListener('submit',e=>{e.
 })();
 /* ===== v7: make sure motion loops actually play ===== */
 (()=>{const vs=[...document.querySelectorAll('video[autoplay]')];if(!vs.length)return;
-const kick=v=>{v.muted=true;v.playsInline=true;const p=v.play();if(p&&p.catch)p.catch(()=>{})};
+const kick=v=>{{const s=v.querySelector('source[data-src]');if(s){s.src=s.dataset.src;s.removeAttribute('data-src');v.load()}}v.muted=true;v.playsInline=true;const p=v.play();if(p&&p.catch)p.catch(()=>{})};
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)kick(e.target);else e.target.pause()}),{rootMargin:'200px'});
-vs.forEach(v=>{v.setAttribute('preload','auto');io.observe(v)});
-addEventListener('pointerdown',()=>vs.forEach(kick),{once:true});addEventListener('touchstart',()=>vs.forEach(kick),{once:true});
+vs.forEach(v=>{if(!v.querySelector('source[data-src]'))v.setAttribute('preload','auto');io.observe(v)});
+const kv=()=>vs.filter(v=>!v.querySelector('source[data-src]')).forEach(kick);addEventListener('pointerdown',kv,{once:true});addEventListener('touchstart',kv,{once:true});
 })();
 /* ===== v8: timeline draw, checklist tick, ring progress ===== */
 (()=>{const $$=(s,c=document)=>[...c.querySelectorAll(s)];
