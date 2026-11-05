@@ -68,7 +68,7 @@ Usually both are involved. A good agency audits the site first and tells you wha
 
 ### Can a failed campaign be rescued?
 
-Almost always. The typical rescue is an audit, a cleanup of thin or duplicated pages, a rebuild of the page-per-intent structure, conversion tracking, and then a return to earning authority. Progress tends to be faster than a fresh start because some authority already exists.
+Almost always. The typical rescue is an audit (a short [SEO consulting](/seo-consulting/) engagement works well if your team will do the fixes), a cleanup of thin or duplicated pages, a rebuild of the page-per-intent structure, conversion tracking, and then a return to earning authority. Progress tends to be faster than a fresh start because some authority already exists.
 
 ### What is a realistic SEO budget for a small business?
 

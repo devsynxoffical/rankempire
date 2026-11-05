@@ -1,0 +1,85 @@
+{
+  "locations/new-york": {
+    "who": "New York",
+    "kw": "New York SEO company",
+    "plan": [
+      { "w": "Weeks 1-2", "t": "Audit and borough map", "items": ["Technical audit of every indexed page", "Map pack check by borough and neighborhood", "Google Business Profile category and service review", "Keyword map for \"seo company new york\" style searches and your services"] },
+      { "w": "Weeks 3-6", "t": "Foundations that rank", "items": ["Fix crawl, speed and indexing issues", "Rewrite service pages around NYC intent", "Neighborhood pages only where you really serve", "Citations cleaned up across NYC directories"] },
+      { "w": "Weeks 7-12", "t": "Authority and reviews", "items": ["Local links from NYC media, associations and partners", "Review request flow that mentions service and area", "AI Overview and ChatGPT citation tracking", "First Search Console report against the baseline"] }
+    ],
+    "rows": [
+      ["Who does the work", "One senior strategist who takes your calls", "Account manager relaying to an outsourced team"],
+      ["Contract", "Month to month after a 3-month onboarding", "12-month lock-in is common"],
+      ["Proof", "Verified Search Console reports", "Rank-tracker screenshots"],
+      ["Local focus", "Borough and neighborhood map pack work", "One citywide keyword list"],
+      ["AI search", "SEO, AEO, GEO and AGO in one plan", "Classic rankings only"],
+      ["Starting price", "From $599 a month", "Big-city retainers are often higher"]
+    ]
+  },
+  "locations/chicago": {
+    "who": "Chicago",
+    "kw": "Chicago SEO company",
+    "plan": [
+      { "w": "Weeks 1-2", "t": "Audit and neighborhood map", "items": ["Technical audit of every indexed page", "Map pack check from the Loop to the suburbs", "Google Business Profile category and service review", "Keyword map for \"chicago seo services\" style searches and your services"] },
+      { "w": "Weeks 3-6", "t": "Foundations that rank", "items": ["Fix crawl, speed and indexing issues", "Service pages rewritten for Chicago intent", "Suburb pages only where you really serve", "Citations cleaned up across Chicagoland directories"] },
+      { "w": "Weeks 7-12", "t": "Authority and reviews", "items": ["Local links from Chicago media, chambers and partners", "Review request flow that mentions service and area", "AI Overview and ChatGPT citation tracking", "First Search Console report against the baseline"] }
+    ],
+    "rows": [
+      ["Who does the work", "One senior strategist who takes your calls", "Account manager relaying to an outsourced team"],
+      ["Contract", "Month to month after a 3-month onboarding", "12-month lock-in is common"],
+      ["Proof", "Verified Search Console reports", "Rank-tracker screenshots"],
+      ["Local focus", "Neighborhood and suburb map pack work", "One citywide keyword list"],
+      ["AI search", "SEO, AEO, GEO and AGO in one plan", "Classic rankings only"],
+      ["Starting price", "From $599 a month", "Big-city retainers are often higher"]
+    ]
+  },
+  "locations/houston": {
+    "who": "Houston",
+    "kw": "Houston SEO company",
+    "plan": [
+      { "w": "Weeks 1-2", "t": "Audit and metro map", "items": ["Technical audit of every indexed page", "Map pack check across Houston, Katy, Sugar Land and The Woodlands", "Google Business Profile category and service review", "Keyword map for \"houston seo\" style searches and your services"] },
+      { "w": "Weeks 3-6", "t": "Foundations that rank", "items": ["Fix crawl, speed and indexing issues", "Service pages rewritten for Houston intent", "Area pages only where you really serve", "Citations cleaned up across Houston directories"] },
+      { "w": "Weeks 7-12", "t": "Authority and reviews", "items": ["Local links from Houston media, chambers and partners", "Review request flow that mentions service and area", "AI Overview and ChatGPT citation tracking", "First Search Console report against the baseline"] }
+    ],
+    "rows": [
+      ["Who does the work", "One senior strategist who takes your calls", "Account manager relaying to an outsourced team"],
+      ["Contract", "Month to month after a 3-month onboarding", "12-month lock-in is common"],
+      ["Proof", "Verified Search Console reports", "Rank-tracker screenshots"],
+      ["Local focus", "Metro-wide map pack work, suburb by suburb", "One citywide keyword list"],
+      ["AI search", "SEO, AEO, GEO and AGO in one plan", "Classic rankings only"],
+      ["Starting price", "From $599 a month", "Big-city retainers are often higher"]
+    ]
+  },
+  "seo-consulting": {
+    "who": "your team",
+    "kw": "SEO consultant",
+    "plan": [
+      { "w": "Weeks 1-2", "t": "Diagnose", "items": ["Full technical and content audit", "Search Console and analytics review", "Competitor gap analysis", "Prioritized fix list your team can ship"] },
+      { "w": "Weeks 3-6", "t": "Plan and review", "items": ["90-day roadmap with owners and dates", "Keyword map: one intent, one page", "Review of every page and fix before it ships", "Weekly or biweekly strategy calls"] },
+      { "w": "Weeks 7-12", "t": "Train and measure", "items": ["Team training on briefs, schema and links", "Migration or redesign sign-off where needed", "AI search visibility baseline", "Search Console report and next-quarter plan"] }
+    ],
+    "rows": [
+      ["Who does the work", "Your team, with a senior consultant directing", "Agency team you cannot see"],
+      ["Cost", "Lower monthly fee, no production markup", "Retainer that includes production"],
+      ["Knowledge", "Stays in-house through training", "Leaves when the contract ends"],
+      ["Speed", "Your developers ship fixes directly", "Requests queue behind other clients"],
+      ["Best for", "Teams with a marketer or developer", "Teams with no in-house capacity"]
+    ]
+  },
+  "seo-for-electricians": {
+    "who": "electricians",
+    "kw": "electrician SEO",
+    "plan": [
+      { "w": "Weeks 1-2", "t": "Audit and service map", "items": ["Technical audit of every page", "Map pack check for \"electrician near me\" across your area", "Google Business Profile categories: Electrician plus secondary services", "Keyword map for panel upgrades, EV chargers, rewiring and emergency calls"] },
+      { "w": "Weeks 3-6", "t": "Pages that book jobs", "items": ["One page per high-value service", "24/7 emergency page with a click-to-call path", "Service area pages only for towns you cover", "License, insurance and permit details on every page"] },
+      { "w": "Weeks 7-12", "t": "Reviews and authority", "items": ["Review flow that names the job and the town", "Links from suppliers, trade groups and local news", "AI Overview and ChatGPT citation tracking", "Calls and form leads tracked against the baseline"] }
+    ],
+    "rows": [
+      ["Industry knowledge", "Electrician playbook: emergency, EV, panels, permits", "Generic local SEO template"],
+      ["Who does the work", "One senior strategist who takes your calls", "Account manager relaying to an outsourced team"],
+      ["Contract", "Month to month after a 3-month onboarding", "12-month lock-in is common"],
+      ["Reporting", "Calls, forms and booked jobs", "Rankings only"],
+      ["Starting price", "From $599 a month", "Often bundled with ads you did not ask for"]
+    ]
+  }
+}

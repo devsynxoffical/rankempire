@@ -8,7 +8,7 @@ $1,500 to $5,000 / month|Multi-location local, regional, small e-commerce or Saa
 $5,000 to $20,000+ / month|National, enterprise and competitive e-commerce or SaaS programs with dedicated teams
 :::
 
-Three other price shapes exist alongside monthly retainers: one-time audits ($500 to $5,000), hourly consulting ($100 to $300 per hour) and project pricing for a migration or a site rebuild ($3,000 to $30,000). Most businesses end up on a monthly plan, because SEO is ongoing work and the results compound.
+Three other price shapes exist alongside monthly retainers: one-time audits ($500 to $5,000), hourly [SEO consulting](/seo-consulting/) ($100 to $300 per hour) and project pricing for a migration or a site rebuild ($3,000 to $30,000). Most businesses end up on a monthly plan, because SEO is ongoing work and the results compound.
 
 ## What drives the price
 

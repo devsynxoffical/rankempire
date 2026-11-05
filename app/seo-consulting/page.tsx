@@ -7,6 +7,7 @@ import Footer from '@/components/layout/Footer';
 import OrgSchema from '@/components/seo/OrgSchema';
 import ProofStrip from '@/components/sections/ProofStrip';
 import DeepGuide from '@/components/sections/DeepGuide';
+import TopPlan from '@/components/sections/TopPlan';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
 import V2 from '@/components/pages/seo-consulting/V2';
@@ -60,6 +61,7 @@ export default function Page() {
         <WhoItIsFor />
         <Comparison />
         <DeepGuide slug="seo-consulting" />
+        <TopPlan slug="seo-consulting" />
         <Pricing />
         <Faq />
         <Pmq />

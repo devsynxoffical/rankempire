@@ -1,7 +1,7 @@
 // Generated from content/posts/local-seo-checklist.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
 
-export const WORDS = 1100;
+export const WORDS = 1103;
 export const FAQ = [{"q":"What matters most for ranking in the Google map pack?","a":"Relevance (a complete profile and site that clearly match the search), distance (which you cannot change) and prominence (reviews, links and mentions). The profile and reviews are the fastest levers; links and mentions compound over months."},{"q":"How often should I post on Google Business Profile?","a":"Weekly is enough to keep the profile active. Posts are a minor ranking factor on their own, but profiles with recent activity hold positions better and convert more viewers into calls."},{"q":"Do citations still matter for local SEO?","a":"Consistent citations matter; volume does not. Fix the major platforms and your industry's directories, make every listing identical, and stop there. Hundreds of low-quality directory listings add nothing."}];
 
 export default function Body() {
@@ -45,7 +45,7 @@ export default function Body() {
           <h2 id="location-and-service-pages">{"Location and service pages"}</h2>
           <p>{"Create a page for each core service and each important area you serve. Include real details: projects completed nearby, local regulations, travel times, photos and reviews from that area. Avoid copying the same text with the city name swapped, which is the most common reason local pages get filtered out of the index."}</p>
           <ul><li>{"One service, one page. Pages listing ten services rank for none."}</li><li>{"Area pages only where you can say something true and specific about the area."}</li><li>{"Link every service page to the contact page and to the relevant area pages, and link the homepage to all of them."}</li><li>{"Add FAQs pulled from the questions customers actually ask by phone. These also feed "}<a href="/aeo/">{"answer engines"}</a>{"."}</li></ul>
-          <p>{"Our industry playbooks show the page structure for specific markets, for example "}<a href="/seo-for-plumbers/">{"SEO for plumbers"}</a>{", "}<a href="/seo-for-dentists/">{"SEO for dentists"}</a>{" and "}<a href="/seo-for-landscaping/">{"SEO for landscaping companies"}</a>{"."}</p>
+          <p>{"Our industry playbooks show the page structure for specific markets, for example "}<a href="/seo-for-plumbers/">{"SEO for plumbers"}</a>{", "}<a href="/seo-for-electricians/">{"SEO for electricians"}</a>{", "}<a href="/seo-for-dentists/">{"SEO for dentists"}</a>{" and "}<a href="/seo-for-landscaping/">{"SEO for landscaping companies"}</a>{"."}</p>
           <h2 id="technical-basics">{"Technical basics"}</h2>
           <p>{"A slow or broken site caps everything above. The checks that matter for a local business are short:"}</p>
           <ul><li>{"The site loads in under three seconds on a phone."}</li><li>{"Every important page is indexed and linked from the navigation or the homepage."}</li><li>{"Name, address, phone and hours on the site match the profile exactly."}</li><li>{"The contact form works on a phone and sends to someone who answers."}</li><li>{"There is one version of the site (www or non-www, https) and the rest redirect to it."}</li></ul>

@@ -93,7 +93,7 @@ That is why we run them as one program with one roadmap rather than selling AEO 
 
 ## A worked example: one service page, three surfaces
 
-Take a page about emergency plumbing in Houston. For classic search it needs the basics: title, H1, service details, reviews, internal links from the Houston location page and the [plumbers industry page](/seo-for-plumbers/), and a few local citations. For answer engines it needs a short passage that says exactly what a 24-hour callout costs and how fast a plumber arrives, under a heading that asks that question. For generative engines it needs the business to appear on lists of Houston plumbers, a profile with consistent details, reviews that mention emergency work, and a page that was updated this quarter rather than three years ago.
+Take a page about emergency plumbing in Houston. For classic search it needs the basics: title, H1, service details, reviews, internal links from the Houston location page and the [plumbers industry page](/seo-for-plumbers/) (the same pattern works for [electricians](/seo-for-electricians/)), and a few local citations. For answer engines it needs a short passage that says exactly what a 24-hour callout costs and how fast a plumber arrives, under a heading that asks that question. For generative engines it needs the business to appear on lists of Houston plumbers, a profile with consistent details, reviews that mention emergency work, and a page that was updated this quarter rather than three years ago.
 
 Same page. One roadmap. Three ways of being found.
 

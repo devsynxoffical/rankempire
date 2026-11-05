@@ -44,7 +44,7 @@ Create a page for each core service and each important area you serve. Include r
 - Link every service page to the contact page and to the relevant area pages, and link the homepage to all of them.
 - Add FAQs pulled from the questions customers actually ask by phone. These also feed [answer engines](/aeo/).
 
-Our industry playbooks show the page structure for specific markets, for example [SEO for plumbers](/seo-for-plumbers/), [SEO for dentists](/seo-for-dentists/) and [SEO for landscaping companies](/seo-for-landscaping/).
+Our industry playbooks show the page structure for specific markets, for example [SEO for plumbers](/seo-for-plumbers/), [SEO for electricians](/seo-for-electricians/), [SEO for dentists](/seo-for-dentists/) and [SEO for landscaping companies](/seo-for-landscaping/).
 
 ## Technical basics
 
