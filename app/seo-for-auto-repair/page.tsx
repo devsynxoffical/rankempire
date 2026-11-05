@@ -4,6 +4,8 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +25,12 @@ import Related from '@/components/pages/seo-for-auto-repair/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Auto Repair SEO Services & Company | RankEmpire" },
-  description: "SEO for auto repair shops: rank for brake, AC, transmission and check engine searches with repair pages, profile optimization and reviews.",
+  title: { absolute: "SEO for Auto Repair Shops & Garages | RankEmpire" },
+  description: "SEO for auto repair shops: rank for brakes, AC, diagnostics and your makes, win the map pack and earn trust with reviews. Free audit, month to month.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-auto-repair/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Auto Repair SEO Services & Company | RankEmpire", description: "SEO for auto repair shops: rank for brake, AC, transmission and check engine searches with repair pages, profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-auto-repair/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "Auto Repair SEO Services & Company | RankEmpire", description: "SEO for auto repair shops: rank for brake, AC, transmission and check engine searches with repair pages, profile optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Auto Repair Shops & Garages | RankEmpire", description: "SEO for auto repair shops: rank for brakes, AC, diagnostics and your makes, win the map pack and earn trust with reviews. Free audit, month to month.", url: "https://www.rankempire.us/seo-for-auto-repair/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO for Auto Repair Shops & Garages | RankEmpire", description: "SEO for auto repair shops: rank for brakes, AC, diagnostics and your makes, win the map pack and earn trust with reviews. Free audit, month to month." },
 };
 
 export default function Page() {
@@ -45,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V1 />
         <QuickAnswer slug="seo-for-auto-repair" />
+        <ProofStrip context="auto repair SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-auto-repair" kind="industry" audience="auto repair shops" kw="check engine light diagnostic near me" question="timing belt replacement cost" />
         <Searches />
@@ -54,6 +57,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-auto-repair" />
         <Pricing />
         <Faq />
         <Pmq />

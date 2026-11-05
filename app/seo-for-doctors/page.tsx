@@ -4,6 +4,8 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +25,12 @@ import Related from '@/components/pages/seo-for-doctors/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Medical Practice SEO Services & Company | RankEmpire" },
-  description: "SEO for doctors and medical practices: win patients searching by specialty, condition and insurance with treatment pages, reviews and map pack rankings.",
+  title: { absolute: "Doctor & Medical Practice SEO Services | RankEmpire" },
+  description: "Doctor SEO services and medical practice search engine optimization: provider pages, treatment content, Google Maps per office. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-doctors/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Medical Practice SEO Services & Company | RankEmpire", description: "SEO for doctors and medical practices: win patients searching by specialty, condition and insurance with treatment pages, reviews and map pack rankings.", url: "https://www.rankempire.us/seo-for-doctors/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Medical Practice SEO Services & Company | RankEmpire", description: "SEO for doctors and medical practices: win patients searching by specialty, condition and insurance with treatment pages, reviews and map pack rankings." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Doctor & Medical Practice SEO Services | RankEmpire", description: "Doctor SEO services and medical practice search engine optimization: provider pages, treatment content, Google Maps per office. Free audit.", url: "https://www.rankempire.us/seo-for-doctors/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Doctor & Medical Practice SEO Services | RankEmpire", description: "Doctor SEO services and medical practice search engine optimization: provider pages, treatment content, Google Maps per office. Free audit." },
 };
 
 export default function Page() {
@@ -45,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V1 />
         <QuickAnswer slug="seo-for-doctors" />
+        <ProofStrip context="medical practice SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-doctors" kind="industry" audience="doctors and medical practices" kw="primary care doctor accepting new patients" question="annual physical exam cost without insurance" />
         <Searches />
@@ -54,6 +57,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-doctors" />
         <Pricing />
         <Faq />
         <Pmq />

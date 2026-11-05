@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
 import OrgSchema from '@/components/seo/OrgSchema';
 import DeepGuide from '@/components/sections/DeepGuide';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
@@ -46,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V2 />
         <QuickAnswer slug="seo-for-salons" />
+        <ProofStrip context="salon SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-salons" kind="industry" audience="hair salons" kw="hair salon near me" question="tape in extensions cost" />
         <Searches />

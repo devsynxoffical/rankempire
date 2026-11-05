@@ -30,9 +30,9 @@ export default function V1() {
               {"Medical and Health"}
             </span>
             <h1 data-r="">
-              {"SEO for "}
+              {"Doctor SEO Services for "}
               <span className="acc">
-                {"Doctors and Medical Practices"}
+                {"Medical Practices"}
               </span>
             </h1>
             <p className="lead" data-r="">

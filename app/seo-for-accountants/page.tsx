@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
 import OrgSchema from '@/components/seo/OrgSchema';
 import DeepGuide from '@/components/sections/DeepGuide';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
@@ -25,11 +26,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "CPA & Accountant SEO Services & Company | RankEmpire" },
-  description: "CPA firm SEO services that win tax, bookkeeping and advisory clients: niche pages, Google Maps, tax-season content. Free audit in 2 days.",
+  description: "Accountant SEO services and CPA firm SEO that win tax, bookkeeping and advisory clients: niche pages, Google Maps, tax-season content. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-accountants/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "CPA & Accountant SEO Services & Company | RankEmpire", description: "CPA firm SEO services that win tax, bookkeeping and advisory clients: niche pages, Google Maps, tax-season content. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-accountants/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "CPA & Accountant SEO Services & Company | RankEmpire", description: "CPA firm SEO services that win tax, bookkeeping and advisory clients: niche pages, Google Maps, tax-season content. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "CPA & Accountant SEO Services & Company | RankEmpire", description: "Accountant SEO services and CPA firm SEO that win tax, bookkeeping and advisory clients: niche pages, Google Maps, tax-season content. Free audit.", url: "https://www.rankempire.us/seo-for-accountants/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "CPA & Accountant SEO Services & Company | RankEmpire", description: "Accountant SEO services and CPA firm SEO that win tax, bookkeeping and advisory clients: niche pages, Google Maps, tax-season content. Free audit." },
 };
 
 export default function Page() {
@@ -46,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V2 />
         <QuickAnswer slug="seo-for-accountants" />
+        <ProofStrip context="CPA firm SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-accountants" kind="industry" audience="accountants and CPAs" kw="cpa near me for small business" question="s corp vs llc tax savings" />
         <Searches />

@@ -30,7 +30,7 @@ export default function V2() {
               {"National SEO"}
             </span>
             <h1 data-r="">
-              {"National SEO for brands that compete "}
+              {"National SEO services for brands that compete "}
               <span className="acc">
                 {"everywhere"}
               </span>

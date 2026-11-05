@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
 import OrgSchema from '@/components/seo/OrgSchema';
 import DeepGuide from '@/components/sections/DeepGuide';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
@@ -46,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V0 />
         <QuickAnswer slug="seo-for-painters" />
+        <ProofStrip context="painting contractor SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-painters" kind="industry" audience="painting contractors" kw="house painters near me" question="exterior house painting cost" />
         <Searches />

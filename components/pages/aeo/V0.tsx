@@ -30,12 +30,11 @@ export default function V0() {
               {"Answer Engine Optimization"}
             </span>
             <h1 data-r="">
-              {"Be the "}
+              {"Answer engine optimization that makes you the "}
               <span className="acc">
                 {"answer"}
               </span>
-              {", not just a result"}
-            </h1>
+                          </h1>
             <p className="lead" data-r="">
               {"Answer engine optimization puts your pages inside featured snippets, People Also Ask, voice search and AI answer boxes."}
             </p>

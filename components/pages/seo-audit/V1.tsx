@@ -30,7 +30,7 @@ export default function V1() {
               {"SEO Audit"}
             </span>
             <h1 data-r="">
-              {"An SEO audit that ends with a "}
+              {"SEO audit services that end with a "}
               <span className="acc">
                 {"plan"}
               </span>

@@ -4,6 +4,8 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +25,12 @@ import Related from '@/components/pages/seo-for-flooring-companies/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Flooring SEO Services & Company | RankEmpire" },
-  description: "SEO for flooring companies: rank for hardwood, LVP, tile, carpet and refinishing searches with flooring-type pages, showroom map pack rankings and reviews.",
+  title: { absolute: "Flooring Company SEO Services | RankEmpire" },
+  description: "Flooring company SEO services for hardwood, LVP, tile and carpet: showroom Google Maps, material pages, galleries. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-flooring-companies/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Flooring SEO Services & Company | RankEmpire", description: "SEO for flooring companies: rank for hardwood, LVP, tile, carpet and refinishing searches with flooring-type pages, showroom map pack rankings and reviews.", url: "https://www.rankempire.us/seo-for-flooring-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "Flooring SEO Services & Company | RankEmpire", description: "SEO for flooring companies: rank for hardwood, LVP, tile, carpet and refinishing searches with flooring-type pages, showroom map pack rankings and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Flooring Company SEO Services | RankEmpire", description: "Flooring company SEO services for hardwood, LVP, tile and carpet: showroom Google Maps, material pages, galleries. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-flooring-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Flooring Company SEO Services | RankEmpire", description: "Flooring company SEO services for hardwood, LVP, tile and carpet: showroom Google Maps, material pages, galleries. Free audit in 2 days." },
 };
 
 export default function Page() {
@@ -45,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V2 />
         <QuickAnswer slug="seo-for-flooring-companies" />
+        <ProofStrip context="flooring company SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-flooring-companies" kind="industry" audience="flooring companies" kw="flooring store near me" question="luxury vinyl plank installation cost" />
         <Searches />
@@ -54,6 +57,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-flooring-companies" />
         <Pricing />
         <Faq />
         <Pmq />

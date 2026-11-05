@@ -30,9 +30,9 @@ export default function V2() {
               {"Professional Services"}
             </span>
             <h1 data-r="">
-              {"SEO for "}
+              {"Accountant SEO Services for "}
               <span className="acc">
-                {"Accountants and CPAs"}
+                {"CPA Firms"}
               </span>
             </h1>
             <p className="lead" data-r="">

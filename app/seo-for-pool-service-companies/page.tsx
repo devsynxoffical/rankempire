@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
 import OrgSchema from '@/components/seo/OrgSchema';
 import DeepGuide from '@/components/sections/DeepGuide';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
@@ -46,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V0 />
         <QuickAnswer slug="seo-for-pool-service-companies" />
+        <ProofStrip context="pool service SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-pool-service-companies" kind="industry" audience="pool service companies" kw="green pool cleanup near me" question="salt water pool vs chlorine maintenance" />
         <Searches />

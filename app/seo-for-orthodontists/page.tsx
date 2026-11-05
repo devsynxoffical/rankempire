@@ -4,6 +4,8 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -24,11 +26,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Orthodontist SEO Services & Company | RankEmpire" },
-  description: "SEO for orthodontists: win braces and Invisalign consultations with treatment and cost pages, before-and-after galleries, reviews and map pack optimization.",
+  description: "Orthodontist SEO services for braces and Invisalign consultations: treatment and cost pages, Google Maps, reviews. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-orthodontists/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Orthodontist SEO Services & Company | RankEmpire", description: "SEO for orthodontists: win braces and Invisalign consultations with treatment and cost pages, before-and-after galleries, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-orthodontists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Orthodontist SEO Services & Company | RankEmpire", description: "SEO for orthodontists: win braces and Invisalign consultations with treatment and cost pages, before-and-after galleries, reviews and map pack optimization." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Orthodontist SEO Services & Company | RankEmpire", description: "Orthodontist SEO services for braces and Invisalign consultations: treatment and cost pages, Google Maps, reviews. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-orthodontists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Orthodontist SEO Services & Company | RankEmpire", description: "Orthodontist SEO services for braces and Invisalign consultations: treatment and cost pages, Google Maps, reviews. Free audit in 2 days." },
 };
 
 export default function Page() {
@@ -45,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V1 />
         <QuickAnswer slug="seo-for-orthodontists" />
+        <ProofStrip context="orthodontic SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-orthodontists" kind="industry" audience="orthodontists" kw="orthodontist near me" question="invisalign cost with insurance" />
         <Searches />
@@ -54,6 +57,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-orthodontists" />
         <Pricing />
         <Faq />
         <Pmq />

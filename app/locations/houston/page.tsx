@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Houston SEO Company & SEO Agency | RankEmpire" },
-  description: "Houston SEO agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search from $599/mo. Get a free audit in 2 days.",
+  description: "Houston SEO company and agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/locations/houston/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Houston SEO Company & SEO Agency | RankEmpire", description: "Houston SEO agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search from $599/mo. Get a free audit in 2 days.", url: "https://www.rankempire.us/locations/houston/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Houston SEO Company & SEO Agency | RankEmpire", description: "Houston SEO agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search from $599/mo. Get a free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Houston SEO Company & SEO Agency | RankEmpire", description: "Houston SEO company and agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search. Free audit in 2 days.", url: "https://www.rankempire.us/locations/houston/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Houston SEO Company & SEO Agency | RankEmpire", description: "Houston SEO company and agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search. Free audit in 2 days." },
 };
 
 export default function Page() {

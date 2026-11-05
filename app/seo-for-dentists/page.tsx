@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
 import OrgSchema from '@/components/seo/OrgSchema';
 import DeepGuide from '@/components/sections/DeepGuide';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
@@ -46,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V2 />
         <QuickAnswer slug="seo-for-dentists" />
+        <ProofStrip context="dental SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-dentists" kind="industry" audience="dentists" kw="emergency dentist open now" question="dental implant cost" />
         <Searches />

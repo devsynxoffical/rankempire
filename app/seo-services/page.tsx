@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
 import OrgSchema from '@/components/seo/OrgSchema';
 import DeepGuide from '@/components/sections/DeepGuide';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
@@ -48,6 +49,7 @@ export default function Page() {
       <main id="main">
         <V1 />
         <QuickAnswer slug="seo-services" />
+        <ProofStrip context="SEO" />
         <Statement />
         <SearchSurfaces slug="seo-services" kind="service" audience="your business" kw="seo services for small business" question="What SEO services does RankEmpire offer?" />
         <Core />

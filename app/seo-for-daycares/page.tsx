@@ -4,6 +4,8 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +25,12 @@ import Related from '@/components/pages/seo-for-daycares/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Daycare SEO Services & Company | RankEmpire" },
-  description: "SEO for daycares and preschools: reach parents searching by age group and neighborhood with program pages, trust signals, Google Business Profile and reviews.",
+  title: { absolute: "Daycare & Preschool SEO Services | RankEmpire" },
+  description: "Daycare SEO for childcare centers and preschools: program pages, trust content, Google Maps and tour bookings. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-daycares/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Daycare SEO Services & Company | RankEmpire", description: "SEO for daycares and preschools: reach parents searching by age group and neighborhood with program pages, trust signals, Google Business Profile and reviews.", url: "https://www.rankempire.us/seo-for-daycares/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "Daycare SEO Services & Company | RankEmpire", description: "SEO for daycares and preschools: reach parents searching by age group and neighborhood with program pages, trust signals, Google Business Profile and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Daycare & Preschool SEO Services | RankEmpire", description: "Daycare SEO for childcare centers and preschools: program pages, trust content, Google Maps and tour bookings. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-daycares/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Daycare & Preschool SEO Services | RankEmpire", description: "Daycare SEO for childcare centers and preschools: program pages, trust content, Google Maps and tour bookings. Free audit in 2 days." },
 };
 
 export default function Page() {
@@ -45,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V1 />
         <QuickAnswer slug="seo-for-daycares" />
+        <ProofStrip context="daycare SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-daycares" kind="industry" audience="daycares and preschools" kw="infant daycare near me openings" question="play based vs academic preschool" />
         <Searches />
@@ -54,6 +57,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-daycares" />
         <Pricing />
         <Faq />
         <Pmq />

@@ -4,6 +4,8 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -22,12 +24,12 @@ import Related from '@/components/pages/locations__los-angeles/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Los Angeles SEO Company & LA SEO Agency | RankEmpire" },
-  description: "SEO company in Los Angeles: local SEO, Google Business Profile optimization and content for businesses in Downtown LA, Santa Monica, Pasadena and the Valley.",
+  title: { absolute: "Search Engine Optimization Los Angeles, CA | RankEmpire" },
+  description: "Search engine optimization in Los Angeles, CA for businesses across LA, Santa Monica, Pasadena and the Valley. Local SEO and AI search. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/locations/los-angeles/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Los Angeles SEO Company & LA SEO Agency | RankEmpire", description: "SEO company in Los Angeles: local SEO, Google Business Profile optimization and content for businesses in Downtown LA, Santa Monica, Pasadena and the Valley.", url: "https://www.rankempire.us/locations/los-angeles/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Los Angeles SEO Company & LA SEO Agency | RankEmpire", description: "SEO company in Los Angeles: local SEO, Google Business Profile optimization and content for businesses in Downtown LA, Santa Monica, Pasadena and the Valley." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Search Engine Optimization Los Angeles, CA | RankEmpire", description: "Search engine optimization in Los Angeles, CA for businesses across LA, Santa Monica, Pasadena and the Valley. Local SEO and AI search. Free audit.", url: "https://www.rankempire.us/locations/los-angeles/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Search Engine Optimization Los Angeles, CA | RankEmpire", description: "Search engine optimization in Los Angeles, CA for businesses across LA, Santa Monica, Pasadena and the Valley. Local SEO and AI search. Free audit." },
 };
 
 export default function Page() {
@@ -44,6 +46,7 @@ export default function Page() {
       <main id="main">
         <V0 />
         <QuickAnswer slug="locations/los-angeles" />
+        <ProofStrip context="Los Angeles SEO" />
         <Statement />
         <SearchSurfaces slug="locations/los-angeles" kind="city" audience="businesses in Los Angeles" city="Los Angeles" kw="seo company los angeles" question="How much does local SEO cost in Los Angeles?" />
         <Considerations />
@@ -52,6 +55,7 @@ export default function Page() {
         <Marquee />
         <Industries />
         <Services />
+        <DeepGuide slug="locations/los-angeles" />
         <Pricing />
         <Faq />
         <Pmq />

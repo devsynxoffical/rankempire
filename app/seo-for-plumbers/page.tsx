@@ -4,6 +4,8 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +25,12 @@ import Related from '@/components/pages/seo-for-plumbers/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Plumber SEO Services & Company | RankEmpire" },
-  description: "SEO for plumbers: win emergency plumbing searches in the map pack and water heater, repipe and remodel searches with service pages and reviews.",
+  title: { absolute: "SEO for Plumbers: Plumber SEO Services | RankEmpire" },
+  description: "SEO for plumbers that wins emergency calls and water heater, sewer and drain jobs: Google Maps, service pages, reviews. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-plumbers/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Plumber SEO Services & Company | RankEmpire", description: "SEO for plumbers: win emergency plumbing searches in the map pack and water heater, repipe and remodel searches with service pages and reviews.", url: "https://www.rankempire.us/seo-for-plumbers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "Plumber SEO Services & Company | RankEmpire", description: "SEO for plumbers: win emergency plumbing searches in the map pack and water heater, repipe and remodel searches with service pages and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Plumbers: Plumber SEO Services | RankEmpire", description: "SEO for plumbers that wins emergency calls and water heater, sewer and drain jobs: Google Maps, service pages, reviews. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-plumbers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO for Plumbers: Plumber SEO Services | RankEmpire", description: "SEO for plumbers that wins emergency calls and water heater, sewer and drain jobs: Google Maps, service pages, reviews. Free audit in 2 days." },
 };
 
 export default function Page() {
@@ -45,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V1 />
         <QuickAnswer slug="seo-for-plumbers" />
+        <ProofStrip context="plumber SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-plumbers" kind="industry" audience="plumbers" kw="emergency plumber near me" question="tankless vs tank water heater" />
         <Searches />
@@ -54,6 +57,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-plumbers" />
         <Pricing />
         <Faq />
         <Pmq />

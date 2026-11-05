@@ -4,6 +4,8 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -24,11 +26,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Moving Company SEO Services & Company | RankEmpire" },
-  description: "SEO for moving companies: rank for local, long-distance and commercial moving searches with service pages, pricing content, map pack optimization and reviews.",
+  description: "Moving company SEO services for local and long-distance moves: Google Maps, service and pricing pages, reviews. Free audit, month to month.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-movers/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Moving Company SEO Services & Company | RankEmpire", description: "SEO for moving companies: rank for local, long-distance and commercial moving searches with service pages, pricing content, map pack optimization and reviews.", url: "https://www.rankempire.us/seo-for-movers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "Moving Company SEO Services & Company | RankEmpire", description: "SEO for moving companies: rank for local, long-distance and commercial moving searches with service pages, pricing content, map pack optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Moving Company SEO Services & Company | RankEmpire", description: "Moving company SEO services for local and long-distance moves: Google Maps, service and pricing pages, reviews. Free audit, month to month.", url: "https://www.rankempire.us/seo-for-movers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Moving Company SEO Services & Company | RankEmpire", description: "Moving company SEO services for local and long-distance moves: Google Maps, service and pricing pages, reviews. Free audit, month to month." },
 };
 
 export default function Page() {
@@ -45,6 +47,7 @@ export default function Page() {
       <main id="main">
         <V2 />
         <QuickAnswer slug="seo-for-movers" />
+        <ProofStrip context="moving company SEO" />
         <Statement />
         <SearchSurfaces slug="seo-for-movers" kind="industry" audience="moving companies" kw="movers available this weekend" question="how much do movers cost for 2 bedroom apartment" />
         <Searches />
@@ -54,6 +57,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-movers" />
         <Pricing />
         <Faq />
         <Pmq />

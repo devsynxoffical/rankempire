@@ -17,7 +17,8 @@
     "perf": "node scripts/gsc-perf.mjs",
     "surfaces": "node scripts/apply-surfaces.mjs",
     "pages": "node scripts/gsc-pages.mjs",
-    "guides": "node scripts/apply-guides.mjs"
+    "guides": "node scripts/apply-guides.mjs",
+    "kwmap": "python3 scripts/keyword-map.py"
   },
   "dependencies": {
     "lenis": "^1.1.13",

@@ -4,6 +4,8 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -24,12 +26,12 @@ import Related from '@/components/pages/national-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "National SEO Services to Rank Across the US | RankEmpire" },
-  description: "National SEO for brands that sell across the country: competitive keyword strategy, authority building, scalable content and technical SEO.",
+  title: { absolute: "National SEO Services & National SEO Agency | RankEmpire" },
+  description: "National SEO services that rank brands across the US: competitive keyword strategy, content, digital PR and technical SEO. Free audit, no lock-in.",
   alternates: { canonical: "https://www.rankempire.us/national-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "National SEO Services to Rank Across the US | RankEmpire", description: "National SEO for brands that sell across the country: competitive keyword strategy, authority building, scalable content and technical SEO.", url: "https://www.rankempire.us/national-seo/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "National SEO Services to Rank Across the US | RankEmpire", description: "National SEO for brands that sell across the country: competitive keyword strategy, authority building, scalable content and technical SEO." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "National SEO Services & National SEO Agency | RankEmpire", description: "National SEO services that rank brands across the US: competitive keyword strategy, content, digital PR and technical SEO. Free audit, no lock-in.", url: "https://www.rankempire.us/national-seo/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "National SEO Services & National SEO Agency | RankEmpire", description: "National SEO services that rank brands across the US: competitive keyword strategy, content, digital PR and technical SEO. Free audit, no lock-in." },
 };
 
 export default function Page() {
@@ -46,6 +48,7 @@ export default function Page() {
       <main id="main">
         <V2 />
         <QuickAnswer slug="national-seo" />
+        <ProofStrip context="national SEO" />
         <Statement />
         <SearchSurfaces slug="national-seo" kind="service" audience="your business" kw="national seo company" question="What is national SEO?" />
         <InDepth />
@@ -56,6 +59,7 @@ export default function Page() {
         <Process />
         <WhoItIsFor />
         <Comparison />
+        <DeepGuide slug="national-seo" />
         <Pricing />
         <Faq />
         <Pmq />

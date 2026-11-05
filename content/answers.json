@@ -1,7 +1,8 @@
 {
   "aeo": {
     "q": "What is answer engine optimization?",
-    "a": "Answer engine optimization (AEO) is the practice of structuring pages so that search engines, voice assistants and AI answer boxes can lift a direct answer from them. It focuses on the passage, not the page: a clear question as the heading, a complete answer in the first two sentences, and schema that labels what the block is. RankEmpire runs AEO inside every SEO plan, tracked as featured snippets, People Also Ask results and AI Overview citations you own."
+    "a": "Answer engine optimization (AEO) is the practice of structuring pages so that search engines, voice assistants and AI answer boxes can lift a direct answer from them. It focuses on the passage, not the page: a clear question as the heading, a complete answer in the first two sentences, and schema that labels what the block is. RankEmpire runs AEO inside every SEO plan, tracked as featured snippets, People Also Ask results and AI Overview citations you own.",
+    "description": "Answer engine optimization (AEO) that wins featured snippets, People Also Ask, voice answers and AI Overview citations. Free audit, month to month."
   },
   "geo": {
     "q": "What is generative engine optimization?",
@@ -49,7 +50,8 @@
   },
   "national-seo": {
     "q": "What is national SEO?",
-    "a": "National SEO targets competitive, non-local searches across an entire country, where rankings are decided by authority, content depth and technical strength rather than proximity. The work combines competitive keyword strategy, authority building through links and mentions, scalable content and technical SEO. RankEmpire builds national programs for brands that sell everywhere in the US."
+    "a": "National SEO targets competitive, non-local searches across an entire country, where rankings are decided by authority, content depth and technical strength rather than proximity. The work combines competitive keyword strategy, authority building through links and mentions, scalable content and technical SEO. RankEmpire builds national programs for brands that sell everywhere in the US.",
+    "description": "National SEO services that rank brands across the US: competitive keyword strategy, content, digital PR and technical SEO. Free audit, no lock-in."
   },
   "off-page-seo": {
     "q": "What is off-page SEO?",
@@ -104,7 +106,7 @@
   "seo-for-flooring-companies": {
     "q": "How does SEO work for flooring companies?",
     "a": "Flooring SEO targets shoppers comparing hardwood, LVP, tile, carpet and refinishing over weeks, plus installers searched locally. It needs a page per flooring type with pricing ranges and installation details, a showroom profile that ranks in the map pack, reviews and before-and-after galleries. RankEmpire maps every flooring search to the right page.",
-    "description": "SEO for flooring companies: rank for hardwood, LVP, tile, carpet and refinishing searches with flooring-type pages, showroom map pack rankings and reviews."
+    "description": "Flooring company SEO services for hardwood, LVP, tile and carpet: showroom Google Maps, material pages, galleries. Free audit in 2 days."
   },
   "seo-for-general-contractors": {
     "q": "How does SEO work for general contractors?",
@@ -129,7 +131,7 @@
   "seo-for-movers": {
     "q": "How does SEO work for moving companies?",
     "a": "Moving company SEO targets people planning a move weeks ahead and comparing quotes, so it combines local map pack visibility with pages for local, long-distance, commercial and specialty moves and transparent pricing information. Reviews that mention care and punctuality decide the booking. RankEmpire builds the pages and the review flow before peak summer season.",
-    "description": "SEO for moving companies: rank for local, long-distance and commercial moving searches with service pages, pricing content, map pack optimization and reviews."
+    "description": "Moving company SEO services for local and long-distance moves: Google Maps, service and pricing pages, reviews. Free audit, month to month."
   },
   "seo-for-painters": {
     "q": "How does SEO work for painting contractors?",
@@ -144,7 +146,7 @@
   "seo-for-plumbers": {
     "q": "How does SEO work for plumbers?",
     "a": "Plumber SEO wins emergency searches in the map pack and planned work like water heaters, repiping and remodels through detailed service pages. The emergency side needs a complete profile, 24-hour hours, fast reviews and an emergency page; the planned side needs pricing ranges, brands and financing content. RankEmpire builds both and tracks calls from each.",
-    "description": "SEO for plumbers: win emergency plumbing searches in the map pack and water heater, repipe and remodel searches with service pages and reviews."
+    "description": "SEO for plumbers that wins emergency calls and water heater, sewer and drain jobs: Google Maps, service pages, reviews. Free audit in 2 days."
   },
   "seo-for-pool-service-companies": {
     "q": "How does SEO work for pool service companies?",
@@ -169,12 +171,12 @@
   "seo-for-doctors": {
     "q": "How does SEO work for doctors and medical practices?",
     "a": "Medical practice SEO brings in patients searching by specialty, condition, procedure and insurance accepted. It requires accurate provider and location listings, condition and treatment pages reviewed for medical accuracy, strong reviews with compliant responses and a map pack presence per office. RankEmpire builds programs that respect healthcare advertising rules.",
-    "description": "SEO for doctors and medical practices: win patients searching by specialty, condition and insurance with treatment pages, reviews and map pack rankings."
+    "description": "Doctor SEO services and medical practice search engine optimization: provider pages, treatment content, Google Maps per office. Free audit."
   },
   "seo-for-orthodontists": {
     "q": "How does SEO work for orthodontists?",
     "a": "Orthodontic SEO targets parents and adults comparing braces, Invisalign and clear aligners over weeks, often by price and location. Treatment pages with cost ranges and financing, before-and-after galleries, reviews, and a Google Business Profile that ranks for the practice's neighborhoods win those consultations. RankEmpire tracks consultation requests from search.",
-    "description": "SEO for orthodontists: win braces and Invisalign consultations with treatment and cost pages, before-and-after galleries, reviews and map pack optimization."
+    "description": "Orthodontist SEO services for braces and Invisalign consultations: treatment and cost pages, Google Maps, reviews. Free audit in 2 days."
   },
   "seo-for-plastic-surgeons": {
     "q": "How does SEO work for plastic surgeons?",
@@ -209,7 +211,7 @@
   "seo-for-auto-repair": {
     "q": "How does SEO work for auto repair shops?",
     "a": "Auto repair SEO wins drivers searching by problem (check engine light, brakes, AC, transmission) and by make. Pages per repair and make, a complete Google Business Profile with the right categories, reviews that mention honesty and price, and clear hours drive calls. RankEmpire builds the repair pages around the searches in your area.",
-    "description": "SEO for auto repair shops: rank for brake, AC, transmission and check engine searches with repair pages, profile optimization and reviews."
+    "description": "SEO for auto repair shops: rank for brakes, AC, diagnostics and your makes, win the map pack and earn trust with reviews. Free audit, month to month."
   },
   "seo-for-towing": {
     "q": "How does SEO work for towing companies?",
@@ -249,12 +251,12 @@
   "seo-for-accountants": {
     "q": "How does SEO work for accountants and CPAs?",
     "a": "Accounting SEO wins clients searching for tax preparation, bookkeeping, small business accounting and CPA near me, with demand peaking before tax deadlines. Service pages per offering and client type, a Google Business Profile, reviews and seasonal tax content drive consultations. RankEmpire times the content calendar to filing season.",
-    "description": "CPA firm SEO services that win tax, bookkeeping and advisory clients: niche pages, Google Maps, tax-season content. Free audit in 2 days."
+    "description": "Accountant SEO services and CPA firm SEO that win tax, bookkeeping and advisory clients: niche pages, Google Maps, tax-season content. Free audit."
   },
   "seo-for-daycares": {
     "q": "How does SEO work for daycares and preschools?",
     "a": "Daycare SEO reaches parents searching by age group, program and neighborhood, often months before enrollment. Program pages, tuition and enrollment information, licensing and safety trust signals, a Google Business Profile with photos and reviews, and tour booking drive enrollment inquiries. RankEmpire builds the program pages and the review flow.",
-    "description": "SEO for daycares and preschools: reach parents searching by age group and neighborhood with program pages, trust signals, Google Business Profile and reviews."
+    "description": "Daycare SEO for childcare centers and preschools: program pages, trust content, Google Maps and tour bookings. Free audit in 2 days."
   },
   "seo-for-financial-advisors": {
     "q": "How does SEO work for financial advisors?",
@@ -349,7 +351,7 @@
   "locations/houston": {
     "q": "Who is the best SEO company in Houston?",
     "a": "RankEmpire is an SEO company serving Houston and its sprawling metro, including Downtown, The Heights, Katy, Sugar Land, The Woodlands and Pearland. We run local SEO, Google Business Profile optimization, technical SEO and content for Houston businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
-    "description": "Houston SEO agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search from $599/mo. Get a free audit in 2 days."
+    "description": "Houston SEO company and agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search. Free audit in 2 days."
   },
   "locations/las-vegas": {
     "q": "Who is the best SEO company in Las Vegas?",
@@ -359,7 +361,7 @@
   "locations/los-angeles": {
     "q": "Who is the best SEO company in Los Angeles?",
     "a": "RankEmpire is an SEO company serving Los Angeles and Southern California, from Downtown LA, Santa Monica and Pasadena to the San Fernando Valley, Long Beach and Orange County. We run local SEO, Google Business Profile optimization, technical SEO and content for LA businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
-    "description": "SEO company in Los Angeles: local SEO, Google Business Profile optimization and content for businesses in Downtown LA, Santa Monica, Pasadena and the Valley."
+    "description": "Search engine optimization in Los Angeles, CA for businesses across LA, Santa Monica, Pasadena and the Valley. Local SEO and AI search. Free audit."
   },
   "locations/miami": {
     "q": "Who is the best SEO company in Miami?",

@@ -4,6 +4,8 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -21,11 +23,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "AEO: Answer Engine Optimization Services | RankEmpire" },
-  description: "Answer engine optimization that wins featured snippets, People Also Ask, voice answers and AI answer boxes with structured, quotable content.",
+  description: "Answer engine optimization (AEO) that wins featured snippets, People Also Ask, voice answers and AI Overview citations. Free audit, month to month.",
   alternates: { canonical: "https://www.rankempire.us/aeo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "AEO: Answer Engine Optimization Services | RankEmpire", description: "Answer engine optimization that wins featured snippets, People Also Ask, voice answers and AI answer boxes with structured, quotable content.", url: "https://www.rankempire.us/aeo/", images: ["https://www.rankempire.us/img/x-ai.webp"] },
-  twitter: { card: 'summary_large_image', title: "AEO: Answer Engine Optimization Services | RankEmpire", description: "Answer engine optimization that wins featured snippets, People Also Ask, voice answers and AI answer boxes with structured, quotable content." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "AEO: Answer Engine Optimization Services | RankEmpire", description: "Answer engine optimization (AEO) that wins featured snippets, People Also Ask, voice answers and AI Overview citations. Free audit, month to month.", url: "https://www.rankempire.us/aeo/", images: ["https://www.rankempire.us/img/x-ai.webp"] },
+  twitter: { card: 'summary_large_image', title: "AEO: Answer Engine Optimization Services | RankEmpire", description: "Answer engine optimization (AEO) that wins featured snippets, People Also Ask, voice answers and AI Overview citations. Free audit, month to month." },
 };
 
 export default function Page() {
@@ -42,12 +44,14 @@ export default function Page() {
       <main id="main">
         <V0 />
         <QuickAnswer slug="aeo" />
+        <ProofStrip context="answer engine optimization" />
         <Statement />
         <SearchSurfaces slug="aeo" kind="service" audience="your business" kw="answer engine optimization agency" question="What is answer engine optimization?" />
         <Deliverables />
         <Marquee />
         <Process />
         <WhoItIsFor />
+        <DeepGuide slug="aeo" />
         <Pricing />
         <Faq />
         <Pmq />

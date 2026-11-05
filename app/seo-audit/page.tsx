@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import ProofStrip from '@/components/sections/ProofStrip';
 import OrgSchema from '@/components/seo/OrgSchema';
 import DeepGuide from '@/components/sections/DeepGuide';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
@@ -25,12 +26,12 @@ import Related from '@/components/pages/seo-audit/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free SEO Audit & Technical Analysis (Action Plan) | RankEmpire" },
+  title: { absolute: "SEO Audit Services: Free Audit & Action Plan | RankEmpire" },
   description: "Professional SEO audit for US businesses: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/seo-audit/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free SEO Audit & Technical Analysis (Action Plan) | RankEmpire", description: "Professional SEO audit for US businesses: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days.", url: "https://www.rankempire.us/seo-audit/", images: ["https://www.rankempire.us/img/w2.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free SEO Audit & Technical Analysis (Action Plan) | RankEmpire", description: "Professional SEO audit for US businesses: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Audit Services: Free Audit & Action Plan | RankEmpire", description: "Professional SEO audit for US businesses: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days.", url: "https://www.rankempire.us/seo-audit/", images: ["https://www.rankempire.us/img/w2.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Audit Services: Free Audit & Action Plan | RankEmpire", description: "Professional SEO audit for US businesses: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days." },
 };
 
 export default function Page() {
@@ -47,6 +48,7 @@ export default function Page() {
       <main id="main">
         <V1 />
         <QuickAnswer slug="seo-audit" />
+        <ProofStrip context="SEO audit" />
         <Statement />
         <SearchSurfaces slug="seo-audit" kind="service" audience="your business" kw="free seo audit" question="What does a RankEmpire SEO audit cover?" />
         <InDepth />
