@@ -514,5 +514,31 @@
         "p": "Track the featured snippets and People Also Ask results you own, impressions on queries where you have no clicks (often a sign you are the zero-click answer), and citations in AI Overviews for a fixed set of questions. Our monthly reports show these next to rankings and leads."
       }
     ]
+  },
+  "international-seo": {
+    "title": "International SEO: how to rank in new countries and languages",
+    "intro": "International SEO makes a website rank correctly for each country and language it targets. It decides which version of a page Google shows to a searcher in Germany, Mexico or Canada, and it fails quietly: a brand can publish translated pages and still show the wrong country version, split its authority, or not rank abroad at all.",
+    "sections": [
+      {
+        "h": "Choosing a structure: ccTLDs, subdomains or subfolders",
+        "p": "Country domains (example.de) send the strongest local signal but split authority across sites and cost more to run. Subdomains (de.example.com) are easier to host separately but are treated partly as separate sites. Subfolders (example.com/de/) keep all authority on one domain and are the right default for most US brands expanding abroad. The choice should follow your legal, hosting and team setup, not habit."
+      },
+      {
+        "h": "Hreflang done right",
+        "p": "Hreflang tags tell Google which language and country each URL serves and which pages are equivalents. Every version must reference every other version and itself, use valid language and region codes, and point to indexable, canonical URLs. Missing return links and hreflang pointing to redirected or noindexed pages are the most common errors; our [technical SEO](/technical-seo/) audits check every pair."
+      },
+      {
+        "h": "Localization, not just translation",
+        "p": "Searchers in each market use different words, currencies, units and examples. Keyword research per country, local pricing and shipping details, and native-speaker review turn a translated page into one that ranks and converts. Machine translation without review rarely ranks."
+      },
+      {
+        "h": "Earning authority in each market",
+        "p": "Links and mentions from sites in the target country carry the most weight there. Local press, industry associations, partners and directories in each market build that authority, alongside [link building](/link-building/) for the main domain."
+      },
+      {
+        "h": "International SEO for US brands and for brands entering the US",
+        "p": "We support US companies expanding abroad and international brands entering the US market. For large multi-country sites, see [enterprise SEO](/enterprise-seo/); for companies selling across the US only, [national SEO](/national-seo/) is the better fit. Every engagement starts with a [free audit](/contact-us/)."
+      }
+    ]
   }
 }
