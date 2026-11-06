@@ -53,6 +53,7 @@ export default function DeepGuide({ slug }: { slug: string }) {
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
               </a>
+              <a className="dg-alt" href="/book-a-call/">Or book a free strategy call</a>
             </p>
           </div>
         </div>

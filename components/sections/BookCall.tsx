@@ -1,19 +1,27 @@
 import site from '@/content/site.json';
 
 // Google Calendar appointment scheduling embed. The iframe is lazy-loaded so it never slows the first paint.
-export default function BookCall({ title = 'Book a free strategy call' }: { title?: string }) {
+export default function BookCall({ title = 'Book a free strategy call', page = false }: { title?: string; page?: boolean }) {
+  const H = page ? 'h1' : 'h2';
   const b = site.booking;
   const wa = (site.whatsapp || '').replace(/\D/g, '');
   return (
-    <section className="x bk" id="book" aria-labelledby="bk-h">
+    <section className={page ? 'x bk bk-page' : 'x bk'} id="book" aria-labelledby="bk-h">
       <div className="wrap">
         <div className="bk-g">
           <div className="xh bk-l" data-r="">
+            {page && (
+              <nav className="crumb bk-crumb" aria-label="Breadcrumb">
+                <a href="/">Home</a>
+                <span className="sep">/</span>
+                <span aria-current="page">Book a call</span>
+              </nav>
+            )}
             <span className="xe">
               <i></i>
               Book a call
             </span>
-            <h2 className="h2" id="bk-h">{title}</h2>
+            <H className="h2" id="bk-h">{title}</H>
             <p>
               Pick a time that suits you for a call with {site.founder.name}. We review your site, your local rankings and your competitors, and you leave with a clear next step, whether or not you hire us.
             </p>
@@ -22,8 +30,8 @@ export default function BookCall({ title = 'Book a free strategy call' }: { titl
               <li>Your site and Google Business Profile reviewed live</li>
               <li>A prioritized plan you can act on</li>
             </ul>
-            <a className="btn ac" href={b.url} target="_blank" rel="noopener">
-              Open the booking page
+            <a className="btn ac" href={page ? b.url : '/book-a-call/'} {...(page ? { target: '_blank', rel: 'noopener' } : {})}>
+              {page ? 'Open in Google Calendar' : 'Open the booking page'}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>

@@ -36,6 +36,7 @@ function message(path: string): string {
   if (p.startsWith('seo-tools/')) { const t = p.split('/')[1].replace(/-/g, ' ').replace(/\bseo\b/g, 'SEO'); return `${hi}I used your free ${t} and I'd like help improving my website's rankings.`; }
   if (p === 'seo-tools') return `${hi}I used your free SEO tools and I'd like help improving my website's rankings.`;
   if (SERVICES[p]) return `${hi}I'm interested in ${SERVICES[p]} for my business. Can we talk?`;
+  if (p === 'book-a-call') return `${hi}I'd like to book a free SEO strategy call. When are you available?`;
   if (p === 'contact-us') return `${hi}I'd like a free SEO audit for my website.`;
   return `${hi}I'd like a free SEO audit and to know how you can help my business rank on Google.`;
 }

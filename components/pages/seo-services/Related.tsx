@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/local-seo/","label":"Local SEO"},{"href":"/ecommerce-seo/","label":"E-commerce SEO"},{"href":"/saas-seo/","label":"SaaS SEO"},{"href":"/seo-company/","label":"SEO Company"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Choose an SEO Company"},{"href":"/blog/ai-agent-optimization/","label":"Guide: What Is AI Agent Optimization (AGO)"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/local-seo/","label":"Local SEO"},{"href":"/ecommerce-seo/","label":"E-commerce SEO"},{"href":"/saas-seo/","label":"SaaS SEO"},{"href":"/seo-company/","label":"SEO Company"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Choose an SEO Company"},{"href":"/blog/ai-agent-optimization/","label":"Guide: What Is AI Agent Optimization (AGO)"},{"href":"/book-a-call/","label":"Book a free strategy call"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

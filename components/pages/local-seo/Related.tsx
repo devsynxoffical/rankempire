@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/google-business-profile-seo/","label":"Google Business Profile SEO"},{"href":"/seo-packages/local-seo/","label":"Local SEO Packages"},{"href":"/link-building/","label":"Link Building"},{"href":"/seo-company/","label":"SEO Company"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/seo-for-contractors/","label":"Guide: SEO for Contractors"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/google-business-profile-seo/","label":"Google Business Profile SEO"},{"href":"/seo-packages/local-seo/","label":"Local SEO Packages"},{"href":"/link-building/","label":"Link Building"},{"href":"/seo-company/","label":"SEO Company"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/seo-for-contractors/","label":"Guide: SEO for Contractors"},{"href":"/book-a-call/","label":"Book a free strategy call"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

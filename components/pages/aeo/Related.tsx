@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/geo/","label":"Generative Engine Optimization"},{"href":"/content-seo/","label":"Content SEO"},{"href":"/technical-seo/","label":"Technical SEO"},{"href":"/seo-audit/","label":"SEO Audit"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/blog/ai-agent-optimization/","label":"Guide: What Is AI Agent Optimization (AGO)"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/geo/","label":"Generative Engine Optimization"},{"href":"/content-seo/","label":"Content SEO"},{"href":"/technical-seo/","label":"Technical SEO"},{"href":"/seo-audit/","label":"SEO Audit"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/blog/ai-agent-optimization/","label":"Guide: What Is AI Agent Optimization (AGO)"},{"href":"/book-a-call/","label":"Book a free strategy call"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

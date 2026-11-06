@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/off-page-seo/","label":"Off-Page SEO"},{"href":"/content-seo/","label":"Content SEO"},{"href":"/seo-tools/backlink-checker/","label":"Free Backlink Checker"},{"href":"/b2b-seo/","label":"B2B SEO"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/off-page-seo/","label":"Off-Page SEO"},{"href":"/content-seo/","label":"Content SEO"},{"href":"/seo-tools/backlink-checker/","label":"Free Backlink Checker"},{"href":"/b2b-seo/","label":"B2B SEO"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/book-a-call/","label":"Book a free strategy call"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

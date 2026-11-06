@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/technical-seo/","label":"Technical SEO"},{"href":"/content-seo/","label":"Content SEO"},{"href":"/keyword-research/","label":"Keyword Research"},{"href":"/aeo/","label":"Answer Engine Optimization"},{"href":"/blog/technical-seo-basics/","label":"Guide: Technical SEO Basics Every Business Owner Should Know"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/technical-seo/","label":"Technical SEO"},{"href":"/content-seo/","label":"Content SEO"},{"href":"/keyword-research/","label":"Keyword Research"},{"href":"/aeo/","label":"Answer Engine Optimization"},{"href":"/blog/technical-seo-basics/","label":"Guide: Technical SEO Basics Every Business Owner Should Know"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/book-a-call/","label":"Book a free strategy call"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

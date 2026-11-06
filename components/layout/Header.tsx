@@ -639,12 +639,31 @@ export default function Header({ active = '' }: { active?: string }) {
                     </span>
                   </span>
                 </a>
+                <a className="dl" href="/book-a-call/">
+                  <span className="ic">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <rect x="3" y="5" width="18" height="16" rx="3" />
+                      <path d="M3 10h18M8 3v4M16 3v4" />
+                    </svg>
+                  </span>
+                  <span>
+                    <b>
+                      {"Book a Call"}
+                    </b>
+                    <span>
+                      {"Free strategy call, pick a time"}
+                    </span>
+                  </span>
+                </a>
               </div>
             </div>
           </div>
         </nav>
         {"\n"}
         <div className="rt">
+          <a className="btn ln sm hd-book" href="/book-a-call/">
+            {"Book a call"}
+          </a>
           <a className="btn ln sm" href="/seo-packages/">
             {"Pricing"}
           </a>

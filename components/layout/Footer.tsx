@@ -92,7 +92,7 @@ export default function Footer() {
               {"↗"}
             </i>
           </a>
-          <a href="/contact-us/#book">
+          <a href="/book-a-call/">
             {"Book a call "}
             <i>
               {"↗"}

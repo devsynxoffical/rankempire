@@ -14,7 +14,7 @@ const SERVICE_LABEL = {
   'content-seo': 'Content SEO', 'ecommerce-seo': 'E-commerce SEO', 'enterprise-seo': 'Enterprise SEO', 'google-business-profile-seo': 'Google Business Profile SEO',
   'international-seo': 'International SEO', 'keyword-research': 'Keyword Research', 'link-building': 'Link Building', 'local-seo': 'Local SEO', 'national-seo': 'National SEO',
   'off-page-seo': 'Off-Page SEO', 'on-page-seo': 'On-Page SEO', 'saas-seo': 'SaaS SEO', 'seo-audit': 'SEO Audit', 'seo-company': 'SEO Company', 'seo-consulting': 'SEO Consulting',
-  'seo-services': 'All SEO Services', 'technical-seo': 'Technical SEO', 'seo-packages': 'SEO Packages and Pricing', 'seo-packages/local-seo': 'Local SEO Packages',
+  'seo-services': 'All SEO Services', 'book-a-call': 'Book a Free Strategy Call', 'technical-seo': 'Technical SEO', 'seo-packages': 'SEO Packages and Pricing', 'seo-packages/local-seo': 'Local SEO Packages',
   'seo-packages/ecommerce-seo': 'E-commerce SEO Packages', 'seo-packages/saas-seo': 'SaaS SEO Packages', 'about-us': 'About RankEmpire', 'industries': 'All 51 Industries', 'case-studies': 'Verified Results', 'locations': 'All 17 Locations', 'seo-tools/backlink-checker': 'Free Backlink Checker',
 };
 const svc = (slug) => ({ href: `/${slug}/`, label: SERVICE_LABEL[slug] });
@@ -74,11 +74,11 @@ industries.forEach((it, i) => {
 cities.forEach((c, i) => {
   const items = c.nearby.map(city);
   items.push(ind(industries[(i * 3) % industries.length].slug), ind(industries[(i * 3 + 7) % industries.length].slug));
-  items.push(post('how-to-choose-an-seo-company'), post(['local-seo-90-day-roadmap', 'google-business-profile-optimization-checklist', 'how-much-does-seo-cost'][i % 3]));
+  items.push(post('how-to-choose-an-seo-company'), { href: '/book-a-call/', label: 'Book a free strategy call' });
   write(`locations__${c.slug}`, `Other cities, industries and guides`, items, `app/locations/${c.slug}/page.tsx`); n++;
 });
 for (const [slug, [svcs, ps]] of Object.entries(SERVICES)) {
-  const items = [...svcs.map(svc), ...ps.map(post), { href: '/industries/', label: 'Industry playbooks' }, { href: '/case-studies/', label: 'Verified client results' }];
+  const items = [...svcs.map(svc), ...ps.map(post), { href: '/book-a-call/', label: 'Book a free strategy call' }, { href: '/case-studies/', label: 'Verified client results' }];
   if (!existsSync(`app/${slug}/page.tsx`)) { console.log('missing page', slug); continue; }
   write(slug, 'Related services, guides and results', items, `app/${slug}/page.tsx`); n++;
 }

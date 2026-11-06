@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/technical-seo/","label":"Technical SEO"},{"href":"/seo-services/","label":"All SEO Services"},{"href":"/seo-consulting/","label":"SEO Consulting"},{"href":"/seo-packages/","label":"SEO Packages and Pricing"},{"href":"/blog/how-we-got-our-pages-indexed/","label":"Guide: How We Got 123 of 124 Pages Indexed"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/technical-seo/","label":"Technical SEO"},{"href":"/seo-services/","label":"All SEO Services"},{"href":"/seo-consulting/","label":"SEO Consulting"},{"href":"/seo-packages/","label":"SEO Packages and Pricing"},{"href":"/blog/how-we-got-our-pages-indexed/","label":"Guide: How We Got 123 of 124 Pages Indexed"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"},{"href":"/book-a-call/","label":"Book a free strategy call"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

@@ -55,6 +55,7 @@ export default function TopPlan({ slug }: { slug: string }) {
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>
             </a>
+            <a className="tp-alt" href="/book-a-call/">Or book a free strategy call</a>
           </div>
         </div>
       </div>

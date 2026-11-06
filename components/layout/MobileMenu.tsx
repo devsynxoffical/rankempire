@@ -230,10 +230,16 @@ export default function MobileMenu() {
           <a href="/contact-us/">
             {"Contact Us"}
           </a>
+          <a href="/book-a-call/">
+            {"Book a Call"}
+          </a>
         </div>
       </details>
       <a href="/case-studies/">
         {"Results"}
+      </a>
+      <a className="btn ln lg" href="/book-a-call/">
+        {"Book a free strategy call"}
       </a>
       <a className="btn ac lg" href="/contact-us/">
         {"Get a free SEO audit"}

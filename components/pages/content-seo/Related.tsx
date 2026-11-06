@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/keyword-research/","label":"Keyword Research"},{"href":"/on-page-seo/","label":"On-Page SEO"},{"href":"/aeo/","label":"Answer Engine Optimization"},{"href":"/off-page-seo/","label":"Off-Page SEO"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/industries/","label":"Industry playbooks"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/keyword-research/","label":"Keyword Research"},{"href":"/on-page-seo/","label":"On-Page SEO"},{"href":"/aeo/","label":"Answer Engine Optimization"},{"href":"/off-page-seo/","label":"Off-Page SEO"},{"href":"/blog/aeo-vs-geo-vs-seo/","label":"Guide: AEO vs GEO vs SEO"},{"href":"/blog/why-most-seo-campaigns-fail/","label":"Guide: Why Most SEO Campaigns Fail in the First 6 Months"},{"href":"/book-a-call/","label":"Book a free strategy call"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }
