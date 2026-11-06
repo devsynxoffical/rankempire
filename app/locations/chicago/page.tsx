@@ -25,12 +25,12 @@ import Related from '@/components/pages/locations__chicago/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Chicago SEO Company & SEO Agency | RankEmpire" },
-  description: "Chicago SEO company for city and suburban businesses. Local SEO, Google Maps and AI search, plans from $599/mo, month to month. Free audit in 2 days.",
+  title: { absolute: "Chicago SEO Company, Agency & Firm | RankEmpire" },
+  description: "Chicago SEO company, agency and firm for city and suburban businesses. SEO services for Google Maps and AI search, from $599/mo. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/locations/chicago/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Chicago SEO Company & SEO Agency | RankEmpire", description: "Chicago SEO company for city and suburban businesses. Local SEO, Google Maps and AI search, plans from $599/mo, month to month. Free audit in 2 days.", url: "https://www.rankempire.us/locations/chicago/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Chicago SEO Company & SEO Agency | RankEmpire", description: "Chicago SEO company for city and suburban businesses. Local SEO, Google Maps and AI search, plans from $599/mo, month to month. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Chicago SEO Company, Agency & Firm | RankEmpire", description: "Chicago SEO company, agency and firm for city and suburban businesses. SEO services for Google Maps and AI search, from $599/mo. Free audit in 2 days.", url: "https://www.rankempire.us/locations/chicago/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Chicago SEO Company, Agency & Firm | RankEmpire", description: "Chicago SEO company, agency and firm for city and suburban businesses. SEO services for Google Maps and AI search, from $599/mo. Free audit in 2 days." },
 };
 
 export default function Page() {

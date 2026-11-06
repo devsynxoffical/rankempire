@@ -27,12 +27,12 @@ import Related from '@/components/pages/seo-consulting/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "SEO Consulting Services & SEO Consultant | RankEmpire" },
-  description: "SEO consulting services from an expert SEO consultant: audits, strategy sessions, migrations and team reviews. Free first SEO consultation, no long contracts.",
+  title: { absolute: "SEO Consultant & SEO Consulting Services | RankEmpire" },
+  description: "Hire an SEO consultant: SEO consulting services for audits, strategy, migrations and team training from a senior SEO expert. First consultation free.",
   alternates: { canonical: "https://www.rankempire.us/seo-consulting/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Consulting Services & SEO Consultant | RankEmpire", description: "SEO consulting services from an expert SEO consultant: audits, strategy sessions, migrations and team reviews. Free first SEO consultation, no long contracts.", url: "https://www.rankempire.us/seo-consulting/", images: ["https://www.rankempire.us/img/team.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Consulting Services & SEO Consultant | RankEmpire", description: "SEO consulting services from an expert SEO consultant: audits, strategy sessions, migrations and team reviews. Free first SEO consultation, no long contracts." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Consultant & SEO Consulting Services | RankEmpire", description: "Hire an SEO consultant: SEO consulting services for audits, strategy, migrations and team training from a senior SEO expert. First consultation free.", url: "https://www.rankempire.us/seo-consulting/", images: ["https://www.rankempire.us/img/team.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Consultant & SEO Consulting Services | RankEmpire", description: "Hire an SEO consultant: SEO consulting services for audits, strategy, migrations and team training from a senior SEO expert. First consultation free." },
 };
 
 export default function Page() {

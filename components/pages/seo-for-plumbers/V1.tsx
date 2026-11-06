@@ -36,7 +36,7 @@ export default function V1() {
               </span>
             </h1>
             <p className="lead" data-r="">
-              {"More calls, bookings and qualified leads for your plumbing company, from customers already searching for what you do."}
+              {"Plumber SEO and plumbing marketing that brings more emergency calls, bookings and qualified leads, from customers already searching for a plumber near them."}
             </p>
             {"\n"}
             <div className="yh-cta" data-r="">

@@ -36,7 +36,7 @@ export default function V1() {
               </span>
             </h1>
             <p className="lead" data-r="">
-              {"Electrician SEO services that win emergency calls and planned jobs like panel upgrades and EV chargers, from homeowners already searching for an electrician."}
+              {"Electrician SEO that wins emergency calls and planned jobs like panel upgrades and EV chargers. SEO for electricians and electrical contractors, from homeowners already searching."}
             </p>
             {"\n"}
             <div className="yh-cta" data-r="">

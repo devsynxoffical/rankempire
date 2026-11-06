@@ -25,12 +25,12 @@ import Related from '@/components/pages/seo-for-auto-detailing/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Car Detailing SEO Services for Detailers | RankEmpire" },
-  description: "SEO for car detailing businesses and detailers: Google Maps, service and ceramic coating pages, reviews. Local plans from $599/mo. Free audit in 2 days.",
+  title: { absolute: "Auto Detailing SEO & Car Detailing Marketing | RankEmpire" },
+  description: "Auto detailing SEO and car detailing marketing: Google Maps, ceramic coating and service pages, reviews. SEO for detailers from $599/mo. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-auto-detailing/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Car Detailing SEO Services for Detailers | RankEmpire", description: "SEO for car detailing businesses and detailers: Google Maps, service and ceramic coating pages, reviews. Local plans from $599/mo. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-auto-detailing/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "Car Detailing SEO Services for Detailers | RankEmpire", description: "SEO for car detailing businesses and detailers: Google Maps, service and ceramic coating pages, reviews. Local plans from $599/mo. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Auto Detailing SEO & Car Detailing Marketing | RankEmpire", description: "Auto detailing SEO and car detailing marketing: Google Maps, ceramic coating and service pages, reviews. SEO for detailers from $599/mo. Free audit.", url: "https://www.rankempire.us/seo-for-auto-detailing/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "Auto Detailing SEO & Car Detailing Marketing | RankEmpire", description: "Auto detailing SEO and car detailing marketing: Google Maps, ceramic coating and service pages, reviews. SEO for detailers from $599/mo. Free audit." },
 };
 
 export default function Page() {

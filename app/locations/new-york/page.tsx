@@ -25,12 +25,12 @@ import Related from '@/components/pages/locations__new-york/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "New York SEO Company & NYC SEO Agency | RankEmpire" },
-  description: "New York SEO company for NYC businesses in every borough. Local SEO, Google Maps and AI search. Plans from $599/mo, free audit in 2 days.",
+  title: { absolute: "New York SEO Agency & NYC SEO Company | RankEmpire" },
+  description: "New York SEO agency and NYC SEO company for every borough. SEO services for local, Google Maps and AI search, from $599/mo. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/locations/new-york/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "New York SEO Company & NYC SEO Agency | RankEmpire", description: "New York SEO company for NYC businesses in every borough. Local SEO, Google Maps and AI search. Plans from $599/mo, free audit in 2 days.", url: "https://www.rankempire.us/locations/new-york/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "New York SEO Company & NYC SEO Agency | RankEmpire", description: "New York SEO company for NYC businesses in every borough. Local SEO, Google Maps and AI search. Plans from $599/mo, free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "New York SEO Agency & NYC SEO Company | RankEmpire", description: "New York SEO agency and NYC SEO company for every borough. SEO services for local, Google Maps and AI search, from $599/mo. Free audit in 2 days.", url: "https://www.rankempire.us/locations/new-york/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "New York SEO Agency & NYC SEO Company | RankEmpire", description: "New York SEO agency and NYC SEO company for every borough. SEO services for local, Google Maps and AI search, from $599/mo. Free audit in 2 days." },
 };
 
 export default function Page() {

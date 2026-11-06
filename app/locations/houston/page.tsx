@@ -25,12 +25,12 @@ import Related from '@/components/pages/locations__houston/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Houston SEO Company & SEO Agency | RankEmpire" },
-  description: "Houston SEO company and agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search. Free audit in 2 days.",
+  title: { absolute: "Houston SEO Company, Agency & Firm | RankEmpire" },
+  description: "Houston SEO company and SEO firm for Katy, Sugar Land, The Woodlands and the whole metro. Houston SEO services for Maps and AI search. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/locations/houston/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Houston SEO Company & SEO Agency | RankEmpire", description: "Houston SEO company and agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search. Free audit in 2 days.", url: "https://www.rankempire.us/locations/houston/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Houston SEO Company & SEO Agency | RankEmpire", description: "Houston SEO company and agency covering Katy, Sugar Land, The Woodlands and the whole metro. Local SEO and AI search. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Houston SEO Company, Agency & Firm | RankEmpire", description: "Houston SEO company and SEO firm for Katy, Sugar Land, The Woodlands and the whole metro. Houston SEO services for Maps and AI search. Free audit in 2 days.", url: "https://www.rankempire.us/locations/houston/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Houston SEO Company, Agency & Firm | RankEmpire", description: "Houston SEO company and SEO firm for Katy, Sugar Land, The Woodlands and the whole metro. Houston SEO services for Maps and AI search. Free audit in 2 days." },
 };
 
 export default function Page() {

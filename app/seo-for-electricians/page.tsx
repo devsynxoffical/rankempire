@@ -26,12 +26,12 @@ import Related from '@/components/pages/seo-for-electricians/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Electrician SEO Services & Company | RankEmpire" },
-  description: "Electrician SEO services that win emergency calls and panel, EV charger and rewiring jobs. Map pack, service pages, reviews. Free audit in 2 days.",
+  title: { absolute: "Electrician SEO Services: SEO for Electricians | RankEmpire" },
+  description: "Electrician SEO and marketing that wins emergency calls and panel, EV charger and rewiring jobs. SEO for electricians and electrical contractors. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-electricians/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Electrician SEO Services & Company | RankEmpire", description: "Electrician SEO services that win emergency calls and panel, EV charger and rewiring jobs. Map pack, service pages, reviews. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-electricians/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "Electrician SEO Services & Company | RankEmpire", description: "Electrician SEO services that win emergency calls and panel, EV charger and rewiring jobs. Map pack, service pages, reviews. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Electrician SEO Services: SEO for Electricians | RankEmpire", description: "Electrician SEO and marketing that wins emergency calls and panel, EV charger and rewiring jobs. SEO for electricians and electrical contractors. Free audit.", url: "https://www.rankempire.us/seo-for-electricians/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Electrician SEO Services: SEO for Electricians | RankEmpire", description: "Electrician SEO and marketing that wins emergency calls and panel, EV charger and rewiring jobs. SEO for electricians and electrical contractors. Free audit." },
 };
 
 export default function Page() {

@@ -31,7 +31,7 @@ export default function PageHero() {
           </span>
         </h1>
         <p className="lead" data-r="">
-          {"Analyze a backlink export from any tool. Paste URLs to see referring domains, anchor text mix and link patterns."}
+          {"Check backlinks free: paste a backlink export from any tool to see referring domains, anchor text mix and link patterns. A private SEO backlink checker."}
         </p>
       </div>
     </section>

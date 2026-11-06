@@ -30,13 +30,13 @@ export default function V0() {
               {"Automotive"}
             </span>
             <h1 data-r="">
-              {"Car Detailing SEO for "}
+              {"Auto Detailing SEO for "}
               <span className="acc">
                 {"Detailers"}
               </span>
             </h1>
             <p className="lead" data-r="">
-              {"SEO for car detailing businesses and detail shops: more bookings for full details, ceramic coatings and mobile detailing from drivers already searching near you."}
+              {"Auto detailing SEO and car detailing marketing for detail shops: more bookings for full details, ceramic coatings and mobile detailing from drivers searching near you."}
             </p>
             {"\n"}
             <div className="yh-cta" data-r="">

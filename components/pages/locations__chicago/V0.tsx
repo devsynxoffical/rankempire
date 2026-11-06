@@ -33,10 +33,10 @@ export default function V0() {
               <span className="acc">
                 {"Chicago"}
               </span>
-              {" SEO company"}
+              {" SEO company & agency"}
             </h1>
             <p className="lead" data-r="">
-              {"Local SEO, technical SEO and content for Chicago businesses that want more calls, bookings and sales from Google."}
+              {"SEO services in Chicago from a Chicago SEO firm: local SEO, technical SEO and content for businesses that want more calls, bookings and sales from Google."}
             </p>
             {"\n"}
             <div className="yh-cta" data-r="">

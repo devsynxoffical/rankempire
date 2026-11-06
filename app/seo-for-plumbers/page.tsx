@@ -25,12 +25,12 @@ import Related from '@/components/pages/seo-for-plumbers/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "SEO for Plumbers: Plumber SEO Services | RankEmpire" },
-  description: "SEO for plumbers that wins emergency calls and water heater, sewer and drain jobs: Google Maps, service pages, reviews. Free audit in 2 days.",
+  title: { absolute: "SEO for Plumbers & Plumbing SEO Company | RankEmpire" },
+  description: "SEO for plumbers and plumbing marketing that wins emergency calls and water heater, sewer and drain jobs. A plumber SEO company for Maps and AI search.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-plumbers/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Plumbers: Plumber SEO Services | RankEmpire", description: "SEO for plumbers that wins emergency calls and water heater, sewer and drain jobs: Google Maps, service pages, reviews. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-plumbers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Plumbers: Plumber SEO Services | RankEmpire", description: "SEO for plumbers that wins emergency calls and water heater, sewer and drain jobs: Google Maps, service pages, reviews. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Plumbers & Plumbing SEO Company | RankEmpire", description: "SEO for plumbers and plumbing marketing that wins emergency calls and water heater, sewer and drain jobs. A plumber SEO company for Maps and AI search.", url: "https://www.rankempire.us/seo-for-plumbers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO for Plumbers & Plumbing SEO Company | RankEmpire", description: "SEO for plumbers and plumbing marketing that wins emergency calls and water heater, sewer and drain jobs. A plumber SEO company for Maps and AI search." },
 };
 
 export default function Page() {
