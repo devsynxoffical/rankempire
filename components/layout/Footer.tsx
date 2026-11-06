@@ -92,6 +92,12 @@ export default function Footer() {
               {"↗"}
             </i>
           </a>
+          <a href="/contact-us/#book">
+            {"Book a call "}
+            <i>
+              {"↗"}
+            </i>
+          </a>
         </nav>
         {"\n"}
         <div className="ffl">

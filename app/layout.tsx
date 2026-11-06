@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import WhatsAppButton from '@/components/layout/WhatsAppButton';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -93,7 +94,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="preload" href="/assets/fonts/dmsans-rP2Hp2ywxg089UriCZOIHQ.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <link rel="alternate" type="application/rss+xml" title="RankEmpire SEO Blog" href="/blog/feed.xml" />
         <link rel="stylesheet" href="/assets/fonts.css?v=1" />
-        <link rel="stylesheet" href="/assets/site.css?v=41" />
+        <link rel="stylesheet" href="/assets/site.css?v=42" />
         <script dangerouslySetInnerHTML={{ __html: SEEN }} />
       </head>
       <body suppressHydrationWarning>
@@ -101,6 +102,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <img height="1" width="1" style={{ display: 'none' }} alt="" src={`https://www.facebook.com/tr?id=${META_PIXEL_ID}&ev=PageView&noscript=1`} />
         </noscript>
         {children}
+        <WhatsAppButton />
         <Script id="meta-pixel" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: PIXEL }} />
         <Script src="/assets/lenis.min.js?v=1" strategy="beforeInteractive" />
         <Script src="/assets/site.js" strategy="afterInteractive" />

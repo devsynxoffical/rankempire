@@ -8,6 +8,7 @@ import OrgSchema from '@/components/seo/OrgSchema';
 import Yc from '@/components/pages/contact-us/Yc';
 import Next from '@/components/pages/contact-us/Next';
 import Faq from '@/components/pages/contact-us/Faq';
+import BookCall from '@/components/sections/BookCall';
 import Pmq from '@/components/sections/Pmq';
 
 export const metadata: Metadata = {
@@ -31,6 +32,7 @@ export default function Page() {
       <MobileMenu />
       <main id="main">
         <Yc />
+        <BookCall />
         <Next />
         <Faq />
         <Pmq />
