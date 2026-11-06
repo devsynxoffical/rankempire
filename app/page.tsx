@@ -18,6 +18,7 @@ import Rankgrid from '@/components/pages/home/Rankgrid';
 import Fd5 from '@/components/sections/Fd5';
 import Faq from '@/components/pages/home/Faq';
 import Popular from '@/components/pages/home/Popular';
+import BookCall from '@/components/sections/BookCall';
 import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 import Script from '@/components/pages/home/Script';
@@ -66,6 +67,7 @@ export default function Page() {
         <Rankgrid />
         <Fd5 />
         <Popular />
+        <BookCall />
         <Faq />
         <Pmq />
         <Robo />
