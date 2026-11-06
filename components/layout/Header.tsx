@@ -477,6 +477,15 @@ export default function Header({ active = '' }: { active?: string }) {
                 <a href="/locations/miami/">
                   {"SEO Company in Miami"}
                 </a>
+                <a href="/locations/nashville/">
+                  {"SEO Company in Nashville"}
+                </a>
+                <a href="/locations/tampa/">
+                  {"SEO Company in Tampa"}
+                </a>
+                <a href="/locations/brooklyn/">
+                  {"SEO Company in Brooklyn"}
+                </a>
                 <a href="/locations/phoenix/">
                   {"SEO Company in Phoenix"}
                 </a>

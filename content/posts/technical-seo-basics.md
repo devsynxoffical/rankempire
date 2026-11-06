@@ -72,6 +72,8 @@ If the drop has already happened, the recovery is the same list in reverse: rest
 
 If pages will not index, traffic dropped after a redesign, or your site is slow despite the fixes above, it is time for a professional [technical SEO audit](/technical-seo/). We start every program with one because the foundation decides what every later piece of work can achieve, which is also the first lesson in [why most SEO campaigns fail](/blog/why-most-seo-campaigns-fail/). You can [request a free audit](/contact-us/) and get a prioritized list within two business days.
 
+For a real example of these checks in action, see how we took our own site [from 17 to 123 indexed pages](/blog/how-we-got-our-pages-indexed/), with the Search Console data behind each step.
+
 ## FAQ
 
 ### What is the difference between crawling and indexing?

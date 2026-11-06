@@ -13,7 +13,7 @@ export default function Industries() {
         </div>
         <div className="xi-g">
           <a className="xi" href="/seo-for-roofing/" data-r="">
-            <img src="/img/i-home.webp" alt="" loading="lazy" />
+            <img src="/img/i-home.webp" alt="SEO for Roofing Companies" loading="lazy" />
             <div className="ov">
               <h3>
                 {"SEO for Roofing Companies"}
@@ -30,7 +30,7 @@ export default function Industries() {
             </div>
           </a>
           <a className="xi" href="/seo-for-cafes/" data-r="">
-            <img src="/img/i-food.webp" alt="" loading="lazy" />
+            <img src="/img/i-food.webp" alt="SEO for Cafes" loading="lazy" />
             <div className="ov">
               <h3>
                 {"SEO for Cafes"}
@@ -47,7 +47,7 @@ export default function Industries() {
             </div>
           </a>
           <a className="xi" href="/seo-for-therapists/" data-r="">
-            <img src="/img/i-med.webp" alt="" loading="lazy" />
+            <img src="/img/i-med.webp" alt="SEO for Therapists and Counselors" loading="lazy" />
             <div className="ov">
               <h3>
                 {"SEO for Therapists and Counselors"}
@@ -64,7 +64,7 @@ export default function Industries() {
             </div>
           </a>
           <a className="xi" href="/seo-for-general-contractors/" data-r="">
-            <img src="/img/i-home.webp" alt="" loading="lazy" />
+            <img src="/img/i-home.webp" alt="SEO for General Contractors" loading="lazy" />
             <div className="ov">
               <h3>
                 {"SEO for General Contractors"}

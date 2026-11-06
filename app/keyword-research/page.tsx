@@ -24,12 +24,12 @@ import Related from '@/components/pages/keyword-research/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "Keyword Research Services and Search Intent Mapping",
+  title: { absolute: "Keyword Research Services & Intent Mapping | RankEmpire" },
   description: "Keyword research that maps real search demand to the pages you need: intent analysis, keyword clustering, difficulty scoring and content planning.",
   alternates: { canonical: "https://www.rankempire.us/keyword-research/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Keyword Research Services and Search Intent Mapping", description: "Keyword research that maps real search demand to the pages you need: intent analysis, keyword clustering, difficulty scoring and content planning.", url: "https://www.rankempire.us/keyword-research/", images: ["https://www.rankempire.us/img/w2.webp"] },
-  twitter: { card: 'summary_large_image', title: "Keyword Research Services and Search Intent Mapping", description: "Keyword research that maps real search demand to the pages you need: intent analysis, keyword clustering, difficulty scoring and content planning." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Keyword Research Services & Intent Mapping | RankEmpire", description: "Keyword research that maps real search demand to the pages you need: intent analysis, keyword clustering, difficulty scoring and content planning.", url: "https://www.rankempire.us/keyword-research/", images: ["https://www.rankempire.us/img/w2.webp"] },
+  twitter: { card: 'summary_large_image', title: "Keyword Research Services & Intent Mapping | RankEmpire", description: "Keyword research that maps real search demand to the pages you need: intent analysis, keyword clustering, difficulty scoring and content planning." },
 };
 
 export default function Page() {

@@ -26,12 +26,12 @@ import Related from '@/components/pages/seo-audit/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "SEO Audit Services: Free Audit & Action Plan | RankEmpire" },
-  description: "Professional SEO audit for US businesses: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days.",
+  title: { absolute: "SEO Audit Services: Free Expert SEO Audit | RankEmpire" },
+  description: "SEO audit services from an SEO audit expert: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/seo-audit/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Audit Services: Free Audit & Action Plan | RankEmpire", description: "Professional SEO audit for US businesses: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days.", url: "https://www.rankempire.us/seo-audit/", images: ["https://www.rankempire.us/img/w2.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Audit Services: Free Audit & Action Plan | RankEmpire", description: "Professional SEO audit for US businesses: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Audit Services: Free Expert SEO Audit | RankEmpire", description: "SEO audit services from an SEO audit expert: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days.", url: "https://www.rankempire.us/seo-audit/", images: ["https://www.rankempire.us/img/w2.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Audit Services: Free Expert SEO Audit | RankEmpire", description: "SEO audit services from an SEO audit expert: technical, content, links, local and AI search, with a prioritized 90-day plan. Free, delivered in 2 days." },
 };
 
 export default function Page() {

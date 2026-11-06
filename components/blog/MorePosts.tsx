@@ -14,7 +14,7 @@ export default function MorePosts({ exclude, limit = 3, title = 'More SEO guides
           {list.map((p) => (
             <a className="post" href={`/blog/${p.slug}/`} key={p.slug}>
               <div className="im">
-                <img src={p.image} alt="" loading="lazy" />
+                <img src={p.image} alt={p.title} loading="lazy" />
                 <em>{p.category}</em>
               </div>
               <div className="tx">

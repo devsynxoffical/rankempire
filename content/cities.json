@@ -4,10 +4,10 @@
   "name": "New York",
   "state": "NY",
   "nearby": [
+   "brooklyn",
    "boston",
    "charlotte",
-   "atlanta",
-   "chicago"
+   "atlanta"
   ]
  },
  {
@@ -59,10 +59,10 @@
   "name": "Miami",
   "state": "FL",
   "nearby": [
+   "tampa",
    "orlando",
    "atlanta",
-   "charlotte",
-   "houston"
+   "charlotte"
   ]
  },
  {
@@ -114,10 +114,10 @@
   "name": "Atlanta",
   "state": "GA",
   "nearby": [
+   "nashville",
    "charlotte",
    "orlando",
-   "miami",
-   "houston"
+   "miami"
   ]
  },
  {
@@ -169,10 +169,10 @@
   "name": "Charlotte",
   "state": "NC",
   "nearby": [
+   "nashville",
    "atlanta",
    "orlando",
-   "boston",
-   "new-york"
+   "boston"
   ]
  },
  {
@@ -180,10 +180,43 @@
   "name": "Orlando",
   "state": "FL",
   "nearby": [
+   "tampa",
    "miami",
    "atlanta",
+   "charlotte"
+  ]
+ },
+ {
+  "slug": "brooklyn",
+  "name": "Brooklyn",
+  "state": "NY",
+  "nearby": [
+   "new-york",
+   "boston",
+   "chicago",
+   "atlanta"
+  ]
+ },
+ {
+  "slug": "tampa",
+  "name": "Tampa",
+  "state": "FL",
+  "nearby": [
+   "orlando",
+   "miami",
+   "atlanta",
+   "charlotte"
+  ]
+ },
+ {
+  "slug": "nashville",
+  "name": "Nashville",
+  "state": "TN",
+  "nearby": [
+   "atlanta",
    "charlotte",
-   "houston"
+   "chicago",
+   "dallas"
   ]
  }
 ]

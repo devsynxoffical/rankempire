@@ -23,12 +23,12 @@ import Related from '@/components/pages/seo-for-med-spas/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Med Spa SEO Services & Company | RankEmpire" },
-  description: "SEO for med spas: rank for Botox, filler, laser and body contouring searches with treatment pages, pricing, galleries, provider credentials and reviews.",
+  title: { absolute: "Medspa SEO & Medical Spa SEO Services | RankEmpire" },
+  description: "Medspa SEO for Botox, filler, laser and body contouring: medical spa SEO with treatment pages, pricing, galleries and provider credentials. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-med-spas/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Med Spa SEO Services & Company | RankEmpire", description: "SEO for med spas: rank for Botox, filler, laser and body contouring searches with treatment pages, pricing, galleries, provider credentials and reviews.", url: "https://www.rankempire.us/seo-for-med-spas/", images: ["https://www.rankempire.us/img/i-beauty.webp"] },
-  twitter: { card: 'summary_large_image', title: "Med Spa SEO Services & Company | RankEmpire", description: "SEO for med spas: rank for Botox, filler, laser and body contouring searches with treatment pages, pricing, galleries, provider credentials and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Medspa SEO & Medical Spa SEO Services | RankEmpire", description: "Medspa SEO for Botox, filler, laser and body contouring: medical spa SEO with treatment pages, pricing, galleries and provider credentials. Free audit.", url: "https://www.rankempire.us/seo-for-med-spas/", images: ["https://www.rankempire.us/img/i-beauty.webp"] },
+  twitter: { card: 'summary_large_image', title: "Medspa SEO & Medical Spa SEO Services | RankEmpire", description: "Medspa SEO for Botox, filler, laser and body contouring: medical spa SEO with treatment pages, pricing, galleries and provider credentials. Free audit." },
 };
 
 export default function Page() {

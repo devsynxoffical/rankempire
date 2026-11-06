@@ -31,10 +31,10 @@ export default function Cols3() {
                 {"rankempire®"}
               </b>
               <div className="av">
-                <img src="/img/t1.webp" alt="" loading="lazy" />
-                <img src="/img/t2.webp" alt="" loading="lazy" />
-                <img src="/img/t3.webp" alt="" loading="lazy" />
-                <img src="/img/t4.webp" alt="" loading="lazy" />
+                <img src="/img/t1-av.webp" alt="" width="96" height="96" loading="lazy" />
+                <img src="/img/t2-av.webp" alt="" width="96" height="96" loading="lazy" />
+                <img src="/img/t3-av.webp" alt="" width="96" height="96" loading="lazy" />
+                <img src="/img/t4-av.webp" alt="" width="96" height="96" loading="lazy" />
               </div>
             </div>
             <div style={{marginTop: "auto"} as React.CSSProperties}>

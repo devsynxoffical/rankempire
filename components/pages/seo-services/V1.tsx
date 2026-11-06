@@ -24,7 +24,7 @@ export default function V1() {
               {"SEO Services"}
             </span>
             <h1 data-r="">
-              {"SEO services for every "}
+              {"SEO and search engine ranking services for every "}
               <span className="acc">
                 {"stage"}
               </span>

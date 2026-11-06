@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Search Engine Optimization Los Angeles, CA | RankEmpire" },
-  description: "Search engine optimization in Los Angeles, CA for businesses across LA, Santa Monica, Pasadena and the Valley. Local SEO and AI search. Free audit.",
+  description: "Search engine optimization in Los Angeles, CA from an LA SEO company: local SEO and AI search for LA, Santa Monica, Pasadena and the Valley. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/locations/los-angeles/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Search Engine Optimization Los Angeles, CA | RankEmpire", description: "Search engine optimization in Los Angeles, CA for businesses across LA, Santa Monica, Pasadena and the Valley. Local SEO and AI search. Free audit.", url: "https://www.rankempire.us/locations/los-angeles/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Search Engine Optimization Los Angeles, CA | RankEmpire", description: "Search engine optimization in Los Angeles, CA for businesses across LA, Santa Monica, Pasadena and the Valley. Local SEO and AI search. Free audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Search Engine Optimization Los Angeles, CA | RankEmpire", description: "Search engine optimization in Los Angeles, CA from an LA SEO company: local SEO and AI search for LA, Santa Monica, Pasadena and the Valley. Free audit.", url: "https://www.rankempire.us/locations/los-angeles/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Search Engine Optimization Los Angeles, CA | RankEmpire", description: "Search engine optimization in Los Angeles, CA from an LA SEO company: local SEO and AI search for LA, Santa Monica, Pasadena and the Valley. Free audit." },
 };
 
 export default function Page() {

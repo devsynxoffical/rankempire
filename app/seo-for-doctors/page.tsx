@@ -25,12 +25,12 @@ import Related from '@/components/pages/seo-for-doctors/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Doctor & Medical Practice SEO Services | RankEmpire" },
-  description: "Doctor SEO services and medical practice search engine optimization: provider pages, treatment content, Google Maps per office. Free audit.",
+  title: { absolute: "SEO Services for Doctors & Medical Practices | RankEmpire" },
+  description: "SEO services for doctors and medical practice search engine optimization: provider pages, treatment content and Google Maps per office. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-doctors/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Doctor & Medical Practice SEO Services | RankEmpire", description: "Doctor SEO services and medical practice search engine optimization: provider pages, treatment content, Google Maps per office. Free audit.", url: "https://www.rankempire.us/seo-for-doctors/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Doctor & Medical Practice SEO Services | RankEmpire", description: "Doctor SEO services and medical practice search engine optimization: provider pages, treatment content, Google Maps per office. Free audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Services for Doctors & Medical Practices | RankEmpire", description: "SEO services for doctors and medical practice search engine optimization: provider pages, treatment content and Google Maps per office. Free audit.", url: "https://www.rankempire.us/seo-for-doctors/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Services for Doctors & Medical Practices | RankEmpire", description: "SEO services for doctors and medical practice search engine optimization: provider pages, treatment content and Google Maps per office. Free audit." },
 };
 
 export default function Page() {

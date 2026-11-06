@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="nh" aria-label="Introduction">
       {"\n"}
       <div className="bgi">
-        <img src="/img/v3-hero.webp" alt="" fetchPriority="high" />
+        <img src="/img/v3-hero.webp" srcSet="/img/v3-hero-1100.webp 1100w, /img/v3-hero.webp 2200w" sizes="100vw" alt="" fetchPriority="high" />
       </div>
       <canvas className="grain" aria-hidden="true"></canvas>
       {"\n"}
@@ -105,10 +105,10 @@ export default function Hero() {
           <div>
             <div className="proof">
               <div className="av">
-                <img src="/img/t1.webp" alt="" loading="lazy" />
-                <img src="/img/t2.webp" alt="" loading="lazy" />
-                <img src="/img/t3.webp" alt="" loading="lazy" />
-                <img src="/img/t4.webp" alt="" loading="lazy" />
+                <img src="/img/t1-av.webp" alt="" width="96" height="96" loading="lazy" />
+                <img src="/img/t2-av.webp" alt="" width="96" height="96" loading="lazy" />
+                <img src="/img/t3-av.webp" alt="" width="96" height="96" loading="lazy" />
+                <img src="/img/t4-av.webp" alt="" width="96" height="96" loading="lazy" />
                 <b>
                   {"4"}
                 </b>

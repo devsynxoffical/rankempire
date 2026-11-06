@@ -120,7 +120,7 @@ Rule: one primary keyword per page, used in the title, H1, first paragraph and m
 ### /seo-for-accountants/
 
 - **Impressions (28 days):** 258
-- **Title:** CPA & Accountant SEO Services & Company | RankEmpire
+- **Title:** Accountant SEO Services for CPA Firms | RankEmpire
 - **Primary:** `accountant seo services` (position 72, 31 impressions)
 - **Secondary:**
   - `cpa firm seo services` (position 19, 2 impressions)
@@ -132,7 +132,7 @@ Rule: one primary keyword per page, used in the title, H1, first paragraph and m
 ### /seo-for-auto-repair/
 
 - **Impressions (28 days):** 163
-- **Title:** SEO for Auto Repair Shops & Garages | RankEmpire
+- **Title:** SEO for Auto Repair Shops: Auto Repair SEO | RankEmpire
 - **Primary:** `seo for auto repair shops` (position 84, 32 impressions)
 - **Secondary:**
   - `auto repair shop seo` (position 82, 29 impressions)
@@ -143,7 +143,7 @@ Rule: one primary keyword per page, used in the title, H1, first paragraph and m
 ### /seo-for-flooring-companies/
 
 - **Impressions (28 days):** 60
-- **Title:** Flooring Company SEO Services | RankEmpire
+- **Title:** SEO for Flooring Companies & Flooring SEO | RankEmpire
 - **Primary:** `flooring company seo` (position 63, 10 impressions)
 - **Secondary:**
   - `seo for flooring companies` (position 66, 17 impressions)
@@ -167,7 +167,7 @@ Rule: one primary keyword per page, used in the title, H1, first paragraph and m
 ### /seo-for-doctors/
 
 - **Impressions (28 days):** 62
-- **Title:** Doctor & Medical Practice SEO Services | RankEmpire
+- **Title:** SEO Services for Doctors & Medical Practices | RankEmpire
 - **Primary:** `doctor seo services` (position 81, 4 impressions)
 - **Secondary:**
   - `medical practice search engine optimization` (position 71, 10 impressions)
@@ -189,7 +189,7 @@ Rule: one primary keyword per page, used in the title, H1, first paragraph and m
 ### /seo-for-orthodontists/
 
 - **Impressions (28 days):** 50
-- **Title:** Orthodontist SEO Services & Company | RankEmpire
+- **Title:** Orthodontist SEO & Orthodontic SEO Company | RankEmpire
 - **Primary:** `orthodontist seo` (position 90, 8 impressions)
 - **Secondary:**
   - `orthodontic seo company` (position 87, 6 impressions)
@@ -200,7 +200,7 @@ Rule: one primary keyword per page, used in the title, H1, first paragraph and m
 ### /seo-for-movers/
 
 - **Impressions (28 days):** 69
-- **Title:** Moving Company SEO Services & Company | RankEmpire
+- **Title:** Moving Company SEO Services for Movers | RankEmpire
 - **Primary:** `moving company seo` (position 96, 10 impressions)
 - **Secondary:**
   - `moving company seo services` (position 63, 15 impressions)
@@ -212,7 +212,7 @@ Rule: one primary keyword per page, used in the title, H1, first paragraph and m
 ### /seo-for-daycares/
 
 - **Impressions (28 days):** 42
-- **Title:** Daycare & Preschool SEO Services | RankEmpire
+- **Title:** Preschool & Daycare SEO Company | RankEmpire
 - **Primary:** `daycare seo` (position 86, 7 impressions)
 - **Secondary:**
   - `preschool seo company` (position 66, 20 impressions)
@@ -229,6 +229,42 @@ Rule: one primary keyword per page, used in the title, H1, first paragraph and m
   - `featured snippets google` (position 23, 1 impressions)
   - `aeo services` (position –, 0 impressions)
   - `aeo vs seo` (position –, 0 impressions)
+
+### /locations/brooklyn/
+
+- **Impressions (28 days):** 0
+- **Title:** Brooklyn SEO Company & SEO Agency | RankEmpire
+- **Primary:** `brooklyn seo company` (position –, 0 impressions)
+- **Secondary:**
+  - `brooklyn seo` (position –, 0 impressions)
+  - `seo agency brooklyn` (position –, 0 impressions)
+  - `seo services brooklyn ny` (position –, 0 impressions)
+  - `local seo brooklyn` (position –, 0 impressions)
+  - `brooklyn seo expert` (position –, 0 impressions)
+
+### /locations/tampa/
+
+- **Impressions (28 days):** 0
+- **Title:** Tampa SEO Company & SEO Agency | RankEmpire
+- **Primary:** `seo company tampa` (position –, 0 impressions)
+- **Secondary:**
+  - `tampa seo` (position –, 0 impressions)
+  - `tampa seo agency` (position –, 0 impressions)
+  - `seo services tampa fl` (position –, 0 impressions)
+  - `local seo tampa` (position –, 0 impressions)
+  - `st petersburg seo` (position –, 0 impressions)
+
+### /locations/nashville/
+
+- **Impressions (28 days):** 0
+- **Title:** Nashville SEO Company & SEO Agency | RankEmpire
+- **Primary:** `seo company nashville` (position –, 0 impressions)
+- **Secondary:**
+  - `nashville seo` (position –, 0 impressions)
+  - `nashville seo agency` (position –, 0 impressions)
+  - `seo services nashville tn` (position –, 0 impressions)
+  - `local seo nashville` (position –, 0 impressions)
+  - `free seo audit nashville` (position –, 0 impressions)
 
 ## Other pages with impressions
 

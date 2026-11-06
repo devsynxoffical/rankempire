@@ -1,7 +1,7 @@
 // Generated from content/posts/technical-seo-basics.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
 
-export const WORDS = 1139;
+export const WORDS = 1169;
 export const FAQ = [{"q":"What is the difference between crawling and indexing?","a":"Crawling is Google visiting a page and reading it. Indexing is Google deciding to store it and make it eligible to appear in results. A page can be crawled and still excluded from the index if it is a duplicate, thin, blocked by a noindex tag, or judged not useful enough."},{"q":"How do I know if Google has indexed my page?","a":"Use the URL Inspection tool in Google Search Console. It shows whether the page is indexed, when it was last crawled, the canonical Google chose, and any blocking issues. The Pages report lists every excluded URL with the reason."},{"q":"Does site speed really affect rankings?","a":"Yes, through Core Web Vitals, and it affects conversions even more. The ranking effect is modest between two fast sites but significant when a site fails the thresholds on mobile."},{"q":"How often should I run a technical audit?","a":"A full audit once a year, or after any redesign, platform change or migration. Monthly, check the Pages and Core Web Vitals reports in Search Console for anything new."}];
 
 export default function Body() {
@@ -61,6 +61,7 @@ export default function Body() {
           <p>{"If the drop has already happened, the recovery is the same list in reverse: restore redirects, remove stray noindex tags, re-submit the sitemap and watch the Pages report recover over a few weeks."}</p>
           <h2 id="when-to-get-help">{"When to get help"}</h2>
           <p>{"If pages will not index, traffic dropped after a redesign, or your site is slow despite the fixes above, it is time for a professional "}<a href="/technical-seo/">{"technical SEO audit"}</a>{". We start every program with one because the foundation decides what every later piece of work can achieve, which is also the first lesson in "}<a href="/blog/why-most-seo-campaigns-fail/">{"why most SEO campaigns fail"}</a>{". You can "}<a href="/contact-us/">{"request a free audit"}</a>{" and get a prioritized list within two business days."}</p>
+          <p>{"For a real example of these checks in action, see how we took our own site "}<a href="/blog/how-we-got-our-pages-indexed/">{"from 17 to 123 indexed pages"}</a>{", with the Search Console data behind each step."}</p>
           <h2 id="faq">{"FAQ"}</h2>
           <h3>{"What is the difference between crawling and indexing?"}</h3>
           <p>{"Crawling is Google visiting a page and reading it. Indexing is Google deciding to store it and make it eligible to appear in results. A page can be crawled and still excluded from the index if it is a duplicate, thin, blocked by a noindex tag, or judged not useful enough."}</p>

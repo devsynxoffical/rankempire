@@ -24,12 +24,12 @@ import Related from '@/components/pages/ecommerce-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: "E-commerce SEO Services for Shopify and WooCommerce",
+  title: { absolute: "Ecommerce SEO Services: Shopify & WooCommerce | RankEmpire" },
   description: "E-commerce SEO that grows organic revenue: category and product page optimization, technical fixes for faceted navigation, structured data and content.",
   alternates: { canonical: "https://www.rankempire.us/ecommerce-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "E-commerce SEO Services for Shopify and WooCommerce", description: "E-commerce SEO that grows organic revenue: category and product page optimization, technical fixes for faceted navigation, structured data and content.", url: "https://www.rankempire.us/ecommerce-seo/", images: ["https://www.rankempire.us/img/s-ecom.webp"] },
-  twitter: { card: 'summary_large_image', title: "E-commerce SEO Services for Shopify and WooCommerce", description: "E-commerce SEO that grows organic revenue: category and product page optimization, technical fixes for faceted navigation, structured data and content." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Ecommerce SEO Services: Shopify & WooCommerce | RankEmpire", description: "E-commerce SEO that grows organic revenue: category and product page optimization, technical fixes for faceted navigation, structured data and content.", url: "https://www.rankempire.us/ecommerce-seo/", images: ["https://www.rankempire.us/img/s-ecom.webp"] },
+  twitter: { card: 'summary_large_image', title: "Ecommerce SEO Services: Shopify & WooCommerce | RankEmpire", description: "E-commerce SEO that grows organic revenue: category and product page optimization, technical fixes for faceted navigation, structured data and content." },
 };
 
 export default function Page() {

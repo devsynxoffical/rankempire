@@ -25,12 +25,12 @@ import Related from '@/components/pages/seo-for-pool-service-companies/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Pool Service SEO Services & Company | RankEmpire" },
-  description: "Pool service SEO that fills routes before the season: Google Maps, cleaning and repair pages, reviews. Local plans from $599/mo. Free audit.",
+  title: { absolute: "Pool Service SEO Company & Pool Company SEO | RankEmpire" },
+  description: "Pool service SEO company for pool cleaners and repair firms: Google Maps, cleaning and repair pages, reviews. Pool company SEO from $599/mo. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-pool-service-companies/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Pool Service SEO Services & Company | RankEmpire", description: "Pool service SEO that fills routes before the season: Google Maps, cleaning and repair pages, reviews. Local plans from $599/mo. Free audit.", url: "https://www.rankempire.us/seo-for-pool-service-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "Pool Service SEO Services & Company | RankEmpire", description: "Pool service SEO that fills routes before the season: Google Maps, cleaning and repair pages, reviews. Local plans from $599/mo. Free audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Pool Service SEO Company & Pool Company SEO | RankEmpire", description: "Pool service SEO company for pool cleaners and repair firms: Google Maps, cleaning and repair pages, reviews. Pool company SEO from $599/mo. Free audit.", url: "https://www.rankempire.us/seo-for-pool-service-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Pool Service SEO Company & Pool Company SEO | RankEmpire", description: "Pool service SEO company for pool cleaners and repair firms: Google Maps, cleaning and repair pages, reviews. Pool company SEO from $599/mo. Free audit." },
 };
 
 export default function Page() {

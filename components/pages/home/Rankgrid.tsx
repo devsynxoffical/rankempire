@@ -78,7 +78,7 @@ export default function Rankgrid() {
           </div>
           {"\n"}
           <div className="rg-map" data-r="s">
-            <img src="/img/mapbase.webp" alt="" loading="lazy" />
+            <img src="/img/mapbase.webp" alt="City map used for a local SEO rank grid" loading="lazy" />
             <div className="rg-grid" id="rg-grid">
               <i style={{"--r": "0", "--c": "0"} as React.CSSProperties}></i>
               <i style={{"--r": "0", "--c": "1"} as React.CSSProperties}></i>

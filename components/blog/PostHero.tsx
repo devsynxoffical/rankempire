@@ -28,7 +28,7 @@ export default function PostHero({ post }: { post: Post }) {
           <h1 data-r="">{post.title}</h1>
           <p className="lead" data-r="">{post.description}</p>
           <p className="byline" data-r="">
-            <img src="/img/gaurav-sit.webp" alt="" width="36" height="36" loading="lazy" />
+            <img src="/img/gaurav-sit.webp" alt="Gaurav Kapoor, founder of RankEmpire" width="36" height="36" loading="lazy" />
             <span>
               By <a href="/our-team/#gaurav" rel="author">{site.founder.name}</a>, {site.founder.jobTitle}
               <br />

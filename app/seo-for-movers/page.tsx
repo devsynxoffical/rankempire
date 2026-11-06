@@ -25,12 +25,12 @@ import Related from '@/components/pages/seo-for-movers/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Moving Company SEO Services & Company | RankEmpire" },
-  description: "Moving company SEO services for local and long-distance moves: Google Maps, service and pricing pages, reviews. Free audit, month to month.",
+  title: { absolute: "Moving Company SEO Services for Movers | RankEmpire" },
+  description: "Moving company SEO services for local and long-distance movers: Google Maps, service and pricing pages, reviews. SEO for movers, free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-movers/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Moving Company SEO Services & Company | RankEmpire", description: "Moving company SEO services for local and long-distance moves: Google Maps, service and pricing pages, reviews. Free audit, month to month.", url: "https://www.rankempire.us/seo-for-movers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "Moving Company SEO Services & Company | RankEmpire", description: "Moving company SEO services for local and long-distance moves: Google Maps, service and pricing pages, reviews. Free audit, month to month." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Moving Company SEO Services for Movers | RankEmpire", description: "Moving company SEO services for local and long-distance movers: Google Maps, service and pricing pages, reviews. SEO for movers, free audit.", url: "https://www.rankempire.us/seo-for-movers/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Moving Company SEO Services for Movers | RankEmpire", description: "Moving company SEO services for local and long-distance movers: Google Maps, service and pricing pages, reviews. SEO for movers, free audit." },
 };
 
 export default function Page() {

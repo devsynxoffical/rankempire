@@ -25,12 +25,12 @@ import Related from '@/components/pages/seo-for-daycares/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Daycare & Preschool SEO Services | RankEmpire" },
-  description: "Daycare SEO for childcare centers and preschools: program pages, trust content, Google Maps and tour bookings. Free audit in 2 days.",
+  title: { absolute: "Preschool & Daycare SEO Company | RankEmpire" },
+  description: "Preschool and daycare SEO company for childcare centers: program pages, trust content, Google Maps and tour bookings. Childcare SEO, free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-daycares/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Daycare & Preschool SEO Services | RankEmpire", description: "Daycare SEO for childcare centers and preschools: program pages, trust content, Google Maps and tour bookings. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-daycares/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "Daycare & Preschool SEO Services | RankEmpire", description: "Daycare SEO for childcare centers and preschools: program pages, trust content, Google Maps and tour bookings. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Preschool & Daycare SEO Company | RankEmpire", description: "Preschool and daycare SEO company for childcare centers: program pages, trust content, Google Maps and tour bookings. Childcare SEO, free audit.", url: "https://www.rankempire.us/seo-for-daycares/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Preschool & Daycare SEO Company | RankEmpire", description: "Preschool and daycare SEO company for childcare centers: program pages, trust content, Google Maps and tour bookings. Childcare SEO, free audit." },
 };
 
 export default function Page() {

@@ -123,8 +123,8 @@ export default function V2() {
             </span>
           </div>
           <div style={{"--c": "#4a9f5f"} as React.CSSProperties}>
-            <b data-count="799" data-raw="799">
-              {"799"}
+            <b data-count="599" data-raw="599">
+              {"599"}
             </b>
             <span>
               {"Local plans from, per month"}

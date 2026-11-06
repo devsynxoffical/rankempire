@@ -89,6 +89,8 @@ Expect impressions to move first, then positions, then clicks and calls. The [ve
 
 If you would rather hand this off, our [local SEO packages](/seo-packages/local-seo/) cover every item above, month to month after onboarding. A [free audit](/contact-us/) will tell you which items are already done and which are costing you the map pack.
 
+Running a trade business? Our [SEO for contractors guide](/blog/seo-for-contractors/) applies this checklist to plumbers, electricians, roofers, HVAC companies and other home service contractors.
+
 ## FAQ
 
 ### What matters most for ranking in the Google map pack?

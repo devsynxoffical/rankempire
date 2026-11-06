@@ -165,9 +165,9 @@ export default function Results() {
         {"\n"}
         <div className="tru">
           <div className="av">
-            <img src="/img/t1.webp" alt="" loading="lazy" />
-            <img src="/img/t2.webp" alt="" loading="lazy" />
-            <img src="/img/t3.webp" alt="" loading="lazy" />
+            <img src="/img/t1-av.webp" alt="" width="96" height="96" loading="lazy" />
+            <img src="/img/t2-av.webp" alt="" width="96" height="96" loading="lazy" />
+            <img src="/img/t3-av.webp" alt="" width="96" height="96" loading="lazy" />
           </div>
           <small>
             {"Senior specialists working inside the tools you already use"}

@@ -27,12 +27,12 @@ import Related from '@/components/pages/seo-services/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "SEO Services: Full-Funnel Search & AI Growth | RankEmpire" },
-  description: "SEO ranking services that turn rankings into revenue: local, e-commerce, SaaS and technical SEO plus AI search. Month to month. Free audit.",
+  title: { absolute: "Search Engine Ranking Services & SEO Services | RankEmpire" },
+  description: "Search engine ranking services that turn rankings into revenue: local, e-commerce, SaaS and technical SEO plus AI search. Month to month. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-services/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Services: Full-Funnel Search & AI Growth | RankEmpire", description: "SEO ranking services that turn rankings into revenue: local, e-commerce, SaaS and technical SEO plus AI search. Month to month. Free audit.", url: "https://www.rankempire.us/seo-services/", images: ["https://www.rankempire.us/img/s-saas.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Services: Full-Funnel Search & AI Growth | RankEmpire", description: "SEO ranking services that turn rankings into revenue: local, e-commerce, SaaS and technical SEO plus AI search. Month to month. Free audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Search Engine Ranking Services & SEO Services | RankEmpire", description: "Search engine ranking services that turn rankings into revenue: local, e-commerce, SaaS and technical SEO plus AI search. Month to month. Free audit.", url: "https://www.rankempire.us/seo-services/", images: ["https://www.rankempire.us/img/s-saas.webp"] },
+  twitter: { card: 'summary_large_image', title: "Search Engine Ranking Services & SEO Services | RankEmpire", description: "Search engine ranking services that turn rankings into revenue: local, e-commerce, SaaS and technical SEO plus AI search. Month to month. Free audit." },
 };
 
 export default function Page() {

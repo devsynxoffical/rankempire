@@ -25,12 +25,12 @@ import Related from '@/components/pages/seo-for-auto-repair/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "SEO for Auto Repair Shops & Garages | RankEmpire" },
-  description: "SEO for auto repair shops: rank for brakes, AC, diagnostics and your makes, win the map pack and earn trust with reviews. Free audit, month to month.",
+  title: { absolute: "SEO for Auto Repair Shops: Auto Repair SEO | RankEmpire" },
+  description: "Auto repair SEO for shops and garages: rank for brakes, AC, diagnostics and your makes, win the map pack and earn reviews. Auto shop SEO, free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-auto-repair/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Auto Repair Shops & Garages | RankEmpire", description: "SEO for auto repair shops: rank for brakes, AC, diagnostics and your makes, win the map pack and earn trust with reviews. Free audit, month to month.", url: "https://www.rankempire.us/seo-for-auto-repair/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Auto Repair Shops & Garages | RankEmpire", description: "SEO for auto repair shops: rank for brakes, AC, diagnostics and your makes, win the map pack and earn trust with reviews. Free audit, month to month." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Auto Repair Shops: Auto Repair SEO | RankEmpire", description: "Auto repair SEO for shops and garages: rank for brakes, AC, diagnostics and your makes, win the map pack and earn reviews. Auto shop SEO, free audit.", url: "https://www.rankempire.us/seo-for-auto-repair/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO for Auto Repair Shops: Auto Repair SEO | RankEmpire", description: "Auto repair SEO for shops and garages: rank for brakes, AC, diagnostics and your makes, win the map pack and earn reviews. Auto shop SEO, free audit." },
 };
 
 export default function Page() {

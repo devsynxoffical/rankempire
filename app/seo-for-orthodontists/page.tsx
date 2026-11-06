@@ -25,12 +25,12 @@ import Related from '@/components/pages/seo-for-orthodontists/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Orthodontist SEO Services & Company | RankEmpire" },
-  description: "Orthodontist SEO services for braces and Invisalign consultations: treatment and cost pages, Google Maps, reviews. Free audit in 2 days.",
+  title: { absolute: "Orthodontist SEO & Orthodontic SEO Company | RankEmpire" },
+  description: "Orthodontist SEO from an orthodontic SEO company: braces and Invisalign consultation pages, cost pages, Google Maps and reviews. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-orthodontists/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Orthodontist SEO Services & Company | RankEmpire", description: "Orthodontist SEO services for braces and Invisalign consultations: treatment and cost pages, Google Maps, reviews. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-orthodontists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Orthodontist SEO Services & Company | RankEmpire", description: "Orthodontist SEO services for braces and Invisalign consultations: treatment and cost pages, Google Maps, reviews. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Orthodontist SEO & Orthodontic SEO Company | RankEmpire", description: "Orthodontist SEO from an orthodontic SEO company: braces and Invisalign consultation pages, cost pages, Google Maps and reviews. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-orthodontists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Orthodontist SEO & Orthodontic SEO Company | RankEmpire", description: "Orthodontist SEO from an orthodontic SEO company: braces and Invisalign consultation pages, cost pages, Google Maps and reviews. Free audit in 2 days." },
 };
 
 export default function Page() {

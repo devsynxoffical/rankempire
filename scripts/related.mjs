@@ -30,18 +30,18 @@ const SERVICES = {
   'international-seo': [['enterprise-seo', 'technical-seo', 'national-seo', 'content-seo'], ['technical-seo-basics', 'why-most-seo-campaigns-fail']],
   'keyword-research': [['content-seo', 'competitor-seo-analysis', 'on-page-seo', 'seo-consulting'], ['why-most-seo-campaigns-fail', 'aeo-vs-geo-vs-seo']],
   'link-building': [['off-page-seo', 'content-seo', 'seo-tools/backlink-checker', 'b2b-seo'], ['why-most-seo-campaigns-fail', 'local-seo-90-day-roadmap']],
-  'local-seo': [['google-business-profile-seo', 'seo-packages/local-seo', 'link-building', 'seo-company'], ['local-seo-90-day-roadmap', 'google-business-profile-optimization-checklist']],
+  'local-seo': [['google-business-profile-seo', 'seo-packages/local-seo', 'link-building', 'seo-company'], ['local-seo-90-day-roadmap', 'seo-for-contractors']],
   'national-seo': [['enterprise-seo', 'international-seo', 'link-building', 'seo-company'], ['why-most-seo-campaigns-fail', 'aeo-vs-geo-vs-seo']],
   'off-page-seo': [['link-building', 'geo', 'seo-tools/backlink-checker', 'competitor-seo-analysis'], ['why-most-seo-campaigns-fail', 'aeo-vs-geo-vs-seo']],
   'on-page-seo': [['technical-seo', 'content-seo', 'keyword-research', 'aeo'], ['technical-seo-basics', 'aeo-vs-geo-vs-seo']],
   'saas-seo': [['b2b-seo', 'content-seo', 'international-seo', 'seo-packages/saas-seo'], ['why-most-seo-campaigns-fail', 'aeo-vs-geo-vs-seo']],
-  'seo-audit': [['technical-seo', 'seo-services', 'seo-consulting', 'seo-packages'], ['technical-seo-basics', 'how-much-does-seo-cost']],
+  'seo-audit': [['technical-seo', 'seo-services', 'seo-consulting', 'seo-packages'], ['how-we-got-our-pages-indexed', 'how-much-does-seo-cost']],
   'seo-company': [['seo-services', 'seo-packages', 'local-seo', 'about-us'], ['how-to-choose-an-seo-company', 'how-much-does-seo-cost']],
   'seo-consulting': [['seo-audit', 'enterprise-seo', 'international-seo', 'seo-packages'], ['how-to-choose-an-seo-company', 'how-much-does-seo-cost']],
   'seo-services': [['local-seo', 'ecommerce-seo', 'saas-seo', 'seo-company'], ['how-to-choose-an-seo-company', 'ai-agent-optimization']],
-  'technical-seo': [['seo-audit', 'on-page-seo', 'enterprise-seo', 'international-seo'], ['technical-seo-basics', 'aeo-vs-geo-vs-seo']],
+  'technical-seo': [['seo-audit', 'on-page-seo', 'enterprise-seo', 'international-seo'], ['technical-seo-basics', 'how-we-got-our-pages-indexed']],
 };
-const INDUSTRY_POST = { 'home-services': 'local-seo-90-day-roadmap', 'medical-and-health': 'local-seo-checklist', 'legal': 'local-seo-90-day-roadmap', 'automotive': 'local-seo-checklist', 'food-and-hospitality': 'local-seo-checklist', 'professional-services': 'why-most-seo-campaigns-fail', 'real-estate-and-property': 'local-seo-90-day-roadmap', 'beauty-fitness-and-lifestyle': 'local-seo-checklist', 'luxury-travel-and-events': 'google-business-profile-optimization-checklist' };
+const INDUSTRY_POST = { 'home-services': 'seo-for-contractors', 'medical-and-health': 'local-seo-checklist', 'legal': 'local-seo-90-day-roadmap', 'automotive': 'local-seo-checklist', 'food-and-hospitality': 'local-seo-checklist', 'professional-services': 'why-most-seo-campaigns-fail', 'real-estate-and-property': 'local-seo-90-day-roadmap', 'beauty-fitness-and-lifestyle': 'local-seo-checklist', 'luxury-travel-and-events': 'google-business-profile-optimization-checklist' };
 
 function write(key, title, items, pagePath) {
   const file = `components/pages/${key}/Related.tsx`;

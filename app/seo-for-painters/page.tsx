@@ -25,12 +25,12 @@ import Related from '@/components/pages/seo-for-painters/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Painter SEO Services & Company | RankEmpire" },
-  description: "Painting contractor SEO services for interior, exterior, cabinet and commercial jobs: Google Maps, project galleries, reviews. Free audit in 2 days.",
+  title: { absolute: "Painting Company SEO for Painting Contractors | RankEmpire" },
+  description: "Painting company SEO services and SEO for painting contractors: interior, exterior, cabinet and commercial jobs from Google Maps and search. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-painters/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Painter SEO Services & Company | RankEmpire", description: "Painting contractor SEO services for interior, exterior, cabinet and commercial jobs: Google Maps, project galleries, reviews. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-painters/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "Painter SEO Services & Company | RankEmpire", description: "Painting contractor SEO services for interior, exterior, cabinet and commercial jobs: Google Maps, project galleries, reviews. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Painting Company SEO for Painting Contractors | RankEmpire", description: "Painting company SEO services and SEO for painting contractors: interior, exterior, cabinet and commercial jobs from Google Maps and search. Free audit.", url: "https://www.rankempire.us/seo-for-painters/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Painting Company SEO for Painting Contractors | RankEmpire", description: "Painting company SEO services and SEO for painting contractors: interior, exterior, cabinet and commercial jobs from Google Maps and search. Free audit." },
 };
 
 export default function Page() {

@@ -540,5 +540,83 @@
         "p": "We support US companies expanding abroad and international brands entering the US market. For large multi-country sites, see [enterprise SEO](/enterprise-seo/); for companies selling across the US only, [national SEO](/national-seo/) is the better fit. Every engagement starts with a [free audit](/contact-us/)."
       }
     ]
+  },
+  "locations/brooklyn": {
+    "title": "Brooklyn SEO company: how we rank Brooklyn businesses",
+    "intro": "Brooklyn is not a smaller version of Manhattan. It is a set of neighborhoods that each behave like their own town in Google Maps. This is how RankEmpire approaches local SEO in Brooklyn, what a Brooklyn SEO company should deliver, and how to tell whether your search visibility matches the neighborhoods you actually serve. For citywide work, see our [New York SEO company](/locations/new-york/) page.",
+    "sections": [
+      {
+        "h": "Start with a neighborhood map",
+        "p": "Before any keyword list, we draw the map: where your customers walk, drive or order from, and which neighborhoods sit inside that area. A rank grid then shows where you appear in the map pack today. A Williamsburg restaurant and a Bay Ridge plumber need very different plans, and the grid makes that visible in the first week."
+      },
+      {
+        "h": "Google Business Profile does most of the work",
+        "p": "In dense neighborhoods the [Google Business Profile](/google-business-profile-seo/) decides most local clicks. We set the right primary category, add services and products, publish weekly posts, upload real photos and build a review flow that asks customers to mention the service and the neighborhood. Our [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/) covers every field."
+      },
+      {
+        "h": "Pages that reflect real Brooklyn neighborhoods",
+        "p": "We build service pages first, then neighborhood pages only where you have something specific to say: projects completed there, landmarks, transit and reviews from local customers. Thin pages with swapped place names are skipped, because they rarely rank and can hold the whole site back."
+      },
+      {
+        "h": "Local links from Brooklyn sources",
+        "p": "Neighborhood blogs, business improvement districts, local news, community boards, sponsorships and partner businesses are the strongest links a Brooklyn business can earn. Our [link building](/link-building/) work focuses on those instead of generic directories."
+      },
+      {
+        "h": "How long SEO takes in Brooklyn",
+        "p": "Neighborhood and long-tail searches often move within 60 to 90 days. Broader Brooklyn terms usually take four to six months, depending on category and competition. The first signal is impressions growing in Search Console, then positions, then calls and bookings, as described in our [90-day local SEO roadmap](/blog/local-seo-90-day-roadmap/)."
+      }
+    ]
+  },
+  "locations/tampa": {
+    "title": "Tampa SEO company: how we rank Tampa Bay businesses",
+    "intro": "Tampa Bay combines a growing city, two other cities across the water and some of the fastest-growing suburbs in Florida. This is how RankEmpire approaches SEO for Tampa businesses, what a Tampa SEO agency should deliver in the first 90 days, and where the easiest wins usually are.",
+    "sections": [
+      {
+        "h": "Map the bay before the keywords",
+        "p": "We start by defining which parts of Tampa Bay you serve: Tampa proper, the suburbs to the north and east, or St. Petersburg and Clearwater across the water. A rank grid shows where you appear in the map pack today, and the plan follows the areas that bring revenue rather than one citywide keyword."
+      },
+      {
+        "h": "Google Business Profile and reviews",
+        "p": "For most local categories the [Google Business Profile](/google-business-profile-seo/) wins more calls than the website. We fix categories, services, hours and photos, post weekly, and build a review flow that asks customers to mention the service and the area, such as South Tampa or Brandon."
+      },
+      {
+        "h": "Seasonal content that ranks before the season",
+        "p": "Storm season, snowbird season and spring events all change what Tampa customers search for. We plan content two to three months ahead, so pages about storm preparation, seasonal services or event-related offers are already indexed and ranking when demand arrives."
+      },
+      {
+        "h": "Pages for the suburbs you really serve",
+        "p": "Service area pages for places like Wesley Chapel, Riverview and Land O' Lakes can rank quickly, because competition is thinner than downtown. Each page needs real local detail: projects, reviews and the services offered there. Our [local SEO](/local-seo/) program covers the full build."
+      },
+      {
+        "h": "What results to expect in Tampa",
+        "p": "Suburban and long-tail searches often move within 60 to 90 days. Competitive Tampa terms take four to six months. Impressions in Search Console rise first, then positions, then calls and leads. Plans start at $599 a month, as listed on our [local SEO packages](/seo-packages/local-seo/) page."
+      }
+    ]
+  },
+  "locations/nashville": {
+    "title": "Nashville SEO company: how we rank Middle Tennessee businesses",
+    "intro": "Nashville combines a tourist economy, a major healthcare industry and fast-growing suburbs. This is how RankEmpire approaches SEO for Nashville businesses, what a Nashville SEO agency should deliver first, and how to get a free SEO audit that shows where you stand today.",
+    "sections": [
+      {
+        "h": "Choose the audience before the keywords",
+        "p": "Visitors, residents and businesses search differently. A Broadway restaurant needs near me and event searches, a Green Hills dentist needs neighborhood and treatment searches, and a Franklin builder needs suburban and project searches. We pick the audience first, then the [keyword research](/keyword-research/) follows."
+      },
+      {
+        "h": "Free SEO audit in Nashville",
+        "p": "Every engagement starts with a [free SEO audit](/seo-audit/): technical health, Google Business Profile, a rank grid across your service area, content gaps and the competitors who hold the map pack. You get a prioritized plan in two business days, whether or not you hire us."
+      },
+      {
+        "h": "Google Business Profile and reviews",
+        "p": "For local categories the [Google Business Profile](/google-business-profile-seo/) is the main battleground. We fix categories and services, add photos and posts, and build a review flow that mentions the service and the area, which helps in both Google Maps and AI answers."
+      },
+      {
+        "h": "Suburban service area pages",
+        "p": "Franklin, Brentwood, Murfreesboro, Mount Juliet and Hendersonville each have their own searches. We build pages only for areas you serve, with projects, reviews and details specific to each, which often rank faster than downtown terms."
+      },
+      {
+        "h": "What results to expect",
+        "p": "Suburban and specialty searches often move within 60 to 90 days, while competitive Nashville terms take four to six months. You see impressions rise in Search Console first, then rankings, then calls and leads, all reported from Google's own data."
+      }
+    ]
   }
 }

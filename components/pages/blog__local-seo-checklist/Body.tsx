@@ -1,7 +1,7 @@
 // Generated from content/posts/local-seo-checklist.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
 
-export const WORDS = 1103;
+export const WORDS = 1126;
 export const FAQ = [{"q":"What matters most for ranking in the Google map pack?","a":"Relevance (a complete profile and site that clearly match the search), distance (which you cannot change) and prominence (reviews, links and mentions). The profile and reviews are the fastest levers; links and mentions compound over months."},{"q":"How often should I post on Google Business Profile?","a":"Weekly is enough to keep the profile active. Posts are a minor ranking factor on their own, but profiles with recent activity hold positions better and convert more viewers into calls."},{"q":"Do citations still matter for local SEO?","a":"Consistent citations matter; volume does not. Fix the major platforms and your industry's directories, make every listing identical, and stop there. Hundreds of low-quality directory listings add nothing."}];
 
 export default function Body() {
@@ -60,6 +60,7 @@ export default function Body() {
           <h2 id="the-checklist-in-order">{"The checklist, in order"}</h2>
           <ol><li>{"Complete the Google Business Profile."}</li><li>{"Fix citations on the big four, then industry directories."}</li><li>{"Build the review system and start asking."}</li><li>{"Fix the technical basics on the site."}</li><li>{"Build one page per service and per real service area."}</li><li>{"Earn two to four local links a month."}</li><li>{"Track with a rank grid and report on leads."}</li></ol>
           <p>{"If you would rather hand this off, our "}<a href="/seo-packages/local-seo/">{"local SEO packages"}</a>{" cover every item above, month to month after onboarding. A "}<a href="/contact-us/">{"free audit"}</a>{" will tell you which items are already done and which are costing you the map pack."}</p>
+          <p>{"Running a trade business? Our "}<a href="/blog/seo-for-contractors/">{"SEO for contractors guide"}</a>{" applies this checklist to plumbers, electricians, roofers, HVAC companies and other home service contractors."}</p>
           <h2 id="faq">{"FAQ"}</h2>
           <h3>{"What matters most for ranking in the Google map pack?"}</h3>
           <p>{"Relevance (a complete profile and site that clearly match the search), distance (which you cannot change) and prominence (reviews, links and mentions). The profile and reviews are the fastest levers; links and mentions compound over months."}</p>
