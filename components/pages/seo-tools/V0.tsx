@@ -50,6 +50,10 @@ export default function V0() {
                   </svg>
                 </button>
               </form>
+              <a className="yh-book" href="/book-a-call/">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3" /><path d="M3 10h18M8 3v4M16 3v4" /></svg>
+                {"Or book a free strategy call"}
+              </a>
               <div className="ticks lt">
                 <span>
                   {"Free audit in 2 business days"}

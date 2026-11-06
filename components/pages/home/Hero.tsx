@@ -100,6 +100,10 @@ export default function Hero() {
                 <path d="M12 5v14M5 12h14" />
               </svg>
             </a>
+            <a className="btn nh-book" href="/book-a-call/">
+              {"Book a free call"}
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3" /><path d="M3 10h18M8 3v4M16 3v4" /></svg>
+            </a>
           </div>
           {"\n"}
           <div>

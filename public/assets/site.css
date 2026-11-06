@@ -2947,3 +2947,12 @@ body.in-fd .cur,body.in-fd .cur-r{opacity:0!important}
   .tp-cta .tp-alt,.dg-cta .dg-alt{display:block;margin:14px 0 0;text-align:center}
 }
 @media (min-width:1300px){.hdr .rt .btn.ln.hd-book{display:inline-flex;align-items:center;border:1px solid var(--line2);background:#fff;color:var(--ink)}.hdr .rt .btn.ln.hd-book:hover{border-color:var(--ink)}}
+
+/* "Book a call" options in heroes and pricing */
+.yh-book{display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-weight:700;font-size:15px;color:inherit;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px;opacity:.92}
+.yh-book svg{width:18px;height:18px;flex:none}
+.yh-book:hover{opacity:1;text-decoration-thickness:2px}
+.yh .yh-book{color:#fff}
+.nh .tr3 .btn.nh-book{margin:12px 0 0!important;background:rgba(255,255,255,.06)!important;border:1px solid rgba(255,255,255,.55)!important;color:#fff!important;box-shadow:none!important;backdrop-filter:blur(6px)}
+.nh .tr3 .btn.nh-book svg{width:18px;height:18px}
+.nh .tr3 .btn.nh-book:hover{background:#fff!important;color:#0b0b0b!important;border-color:#fff!important}

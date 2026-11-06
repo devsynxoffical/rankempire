@@ -147,6 +147,10 @@ export default function Pricing() {
           <a className="tlink" href="/seo-packages/">
             {"Compare all SEO packages"}
           </a>
+          {" · "}
+          <a className="tlink" href="/book-a-call/">
+            {"Book a free strategy call"}
+          </a>
         </p>
       </div>
     </section>
