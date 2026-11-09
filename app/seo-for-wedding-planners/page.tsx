@@ -23,12 +23,12 @@ import Related from '@/components/pages/seo-for-wedding-planners/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Wedding Planner SEO Services & Company | RankEmpire" },
+  title: { absolute: "Wedding Planner SEO & SEO for Planners | RankEmpire" },
   description: "SEO for wedding planners: reach couples searching by city, style and budget with service pages, real wedding galleries, reviews and vendor partnerships.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-wedding-planners/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Wedding Planner SEO Services & Company | RankEmpire", description: "SEO for wedding planners: reach couples searching by city, style and budget with service pages, real wedding galleries, reviews and vendor partnerships.", url: "https://www.rankempire.us/seo-for-wedding-planners/", images: ["https://www.rankempire.us/img/i-food.webp"] },
-  twitter: { card: 'summary_large_image', title: "Wedding Planner SEO Services & Company | RankEmpire", description: "SEO for wedding planners: reach couples searching by city, style and budget with service pages, real wedding galleries, reviews and vendor partnerships." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Wedding Planner SEO & SEO for Planners | RankEmpire", description: "SEO for wedding planners: reach couples searching by city, style and budget with service pages, real wedding galleries, reviews and vendor partnerships.", url: "https://www.rankempire.us/seo-for-wedding-planners/", images: ["https://www.rankempire.us/img/i-food.webp"] },
+  twitter: { card: 'summary_large_image', title: "Wedding Planner SEO & SEO for Planners | RankEmpire", description: "SEO for wedding planners: reach couples searching by city, style and budget with service pages, real wedding galleries, reviews and vendor partnerships." },
 };
 
 export default function Page() {

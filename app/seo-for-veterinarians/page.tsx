@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-veterinarians/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Veterinary SEO Services & Company | RankEmpire" },
+  title: { absolute: "Veterinary SEO & SEO for Vet Clinics | RankEmpire" },
   description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-veterinarians/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Veterinary SEO Services & Company | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-veterinarians/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Veterinary SEO Services & Company | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Veterinary SEO & SEO for Vet Clinics | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-veterinarians/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Veterinary SEO & SEO for Vet Clinics | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-veterinarians" />
         <Pricing />
         <Faq />
         <Pmq />

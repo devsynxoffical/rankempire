@@ -23,12 +23,12 @@ import Related from '@/components/pages/seo-for-florists/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Florist SEO Services & Company | RankEmpire" },
+  title: { absolute: "Florist SEO & SEO for Flower Shops | RankEmpire" },
   description: "SEO for florists: rank for same-day delivery, wedding and holiday flower searches with occasion pages, product schema, map pack optimization and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-florists/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Florist SEO Services & Company | RankEmpire", description: "SEO for florists: rank for same-day delivery, wedding and holiday flower searches with occasion pages, product schema, map pack optimization and reviews.", url: "https://www.rankempire.us/seo-for-florists/", images: ["https://www.rankempire.us/img/i-food.webp"] },
-  twitter: { card: 'summary_large_image', title: "Florist SEO Services & Company | RankEmpire", description: "SEO for florists: rank for same-day delivery, wedding and holiday flower searches with occasion pages, product schema, map pack optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Florist SEO & SEO for Flower Shops | RankEmpire", description: "SEO for florists: rank for same-day delivery, wedding and holiday flower searches with occasion pages, product schema, map pack optimization and reviews.", url: "https://www.rankempire.us/seo-for-florists/", images: ["https://www.rankempire.us/img/i-food.webp"] },
+  twitter: { card: 'summary_large_image', title: "Florist SEO & SEO for Flower Shops | RankEmpire", description: "SEO for florists: rank for same-day delivery, wedding and holiday flower searches with occasion pages, product schema, map pack optimization and reviews." },
 };
 
 export default function Page() {

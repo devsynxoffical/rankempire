@@ -23,12 +23,12 @@ import Related from '@/components/pages/seo-for-towing/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Towing SEO Services & Company | RankEmpire" },
+  title: { absolute: "Towing SEO & SEO for Towing Companies | RankEmpire" },
   description: "SEO for towing companies: win urgent tow and roadside assistance searches in the map pack with a verified 24-hour profile, consistent citations and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-towing/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Towing SEO Services & Company | RankEmpire", description: "SEO for towing companies: win urgent tow and roadside assistance searches in the map pack with a verified 24-hour profile, consistent citations and reviews.", url: "https://www.rankempire.us/seo-for-towing/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "Towing SEO Services & Company | RankEmpire", description: "SEO for towing companies: win urgent tow and roadside assistance searches in the map pack with a verified 24-hour profile, consistent citations and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Towing SEO & SEO for Towing Companies | RankEmpire", description: "SEO for towing companies: win urgent tow and roadside assistance searches in the map pack with a verified 24-hour profile, consistent citations and reviews.", url: "https://www.rankempire.us/seo-for-towing/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "Towing SEO & SEO for Towing Companies | RankEmpire", description: "SEO for towing companies: win urgent tow and roadside assistance searches in the map pack with a verified 24-hour profile, consistent citations and reviews." },
 };
 
 export default function Page() {

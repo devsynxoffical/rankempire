@@ -23,12 +23,12 @@ import Related from '@/components/pages/seo-for-yoga-studios/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Yoga Studio SEO Services & Company | RankEmpire" },
+  title: { absolute: "Yoga Studio SEO & SEO for Yoga Teachers | RankEmpire" },
   description: "SEO for yoga studios: rank for hot yoga, vinyasa and teacher training searches with class pages, schedules, teacher profiles, profile optimization and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-yoga-studios/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Yoga Studio SEO Services & Company | RankEmpire", description: "SEO for yoga studios: rank for hot yoga, vinyasa and teacher training searches with class pages, schedules, teacher profiles, profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-yoga-studios/", images: ["https://www.rankempire.us/img/i-beauty.webp"] },
-  twitter: { card: 'summary_large_image', title: "Yoga Studio SEO Services & Company | RankEmpire", description: "SEO for yoga studios: rank for hot yoga, vinyasa and teacher training searches with class pages, schedules, teacher profiles, profile optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Yoga Studio SEO & SEO for Yoga Teachers | RankEmpire", description: "SEO for yoga studios: rank for hot yoga, vinyasa and teacher training searches with class pages, schedules, teacher profiles, profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-yoga-studios/", images: ["https://www.rankempire.us/img/i-beauty.webp"] },
+  twitter: { card: 'summary_large_image', title: "Yoga Studio SEO & SEO for Yoga Teachers | RankEmpire", description: "SEO for yoga studios: rank for hot yoga, vinyasa and teacher training searches with class pages, schedules, teacher profiles, profile optimization and reviews." },
 };
 
 export default function Page() {

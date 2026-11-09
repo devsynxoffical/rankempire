@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-plastic-surgeons/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Plastic Surgeon SEO Services & Company | RankEmpire" },
+  title: { absolute: "Plastic Surgeon SEO & Plastic Surgery SEO | RankEmpire" },
   description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-plastic-surgeons/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Plastic Surgeon SEO Services & Company | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility.", url: "https://www.rankempire.us/seo-for-plastic-surgeons/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Plastic Surgeon SEO Services & Company | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Plastic Surgeon SEO & Plastic Surgery SEO | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility.", url: "https://www.rankempire.us/seo-for-plastic-surgeons/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Plastic Surgeon SEO & Plastic Surgery SEO | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-plastic-surgeons" />
         <Pricing />
         <Faq />
         <Pmq />

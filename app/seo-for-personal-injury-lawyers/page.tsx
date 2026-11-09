@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-personal-injury-lawyers/Related'
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Personal Injury Lawyer SEO Services & Company | RankEmpire" },
+  title: { absolute: "Personal Injury Lawyer SEO & PI Law Firm SEO | RankEmpire" },
   description: "SEO for personal injury lawyers: compete for car accident, truck and injury case searches with case-type pages, attorney authority, reviews and local links.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-personal-injury-lawyers/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Personal Injury Lawyer SEO Services & Company | RankEmpire", description: "SEO for personal injury lawyers: compete for car accident, truck and injury case searches with case-type pages, attorney authority, reviews and local links.", url: "https://www.rankempire.us/seo-for-personal-injury-lawyers/", images: ["https://www.rankempire.us/img/i-legal.webp"] },
-  twitter: { card: 'summary_large_image', title: "Personal Injury Lawyer SEO Services & Company | RankEmpire", description: "SEO for personal injury lawyers: compete for car accident, truck and injury case searches with case-type pages, attorney authority, reviews and local links." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Personal Injury Lawyer SEO & PI Law Firm SEO | RankEmpire", description: "SEO for personal injury lawyers: compete for car accident, truck and injury case searches with case-type pages, attorney authority, reviews and local links.", url: "https://www.rankempire.us/seo-for-personal-injury-lawyers/", images: ["https://www.rankempire.us/img/i-legal.webp"] },
+  twitter: { card: 'summary_large_image', title: "Personal Injury Lawyer SEO & PI Law Firm SEO | RankEmpire", description: "SEO for personal injury lawyers: compete for car accident, truck and injury case searches with case-type pages, attorney authority, reviews and local links." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-personal-injury-lawyers" />
         <Pricing />
         <Faq />
         <Pmq />

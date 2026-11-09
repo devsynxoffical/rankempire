@@ -23,12 +23,12 @@ import Related from '@/components/pages/seo-for-barbers/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Barbershop SEO Services & Company | RankEmpire" },
+  title: { absolute: "Barbershop SEO & SEO for Barbers | RankEmpire" },
   description: "SEO for barbershops: win barber near me searches with Google Business Profile optimization, photos, booking links, reviews and a fast services page.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-barbers/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Barbershop SEO Services & Company | RankEmpire", description: "SEO for barbershops: win barber near me searches with Google Business Profile optimization, photos, booking links, reviews and a fast services page.", url: "https://www.rankempire.us/seo-for-barbers/", images: ["https://www.rankempire.us/img/i-beauty.webp"] },
-  twitter: { card: 'summary_large_image', title: "Barbershop SEO Services & Company | RankEmpire", description: "SEO for barbershops: win barber near me searches with Google Business Profile optimization, photos, booking links, reviews and a fast services page." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Barbershop SEO & SEO for Barbers | RankEmpire", description: "SEO for barbershops: win barber near me searches with Google Business Profile optimization, photos, booking links, reviews and a fast services page.", url: "https://www.rankempire.us/seo-for-barbers/", images: ["https://www.rankempire.us/img/i-beauty.webp"] },
+  twitter: { card: 'summary_large_image', title: "Barbershop SEO & SEO for Barbers | RankEmpire", description: "SEO for barbershops: win barber near me searches with Google Business Profile optimization, photos, booking links, reviews and a fast services page." },
 };
 
 export default function Page() {

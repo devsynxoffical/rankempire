@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-landscaping/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Landscaping SEO Services & Company | RankEmpire" },
+  title: { absolute: "Landscaping SEO & SEO for Landscapers | RankEmpire" },
   description: "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack optimization.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-landscaping/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Landscaping SEO Services & Company | RankEmpire", description: "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack optimization.", url: "https://www.rankempire.us/seo-for-landscaping/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "Landscaping SEO Services & Company | RankEmpire", description: "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack optimization." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Landscaping SEO & SEO for Landscapers | RankEmpire", description: "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack optimization.", url: "https://www.rankempire.us/seo-for-landscaping/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Landscaping SEO & SEO for Landscapers | RankEmpire", description: "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack optimization." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-landscaping" />
         <Pricing />
         <Faq />
         <Pmq />

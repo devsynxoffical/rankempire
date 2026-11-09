@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-home-builders/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Home Builder SEO Services & Company | RankEmpire" },
+  title: { absolute: "Home Builder SEO & SEO for Builders | RankEmpire" },
   description: "SEO for home builders: reach buyers searching communities, floor plans and custom homes with community pages, process content, reviews and local visibility.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-home-builders/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Home Builder SEO Services & Company | RankEmpire", description: "SEO for home builders: reach buyers searching communities, floor plans and custom homes with community pages, process content, reviews and local visibility.", url: "https://www.rankempire.us/seo-for-home-builders/", images: ["https://www.rankempire.us/img/i-realestate.webp"] },
-  twitter: { card: 'summary_large_image', title: "Home Builder SEO Services & Company | RankEmpire", description: "SEO for home builders: reach buyers searching communities, floor plans and custom homes with community pages, process content, reviews and local visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Home Builder SEO & SEO for Builders | RankEmpire", description: "SEO for home builders: reach buyers searching communities, floor plans and custom homes with community pages, process content, reviews and local visibility.", url: "https://www.rankempire.us/seo-for-home-builders/", images: ["https://www.rankempire.us/img/i-realestate.webp"] },
+  twitter: { card: 'summary_large_image', title: "Home Builder SEO & SEO for Builders | RankEmpire", description: "SEO for home builders: reach buyers searching communities, floor plans and custom homes with community pages, process content, reviews and local visibility." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-home-builders" />
         <Pricing />
         <Faq />
         <Pmq />
