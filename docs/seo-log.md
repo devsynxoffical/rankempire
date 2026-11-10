@@ -11,7 +11,7 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Average position | 84 |
 | Queries with impressions | 3,085 (96% of impressions at positions 51 to 100) |
 | Indexed pages | 131 of 131 |
-| GA4 | Not installed: no Measurement ID available |
+| GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
 ## 2026-11-10 (session 2)
 
@@ -40,7 +40,7 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 ## Backlog (highest impact first)
 
 1. **Off-site authority** (needs owner accounts): Clutch, DesignRush, GoodFirms, UpCity, BrightLocal agency directory, Bing Places, Apple Business Connect, Google Business Profile for RankEmpire; expert quote platforms (Qwoted, Featured.com); list the free tools on Product Hunt, AlternativeTo and SaaSHub.
-2. **GA4 Measurement ID** from the owner, then mark generate_lead, whatsapp_click and book_call_click as key events.
+2. **GA4 key events:** owner to mark generate_lead, whatsapp_click and book_call_click as key events in GA4 Admin (needs owner access).
 3. **"Near me" queries** (seo agency near me, best position 14; seo services near me; seo firms near me): strengthen city pages and the /seo-company/ guide as data comes in.
 4. **Remaining pages without a guide:** core services (local SEO, technical SEO, link building, content SEO, GEO, AEO and others) after checking which already have deep content.
 5. **Stylesheet split:** site.css is 287 KB on every page.
