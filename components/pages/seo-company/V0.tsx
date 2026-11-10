@@ -31,7 +31,7 @@ export default function V0() {
               {" growth"}
             </h1>
             <p className="lead" data-r="">
-              {"One team for technical SEO, content, links and local search, so every month of work stacks on the last instead of starting over."}
+              {"A US SEO company and SEO agency with one team for technical SEO, content, links and local search, so every month of work stacks on the last instead of starting over."}
             </p>
             {"\n"}
             <div className="yh-cta" data-r="">

@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -25,12 +26,12 @@ import Related from '@/components/pages/seo-company/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "SEO Company That Builds Rankings That Compound | RankEmpire" },
-  description: "RankEmpire is a full-service SEO company for local businesses, e-commerce brands and SaaS teams. Technical SEO, content.",
+  title: { absolute: "SEO Company & SEO Agency in the USA | RankEmpire" },
+  description: "RankEmpire is a US SEO company and SEO agency for local businesses, e-commerce and SaaS: local, technical and AI search SEO. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/seo-company/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company That Builds Rankings That Compound | RankEmpire", description: "RankEmpire is a full-service SEO company for local businesses, e-commerce brands and SaaS teams. Technical SEO, content.", url: "https://www.rankempire.us/seo-company/", images: ["https://www.rankempire.us/img/team.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company That Builds Rankings That Compound | RankEmpire", description: "RankEmpire is a full-service SEO company for local businesses, e-commerce brands and SaaS teams. Technical SEO, content." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company & SEO Agency in the USA | RankEmpire", description: "RankEmpire is a US SEO company and SEO agency for local businesses, e-commerce and SaaS: local, technical and AI search SEO. Free audit in 2 days.", url: "https://www.rankempire.us/seo-company/", images: ["https://www.rankempire.us/img/team.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Company & SEO Agency in the USA | RankEmpire", description: "RankEmpire is a US SEO company and SEO agency for local businesses, e-commerce and SaaS: local, technical and AI search SEO. Free audit in 2 days." },
 };
 
 export default function Page() {
@@ -57,6 +58,7 @@ export default function Page() {
         <Process />
         <WhoItIsFor />
         <Comparison />
+        <DeepGuide slug="seo-company" />
         <Pricing />
         <Trust />
         <Faq />

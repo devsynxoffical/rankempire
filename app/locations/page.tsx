@@ -13,12 +13,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "SEO Company Locations Across the US | RankEmpire" },
-  description: "RankEmpire provides local SEO services in New York, Los Angeles, Chicago, Houston, Dallas, Miami and 11 more US cities.",
+  title: { absolute: "SEO Companies in the USA: Local SEO by City | RankEmpire" },
+  description: "RankEmpire provides local SEO services in New York, Los Angeles, Chicago, Houston, Phoenix, Dallas, Miami and 13 more US cities. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/locations/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Company Locations Across the US | RankEmpire", description: "RankEmpire provides local SEO services in New York, Los Angeles, Chicago, Houston, Dallas, Miami and 11 more US cities.", url: "https://www.rankempire.us/locations/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Company Locations Across the US | RankEmpire", description: "RankEmpire provides local SEO services in New York, Los Angeles, Chicago, Houston, Dallas, Miami and 11 more US cities." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Companies in the USA: Local SEO by City | RankEmpire", description: "RankEmpire provides local SEO services in New York, Los Angeles, Chicago, Houston, Phoenix, Dallas, Miami and 13 more US cities. Free audit in 2 days.", url: "https://www.rankempire.us/locations/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Companies in the USA: Local SEO by City | RankEmpire", description: "RankEmpire provides local SEO services in New York, Los Angeles, Chicago, Houston, Phoenix, Dallas, Miami and 13 more US cities. Free audit in 2 days." },
 };
 
 export default function Page() {

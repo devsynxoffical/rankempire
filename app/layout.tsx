@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import WhatsAppButton from '@/components/layout/WhatsAppButton';
+import Analytics from '@/components/seo/Analytics';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -103,6 +104,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         </noscript>
         {children}
         <WhatsAppButton />
+        <Analytics />
         <Script id="meta-pixel" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: PIXEL }} />
         <Script src="/assets/lenis.min.js?v=1" strategy="beforeInteractive" />
         <Script src="/assets/site.js" strategy="afterInteractive" />

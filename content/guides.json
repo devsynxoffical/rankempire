@@ -1424,5 +1424,35 @@
         "p": "Check markup with this tool and with Google's Rich Results Test after publishing. For the rest of the page, use the [SEO score checker](/seo-tools/seo-score-checker/)."
       }
     ]
+  },
+  "seo-company": {
+    "title": "SEO company near me: how to find, compare and choose one",
+    "intro": "An SEO company improves how often your business appears in Google, Google Maps and AI answers for the searches your customers make, then turns that visibility into calls, leads and sales. This guide explains what an SEO company actually does, how it differs from an SEO agency or consultant, how to find a good one near you or remotely, and what it should cost.",
+    "sections": [
+      {
+        "h": "What does an SEO company do?",
+        "p": "A good SEO company fixes the technical health of your site, maps every important search to one page, improves or writes those pages, optimizes your [Google Business Profile](/google-business-profile-seo/), earns links and mentions from other sites, and reports results from Google Search Console. Work runs in a fixed order: audit, foundations, then content and authority."
+      },
+      {
+        "h": "SEO company vs SEO agency vs SEO consultant",
+        "p": "\"SEO company\" and \"SEO agency\" usually mean the same thing: a team that does the work for you. An [SEO consultant](/seo-consulting/) sets the strategy and reviews your team's work while your staff implements it. Choose a company or agency when you need execution, and a consultant when you have in-house people who can ship changes."
+      },
+      {
+        "h": "Finding an SEO company near you",
+        "p": "Searching \"SEO company near me\" shows agencies close to you, but location matters less than whether the team understands your market. A remote company can rank you anywhere if it checks your visibility across your real service area with a rank grid. RankEmpire works remotely with US businesses and runs local programs in cities including [New York](/locations/new-york/), [Chicago](/locations/chicago/), [Houston](/locations/houston/), [Phoenix](/locations/phoenix/), [Dallas](/locations/dallas/) and [Los Angeles](/locations/los-angeles/); see [all locations](/locations/)."
+      },
+      {
+        "h": "How much does an SEO company cost?",
+        "p": "Most small businesses pay $500 to $2,500 a month, multi-location and e-commerce programs $2,000 to $8,000, and national programs more. RankEmpire's local plans start at $599 a month, month to month after a three-month onboarding. Our guide on [how much SEO costs](/blog/how-much-does-seo-cost/) explains what drives the price, and our [SEO packages](/seo-packages/) list what each plan includes."
+      },
+      {
+        "h": "How to choose the best SEO company",
+        "p": "Ask for real Search Console results shared with permission, a named strategist who does the work, a 90-day plan in order, how they earn links and who owns the work if you stop. Avoid guaranteed rankings, results promised in 30 days and long lock-in contracts. Our guide on [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) lists twelve questions, and our [verified results](/case-studies/) show the reports we share."
+      },
+      {
+        "h": "How long does an SEO company take to show results?",
+        "p": "Expect early movement on long-tail and local searches in 60 to 90 days, meaningful gains on core terms in four to six months, and compounding growth after that. Impressions in Search Console rise first, then positions, then clicks and leads, as shown in our [indexing case study](/blog/how-we-got-our-pages-indexed/)."
+      }
+    ]
   }
 }
