@@ -10,6 +10,8 @@ AI assistants now add a second path. ChatGPT, Gemini and Google's AI Overviews a
 
 Choose the most specific primary category, such as Plumber, Electrician, Roofing Contractor or HVAC Contractor, then add secondary categories only for work you actually do. List every service with a short description, set realistic service areas, keep hours accurate (including emergency hours) and upload real job photos every month. Our [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/) walks through every field.
 
+For starter keyword lists by trade, see our guide to [SEO keywords by industry](/blog/seo-keywords-by-industry/).
+
 ## 2. Build one page per high-value job
 
 A single "Services" page cannot rank for water heaters, sewer lines, panel upgrades and roof replacements at the same time. Each job you want more of needs its own page with:

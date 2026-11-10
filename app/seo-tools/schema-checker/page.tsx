@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import PageHero from '@/components/pages/seo-tools__schema-checker/PageHero';
 import Section from '@/components/pages/seo-tools__schema-checker/Section';
@@ -14,12 +15,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free Schema Checker: Online SEO Tool | RankEmpire" },
+  title: { absolute: "Free Schema Checker: Validate JSON-LD | RankEmpire" },
   description: "Validate JSON-LD structured data in seconds. Test schema types, required properties, and rich snippet readiness for Google and AI engines.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/schema-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Schema Checker: Online SEO Tool | RankEmpire", description: "Validate JSON-LD structured data in seconds. Test schema types, required properties, and rich snippet readiness for Google and AI engines.", url: "https://www.rankempire.us/seo-tools/schema-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free Schema Checker: Online SEO Tool | RankEmpire", description: "Validate JSON-LD structured data in seconds. Test schema types, required properties, and rich snippet readiness for Google and AI engines." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Schema Checker: Validate JSON-LD | RankEmpire", description: "Validate JSON-LD structured data in seconds. Test schema types, required properties, and rich snippet readiness for Google and AI engines.", url: "https://www.rankempire.us/seo-tools/schema-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free Schema Checker: Validate JSON-LD | RankEmpire", description: "Validate JSON-LD structured data in seconds. Test schema types, required properties, and rich snippet readiness for Google and AI engines." },
 };
 
 export default function Page() {
@@ -38,6 +39,7 @@ export default function Page() {
         <Section />
         <How />
         <More />
+        <DeepGuide slug="seo-tools/schema-checker" />
         <Faq />
         <Pmq />
         <Robo />

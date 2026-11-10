@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import PageHero from '@/components/pages/seo-tools__seo-audit-tool/PageHero';
 import Section from '@/components/pages/seo-tools__seo-audit-tool/Section';
@@ -14,12 +15,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free SEO Audit Tool: Online SEO Tool | RankEmpire" },
+  title: { absolute: "Free SEO Audit Tool: On-Page SEO Audit | RankEmpire" },
   description: "Run a quick on-page SEO audit of any page by pasting its HTML. Checks titles, meta tags, headings, images, links, canonical and structured data.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/seo-audit-tool/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free SEO Audit Tool: Online SEO Tool | RankEmpire", description: "Run a quick on-page SEO audit of any page by pasting its HTML. Checks titles, meta tags, headings, images, links, canonical and structured data.", url: "https://www.rankempire.us/seo-tools/seo-audit-tool/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free SEO Audit Tool: Online SEO Tool | RankEmpire", description: "Run a quick on-page SEO audit of any page by pasting its HTML. Checks titles, meta tags, headings, images, links, canonical and structured data." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free SEO Audit Tool: On-Page SEO Audit | RankEmpire", description: "Run a quick on-page SEO audit of any page by pasting its HTML. Checks titles, meta tags, headings, images, links, canonical and structured data.", url: "https://www.rankempire.us/seo-tools/seo-audit-tool/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free SEO Audit Tool: On-Page SEO Audit | RankEmpire", description: "Run a quick on-page SEO audit of any page by pasting its HTML. Checks titles, meta tags, headings, images, links, canonical and structured data." },
 };
 
 export default function Page() {
@@ -38,6 +39,7 @@ export default function Page() {
         <Section />
         <How />
         <More />
+        <DeepGuide slug="seo-tools/seo-audit-tool" />
         <Faq />
         <Pmq />
         <Robo />

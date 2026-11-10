@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import PageHero from '@/components/pages/seo-tools__sitemap-checker/PageHero';
 import Section from '@/components/pages/seo-tools__sitemap-checker/Section';
@@ -14,12 +15,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free Sitemap Checker: Online SEO Tool | RankEmpire" },
+  title: { absolute: "Free XML Sitemap Checker & Validator | RankEmpire" },
   description: "Inspect and validate your XML sitemap for URL count, response codes, format compliance, duplicates, and common crawl errors with our free tool.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/sitemap-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Sitemap Checker: Online SEO Tool | RankEmpire", description: "Inspect and validate your XML sitemap for URL count, response codes, format compliance, duplicates, and common crawl errors with our free tool.", url: "https://www.rankempire.us/seo-tools/sitemap-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free Sitemap Checker: Online SEO Tool | RankEmpire", description: "Inspect and validate your XML sitemap for URL count, response codes, format compliance, duplicates, and common crawl errors with our free tool." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free XML Sitemap Checker & Validator | RankEmpire", description: "Inspect and validate your XML sitemap for URL count, response codes, format compliance, duplicates, and common crawl errors with our free tool.", url: "https://www.rankempire.us/seo-tools/sitemap-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free XML Sitemap Checker & Validator | RankEmpire", description: "Inspect and validate your XML sitemap for URL count, response codes, format compliance, duplicates, and common crawl errors with our free tool." },
 };
 
 export default function Page() {
@@ -38,6 +39,7 @@ export default function Page() {
         <Section />
         <How />
         <More />
+        <DeepGuide slug="seo-tools/sitemap-checker" />
         <Faq />
         <Pmq />
         <Robo />

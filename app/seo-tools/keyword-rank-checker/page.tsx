@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import PageHero from '@/components/pages/seo-tools__keyword-rank-checker/PageHero';
 import Section from '@/components/pages/seo-tools__keyword-rank-checker/Section';
@@ -14,12 +15,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free Keyword Rank Checker: Online SEO Tool | RankEmpire" },
+  title: { absolute: "Free Keyword Rank Checker: Check Google Rankings | RankEmpire" },
   description: "Find where a domain appears in a results list. Paste the result URLs for a keyword and we show the position of your domain and competitors.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/keyword-rank-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Keyword Rank Checker: Online SEO Tool | RankEmpire", description: "Find where a domain appears in a results list. Paste the result URLs for a keyword and we show the position of your domain and competitors.", url: "https://www.rankempire.us/seo-tools/keyword-rank-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free Keyword Rank Checker: Online SEO Tool | RankEmpire", description: "Find where a domain appears in a results list. Paste the result URLs for a keyword and we show the position of your domain and competitors." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Keyword Rank Checker: Check Google Rankings | RankEmpire", description: "Find where a domain appears in a results list. Paste the result URLs for a keyword and we show the position of your domain and competitors.", url: "https://www.rankempire.us/seo-tools/keyword-rank-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free Keyword Rank Checker: Check Google Rankings | RankEmpire", description: "Find where a domain appears in a results list. Paste the result URLs for a keyword and we show the position of your domain and competitors." },
 };
 
 export default function Page() {
@@ -38,6 +39,7 @@ export default function Page() {
         <Section />
         <How />
         <More />
+        <DeepGuide slug="seo-tools/keyword-rank-checker" />
         <Faq />
         <Pmq />
         <Robo />

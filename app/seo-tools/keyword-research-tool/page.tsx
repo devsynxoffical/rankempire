@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import PageHero from '@/components/pages/seo-tools__keyword-research-tool/PageHero';
 import Section from '@/components/pages/seo-tools__keyword-research-tool/Section';
@@ -14,12 +15,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free Keyword Research Tool: Online SEO Tool | RankEmpire" },
+  title: { absolute: "Free Keyword Research Tool & Keyword Ideas | RankEmpire" },
   description: "Generate hundreds of keyword ideas from a seed term, grouped by intent: questions, commercial, local and comparisons.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/keyword-research-tool/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Keyword Research Tool: Online SEO Tool | RankEmpire", description: "Generate hundreds of keyword ideas from a seed term, grouped by intent: questions, commercial, local and comparisons.", url: "https://www.rankempire.us/seo-tools/keyword-research-tool/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free Keyword Research Tool: Online SEO Tool | RankEmpire", description: "Generate hundreds of keyword ideas from a seed term, grouped by intent: questions, commercial, local and comparisons." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Keyword Research Tool & Keyword Ideas | RankEmpire", description: "Generate hundreds of keyword ideas from a seed term, grouped by intent: questions, commercial, local and comparisons.", url: "https://www.rankempire.us/seo-tools/keyword-research-tool/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free Keyword Research Tool & Keyword Ideas | RankEmpire", description: "Generate hundreds of keyword ideas from a seed term, grouped by intent: questions, commercial, local and comparisons." },
 };
 
 export default function Page() {
@@ -38,6 +39,7 @@ export default function Page() {
         <Section />
         <How />
         <More />
+        <DeepGuide slug="seo-tools/keyword-research-tool" />
         <Faq />
         <Pmq />
         <Robo />

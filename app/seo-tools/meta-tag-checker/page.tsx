@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import PageHero from '@/components/pages/seo-tools__meta-tag-checker/PageHero';
 import Section from '@/components/pages/seo-tools__meta-tag-checker/Section';
@@ -14,12 +15,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free Meta Tag Checker: Online SEO Tool | RankEmpire" },
+  title: { absolute: "Free Meta Tag Checker: Title & Description | RankEmpire" },
   description: "Inspect title tags, meta descriptions, robots directives, canonical tags, Open Graph, and Twitter Cards to ensure optimal search ranking and CTR.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/meta-tag-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Meta Tag Checker: Online SEO Tool | RankEmpire", description: "Inspect title tags, meta descriptions, robots directives, canonical tags, Open Graph, and Twitter Cards to ensure optimal search ranking and CTR.", url: "https://www.rankempire.us/seo-tools/meta-tag-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free Meta Tag Checker: Online SEO Tool | RankEmpire", description: "Inspect title tags, meta descriptions, robots directives, canonical tags, Open Graph, and Twitter Cards to ensure optimal search ranking and CTR." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Meta Tag Checker: Title & Description | RankEmpire", description: "Inspect title tags, meta descriptions, robots directives, canonical tags, Open Graph, and Twitter Cards to ensure optimal search ranking and CTR.", url: "https://www.rankempire.us/seo-tools/meta-tag-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free Meta Tag Checker: Title & Description | RankEmpire", description: "Inspect title tags, meta descriptions, robots directives, canonical tags, Open Graph, and Twitter Cards to ensure optimal search ranking and CTR." },
 };
 
 export default function Page() {
@@ -38,6 +39,7 @@ export default function Page() {
         <Section />
         <How />
         <More />
+        <DeepGuide slug="seo-tools/meta-tag-checker" />
         <Faq />
         <Pmq />
         <Robo />
