@@ -13,6 +13,16 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-11 (Bing Webmaster)
+
+Bing data (Webmaster API): rankempire.us verified; 0 crawl issues, 0 robots blocks, 0 crawl errors; 80 pages crawled but only 1 in Bing's index; 0 Bing impressions. Sitemaps last read by Bing around 3-4 Nov with stale counts (124 URLs).
+
+- Resubmitted all 5 sitemaps to Bing (SubmitFeed).
+- Submitted the 100 highest-priority URLs through the Bing URL Submission API (daily quota used: 100/100; 1,900 left this month).
+- Submitted all 131 URLs to IndexNow (HTTP 202 accepted; key file /c10d4dfaf7d7fd1399c84c083b9a859e.txt is live).
+- scripts/indexnow.mjs now uses curl so it works through the session proxy.
+- Daily sessions now also submit changed URLs to IndexNow and Bing, and report Bing's index count.
+
 ## 2026-11-11 (session 2)
 
 Indexing audit (URL Inspection API, all 131 URLs): 130 "Submitted and indexed", 0 canonical mismatches, 129 rich-result PASS. 1 page /seo-for-tutors/ "Discovered - currently not indexed" (no unique guide, 7 internal links, old title pattern).
@@ -67,4 +77,5 @@ Data (Search Console, latest day 9 Nov): 3,398 impressions and 1 click on 9 Nov;
 6. **Recheck /seo-for-tutors/ indexing** after resubmission.
 7. **Stylesheet split:** site.css is 287 KB on every page.
 8. **Real client case study** once the details of the work behind a verified result are shared.
-9. **OpenSEO credits** for search volume data on new targets.
+9. **Bing:** submit the remaining 31 URLs through the Bing API on 12 Nov; watch Bing InIndex (1 on 11 Nov); add RankEmpire to Bing Places.
+10. **OpenSEO credits** for search volume data on new targets.
