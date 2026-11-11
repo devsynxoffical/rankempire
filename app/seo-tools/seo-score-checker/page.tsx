@@ -15,12 +15,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free SEO Checker: Page SEO Score in Seconds | RankEmpire" },
+  title: { absolute: "Free SEO Checker Tool: Page SEO Score Online | RankEmpire" },
   description: "Get an instant 0 to 100 on-page SEO score based on 14 essential checks with step-by-step recommendations to fix errors and boost Google rankings.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/seo-score-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free SEO Checker: Page SEO Score in Seconds | RankEmpire", description: "Get an instant 0 to 100 on-page SEO score based on 14 essential checks with step-by-step recommendations to fix errors and boost Google rankings.", url: "https://www.rankempire.us/seo-tools/seo-score-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free SEO Checker: Page SEO Score in Seconds | RankEmpire", description: "Get an instant 0 to 100 on-page SEO score based on 14 essential checks with step-by-step recommendations to fix errors and boost Google rankings." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free SEO Checker Tool: Page SEO Score Online | RankEmpire", description: "Get an instant 0 to 100 on-page SEO score based on 14 essential checks with step-by-step recommendations to fix errors and boost Google rankings.", url: "https://www.rankempire.us/seo-tools/seo-score-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free SEO Checker Tool: Page SEO Score Online | RankEmpire", description: "Get an instant 0 to 100 on-page SEO score based on 14 essential checks with step-by-step recommendations to fix errors and boost Google rankings." },
 };
 
 export default function Page() {

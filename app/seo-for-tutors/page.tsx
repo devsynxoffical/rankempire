@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-tutors/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Tutoring SEO Services & Company | RankEmpire" },
+  title: { absolute: "Tutoring SEO & SEO for Tutoring Centers | RankEmpire" },
   description: "SEO for tutors and tutoring centers: rank for subject, SAT and ACT tutoring searches with subject pages, tutor profiles, reviews and map pack optimization.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-tutors/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Tutoring SEO Services & Company | RankEmpire", description: "SEO for tutors and tutoring centers: rank for subject, SAT and ACT tutoring searches with subject pages, tutor profiles, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-tutors/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "Tutoring SEO Services & Company | RankEmpire", description: "SEO for tutors and tutoring centers: rank for subject, SAT and ACT tutoring searches with subject pages, tutor profiles, reviews and map pack optimization." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Tutoring SEO & SEO for Tutoring Centers | RankEmpire", description: "SEO for tutors and tutoring centers: rank for subject, SAT and ACT tutoring searches with subject pages, tutor profiles, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-tutors/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Tutoring SEO & SEO for Tutoring Centers | RankEmpire", description: "SEO for tutors and tutoring centers: rank for subject, SAT and ACT tutoring searches with subject pages, tutor profiles, reviews and map pack optimization." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-tutors" />
         <Pricing />
         <Faq />
         <Pmq />

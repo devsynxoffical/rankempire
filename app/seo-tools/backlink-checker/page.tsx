@@ -16,12 +16,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free Backlink Checker: Check Backlinks Free | RankEmpire" },
+  title: { absolute: "Free Backlink Checker Tool: Check Backlinks Free | RankEmpire" },
   description: "Free backlink checker tool: check backlinks free with referring domains, anchor text and backlink analysis from your export. Private, no sign-up.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/backlink-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Backlink Checker: Check Backlinks Free | RankEmpire", description: "Free backlink checker tool: check backlinks free with referring domains, anchor text and backlink analysis from your export. Private, no sign-up.", url: "https://www.rankempire.us/seo-tools/backlink-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free Backlink Checker: Check Backlinks Free | RankEmpire", description: "Free backlink checker tool: check backlinks free with referring domains, anchor text and backlink analysis from your export. Private, no sign-up." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Backlink Checker Tool: Check Backlinks Free | RankEmpire", description: "Free backlink checker tool: check backlinks free with referring domains, anchor text and backlink analysis from your export. Private, no sign-up.", url: "https://www.rankempire.us/seo-tools/backlink-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free Backlink Checker Tool: Check Backlinks Free | RankEmpire", description: "Free backlink checker tool: check backlinks free with referring domains, anchor text and backlink analysis from your export. Private, no sign-up." },
 };
 
 export default function Page() {

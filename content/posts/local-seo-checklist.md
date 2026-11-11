@@ -91,7 +91,7 @@ If you would rather hand this off, our [local SEO packages](/seo-packages/local-
 
 Running a trade business? Our [SEO for contractors guide](/blog/seo-for-contractors/) applies this checklist to plumbers, electricians, roofers, HVAC companies and other home service contractors.
 
-Need keyword ideas for your trade? Our [SEO keywords by industry](/blog/seo-keywords-by-industry/) guide lists service, urgent, cost, local and question keywords for 14 industries.
+Need keyword ideas for your trade? Our [SEO keywords by industry](/blog/seo-keywords-by-industry/) guide lists service, urgent, cost, local and question keywords for 15 industries.
 
 ## FAQ
 

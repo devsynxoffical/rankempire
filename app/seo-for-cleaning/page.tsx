@@ -24,12 +24,12 @@ import Related from '@/components/pages/seo-for-cleaning/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Cleaning Company SEO Agency & Services | RankEmpire" },
+  title: { absolute: "Cleaning & Carpet Cleaning Company SEO | RankEmpire" },
   description: "Cleaning company SEO agency for house, office, carpet and move-out cleaning: Google Maps, service pages, reviews and area pages. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-cleaning/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Cleaning Company SEO Agency & Services | RankEmpire", description: "Cleaning company SEO agency for house, office, carpet and move-out cleaning: Google Maps, service pages, reviews and area pages. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-cleaning/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "Cleaning Company SEO Agency & Services | RankEmpire", description: "Cleaning company SEO agency for house, office, carpet and move-out cleaning: Google Maps, service pages, reviews and area pages. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Cleaning & Carpet Cleaning Company SEO | RankEmpire", description: "Cleaning company SEO agency for house, office, carpet and move-out cleaning: Google Maps, service pages, reviews and area pages. Free audit in 2 days.", url: "https://www.rankempire.us/seo-for-cleaning/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Cleaning & Carpet Cleaning Company SEO | RankEmpire", description: "Cleaning company SEO agency for house, office, carpet and move-out cleaning: Google Maps, service pages, reviews and area pages. Free audit in 2 days." },
 };
 
 export default function Page() {

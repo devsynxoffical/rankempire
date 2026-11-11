@@ -1,4 +1,4 @@
-The best SEO keywords for a local business are the exact phrases customers type when they are ready to hire: the service, the problem, the price question and the place. This guide gives starter keyword lists for 14 local industries, grouped by search intent, and shows how to turn each group into the right page. Use them as seeds, then confirm which ones already show your site in Google Search Console.
+The best SEO keywords for a local business are the exact phrases customers type when they are ready to hire: the service, the problem, the price question and the place. This guide gives starter keyword lists for 15 local industries, grouped by search intent, and shows how to turn each group into the right page. Use them as seeds, then confirm which ones already show your site in Google Search Console.
 
 ## How to use these keyword lists
 
@@ -153,6 +153,16 @@ See [real estate SEO](/seo-for-real-estate/).
 - **Questions:** do you take reservations, kid friendly restaurants
 
 See [restaurant SEO](/seo-for-restaurants/).
+
+## Tutoring keywords
+
+- **Service:** math tutor, reading tutor, SAT prep, ACT prep, AP exam tutoring, online tutoring, homework help
+- **Urgent:** tutor before finals, last minute SAT prep
+- **Cost:** tutoring prices per hour, SAT prep cost
+- **Local:** tutor [city], tutoring center [neighborhood]
+- **Questions:** how much does a tutor cost, when to start SAT prep
+
+See [tutoring SEO](/seo-for-tutors/).
 
 ## Turn keywords into pages
 

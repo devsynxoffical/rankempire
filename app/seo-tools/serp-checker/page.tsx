@@ -15,12 +15,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free SERP Checker & Google SERP Preview Tool | RankEmpire" },
+  title: { absolute: "Free Online SERP Checker & SERP Preview Tool | RankEmpire" },
   description: "Preview how your title and description appear in Google search results on desktop and mobile, with pixel width checks.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/serp-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free SERP Checker & Google SERP Preview Tool | RankEmpire", description: "Preview how your title and description appear in Google search results on desktop and mobile, with pixel width checks.", url: "https://www.rankempire.us/seo-tools/serp-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free SERP Checker & Google SERP Preview Tool | RankEmpire", description: "Preview how your title and description appear in Google search results on desktop and mobile, with pixel width checks." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Online SERP Checker & SERP Preview Tool | RankEmpire", description: "Preview how your title and description appear in Google search results on desktop and mobile, with pixel width checks.", url: "https://www.rankempire.us/seo-tools/serp-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free Online SERP Checker & SERP Preview Tool | RankEmpire", description: "Preview how your title and description appear in Google search results on desktop and mobile, with pixel width checks." },
 };
 
 export default function Page() {

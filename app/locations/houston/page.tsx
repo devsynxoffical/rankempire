@@ -26,11 +26,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Houston SEO Company, Agency & Firm | RankEmpire" },
-  description: "Houston SEO company and SEO firm for Katy, Sugar Land, The Woodlands and the whole metro. Houston SEO services for Maps and AI search. Free audit in 2 days.",
+  description: "Houston SEO company and local SEO experts: search engine optimization for Katy, Sugar Land, The Woodlands and the whole metro. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/locations/houston/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Houston SEO Company, Agency & Firm | RankEmpire", description: "Houston SEO company and SEO firm for Katy, Sugar Land, The Woodlands and the whole metro. Houston SEO services for Maps and AI search. Free audit in 2 days.", url: "https://www.rankempire.us/locations/houston/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Houston SEO Company, Agency & Firm | RankEmpire", description: "Houston SEO company and SEO firm for Katy, Sugar Land, The Woodlands and the whole metro. Houston SEO services for Maps and AI search. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Houston SEO Company, Agency & Firm | RankEmpire", description: "Houston SEO company and local SEO experts: search engine optimization for Katy, Sugar Land, The Woodlands and the whole metro. Free audit in 2 days.", url: "https://www.rankempire.us/locations/houston/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Houston SEO Company, Agency & Firm | RankEmpire", description: "Houston SEO company and local SEO experts: search engine optimization for Katy, Sugar Land, The Woodlands and the whole metro. Free audit in 2 days." },
 };
 
 export default function Page() {

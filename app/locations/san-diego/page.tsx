@@ -24,11 +24,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "San Diego SEO Company & SEO Agency | RankEmpire" },
-  description: "SEO company in San Diego: local SEO, Google Business Profile optimization and content for businesses in Downtown, La Jolla, North Park and Chula Vista.",
+  description: "San Diego SEO company: search engine optimization and local SEO for La Jolla, North County, Chula Vista and Downtown businesses. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/locations/san-diego/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "San Diego SEO Company & SEO Agency | RankEmpire", description: "SEO company in San Diego: local SEO, Google Business Profile optimization and content for businesses in Downtown, La Jolla, North Park and Chula Vista.", url: "https://www.rankempire.us/locations/san-diego/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "San Diego SEO Company & SEO Agency | RankEmpire", description: "SEO company in San Diego: local SEO, Google Business Profile optimization and content for businesses in Downtown, La Jolla, North Park and Chula Vista." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "San Diego SEO Company & SEO Agency | RankEmpire", description: "San Diego SEO company: search engine optimization and local SEO for La Jolla, North County, Chula Vista and Downtown businesses. Free audit in 2 days.", url: "https://www.rankempire.us/locations/san-diego/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "San Diego SEO Company & SEO Agency | RankEmpire", description: "San Diego SEO company: search engine optimization and local SEO for La Jolla, North County, Chula Vista and Downtown businesses. Free audit in 2 days." },
 };
 
 export default function Page() {

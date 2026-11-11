@@ -517,7 +517,7 @@
       },
       {
         "h": "Choosing a preschool SEO company",
-        "p": "Ask a preschool SEO company how it tracks tour bookings and enrollments, how it handles privacy in photos and reviews, and how it plans around enrollment season. Use the questions in [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) and the [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/)."
+        "p": "Ask a preschool SEO company how it tracks tour bookings and enrollments, how it handles privacy in photos and reviews, and how it plans around enrollment season. Use the questions in [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) and the [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/). For after-school learning, see our [tutoring SEO](/seo-for-tutors/) playbook."
       }
     ]
   },
@@ -1600,6 +1600,136 @@
       {
         "h": "Measuring link building",
         "p": "Track referring domains, the relevance of linking sites, brand mentions and, most importantly, ranking and traffic changes for the pages you are building authority for. See also [off-page SEO](/off-page-seo/)."
+      }
+    ]
+  },
+  "geo": {
+    "title": "Generative engine optimization: how to get cited by ChatGPT, Perplexity and AI Overviews",
+    "intro": "Generative engine optimization (GEO) is the work of making a brand easy for AI systems to find, understand, trust and cite when they write answers. ChatGPT, Perplexity, Gemini and Google AI Overviews read several sources and combine them; GEO makes sure your business is one of those sources. No one can guarantee a citation, but these practices make one far more likely.",
+    "sections": [
+      {
+        "h": "How AI answers choose sources",
+        "p": "Most AI answers start from a search index, then pick passages that answer the question clearly, come from trusted sites and contain specific facts. Pages that already rank, use clear headings and state concrete numbers are cited far more often than vague pages. Our guide to [AEO vs GEO vs SEO](/blog/aeo-vs-geo-vs-seo/) explains the differences."
+      },
+      {
+        "h": "Make your brand a clear entity",
+        "p": "Use one consistent name, description, address and service list across your website, Google Business Profile, LinkedIn, directories and press. Organization and Person structured data that link to those profiles help systems connect the facts. Validate markup with our [schema checker](/seo-tools/schema-checker/)."
+      },
+      {
+        "h": "Publish specific, quotable information",
+        "p": "Prices, timelines, processes, comparisons and original data are what AI systems quote. Replace adjectives with facts, answer one question per section and keep pages updated with visible dates. Our [indexing case study](/blog/how-we-got-our-pages-indexed/) is an example of original data."
+      },
+      {
+        "h": "Earn mentions beyond your own site",
+        "p": "For \"best\" and comparison questions, AI answers lean on third-party lists, reviews and articles. Directory profiles, reviews, expert quotes in the press and inclusion in industry roundups all raise the chance of being named; see [link building](/link-building/)."
+      },
+      {
+        "h": "Let AI crawlers in and measure",
+        "p": "Allow GPTBot, PerplexityBot, ClaudeBot and Google-Extended in robots.txt (check with our [robots.txt checker](/seo-tools/robots-txt-checker/)), publish an llms.txt summary, and track a fixed set of prompts monthly to see whether your brand is named. See also [answer engine optimization](/aeo/) and [AI agent optimization](/blog/ai-agent-optimization/)."
+      }
+    ]
+  },
+  "content-seo": {
+    "title": "Content SEO: how to write pages that rank and convert",
+    "intro": "Content SEO is the planning, writing and updating of pages so they match what people search, answer it better than competing pages and lead readers to act. This guide covers how we plan and produce content that earns rankings, featured snippets and AI citations.",
+    "sections": [
+      {
+        "h": "Start with search intent",
+        "p": "Every page targets one intent: a service page for people ready to hire, a guide for people researching, a comparison for people choosing. Map each keyword to one page with [keyword research](/keyword-research/) so pages do not compete with each other."
+      },
+      {
+        "h": "Answer first, then go deep",
+        "p": "Put a direct answer in the first sentences under each heading, then add detail, examples, prices and steps. Clear question-style headings and short paragraphs help Google and answer engines extract passages; see [answer engine optimization](/aeo/)."
+      },
+      {
+        "h": "Show experience and trust",
+        "p": "Named authors with real credentials, specific examples, original data and honest limits make content more trustworthy to readers and to search engines. Generic text that could describe any business rarely ranks."
+      },
+      {
+        "h": "Refresh what already ranks",
+        "p": "Updating pages that already get impressions is usually faster than writing new ones. Use Search Console to find queries a page shows for, add sections that answer them and improve the title. Our [SEO keywords by industry](/blog/seo-keywords-by-industry/) guide shows how to group keywords into pages."
+      },
+      {
+        "h": "Internal links connect the topic",
+        "p": "Link guides to the service pages they support and service pages to related guides, so authority flows through the site and readers find the next step. See [on-page SEO](/on-page-seo/) for the page-level checklist."
+      }
+    ]
+  },
+  "keyword-research": {
+    "title": "Keyword research services: how to choose keywords that bring customers",
+    "intro": "Keyword research finds the searches your customers make and decides which page should target each one. Done well, it prevents wasted content, pages that compete with each other and rankings that never turn into leads. This guide explains our keyword research process.",
+    "sections": [
+      {
+        "h": "Start from real demand",
+        "p": "We combine your Search Console data (searches that already show your site), keyword tools for volume and difficulty, competitor rankings and the words customers use on calls and in reviews. Try our free [keyword research tool](/seo-tools/keyword-research-tool/) for quick ideas."
+      },
+      {
+        "h": "Group keywords by intent",
+        "p": "Service and local keywords go to service and location pages, question keywords to FAQs and guides, comparison keywords to comparison articles. One page targets one intent with close variants as secondary keywords."
+      },
+      {
+        "h": "Prioritize by value and difficulty",
+        "p": "High-intent keywords with moderate competition usually pay back fastest, especially long-tail and local terms. Broad, highly competitive terms are long-term targets that need authority first."
+      },
+      {
+        "h": "Build the keyword map",
+        "p": "The result is a keyword map: each important keyword assigned to one page, with a primary keyword, secondary keywords and the questions to answer. See starter lists in our [SEO keywords by industry](/blog/seo-keywords-by-industry/) guide."
+      },
+      {
+        "h": "Track and adjust",
+        "p": "Rankings and impressions in Search Console show which targets are moving. Pages at positions 11 to 30 get attention first. Check positions with our [keyword rank checker](/seo-tools/keyword-rank-checker/)."
+      }
+    ]
+  },
+  "on-page-seo": {
+    "title": "On-page SEO: the checklist for every page you want to rank",
+    "intro": "On-page SEO covers everything on the page itself that helps it rank: the title, headings, content, images, internal links and structured data. This guide is the checklist we apply to every page we optimize.",
+    "sections": [
+      {
+        "h": "Title and meta description",
+        "p": "Lead the title with the primary keyword, keep it under about 60 characters and make it worth clicking. Write a description of 120 to 160 characters that answers the search and gives a reason to click. Preview both with our [SERP checker](/seo-tools/serp-checker/)."
+      },
+      {
+        "h": "Headings and structure",
+        "p": "One H1 that states the topic, H2s for the main questions, short paragraphs, lists and tables where they help. Clear structure helps readers, Google and answer engines."
+      },
+      {
+        "h": "Content that matches intent",
+        "p": "Answer the search fully: what, how, how much, how long and what to do next. Add specific details only you can provide, such as prices, process and examples. See [content SEO](/content-seo/)."
+      },
+      {
+        "h": "Images, links and schema",
+        "p": "Descriptive alt text, compressed images with set dimensions, links to related pages and from them, and structured data for the page type. Check pages with our [SEO score checker](/seo-tools/seo-score-checker/) and [schema checker](/seo-tools/schema-checker/)."
+      },
+      {
+        "h": "Technical basics on the page",
+        "p": "A self-referencing canonical, no accidental noindex, a mobile-friendly layout and fast loading. Site-wide technical issues are covered by [technical SEO](/technical-seo/)."
+      }
+    ]
+  },
+  "seo-for-tutors": {
+    "title": "Tutoring SEO: how tutors and tutoring centers win students from search",
+    "intro": "Parents and students search by subject, test and location: math tutor near me, SAT prep in Austin, online chemistry tutor, reading tutor for a 2nd grader. This guide explains how tutoring SEO turns those searches into booked sessions for independent tutors, tutoring centers and online tutoring companies.",
+    "sections": [
+      {
+        "h": "One page per subject and test",
+        "p": "Math, reading, writing, science, languages, SAT, ACT, AP exams and state tests each need a page that explains the approach, grade levels, session format, pricing and results. A single services page cannot rank for all of them."
+      },
+      {
+        "h": "Tutor profiles build trust",
+        "p": "Parents choose people, not brands. Profiles with qualifications, subjects, teaching experience, background checks and a short introduction help families decide and give Google clear expertise signals."
+      },
+      {
+        "h": "Local and online search",
+        "p": "Tutoring centers need a complete [Google Business Profile](/google-business-profile-seo/) and pages for the neighborhoods and school districts they serve. Online tutors compete nationally, so subject and test pages, helpful study guides and reviews matter more than maps."
+      },
+      {
+        "h": "Seasonal demand",
+        "p": "Searches rise before school starts, before midterms and finals, and in the months before SAT and ACT test dates. Publish and update test prep and back-to-school pages two to three months ahead."
+      },
+      {
+        "h": "Reviews and results",
+        "p": "Ask families to mention the subject and the improvement in reviews, and show results honestly, such as grade or score changes shared with permission. See related playbooks for [daycares and preschools](/seo-for-daycares/) and the local factors in [Boston](/locations/boston/)."
       }
     ]
   }

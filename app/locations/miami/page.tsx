@@ -24,11 +24,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Miami SEO Company & SEO Agency | RankEmpire" },
-  description: "SEO company in Miami: local SEO, bilingual Google Business Profile optimization and content for businesses in Brickell, Wynwood, Coral Gables and Doral.",
+  description: "Miami SEO company and SEO experts: search engine optimization, bilingual local SEO and Google Maps for Brickell, Wynwood, Coral Gables and Doral.",
   alternates: { canonical: "https://www.rankempire.us/locations/miami/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Miami SEO Company & SEO Agency | RankEmpire", description: "SEO company in Miami: local SEO, bilingual Google Business Profile optimization and content for businesses in Brickell, Wynwood, Coral Gables and Doral.", url: "https://www.rankempire.us/locations/miami/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Miami SEO Company & SEO Agency | RankEmpire", description: "SEO company in Miami: local SEO, bilingual Google Business Profile optimization and content for businesses in Brickell, Wynwood, Coral Gables and Doral." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Miami SEO Company & SEO Agency | RankEmpire", description: "Miami SEO company and SEO experts: search engine optimization, bilingual local SEO and Google Maps for Brickell, Wynwood, Coral Gables and Doral.", url: "https://www.rankempire.us/locations/miami/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Miami SEO Company & SEO Agency | RankEmpire", description: "Miami SEO company and SEO experts: search engine optimization, bilingual local SEO and Google Maps for Brickell, Wynwood, Coral Gables and Doral." },
 };
 
 export default function Page() {

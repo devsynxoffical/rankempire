@@ -25,12 +25,12 @@ import Related from '@/components/pages/seo-for-dentists/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Dental SEO Services & Dental Implant SEO | RankEmpire" },
+  title: { absolute: "Dental SEO Services & SEO for Dentists | RankEmpire" },
   description: "Dental SEO services for implants, Invisalign and emergency dentist searches: dental implant SEO, treatment pages, Google Maps, reviews. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-dentists/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Dental SEO Services & Dental Implant SEO | RankEmpire", description: "Dental SEO services for implants, Invisalign and emergency dentist searches: dental implant SEO, treatment pages, Google Maps, reviews. Free audit.", url: "https://www.rankempire.us/seo-for-dentists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Dental SEO Services & Dental Implant SEO | RankEmpire", description: "Dental SEO services for implants, Invisalign and emergency dentist searches: dental implant SEO, treatment pages, Google Maps, reviews. Free audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Dental SEO Services & SEO for Dentists | RankEmpire", description: "Dental SEO services for implants, Invisalign and emergency dentist searches: dental implant SEO, treatment pages, Google Maps, reviews. Free audit.", url: "https://www.rankempire.us/seo-for-dentists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Dental SEO Services & SEO for Dentists | RankEmpire", description: "Dental SEO services for implants, Invisalign and emergency dentist searches: dental implant SEO, treatment pages, Google Maps, reviews. Free audit." },
 };
 
 export default function Page() {

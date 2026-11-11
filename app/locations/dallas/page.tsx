@@ -23,12 +23,12 @@ import Related from '@/components/pages/locations__dallas/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Dallas SEO Company & SEO Agency | RankEmpire" },
-  description: "SEO company in Dallas: local SEO, Google Business Profile optimization and content for businesses in Uptown, Plano, Frisco, Irving and across the DFW metroplex.",
+  title: { absolute: "Dallas SEO Company, Agency & Firm | RankEmpire" },
+  description: "Dallas SEO company, agency and SEO firm for DFW: search engine optimization and local SEO for Dallas, Plano, Frisco and Fort Worth. Free audit in 2 days.",
   alternates: { canonical: "https://www.rankempire.us/locations/dallas/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Dallas SEO Company & SEO Agency | RankEmpire", description: "SEO company in Dallas: local SEO, Google Business Profile optimization and content for businesses in Uptown, Plano, Frisco, Irving and across the DFW metroplex.", url: "https://www.rankempire.us/locations/dallas/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Dallas SEO Company & SEO Agency | RankEmpire", description: "SEO company in Dallas: local SEO, Google Business Profile optimization and content for businesses in Uptown, Plano, Frisco, Irving and across the DFW metroplex." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Dallas SEO Company, Agency & Firm | RankEmpire", description: "Dallas SEO company, agency and SEO firm for DFW: search engine optimization and local SEO for Dallas, Plano, Frisco and Fort Worth. Free audit in 2 days.", url: "https://www.rankempire.us/locations/dallas/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Dallas SEO Company, Agency & Firm | RankEmpire", description: "Dallas SEO company, agency and SEO firm for DFW: search engine optimization and local SEO for Dallas, Plano, Frisco and Fort Worth. Free audit in 2 days." },
 };
 
 export default function Page() {
