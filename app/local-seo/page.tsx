@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -24,12 +25,12 @@ import Related from '@/components/pages/local-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Local SEO Services: Rank in the Map Pack | RankEmpire" },
+  title: { absolute: "Local SEO Services & Google Maps SEO | RankEmpire" },
   description: "Local SEO that puts your business in the Google map pack and local results. Google Business Profile optimization, citations, reviews and location pages.",
   alternates: { canonical: "https://www.rankempire.us/local-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Local SEO Services: Rank in the Map Pack | RankEmpire", description: "Local SEO that puts your business in the Google map pack and local results. Google Business Profile optimization, citations, reviews and location pages.", url: "https://www.rankempire.us/local-seo/", images: ["https://www.rankempire.us/img/s-local.webp"] },
-  twitter: { card: 'summary_large_image', title: "Local SEO Services: Rank in the Map Pack | RankEmpire", description: "Local SEO that puts your business in the Google map pack and local results. Google Business Profile optimization, citations, reviews and location pages." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Local SEO Services & Google Maps SEO | RankEmpire", description: "Local SEO that puts your business in the Google map pack and local results. Google Business Profile optimization, citations, reviews and location pages.", url: "https://www.rankempire.us/local-seo/", images: ["https://www.rankempire.us/img/s-local.webp"] },
+  twitter: { card: 'summary_large_image', title: "Local SEO Services & Google Maps SEO | RankEmpire", description: "Local SEO that puts your business in the Google map pack and local results. Google Business Profile optimization, citations, reviews and location pages." },
 };
 
 export default function Page() {
@@ -56,6 +57,7 @@ export default function Page() {
         <Process />
         <WhoItIsFor />
         <Comparison />
+        <DeepGuide slug="local-seo" />
         <Pricing />
         <Faq />
         <Pmq />

@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -24,12 +25,12 @@ import Related from '@/components/pages/technical-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Technical SEO Services | RankEmpire" },
+  title: { absolute: "Technical SEO Services & Technical SEO Audit | RankEmpire" },
   description: "Technical SEO services that fix crawlability, indexation, Core Web Vitals, structured data, JavaScript rendering and site migrations.",
   alternates: { canonical: "https://www.rankempire.us/technical-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Technical SEO Services | RankEmpire", description: "Technical SEO services that fix crawlability, indexation, Core Web Vitals, structured data, JavaScript rendering and site migrations.", url: "https://www.rankempire.us/technical-seo/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Technical SEO Services | RankEmpire", description: "Technical SEO services that fix crawlability, indexation, Core Web Vitals, structured data, JavaScript rendering and site migrations." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Technical SEO Services & Technical SEO Audit | RankEmpire", description: "Technical SEO services that fix crawlability, indexation, Core Web Vitals, structured data, JavaScript rendering and site migrations.", url: "https://www.rankempire.us/technical-seo/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Technical SEO Services & Technical SEO Audit | RankEmpire", description: "Technical SEO services that fix crawlability, indexation, Core Web Vitals, structured data, JavaScript rendering and site migrations." },
 };
 
 export default function Page() {
@@ -56,6 +57,7 @@ export default function Page() {
         <Process />
         <WhoItIsFor />
         <Comparison />
+        <DeepGuide slug="technical-seo" />
         <Pricing />
         <Faq />
         <Pmq />

@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import PageHero from '@/components/pages/seo-packages__ecommerce-seo/PageHero';
@@ -15,12 +16,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "E-commerce SEO Packages and Pricing | RankEmpire" },
+  title: { absolute: "Ecommerce SEO Packages & Pricing | RankEmpire" },
   description: "E-commerce SEO packages covering technical fixes, category and product optimization, structured data, content and link building.",
   alternates: { canonical: "https://www.rankempire.us/seo-packages/ecommerce-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "E-commerce SEO Packages and Pricing | RankEmpire", description: "E-commerce SEO packages covering technical fixes, category and product optimization, structured data, content and link building.", url: "https://www.rankempire.us/seo-packages/ecommerce-seo/", images: ["https://www.rankempire.us/img/team.webp"] },
-  twitter: { card: 'summary_large_image', title: "E-commerce SEO Packages and Pricing | RankEmpire", description: "E-commerce SEO packages covering technical fixes, category and product optimization, structured data, content and link building." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Ecommerce SEO Packages & Pricing | RankEmpire", description: "E-commerce SEO packages covering technical fixes, category and product optimization, structured data, content and link building.", url: "https://www.rankempire.us/seo-packages/ecommerce-seo/", images: ["https://www.rankempire.us/img/team.webp"] },
+  twitter: { card: 'summary_large_image', title: "Ecommerce SEO Packages & Pricing | RankEmpire", description: "E-commerce SEO packages covering technical fixes, category and product optimization, structured data, content and link building." },
 };
 
 export default function Page() {
@@ -37,6 +38,7 @@ export default function Page() {
       <main id="main">
         <PageHero />
         <SearchSurfaces slug="seo-packages/ecommerce-seo" kind="hub" audience="your business" kw="ecommerce seo packages" question="How much does ecommerce SEO cost?" />
+        <DeepGuide slug="seo-packages/ecommerce-seo" />
         <Pricing />
         <Alt />
         <Tight />

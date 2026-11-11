@@ -146,6 +146,10 @@
       {
         "h": "Choosing an auto detailing SEO company or agency",
         "p": "Ask a detailing SEO company how it will win the map pack across your service area, which pages it will build, and how it tracks bookings, not just rankings. Our checklist in [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) applies, and the [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/) covers the profile work in detail."
+      },
+      {
+        "h": "SEO for car washes and detail shops",
+        "p": "Car washes compete on location, speed and membership offers. List every wash type and package on its own page or section (express exterior, full service, interior, unlimited memberships), keep hours and wait-time information current on your [Google Business Profile](/google-business-profile-seo/), and ask members for reviews that mention the location. Detail shops that also offer washes should keep wash services and detailing services on separate pages so each can rank for its own searches."
       }
     ]
   },
@@ -1452,6 +1456,150 @@
       {
         "h": "How long does an SEO company take to show results?",
         "p": "Expect early movement on long-tail and local searches in 60 to 90 days, meaningful gains on core terms in four to six months, and compounding growth after that. Impressions in Search Console rise first, then positions, then clicks and leads, as shown in our [indexing case study](/blog/how-we-got-our-pages-indexed/)."
+      }
+    ]
+  },
+  "local-seo": {
+    "title": "Local SEO services: how to rank in Google Maps and the local pack",
+    "intro": "Local SEO is the work that puts a business in the Google Maps results and the local pack, the three map listings shown for searches like \"plumber near me\" or \"dentist in Austin\". This guide explains what local SEO and map SEO services include, how the local pack is ranked and what results to expect. For plans and prices, see our [local SEO packages](/seo-packages/local-seo/).",
+    "sections": [
+      {
+        "h": "How Google ranks the local pack",
+        "p": "Google ranks local results on three factors: relevance (how well your profile and site match the search), distance (how close you are to the searcher) and prominence (reviews, links, mentions and overall reputation). You cannot change distance, so local SEO works on relevance and prominence."
+      },
+      {
+        "h": "What map SEO services include",
+        "p": "A complete [Google Business Profile](/google-business-profile-seo/) with the right categories, services, hours and photos; consistent business details across directories; one page per service and per real service area; a steady review flow; local links from news, associations and partners; and a rank grid to measure visibility across your area."
+      },
+      {
+        "h": "Map pack optimization in practice",
+        "p": "Most gains come from fixing the primary category, adding every service to the profile, posting weekly, earning reviews that mention the job and the area, and building pages that match each service. Our [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/) lists every field to complete."
+      },
+      {
+        "h": "Local SEO for multiple locations",
+        "p": "Each location needs its own verified profile, its own landing page with unique local detail and consistent details everywhere. Copying one page and swapping the city name rarely works. See how we approach cities like [Chicago](/locations/chicago/) and [Houston](/locations/houston/)."
+      },
+      {
+        "h": "How long local SEO takes",
+        "p": "Profile fixes and reviews often move map rankings within 30 to 60 days; competitive city terms take three to six months. Our [90-day local SEO roadmap](/blog/local-seo-90-day-roadmap/) shows the order of work, and local plans start at $599 a month."
+      }
+    ]
+  },
+  "seo-packages/local-seo": {
+    "title": "Local SEO packages: what each plan includes and what it costs",
+    "intro": "Local SEO packages bundle the monthly work a local business needs to rank in Google Maps and local search. This page compares RankEmpire's Starter, Pro and Multi-location plans and explains how to choose the right local SEO package for your business.",
+    "sections": [
+      {
+        "h": "Local SEO pricing",
+        "p": "Starter is $599 a month for one location and one service area, Pro is $1,199 a month for up to three locations, and Multi-location is $2,199 a month for four or more locations. Every plan is month to month after a three-month onboarding, with no hidden fees."
+      },
+      {
+        "h": "What every local SEO package includes",
+        "p": "Onboarding and an audit, a 90-day roadmap, Google Business Profile setup and optimization, citations, a review request system, local pages, a rank grid report and a monthly report with a strategy call, led by one dedicated strategist."
+      },
+      {
+        "h": "How to choose the right plan",
+        "p": "Choose Starter for one location in a moderately competitive market, Pro when you have up to three locations or a very competitive category, and Multi-location for four or more locations that each need their own profile and page. Our guide on [how much SEO costs](/blog/how-much-does-seo-cost/) explains what drives the price."
+      },
+      {
+        "h": "What makes a local SEO package worth it",
+        "p": "Countable monthly deliverables, reporting tied to calls and bookings, ownership of everything built for you and no long lock-in. Be wary of packages that promise guaranteed rankings or hundreds of links for a low price; see [how to choose an SEO company](/blog/how-to-choose-an-seo-company/)."
+      }
+    ]
+  },
+  "seo-packages/ecommerce-seo": {
+    "title": "Ecommerce SEO packages: what is included and how pricing works",
+    "intro": "Ecommerce SEO packages cover the monthly work an online store needs to rank category and product pages and turn organic traffic into revenue. This guide explains what RankEmpire's Launch, Scale and Enterprise ecommerce SEO packages include and how ecommerce SEO pricing is set.",
+    "sections": [
+      {
+        "h": "How ecommerce SEO pricing is set",
+        "p": "Pricing depends mainly on catalog size and technical complexity. Launch suits stores up to 500 products, Scale stores up to 5,000 products, and Enterprise larger catalogs that need a template-level technical program. Each plan is quoted after a free audit so the scope matches the store."
+      },
+      {
+        "h": "What ecommerce SEO packages include",
+        "p": "Technical fixes for faceted navigation and duplicate pages, category and product page optimization, product schema, buying guides that answer pre-purchase questions, internal linking between categories and products, and a monthly revenue report. See our [ecommerce SEO](/ecommerce-seo/) service for the full approach."
+      },
+      {
+        "h": "Category pages come first",
+        "p": "Category pages usually target the highest-volume commercial searches, so most programs start there: unique introductions, clear filters, internal links and FAQs. Product pages follow with unique descriptions, specifications and reviews."
+      },
+      {
+        "h": "Choosing an ecommerce SEO package",
+        "p": "Match the plan to your catalog and goals, ask for countable monthly deliverables and reporting tied to organic revenue, and make sure you own all content created. Compare all plans on our [SEO packages](/seo-packages/) page."
+      }
+    ]
+  },
+  "enterprise-seo": {
+    "title": "Enterprise SEO services: how large websites grow organic search",
+    "intro": "Enterprise SEO covers sites with thousands of pages, several teams and complex technology. The work is less about single keywords and more about templates, crawl efficiency, governance and scale. This guide explains what enterprise SEO services and packages include.",
+    "sections": [
+      {
+        "h": "Template-level technical SEO",
+        "p": "Large sites are fixed at the template level: one change to a category, product or location template can improve thousands of pages. We prioritize crawl efficiency, indexation control, internal linking, page speed and structured data across templates; see [technical SEO](/technical-seo/)."
+      },
+      {
+        "h": "Content at scale without thin pages",
+        "p": "Programmatic pages only work when each page carries unique, useful data. We help define which page types deserve to exist, set content standards and retire or merge pages that compete with each other."
+      },
+      {
+        "h": "Governance across teams",
+        "p": "Enterprise SEO depends on engineering, product, content and legal teams. We set SEO requirements for releases, review changes before launch and monitor for regressions, which protects rankings during redesigns and migrations."
+      },
+      {
+        "h": "Enterprise SEO packages",
+        "p": "Enterprise programs are scoped after an audit of the site, teams and goals, and usually combine technical SEO, content strategy, [international SEO](/international-seo/) where needed, and authority building. Compare options on our [SEO packages](/seo-packages/) page or book a [free strategy call](/book-a-call/)."
+      }
+    ]
+  },
+  "technical-seo": {
+    "title": "Technical SEO services: what a technical SEO audit fixes",
+    "intro": "Technical SEO makes sure search engines can crawl, render, understand and index your site, and that pages load fast on mobile. If the technical foundation is broken, content and links cannot do their job. This guide explains what technical SEO services cover and what to fix first.",
+    "sections": [
+      {
+        "h": "Crawling and indexing",
+        "p": "Robots.txt rules, XML sitemaps, canonical tags, noindex tags, redirects and internal links decide which pages search engines find and index. Test crawl rules with our [robots.txt checker](/seo-tools/robots-txt-checker/) and sitemaps with the [sitemap checker](/seo-tools/sitemap-checker/)."
+      },
+      {
+        "h": "Core Web Vitals and speed",
+        "p": "Largest Contentful Paint, Interaction to Next Paint and Cumulative Layout Shift measure loading, responsiveness and visual stability. Typical fixes: compressed and correctly sized images, less render-blocking CSS and JavaScript, and reserved space for images and embeds."
+      },
+      {
+        "h": "Structured data",
+        "p": "Schema markup describes your business, services, articles, products and FAQs in a format search and answer engines understand. Validate it with our [schema checker](/seo-tools/schema-checker/)."
+      },
+      {
+        "h": "Duplicate and thin content",
+        "p": "Parameter URLs, near-duplicate pages and thin pages waste crawl budget and can hold rankings back. A technical audit finds them and decides whether to merge, improve, canonicalize or remove each one."
+      },
+      {
+        "h": "Technical SEO audit",
+        "p": "Every program starts with a [technical SEO audit](/seo-audit/) that ranks issues by impact. Our [indexing case study](/blog/how-we-got-our-pages-indexed/) shows what fixing these issues did for our own site, and [technical SEO basics](/blog/technical-seo-basics/) covers the essentials."
+      }
+    ]
+  },
+  "link-building": {
+    "title": "Link building services: how to earn backlinks that move rankings",
+    "intro": "Links from other websites remain one of the strongest signals Google uses to judge authority. White hat link building earns those links with content, relationships and digital PR instead of buying them. This guide explains what link building services include and how to judge the quality of a backlink.",
+    "sections": [
+      {
+        "h": "What makes a good backlink",
+        "p": "A good backlink comes from a real site relevant to your industry or location, sits inside content people read, and is earned rather than paid for. One link from a local newspaper or industry association is worth more than hundreds from unrelated directories. Check a link profile with our [backlink checker](/seo-tools/backlink-checker/)."
+      },
+      {
+        "h": "How we earn links",
+        "p": "Original data and guides worth citing, digital PR and expert commentary, local sponsorships and partnerships, supplier and association listings, unlinked brand mentions turned into links, and guest contributions on relevant sites."
+      },
+      {
+        "h": "Links for local businesses",
+        "p": "Local businesses benefit most from chamber of commerce listings, local news coverage, community sponsorships, supplier dealer locators and partner businesses. These also strengthen [local SEO](/local-seo/) and map rankings."
+      },
+      {
+        "h": "Link building to avoid",
+        "p": "Private blog networks, paid link packages, link exchanges at scale and spammy directories can lead to penalties. Read why these tactics fail in [why most SEO campaigns fail](/blog/why-most-seo-campaigns-fail/)."
+      },
+      {
+        "h": "Measuring link building",
+        "p": "Track referring domains, the relevance of linking sites, brand mentions and, most importantly, ranking and traffic changes for the pages you are building authority for. See also [off-page SEO](/off-page-seo/)."
       }
     ]
   }

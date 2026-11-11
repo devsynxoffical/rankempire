@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import PageHero from '@/components/pages/seo-packages__local-seo/PageHero';
@@ -15,12 +16,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Local SEO Packages and Pricing | RankEmpire" },
+  title: { absolute: "Local SEO Packages & Pricing Plans | RankEmpire" },
   description: "Local SEO packages with Google Business Profile optimization, citations, reviews, location pages and map pack tracking.",
   alternates: { canonical: "https://www.rankempire.us/seo-packages/local-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Local SEO Packages and Pricing | RankEmpire", description: "Local SEO packages with Google Business Profile optimization, citations, reviews, location pages and map pack tracking.", url: "https://www.rankempire.us/seo-packages/local-seo/", images: ["https://www.rankempire.us/img/team.webp"] },
-  twitter: { card: 'summary_large_image', title: "Local SEO Packages and Pricing | RankEmpire", description: "Local SEO packages with Google Business Profile optimization, citations, reviews, location pages and map pack tracking." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Local SEO Packages & Pricing Plans | RankEmpire", description: "Local SEO packages with Google Business Profile optimization, citations, reviews, location pages and map pack tracking.", url: "https://www.rankempire.us/seo-packages/local-seo/", images: ["https://www.rankempire.us/img/team.webp"] },
+  twitter: { card: 'summary_large_image', title: "Local SEO Packages & Pricing Plans | RankEmpire", description: "Local SEO packages with Google Business Profile optimization, citations, reviews, location pages and map pack tracking." },
 };
 
 export default function Page() {
@@ -37,6 +38,7 @@ export default function Page() {
       <main id="main">
         <PageHero />
         <SearchSurfaces slug="seo-packages/local-seo" kind="hub" audience="your business" kw="local seo packages" question="How much does local SEO cost per month?" />
+        <DeepGuide slug="seo-packages/local-seo" />
         <Pricing />
         <Alt />
         <Tight />

@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -24,12 +25,12 @@ import Related from '@/components/pages/link-building/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "White Hat Link Building Services | RankEmpire" },
+  title: { absolute: "Link Building Services: White Hat Backlinks | RankEmpire" },
   description: "Link building services that earn editorial backlinks from relevant, real websites through outreach, digital PR and linkable assets.",
   alternates: { canonical: "https://www.rankempire.us/link-building/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "White Hat Link Building Services | RankEmpire", description: "Link building services that earn editorial backlinks from relevant, real websites through outreach, digital PR and linkable assets.", url: "https://www.rankempire.us/link-building/", images: ["https://www.rankempire.us/img/s-links.webp"] },
-  twitter: { card: 'summary_large_image', title: "White Hat Link Building Services | RankEmpire", description: "Link building services that earn editorial backlinks from relevant, real websites through outreach, digital PR and linkable assets." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Link Building Services: White Hat Backlinks | RankEmpire", description: "Link building services that earn editorial backlinks from relevant, real websites through outreach, digital PR and linkable assets.", url: "https://www.rankempire.us/link-building/", images: ["https://www.rankempire.us/img/s-links.webp"] },
+  twitter: { card: 'summary_large_image', title: "Link Building Services: White Hat Backlinks | RankEmpire", description: "Link building services that earn editorial backlinks from relevant, real websites through outreach, digital PR and linkable assets." },
 };
 
 export default function Page() {
@@ -56,6 +57,7 @@ export default function Page() {
         <Process />
         <WhoItIsFor />
         <Comparison />
+        <DeepGuide slug="link-building" />
         <Pricing />
         <Faq />
         <Pmq />
