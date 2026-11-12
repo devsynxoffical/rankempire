@@ -45,6 +45,16 @@ The best links for contractors are local and real: suppliers and manufacturers' 
 
 Contractor demand is seasonal: AC repair in early summer, furnaces in fall, roofing after storms, pools in spring. Publish and update seasonal pages two to three months before demand peaks, so they are indexed and ranking when customers start searching.
 
+## Regional SEO for contractors serving several cities
+
+Many contractors cover a whole region rather than one town: a roofer serving three counties, or an HVAC company covering a metro and its suburbs. Regional SEO works in layers:
+
+1. **One Google Business Profile per real location.** A profile needs a genuine address or a service area tied to a real base. Adding fake offices to reach more towns risks suspension.
+2. **Service area pages for the towns that bring revenue.** Each page needs proof of work there: projects, photos, reviews and local details such as permits or common housing types.
+3. **A regional hub page.** One page that lists every town you serve, links to each service area page and explains how far you travel and any trip fees.
+4. **Reviews from across the region.** Ask customers in outlying towns to mention their town; those reviews help you rank beyond your office's immediate area.
+5. **Rank grids per area.** Measure visibility separately in each part of your region, because map results change every few miles.
+
 ## Playbooks by trade
 
 Each trade has its own searches, seasons and conversion paths. These pages cover the details:
@@ -81,6 +91,10 @@ For most contractors it is the Google Business Profile: the right primary catego
 ### Should contractors publish prices on their website?
 
 Publishing starting prices or ranges usually helps. Customers and AI assistants compare options, and specific numbers make a contractor easier to choose. You can explain what changes the final price without committing to a fixed quote.
+
+### What is local SEO for contractors?
+
+Local SEO for contractors is the work that puts a trade business in Google Maps and the local results for searches in its service area: a complete Google Business Profile, one page per service, pages for the towns you serve, steady reviews and local links.
 
 ### Do contractors need a page for every city they serve?
 

@@ -1732,5 +1732,109 @@
         "p": "Ask families to mention the subject and the improvement in reviews, and show results honestly, such as grade or score changes shared with permission. See related playbooks for [daycares and preschools](/seo-for-daycares/) and the local factors in [Boston](/locations/boston/)."
       }
     ]
+  },
+  "google-business-profile-seo": {
+    "title": "Google Business Profile optimization: how to rank higher in Google Maps",
+    "intro": "Your Google Business Profile is often the first thing a local customer sees, and for many searches it decides who gets the call. This guide explains how Google Business Profile optimization works, what to fix first and how to keep the profile ranking.",
+    "sections": [
+      {
+        "h": "Choose the right primary category",
+        "p": "The primary category is the strongest relevance signal on the profile. Pick the most specific category for your main revenue service, then add secondary categories only for work you actually do. A wrong primary category can keep you out of the map pack for your core searches."
+      },
+      {
+        "h": "Complete every field",
+        "p": "Accurate name (no keyword stuffing), address or service area, hours including holidays, phone, website, services with descriptions, products, attributes and a business description. Our [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/) walks through each field."
+      },
+      {
+        "h": "Photos, posts and updates",
+        "p": "Upload real photos of your team, work and location regularly, post offers and updates weekly, and keep hours current. Active profiles give Google and customers fresh signals."
+      },
+      {
+        "h": "Reviews drive rankings and clicks",
+        "p": "Ask every customer for a review soon after the job and ask them to mention the service and their area. Reply to every review. Reviews influence both map rankings and whether searchers choose you."
+      },
+      {
+        "h": "Keep details consistent everywhere",
+        "p": "Your name, address and phone should match across your website, Bing Places, Apple Business Connect, Yelp and industry directories. Inconsistent details weaken trust in the profile. See [local SEO](/local-seo/) for the full program."
+      }
+    ]
+  },
+  "ecommerce-seo": {
+    "title": "Ecommerce SEO: how online stores grow organic revenue",
+    "intro": "Ecommerce SEO helps online stores rank category and product pages for the searches shoppers make before they buy. Stores face problems service sites rarely do: thousands of similar pages, faceted navigation, out-of-stock products and thin descriptions. This guide covers how we approach them.",
+    "sections": [
+      {
+        "h": "Category pages carry the most demand",
+        "p": "Category searches such as \"women's running shoes\" usually have the most commercial volume. Give each priority category a unique introduction, helpful filters, internal links to subcategories and FAQs that answer buying questions."
+      },
+      {
+        "h": "Control faceted navigation and duplicates",
+        "p": "Filters and sorting can create thousands of near-duplicate URLs. Decide which filtered pages deserve to be indexed, canonicalize or block the rest, and keep the sitemap limited to pages you want ranked. See [technical SEO](/technical-seo/)."
+      },
+      {
+        "h": "Product pages that convert and rank",
+        "p": "Unique descriptions, full specifications, real photos, reviews, clear shipping and return details, and Product structured data with price and availability. Validate markup with our [schema checker](/seo-tools/schema-checker/)."
+      },
+      {
+        "h": "Out-of-stock and discontinued products",
+        "p": "Keep temporarily out-of-stock pages live with a clear status and alternatives; redirect permanently discontinued products to the closest replacement or category instead of returning a 404."
+      },
+      {
+        "h": "Buying guides and plans",
+        "p": "Guides that answer pre-purchase questions earn links and AI citations and feed shoppers into categories. See our [ecommerce SEO packages](/seo-packages/ecommerce-seo/) for what each plan includes."
+      }
+    ]
+  },
+  "off-page-seo": {
+    "title": "Off-page SEO: building the authority that moves rankings",
+    "intro": "Off-page SEO is everything done outside your website that tells search engines and AI systems your business is trusted: links, brand mentions, reviews, directory listings and press. For new sites it is usually the biggest gap between being indexed and ranking on page one.",
+    "sections": [
+      {
+        "h": "Backlinks from relevant sites",
+        "p": "Links from real sites in your industry or area remain one of the strongest ranking signals. Earn them with useful content, original data, partnerships and digital PR rather than buying them; see [link building](/link-building/)."
+      },
+      {
+        "h": "Brand mentions and citations",
+        "p": "Unlinked mentions in articles, podcasts and roundups help search engines and AI answers associate your brand with a topic. Consistent business listings (citations) on directories support local rankings."
+      },
+      {
+        "h": "Reviews and reputation",
+        "p": "Reviews on Google, Bing, Yelp and industry sites influence local rankings, AI recommendations and conversions. Ask consistently and reply to every review."
+      },
+      {
+        "h": "Directories and lists that matter",
+        "p": "For agencies and service businesses, profiles on respected directories and inclusion in \"best of\" lists are often what AI answers quote for \"best [service] in [city]\" questions. See [generative engine optimization](/geo/)."
+      },
+      {
+        "h": "Measuring off-page SEO",
+        "p": "Track referring domains, brand mentions, review count and rating, and ranking changes for the pages you are building authority for. Check a link profile with our [backlink checker](/seo-tools/backlink-checker/)."
+      }
+    ]
+  },
+  "competitor-seo-analysis": {
+    "title": "Competitor SEO analysis: how to find why rivals outrank you",
+    "intro": "Competitor SEO analysis compares your site with the pages that rank above you to find exactly what they do better: keywords, content, links, technical health and local signals. It turns \"they rank higher\" into a list of specific fixes.",
+    "sections": [
+      {
+        "h": "Identify your real search competitors",
+        "p": "Your search competitors are the sites ranking for your target keywords, which are often different from your business competitors. Directories, publishers and national agencies frequently hold the top spots alongside local rivals."
+      },
+      {
+        "h": "Compare keywords and pages",
+        "p": "Find the keywords competitors rank for that you do not, and compare their pages with yours: depth, structure, questions answered, prices and proof. Use our [keyword research tool](/seo-tools/keyword-research-tool/) and [keyword rank checker](/seo-tools/keyword-rank-checker/) for quick checks."
+      },
+      {
+        "h": "Compare authority",
+        "p": "Count referring domains and look at where competitors earn links and mentions: directories, press, partners, guest articles. These are often the most reusable opportunities. Check profiles with our [backlink checker](/seo-tools/backlink-checker/)."
+      },
+      {
+        "h": "Compare local signals",
+        "p": "For local searches, compare Google Business Profile categories, review counts and ratings, photos and posting frequency, and how many service area pages each competitor has."
+      },
+      {
+        "h": "Turn findings into a plan",
+        "p": "Rank gaps by impact and effort: quick wins on pages that already rank on page two, content gaps with clear demand, and longer authority work. Our [SEO consulting](/seo-consulting/) and [SEO audit](/seo-audit/) services include this analysis."
+      }
+    ]
   }
 }

@@ -13,6 +13,15 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-12 (daily session)
+
+Data: Google 3,421 queries (+101); 10 Nov shows 2,244 impressions (latest day, may still fill in). New contractor queries: "local seo for contractors" (p48), "regional seo for contractors" (p42); "check seo ranking" p13 on the rank checker. Bing: InIndex 1, 0 crawl issues, 0 impressions; quota reset to 100. Index checks: /blog/seo-keywords-by-industry/ indexed (crawled 10 Nov); /seo-for-tutors/ still "Discovered - currently not indexed" (not recrawled yet).
+
+- Bing: submitted the remaining 31 URLs (all 131 now submitted; quota left 69). Sampled inner pages not crawled by Bing yet.
+- /blog/seo-for-contractors/: new "Regional SEO for contractors" section and "What is local SEO for contractors?" FAQ; title "SEO for Contractors: Local & Regional SEO Guide".
+- Guides on /google-business-profile-seo/, /ecommerce-seo/, /off-page-seo/, /competitor-seo-analysis/.
+- /seo-tools/keyword-rank-checker/ description now targets "check SEO ranking".
+
 ## 2026-11-11 (Bing Webmaster)
 
 Bing data (Webmaster API): rankempire.us verified; 0 crawl issues, 0 robots blocks, 0 crawl errors; 80 pages crawled but only 1 in Bing's index; 0 Bing impressions. Sitemaps last read by Bing around 3-4 Nov with stale counts (124 URLs).
@@ -72,10 +81,10 @@ Data (Search Console, latest day 9 Nov): 3,398 impressions and 1 click on 9 Nov;
 1. **Off-site authority** (needs owner accounts): Clutch, DesignRush, GoodFirms, UpCity, BrightLocal agency directory, Bing Places, Apple Business Connect, Google Business Profile for RankEmpire; expert quote platforms (Qwoted, Featured.com); list the free tools on Product Hunt, AlternativeTo and SaaSHub.
 2. **GA4 key events:** owner to mark generate_lead, whatsapp_click and book_call_click as key events in GA4 Admin (needs owner access).
 3. **"Near me" queries** (seo agency near me, best position 14; seo services near me; seo firms near me): strengthen city pages and the /seo-company/ guide as data comes in.
-4. **Remaining pages without a guide:** competitor analysis, off-page SEO, B2B, SaaS, ecommerce SEO, Google Business Profile SEO, SEO packages hub.
+4. **Remaining pages without a guide:** B2B, SaaS, SEO packages hub, SaaS packages.
 5. **Manhattan page:** competitors rank borough pages; build only if Manhattan queries appear in Search Console.
 6. **Recheck /seo-for-tutors/ indexing** after resubmission.
 7. **Stylesheet split:** site.css is 287 KB on every page.
 8. **Real client case study** once the details of the work behind a verified result are shared.
-9. **Bing:** submit the remaining 31 URLs through the Bing API on 12 Nov; watch Bing InIndex (1 on 11 Nov); add RankEmpire to Bing Places.
+9. **Bing:** all 131 URLs submitted; watch InIndex (1 on 12 Nov) and URL crawl dates; add RankEmpire to Bing Places (owner).
 10. **OpenSEO credits** for search volume data on new targets.
