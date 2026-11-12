@@ -8,8 +8,8 @@
   "date": ""
  },
  "b2b-seo": {
-  "hash": "0f7a7eae1226",
-  "date": ""
+  "hash": "34b9ff81eaf9",
+  "date": "2026-11-12"
  },
  "blog": {
   "hash": "68567fedebf6",
@@ -156,8 +156,8 @@
   "date": "2026-11-11"
  },
  "locations/new-york": {
-  "hash": "103c657d6c9e",
-  "date": "2026-11-11"
+  "hash": "d30611fc3a13",
+  "date": "2026-11-12"
  },
  "locations/orlando": {
   "hash": "568e1ff8cb94",
@@ -200,8 +200,8 @@
   "date": ""
  },
  "saas-seo": {
-  "hash": "721b28ef7fff",
-  "date": ""
+  "hash": "ebc3e27fbdab",
+  "date": "2026-11-12"
  },
  "seo-audit": {
   "hash": "20ce2fc14bad",
@@ -400,8 +400,8 @@
   "date": "2026-11-11"
  },
  "seo-packages": {
-  "hash": "68567fedebf6",
-  "date": ""
+  "hash": "167d282496c3",
+  "date": "2026-11-12"
  },
  "seo-packages/local-seo": {
   "hash": "fcb420e33b5e",
@@ -424,8 +424,8 @@
   "date": ""
  },
  "seo-tools/keyword-rank-checker": {
-  "hash": "f3117a73eecb",
-  "date": ""
+  "hash": "26796e8dc8b8",
+  "date": "2026-11-12"
  },
  "seo-tools/keyword-research-tool": {
   "hash": "052278c0bb74",
@@ -522,5 +522,9 @@
  "blog/seo-keywords-by-industry": {
   "hash": "68567fedebf6",
   "date": ""
+ },
+ "locations/manhattan": {
+  "hash": "59289b9a3ac5",
+  "date": "2026-11-12"
  }
 }
