@@ -15,32 +15,32 @@ export default function Pages() {
           <div className="sr2">
             <div className="pim">
               <div className="pm on">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.jpg" aria-label="Injectables page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.webp" aria-label="Injectables page">
                   <source data-src="/img/m-growth.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.jpg" aria-label="Laser treatments page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.webp" aria-label="Laser treatments page">
                   <source data-src="/img/m-ai.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-desk.jpg" aria-label="Provider credentials page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-desk.webp" aria-label="Provider credentials page">
                   <source data-src="/img/m-desk.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.jpg" aria-label="Before and after gallery page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.webp" aria-label="Before and after gallery page">
                   <source data-src="/img/m-services.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-industries.jpg" aria-label="Pricing and memberships page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-industries.webp" aria-label="Pricing and memberships page">
                   <source data-src="/img/m-industries.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-map.jpg" aria-label="Event prep treatments page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-map.webp" aria-label="Event prep treatments page">
                   <source data-src="/img/m-map.mp4" type="video/mp4" />
                 </video>
               </div>

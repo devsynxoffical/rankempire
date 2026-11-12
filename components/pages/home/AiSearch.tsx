@@ -24,7 +24,7 @@ export default function AiSearch() {
           </div>
           {"\n"}
           <div className="ais-v" data-r="s">
-            <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.jpg" aria-label="AI search orb">
+            <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.webp" aria-label="AI search orb">
               <source data-src="/img/m-ai.mp4" type="video/mp4" />
             </video>
             <div className="ais-chip a">

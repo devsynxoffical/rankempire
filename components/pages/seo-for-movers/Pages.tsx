@@ -15,32 +15,32 @@ export default function Pages() {
           <div className="sr2">
             <div className="pim">
               <div className="pm on">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-local.jpg" aria-label="Local moving page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-local.webp" aria-label="Local moving page">
                   <source data-src="/img/m-local.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.jpg" aria-label="Long distance moving page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.webp" aria-label="Long distance moving page">
                   <source data-src="/img/m-growth.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.jpg" aria-label="Packing services page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.webp" aria-label="Packing services page">
                   <source data-src="/img/m-ai.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-desk.jpg" aria-label="Specialty item moving page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-desk.webp" aria-label="Specialty item moving page">
                   <source data-src="/img/m-desk.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.jpg" aria-label="Storage solutions page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.webp" aria-label="Storage solutions page">
                   <source data-src="/img/m-services.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-map.jpg" aria-label="Moving cost guide page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-map.webp" aria-label="Moving cost guide page">
                   <source data-src="/img/m-map.mp4" type="video/mp4" />
                 </video>
               </div>

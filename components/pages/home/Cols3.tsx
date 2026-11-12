@@ -59,7 +59,7 @@ export default function Cols3() {
           </div>
           {"\n"}
           <div className="c ph" data-io="">
-            <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.jpg" aria-label="Rising organic growth chart">
+            <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.webp" aria-label="Rising organic growth chart">
               <source data-src="/img/m-growth.mp4" type="video/mp4" />
             </video>
             {"\n"}
@@ -149,7 +149,7 @@ export default function Cols3() {
               </small>
             </div>
             <div className="obj">
-              <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-tech.jpg" aria-label="">
+              <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-tech.webp" aria-label="">
                 <source data-src="/img/m-tech.mp4" type="video/mp4" />
               </video>
             </div>
@@ -205,7 +205,7 @@ export default function Cols3() {
               </span>
             </div>
             <div className="obj">
-              <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-strat.jpg" aria-label="">
+              <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-strat.webp" aria-label="">
                 <source data-src="/img/m-strat.mp4" type="video/mp4" />
               </video>
             </div>

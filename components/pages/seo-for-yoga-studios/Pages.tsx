@@ -15,32 +15,32 @@ export default function Pages() {
           <div className="sr2">
             <div className="pim">
               <div className="pm on">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-local.jpg" aria-label="Beginner yoga page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-local.webp" aria-label="Beginner yoga page">
                   <source data-src="/img/m-local.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.jpg" aria-label="Class style pages">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.webp" aria-label="Class style pages">
                   <source data-src="/img/m-growth.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.jpg" aria-label="Schedule and booking page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.webp" aria-label="Schedule and booking page">
                   <source data-src="/img/m-ai.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-desk.jpg" aria-label="Intro offer and pricing page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-desk.webp" aria-label="Intro offer and pricing page">
                   <source data-src="/img/m-desk.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.jpg" aria-label="Prenatal and specialty classes page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.webp" aria-label="Prenatal and specialty classes page">
                   <source data-src="/img/m-services.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-map.jpg" aria-label="Teacher training page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-map.webp" aria-label="Teacher training page">
                   <source data-src="/img/m-map.mp4" type="video/mp4" />
                 </video>
               </div>

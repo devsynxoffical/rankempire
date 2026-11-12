@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import PageHero from '@/components/pages/seo-packages/PageHero';
@@ -37,6 +38,7 @@ export default function Page() {
       <main id="main">
         <PageHero />
         <SearchSurfaces slug="seo-packages" kind="hub" audience="your business" kw="seo packages" question="How much does SEO cost per month?" />
+        <DeepGuide slug="seo-packages" />
         <Pricing />
         <Alt />
         <Tight />

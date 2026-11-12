@@ -15,32 +15,32 @@ export default function Pages() {
           <div className="sr2">
             <div className="pim">
               <div className="pm on">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-tech.jpg" aria-label="Vinyl fencing page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-tech.webp" aria-label="Vinyl fencing page">
                   <source data-src="/img/m-tech.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-content.jpg" aria-label="Wood fencing page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-content.webp" aria-label="Wood fencing page">
                   <source data-src="/img/m-content.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-local.jpg" aria-label="Pool fencing page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-local.webp" aria-label="Pool fencing page">
                   <source data-src="/img/m-local.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.jpg" aria-label="Fence repair page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.webp" aria-label="Fence repair page">
                   <source data-src="/img/m-growth.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.jpg" aria-label="Permits and HOA guide page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.webp" aria-label="Permits and HOA guide page">
                   <source data-src="/img/m-ai.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.jpg" aria-label="Commercial and farm fencing page">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.webp" aria-label="Commercial and farm fencing page">
                   <source data-src="/img/m-services.mp4" type="video/mp4" />
                 </video>
               </div>

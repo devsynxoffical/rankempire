@@ -57,7 +57,7 @@ export default function InDepth() {
           <div className="yp-r">
             <div className="yp-stick">
               <div className="yp-m">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-content.jpg" aria-label="What is e-commerce SEO?">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-content.webp" aria-label="What is e-commerce SEO?">
                   <source data-src="/img/m-content.mp4" type="video/mp4" />
                 </video>
                 <div className="yp-ring"></div>

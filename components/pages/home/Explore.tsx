@@ -191,6 +191,9 @@ export default function Explore() {
               <a href="/locations/miami/" tabIndex={-1}>
                 {"Miami"}
               </a>
+              <a href="/locations/manhattan/" tabIndex={-1}>
+                {"Manhattan"}
+              </a>
               <a href="/locations/nashville/" tabIndex={-1}>
                 {"Nashville"}
               </a>

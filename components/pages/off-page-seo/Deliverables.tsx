@@ -15,32 +15,32 @@ export default function Deliverables() {
           <div className="sr2">
             <div className="pim">
               <div className="pm on">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.jpg" aria-label="Editorial link building">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.webp" aria-label="Editorial link building">
                   <source data-src="/img/m-services.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-industries.jpg" aria-label="Digital PR">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-industries.webp" aria-label="Digital PR">
                   <source data-src="/img/m-industries.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-map.jpg" aria-label="Brand mentions">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-map.webp" aria-label="Brand mentions">
                   <source data-src="/img/m-map.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-results.jpg" aria-label="Citations">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-results.webp" aria-label="Citations">
                   <source data-src="/img/m-results.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-team.jpg" aria-label="Review signals">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-team.webp" aria-label="Review signals">
                   <source data-src="/img/m-team.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-strat.jpg" aria-label="Toxic link monitoring">
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-strat.webp" aria-label="Toxic link monitoring">
                   <source data-src="/img/m-strat.mp4" type="video/mp4" />
                 </video>
               </div>

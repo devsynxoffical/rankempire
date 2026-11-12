@@ -15,12 +15,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Free Online Keyword Rank Checker: Check Rankings | RankEmpire" },
+  title: { absolute: "Check SEO Rank Online: Free Keyword Rank Checker | RankEmpire" },
   description: "Free online keyword rank checker: check SEO ranking for any keyword, see where your site and competitors appear in Google results. No sign-up needed.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/keyword-rank-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Online Keyword Rank Checker: Check Rankings | RankEmpire", description: "Free online keyword rank checker: check SEO ranking for any keyword, see where your site and competitors appear in Google results. No sign-up needed.", url: "https://www.rankempire.us/seo-tools/keyword-rank-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free Online Keyword Rank Checker: Check Rankings | RankEmpire", description: "Free online keyword rank checker: check SEO ranking for any keyword, see where your site and competitors appear in Google results. No sign-up needed." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Check SEO Rank Online: Free Keyword Rank Checker | RankEmpire", description: "Free online keyword rank checker: check SEO ranking for any keyword, see where your site and competitors appear in Google results. No sign-up needed.", url: "https://www.rankempire.us/seo-tools/keyword-rank-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Check SEO Rank Online: Free Keyword Rank Checker | RankEmpire", description: "Free online keyword rank checker: check SEO ranking for any keyword, see where your site and competitors appear in Google results. No sign-up needed." },
 };
 
 export default function Page() {

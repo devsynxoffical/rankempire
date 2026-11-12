@@ -1,7 +1,7 @@
 export default function V1() {
   return (
     <>
-    <link rel="preload" as="image" href="/img/m-services.jpg" fetchPriority="high" />
+    <link rel="preload" as="image" href="/img/m-services.webp" fetchPriority="high" />
     <section className="yh v1" style={{"--a1": "#4a9f5f", "--a2": "#1fa3c9"} as React.CSSProperties}>
       <canvas className="grain" aria-hidden="true"></canvas>
       <div className="wrap">
@@ -71,7 +71,7 @@ export default function V1() {
           {"\n"}
           <div className="yh-v" data-r="s">
             <div className="yh-m">
-              <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-services.jpg" aria-label="SEO Services">
+              <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-services.webp" aria-label="SEO Services">
                 <source src="/img/m-services.mp4" type="video/mp4" />
               </video>
               <div className="yh-ch"></div>

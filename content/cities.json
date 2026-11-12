@@ -4,10 +4,10 @@
   "name": "New York",
   "state": "NY",
   "nearby": [
+   "manhattan",
    "brooklyn",
    "boston",
-   "charlotte",
-   "atlanta"
+   "charlotte"
   ]
  },
  {
@@ -191,10 +191,10 @@
   "name": "Brooklyn",
   "state": "NY",
   "nearby": [
+   "manhattan",
    "new-york",
    "boston",
-   "chicago",
-   "atlanta"
+   "chicago"
   ]
  },
  {
@@ -217,6 +217,17 @@
    "charlotte",
    "chicago",
    "dallas"
+  ]
+ },
+ {
+  "slug": "manhattan",
+  "name": "Manhattan",
+  "state": "NY",
+  "nearby": [
+   "new-york",
+   "brooklyn",
+   "boston",
+   "charlotte"
   ]
  }
 ]

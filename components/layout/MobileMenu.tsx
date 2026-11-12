@@ -163,6 +163,9 @@ export default function MobileMenu() {
           <a href="/locations/miami/">
             {"Miami"}
           </a>
+          <a href="/locations/manhattan/">
+            {"Manhattan"}
+          </a>
           <a href="/locations/nashville/">
             {"Nashville"}
           </a>

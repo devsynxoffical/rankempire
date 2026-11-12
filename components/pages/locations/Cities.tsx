@@ -132,6 +132,26 @@ export default function Cities() {
               </svg>
             </span>
           </a>
+          <a className="xl" href="/locations/manhattan/" style={{"--c": "#e0a800"} as React.CSSProperties} data-r="">
+            <span className="ic">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z" />
+                <circle cx="12" cy="9" r="2.5" />
+              </svg>
+            </span>
+            <h3>
+              {"SEO Company in Manhattan"}
+            </h3>
+            <p>
+              {"New York · Midtown, FiDi, SoHo"}
+            </p>
+            <span className="go">
+              {"View city "}
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg>
+            </span>
+          </a>
           <a className="xl" href="/locations/nashville/" style={{"--c": "#e0a800"} as React.CSSProperties} data-r="">
             <span className="ic">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

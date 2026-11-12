@@ -1,7 +1,7 @@
 {
   "locations/new-york": {
     "title": "New York SEO company: how we rank NYC businesses",
-    "intro": "New York is the most competitive local search market in the country. Every borough behaves like its own city, the same search returns different results in Midtown and in Park Slope, and national brands bid on the terms independent businesses depend on. This is how RankEmpire works as a search engine optimization company for New York City businesses, what our NYC SEO services include, and what to expect from any New York SEO agency you hire.",
+    "intro": "New York is the most competitive local search market in the country. Every borough behaves like its own city, the same search returns different results in Midtown and in Park Slope, and national brands bid on the terms independent businesses depend on. This is how RankEmpire works as a search engine optimization company for New York City businesses, what our NYC SEO services include, and what to expect from any New York SEO agency you hire. For neighborhood-level work, see our [Manhattan](/locations/manhattan/) and [Brooklyn](/locations/brooklyn/) pages.",
     "sections": [
       {
         "h": "What a New York SEO company should do first",
@@ -1232,7 +1232,7 @@
     ]
   },
   "seo-tools/keyword-rank-checker": {
-    "title": "Keyword rank checker: how to check Google rankings accurately",
+    "title": "Check SEO ranking online: how to get accurate keyword positions",
     "intro": "Checking where a page ranks sounds simple, but personalization, location and device all change the results. This free keyword rank checker finds your domain's position in a results list you paste, so you see the same results your customers see. This guide covers how to get accurate positions and what to do with them.",
     "sections": [
       {
@@ -1834,6 +1834,110 @@
       {
         "h": "Turn findings into a plan",
         "p": "Rank gaps by impact and effort: quick wins on pages that already rank on page two, content gaps with clear demand, and longer authority work. Our [SEO consulting](/seo-consulting/) and [SEO audit](/seo-audit/) services include this analysis."
+      }
+    ]
+  },
+  "locations/manhattan": {
+    "title": "Manhattan SEO company: how we rank Manhattan businesses",
+    "intro": "Manhattan packs more competitors per block than any other US market. This is how RankEmpire approaches local SEO in Manhattan, what a Manhattan SEO company should deliver and how to win searches when the map pack changes every few streets. For citywide work across all five boroughs, see our [New York SEO company](/locations/new-york/) page, and for Brooklyn see [Brooklyn SEO](/locations/brooklyn/).",
+    "sections": [
+      {
+        "h": "Start with a block-level rank grid",
+        "p": "Before any keyword list, we measure where you appear in the map pack across a tight grid around your address. In Manhattan the results can change within two or three blocks, so the grid shows exactly where you win, where you lose and which competitors take over."
+      },
+      {
+        "h": "Google Business Profile and reviews",
+        "p": "In dense neighborhoods the [Google Business Profile](/google-business-profile-seo/) decides most local clicks. We fix categories, services and hours (including weekday and weekend differences), add real photos, post weekly and build a review flow that asks customers to mention the service and the neighborhood."
+      },
+      {
+        "h": "Pages for your services and neighborhoods",
+        "p": "Service pages come first. Neighborhood pages follow only where you have real clients, projects or a second location, with details such as cross streets, nearby stations and local reviews. Thin pages with swapped neighborhood names are skipped."
+      },
+      {
+        "h": "Authority for professional services",
+        "p": "Law firms, financial advisors and consultancies win with expertise: profiles with credentials, detailed practice area pages and mentions in industry publications. See our [law firm SEO](/seo-for-lawyers/) and [B2B SEO](/b2b-seo/) approaches."
+      },
+      {
+        "h": "What results to expect in Manhattan",
+        "p": "Neighborhood and long-tail searches often move within 60 to 90 days; broad Manhattan terms take longer in competitive categories. Impressions rise in Search Console first, then positions, then calls and bookings. Local plans start at $599 a month."
+      }
+    ]
+  },
+  "b2b-seo": {
+    "title": "B2B SEO: how business-to-business companies win leads from search",
+    "intro": "B2B buyers research for weeks, involve several people and compare vendors carefully. B2B SEO puts your company in front of them at each stage: when they define the problem, compare solutions and shortlist vendors. This guide covers how B2B SEO differs from local or e-commerce SEO and what to build first.",
+    "sections": [
+      {
+        "h": "Map content to the buying journey",
+        "p": "Problem-aware searches need educational guides, solution searches need comparison and use-case pages, and vendor searches need product, pricing and proof pages. Map each stage to pages with [keyword research](/keyword-research/) so every important query has one owner."
+      },
+      {
+        "h": "Low volume, high value keywords",
+        "p": "B2B keywords often have small search volumes but large deal values. A term searched 50 times a month can be worth more than one searched 5,000 times if the right buyers search it. Prioritize intent and fit over volume."
+      },
+      {
+        "h": "Proof and expertise",
+        "p": "Case studies, named experts, original research and clear methodology build trust with buyers and with search engines. Thought leadership earns the links and mentions B2B sites need; see [link building](/link-building/)."
+      },
+      {
+        "h": "Conversion paths for long cycles",
+        "p": "Most visitors are not ready to buy. Offer next steps that fit each stage: guides, calculators, templates, webinars and a clear way to [book a call](/book-a-call/). Track assisted conversions, not just last-click leads."
+      },
+      {
+        "h": "Technical health at scale",
+        "p": "Larger B2B sites need clean information architecture, fast templates and controlled indexation; see [technical SEO](/technical-seo/) and [enterprise SEO](/enterprise-seo/)."
+      }
+    ]
+  },
+  "saas-seo": {
+    "title": "SaaS SEO: how software companies grow signups from search",
+    "intro": "SaaS SEO turns search into trials, demos and signups. Software buyers search for problems, features, integrations, alternatives and comparisons, often long before they talk to sales. This guide explains which page types drive SaaS growth and how we build them.",
+    "sections": [
+      {
+        "h": "Pages that match software buying intent",
+        "p": "Feature and use-case pages, integration pages, \"alternative to\" and \"vs\" comparison pages, pricing, templates and free tools. Each page type targets a different search intent and stage of evaluation."
+      },
+      {
+        "h": "Comparison and alternative pages",
+        "p": "Buyers search \"[competitor] alternatives\" and \"[tool A] vs [tool B]\" close to a decision. Honest, detailed comparison pages that explain trade-offs convert well and are frequently cited by AI answers."
+      },
+      {
+        "h": "Free tools and templates",
+        "p": "Useful free tools attract links, rankings and product-qualified signups. RankEmpire's own [free SEO tools](/seo-tools/) are an example of this approach."
+      },
+      {
+        "h": "Product-led content",
+        "p": "Tutorials that show the product solving a real problem rank for how-to searches and move readers toward a trial. Content should be written with input from product and customer success, not only from keyword lists."
+      },
+      {
+        "h": "Measure pipeline, not traffic",
+        "p": "Track signups, activated accounts and pipeline from organic search alongside rankings. See our [SaaS SEO packages](/seo-packages/saas-seo/) and [B2B SEO](/b2b-seo/) approach."
+      }
+    ]
+  },
+  "seo-packages": {
+    "title": "SEO packages and pricing: how to choose the right plan",
+    "intro": "RankEmpire's SEO packages are monthly plans for local businesses, e-commerce stores and SaaS companies. Every plan includes onboarding, a 90-day roadmap, a dedicated strategist and monthly reporting, with month-to-month terms after onboarding. This guide explains how to choose between them.",
+    "sections": [
+      {
+        "h": "Local SEO packages",
+        "p": "For service businesses, clinics and multi-location brands that depend on calls and visits: Starter at $599 a month for one location, Pro at $1,199 for up to three locations and Multi-location at $2,199 for four or more. See [local SEO packages](/seo-packages/local-seo/)."
+      },
+      {
+        "h": "Ecommerce SEO packages",
+        "p": "For online stores, scoped by catalog size: Launch for up to 500 products, Scale for up to 5,000 and Enterprise beyond that. See [ecommerce SEO packages](/seo-packages/ecommerce-seo/)."
+      },
+      {
+        "h": "SaaS SEO packages",
+        "p": "For software companies that need feature, comparison and integration pages, product-led content and authority building. See [SaaS SEO packages](/seo-packages/saas-seo/)."
+      },
+      {
+        "h": "What every package includes",
+        "p": "An audit, a prioritized roadmap, countable monthly deliverables, reporting from Google Search Console tied to calls, leads or revenue, and full ownership of everything built for you. No long lock-in after a three-month onboarding."
+      },
+      {
+        "h": "How to decide",
+        "p": "Choose by business model first, then by number of locations, catalog size or market competitiveness. Our guide on [how much SEO costs](/blog/how-much-does-seo-cost/) explains price drivers, or [book a free strategy call](/book-a-call/) for a recommendation."
       }
     ]
   }

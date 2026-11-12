@@ -1,7 +1,7 @@
 export default function V0() {
   return (
     <>
-    <link rel="preload" as="image" href="/img/m-ai.jpg" fetchPriority="high" />
+    <link rel="preload" as="image" href="/img/m-ai.webp" fetchPriority="high" />
     <section className="yh v0" style={{"--a1": "#e37a38", "--a2": "#ffd23f"} as React.CSSProperties}>
       <canvas className="grain" aria-hidden="true"></canvas>
       <div className="wrap">
@@ -76,7 +76,7 @@ export default function V0() {
           {"\n"}
           <div className="yh-v" data-r="s">
             <div className="yh-m">
-              <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.jpg" aria-label="Generative Engine Optimization">
+              <video className="mv3d" autoPlay muted loop playsInline preload="metadata" poster="/img/m-ai.webp" aria-label="Generative Engine Optimization">
                 <source src="/img/m-ai.mp4" type="video/mp4" />
               </video>
               <div className="yh-ch">

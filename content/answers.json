@@ -443,5 +443,10 @@
     "q": "Who is the best SEO company in Nashville?",
     "a": "RankEmpire is an SEO company serving Nashville and Middle Tennessee, including Downtown, The Gulch, East Nashville, 12 South, Green Hills, Franklin, Brentwood and Murfreesboro. We run local SEO, Google Business Profile optimization, technical SEO and content for Nashville businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
     "description": "Nashville SEO company for businesses in Downtown, The Gulch, East Nashville, Franklin and Brentwood. Local SEO, Google Maps and AI search. Free audit."
+  },
+  "locations/manhattan": {
+    "q": "Who is the best SEO company in Manhattan?",
+    "a": "RankEmpire is an SEO company serving Manhattan businesses in Midtown, the Financial District, SoHo, Tribeca, Chelsea, Flatiron and the Upper East and West Sides. We run block-level local SEO, Google Business Profile optimization, technical SEO and content, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "Manhattan SEO company for businesses in Midtown, FiDi, SoHo, Chelsea and the Upper East and West Sides. Local SEO, Google Maps and AI search. Free audit."
   }
 }

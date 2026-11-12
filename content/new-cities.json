@@ -5,39 +5,118 @@
     "stateName": "New York",
     "eyebrow": "Brooklyn, NY",
     "region": "New York",
-    "nearby": ["new-york", "boston", "chicago", "atlanta"],
-    "colors": ["#ec4e3b", "#2b55e8"],
-    "chips": ["Williamsburg", "Park Slope", "DUMBO", "Bushwick", "Bay Ridge"],
-    "areas": ["Williamsburg", "Park Slope", "DUMBO", "Bushwick", "Greenpoint", "Bay Ridge", "Downtown Brooklyn", "Bed-Stuy", "Sunset Park", "Crown Heights"],
+    "nearby": [
+      "new-york",
+      "boston",
+      "chicago",
+      "atlanta"
+    ],
+    "colors": [
+      "#ec4e3b",
+      "#2b55e8"
+    ],
+    "chips": [
+      "Williamsburg",
+      "Park Slope",
+      "DUMBO",
+      "Bushwick",
+      "Bay Ridge"
+    ],
+    "areas": [
+      "Williamsburg",
+      "Park Slope",
+      "DUMBO",
+      "Bushwick",
+      "Greenpoint",
+      "Bay Ridge",
+      "Downtown Brooklyn",
+      "Bed-Stuy",
+      "Sunset Park",
+      "Crown Heights"
+    ],
     "hub": "New York · Williamsburg, Park Slope, DUMBO",
     "title": "Brooklyn SEO Company & SEO Agency | RankEmpire",
     "description": "Brooklyn SEO company for businesses in Williamsburg, Park Slope, DUMBO, Bushwick and Bay Ridge. Local SEO, Google Maps and AI search. Free audit in 2 days.",
     "lead": "Brooklyn SEO services for local businesses that want more calls, bookings and walk-ins from Google, neighborhood by neighborhood.",
     "statement": "Brooklyn search works block by block. With more than two and a half million residents packed into dozens of distinct neighborhoods, Google keeps the map pack radius tight, so a search for a dentist in Park Slope and the same search in Bay Ridge return different businesses. Most Brooklynites walk, bike or take the subway, which makes proximity even more important. A Brooklyn business wins by owning its own neighborhood and the ones next to it, not by chasing citywide New York terms that Manhattan brands already dominate.",
     "considerations": [
-      ["Neighborhood-level proximity", "The local radius in Brooklyn can be a few blocks. We map visibility with a rank grid across your actual walking and delivery area, then build Google Business Profile content, landing pages and reviews that reference the streets, transit stops and landmarks customers use, such as Bedford Avenue, the Barclays Center or the Atlantic Avenue station."],
-      ["Competing with Manhattan brands", "Broad terms like seo company nyc or best dentist nyc are crowded with Manhattan firms and national chains. Brooklyn businesses usually earn faster returns from neighborhood and near me searches, plus Brooklyn-specific phrasing, where the competition is local and the customers are already nearby."],
-      ["Many languages, one borough", "Brooklyn customers search in Spanish in Bushwick and Sunset Park, Russian in Brighton Beach, Chinese in Sunset Park and Yiddish and Hebrew in Borough Park and Williamsburg. Properly written pages, profile language attributes and reviews in those languages reach customers that English-only competitors miss."]
+      [
+        "Neighborhood-level proximity",
+        "The local radius in Brooklyn can be a few blocks. We map visibility with a rank grid across your actual walking and delivery area, then build Google Business Profile content, landing pages and reviews that reference the streets, transit stops and landmarks customers use, such as Bedford Avenue, the Barclays Center or the Atlantic Avenue station."
+      ],
+      [
+        "Competing with Manhattan brands",
+        "Broad terms like seo company nyc or best dentist nyc are crowded with Manhattan firms and national chains. Brooklyn businesses usually earn faster returns from neighborhood and near me searches, plus Brooklyn-specific phrasing, where the competition is local and the customers are already nearby."
+      ],
+      [
+        "Many languages, one borough",
+        "Brooklyn customers search in Spanish in Bushwick and Sunset Park, Russian in Brighton Beach, Chinese in Sunset Park and Yiddish and Hebrew in Borough Park and Williamsburg. Properly written pages, profile language attributes and reviews in those languages reach customers that English-only competitors miss."
+      ]
     ],
-    "keywords": ["brooklyn seo", "brooklyn seo company", "seo agency brooklyn", "seo services brooklyn ny", "local seo brooklyn", "brooklyn seo expert"],
-    "industries": ["/seo-for-restaurants/", "/seo-for-real-estate/", "/seo-for-dentists/", "/seo-for-general-contractors/"],
+    "keywords": [
+      "brooklyn seo",
+      "brooklyn seo company",
+      "seo agency brooklyn",
+      "seo services brooklyn ny",
+      "local seo brooklyn",
+      "brooklyn seo expert"
+    ],
+    "industries": [
+      "/seo-for-restaurants/",
+      "/seo-for-real-estate/",
+      "/seo-for-dentists/",
+      "/seo-for-general-contractors/"
+    ],
     "faq": [
-      ["Should a Brooklyn business target Brooklyn or New York City keywords?", "Start with Brooklyn and your neighborhood. Citywide NYC terms are dominated by Manhattan firms and national brands, while Brooklyn and neighborhood searches have local competitors and customers who are already nearby. Once those rank, we expand to wider NYC terms where it makes commercial sense."],
-      ["How small is the local search radius in Brooklyn?", "Often just a few blocks for walk-in categories like cafes, salons and dentists, and wider for service businesses that travel. We measure it with a rank grid around your address so you can see exactly where you appear and where you drop off."],
-      ["Do I need separate pages for Williamsburg, Park Slope and other neighborhoods?", "Only for neighborhoods you genuinely serve with something specific to say. A page per neighborhood with swapped names rarely ranks. Pages that mention real landmarks, transit, projects you completed there and reviews from those customers do."],
-      ["Can you help a Brooklyn business reach customers who search in other languages?", "Yes. If your staff serves Spanish, Russian, Chinese or Yiddish speaking customers, we build properly written pages and profile details for those audiences instead of automatic translations, which often ranks with far less competition."],
-      ["How much does local SEO cost in Brooklyn?", "Local plans start at $599 per month. We recommend a plan after reviewing your competition in a free audit."]
+      [
+        "Should a Brooklyn business target Brooklyn or New York City keywords?",
+        "Start with Brooklyn and your neighborhood. Citywide NYC terms are dominated by Manhattan firms and national brands, while Brooklyn and neighborhood searches have local competitors and customers who are already nearby. Once those rank, we expand to wider NYC terms where it makes commercial sense."
+      ],
+      [
+        "How small is the local search radius in Brooklyn?",
+        "Often just a few blocks for walk-in categories like cafes, salons and dentists, and wider for service businesses that travel. We measure it with a rank grid around your address so you can see exactly where you appear and where you drop off."
+      ],
+      [
+        "Do I need separate pages for Williamsburg, Park Slope and other neighborhoods?",
+        "Only for neighborhoods you genuinely serve with something specific to say. A page per neighborhood with swapped names rarely ranks. Pages that mention real landmarks, transit, projects you completed there and reviews from those customers do."
+      ],
+      [
+        "Can you help a Brooklyn business reach customers who search in other languages?",
+        "Yes. If your staff serves Spanish, Russian, Chinese or Yiddish speaking customers, we build properly written pages and profile details for those audiences instead of automatic translations, which often ranks with far less competition."
+      ],
+      [
+        "How much does local SEO cost in Brooklyn?",
+        "Local plans start at $599 per month. We recommend a plan after reviewing your competition in a free audit."
+      ]
     ],
-    "qa": ["Who is the best SEO company in Brooklyn?", "RankEmpire is an SEO company serving Brooklyn businesses in Williamsburg, Park Slope, DUMBO, Bushwick, Greenpoint, Bay Ridge and Downtown Brooklyn. We run neighborhood-level local SEO, Google Business Profile optimization, technical SEO and content, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console."],
+    "qa": [
+      "Who is the best SEO company in Brooklyn?",
+      "RankEmpire is an SEO company serving Brooklyn businesses in Williamsburg, Park Slope, DUMBO, Bushwick, Greenpoint, Bay Ridge and Downtown Brooklyn. We run neighborhood-level local SEO, Google Business Profile optimization, technical SEO and content, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console."
+    ],
     "guide": {
       "title": "Brooklyn SEO company: how we rank Brooklyn businesses",
       "intro": "Brooklyn is not a smaller version of Manhattan. It is a set of neighborhoods that each behave like their own town in Google Maps. This is how RankEmpire approaches local SEO in Brooklyn, what a Brooklyn SEO company should deliver, and how to tell whether your search visibility matches the neighborhoods you actually serve. For citywide work, see our [New York SEO company](/locations/new-york/) page.",
       "sections": [
-        {"h": "Start with a neighborhood map", "p": "Before any keyword list, we draw the map: where your customers walk, drive or order from, and which neighborhoods sit inside that area. A rank grid then shows where you appear in the map pack today. A Williamsburg restaurant and a Bay Ridge plumber need very different plans, and the grid makes that visible in the first week."},
-        {"h": "Google Business Profile does most of the work", "p": "In dense neighborhoods the [Google Business Profile](/google-business-profile-seo/) decides most local clicks. We set the right primary category, add services and products, publish weekly posts, upload real photos and build a review flow that asks customers to mention the service and the neighborhood. Our [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/) covers every field."},
-        {"h": "Pages that reflect real Brooklyn neighborhoods", "p": "We build service pages first, then neighborhood pages only where you have something specific to say: projects completed there, landmarks, transit and reviews from local customers. Thin pages with swapped place names are skipped, because they rarely rank and can hold the whole site back."},
-        {"h": "Local links from Brooklyn sources", "p": "Neighborhood blogs, business improvement districts, local news, community boards, sponsorships and partner businesses are the strongest links a Brooklyn business can earn. Our [link building](/link-building/) work focuses on those instead of generic directories."},
-        {"h": "How long SEO takes in Brooklyn", "p": "Neighborhood and long-tail searches often move within 60 to 90 days. Broader Brooklyn terms usually take four to six months, depending on category and competition. The first signal is impressions growing in Search Console, then positions, then calls and bookings, as described in our [90-day local SEO roadmap](/blog/local-seo-90-day-roadmap/)."}
+        {
+          "h": "Start with a neighborhood map",
+          "p": "Before any keyword list, we draw the map: where your customers walk, drive or order from, and which neighborhoods sit inside that area. A rank grid then shows where you appear in the map pack today. A Williamsburg restaurant and a Bay Ridge plumber need very different plans, and the grid makes that visible in the first week."
+        },
+        {
+          "h": "Google Business Profile does most of the work",
+          "p": "In dense neighborhoods the [Google Business Profile](/google-business-profile-seo/) decides most local clicks. We set the right primary category, add services and products, publish weekly posts, upload real photos and build a review flow that asks customers to mention the service and the neighborhood. Our [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/) covers every field."
+        },
+        {
+          "h": "Pages that reflect real Brooklyn neighborhoods",
+          "p": "We build service pages first, then neighborhood pages only where you have something specific to say: projects completed there, landmarks, transit and reviews from local customers. Thin pages with swapped place names are skipped, because they rarely rank and can hold the whole site back."
+        },
+        {
+          "h": "Local links from Brooklyn sources",
+          "p": "Neighborhood blogs, business improvement districts, local news, community boards, sponsorships and partner businesses are the strongest links a Brooklyn business can earn. Our [link building](/link-building/) work focuses on those instead of generic directories."
+        },
+        {
+          "h": "How long SEO takes in Brooklyn",
+          "p": "Neighborhood and long-tail searches often move within 60 to 90 days. Broader Brooklyn terms usually take four to six months, depending on category and competition. The first signal is impressions growing in Search Console, then positions, then calls and bookings, as described in our [90-day local SEO roadmap](/blog/local-seo-90-day-roadmap/)."
+        }
       ]
     }
   },
@@ -47,39 +126,118 @@
     "stateName": "Florida",
     "eyebrow": "Tampa, FL",
     "region": "Florida",
-    "nearby": ["orlando", "miami", "atlanta", "charlotte"],
-    "colors": ["#1fa3c9", "#ec4e3b"],
-    "chips": ["Downtown Tampa", "South Tampa", "Westshore", "Ybor City", "St. Petersburg"],
-    "areas": ["Downtown Tampa", "South Tampa", "Westshore", "Ybor City", "Hyde Park", "Channelside", "Brandon", "Wesley Chapel", "St. Petersburg", "Clearwater"],
+    "nearby": [
+      "orlando",
+      "miami",
+      "atlanta",
+      "charlotte"
+    ],
+    "colors": [
+      "#1fa3c9",
+      "#ec4e3b"
+    ],
+    "chips": [
+      "Downtown Tampa",
+      "South Tampa",
+      "Westshore",
+      "Ybor City",
+      "St. Petersburg"
+    ],
+    "areas": [
+      "Downtown Tampa",
+      "South Tampa",
+      "Westshore",
+      "Ybor City",
+      "Hyde Park",
+      "Channelside",
+      "Brandon",
+      "Wesley Chapel",
+      "St. Petersburg",
+      "Clearwater"
+    ],
     "hub": "Florida · South Tampa, Westshore, St. Petersburg",
     "title": "Tampa SEO Company & SEO Agency | RankEmpire",
     "description": "Tampa SEO company for Tampa Bay businesses in South Tampa, Westshore, Brandon, St. Petersburg and Clearwater. Local SEO, Maps and AI search. Free audit.",
     "lead": "Tampa SEO services for Tampa Bay businesses that want more calls, bookings and sales from Google, on both sides of the bay.",
     "statement": "Tampa Bay is one market split by water. Tampa, St. Petersburg and Clearwater sit on different shores, linked by a handful of bridges, and customers rarely cross the bay for a routine service. At the same time the region keeps adding residents in fast-growing suburbs like Wesley Chapel, Riverview and Brandon, where new homeowners search for every kind of business from scratch. Winning Tampa search means being visible on the right side of the bay and showing up early for the newest neighborhoods.",
     "considerations": [
-      ["Three cities, one bay", "Customers in St. Petersburg and Clearwater see different map results than customers in South Tampa or Westshore. We set realistic service areas, build pages for the side of the bay you actually serve, and track rankings with a rank grid in each part of the metro instead of a single Tampa keyword."],
-      ["Storm and flood season", "Hurricane season and summer storms drive predictable spikes in searches for roofing, flood restoration, impact windows, generators and insurance help. Publishing preparation and recovery content before June gives those pages time to rank before homeowners start searching urgently."],
-      ["Fast-growing suburbs", "Wesley Chapel, Riverview, Brandon and Land O' Lakes keep adding households who need new dentists, contractors, gyms and restaurants. These areas often have thinner competition than the urban core, so dedicated service area pages and reviews from local customers can rank quickly."]
+      [
+        "Three cities, one bay",
+        "Customers in St. Petersburg and Clearwater see different map results than customers in South Tampa or Westshore. We set realistic service areas, build pages for the side of the bay you actually serve, and track rankings with a rank grid in each part of the metro instead of a single Tampa keyword."
+      ],
+      [
+        "Storm and flood season",
+        "Hurricane season and summer storms drive predictable spikes in searches for roofing, flood restoration, impact windows, generators and insurance help. Publishing preparation and recovery content before June gives those pages time to rank before homeowners start searching urgently."
+      ],
+      [
+        "Fast-growing suburbs",
+        "Wesley Chapel, Riverview, Brandon and Land O' Lakes keep adding households who need new dentists, contractors, gyms and restaurants. These areas often have thinner competition than the urban core, so dedicated service area pages and reviews from local customers can rank quickly."
+      ]
     ],
-    "keywords": ["tampa seo", "seo company tampa", "tampa seo agency", "seo services tampa fl", "local seo tampa", "st petersburg seo"],
-    "industries": ["/seo-for-med-spas/", "/seo-for-roofing/", "/seo-for-real-estate/", "/seo-for-personal-injury-lawyers/"],
+    "keywords": [
+      "tampa seo",
+      "seo company tampa",
+      "tampa seo agency",
+      "seo services tampa fl",
+      "local seo tampa",
+      "st petersburg seo"
+    ],
+    "industries": [
+      "/seo-for-med-spas/",
+      "/seo-for-roofing/",
+      "/seo-for-real-estate/",
+      "/seo-for-personal-injury-lawyers/"
+    ],
     "faq": [
-      ["Should my Tampa business target St. Petersburg and Clearwater too?", "Only if you genuinely serve them. Google weighs proximity heavily, and customers rarely cross the bay for routine services. If you do serve both sides, we build separate service area content and track each side with its own rank grid."],
-      ["Does hurricane season affect local SEO in Tampa?", "Yes, for roofing, restoration, windows, tree service, generators and insurance. Search demand spikes before and after storms. Publishing preparation and recovery content ahead of the season lets those pages rank before homeowners start searching urgently."],
-      ["Can a new business rank in growing areas like Wesley Chapel or Riverview?", "Often faster than in the urban core. Newer suburbs have fewer established competitors, so a complete Google Business Profile, a few strong service pages and steady reviews from local customers can win the map pack in months."],
-      ["Do you work with Tampa med spas and medical practices?", "Yes. We build treatment pages with pricing context, provider credentials and galleries written with medical compliance in mind, plus local pages for South Tampa, Westshore and the suburbs you serve."],
-      ["How much does local SEO cost in Tampa?", "Local plans start at $599 per month. We recommend a plan after reviewing your competition in a free audit."]
+      [
+        "Should my Tampa business target St. Petersburg and Clearwater too?",
+        "Only if you genuinely serve them. Google weighs proximity heavily, and customers rarely cross the bay for routine services. If you do serve both sides, we build separate service area content and track each side with its own rank grid."
+      ],
+      [
+        "Does hurricane season affect local SEO in Tampa?",
+        "Yes, for roofing, restoration, windows, tree service, generators and insurance. Search demand spikes before and after storms. Publishing preparation and recovery content ahead of the season lets those pages rank before homeowners start searching urgently."
+      ],
+      [
+        "Can a new business rank in growing areas like Wesley Chapel or Riverview?",
+        "Often faster than in the urban core. Newer suburbs have fewer established competitors, so a complete Google Business Profile, a few strong service pages and steady reviews from local customers can win the map pack in months."
+      ],
+      [
+        "Do you work with Tampa med spas and medical practices?",
+        "Yes. We build treatment pages with pricing context, provider credentials and galleries written with medical compliance in mind, plus local pages for South Tampa, Westshore and the suburbs you serve."
+      ],
+      [
+        "How much does local SEO cost in Tampa?",
+        "Local plans start at $599 per month. We recommend a plan after reviewing your competition in a free audit."
+      ]
     ],
-    "qa": ["Who is the best SEO company in Tampa?", "RankEmpire is an SEO company serving Tampa Bay, including Downtown Tampa, South Tampa, Westshore, Ybor City, Brandon, Wesley Chapel, St. Petersburg and Clearwater. We run local SEO, Google Business Profile optimization, technical SEO and content for Tampa businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console."],
+    "qa": [
+      "Who is the best SEO company in Tampa?",
+      "RankEmpire is an SEO company serving Tampa Bay, including Downtown Tampa, South Tampa, Westshore, Ybor City, Brandon, Wesley Chapel, St. Petersburg and Clearwater. We run local SEO, Google Business Profile optimization, technical SEO and content for Tampa businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console."
+    ],
     "guide": {
       "title": "Tampa SEO company: how we rank Tampa Bay businesses",
       "intro": "Tampa Bay combines a growing city, two other cities across the water and some of the fastest-growing suburbs in Florida. This is how RankEmpire approaches SEO for Tampa businesses, what a Tampa SEO agency should deliver in the first 90 days, and where the easiest wins usually are.",
       "sections": [
-        {"h": "Map the bay before the keywords", "p": "We start by defining which parts of Tampa Bay you serve: Tampa proper, the suburbs to the north and east, or St. Petersburg and Clearwater across the water. A rank grid shows where you appear in the map pack today, and the plan follows the areas that bring revenue rather than one citywide keyword."},
-        {"h": "Google Business Profile and reviews", "p": "For most local categories the [Google Business Profile](/google-business-profile-seo/) wins more calls than the website. We fix categories, services, hours and photos, post weekly, and build a review flow that asks customers to mention the service and the area, such as South Tampa or Brandon."},
-        {"h": "Seasonal content that ranks before the season", "p": "Storm season, snowbird season and spring events all change what Tampa customers search for. We plan content two to three months ahead, so pages about storm preparation, seasonal services or event-related offers are already indexed and ranking when demand arrives."},
-        {"h": "Pages for the suburbs you really serve", "p": "Service area pages for places like Wesley Chapel, Riverview and Land O' Lakes can rank quickly, because competition is thinner than downtown. Each page needs real local detail: projects, reviews and the services offered there. Our [local SEO](/local-seo/) program covers the full build."},
-        {"h": "What results to expect in Tampa", "p": "Suburban and long-tail searches often move within 60 to 90 days. Competitive Tampa terms take four to six months. Impressions in Search Console rise first, then positions, then calls and leads. Plans start at $599 a month, as listed on our [local SEO packages](/seo-packages/local-seo/) page."}
+        {
+          "h": "Map the bay before the keywords",
+          "p": "We start by defining which parts of Tampa Bay you serve: Tampa proper, the suburbs to the north and east, or St. Petersburg and Clearwater across the water. A rank grid shows where you appear in the map pack today, and the plan follows the areas that bring revenue rather than one citywide keyword."
+        },
+        {
+          "h": "Google Business Profile and reviews",
+          "p": "For most local categories the [Google Business Profile](/google-business-profile-seo/) wins more calls than the website. We fix categories, services, hours and photos, post weekly, and build a review flow that asks customers to mention the service and the area, such as South Tampa or Brandon."
+        },
+        {
+          "h": "Seasonal content that ranks before the season",
+          "p": "Storm season, snowbird season and spring events all change what Tampa customers search for. We plan content two to three months ahead, so pages about storm preparation, seasonal services or event-related offers are already indexed and ranking when demand arrives."
+        },
+        {
+          "h": "Pages for the suburbs you really serve",
+          "p": "Service area pages for places like Wesley Chapel, Riverview and Land O' Lakes can rank quickly, because competition is thinner than downtown. Each page needs real local detail: projects, reviews and the services offered there. Our [local SEO](/local-seo/) program covers the full build."
+        },
+        {
+          "h": "What results to expect in Tampa",
+          "p": "Suburban and long-tail searches often move within 60 to 90 days. Competitive Tampa terms take four to six months. Impressions in Search Console rise first, then positions, then calls and leads. Plans start at $599 a month, as listed on our [local SEO packages](/seo-packages/local-seo/) page."
+        }
       ]
     }
   },
@@ -89,39 +247,239 @@
     "stateName": "Tennessee",
     "eyebrow": "Nashville, TN",
     "region": "Tennessee",
-    "nearby": ["atlanta", "charlotte", "chicago", "dallas"],
-    "colors": ["#e37a38", "#8c2fe2"],
-    "chips": ["Downtown", "The Gulch", "East Nashville", "12 South", "Franklin"],
-    "areas": ["Downtown", "The Gulch", "East Nashville", "12 South", "Germantown", "Midtown", "Green Hills", "Franklin", "Brentwood", "Murfreesboro"],
+    "nearby": [
+      "atlanta",
+      "charlotte",
+      "chicago",
+      "dallas"
+    ],
+    "colors": [
+      "#e37a38",
+      "#8c2fe2"
+    ],
+    "chips": [
+      "Downtown",
+      "The Gulch",
+      "East Nashville",
+      "12 South",
+      "Franklin"
+    ],
+    "areas": [
+      "Downtown",
+      "The Gulch",
+      "East Nashville",
+      "12 South",
+      "Germantown",
+      "Midtown",
+      "Green Hills",
+      "Franklin",
+      "Brentwood",
+      "Murfreesboro"
+    ],
     "hub": "Tennessee · The Gulch, East Nashville, Franklin",
     "title": "Nashville SEO Company & SEO Agency | RankEmpire",
     "description": "Nashville SEO company for businesses in Downtown, The Gulch, East Nashville, Franklin and Brentwood. Local SEO, Google Maps and AI search. Free audit.",
     "lead": "Nashville SEO services for Middle Tennessee businesses that want more calls, bookings and sales from Google.",
     "statement": "Nashville search mixes three very different audiences. Millions of visitors come for music, Broadway and events, a large healthcare industry anchors the economy, and fast-growing suburbs like Franklin, Brentwood and Murfreesboro keep adding households. A Nashville restaurant, a medical practice and a home builder each compete for a different searcher. The businesses that win define which of those audiences they serve, then build pages, profiles and reviews around them.",
     "considerations": [
-      ["Visitor and event demand", "Visitors search on their phones once they arrive, often with near me phrasing and around big events like CMA Fest or game days. Restaurants, bars, tours, transportation and short-term rentals win that traffic with current hours, menus, photos and event content published well before the dates."],
-      ["Healthcare hub competition", "Nashville is one of the largest healthcare business centers in the country, and HCA Healthcare is headquartered here. Medical practices, clinics and healthcare service companies face well-funded competitors, so provider pages, treatment content and credentials need to be stronger than in most cities."],
-      ["Growing suburbs south and east", "Franklin, Brentwood, Murfreesboro, Mount Juliet and Hendersonville keep growing. Many searches happen there rather than in the urban core, and competition is often thinner, so service area pages and reviews from suburban customers are some of the fastest wins in Middle Tennessee."]
+      [
+        "Visitor and event demand",
+        "Visitors search on their phones once they arrive, often with near me phrasing and around big events like CMA Fest or game days. Restaurants, bars, tours, transportation and short-term rentals win that traffic with current hours, menus, photos and event content published well before the dates."
+      ],
+      [
+        "Healthcare hub competition",
+        "Nashville is one of the largest healthcare business centers in the country, and HCA Healthcare is headquartered here. Medical practices, clinics and healthcare service companies face well-funded competitors, so provider pages, treatment content and credentials need to be stronger than in most cities."
+      ],
+      [
+        "Growing suburbs south and east",
+        "Franklin, Brentwood, Murfreesboro, Mount Juliet and Hendersonville keep growing. Many searches happen there rather than in the urban core, and competition is often thinner, so service area pages and reviews from suburban customers are some of the fastest wins in Middle Tennessee."
+      ]
     ],
-    "keywords": ["nashville seo", "seo company nashville", "nashville seo agency", "seo services nashville tn", "local seo nashville", "free seo audit nashville"],
-    "industries": ["/seo-for-doctors/", "/seo-for-restaurants/", "/seo-for-real-estate/", "/seo-for-home-builders/"],
+    "keywords": [
+      "nashville seo",
+      "seo company nashville",
+      "nashville seo agency",
+      "seo services nashville tn",
+      "local seo nashville",
+      "free seo audit nashville"
+    ],
+    "industries": [
+      "/seo-for-doctors/",
+      "/seo-for-restaurants/",
+      "/seo-for-real-estate/",
+      "/seo-for-home-builders/"
+    ],
     "faq": [
-      ["Should my Nashville business target tourists or locals?", "It depends on your category. Restaurants, tours and transportation often earn most of their traffic from visitors searching on their phones. Home services, medical practices and professional services depend on residents. We build the plan around the audience that brings revenue."],
-      ["Is SEO in Nashville harder for medical practices?", "It can be. Nashville is a major healthcare center with well-funded competitors, so medical practices need strong provider pages, treatment content, credentials and reviews. Specialty and neighborhood searches are usually the fastest place to start."],
-      ["Should I target Franklin, Brentwood and Murfreesboro separately?", "If you serve them, yes. These suburbs have their own searches and often thinner competition than downtown. Each page needs real local detail, such as projects, reviews and the services offered there, not just a swapped city name."],
-      ["Can you run a free SEO audit for my Nashville business?", "Yes. The free audit covers technical health, Google Business Profile, local rankings across your service area, content and competitors, and comes with a prioritized plan in two business days."],
-      ["How much does local SEO cost in Nashville?", "Local plans start at $599 per month. We recommend a plan after reviewing your competition in a free audit."]
+      [
+        "Should my Nashville business target tourists or locals?",
+        "It depends on your category. Restaurants, tours and transportation often earn most of their traffic from visitors searching on their phones. Home services, medical practices and professional services depend on residents. We build the plan around the audience that brings revenue."
+      ],
+      [
+        "Is SEO in Nashville harder for medical practices?",
+        "It can be. Nashville is a major healthcare center with well-funded competitors, so medical practices need strong provider pages, treatment content, credentials and reviews. Specialty and neighborhood searches are usually the fastest place to start."
+      ],
+      [
+        "Should I target Franklin, Brentwood and Murfreesboro separately?",
+        "If you serve them, yes. These suburbs have their own searches and often thinner competition than downtown. Each page needs real local detail, such as projects, reviews and the services offered there, not just a swapped city name."
+      ],
+      [
+        "Can you run a free SEO audit for my Nashville business?",
+        "Yes. The free audit covers technical health, Google Business Profile, local rankings across your service area, content and competitors, and comes with a prioritized plan in two business days."
+      ],
+      [
+        "How much does local SEO cost in Nashville?",
+        "Local plans start at $599 per month. We recommend a plan after reviewing your competition in a free audit."
+      ]
     ],
-    "qa": ["Who is the best SEO company in Nashville?", "RankEmpire is an SEO company serving Nashville and Middle Tennessee, including Downtown, The Gulch, East Nashville, 12 South, Green Hills, Franklin, Brentwood and Murfreesboro. We run local SEO, Google Business Profile optimization, technical SEO and content for Nashville businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console."],
+    "qa": [
+      "Who is the best SEO company in Nashville?",
+      "RankEmpire is an SEO company serving Nashville and Middle Tennessee, including Downtown, The Gulch, East Nashville, 12 South, Green Hills, Franklin, Brentwood and Murfreesboro. We run local SEO, Google Business Profile optimization, technical SEO and content for Nashville businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console."
+    ],
     "guide": {
       "title": "Nashville SEO company: how we rank Middle Tennessee businesses",
       "intro": "Nashville combines a tourist economy, a major healthcare industry and fast-growing suburbs. This is how RankEmpire approaches SEO for Nashville businesses, what a Nashville SEO agency should deliver first, and how to get a free SEO audit that shows where you stand today.",
       "sections": [
-        {"h": "Choose the audience before the keywords", "p": "Visitors, residents and businesses search differently. A Broadway restaurant needs near me and event searches, a Green Hills dentist needs neighborhood and treatment searches, and a Franklin builder needs suburban and project searches. We pick the audience first, then the [keyword research](/keyword-research/) follows."},
-        {"h": "Free SEO audit in Nashville", "p": "Every engagement starts with a [free SEO audit](/seo-audit/): technical health, Google Business Profile, a rank grid across your service area, content gaps and the competitors who hold the map pack. You get a prioritized plan in two business days, whether or not you hire us."},
-        {"h": "Google Business Profile and reviews", "p": "For local categories the [Google Business Profile](/google-business-profile-seo/) is the main battleground. We fix categories and services, add photos and posts, and build a review flow that mentions the service and the area, which helps in both Google Maps and AI answers."},
-        {"h": "Suburban service area pages", "p": "Franklin, Brentwood, Murfreesboro, Mount Juliet and Hendersonville each have their own searches. We build pages only for areas you serve, with projects, reviews and details specific to each, which often rank faster than downtown terms."},
-        {"h": "What results to expect", "p": "Suburban and specialty searches often move within 60 to 90 days, while competitive Nashville terms take four to six months. You see impressions rise in Search Console first, then rankings, then calls and leads, all reported from Google's own data."}
+        {
+          "h": "Choose the audience before the keywords",
+          "p": "Visitors, residents and businesses search differently. A Broadway restaurant needs near me and event searches, a Green Hills dentist needs neighborhood and treatment searches, and a Franklin builder needs suburban and project searches. We pick the audience first, then the [keyword research](/keyword-research/) follows."
+        },
+        {
+          "h": "Free SEO audit in Nashville",
+          "p": "Every engagement starts with a [free SEO audit](/seo-audit/): technical health, Google Business Profile, a rank grid across your service area, content gaps and the competitors who hold the map pack. You get a prioritized plan in two business days, whether or not you hire us."
+        },
+        {
+          "h": "Google Business Profile and reviews",
+          "p": "For local categories the [Google Business Profile](/google-business-profile-seo/) is the main battleground. We fix categories and services, add photos and posts, and build a review flow that mentions the service and the area, which helps in both Google Maps and AI answers."
+        },
+        {
+          "h": "Suburban service area pages",
+          "p": "Franklin, Brentwood, Murfreesboro, Mount Juliet and Hendersonville each have their own searches. We build pages only for areas you serve, with projects, reviews and details specific to each, which often rank faster than downtown terms."
+        },
+        {
+          "h": "What results to expect",
+          "p": "Suburban and specialty searches often move within 60 to 90 days, while competitive Nashville terms take four to six months. You see impressions rise in Search Console first, then rankings, then calls and leads, all reported from Google's own data."
+        }
+      ]
+    }
+  },
+  "manhattan": {
+    "name": "Manhattan",
+    "state": "NY",
+    "stateName": "New York",
+    "eyebrow": "Manhattan, NY",
+    "region": "New York",
+    "nearby": [
+      "new-york",
+      "brooklyn",
+      "boston",
+      "charlotte"
+    ],
+    "colors": [
+      "#2b55e8",
+      "#8c2fe2"
+    ],
+    "chips": [
+      "Midtown",
+      "Financial District",
+      "SoHo",
+      "Upper East Side",
+      "Chelsea"
+    ],
+    "areas": [
+      "Midtown",
+      "Financial District",
+      "SoHo",
+      "Tribeca",
+      "Chelsea",
+      "Flatiron",
+      "Upper East Side",
+      "Upper West Side",
+      "Harlem",
+      "Lower East Side"
+    ],
+    "hub": "New York · Midtown, FiDi, SoHo",
+    "title": "Manhattan SEO Company & Local SEO Agency | RankEmpire",
+    "description": "Manhattan SEO company for businesses in Midtown, FiDi, SoHo, Chelsea and the Upper East and West Sides. Local SEO, Google Maps and AI search. Free audit.",
+    "lead": "Manhattan SEO and local SEO for businesses that compete block by block for calls, bookings and clients in the most crowded search market in the country.",
+    "statement": "Manhattan is the densest search market in the United States. A single avenue can hold a dozen competitors in the same category, national brands bid on the broad terms, and many customers search from offices, hotels and the subway rather than from home. The local radius in the map pack can shrink to a few blocks, so a dentist in Midtown East and one on the Upper West Side rarely compete for the same searcher. Manhattan businesses win by owning their immediate neighborhood, earning trust signals faster than rivals and targeting the specific services and audiences their location serves.",
+    "considerations": [
+      [
+        "Block-level map pack competition",
+        "In Midtown, Flatiron or the Financial District the map pack can change within a few blocks. We track visibility with a dense rank grid around your address, then strengthen the Google Business Profile, reviews and landing pages that reference your cross streets, nearby subway stations and landmarks."
+      ],
+      [
+        "Daytime versus resident audiences",
+        "Office workers, visitors and residents search differently and at different times. Restaurants, gyms, clinics and services near offices win weekday daytime searches, while Upper East and West Side businesses serve residents. We match pages, hours and posts to the audience your location actually serves."
+      ],
+      [
+        "Professional services and B2B",
+        "Manhattan has a heavy concentration of law firms, financial advisors, consultants and agencies whose clients research for weeks. These businesses need expert profiles, practice area content and authority from industry publications more than map rankings alone; see our law firm and B2B SEO playbooks."
+      ]
+    ],
+    "keywords": [
+      "manhattan seo",
+      "manhattan seo company",
+      "local seo manhattan",
+      "seo agency manhattan",
+      "seo services manhattan ny",
+      "manhattan seo expert"
+    ],
+    "industries": [
+      "/seo-for-lawyers/",
+      "/seo-for-med-spas/",
+      "/seo-for-restaurants/",
+      "/seo-for-real-estate/"
+    ],
+    "faq": [
+      [
+        "Should a Manhattan business target Manhattan or New York City keywords?",
+        "Start with your neighborhood and Manhattan-specific searches, where the people searching are close by and the competition is local. Broad NYC terms are contested by national brands and large agencies; they are worth targeting once your neighborhood visibility is strong. Our New York page covers the citywide approach."
+      ],
+      [
+        "How small is the local search radius in Manhattan?",
+        "For walk-in categories such as restaurants, salons, gyms and clinics it can be just a few blocks. We measure it with a rank grid around your address so you can see exactly where you appear and where competitors take over."
+      ],
+      [
+        "Do I need pages for Midtown, SoHo and other neighborhoods?",
+        "Only where you genuinely serve customers and have something specific to say: projects, clients, landmarks, transit and reviews from that area. Pages that only swap the neighborhood name rarely rank."
+      ],
+      [
+        "How do professional services firms win in Manhattan search?",
+        "With attorney, advisor or consultant profiles that show credentials, practice area or service pages that answer real client questions, reviews within your profession's rules and mentions in industry publications. Map rankings matter, but authority and expertise matter more."
+      ],
+      [
+        "How much does local SEO cost in Manhattan?",
+        "Local plans start at $599 per month. We recommend a plan after reviewing your competition in a free audit."
+      ]
+    ],
+    "qa": [
+      "Who is the best SEO company in Manhattan?",
+      "RankEmpire is an SEO company serving Manhattan businesses in Midtown, the Financial District, SoHo, Tribeca, Chelsea, Flatiron and the Upper East and West Sides. We run block-level local SEO, Google Business Profile optimization, technical SEO and content, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console."
+    ],
+    "guide": {
+      "title": "Manhattan SEO company: how we rank Manhattan businesses",
+      "intro": "Manhattan packs more competitors per block than any other US market. This is how RankEmpire approaches local SEO in Manhattan, what a Manhattan SEO company should deliver and how to win searches when the map pack changes every few streets. For citywide work across all five boroughs, see our [New York SEO company](/locations/new-york/) page, and for Brooklyn see [Brooklyn SEO](/locations/brooklyn/).",
+      "sections": [
+        {
+          "h": "Start with a block-level rank grid",
+          "p": "Before any keyword list, we measure where you appear in the map pack across a tight grid around your address. In Manhattan the results can change within two or three blocks, so the grid shows exactly where you win, where you lose and which competitors take over."
+        },
+        {
+          "h": "Google Business Profile and reviews",
+          "p": "In dense neighborhoods the [Google Business Profile](/google-business-profile-seo/) decides most local clicks. We fix categories, services and hours (including weekday and weekend differences), add real photos, post weekly and build a review flow that asks customers to mention the service and the neighborhood."
+        },
+        {
+          "h": "Pages for your services and neighborhoods",
+          "p": "Service pages come first. Neighborhood pages follow only where you have real clients, projects or a second location, with details such as cross streets, nearby stations and local reviews. Thin pages with swapped neighborhood names are skipped."
+        },
+        {
+          "h": "Authority for professional services",
+          "p": "Law firms, financial advisors and consultancies win with expertise: profiles with credentials, detailed practice area pages and mentions in industry publications. See our [law firm SEO](/seo-for-lawyers/) and [B2B SEO](/b2b-seo/) approaches."
+        },
+        {
+          "h": "What results to expect in Manhattan",
+          "p": "Neighborhood and long-tail searches often move within 60 to 90 days; broad Manhattan terms take longer in competitive categories. Impressions rise in Search Console first, then positions, then calls and bookings. Local plans start at $599 a month."
+        }
       ]
     }
   }

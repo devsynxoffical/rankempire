@@ -13,6 +13,18 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-12 (session 2)
+
+Live verification now possible (new environment "SEO client sites" allows www.rankempire.us). Live checks: latest deploy live; rankempire.us -> www 308 single hop; trailing slash 308 single hop; 404 correct; robots, sitemap, llms.txt, IndexNow key 200. Live Lighthouse mobile: Phoenix 80, Electricians 77, Rank Checker 94, SEO Company 81; SEO 100, CLS 0 on all; flagged JPG posters (~66 KB savings) and unused CSS (~50 KB).
+Cannibalization: city pages share generic queries ("seo company", "near me") because Google localizes (not harmful); real overlap between the two checker tools.
+
+- New page /locations/manhattan/ (56 impressions on Manhattan queries landing on the NY page; competitors rank Manhattan pages). Unique content, FAQ, guide, schema; linked from header, menus, hub, NY and Brooklyn.
+- 12 video poster images converted JPG -> WebP (340 KB -> 203 KB); 648 references in 190 components updated.
+- /seo-tools/keyword-rank-checker/ title "Check SEO Rank Online: Free Keyword Rank Checker" for "seo rank online" (p20), "check seo ranking" (p13), "online rank checker tool" (p29).
+- Checker tools differentiated: SEO Score Checker vs Website SEO Checker Tool.
+- Guides on /b2b-seo/, /saas-seo/, /seo-packages/; NY guide links to Manhattan and Brooklyn; locations hub count corrected.
+- Watch list (not built): Santa Monica (35 impr), Tempe (28), Mesa (19), Chandler (13), Glendale (14).
+
 ## 2026-11-12 (daily session)
 
 Data: Google 3,421 queries (+101); 10 Nov shows 2,244 impressions (latest day, may still fill in). New contractor queries: "local seo for contractors" (p48), "regional seo for contractors" (p42); "check seo ranking" p13 on the rank checker. Bing: InIndex 1, 0 crawl issues, 0 impressions; quota reset to 100. Index checks: /blog/seo-keywords-by-industry/ indexed (crawled 10 Nov); /seo-for-tutors/ still "Discovered - currently not indexed" (not recrawled yet).
@@ -81,8 +93,8 @@ Data (Search Console, latest day 9 Nov): 3,398 impressions and 1 click on 9 Nov;
 1. **Off-site authority** (needs owner accounts): Clutch, DesignRush, GoodFirms, UpCity, BrightLocal agency directory, Bing Places, Apple Business Connect, Google Business Profile for RankEmpire; expert quote platforms (Qwoted, Featured.com); list the free tools on Product Hunt, AlternativeTo and SaaSHub.
 2. **GA4 key events:** owner to mark generate_lead, whatsapp_click and book_call_click as key events in GA4 Admin (needs owner access).
 3. **"Near me" queries** (seo agency near me, best position 14; seo services near me; seo firms near me): strengthen city pages and the /seo-company/ guide as data comes in.
-4. **Remaining pages without a guide:** B2B, SaaS, SEO packages hub, SaaS packages.
-5. **Manhattan page:** competitors rank borough pages; build only if Manhattan queries appear in Search Console.
+4. **Remaining pages without a guide:** SaaS packages only.
+5. **Suburb pages:** watch Santa Monica, Tempe, Mesa, Chandler, Glendale; build only with growing demand.
 6. **Recheck /seo-for-tutors/ indexing** after resubmission.
 7. **Stylesheet split:** site.css is 287 KB on every page.
 8. **Real client case study** once the details of the work behind a verified result are shared.
