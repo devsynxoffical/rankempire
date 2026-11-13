@@ -13,6 +13,17 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-13 (session 2: Semrush data)
+
+Data: Semrush and Ahrefs exports supplied by the owner (Semrush US: Authority Score 2, 179 keywords all at positions 21-100, 236 referring domains; Ahrefs DR 7). Keyword volumes and KD below are Semrush US.
+
+- New city pages from competitor gap and demand: /locations/washington-dc/ ("dc seo company" 1,600 KD29; "seo services washington dc" 1,300; all three competitors rank top 15 for about 20 DC terms), /locations/baltimore/ ("baltimore seo" 1,000 KD18; "baltimore seo company" 880 KD20; "baltimore seo agency" 590 KD11), /locations/columbus/ ("columbus seo company" 1,900 KD34; "columbus seo agency" 720). Each with its own neighborhoods, considerations, FAQ, guide and schema; linked from header, menus, hub, home and nearby cities (New York, Charlotte, Chicago, Nashville).
+- Titles retargeted: /seo-packages/ "SEO Packages & Pricing for Small Business" ("seo packages" 6,600; "seo packages for small business" 2,400 KD4; "monthly seo packages" 1,600 KD4); /seo-packages/local-seo/ "Local SEO Packages & Local SEO Pricing" ("local seo pricing" 2,400 KD7); /seo-tools/ ("free seo tools" 14,800); /seo-tools/website-seo-checker/ "Free SEO Site Checker" ("seo site checker" 3,600 KD19).
+- New post /blog/what-does-an-seo-company-do/ for question keywords ("what is seo services" 1,900; "is seo worth it" 1,600; "what is an seo agency" 1,000 KD13; "what does an seo company do" 720; "do i need an seo company" 480 KD7). Linked from /seo-company/ guide, /seo-services/ and /seo-consulting/.
+- /blog/how-much-does-seo-cost/: FAQs "Why is SEO so expensive?" (480 KD14) and "How much does an SEO audit cost?" (390 KD13).
+- Backlink gap: 5,937 domains link to 2+ competitors but not RankEmpire; listing prospects in docs/link-prospects.md (owner accounts needed).
+- Pending: 8 Ahrefs exports after the daily limit resets; more cities with demand (Fort Worth 720 KD16, Kansas City 590 KD8, Sacramento 480 KD16, Milwaukee, Philadelphia).
+
 ## 2026-11-13 (daily session)
 
 Data: Search Console has not published new days since the last session (latest still 10 Nov); no new queries to act on. Bing: InIndex rose from 1 to 4; 0 crawl issues; 0 impressions; sampled inner pages (NY, consulting, Manhattan) not crawled by Bing yet. Google index checks: /locations/manhattan/ indexed (crawled 12 Nov); /seo-company/ and /google-business-profile-seo/ indexed (last crawl 5-6 Nov, before the latest edits); /seo-for-tutors/ now "URL is unknown to Google" although live checks pass (200, index,follow, self canonical, in sitemap, not blocked) - resubmitted; owner asked to use Request indexing in Search Console.
