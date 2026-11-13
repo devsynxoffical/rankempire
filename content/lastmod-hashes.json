@@ -208,8 +208,8 @@
   "date": ""
  },
  "seo-company": {
-  "hash": "b90c81b1a23d",
-  "date": ""
+  "hash": "28209830fcc3",
+  "date": "2026-11-13"
  },
  "seo-consulting": {
   "hash": "675c2fc4163c",
@@ -526,5 +526,21 @@
  "locations/manhattan": {
   "hash": "59289b9a3ac5",
   "date": "2026-11-12"
+ },
+ "locations/washington-dc": {
+  "hash": "3c7393c285bd",
+  "date": "2026-11-13"
+ },
+ "locations/baltimore": {
+  "hash": "a66cc36654f6",
+  "date": "2026-11-13"
+ },
+ "locations/columbus": {
+  "hash": "683ead542791",
+  "date": "2026-11-13"
+ },
+ "blog/what-does-an-seo-company-do": {
+  "hash": "68567fedebf6",
+  "date": "2026-11-13"
  }
 }
