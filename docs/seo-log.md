@@ -13,6 +13,13 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-13 (daily session)
+
+Data: Search Console has not published new days since the last session (latest still 10 Nov); no new queries to act on. Bing: InIndex rose from 1 to 4; 0 crawl issues; 0 impressions; sampled inner pages (NY, consulting, Manhattan) not crawled by Bing yet. Google index checks: /locations/manhattan/ indexed (crawled 12 Nov); /seo-company/ and /google-business-profile-seo/ indexed (last crawl 5-6 Nov, before the latest edits); /seo-for-tutors/ now "URL is unknown to Google" although live checks pass (200, index,follow, self canonical, in sitemap, not blocked) - resubmitted; owner asked to use Request indexing in Search Console.
+
+- Organization schema (all pages): areaServed now lists the US plus the 21 cities served; hasOfferCatalog with the three published local plans ($599, $1,199, $2,199 per month); ReserveAction pointing to /book-a-call/. Validated: 0 schema errors.
+- Guide on /seo-packages/saas-seo/ (last page without one).
+
 ## 2026-11-12 (session 2)
 
 Live verification now possible (new environment "SEO client sites" allows www.rankempire.us). Live checks: latest deploy live; rankempire.us -> www 308 single hop; trailing slash 308 single hop; 404 correct; robots, sitemap, llms.txt, IndexNow key 200. Live Lighthouse mobile: Phoenix 80, Electricians 77, Rank Checker 94, SEO Company 81; SEO 100, CLS 0 on all; flagged JPG posters (~66 KB savings) and unused CSS (~50 KB).
@@ -93,7 +100,7 @@ Data (Search Console, latest day 9 Nov): 3,398 impressions and 1 click on 9 Nov;
 1. **Off-site authority** (needs owner accounts): Clutch, DesignRush, GoodFirms, UpCity, BrightLocal agency directory, Bing Places, Apple Business Connect, Google Business Profile for RankEmpire; expert quote platforms (Qwoted, Featured.com); list the free tools on Product Hunt, AlternativeTo and SaaSHub.
 2. **GA4 key events:** owner to mark generate_lead, whatsapp_click and book_call_click as key events in GA4 Admin (needs owner access).
 3. **"Near me" queries** (seo agency near me, best position 14; seo services near me; seo firms near me): strengthen city pages and the /seo-company/ guide as data comes in.
-4. **Remaining pages without a guide:** SaaS packages only.
+4. **Guides:** every service, city, industry and tool page now has one; next is refreshing guides on pages whose impressions stall.
 5. **Suburb pages:** watch Santa Monica, Tempe, Mesa, Chandler, Glendale; build only with growing demand.
 6. **Recheck /seo-for-tutors/ indexing** after resubmission.
 7. **Stylesheet split:** site.css is 287 KB on every page.

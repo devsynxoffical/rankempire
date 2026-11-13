@@ -1940,5 +1940,27 @@
         "p": "Choose by business model first, then by number of locations, catalog size or market competitiveness. Our guide on [how much SEO costs](/blog/how-much-does-seo-cost/) explains price drivers, or [book a free strategy call](/book-a-call/) for a recommendation."
       }
     ]
+  },
+  "seo-packages/saas-seo": {
+    "title": "SaaS SEO packages: what each plan includes for software companies",
+    "intro": "SaaS SEO packages cover the monthly work a software company needs to grow trials, demos and signups from search: comparison and integration pages, product-led content, technical health and authority building. Plans are scoped after a free audit because SaaS sites differ widely in size and stage.",
+    "sections": [
+      {
+        "h": "How SaaS SEO pricing is scoped",
+        "p": "Scope depends on the number of page types to build (features, use cases, integrations, comparisons), content volume, technical complexity and how much authority the domain already has. Every plan is quoted after an audit so deliverables match the stage of the company."
+      },
+      {
+        "h": "What SaaS SEO packages include",
+        "p": "Keyword and page-type mapping, comparison and alternative pages, integration and use-case pages, product-led tutorials, technical fixes, link earning and monthly reporting on signups and pipeline from organic search. See our [SaaS SEO](/saas-seo/) service for the approach."
+      },
+      {
+        "h": "Early-stage versus growth-stage",
+        "p": "Early-stage products usually start with bottom-of-funnel pages: alternatives, comparisons and use cases close to purchase. Growth-stage companies add programmatic integration pages, free tools and broader educational content."
+      },
+      {
+        "h": "Choosing a plan",
+        "p": "Ask for countable monthly deliverables, reporting tied to trials and pipeline, and ownership of all content. Compare every plan on our [SEO packages](/seo-packages/) page or [book a free strategy call](/book-a-call/) for a recommendation. See also [B2B SEO](/b2b-seo/)."
+      }
+    ]
   }
 }
