@@ -16,12 +16,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Local SEO Packages & Pricing Plans | RankEmpire" },
-  description: "Local SEO packages with Google Business Profile optimization, citations, reviews, location pages and map pack tracking.",
+  title: { absolute: "Local SEO Packages & Local SEO Pricing | RankEmpire" },
+  description: "Local SEO packages and pricing from $599 a month: Google Business Profile optimization, citations, reviews, location pages and map pack tracking.",
   alternates: { canonical: "https://www.rankempire.us/seo-packages/local-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Local SEO Packages & Pricing Plans | RankEmpire", description: "Local SEO packages with Google Business Profile optimization, citations, reviews, location pages and map pack tracking.", url: "https://www.rankempire.us/seo-packages/local-seo/", images: ["https://www.rankempire.us/img/team.webp"] },
-  twitter: { card: 'summary_large_image', title: "Local SEO Packages & Pricing Plans | RankEmpire", description: "Local SEO packages with Google Business Profile optimization, citations, reviews, location pages and map pack tracking." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Local SEO Packages & Local SEO Pricing | RankEmpire", description: "Local SEO packages and pricing from $599 a month: Google Business Profile optimization, citations, reviews, location pages and map pack tracking.", url: "https://www.rankempire.us/seo-packages/local-seo/", images: ["https://www.rankempire.us/img/team.webp"] },
+  twitter: { card: 'summary_large_image', title: "Local SEO Packages & Local SEO Pricing | RankEmpire", description: "Local SEO packages and pricing from $599 a month: Google Business Profile optimization, citations, reviews, location pages and map pack tracking." },
 };
 
 export default function Page() {

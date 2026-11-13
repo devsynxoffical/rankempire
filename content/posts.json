@@ -1,5 +1,19 @@
 [
  {
+  "slug": "what-does-an-seo-company-do",
+  "title": "What Does an SEO Company Do? SEO Services Explained (and When You Need One)",
+  "metaTitle": "What Does an SEO Company Do? SEO Services Explained",
+  "description": "What an SEO company or SEO agency does, what SEO services include, the first 90 days, red flags, and how to tell whether you need one.",
+  "category": "SEO Basics",
+  "image": "/img/b-strat.webp",
+  "imageAlt": "SEO strategy planning for a small business website",
+  "published": "2026-11-13",
+  "modified": "2026-11-13",
+  "readTime": 8,
+  "imageWidth": 900,
+  "imageHeight": 1205
+ },
+ {
   "slug": "seo-keywords-by-industry",
   "title": "SEO Keywords by Industry: Keyword Lists for 15 Local Businesses",
   "metaTitle": "SEO Keywords by Industry: Local Keyword Lists",
@@ -78,7 +92,7 @@
   "image": "/img/x-price.webp",
   "imageAlt": "Price tags and a rising chart representing SEO cost and return",
   "published": "2026-10-30",
-  "modified": "2026-10-30",
+  "modified": "2026-11-13",
   "readTime": 10,
   "imageWidth": 1100,
   "imageHeight": 821

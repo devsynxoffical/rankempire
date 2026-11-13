@@ -6,8 +6,8 @@
   "nearby": [
    "manhattan",
    "brooklyn",
-   "boston",
-   "charlotte"
+   "washington-dc",
+   "boston"
   ]
  },
  {
@@ -28,8 +28,8 @@
   "nearby": [
    "denver",
    "new-york",
-   "boston",
-   "atlanta"
+   "columbus",
+   "boston"
   ]
  },
  {
@@ -171,8 +171,8 @@
   "nearby": [
    "nashville",
    "atlanta",
-   "orlando",
-   "boston"
+   "washington-dc",
+   "orlando"
   ]
  },
  {
@@ -215,8 +215,8 @@
   "nearby": [
    "atlanta",
    "charlotte",
-   "chicago",
-   "dallas"
+   "columbus",
+   "chicago"
   ]
  },
  {
@@ -228,6 +228,39 @@
    "brooklyn",
    "boston",
    "charlotte"
+  ]
+ },
+ {
+  "slug": "washington-dc",
+  "name": "Washington DC",
+  "state": "DC",
+  "nearby": [
+   "baltimore",
+   "new-york",
+   "manhattan",
+   "charlotte"
+  ]
+ },
+ {
+  "slug": "baltimore",
+  "name": "Baltimore",
+  "state": "MD",
+  "nearby": [
+   "washington-dc",
+   "new-york",
+   "brooklyn",
+   "charlotte"
+  ]
+ },
+ {
+  "slug": "columbus",
+  "name": "Columbus",
+  "state": "OH",
+  "nearby": [
+   "chicago",
+   "nashville",
+   "charlotte",
+   "washington-dc"
   ]
  }
 ]

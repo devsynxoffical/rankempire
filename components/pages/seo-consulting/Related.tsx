@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/seo-audit/","label":"SEO Audit"},{"href":"/enterprise-seo/","label":"Enterprise SEO"},{"href":"/international-seo/","label":"International SEO"},{"href":"/seo-packages/","label":"SEO Packages and Pricing"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Choose an SEO Company"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"},{"href":"/book-a-call/","label":"Book a free strategy call"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/seo-audit/","label":"SEO Audit"},{"href":"/enterprise-seo/","label":"Enterprise SEO"},{"href":"/international-seo/","label":"International SEO"},{"href":"/seo-packages/","label":"SEO Packages and Pricing"},{"href":"/blog/what-does-an-seo-company-do/","label":"Guide: What Does an SEO Company Do"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Choose an SEO Company"},{"href":"/book-a-call/","label":"Book a free strategy call"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

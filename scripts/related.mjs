@@ -37,8 +37,8 @@ const SERVICES = {
   'saas-seo': [['b2b-seo', 'content-seo', 'international-seo', 'seo-packages/saas-seo'], ['why-most-seo-campaigns-fail', 'aeo-vs-geo-vs-seo']],
   'seo-audit': [['technical-seo', 'seo-services', 'seo-consulting', 'seo-packages'], ['how-we-got-our-pages-indexed', 'how-much-does-seo-cost']],
   'seo-company': [['seo-services', 'seo-packages', 'local-seo', 'about-us'], ['how-to-choose-an-seo-company', 'how-much-does-seo-cost']],
-  'seo-consulting': [['seo-audit', 'enterprise-seo', 'international-seo', 'seo-packages'], ['how-to-choose-an-seo-company', 'how-much-does-seo-cost']],
-  'seo-services': [['local-seo', 'ecommerce-seo', 'saas-seo', 'seo-company'], ['how-to-choose-an-seo-company', 'ai-agent-optimization']],
+  'seo-consulting': [['seo-audit', 'enterprise-seo', 'international-seo', 'seo-packages'], ['what-does-an-seo-company-do', 'how-to-choose-an-seo-company']],
+  'seo-services': [['local-seo', 'ecommerce-seo', 'saas-seo', 'seo-company'], ['what-does-an-seo-company-do', 'how-to-choose-an-seo-company']],
   'technical-seo': [['seo-audit', 'on-page-seo', 'enterprise-seo', 'international-seo'], ['technical-seo-basics', 'how-we-got-our-pages-indexed']],
 };
 const INDUSTRY_POST = { 'home-services': 'seo-for-contractors', 'medical-and-health': 'local-seo-checklist', 'legal': 'local-seo-90-day-roadmap', 'automotive': 'seo-keywords-by-industry', 'food-and-hospitality': 'local-seo-checklist', 'professional-services': 'why-most-seo-campaigns-fail', 'real-estate-and-property': 'local-seo-90-day-roadmap', 'beauty-fitness-and-lifestyle': 'local-seo-checklist', 'luxury-travel-and-events': 'google-business-profile-optimization-checklist' };

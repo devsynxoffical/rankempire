@@ -15,12 +15,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Website SEO Checker Tool: Check Any Page Online | RankEmpire" },
-  description: "Analyze title tags, meta descriptions, headings, canonicals, robots directives, and on-page SEO health in seconds with our free website SEO checker tool.",
+  title: { absolute: "Free SEO Site Checker: Website SEO Checker Tool | RankEmpire" },
+  description: "Free SEO site checker: analyze title tags, meta descriptions, headings, canonicals, robots directives and on-page SEO health of any page in seconds.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/website-seo-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Website SEO Checker Tool: Check Any Page Online | RankEmpire", description: "Analyze title tags, meta descriptions, headings, canonicals, robots directives, and on-page SEO health in seconds with our free website SEO checker tool.", url: "https://www.rankempire.us/seo-tools/website-seo-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Website SEO Checker Tool: Check Any Page Online | RankEmpire", description: "Analyze title tags, meta descriptions, headings, canonicals, robots directives, and on-page SEO health in seconds with our free website SEO checker tool." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free SEO Site Checker: Website SEO Checker Tool | RankEmpire", description: "Free SEO site checker: analyze title tags, meta descriptions, headings, canonicals, robots directives and on-page SEO health of any page in seconds.", url: "https://www.rankempire.us/seo-tools/website-seo-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free SEO Site Checker: Website SEO Checker Tool | RankEmpire", description: "Free SEO site checker: analyze title tags, meta descriptions, headings, canonicals, robots directives and on-page SEO health of any page in seconds." },
 };
 
 export default function Page() {

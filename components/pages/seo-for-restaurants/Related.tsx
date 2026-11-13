@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-bakeries/","label":"SEO for Bakeries"},{"href":"/seo-for-cafes/","label":"SEO for Cafes"},{"href":"/seo-for-florists/","label":"SEO for Florists"},{"href":"/seo-for-photographers/","label":"SEO for Photographers"},{"href":"/locations/tampa/","label":"SEO Company in Tampa"},{"href":"/locations/nashville/","label":"SEO Company in Nashville"},{"href":"/blog/local-seo-checklist/","label":"Guide: The Local SEO Checklist for Service Businesses"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Choose an SEO Company"}]} />;
+  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-bakeries/","label":"SEO for Bakeries"},{"href":"/seo-for-cafes/","label":"SEO for Cafes"},{"href":"/seo-for-florists/","label":"SEO for Florists"},{"href":"/seo-for-photographers/","label":"SEO for Photographers"},{"href":"/locations/denver/","label":"SEO Company in Denver"},{"href":"/locations/boston/","label":"SEO Company in Boston"},{"href":"/blog/local-seo-checklist/","label":"Guide: The Local SEO Checklist for Service Businesses"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Choose an SEO Company"}]} />;
 }

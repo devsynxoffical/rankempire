@@ -99,3 +99,11 @@ Not by itself. Price reflects hours and overhead. What predicts results is the m
 ### What results should I expect for the money?
 
 Early movement on branded and low-competition terms within four to eight weeks, meaningful ranking gains for core terms in four to six months, and lead growth that compounds from there. Any agency promising specific positions is guessing or cheating.
+
+### Why is SEO so expensive?
+
+Good SEO is skilled labor spread over months: technical fixes, content written by people who know the subject, reviews and links that have to be earned, and reporting. Most of the fee pays for those hours. Cheap plans usually cut the parts that move rankings, such as content and earned links, which is why they often produce reports but few leads.
+
+### How much does an SEO audit cost?
+
+A standalone SEO audit commonly costs from about $500 for a small site to $5,000 or more for a large site with complex technical issues. RankEmpire's [SEO audit](/seo-audit/) is free and delivered within two business days.

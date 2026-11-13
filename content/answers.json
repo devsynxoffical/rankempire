@@ -448,5 +448,20 @@
     "q": "Who is the best SEO company in Manhattan?",
     "a": "RankEmpire is an SEO company serving Manhattan businesses in Midtown, the Financial District, SoHo, Tribeca, Chelsea, Flatiron and the Upper East and West Sides. We run block-level local SEO, Google Business Profile optimization, technical SEO and content, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
     "description": "Manhattan SEO company for businesses in Midtown, FiDi, SoHo, Chelsea and the Upper East and West Sides. Local SEO, Google Maps and AI search. Free audit."
+  },
+  "locations/washington-dc": {
+    "q": "Who is the best SEO company in Washington DC?",
+    "a": "RankEmpire is an SEO company serving Washington DC and the DMV, including Georgetown, Capitol Hill, Dupont Circle, Navy Yard, Arlington, Alexandria, Bethesda and Silver Spring. We run local SEO, Google Business Profile optimization, technical SEO and content for DC businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "DC SEO company for Washington DC businesses in Georgetown, Capitol Hill, Arlington, Bethesda and the DMV. Local SEO, Maps and AI search. Free audit."
+  },
+  "locations/baltimore": {
+    "q": "Who is the best SEO company in Baltimore?",
+    "a": "RankEmpire is an SEO company serving Baltimore and central Maryland, including the Inner Harbor, Fells Point, Canton, Federal Hill, Hampden, Towson, Columbia, Ellicott City and Annapolis. We run local SEO, Google Business Profile optimization, technical SEO and content for Baltimore businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "Baltimore SEO company for businesses in Fells Point, Canton, Federal Hill, Towson, Columbia and Annapolis. Local SEO, Maps and AI search. Free audit."
+  },
+  "locations/columbus": {
+    "q": "Who is the best SEO company in Columbus, Ohio?",
+    "a": "RankEmpire is an SEO company serving Columbus and central Ohio, including Downtown, the Short North, German Village, Clintonville, Easton, Dublin, Westerville, Worthington and Hilliard. We run local SEO, Google Business Profile optimization, technical SEO and content for Columbus businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "Columbus SEO company for Ohio businesses in the Short North, German Village, Dublin, Westerville and Easton. Local SEO, Maps and AI search. Free audit."
   }
 }

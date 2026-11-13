@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Other cities, industries and guides" items={[{"href":"/locations/manhattan/","label":"SEO Company in Manhattan"},{"href":"/locations/brooklyn/","label":"SEO Company in Brooklyn"},{"href":"/locations/boston/","label":"SEO Company in Boston"},{"href":"/locations/charlotte/","label":"SEO Company in Charlotte"},{"href":"/seo-for-cleaning/","label":"SEO for Cleaning Companies"},{"href":"/seo-for-locksmiths/","label":"SEO for Locksmiths"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Choose an SEO Company"},{"href":"/book-a-call/","label":"Book a free strategy call"}]} />;
+  return <RelatedLinks title="Other cities, industries and guides" items={[{"href":"/locations/manhattan/","label":"SEO Company in Manhattan"},{"href":"/locations/brooklyn/","label":"SEO Company in Brooklyn"},{"href":"/locations/washington-dc/","label":"SEO Company in Washington DC"},{"href":"/locations/boston/","label":"SEO Company in Boston"},{"href":"/seo-for-cleaning/","label":"SEO for Cleaning Companies"},{"href":"/seo-for-locksmiths/","label":"SEO for Locksmiths"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Choose an SEO Company"},{"href":"/book-a-call/","label":"Book a free strategy call"}]} />;
 }

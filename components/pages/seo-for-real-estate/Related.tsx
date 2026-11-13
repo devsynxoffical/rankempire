@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-property-management/","label":"SEO for Property Management Companies"},{"href":"/seo-for-home-builders/","label":"SEO for Home Builders"},{"href":"/locations/charlotte/","label":"SEO Company in Charlotte"},{"href":"/locations/orlando/","label":"SEO Company in Orlando"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/ai-agent-optimization/","label":"Guide: What Is AI Agent Optimization (AGO)"}]} />;
+  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-property-management/","label":"SEO for Property Management Companies"},{"href":"/seo-for-home-builders/","label":"SEO for Home Builders"},{"href":"/locations/phoenix/","label":"SEO Company in Phoenix"},{"href":"/locations/san-diego/","label":"SEO Company in San Diego"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/ai-agent-optimization/","label":"Guide: What Is AI Agent Optimization (AGO)"}]} />;
 }
