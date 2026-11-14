@@ -13,6 +13,14 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-14 (scheduled session)
+
+Data: Search Console still ends 10 Nov; Bing data ends 9 Nov (InIndex 4, 0 crawl issues listed, 0 impressions; 2-8 unspecified crawl errors a day on 7-9 Nov with no 4xx/5xx/timeouts). Bing URL quota now 75 a day. URL Inspection: /locations/washington-dc/, /locations/baltimore/, /locations/columbus/, /blog/what-does-an-seo-company-do/ and /seo-for-tutors/ are "URL is unknown to Google" (submitted 13-14 Nov); /seo-packages/, /seo-packages/local-seo/ and /locations/charlotte/ indexed but last crawled 3-6 Nov, before the latest edits. Sitemaps resubmitted.
+
+- /seo-for-cleaning/: new "Carpet cleaning SEO services" section ("carpet cleaning seo services" position 65).
+- /seo-for-electricians/: description now leads with "electrician SEO services" and "electrician SEO agency" (both position 72).
+- Checks: build, tsc, schema check (0 errors), mobile (no horizontal overflow, 1 H1) on changed pages.
+
 ## 2026-11-14 (daily session)
 
 Data: Search Console still ends 10 Nov (no new days published). Last 28 days: 29,000 impressions, 2 clicks. Most pages average positions 78 to 93, so low authority (Ahrefs DR 7) is the main limit; on-page work focused on queries already at positions 40 to 75 and on internal links.
@@ -124,7 +132,7 @@ Data (Search Console, latest day 9 Nov): 3,398 impressions and 1 click on 9 Nov;
 3. **"Near me" queries** (seo agency near me, best position 14; seo services near me; seo firms near me): strengthen city pages and the /seo-company/ guide as data comes in.
 4. **Guides:** every service, city, industry and tool page now has one; next is refreshing guides on pages whose impressions stall.
 5. **Suburb pages:** watch Santa Monica, Tempe, Mesa, Chandler, Glendale; build only with growing demand.
-6. **Recheck /seo-for-tutors/ indexing** after resubmission.
+6. **Recheck indexing** of /seo-for-tutors/ and the 13 Nov pages (DC, Baltimore, Columbus, new post); still unknown to Google on 14 Nov.
 7. **Stylesheet split:** site.css is 287 KB on every page.
 8. **Real client case study** once the details of the work behind a verified result are shared.
 9. **Bing:** all 131 URLs submitted; watch InIndex (1 on 12 Nov) and URL crawl dates; add RankEmpire to Bing Places (owner).
