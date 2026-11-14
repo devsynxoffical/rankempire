@@ -1,7 +1,7 @@
 // Generated from content/posts/seo-keywords-by-industry.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
 
-export const WORDS = 1578;
+export const WORDS = 1654;
 export const FAQ = [{"q":"What are the best SEO keywords for a local business?","a":"The best keywords combine a specific service with a location or an urgent need, such as \"emergency plumber Houston\" or \"ceramic coating Scottsdale\". They have lower search volume than broad terms but far higher intent, and they are easier to rank for."},{"q":"Should I put \"near me\" in my keywords?","a":"Usually not on the page itself. Google interprets \"near me\" using the searcher's location and your Google Business Profile, service areas and reviews. Focus on accurate location details and pages for the areas you serve."},{"q":"How many keywords should one page target?","a":"One primary keyword and a handful of close variants with the same intent. If two keywords need different answers, they need different pages."},{"q":"How do I find which keywords my site already ranks for?","a":"Open Google Search Console, go to Performance and look at the Queries tab. It lists every search that showed your site, with impressions and average position. Pages at positions 11 to 30 are the quickest wins."},{"q":"Do I need a paid keyword tool?","a":"Not to start. Search Console, Google's autocomplete, People Also Ask boxes and your own customer calls give plenty of keywords. Paid tools add search volume and difficulty data, which helps when choosing between many options."}];
 
 export default function Body() {
@@ -25,6 +25,7 @@ export default function Body() {
           <a href="#med-spa-keywords">{"Med spa keywords"}</a>
           <a href="#real-estate-keywords">{"Real estate keywords"}</a>
           <a href="#restaurant-keywords">{"Restaurant keywords"}</a>
+          <a href="#accounting-firm-keywords">{"Accounting firm keywords"}</a>
           <a href="#tutoring-keywords">{"Tutoring keywords"}</a>
           <a href="#turn-keywords-into-pages">{"Turn keywords into pages"}</a>
           <a href="#faq">{"FAQ"}</a>
@@ -40,7 +41,7 @@ export default function Body() {
           </div>
         </aside>
         <article className="prose" data-r="">
-          <p>{"The best SEO keywords for a local business are the exact phrases customers type when they are ready to hire: the service, the problem, the price question and the place. This guide gives starter keyword lists for 15 local industries, grouped by search intent, and shows how to turn each group into the right page. Use them as seeds, then confirm which ones already show your site in Google Search Console."}</p>
+          <p>{"The best SEO keywords for a local business are the exact phrases customers type when they are ready to hire: the service, the problem, the price question and the place. This guide gives starter keyword lists for 16 local industries, grouped by search intent, and shows how to turn each group into the right page. Use them as seeds, then confirm which ones already show your site in Google Search Console."}</p>
           <h2 id="how-to-use-these-keyword-lists">{"How to use these keyword lists"}</h2>
           <p>{"Every list below is split into five groups, because each group belongs on a different kind of page:"}</p>
           <div className="tbl-wrap"><table><thead><tr><th>{"Group"}</th><th>{"What it signals"}</th><th>{"Where it belongs"}</th></tr></thead><tbody><tr><td>{"Service keywords"}</td><td>{"Ready to hire for a specific job"}</td><td>{"One service page per job"}</td></tr><tr><td>{"Urgent keywords"}</td><td>{"Needs help now"}</td><td>{"Emergency page and Google Business Profile"}</td></tr><tr><td>{"Cost keywords"}</td><td>{"Comparing options"}</td><td>{"Pricing section or a cost guide"}</td></tr><tr><td>{"Local keywords"}</td><td>{"Wants someone nearby"}</td><td>{"Location and service area pages"}</td></tr><tr><td>{"Question keywords"}</td><td>{"Researching"}</td><td>{"FAQs and blog guides"}</td></tr></tbody></table></div>
@@ -87,6 +88,9 @@ export default function Body() {
           <h2 id="restaurant-keywords">{"Restaurant keywords"}</h2>
           <ul><li><strong>{"Service:"}</strong>{" [cuisine] restaurant, brunch, private dining, catering, happy hour, takeout"}</li><li><strong>{"Urgent:"}</strong>{" restaurants open now, late night food"}</li><li><strong>{"Cost:"}</strong>{" catering prices, private dining minimum"}</li><li><strong>{"Local:"}</strong>{" best [cuisine] in [neighborhood], restaurants near [landmark]"}</li><li><strong>{"Questions:"}</strong>{" do you take reservations, kid friendly restaurants"}</li></ul>
           <p>{"See "}<a href="/seo-for-restaurants/">{"restaurant SEO"}</a>{"."}</p>
+          <h2 id="accounting-firm-keywords">{"Accounting firm keywords"}</h2>
+          <ul><li><strong>{"Service:"}</strong>{" tax preparation, small business accountant, bookkeeping services, payroll services, CPA firm, tax planning, IRS audit help, business tax return"}</li><li><strong>{"Urgent:"}</strong>{" tax extension help, last minute tax filing, IRS letter help"}</li><li><strong>{"Cost:"}</strong>{" tax preparation fees, bookkeeping prices per month, CPA cost for small business"}</li><li><strong>{"Local:"}</strong>{" accountant [city], CPA [neighborhood], tax preparer [city]"}</li><li><strong>{"Questions:"}</strong>{" do I need a CPA for my small business, when are quarterly taxes due, accountant vs bookkeeper"}</li></ul>
+          <p>{"See "}<a href="/seo-for-accountants/">{"accountant SEO"}</a>{"."}</p>
           <h2 id="tutoring-keywords">{"Tutoring keywords"}</h2>
           <ul><li><strong>{"Service:"}</strong>{" math tutor, reading tutor, SAT prep, ACT prep, AP exam tutoring, online tutoring, homework help"}</li><li><strong>{"Urgent:"}</strong>{" tutor before finals, last minute SAT prep"}</li><li><strong>{"Cost:"}</strong>{" tutoring prices per hour, SAT prep cost"}</li><li><strong>{"Local:"}</strong>{" tutor [city], tutoring center [neighborhood]"}</li><li><strong>{"Questions:"}</strong>{" how much does a tutor cost, when to start SAT prep"}</li></ul>
           <p>{"See "}<a href="/seo-for-tutors/">{"tutoring SEO"}</a>{"."}</p>

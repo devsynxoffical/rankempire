@@ -1,4 +1,4 @@
-The best SEO keywords for a local business are the exact phrases customers type when they are ready to hire: the service, the problem, the price question and the place. This guide gives starter keyword lists for 15 local industries, grouped by search intent, and shows how to turn each group into the right page. Use them as seeds, then confirm which ones already show your site in Google Search Console.
+The best SEO keywords for a local business are the exact phrases customers type when they are ready to hire: the service, the problem, the price question and the place. This guide gives starter keyword lists for 16 local industries, grouped by search intent, and shows how to turn each group into the right page. Use them as seeds, then confirm which ones already show your site in Google Search Console.
 
 ## How to use these keyword lists
 
@@ -153,6 +153,16 @@ See [real estate SEO](/seo-for-real-estate/).
 - **Questions:** do you take reservations, kid friendly restaurants
 
 See [restaurant SEO](/seo-for-restaurants/).
+
+## Accounting firm keywords
+
+- **Service:** tax preparation, small business accountant, bookkeeping services, payroll services, CPA firm, tax planning, IRS audit help, business tax return
+- **Urgent:** tax extension help, last minute tax filing, IRS letter help
+- **Cost:** tax preparation fees, bookkeeping prices per month, CPA cost for small business
+- **Local:** accountant [city], CPA [neighborhood], tax preparer [city]
+- **Questions:** do I need a CPA for my small business, when are quarterly taxes due, accountant vs bookkeeper
+
+See [accountant SEO](/seo-for-accountants/).
 
 ## Tutoring keywords
 

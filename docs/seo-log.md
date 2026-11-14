@@ -13,6 +13,17 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-14 (daily session)
+
+Data: Search Console still ends 10 Nov (no new days published). Last 28 days: 29,000 impressions, 2 clicks. Most pages average positions 78 to 93, so low authority (Ahrefs DR 7) is the main limit; on-page work focused on queries already at positions 40 to 75 and on internal links.
+
+- Contextual internal links with descriptive anchors added in 17 guides, pointing to pages with impressions but few body links: SERP checker (1,387 impressions), SEO consulting (1,046), accountants, electricians, painters, auto detailing, auto repair and cleaning.
+- /seo-for-accountants/: new section "Accountant SEO near me" for "accountant seo near me" (107 impressions, position 43).
+- /locations/charlotte/: title "Charlotte SEO Company & SEO Expert Services" and new section on hiring a Charlotte SEO expert ("charlotte seo expert" position 53, "charlotte seo company" position 60).
+- /seo-for-painters/: title "Painting Company SEO Services for Painting Contractors" ("painting company seo services" position 53).
+- /seo-for-auto-detailing/: title "Auto Detailing SEO Company: SEO for Car Detailing" ("auto detailing seo company" position 63; "seo for car detailing" 137 impressions).
+- /blog/seo-keywords-by-industry/: accounting firm keyword list (now 16 industries), linking to accountant SEO.
+
 ## 2026-11-13 (session 2: Semrush data)
 
 Data: Semrush and Ahrefs exports supplied by the owner (Semrush US: Authority Score 2, 179 keywords all at positions 21-100, 236 referring domains; Ahrefs DR 7). Keyword volumes and KD below are Semrush US.
