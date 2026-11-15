@@ -13,6 +13,15 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-15 (daily session)
+
+Data: Search Console now has 11-13 Nov. Last 28 days: 37,446 impressions (+29% on the 14 Nov pull), 2 clicks, 3,835 queries (+414). 13 Nov had 3,601 impressions, the highest day so far; daily average position improved from 85.0 (10 Nov) to 82.3 (13 Nov). Biggest page gains in average position: San Francisco (+2.5), San Diego (+2.4), keyword research tool (+2.1), keyword rank checker and backlink checker (+1.2), Chicago (+1.1). Best opportunities: /seo-tools/keyword-rank-checker/ for "seo rank online" (90 impressions, position 20) and "check seo ranking" (68, position 21); /seo-tools/seo-score-checker/ for "seo checker free -trial" (34, position 21).
+Index: /locations/baltimore/ indexed (crawled 14 Nov). /locations/washington-dc/, /locations/columbus/ and /seo-for-tutors/ "Discovered - currently not indexed"; /blog/what-does-an-seo-company-do/ unknown to Google. Bing: data ends 10 Nov; InIndex 4, 0 impressions; quota back to 100.
+
+- /seo-tools/keyword-rank-checker/: new first guide section "How to check your SEO ranking online" (step-by-step, matches how the tool works).
+- /seo-tools/seo-score-checker/: new section "A free SEO checker with no trial or sign-up"; description now leads with "Free SEO checker with no trial or sign-up".
+- Checks: build, tsc, schema (0 errors), mobile on both pages.
+
 ## 2026-11-14 (scheduled session)
 
 Data: Search Console still ends 10 Nov; Bing data ends 9 Nov (InIndex 4, 0 crawl issues listed, 0 impressions; 2-8 unspecified crawl errors a day on 7-9 Nov with no 4xx/5xx/timeouts). Bing URL quota now 75 a day. URL Inspection: /locations/washington-dc/, /locations/baltimore/, /locations/columbus/, /blog/what-does-an-seo-company-do/ and /seo-for-tutors/ are "URL is unknown to Google" (submitted 13-14 Nov); /seo-packages/, /seo-packages/local-seo/ and /locations/charlotte/ indexed but last crawled 3-6 Nov, before the latest edits. Sitemaps resubmitted.

@@ -1248,6 +1248,10 @@
     "intro": "Checking where a page ranks sounds simple, but personalization, location and device all change the results. This free keyword rank checker finds your domain's position in a results list you paste, so you see the same results your customers see. This guide covers how to get accurate positions and what to do with them.",
     "sections": [
       {
+        "h": "How to check your SEO ranking online",
+        "p": "Search the keyword in a private window, ideally from the city you serve, and copy the result URLs from top to bottom. Paste them into the tool with your domain and it shows the position where your site appears, the URL that ranks and the competitors above you. Repeat it for each important keyword, then confirm the trend in Google Search Console, which shows your average SEO rank for every search over time. Checking once a week is enough; rankings move up and down by a few places for normal reasons."
+      },
+      {
         "h": "Get results that match your customers",
         "p": "Use a private window, sign out of Google and search from the city you serve, or add the city to the keyword. Local results change street by street, which is why local businesses also use rank grids. Paste the result URLs in order and the tool shows where your domain and competitors appear."
       },
@@ -1272,6 +1276,10 @@
       {
         "h": "What the 14 checks cover",
         "p": "The score looks at the title, meta description, headings, word count, images and alt text, internal and external links, canonical, robots, viewport, language, Open Graph tags and structured data. These are the on-page signals you fully control."
+      },
+      {
+        "h": "A free SEO checker with no trial or sign-up",
+        "p": "Many SEO checkers are free only for a trial or ask for an email before showing results. This one is free with no account, no trial and no limit on checks: paste the page's source code and the score appears with the list of fixes, calculated in your browser so nothing is stored. For keyword positions use the [keyword rank checker](/seo-tools/keyword-rank-checker/), and for a full-site review request our free [SEO audit](/seo-audit/)."
       },
       {
         "h": "What no score can measure",
