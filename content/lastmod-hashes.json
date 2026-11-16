@@ -124,12 +124,12 @@
   "date": "2026-11-14"
  },
  "locations/chicago": {
-  "hash": "7831961b4408",
-  "date": "2026-11-11"
+  "hash": "c5de5b33f7fc",
+  "date": "2026-11-16"
  },
  "locations/dallas": {
-  "hash": "c1b82a61ac11",
-  "date": "2026-11-11"
+  "hash": "599aaec87bbf",
+  "date": "2026-11-16"
  },
  "locations/denver": {
   "hash": "81c1fa1ecb58",
@@ -148,16 +148,16 @@
   "date": ""
  },
  "locations/los-angeles": {
-  "hash": "0cf6d3aa07a4",
-  "date": ""
+  "hash": "5042871670fd",
+  "date": "2026-11-16"
  },
  "locations/miami": {
   "hash": "7938c8b5d4fa",
   "date": "2026-11-11"
  },
  "locations/new-york": {
-  "hash": "d30611fc3a13",
-  "date": "2026-11-12"
+  "hash": "cb2aa5f03d6a",
+  "date": "2026-11-16"
  },
  "locations/orlando": {
   "hash": "568e1ff8cb94",
@@ -228,20 +228,20 @@
   "date": "2026-11-14"
  },
  "seo-for-bakeries": {
-  "hash": "89c84817d9f5",
-  "date": ""
+  "hash": "764726174920",
+  "date": "2026-11-16"
  },
  "seo-for-barbers": {
-  "hash": "64fd1ea1444e",
-  "date": ""
+  "hash": "b91d44c94820",
+  "date": "2026-11-16"
  },
  "seo-for-cafes": {
-  "hash": "1500d25c4d24",
-  "date": ""
+  "hash": "bcd5ba83c686",
+  "date": "2026-11-16"
  },
  "seo-for-chiropractors": {
-  "hash": "322e189b24b8",
-  "date": ""
+  "hash": "f462140d86ea",
+  "date": "2026-11-16"
  },
  "seo-for-cleaning": {
   "hash": "b664983c44c2",
@@ -264,40 +264,40 @@
   "date": ""
  },
  "seo-for-fencing-companies": {
-  "hash": "4ad4e0474e6a",
-  "date": ""
+  "hash": "9fe5ee399b28",
+  "date": "2026-11-16"
  },
  "seo-for-financial-advisors": {
-  "hash": "05bc3f729469",
-  "date": ""
+  "hash": "6015050b5fa1",
+  "date": "2026-11-16"
  },
  "seo-for-flooring-companies": {
   "hash": "8c5e8d6124c3",
   "date": "2026-11-14"
  },
  "seo-for-florists": {
-  "hash": "920621e650ca",
-  "date": ""
+  "hash": "6bbf8326e70d",
+  "date": "2026-11-16"
  },
  "seo-for-general-contractors": {
-  "hash": "e96250b81649",
-  "date": ""
+  "hash": "22aa7dad5b08",
+  "date": "2026-11-16"
  },
  "seo-for-gyms": {
-  "hash": "ea6aec32a540",
-  "date": ""
+  "hash": "063423b5c021",
+  "date": "2026-11-16"
  },
  "seo-for-home-builders": {
   "hash": "343758f0502d",
   "date": "2026-11-14"
  },
  "seo-for-hvac": {
-  "hash": "545fa8daa5e5",
-  "date": ""
+  "hash": "3404ae4e40b7",
+  "date": "2026-11-16"
  },
  "seo-for-insurance": {
-  "hash": "8b2b9f2709df",
-  "date": ""
+  "hash": "9a5f8c11f326",
+  "date": "2026-11-16"
  },
  "seo-for-landscaping": {
   "hash": "0e8f2a6cd9aa",
@@ -336,8 +336,8 @@
   "date": "2026-11-14"
  },
  "seo-for-photographers": {
-  "hash": "f1d926adcd32",
-  "date": ""
+  "hash": "0c626fd59afc",
+  "date": "2026-11-16"
  },
  "seo-for-plastic-surgeons": {
   "hash": "b00914d5be10",
@@ -356,12 +356,12 @@
   "date": ""
  },
  "seo-for-real-estate": {
-  "hash": "48d652697ffe",
-  "date": ""
+  "hash": "7e32bd12708c",
+  "date": "2026-11-16"
  },
  "seo-for-restaurants": {
-  "hash": "7a71cb305ac6",
-  "date": ""
+  "hash": "a0a762add813",
+  "date": "2026-11-16"
  },
  "seo-for-roofing": {
   "hash": "d703d9f25a68",
@@ -372,12 +372,12 @@
   "date": ""
  },
  "seo-for-therapists": {
-  "hash": "e6d56564aabb",
-  "date": ""
+  "hash": "144b175a8a3d",
+  "date": "2026-11-16"
  },
  "seo-for-towing": {
-  "hash": "4b394fccda47",
-  "date": ""
+  "hash": "e97d0b07a8cb",
+  "date": "2026-11-16"
  },
  "seo-for-tutors": {
   "hash": "5b641b8cf726",
@@ -388,12 +388,12 @@
   "date": ""
  },
  "seo-for-wedding-planners": {
-  "hash": "a4048e6478b8",
-  "date": ""
+  "hash": "32e0da142577",
+  "date": "2026-11-16"
  },
  "seo-for-yoga-studios": {
-  "hash": "108608ce53cb",
-  "date": ""
+  "hash": "10ffe5ad7d72",
+  "date": "2026-11-16"
  },
  "seo-packages/ecommerce-seo": {
   "hash": "5df7b634b100",
@@ -472,28 +472,28 @@
   "date": ""
  },
  "seo-for-private-jet-charter": {
-  "hash": "9ff6945fc62e",
-  "date": ""
+  "hash": "263f7bf4fa33",
+  "date": "2026-11-16"
  },
  "seo-for-yacht-charter": {
-  "hash": "f6d5414f2f86",
-  "date": ""
+  "hash": "85c8c22295ae",
+  "date": "2026-11-16"
  },
  "seo-for-limousine-companies": {
-  "hash": "c51d872fc745",
-  "date": ""
+  "hash": "7be3bf8d9e7c",
+  "date": "2026-11-16"
  },
  "seo-for-exotic-car-rental": {
-  "hash": "dbe784edab3d",
-  "date": ""
+  "hash": "26b19a209671",
+  "date": "2026-11-16"
  },
  "seo-for-luxury-wedding-businesses": {
-  "hash": "1e5df8b349cc",
-  "date": ""
+  "hash": "2b0370b90c78",
+  "date": "2026-11-16"
  },
  "seo-for-wedding-venues": {
-  "hash": "61a91fc37174",
-  "date": ""
+  "hash": "30b71726c9ab",
+  "date": "2026-11-16"
  },
  "locations/brooklyn": {
   "hash": "8a3a949a729b",
@@ -532,8 +532,8 @@
   "date": "2026-11-13"
  },
  "locations/baltimore": {
-  "hash": "a66cc36654f6",
-  "date": "2026-11-13"
+  "hash": "5b4689c0a522",
+  "date": "2026-11-16"
  },
  "locations/columbus": {
   "hash": "683ead542791",
@@ -542,5 +542,17 @@
  "blog/what-does-an-seo-company-do": {
   "hash": "68567fedebf6",
   "date": "2026-11-13"
+ },
+ "locations/philadelphia": {
+  "hash": "0422cf163be6",
+  "date": "2026-11-16"
+ },
+ "locations/milwaukee": {
+  "hash": "5cbb466e599f",
+  "date": "2026-11-16"
+ },
+ "locations/fort-worth": {
+  "hash": "041dc7e0e9a1",
+  "date": "2026-11-16"
  }
 }
