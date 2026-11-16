@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Other cities, industries and guides" items={[{"href":"/locations/dallas/","label":"SEO Company in Dallas"},{"href":"/locations/austin/","label":"SEO Company in Austin"},{"href":"/locations/houston/","label":"SEO Company in Houston"},{"href":"/locations/denver/","label":"SEO Company in Denver"},{"href":"/seo-for-cafes/","label":"SEO for Cafes"},{"href":"/seo-for-financial-advisors/","label":"SEO for Financial Advisors"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Choose an SEO Company"},{"href":"/book-a-call/","label":"Book a free strategy call"}]} />;
+  return <RelatedLinks title="Other cities, industries and guides" items={[{"href":"/locations/dallas/","label":"SEO Company in Dallas"},{"href":"/locations/austin/","label":"SEO Company in Austin"},{"href":"/locations/houston/","label":"SEO Company in Houston"},{"href":"/locations/denver/","label":"SEO Company in Denver"},{"href":"/seo-for-cafes/","label":"SEO for Cafes"},{"href":"/seo-for-financial-advisors/","label":"SEO for Financial Advisors"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Find and Choose the Best SEO Company"},{"href":"/book-a-call/","label":"Book a free strategy call"}]} />;
 }

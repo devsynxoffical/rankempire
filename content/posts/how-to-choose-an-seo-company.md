@@ -1,4 +1,4 @@
-Choosing an SEO company is hard because most of the work is invisible until months later. Two agencies can send near-identical proposals at very different prices, and the difference only shows up in month six, when one has built rankings that compound and the other has a report full of activity and a flat graph. This guide gives you the twelve questions that separate them, the red flags to walk away from, and a simple way to compare proposals side by side, whether you are hiring an [SEO company in New York](/locations/new-york/), a [Chicago SEO agency](/locations/chicago/) or a specialist for your industry.
+Finding the best SEO company for your business starts with knowing what to ask. Choosing an SEO company is hard because most of the work is invisible until months later. Two agencies can send near-identical proposals at very different prices, and the difference only shows up in month six, when one has built rankings that compound and the other has a report full of activity and a flat graph. This guide gives you the twelve questions that separate them, the red flags to walk away from, and a simple way to compare proposals side by side, whether you are hiring an [SEO company in New York](/locations/new-york/), a [Chicago SEO agency](/locations/chicago/) or a specialist for your industry.
 
 ## Start with what you need, not who is selling
 
@@ -93,7 +93,7 @@ A local agency knows your city's neighborhoods and competition, and some busines
 If you have an in-house marketer or developer, you may not need a full-service agency. [SEO consulting](/seo-consulting/) gives your team the strategy, audits and reviews while they do the work, usually at a lower monthly cost. It works best when someone internal has the time and the access to ship changes.
 
 
-New to hiring SEO help? Start with [what an SEO company does](/blog/what-does-an-seo-company-do/), then use the questions above to compare agencies.
+New to hiring SEO help? Start with [what an SEO company does](/blog/what-does-an-seo-company-do/). If you are comparing "best SEO company" lists, read [who is the best SEO company in the USA](/blog/best-seo-company-in-the-usa/) and, for map rankings, [who is the best local SEO company](/blog/who-is-the-best-local-seo-company/).
 
 ## FAQ
 

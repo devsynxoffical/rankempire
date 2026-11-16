@@ -13,6 +13,17 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-16 (scheduled session + best SEO company posts)
+
+Data: Search Console added 14 Nov: 3,031 impressions, position 81.0 (best daily average so far); last 28 days 40,464 impressions, 2 clicks, 3,999 queries. Bing: InIndex 4, 0 crawl issues, 0 impressions; 44 submissions left today.
+
+- New post /blog/who-is-the-best-local-seo-company/ for owner-supplied Ahrefs keywords: "who is the best local seo company" (200, KD12), "who is the best local seo company in the nation" (150, KD15), "who is google's best local seo company" (200, KD4), "best type of company needing seo" (100, KD2).
+- New post /blog/best-seo-company-in-the-usa/: "who is the best seo company" (300, KD36), "who is the best seo company in usa" (200, KD19), "what is the best seo company" (100, KD34), "who is the best seo company in the usa" (80, KD17).
+- /blog/how-to-choose-an-seo-company/ retitled "How to Find & Choose the Best SEO Company" for "how to find best seo company" (150, KD19), "how to find the best seo company" (100, KD22), "how to choose best seo company" (100, KD9) instead of a third overlapping post.
+- Posts are factual (no invented rankings): Google does not endorse SEO companies; Google Partners covers Ads only. Linked from /seo-company/, /local-seo/ and the choose post.
+- /locations/chicago/ description for "best seo company near me" (position 11).
+- Not built: UK/London terms (US-only business); "whats the best seo company in nj" (150, KD1) is a candidate for a New Jersey page.
+
 ## 2026-11-16 (full audit session)
 
 Data: Search Console still ends 13 Nov (last 28 days 37,446 impressions, 2 clicks). Full indexing audit (URL Inspection API, all 136 URLs): 132 "Submitted and indexed", 4 "Discovered - currently not indexed" (/seo-for-tutors/, /locations/washington-dc/, /locations/columbus/, /blog/what-does-an-seo-company-do/), 0 Google-selected canonical mismatches, rich results PASS on 131. Metadata audit (all built pages): no missing or duplicate titles or descriptions, canonicals and Open Graph on every page, 1 H1 per page, no images without alt. Correction: 26 industry pages had no guide section (the earlier "every page has a guide" note covered only pages with impressions).

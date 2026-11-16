@@ -26,11 +26,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Chicago SEO Company, Agency & Firm | RankEmpire" },
-  description: "Chicago SEO company and local SEO experts: search engine optimization for Chicago and suburban businesses, Google Maps and AI search. From $599/mo.",
+  description: "Looking for the best SEO company near you in Chicago? Local SEO experts for Chicago and suburban businesses: Google Maps, AI search and SEO from $599/mo.",
   alternates: { canonical: "https://www.rankempire.us/locations/chicago/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Chicago SEO Company, Agency & Firm | RankEmpire", description: "Chicago SEO company and local SEO experts: search engine optimization for Chicago and suburban businesses, Google Maps and AI search. From $599/mo.", url: "https://www.rankempire.us/locations/chicago/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Chicago SEO Company, Agency & Firm | RankEmpire", description: "Chicago SEO company and local SEO experts: search engine optimization for Chicago and suburban businesses, Google Maps and AI search. From $599/mo." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Chicago SEO Company, Agency & Firm | RankEmpire", description: "Looking for the best SEO company near you in Chicago? Local SEO experts for Chicago and suburban businesses: Google Maps, AI search and SEO from $599/mo.", url: "https://www.rankempire.us/locations/chicago/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Chicago SEO Company, Agency & Firm | RankEmpire", description: "Looking for the best SEO company near you in Chicago? Local SEO experts for Chicago and suburban businesses: Google Maps, AI search and SEO from $599/mo." },
 };
 
 export default function Page() {
