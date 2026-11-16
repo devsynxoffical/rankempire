@@ -24,11 +24,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Austin SEO Company & Texas SEO Agency | RankEmpire" },
-  description: "Austin SEO company and Texas SEO agency: search engine optimization, local SEO and SaaS SEO for Austin, Round Rock and Cedar Park. Free audit in 2 days.",
+  description: "Austin SEO company with a senior SEO consultant and expert team: local SEO, search engine optimization and SaaS SEO for Austin, Round Rock and Cedar Park.",
   alternates: { canonical: "https://www.rankempire.us/locations/austin/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Austin SEO Company & Texas SEO Agency | RankEmpire", description: "Austin SEO company and Texas SEO agency: search engine optimization, local SEO and SaaS SEO for Austin, Round Rock and Cedar Park. Free audit in 2 days.", url: "https://www.rankempire.us/locations/austin/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Austin SEO Company & Texas SEO Agency | RankEmpire", description: "Austin SEO company and Texas SEO agency: search engine optimization, local SEO and SaaS SEO for Austin, Round Rock and Cedar Park. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Austin SEO Company & Texas SEO Agency | RankEmpire", description: "Austin SEO company with a senior SEO consultant and expert team: local SEO, search engine optimization and SaaS SEO for Austin, Round Rock and Cedar Park.", url: "https://www.rankempire.us/locations/austin/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Austin SEO Company & Texas SEO Agency | RankEmpire", description: "Austin SEO company with a senior SEO consultant and expert team: local SEO, search engine optimization and SaaS SEO for Austin, Round Rock and Cedar Park." },
 };
 
 export default function Page() {

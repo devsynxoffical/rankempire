@@ -27,11 +27,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "National SEO Services & National SEO Agency | RankEmpire" },
-  description: "National SEO services that rank brands across the US: competitive keyword strategy, content, digital PR and technical SEO. Free audit, no lock-in.",
+  description: "National SEO services and national search engine optimization packages that rank brands across the US: keyword strategy, content, digital PR and technical SEO.",
   alternates: { canonical: "https://www.rankempire.us/national-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "National SEO Services & National SEO Agency | RankEmpire", description: "National SEO services that rank brands across the US: competitive keyword strategy, content, digital PR and technical SEO. Free audit, no lock-in.", url: "https://www.rankempire.us/national-seo/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "National SEO Services & National SEO Agency | RankEmpire", description: "National SEO services that rank brands across the US: competitive keyword strategy, content, digital PR and technical SEO. Free audit, no lock-in." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "National SEO Services & National SEO Agency | RankEmpire", description: "National SEO services and national search engine optimization packages that rank brands across the US: keyword strategy, content, digital PR and technical SEO.", url: "https://www.rankempire.us/national-seo/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "National SEO Services & National SEO Agency | RankEmpire", description: "National SEO services and national search engine optimization packages that rank brands across the US: keyword strategy, content, digital PR and technical SEO." },
 };
 
 export default function Page() {

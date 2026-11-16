@@ -13,6 +13,17 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-16 (full audit session)
+
+Data: Search Console still ends 13 Nov (last 28 days 37,446 impressions, 2 clicks). Full indexing audit (URL Inspection API, all 136 URLs): 132 "Submitted and indexed", 4 "Discovered - currently not indexed" (/seo-for-tutors/, /locations/washington-dc/, /locations/columbus/, /blog/what-does-an-seo-company-do/), 0 Google-selected canonical mismatches, rich results PASS on 131. Metadata audit (all built pages): no missing or duplicate titles or descriptions, canonicals and Open Graph on every page, 1 H1 per page, no images without alt. Correction: 26 industry pages had no guide section (the earlier "every page has a guide" note covered only pages with impressions).
+
+- Guides added to 24 industry pages without one, aligned to their Search Console queries: HVAC, real estate, restaurants (incl. catering SEO), cafes, bakeries, barbers, chiropractors, fencing, financial advisors, florists, general contractors, gyms, insurance, photographers, therapists, towing, wedding planners, yoga studios, private jet charter, yacht charter, limousine, exotic car rental, luxury weddings, wedding venues.
+- New city pages from Semrush demand: /locations/philadelphia/ (about 2,560 monthly searches across SEO company terms), /locations/milwaukee/ ("seo company milwaukee" 590), /locations/fort-worth/ ("seo company fort worth" 720, KD16). Linked from header, menus, hub, home and nearby cities (New York, Baltimore, Chicago, Columbus, Dallas).
+- Metadata rewritten on 34 pages to match real queries (titles and/or descriptions): Austin, dentists, med spas, electricians, accountants, HVAC, roofing, real estate, SERP checker, website SEO checker, keyword research tool, keyword rank checker, national SEO, enterprise SEO, SEO consulting, cafes, flooring, content SEO, on-page SEO, off-page SEO, restaurants, bakeries, chiropractors, insurance, general contractors, therapists, limo, private jet, yacht, exotic car rental, luxury weddings, wedding venues.
+- Los Angeles: Santa Clarita and north county section ("santa clarita search engine optimization" position 61).
+- Internal links to the 4 unindexed pages and new cities from Baltimore, Chicago, New York, Dallas, gyms and /seo-company/ guides and two blog posts.
+- Checks: build, tsc, schema (0 errors), no broken internal links, no duplicate metadata.
+
 ## 2026-11-15 (daily session)
 
 Data: Search Console now has 11-13 Nov. Last 28 days: 37,446 impressions (+29% on the 14 Nov pull), 2 clicks, 3,835 queries (+414). 13 Nov had 3,601 impressions, the highest day so far; daily average position improved from 85.0 (10 Nov) to 82.3 (13 Nov). Biggest page gains in average position: San Francisco (+2.5), San Diego (+2.4), keyword research tool (+2.1), keyword rank checker and backlink checker (+1.2), Chicago (+1.1). Best opportunities: /seo-tools/keyword-rank-checker/ for "seo rank online" (90 impressions, position 20) and "check seo ranking" (68, position 21); /seo-tools/seo-score-checker/ for "seo checker free -trial" (34, position 21).
@@ -139,7 +150,7 @@ Data (Search Console, latest day 9 Nov): 3,398 impressions and 1 click on 9 Nov;
 1. **Off-site authority** (needs owner accounts): Clutch, DesignRush, GoodFirms, UpCity, BrightLocal agency directory, Bing Places, Apple Business Connect, Google Business Profile for RankEmpire; expert quote platforms (Qwoted, Featured.com); list the free tools on Product Hunt, AlternativeTo and SaaSHub.
 2. **GA4 key events:** owner to mark generate_lead, whatsapp_click and book_call_click as key events in GA4 Admin (needs owner access).
 3. **"Near me" queries** (seo agency near me, best position 14; seo services near me; seo firms near me): strengthen city pages and the /seo-company/ guide as data comes in.
-4. **Guides:** every service, city, industry and tool page now has one; next is refreshing guides on pages whose impressions stall.
+4. **Guides:** all service, city, industry and tool pages have one as of 16 Nov; next is refreshing guides on pages whose impressions stall.
 5. **Suburb pages:** watch Santa Monica, Tempe, Mesa, Chandler, Glendale; build only with growing demand.
 6. **Recheck indexing** of /seo-for-tutors/ and the 13 Nov pages (DC, Baltimore, Columbus, new post); still unknown to Google on 14 Nov.
 7. **Stylesheet split:** site.css is 287 KB on every page.

@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-insurance/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Insurance Agency SEO Services & Company | RankEmpire" },
+  title: { absolute: "Insurance Agency SEO Services for Agents | RankEmpire" },
   description: "SEO for insurance agencies: win local auto, home, life and business insurance searches with line pages, Google Business Profile optimization and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-insurance/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Insurance Agency SEO Services & Company | RankEmpire", description: "SEO for insurance agencies: win local auto, home, life and business insurance searches with line pages, Google Business Profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-insurance/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "Insurance Agency SEO Services & Company | RankEmpire", description: "SEO for insurance agencies: win local auto, home, life and business insurance searches with line pages, Google Business Profile optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Insurance Agency SEO Services for Agents | RankEmpire", description: "SEO for insurance agencies: win local auto, home, life and business insurance searches with line pages, Google Business Profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-insurance/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Insurance Agency SEO Services for Agents | RankEmpire", description: "SEO for insurance agencies: win local auto, home, life and business insurance searches with line pages, Google Business Profile optimization and reviews." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-insurance" />
         <Pricing />
         <Faq />
         <Pmq />

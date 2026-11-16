@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-exotic-car-rental/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Exotic Car Rental SEO Services & Company | RankEmpire" },
+  title: { absolute: "Exotic Car Rental SEO Services | RankEmpire" },
   description: "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements, reviews and AI visibility.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-exotic-car-rental/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Exotic Car Rental SEO Services & Company | RankEmpire", description: "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements, reviews and AI visibility.", url: "https://www.rankempire.us/seo-for-exotic-car-rental/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "Exotic Car Rental SEO Services & Company | RankEmpire", description: "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements, reviews and AI visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Exotic Car Rental SEO Services | RankEmpire", description: "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements, reviews and AI visibility.", url: "https://www.rankempire.us/seo-for-exotic-car-rental/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "Exotic Car Rental SEO Services | RankEmpire", description: "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements, reviews and AI visibility." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-exotic-car-rental" />
         <Pricing />
         <Faq />
         <Pmq />

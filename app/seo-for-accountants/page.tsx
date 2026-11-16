@@ -26,11 +26,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Accountant & Accounting Firm SEO for CPAs | RankEmpire" },
-  description: "Accountant SEO services and SEO for CPA firms: an accountant SEO company that wins tax, bookkeeping and advisory clients from Google Maps. Free audit.",
+  description: "Accountant SEO experts and SEO company for accountants and CPA firms: win tax, bookkeeping and advisory clients from Google search and Maps. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-accountants/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Accountant & Accounting Firm SEO for CPAs | RankEmpire", description: "Accountant SEO services and SEO for CPA firms: an accountant SEO company that wins tax, bookkeeping and advisory clients from Google Maps. Free audit.", url: "https://www.rankempire.us/seo-for-accountants/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "Accountant & Accounting Firm SEO for CPAs | RankEmpire", description: "Accountant SEO services and SEO for CPA firms: an accountant SEO company that wins tax, bookkeeping and advisory clients from Google Maps. Free audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Accountant & Accounting Firm SEO for CPAs | RankEmpire", description: "Accountant SEO experts and SEO company for accountants and CPA firms: win tax, bookkeeping and advisory clients from Google search and Maps. Free audit.", url: "https://www.rankempire.us/seo-for-accountants/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Accountant & Accounting Firm SEO for CPAs | RankEmpire", description: "Accountant SEO experts and SEO company for accountants and CPA firms: win tax, bookkeeping and advisory clients from Google search and Maps. Free audit." },
 };
 
 export default function Page() {

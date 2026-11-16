@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-chiropractors/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Chiropractor SEO Services & Company | RankEmpire" },
+  title: { absolute: "Chiropractic SEO Services for Chiropractors | RankEmpire" },
   description: "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile optimization and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-chiropractors/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Chiropractor SEO Services & Company | RankEmpire", description: "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-chiropractors/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Chiropractor SEO Services & Company | RankEmpire", description: "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Chiropractic SEO Services for Chiropractors | RankEmpire", description: "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-chiropractors/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Chiropractic SEO Services for Chiropractors | RankEmpire", description: "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile optimization and reviews." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-chiropractors" />
         <Pricing />
         <Faq />
         <Pmq />

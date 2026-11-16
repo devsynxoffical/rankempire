@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-private-jet-charter/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Private Jet Charter SEO Services & Company | RankEmpire" },
+  title: { absolute: "Private Jet Charter SEO Services | RankEmpire" },
   description: "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI search visibility.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-private-jet-charter/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Private Jet Charter SEO Services & Company | RankEmpire", description: "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI search visibility.", url: "https://www.rankempire.us/seo-for-private-jet-charter/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "Private Jet Charter SEO Services & Company | RankEmpire", description: "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI search visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Private Jet Charter SEO Services | RankEmpire", description: "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI search visibility.", url: "https://www.rankempire.us/seo-for-private-jet-charter/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "Private Jet Charter SEO Services | RankEmpire", description: "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI search visibility." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-private-jet-charter" />
         <Pricing />
         <Faq />
         <Pmq />

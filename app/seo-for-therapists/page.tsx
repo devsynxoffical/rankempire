@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-therapists/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Therapist SEO Services & Company | RankEmpire" },
+  title: { absolute: "Therapist & Counselor SEO Services | RankEmpire" },
   description: "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile optimization and compliant reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-therapists/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Therapist SEO Services & Company | RankEmpire", description: "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile optimization and compliant reviews.", url: "https://www.rankempire.us/seo-for-therapists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Therapist SEO Services & Company | RankEmpire", description: "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile optimization and compliant reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Therapist & Counselor SEO Services | RankEmpire", description: "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile optimization and compliant reviews.", url: "https://www.rankempire.us/seo-for-therapists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Therapist & Counselor SEO Services | RankEmpire", description: "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile optimization and compliant reviews." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-therapists" />
         <Pricing />
         <Faq />
         <Pmq />

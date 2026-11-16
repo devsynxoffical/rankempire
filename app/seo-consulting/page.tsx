@@ -28,11 +28,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "SEO Consultant & SEO Consulting Services | RankEmpire" },
-  description: "Hire an SEO consultant: SEO consulting services for audits, strategy, migrations and team training from a senior SEO expert. First consultation free.",
+  description: "Hire an SEO consultant: SEO consulting services and SEO consultancy for audits, strategy, migrations and team training by a senior SEO expert. Free first call.",
   alternates: { canonical: "https://www.rankempire.us/seo-consulting/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Consultant & SEO Consulting Services | RankEmpire", description: "Hire an SEO consultant: SEO consulting services for audits, strategy, migrations and team training from a senior SEO expert. First consultation free.", url: "https://www.rankempire.us/seo-consulting/", images: ["https://www.rankempire.us/img/team.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Consultant & SEO Consulting Services | RankEmpire", description: "Hire an SEO consultant: SEO consulting services for audits, strategy, migrations and team training from a senior SEO expert. First consultation free." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Consultant & SEO Consulting Services | RankEmpire", description: "Hire an SEO consultant: SEO consulting services and SEO consultancy for audits, strategy, migrations and team training by a senior SEO expert. Free first call.", url: "https://www.rankempire.us/seo-consulting/", images: ["https://www.rankempire.us/img/team.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Consultant & SEO Consulting Services | RankEmpire", description: "Hire an SEO consultant: SEO consulting services and SEO consultancy for audits, strategy, migrations and team training by a senior SEO expert. Free first call." },
 };
 
 export default function Page() {

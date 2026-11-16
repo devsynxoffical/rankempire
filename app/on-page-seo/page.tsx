@@ -25,12 +25,12 @@ import Related from '@/components/pages/on-page-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "On-Page SEO Services | RankEmpire" },
-  description: "On-page SEO that aligns every page with search intent: titles, headings, content, internal links, images and structured data.",
+  title: { absolute: "On-Page SEO Services & On-Page Optimization | RankEmpire" },
+  description: "On-page SEO services that align every page with search intent: optimized titles, headings, content, internal links, images and structured data. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/on-page-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "On-Page SEO Services | RankEmpire", description: "On-page SEO that aligns every page with search intent: titles, headings, content, internal links, images and structured data.", url: "https://www.rankempire.us/on-page-seo/", images: ["https://www.rankempire.us/img/s-content.webp"] },
-  twitter: { card: 'summary_large_image', title: "On-Page SEO Services | RankEmpire", description: "On-page SEO that aligns every page with search intent: titles, headings, content, internal links, images and structured data." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "On-Page SEO Services & On-Page Optimization | RankEmpire", description: "On-page SEO services that align every page with search intent: optimized titles, headings, content, internal links, images and structured data. Free audit.", url: "https://www.rankempire.us/on-page-seo/", images: ["https://www.rankempire.us/img/s-content.webp"] },
+  twitter: { card: 'summary_large_image', title: "On-Page SEO Services & On-Page Optimization | RankEmpire", description: "On-page SEO services that align every page with search intent: optimized titles, headings, content, internal links, images and structured data. Free audit." },
 };
 
 export default function Page() {

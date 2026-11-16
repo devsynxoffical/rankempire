@@ -16,11 +16,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Free SEO Site Checker: Website SEO Checker Tool | RankEmpire" },
-  description: "Free SEO site checker: analyze title tags, meta descriptions, headings, canonicals, robots directives and on-page SEO health of any page in seconds.",
+  description: "Free SEO site checker and SEO tool to check any website page: title tags, meta descriptions, headings, canonicals and robots directives in seconds.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/website-seo-checker/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free SEO Site Checker: Website SEO Checker Tool | RankEmpire", description: "Free SEO site checker: analyze title tags, meta descriptions, headings, canonicals, robots directives and on-page SEO health of any page in seconds.", url: "https://www.rankempire.us/seo-tools/website-seo-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free SEO Site Checker: Website SEO Checker Tool | RankEmpire", description: "Free SEO site checker: analyze title tags, meta descriptions, headings, canonicals, robots directives and on-page SEO health of any page in seconds." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free SEO Site Checker: Website SEO Checker Tool | RankEmpire", description: "Free SEO site checker and SEO tool to check any website page: title tags, meta descriptions, headings, canonicals and robots directives in seconds.", url: "https://www.rankempire.us/seo-tools/website-seo-checker/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free SEO Site Checker: Website SEO Checker Tool | RankEmpire", description: "Free SEO site checker and SEO tool to check any website page: title tags, meta descriptions, headings, canonicals and robots directives in seconds." },
 };
 
 export default function Page() {

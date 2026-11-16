@@ -25,12 +25,12 @@ import Related from '@/components/pages/off-page-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Off-Page SEO Services | RankEmpire" },
-  description: "Off-page SEO that builds real authority: editorial links, brand mentions, digital PR, citations and reputation signals.",
+  title: { absolute: "Off-Page SEO Services & Authority Building | RankEmpire" },
+  description: "Off-page SEO services that build real authority: editorial links, brand mentions, digital PR, citations and reputation signals. No paid link schemes.",
   alternates: { canonical: "https://www.rankempire.us/off-page-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Off-Page SEO Services | RankEmpire", description: "Off-page SEO that builds real authority: editorial links, brand mentions, digital PR, citations and reputation signals.", url: "https://www.rankempire.us/off-page-seo/", images: ["https://www.rankempire.us/img/s-links.webp"] },
-  twitter: { card: 'summary_large_image', title: "Off-Page SEO Services | RankEmpire", description: "Off-page SEO that builds real authority: editorial links, brand mentions, digital PR, citations and reputation signals." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Off-Page SEO Services & Authority Building | RankEmpire", description: "Off-page SEO services that build real authority: editorial links, brand mentions, digital PR, citations and reputation signals. No paid link schemes.", url: "https://www.rankempire.us/off-page-seo/", images: ["https://www.rankempire.us/img/s-links.webp"] },
+  twitter: { card: 'summary_large_image', title: "Off-Page SEO Services & Authority Building | RankEmpire", description: "Off-page SEO services that build real authority: editorial links, brand mentions, digital PR, citations and reputation signals. No paid link schemes." },
 };
 
 export default function Page() {

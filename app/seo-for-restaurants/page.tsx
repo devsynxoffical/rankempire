@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-restaurants/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Restaurant SEO Services & Company | RankEmpire" },
-  description: "SEO for restaurants: win cuisine, neighborhood and best restaurant near me searches with profile optimization, menu pages, reviews and local mentions.",
+  title: { absolute: "Restaurant SEO Services & Catering SEO | RankEmpire" },
+  description: "Restaurant and catering SEO: win cuisine, catering, neighborhood and best restaurant near me searches with profile optimization, menu pages and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-restaurants/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Restaurant SEO Services & Company | RankEmpire", description: "SEO for restaurants: win cuisine, neighborhood and best restaurant near me searches with profile optimization, menu pages, reviews and local mentions.", url: "https://www.rankempire.us/seo-for-restaurants/", images: ["https://www.rankempire.us/img/i-food.webp"] },
-  twitter: { card: 'summary_large_image', title: "Restaurant SEO Services & Company | RankEmpire", description: "SEO for restaurants: win cuisine, neighborhood and best restaurant near me searches with profile optimization, menu pages, reviews and local mentions." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Restaurant SEO Services & Catering SEO | RankEmpire", description: "Restaurant and catering SEO: win cuisine, catering, neighborhood and best restaurant near me searches with profile optimization, menu pages and reviews.", url: "https://www.rankempire.us/seo-for-restaurants/", images: ["https://www.rankempire.us/img/i-food.webp"] },
+  twitter: { card: 'summary_large_image', title: "Restaurant SEO Services & Catering SEO | RankEmpire", description: "Restaurant and catering SEO: win cuisine, catering, neighborhood and best restaurant near me searches with profile optimization, menu pages and reviews." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-restaurants" />
         <Pricing />
         <Faq />
         <Pmq />

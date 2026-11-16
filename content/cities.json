@@ -6,8 +6,8 @@
   "nearby": [
    "manhattan",
    "brooklyn",
-   "washington-dc",
-   "boston"
+   "philadelphia",
+   "washington-dc"
   ]
  },
  {
@@ -26,10 +26,10 @@
   "name": "Chicago",
   "state": "IL",
   "nearby": [
-   "denver",
+   "milwaukee",
    "new-york",
    "columbus",
-   "boston"
+   "denver"
   ]
  },
  {
@@ -48,10 +48,10 @@
   "name": "Dallas",
   "state": "TX",
   "nearby": [
+   "fort-worth",
    "houston",
    "austin",
-   "denver",
-   "phoenix"
+   "denver"
   ]
  },
  {
@@ -247,9 +247,9 @@
   "state": "MD",
   "nearby": [
    "washington-dc",
+   "philadelphia",
    "new-york",
-   "brooklyn",
-   "charlotte"
+   "brooklyn"
   ]
  },
  {
@@ -258,9 +258,42 @@
   "state": "OH",
   "nearby": [
    "chicago",
+   "milwaukee",
    "nashville",
-   "charlotte",
    "washington-dc"
+  ]
+ },
+ {
+  "slug": "philadelphia",
+  "name": "Philadelphia",
+  "state": "PA",
+  "nearby": [
+   "new-york",
+   "baltimore",
+   "washington-dc",
+   "brooklyn"
+  ]
+ },
+ {
+  "slug": "milwaukee",
+  "name": "Milwaukee",
+  "state": "WI",
+  "nearby": [
+   "chicago",
+   "columbus",
+   "nashville",
+   "denver"
+  ]
+ },
+ {
+  "slug": "fort-worth",
+  "name": "Fort Worth",
+  "state": "TX",
+  "nearby": [
+   "dallas",
+   "austin",
+   "houston",
+   "denver"
   ]
  }
 ]

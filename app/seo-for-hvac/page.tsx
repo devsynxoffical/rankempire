@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import QuickAnswer from '@/components/seo/QuickAnswer';
@@ -23,12 +24,12 @@ import Related from '@/components/pages/seo-for-hvac/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "HVAC SEO Services & Company | RankEmpire" },
-  description: "SEO for HVAC companies: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season.",
+  title: { absolute: "HVAC SEO Services & HVAC SEO Experts | RankEmpire" },
+  description: "HVAC SEO experts: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-hvac/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "HVAC SEO Services & Company | RankEmpire", description: "SEO for HVAC companies: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season.", url: "https://www.rankempire.us/seo-for-hvac/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "HVAC SEO Services & Company | RankEmpire", description: "SEO for HVAC companies: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "HVAC SEO Services & HVAC SEO Experts | RankEmpire", description: "HVAC SEO experts: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season.", url: "https://www.rankempire.us/seo-for-hvac/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "HVAC SEO Services & HVAC SEO Experts | RankEmpire", description: "HVAC SEO experts: win emergency repair searches in the map pack and replacement searches with system, rebate and financing pages built before peak season." },
 };
 
 export default function Page() {
@@ -54,6 +55,7 @@ export default function Page() {
         <Strategy />
         <Services />
         <Cities />
+        <DeepGuide slug="seo-for-hvac" />
         <Pricing />
         <Faq />
         <Pmq />

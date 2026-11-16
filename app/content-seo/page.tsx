@@ -25,12 +25,12 @@ import Related from '@/components/pages/content-seo/Related';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Content SEO Services | RankEmpire" },
-  description: "Content SEO that builds topical authority: content strategy, SEO writing, topic clusters, content refreshes and editorial calendars.",
+  title: { absolute: "Content SEO Services & SEO Content Writing | RankEmpire" },
+  description: "Content SEO services and SEO content writing that build topical authority: content strategy, topic clusters, content refreshes and editorial calendars.",
   alternates: { canonical: "https://www.rankempire.us/content-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Content SEO Services | RankEmpire", description: "Content SEO that builds topical authority: content strategy, SEO writing, topic clusters, content refreshes and editorial calendars.", url: "https://www.rankempire.us/content-seo/", images: ["https://www.rankempire.us/img/s-content.webp"] },
-  twitter: { card: 'summary_large_image', title: "Content SEO Services | RankEmpire", description: "Content SEO that builds topical authority: content strategy, SEO writing, topic clusters, content refreshes and editorial calendars." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Content SEO Services & SEO Content Writing | RankEmpire", description: "Content SEO services and SEO content writing that build topical authority: content strategy, topic clusters, content refreshes and editorial calendars.", url: "https://www.rankempire.us/content-seo/", images: ["https://www.rankempire.us/img/s-content.webp"] },
+  twitter: { card: 'summary_large_image', title: "Content SEO Services & SEO Content Writing | RankEmpire", description: "Content SEO services and SEO content writing that build topical authority: content strategy, topic clusters, content refreshes and editorial calendars." },
 };
 
 export default function Page() {

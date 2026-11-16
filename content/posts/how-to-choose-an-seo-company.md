@@ -92,6 +92,9 @@ A local agency knows your city's neighborhoods and competition, and some busines
 
 If you have an in-house marketer or developer, you may not need a full-service agency. [SEO consulting](/seo-consulting/) gives your team the strategy, audits and reviews while they do the work, usually at a lower monthly cost. It works best when someone internal has the time and the access to ship changes.
 
+
+New to hiring SEO help? Start with [what an SEO company does](/blog/what-does-an-seo-company-do/), then use the questions above to compare agencies.
+
 ## FAQ
 
 ### How do I know if an SEO company is legitimate?

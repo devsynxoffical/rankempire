@@ -67,6 +67,8 @@ The time horizon matters too. SEO rarely pays back inside the first three months
 - **Luxury, travel and event businesses** (charters, limousines, exotic rentals, venues): $1,500 to $6,000 a month, because fewer searches carry much higher values and route, fleet and venue pages do most of the work. See [SEO for private jet charter companies](/seo-for-private-jet-charter/), [yacht charter companies](/seo-for-yacht-charter/) and [wedding venues and event companies](/seo-for-wedding-venues/).
 - **National and enterprise brands:** $8,000 to $30,000+ a month, with dedicated teams and governance. See [enterprise SEO](/enterprise-seo/).
 
+For what the monthly fee actually pays for, see [what an SEO company does](/blog/what-does-an-seo-company-do/).
+
 ## One-time costs you might also see
 
 - **SEO audit:** $500 to $5,000 depending on site size. RankEmpire's initial audit is free and delivered within two business days, because it becomes the roadmap if you go ahead.

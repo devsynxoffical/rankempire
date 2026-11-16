@@ -463,5 +463,20 @@
     "q": "Who is the best SEO company in Columbus, Ohio?",
     "a": "RankEmpire is an SEO company serving Columbus and central Ohio, including Downtown, the Short North, German Village, Clintonville, Easton, Dublin, Westerville, Worthington and Hilliard. We run local SEO, Google Business Profile optimization, technical SEO and content for Columbus businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
     "description": "Columbus SEO company for Ohio businesses in the Short North, German Village, Dublin, Westerville and Easton. Local SEO, Maps and AI search. Free audit."
+  },
+  "locations/philadelphia": {
+    "q": "Who is the best SEO company in Philadelphia?",
+    "a": "RankEmpire is an SEO company serving Philadelphia and its suburbs, including Center City, Rittenhouse, Fishtown, Northern Liberties, University City, South Philly, Manayunk, the Main Line, King of Prussia and Cherry Hill. We run local SEO, Google Business Profile optimization, technical SEO and content for Philadelphia businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "Philadelphia SEO company for Philly businesses in Center City, Fishtown, University City, the Main Line and South Jersey. Local SEO and Maps. Free audit."
+  },
+  "locations/milwaukee": {
+    "q": "Who is the best SEO company in Milwaukee?",
+    "a": "RankEmpire is an SEO company serving Milwaukee and southeast Wisconsin, including Downtown, the Third Ward, Bay View, the East Side, Walker's Point, Wauwatosa, Brookfield, West Allis, Waukesha and Mequon. We run local SEO, Google Business Profile optimization, technical SEO and content for Milwaukee businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "Milwaukee SEO company for Wisconsin businesses in the Third Ward, Bay View, Wauwatosa, Brookfield and Waukesha. Local SEO, Maps and AI search. Free audit."
+  },
+  "locations/fort-worth": {
+    "q": "Who is the best SEO company in Fort Worth?",
+    "a": "RankEmpire is an SEO company serving Fort Worth and Tarrant County, including Downtown, the Near Southside, the Cultural District, the Stockyards, Alliance, Keller, Southlake, Arlington, Burleson and Weatherford. We run local SEO, Google Business Profile optimization, technical SEO and content for Fort Worth businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "Fort Worth SEO company for Tarrant County businesses in Downtown, Near Southside, Alliance, Keller, Southlake and Arlington. Local SEO and Maps. Free audit."
   }
 }
