@@ -104,8 +104,8 @@
   "date": "2026-11-11"
  },
  "local-seo": {
-  "hash": "1155cf7b714a",
-  "date": "2026-11-11"
+  "hash": "68cede264f9a",
+  "date": "2026-11-16"
  },
  "locations/atlanta": {
   "hash": "975d44267810",
@@ -208,8 +208,8 @@
   "date": "2026-11-14"
  },
  "seo-company": {
-  "hash": "28209830fcc3",
-  "date": "2026-11-13"
+  "hash": "3a5e80d3d715",
+  "date": "2026-11-16"
  },
  "seo-consulting": {
   "hash": "675c2fc4163c",
@@ -553,6 +553,14 @@
  },
  "locations/fort-worth": {
   "hash": "041dc7e0e9a1",
+  "date": "2026-11-16"
+ },
+ "blog/who-is-the-best-local-seo-company": {
+  "hash": "68567fedebf6",
+  "date": "2026-11-16"
+ },
+ "blog/best-seo-company-in-the-usa": {
+  "hash": "68567fedebf6",
   "date": "2026-11-16"
  }
 }
