@@ -13,6 +13,11 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-17 (scheduled session)
+
+Data: Search Console added 15 Nov: 3,214 impressions, 0 clicks, daily average position 80.9 (new best; 81.0 on 14 Nov). Last 28 days 43,673 impressions, 2 clicks, 4,087 queries. Striking distance unchanged: /locations/chicago/ "best seo company near me" 15 impressions at 10.7, /industries/ "search optimization companies" at 11.6. Bing: InIndex 5 (was 4), 0 crawl issues, 0 impressions, quota 85.
+No new changes: the full SEO/AEO/GEO session earlier today covered the actionable items; the 16-17 Nov changes are not in Search Console data yet.
+
 ## 2026-11-17 (SEO, AEO and GEO session)
 
 Baseline: Search Console data ends 14 Nov. Last 28 days 40,464 impressions, 2 clicks (CTR 0.005%), 3,999 queries; daily average position 85.0 (10 Nov) to 81.0 (14 Nov). Index: /seo-for-tutors/, /locations/philadelphia/ and /locations/milwaukee/ indexed (crawled 16 Nov); still not indexed: /locations/washington-dc/, /locations/columbus/, /blog/what-does-an-seo-company-do/, /blog/best-seo-company-in-the-usa/ (discovered), /locations/fort-worth/, /blog/who-is-the-best-local-seo-company/ (unknown, 1 day old). Bing: InIndex 4, 0 impressions.
