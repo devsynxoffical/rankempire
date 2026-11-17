@@ -1,7 +1,7 @@
 // Generated from content/posts/who-is-the-best-local-seo-company.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
 
-export const WORDS = 1047;
+export const WORDS = 1068;
 export const FAQ = [{"q":"Who is the best local SEO company?","a":"No company is the best for every business. The best local SEO company for you is one that can show Search Console and Google Business Profile results for similar businesses, measures map visibility with rank grids, gives you a written plan and publishes fair pricing without long contracts."},{"q":"Who is Google's best local SEO company?","a":"Google does not recommend or certify SEO companies. The Google Partners badge applies to Google Ads, not to SEO. Any agency claiming to be Google's preferred SEO company is misleading you."},{"q":"Who is the best local SEO company in the nation?","a":"There is no independent national ranking based on client results. Directories and \"best of\" lists combine reviews, self-reported data and sometimes paid placement. Use them to build a shortlist, then judge each company on proof, people, plan, price and ownership."},{"q":"How do I find the best local SEO company near me?","a":"Shortlist three to five companies from directories, referrals and your own searches, ask each for results from businesses like yours, a 90-day plan and pricing, and compare them side by side using the table above."},{"q":"What type of company needs SEO the most?","a":"Businesses whose customers search before they buy and choose a provider nearby: home services, medical and dental practices, law firms, restaurants, salons and other local services. For them, appearing in the map pack directly drives calls and bookings."}];
 
 export default function Body() {
@@ -16,6 +16,7 @@ export default function Body() {
           <a href="#who-is-the-best-local-seo-company-near-me">{"Who is the best local SEO company near me?"}</a>
           <a href="#which-types-of-businesses-need-local-seo-most">{"Which types of businesses need local SEO most?"}</a>
           <a href="#how-much-a-good-local-seo-company-costs">{"How much a good local SEO company costs"}</a>
+          <a href="#sources">{"Sources"}</a>
           <a href="#faq">{"FAQ"}</a>
           <div className="tc">
             <strong>Need help?</strong>
@@ -47,6 +48,8 @@ export default function Body() {
           <p>{"National online businesses benefit more from content and technical SEO than from the map pack; for those, see "}<a href="/national-seo/">{"national SEO"}</a>{"."}</p>
           <h2 id="how-much-a-good-local-seo-company-costs">{"How much a good local SEO company costs"}</h2>
           <p>{"Most single-location businesses pay roughly $500 to $2,500 a month for ongoing local SEO, with competitive metros and multi-location businesses at the higher end. RankEmpire publishes its prices: local plans start at $599 a month, with no long contracts. See "}<a href="/blog/how-much-does-seo-cost/">{"how much SEO costs"}</a>{" and our "}<a href="/seo-packages/local-seo/">{"local SEO packages"}</a>{"."}</p>
+          <h2 id="sources">{"Sources"}</h2>
+          <ul><li>{"Google Search Central: "}<a href="https://developers.google.com/search/docs/fundamentals/do-i-need-seo">{"Do you need an SEO?"}</a></li><li>{"Google Business Profile Help: "}<a href="https://support.google.com/business/answer/7091?hl=en">{"Tips to improve your local ranking on Google"}</a></li></ul>
           <h2 id="faq">{"FAQ"}</h2>
           <h3>{"Who is the best local SEO company?"}</h3>
           <p>{"No company is the best for every business. The best local SEO company for you is one that can show Search Console and Google Business Profile results for similar businesses, measures map visibility with rank grids, gives you a written plan and publishes fair pricing without long contracts."}</p>

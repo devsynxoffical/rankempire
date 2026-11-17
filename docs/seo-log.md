@@ -13,6 +13,22 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-17 (SEO, AEO and GEO session)
+
+Baseline: Search Console data ends 14 Nov. Last 28 days 40,464 impressions, 2 clicks (CTR 0.005%), 3,999 queries; daily average position 85.0 (10 Nov) to 81.0 (14 Nov). Index: /seo-for-tutors/, /locations/philadelphia/ and /locations/milwaukee/ indexed (crawled 16 Nov); still not indexed: /locations/washington-dc/, /locations/columbus/, /blog/what-does-an-seo-company-do/, /blog/best-seo-company-in-the-usa/ (discovered), /locations/fort-worth/, /blog/who-is-the-best-local-seo-company/ (unknown, 1 day old). Bing: InIndex 4, 0 impressions.
+
+Root cause of weak rankings (evidence): the backlink profile has no real authority. Semrush: 743 backlinks from 236 domains; 461 are sitewide links from contractorleads.us (owner's site, one anchor); 232 of the other 235 domains are casino sites, "fiverr seo" sites and .xyz/.shop/.site/.online link farms with anchors such as "professional niche edit links for rankempire" (103) and "high quality dofollow backlinks da 50 pa" (87); all 282 non-sister links come from pages with Semrush Authority Score 0. Ahrefs DR 7. Competitors: Thrive DR 80, Victorious DR 78 (6.4K referring domains), M16 DR 44 (1.7K).
+Other findings: "seo company" (1,661 impressions) is served by city pages, not /seo-company/ (Phoenix position 70; Austin 22, Dallas 24, Houston 28 for local searchers); city pages sit at positions 25-30 for "seo agency near me"; no harmful cannibalization (generic queries split by searcher location).
+
+- docs/disavow-rankempire.txt: 232 spam domains, for the owner to upload in Search Console (not uploaded).
+- GEO/AEO: Quick answer blocks on 99 pages now show "Updated [date]" and "Reviewed by Gaurav Kapoor"; their WebPage schema adds dateModified, author, reviewedBy, publisher, isPartOf and inLanguage.
+- GEO: new /llms-full.txt (every page's direct answer and guide plus all blog posts as plain text, about 400 KB); /llms.txt now links to it and shows live counts (29 locations; it said 17).
+- AEO vs GEO post: corrected a factual error (blocking Google-Extended does not remove a site from AI Overviews); new section "What Google says about AEO and GEO" with Google sources.
+- Sources sections with Google documentation links added to 7 posts.
+- New city pages: /locations/kansas-city/ ("seo agency kansas city" 590, KD8) and /locations/sacramento/ ("seo company sacramento" 480, KD16; "sacramento seo companies" 110, KD13).
+- Checks: build, tsc, schema (0 errors), no broken links, no duplicate titles or descriptions, mobile.
+- Not built: New Jersey page (only one 150-volume keyword from the owner's Ahrefs screenshot; Semrush shows little demand).
+
 ## 2026-11-16 (scheduled session + best SEO company posts)
 
 Data: Search Console added 14 Nov: 3,031 impressions, position 81.0 (best daily average so far); last 28 days 40,464 impressions, 2 clicks, 3,999 queries. Bing: InIndex 4, 0 crawl issues, 0 impressions; 44 submissions left today.
@@ -158,7 +174,7 @@ Data (Search Console, latest day 9 Nov): 3,398 impressions and 1 click on 9 Nov;
 
 ## Backlog (highest impact first)
 
-1. **Off-site authority** (needs owner accounts): Clutch, DesignRush, GoodFirms, UpCity, BrightLocal agency directory, Bing Places, Apple Business Connect, Google Business Profile for RankEmpire; expert quote platforms (Qwoted, Featured.com); list the free tools on Product Hunt, AlternativeTo and SaaSHub.
+1. **Off-site authority** (needs owner accounts; the current profile is almost entirely spam, see 17 Nov, and docs/disavow-rankempire.txt is ready to upload): Clutch, DesignRush, GoodFirms, UpCity, BrightLocal agency directory, Bing Places, Apple Business Connect, Google Business Profile for RankEmpire; expert quote platforms (Qwoted, Featured.com); list the free tools on Product Hunt, AlternativeTo and SaaSHub.
 2. **GA4 key events:** owner to mark generate_lead, whatsapp_click and book_call_click as key events in GA4 Admin (needs owner access).
 3. **"Near me" queries** (seo agency near me, best position 14; seo services near me; seo firms near me): strengthen city pages and the /seo-company/ guide as data comes in.
 4. **Guides:** all service, city, industry and tool pages have one as of 16 Nov; next is refreshing guides on pages whose impressions stall.

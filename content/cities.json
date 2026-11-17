@@ -92,10 +92,10 @@
   "name": "San Francisco",
   "state": "CA",
   "nearby": [
+   "sacramento",
    "los-angeles",
    "seattle",
-   "san-diego",
-   "denver"
+   "san-diego"
   ]
  },
  {
@@ -136,9 +136,9 @@
   "name": "Denver",
   "state": "CO",
   "nearby": [
+   "kansas-city",
    "phoenix",
    "dallas",
-   "seattle",
    "chicago"
   ]
  },
@@ -294,6 +294,28 @@
    "austin",
    "houston",
    "denver"
+  ]
+ },
+ {
+  "slug": "kansas-city",
+  "name": "Kansas City",
+  "state": "MO",
+  "nearby": [
+   "columbus",
+   "denver",
+   "dallas",
+   "chicago"
+  ]
+ },
+ {
+  "slug": "sacramento",
+  "name": "Sacramento",
+  "state": "CA",
+  "nearby": [
+   "san-francisco",
+   "los-angeles",
+   "seattle",
+   "las-vegas"
   ]
  }
 ]

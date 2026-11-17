@@ -55,6 +55,11 @@ For a fuller explanation of the roles, read [what an SEO company does](/blog/wha
 
 Most small businesses pay about $500 to $2,500 a month; multi-location, ecommerce and national programs usually cost more. See [how much SEO costs](/blog/how-much-does-seo-cost/) for a full breakdown and our [SEO packages](/seo-packages/) for RankEmpire's published prices, starting at $599 a month.
 
+
+## Sources
+
+- Google Search Central: [Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo)
+
 ## FAQ
 
 ### Who is the best SEO company in the USA?

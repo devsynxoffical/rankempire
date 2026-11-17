@@ -93,6 +93,11 @@ Running a trade business? Our [SEO for contractors guide](/blog/seo-for-contract
 
 Need keyword ideas for your trade? Our [SEO keywords by industry](/blog/seo-keywords-by-industry/) guide lists service, urgent, cost, local and question keywords for 15 industries.
 
+
+## Sources
+
+- Google Business Profile Help: [Tips to improve your local ranking on Google](https://support.google.com/business/answer/7091?hl=en)
+
 ## FAQ
 
 ### What matters most for ranking in the Google map pack?

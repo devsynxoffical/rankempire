@@ -1,7 +1,7 @@
 // Generated from content/posts/best-seo-company-in-the-usa.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
 
-export const WORDS = 928;
+export const WORDS = 937;
 export const FAQ = [{"q":"Who is the best SEO company in the USA?","a":"There is no independent ranking of SEO companies by client results, and Google does not endorse any agency. The best SEO company for you is one with proven results for businesses like yours, a clear plan, a named strategist, published pricing and no ranking guarantees."},{"q":"What is the best SEO company for a small business?","a":"Usually a specialist in local or small-business SEO that publishes its prices, works month to month after onboarding and focuses on the Google Business Profile, service pages and reviews. Large enterprise agencies are rarely the best value for small budgets."},{"q":"How do I find the best SEO company?","a":"Shortlist three to five companies that work in your industry, ask each for Search Console results from similar clients, a 90-day plan and pricing, and compare them side by side. Avoid any company that guarantees rankings."},{"q":"Are \"best SEO company\" rankings reliable?","a":"Use them as a starting point only. Some are based on verified reviews, some include paid placements, and some are published by agencies ranking themselves first. Check the methodology and then judge each company on its own evidence."},{"q":"Does Google recommend SEO companies?","a":"No. Google publishes guidance on what to expect from an SEO and what to avoid, but it does not recommend, certify or partner with SEO agencies. Google Partners applies to Google Ads only."}];
 
 export default function Body() {
@@ -16,6 +16,7 @@ export default function Body() {
           <a href="#big-agency-specialist-or-consultant">{"Big agency, specialist or consultant?"}</a>
           <a href="#how-to-find-the-best-seo-company-for-you">{"How to find the best SEO company for you"}</a>
           <a href="#what-seo-in-the-usa-costs">{"What SEO in the USA costs"}</a>
+          <a href="#sources">{"Sources"}</a>
           <a href="#faq">{"FAQ"}</a>
           <div className="tc">
             <strong>Need help?</strong>
@@ -48,6 +49,8 @@ export default function Body() {
           <ol><li><strong>{"Write down your goal."}</strong>{" More calls in one city, online sales, demo requests or national visibility."}</li><li><strong>{"Shortlist three to five companies"}</strong>{" that work with businesses like yours, from referrals, directories and search."}</li><li><strong>{"Ask the same questions to each."}</strong>{" Use the twelve questions in our guide on "}<a href="/blog/how-to-choose-an-seo-company/">{"how to choose an SEO company"}</a>{"."}</li><li><strong>{"Compare proposals side by side:"}</strong>{" proof, people, plan, price and ownership."}</li><li><strong>{"Start with an audit."}</strong>{" A good company will show you what is holding your site back before asking for a long commitment. Ours is free: request an "}<a href="/seo-audit/">{"SEO audit"}</a>{"."}</li></ol>
           <h2 id="what-seo-in-the-usa-costs">{"What SEO in the USA costs"}</h2>
           <p>{"Most small businesses pay about $500 to $2,500 a month; multi-location, ecommerce and national programs usually cost more. See "}<a href="/blog/how-much-does-seo-cost/">{"how much SEO costs"}</a>{" for a full breakdown and our "}<a href="/seo-packages/">{"SEO packages"}</a>{" for RankEmpire's published prices, starting at $599 a month."}</p>
+          <h2 id="sources">{"Sources"}</h2>
+          <ul><li>{"Google Search Central: "}<a href="https://developers.google.com/search/docs/fundamentals/do-i-need-seo">{"Do you need an SEO?"}</a></li></ul>
           <h2 id="faq">{"FAQ"}</h2>
           <h3>{"Who is the best SEO company in the USA?"}</h3>
           <p>{"There is no independent ranking of SEO companies by client results, and Google does not endorse any agency. The best SEO company for you is one with proven results for businesses like yours, a clear plan, a named strategist, published pricing and no ranking guarantees."}</p>

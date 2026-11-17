@@ -1208,5 +1208,247 @@
     }
    ]
   }
+ },
+ "kansas-city": {
+  "name": "Kansas City",
+  "state": "MO",
+  "stateName": "Missouri",
+  "eyebrow": "Kansas City, MO & KS",
+  "region": "Missouri and Kansas",
+  "nearby": [
+   "columbus",
+   "denver",
+   "dallas",
+   "chicago"
+  ],
+  "colors": [
+   "#e31837",
+   "#004687"
+  ],
+  "chips": [
+   "Crossroads",
+   "Westport",
+   "Country Club Plaza",
+   "Overland Park",
+   "Lee's Summit"
+  ],
+  "areas": [
+   "Downtown Kansas City",
+   "Crossroads",
+   "Westport",
+   "Country Club Plaza",
+   "River Market",
+   "Overland Park",
+   "Olathe",
+   "Lee's Summit",
+   "Independence",
+   "Kansas City, KS"
+  ],
+  "hub": "Missouri & Kansas · Crossroads, Overland Park, Lee's Summit",
+  "title": "Kansas City SEO Agency & SEO Company | RankEmpire",
+  "description": "Kansas City SEO agency for businesses on both sides of State Line: Crossroads, Westport, Overland Park, Olathe and Lee's Summit. Local SEO and Maps. Free audit.",
+  "lead": "Kansas City SEO services for businesses in Missouri and Kansas that want more calls, bookings and sales from Google.",
+  "statement": "Kansas City is one metro split by a state line. Customers in Overland Park and Olathe live in Kansas, while the Crossroads, Westport and Lee's Summit are in Missouri, and licensing, taxes and map results change at State Line Road. Johnson County's suburbs are some of the region's busiest markets, and spring storms bring predictable demand for roofers and restoration companies. Winning Kansas City search means being visible on the side of the line you serve.",
+  "considerations": [
+   [
+    "Two states, one metro",
+    "Missouri and Kansas have different licensing and tax rules, and customers often filter by them. We build service area content for the side of State Line you serve, list licenses where they matter and track rankings separately in Missouri and in Johnson County."
+   ],
+   [
+    "Johnson County suburbs",
+    "Overland Park, Olathe, Lenexa and Shawnee are busy, competitive suburban markets. Dedicated service area pages with real projects and reviews from local customers help businesses there rank without competing with the whole metro."
+   ],
+   [
+    "Storm season",
+    "Spring hail and severe storms drive searches for roof inspections, storm damage repair, gutters and restoration. Publishing storm content before the season gives those pages time to rank before homeowners start searching."
+   ]
+  ],
+  "keywords": [
+   "kansas city seo",
+   "seo agency kansas city",
+   "kansas city seo company",
+   "seo company kansas city mo",
+   "overland park seo",
+   "local seo kansas city"
+  ],
+  "industries": [
+   "/seo-for-roofing/",
+   "/seo-for-restaurants/",
+   "/seo-for-hvac/",
+   "/seo-for-personal-injury-lawyers/"
+  ],
+  "faq": [
+   [
+    "Should my Kansas City business target both Missouri and Kansas?",
+    "Only where you work and are licensed. Customers in Overland Park see different map results from customers in Lee's Summit. If you serve both states, we build separate service area content and track each side with its own rank grid."
+   ],
+   [
+    "Can a business rank in Overland Park and Olathe?",
+    "Yes, with service area pages that show real work there, reviews from local customers and an accurate Google Business Profile service area. Johnson County suburbs are competitive, so local proof matters more than citywide keywords."
+   ],
+   [
+    "Does storm season affect local SEO in Kansas City?",
+    "For roofing, restoration, gutters and tree service, yes. Searches rise sharply after hail and severe storms. Content published before spring has time to rank when demand peaks."
+   ],
+   [
+    "How long does SEO take in Kansas City?",
+    "Suburban and long-tail searches often move within 60 to 90 days. Competitive Kansas City terms usually take four to six months."
+   ],
+   [
+    "How much does local SEO cost in Kansas City?",
+    "Local plans start at $599 per month. We recommend a plan after reviewing your competition in a free audit."
+   ]
+  ],
+  "qa": [
+   "Who is the best SEO agency in Kansas City?",
+   "RankEmpire is an SEO agency serving Kansas City in Missouri and Kansas, including Downtown, the Crossroads, Westport, the Country Club Plaza, the River Market, Overland Park, Olathe, Lee's Summit, Independence and Kansas City, Kansas. We run local SEO, Google Business Profile optimization, technical SEO and content for Kansas City businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console."
+  ],
+  "guide": {
+   "title": "Kansas City SEO agency: how we rank businesses on both sides of State Line",
+   "intro": "Kansas City combines two states, busy Johnson County suburbs and strong seasonal demand. This is how RankEmpire approaches SEO for Kansas City businesses, what a Kansas City SEO agency should deliver in the first 90 days, and how to choose one.",
+   "sections": [
+    {
+     "h": "Map the metro by state",
+     "p": "We start by defining where you work: the Missouri side, Johnson County and the Kansas suburbs, or both. A rank grid shows where you appear in the map pack today, and the plan follows the areas that bring revenue."
+    },
+    {
+     "h": "Google Business Profile and reviews",
+     "p": "For local categories the [Google Business Profile](/google-business-profile-seo/) wins most calls. We fix categories, services, hours and photos, post weekly, and build a review flow that asks customers to mention the service and the part of town they are in."
+    },
+    {
+     "h": "Seasonal and storm content",
+     "p": "Spring storms, summer heat and winter cold all change what Kansas City customers search for. We plan roofing, HVAC and seasonal content two to three months ahead so it is indexed before demand peaks."
+    },
+    {
+     "h": "How to choose the best SEO company in Kansas City",
+     "p": "Ask for results from Google Search Console, published pricing, the name of the strategist who will run your account and a written 90-day plan. Avoid long contracts and guaranteed rankings. Our guide on [who is the best local SEO company](/blog/who-is-the-best-local-seo-company/) explains what to check."
+    },
+    {
+     "h": "What results to expect in Kansas City",
+     "p": "Suburban and long-tail searches often move within 60 to 90 days. Competitive Kansas City terms take four to six months. Impressions in Search Console rise first, then positions, then calls and leads. Plans start at $599 a month, as listed on our [local SEO packages](/seo-packages/local-seo/) page."
+    }
+   ]
+  }
+ },
+ "sacramento": {
+  "name": "Sacramento",
+  "state": "CA",
+  "stateName": "California",
+  "eyebrow": "Sacramento, CA",
+  "region": "California",
+  "nearby": [
+   "san-francisco",
+   "los-angeles",
+   "seattle",
+   "las-vegas"
+  ],
+  "colors": [
+   "#5a2d81",
+   "#e8a33d"
+  ],
+  "chips": [
+   "Midtown",
+   "East Sacramento",
+   "Roseville",
+   "Elk Grove",
+   "Folsom"
+  ],
+  "areas": [
+   "Downtown Sacramento",
+   "Midtown",
+   "East Sacramento",
+   "Land Park",
+   "Natomas",
+   "Roseville",
+   "Elk Grove",
+   "Folsom",
+   "Rocklin",
+   "Davis"
+  ],
+  "hub": "California · Midtown, Roseville, Elk Grove",
+  "title": "Sacramento SEO Company & SEO Agency, CA | RankEmpire",
+  "description": "Sacramento SEO company for businesses in Midtown, East Sacramento, Natomas, Roseville, Elk Grove and Folsom. Local SEO, Maps and AI search. Free audit.",
+  "lead": "Sacramento SEO services for businesses across the capital region that want more calls, bookings and clients from Google.",
+  "statement": "Sacramento is California's capital and one of its fastest-growing regions. Government, associations and professional services cluster downtown, while new households keep arriving in suburbs like Roseville, Elk Grove, Folsom and Natomas, many of them moving from the Bay Area. Long, hot summers shape demand for cooling, pools and solar. Winning Sacramento search means reaching new residents early and showing up in the suburbs where much of the region's growth is happening.",
+  "considerations": [
+   [
+    "Fast-growing suburbs",
+    "Roseville, Elk Grove, Folsom, Rocklin and Natomas keep adding households who search for every service from scratch. Competition there is often thinner than in the urban core, so service area pages and local reviews can rank quickly."
+   ],
+   [
+    "The capital economy",
+    "Government agencies, associations, law firms and consultancies sell to organizations and professionals who research carefully. These businesses need practice area or capability pages, credentials and content that answers specific questions, not only map visibility."
+   ],
+   [
+    "Long, hot summers",
+    "Sacramento summers drive steady searches for AC repair, HVAC replacement, pool service and solar. Seasonal pages published in spring are indexed and ranking when the heat arrives."
+   ]
+  ],
+  "keywords": [
+   "sacramento seo",
+   "seo company sacramento",
+   "sacramento seo companies",
+   "sacramento seo agency",
+   "roseville seo",
+   "local seo sacramento"
+  ],
+  "industries": [
+   "/seo-for-hvac/",
+   "/seo-for-pool-service-companies/",
+   "/seo-for-lawyers/",
+   "/seo-for-real-estate/"
+  ],
+  "faq": [
+   [
+    "Should my Sacramento business target Roseville, Elk Grove and Folsom?",
+    "If you serve them, yes. Each suburb has its own map results and competitors. We build service area content for the places you work and track each with its own rank grid."
+   ],
+   [
+    "Can SEO help Sacramento associations, consultancies and law firms?",
+    "Yes. Practice area and capability pages, credentials, case results and content that answers specific questions help organizations and professionals find and shortlist you."
+   ],
+   [
+    "Does summer heat affect local SEO in Sacramento?",
+    "For HVAC, pool, solar and roofing companies, yes. Searches rise as temperatures climb. Publishing seasonal content in spring gives it time to rank before demand peaks."
+   ],
+   [
+    "How long does SEO take in Sacramento?",
+    "Suburban and long-tail searches often move within 60 to 90 days. Competitive Sacramento terms usually take four to six months."
+   ],
+   [
+    "How much does local SEO cost in Sacramento?",
+    "Local plans start at $599 per month. We recommend a plan after reviewing your competition in a free audit."
+   ]
+  ],
+  "qa": [
+   "Who is the best SEO company in Sacramento?",
+   "RankEmpire is an SEO company serving Sacramento and the capital region, including Downtown, Midtown, East Sacramento, Land Park, Natomas, Roseville, Elk Grove, Folsom, Rocklin and Davis. We run local SEO, Google Business Profile optimization, technical SEO and content for Sacramento businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console."
+  ],
+  "guide": {
+   "title": "Sacramento SEO company: how we rank capital region businesses",
+   "intro": "Sacramento combines a government and professional services core with some of California's fastest-growing suburbs. This is how RankEmpire approaches SEO for Sacramento businesses, what a Sacramento SEO agency should deliver in the first 90 days, and how to choose one.",
+   "sections": [
+    {
+     "h": "Map the capital region",
+     "p": "We start by defining where you work: central Sacramento, the growing suburbs to the north, east and south, or all of them. A rank grid shows where you appear in the map pack today, and the plan follows the areas that bring revenue."
+    },
+    {
+     "h": "Google Business Profile and reviews",
+     "p": "For local categories the [Google Business Profile](/google-business-profile-seo/) wins most calls. We fix categories, services, hours and photos, post weekly, and build a review flow that asks customers to mention the service and the part of town they are in."
+    },
+    {
+     "h": "Seasonal and professional content",
+     "p": "Home service companies need seasonal job pages with starting prices before summer; professional firms need practice area pages and credentials. Our [local SEO](/local-seo/) program covers map rankings and our [B2B SEO](/b2b-seo/) service covers longer buying cycles."
+    },
+    {
+     "h": "How to choose the best SEO company in Sacramento",
+     "p": "Ask for results from Google Search Console, published pricing, the name of the strategist who will run your account and a written 90-day plan. Avoid long contracts and guaranteed rankings. Our guide on [who is the best local SEO company](/blog/who-is-the-best-local-seo-company/) explains what to check."
+    },
+    {
+     "h": "What results to expect in Sacramento",
+     "p": "Suburban and long-tail searches often move within 60 to 90 days. Competitive Sacramento terms take four to six months. Impressions in Search Console rise first, then positions, then calls and leads. Plans start at $599 a month, as listed on our [local SEO packages](/seo-packages/local-seo/) page."
+    }
+   ]
+  }
  }
 }

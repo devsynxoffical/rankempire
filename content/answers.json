@@ -478,5 +478,15 @@
     "q": "Who is the best SEO company in Fort Worth?",
     "a": "RankEmpire is an SEO company serving Fort Worth and Tarrant County, including Downtown, the Near Southside, the Cultural District, the Stockyards, Alliance, Keller, Southlake, Arlington, Burleson and Weatherford. We run local SEO, Google Business Profile optimization, technical SEO and content for Fort Worth businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
     "description": "Fort Worth SEO company for Tarrant County businesses in Downtown, Near Southside, Alliance, Keller, Southlake and Arlington. Local SEO and Maps. Free audit."
+  },
+  "locations/kansas-city": {
+    "q": "Who is the best SEO agency in Kansas City?",
+    "a": "RankEmpire is an SEO agency serving Kansas City in Missouri and Kansas, including Downtown, the Crossroads, Westport, the Country Club Plaza, the River Market, Overland Park, Olathe, Lee's Summit, Independence and Kansas City, Kansas. We run local SEO, Google Business Profile optimization, technical SEO and content for Kansas City businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "Kansas City SEO agency for businesses on both sides of State Line: Crossroads, Westport, Overland Park, Olathe and Lee's Summit. Local SEO and Maps. Free audit."
+  },
+  "locations/sacramento": {
+    "q": "Who is the best SEO company in Sacramento?",
+    "a": "RankEmpire is an SEO company serving Sacramento and the capital region, including Downtown, Midtown, East Sacramento, Land Park, Natomas, Roseville, Elk Grove, Folsom, Rocklin and Davis. We run local SEO, Google Business Profile optimization, technical SEO and content for Sacramento businesses, with a free audit, a 90-day roadmap, one senior strategist per account and results reported from Google Search Console.",
+    "description": "Sacramento SEO company for businesses in Midtown, East Sacramento, Natomas, Roseville, Elk Grove and Folsom. Local SEO, Maps and AI search. Free audit."
   }
 }

@@ -50,7 +50,7 @@ GEO work therefore concentrates on five things:
 - **Original, quotable information.** First-party data, benchmarks, named processes, prices and timelines. Everything we publish in our [case studies](/case-studies/) is real Search Console data for this reason: real numbers get quoted, vague claims do not.
 - **Mentions across the web.** Models weigh how often a brand appears alongside a topic in the corpus they were trained on and in the pages they retrieve. Brand mentions on relevant sites, even unlinked, raise the odds of being named. This is a shift from classic link building, where only the link counted.
 - **Freshness.** Retrieval-based engines prefer recently updated sources for anything time-sensitive. Dated, maintained pages with visible update timestamps win over stale ones.
-- **Access for AI crawlers.** GPTBot, PerplexityBot, ClaudeBot and Google-Extended all respect robots.txt. If you block them, you cannot be cited. Our robots file allows them on purpose, and we check that with the free [robots.txt checker](/seo-tools/robots-txt-checker/).
+- **Access for AI crawlers.** GPTBot, PerplexityBot and ClaudeBot respect robots.txt; if you block them, those assistants cannot read your pages. Google's AI Overviews and AI Mode use the normal Googlebot crawl, so blocking the separate Google-Extended token does not remove you from them; it only limits use of your content in Gemini models. Our robots file allows them on purpose, and we check that with the free [robots.txt checker](/seo-tools/robots-txt-checker/).
 
 ## How AI answers actually pick sources
 
@@ -69,6 +69,17 @@ What we see repeatedly:
 - Comparison and "best" queries pull from third-party sources far more than from the brands themselves. If you want to be named in "best SEO agency for dentists", you need to be on the lists other sites publish, not only on your own site.
 - Local prompts, such as "good HVAC company near Phoenix", lean heavily on Google Business Profile data, reviews and the same signals that drive the map pack. [Local SEO](/local-seo/) and [Google Business Profile optimization](/google-business-profile-seo/) are GEO for local businesses.
 - Numbers get quoted. A page with a benchmark, a price range or a timeline is cited where a page of adjectives is skipped.
+
+## What Google says about AEO and GEO
+
+Google's own documentation is useful here, because it removes a lot of myths:
+
+- **No extra technical requirements.** To appear as a link in AI Overviews or AI Mode, a page must be indexed and eligible to show a snippet in normal Search. Google says there are no additional requirements, and that appearing is still not guaranteed.
+- **AEO and GEO are SEO.** Google's guide to its generative AI features says these features are built on Search's ranking and quality systems, so the same SEO practices apply, and it advises caution with services sold under new labels.
+- **Measured in Search Console.** Traffic from AI Overviews and AI Mode is included in the Search Console Performance report under Web, and Google has started rolling out a separate generative AI performance report to some sites.
+- **Controls are the same as for snippets.** robots.txt, nosnippet and max-snippet decide what Google can show, in AI features as in normal results.
+
+For a business, that means AEO and GEO are not a separate program: clear answers, accurate business facts and strong pages that rank are what get used.
 
 ## The overlap, and why you should not run three separate programs
 
@@ -111,6 +122,14 @@ If the generative numbers lag while classic rankings are strong, the usual cause
 ## The next surface: AI agents
 
 Answers are turning into actions. Assistants increasingly compare providers, request quotes and book on a user's behalf, which adds a fourth discipline on top of SEO, AEO and GEO: making your business easy for an agent to verify and transact with. We cover it in depth in [what AI agent optimization is](/blog/ai-agent-optimization/), including a 10-step agent-readiness checklist.
+
+
+## Sources
+
+- Google Search Central: [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features)
+- Google Search Central Blog: [Top ways to ensure your content performs well in Google's AI experiences on Search](https://developers.google.com/search/blog/2025/05/succeeding-in-ai-search)
+- Google Search Central Blog: [Introducing Search generative AI performance reports in Search Console](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports)
+- Google Business Profile Help: [Tips to improve your local ranking on Google](https://support.google.com/business/answer/7091?hl=en)
 
 ## FAQ
 

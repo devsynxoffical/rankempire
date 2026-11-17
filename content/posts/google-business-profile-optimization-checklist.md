@@ -84,6 +84,11 @@ The profile's own insights show how people found you (discovery versus direct), 
 
 Most of this is a one-time setup of a few hours, then an hour a week. If you would rather hand it off, profile management is included in every RankEmpire [local SEO plan](/seo-packages/local-seo/), and a [free audit](/contact-us/) will show you which items your profile is missing today.
 
+
+## Sources
+
+- Google Business Profile Help: [Tips to improve your local ranking on Google](https://support.google.com/business/answer/7091?hl=en)
+
 ## FAQ
 
 ### How long does it take for Google Business Profile changes to affect rankings?

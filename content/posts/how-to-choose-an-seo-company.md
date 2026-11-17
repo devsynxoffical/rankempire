@@ -95,6 +95,11 @@ If you have an in-house marketer or developer, you may not need a full-service a
 
 New to hiring SEO help? Start with [what an SEO company does](/blog/what-does-an-seo-company-do/). If you are comparing "best SEO company" lists, read [who is the best SEO company in the USA](/blog/best-seo-company-in-the-usa/) and, for map rankings, [who is the best local SEO company](/blog/who-is-the-best-local-seo-company/).
 
+
+## Sources
+
+- Google Search Central: [Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo)
+
 ## FAQ
 
 ### How do I know if an SEO company is legitimate?

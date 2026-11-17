@@ -21,10 +21,10 @@ Contact: ${site.email}. Website: ${site.url}. Results: ${site.url}/case-studies/
 ## Services
 ${services.map((s) => `- [${label(s)}](${site.url}/${s}/): ${a[s]?.a ?? ''}`).join('\n')}
 
-## Industry playbooks (51)
+## Industry playbooks (${industries.length})
 ${industries.map((i) => line(i.slug, `SEO for ${i.name}`)).join('\n')}
 
-## Locations (17 US metros)
+## Locations (${cities.length} US metros)
 ${cities.map((c) => line(`locations/${c.slug}`, `SEO company in ${c.name}, ${c.state}`)).join('\n')}
 
 ## Guides
@@ -41,6 +41,7 @@ ${posts.map((p) => `- [${p.title}](${site.url}/blog/${p.slug}/): ${p.description
 ## Optional
 - [Sitemap index](${site.url}/sitemap.xml)
 - [Blog RSS](${site.url}/blog/feed.xml)
+- [Full text for AI assistants](${site.url}/llms-full.txt): every page's direct answer and guide, plus all blog posts.
 `;
   return new Response(txt, { headers: { 'Content-Type': 'text/plain; charset=utf-8', 'Cache-Control': 'public, max-age=3600' } });
 }

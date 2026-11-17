@@ -68,6 +68,11 @@ For most businesses that customers search for, yes, because organic visibility k
 
 Most small businesses pay between $500 and $2,500 a month for ongoing SEO, with one-time audits and projects priced separately. RankEmpire publishes its prices: local plans start at $599 a month, with no long contracts. See [how much SEO costs](/blog/how-much-does-seo-cost/) for a full breakdown and our [SEO packages](/seo-packages/) for what each plan includes.
 
+
+## Sources
+
+- Google Search Central: [Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo)
+
 ## FAQ
 
 ### What does an SEO company do?

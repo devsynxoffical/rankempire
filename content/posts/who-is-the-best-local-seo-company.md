@@ -50,6 +50,12 @@ National online businesses benefit more from content and technical SEO than from
 
 Most single-location businesses pay roughly $500 to $2,500 a month for ongoing local SEO, with competitive metros and multi-location businesses at the higher end. RankEmpire publishes its prices: local plans start at $599 a month, with no long contracts. See [how much SEO costs](/blog/how-much-does-seo-cost/) and our [local SEO packages](/seo-packages/local-seo/).
 
+
+## Sources
+
+- Google Search Central: [Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo)
+- Google Business Profile Help: [Tips to improve your local ranking on Google](https://support.google.com/business/answer/7091?hl=en)
+
 ## FAQ
 
 ### Who is the best local SEO company?

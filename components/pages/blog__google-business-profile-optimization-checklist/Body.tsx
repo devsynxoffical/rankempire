@@ -1,7 +1,7 @@
 // Generated from content/posts/google-business-profile-optimization-checklist.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
 
-export const WORDS = 1513;
+export const WORDS = 1526;
 export const FAQ = [{"q":"How long does it take for Google Business Profile changes to affect rankings?","a":"Category and service changes usually show within a few days to two weeks. Reviews, photos and posts compound over months. Profiles that were barely filled in often see map pack movement within the first month of a complete setup."},{"q":"Can I add keywords to my business name?","a":"No. Google's guidelines require the real-world name, and keyword-stuffed names are the most common reason for suspensions. Put the keywords in categories, services and the description instead."},{"q":"How many reviews do I need to rank in the map pack?","a":"Enough to be competitive with the businesses currently showing for your searches, and a steady flow afterward. For most single-location service businesses that is four to eight new reviews a month, every month."},{"q":"Do Google posts help ranking?","a":"Marginally on their own, but active profiles hold positions better and convert more viewers, and posts are a free place to promote offers. One post a week is the right cadence."},{"q":"Should a service area business show its address?","a":"Only if customers visit the location. If they do not, hide the address and set the service area. Showing a home address for a service business is against the guidelines and can get the profile suspended."}];
 
 export default function Body() {
@@ -20,6 +20,7 @@ export default function Body() {
           <a href="#multi-location-businesses">{"Multi-location businesses"}</a>
           <a href="#track-what-matters">{"Track what matters"}</a>
           <a href="#the-checklist-in-order">{"The checklist in order"}</a>
+          <a href="#sources">{"Sources"}</a>
           <a href="#faq">{"FAQ"}</a>
           <div className="tc">
             <strong>Need help?</strong>
@@ -57,6 +58,8 @@ export default function Body() {
           <h2 id="the-checklist-in-order">{"The checklist in order"}</h2>
           <ol><li>{"Claim, verify and clean up duplicates."}</li><li>{"Set the real name, the most specific primary category and accurate address or service area."}</li><li>{"Complete services with descriptions, products, attributes and the description."}</li><li>{"Upload 20 photos and keep adding monthly."}</li><li>{"Build the review system and reply to everything."}</li><li>{"Post weekly, pre-fill Q&A, enable messaging only if you can answer."}</li><li>{"Make name, address and phone identical everywhere, with schema on the site."}</li><li>{"Track calls, searches and grid position monthly."}</li></ol>
           <p>{"Most of this is a one-time setup of a few hours, then an hour a week. If you would rather hand it off, profile management is included in every RankEmpire "}<a href="/seo-packages/local-seo/">{"local SEO plan"}</a>{", and a "}<a href="/contact-us/">{"free audit"}</a>{" will show you which items your profile is missing today."}</p>
+          <h2 id="sources">{"Sources"}</h2>
+          <ul><li>{"Google Business Profile Help: "}<a href="https://support.google.com/business/answer/7091?hl=en">{"Tips to improve your local ranking on Google"}</a></li></ul>
           <h2 id="faq">{"FAQ"}</h2>
           <h3>{"How long does it take for Google Business Profile changes to affect rankings?"}</h3>
           <p>{"Category and service changes usually show within a few days to two weeks. Reviews, photos and posts compound over months. Profiles that were barely filled in often see map pack movement within the first month of a complete setup."}</p>

@@ -1,7 +1,7 @@
 // Generated from content/posts/what-does-an-seo-company-do.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
 
-export const WORDS = 1178;
+export const WORDS = 1187;
 export const FAQ = [{"q":"What does an SEO company do?","a":"An SEO company improves a business's visibility in search engines and AI answers. It fixes technical problems, builds and improves pages that match customer searches, optimizes the Google Business Profile, earns reviews and links, and reports results from Search Console and lead data."},{"q":"What is an SEO agency?","a":"An SEO agency is a team of specialists that handles search engine optimization for other businesses: strategy, technical SEO, content, local SEO and link building. \"SEO agency\" and \"SEO company\" usually mean the same thing."},{"q":"What are SEO services?","a":"SEO services are the tasks that improve how a website ranks in search: technical fixes, keyword and content work, on-page optimization, local SEO, link building and reporting. Agencies sell them as monthly plans or one-time projects such as audits."},{"q":"Do I need an SEO company or can I do SEO myself?","a":"You can do the basics yourself with a few hours a week and good guides. An SEO company makes sense when your market is competitive, when nobody has time to work on SEO consistently, or when technical problems need a specialist."},{"q":"How long before an SEO company shows results?","a":"Early gains on low-competition searches often appear within four to eight weeks. Competitive terms usually take four to six months. Impressions in Search Console rise first, then positions, then clicks and leads."},{"q":"What does an SEO consultant do?","a":"An SEO consultant audits a site, sets strategy and advises a business or its team on what to change. Unlike a full-service agency, a consultant often leaves most of the implementation to the client's team."}];
 
 export default function Body() {
@@ -17,6 +17,7 @@ export default function Body() {
           <a href="#do-i-need-an-seo-company">{"Do I need an SEO company?"}</a>
           <a href="#is-seo-worth-it">{"Is SEO worth it?"}</a>
           <a href="#how-much-seo-services-cost">{"How much SEO services cost"}</a>
+          <a href="#sources">{"Sources"}</a>
           <a href="#faq">{"FAQ"}</a>
           <div className="tc">
             <strong>Need help?</strong>
@@ -55,6 +56,8 @@ export default function Body() {
           <p>{"For most businesses that customers search for, yes, because organic visibility keeps producing calls without paying for each click. The return depends on three things: how many people search for your services, how much a new customer is worth, and how competitive your market is. A plumber or dentist in a mid-size city usually needs only a few extra jobs or patients a month to cover a local SEO plan. SEO is a poor fit when nobody searches for what you sell or when you need results within weeks; paid ads suit that better."}</p>
           <h2 id="how-much-seo-services-cost">{"How much SEO services cost"}</h2>
           <p>{"Most small businesses pay between $500 and $2,500 a month for ongoing SEO, with one-time audits and projects priced separately. RankEmpire publishes its prices: local plans start at $599 a month, with no long contracts. See "}<a href="/blog/how-much-does-seo-cost/">{"how much SEO costs"}</a>{" for a full breakdown and our "}<a href="/seo-packages/">{"SEO packages"}</a>{" for what each plan includes."}</p>
+          <h2 id="sources">{"Sources"}</h2>
+          <ul><li>{"Google Search Central: "}<a href="https://developers.google.com/search/docs/fundamentals/do-i-need-seo">{"Do you need an SEO?"}</a></li></ul>
           <h2 id="faq">{"FAQ"}</h2>
           <h3>{"What does an SEO company do?"}</h3>
           <p>{"An SEO company improves a business's visibility in search engines and AI answers. It fixes technical problems, builds and improves pages that match customer searches, optimizes the Google Business Profile, earns reviews and links, and reports results from Search Console and lead data."}</p>
