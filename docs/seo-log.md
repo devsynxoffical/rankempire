@@ -13,6 +13,17 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-18 (SEO, AEO and GEO session)
+
+Baseline: Search Console returns data from 26 Oct 2026 only (21 days, so the 90-day view equals the full history): 43,981 impressions, 8 clicks (page+query data shows 2; the rest are anonymized queries). Daily average position 85.0 (10 Nov) to 80.9 (15 Nov). Positions 4-20: Chicago "best seo company near me" 10.7 (15 impressions), /industries/ "search optimization companies" 11.6, Austin "seo agency near me" 13.0. Bing: InIndex 5.
+
+- New post /blog/how-to-tell-if-seo-is-working/ (Semrush: "how to tell if your seo company is working" 210, KD0; "does seo really work" 210, KD13; "why is my seo not working" 170, KD14; "how to track seo" 880, KD25). Uses RankEmpire's own Search Console numbers as an original example. Linked from the failing-campaigns post, the SEO company post and the SEO audit guide.
+- /blog/how-much-does-seo-cost/: FAQs "How much does local SEO cost?" (390, KD28) and "How much should SEO cost for a small business?" ("how much should seo cost" 260, KD26).
+- /industries/: title "SEO by Industry: Search Optimization for 51 Industries" and new description ("search optimization companies" position 11.6, "search optimization firm" 10.0).
+- Organization schema: ContactPoint telephone (the published WhatsApp number).
+- Performance: content-visibility:auto on below-the-fold sections (site.css v46). Local Lighthouse on /seo-for-hvac/: performance 80-84 before, 85-89 after; TBT 180-390 ms before, 70-140 ms after; CLS 0. Scroll, reveal and #guide anchor tests unchanged (mobile and desktop).
+- GEO gap needing the owner: the founder has no personal profiles (sameAs) in the Person schema; site email is on rankempire.com while the site is rankempire.us.
+
 ## 2026-11-17 (scheduled session)
 
 Data: Search Console added 15 Nov: 3,214 impressions, 0 clicks, daily average position 80.9 (new best; 81.0 on 14 Nov). Last 28 days 43,673 impressions, 2 clicks, 4,087 queries. Striking distance unchanged: /locations/chicago/ "best seo company near me" 15 impressions at 10.7, /industries/ "search optimization companies" at 11.6. Bing: InIndex 5 (was 4), 0 crawl issues, 0 impressions, quota 85.

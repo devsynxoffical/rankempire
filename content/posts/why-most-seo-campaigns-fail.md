@@ -42,6 +42,8 @@ SEO compounds. Months one to three are mostly fixes and foundations. Months four
 
 The verified reports on our results page show the same shape every time: impressions rise first, then positions, then clicks and leads. One education client's report runs from near zero to 42.1K clicks over six months, and the first two months of that chart are nearly flat. Judge a campaign on whether the leading indicators are moving in order, not on whether the phone rang in month two.
 
+To check where your own campaign stands, see [how to tell if your SEO is working](/blog/how-to-tell-if-seo-is-working/).
+
 ## The sequence that works
 
 Put the seven mistakes in reverse and you get the plan:

@@ -20,7 +20,7 @@ export function orgJson() {
     description: site.description,
     slogan: site.slogan,
     email: site.email,
-    contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, availableLanguage: ['en'], areaServed: 'US' },
+    contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email, telephone: site.whatsapp, availableLanguage: ['en'], areaServed: 'US' },
     founder: { '@type': 'Person', '@id': `${site.url}/our-team/#gaurav`, name: site.founder.name, url: site.founder.url },
     areaServed: [
       { '@type': 'Country', name: 'United States' },

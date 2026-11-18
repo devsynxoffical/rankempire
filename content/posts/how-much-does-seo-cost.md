@@ -109,3 +109,11 @@ Good SEO is skilled labor spread over months: technical fixes, content written b
 ### How much does an SEO audit cost?
 
 A standalone SEO audit commonly costs from about $500 for a small site to $5,000 or more for a large site with complex technical issues. RankEmpire's [SEO audit](/seo-audit/) is free and delivered within two business days.
+
+### How much does local SEO cost?
+
+Local SEO for a single-location business usually costs about $500 to $1,500 a month, depending on how competitive the city and the service are. Multi-location businesses pay more because each location needs its own profile and pages. RankEmpire's [local SEO packages](/seo-packages/local-seo/) start at $599 a month.
+
+### How much should SEO cost for a small business?
+
+Enough to pay for real work each month: technical fixes, content and earned links or local signals. For most small businesses that is $500 to $2,500 a month. Plans far below that range usually skip the work that moves rankings.

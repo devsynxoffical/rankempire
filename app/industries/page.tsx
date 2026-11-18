@@ -14,12 +14,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Industries We Serve: SEO for 51 Business Types | RankEmpire" },
-  description: "Industry-specific SEO for home services, medical, legal, automotive, hospitality, professional services, real estate and beauty businesses.",
+  title: { absolute: "SEO by Industry: Search Optimization for 51 Industries | RankEmpire" },
+  description: "Search engine optimization services by industry: SEO playbooks for 51 business types in home services, medical, legal, automotive, real estate and more.",
   alternates: { canonical: "https://www.rankempire.us/industries/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Industries We Serve: SEO for 51 Business Types | RankEmpire", description: "Industry-specific SEO for home services, medical, legal, automotive, hospitality, professional services, real estate and beauty businesses.", url: "https://www.rankempire.us/industries/", images: ["https://www.rankempire.us/img/team.webp"] },
-  twitter: { card: 'summary_large_image', title: "Industries We Serve: SEO for 51 Business Types | RankEmpire", description: "Industry-specific SEO for home services, medical, legal, automotive, hospitality, professional services, real estate and beauty businesses." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO by Industry: Search Optimization for 51 Industries | RankEmpire", description: "Search engine optimization services by industry: SEO playbooks for 51 business types in home services, medical, legal, automotive, real estate and more.", url: "https://www.rankempire.us/industries/", images: ["https://www.rankempire.us/img/team.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO by Industry: Search Optimization for 51 Industries | RankEmpire", description: "Search engine optimization services by industry: SEO playbooks for 51 business types in home services, medical, legal, automotive, real estate and more." },
 };
 
 export default function Page() {

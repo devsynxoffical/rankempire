@@ -47,7 +47,7 @@ Some practices are red flags, whatever the price:
 - **Locking you into long contracts.** A short onboarding period is reasonable; a 12-month lock-in is not.
 - **Keeping your accounts.** Your Google Business Profile, Search Console and analytics should stay in your name.
 
-Our guide on [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) lists 12 questions to ask before you sign.
+Our guide on [how to choose an SEO company](/blog/how-to-choose-an-seo-company/) lists 12 questions to ask before you sign, and [how to tell if your SEO is working](/blog/how-to-tell-if-seo-is-working/) shows how to judge the results once you have.
 
 ## Do I need an SEO company?
 
