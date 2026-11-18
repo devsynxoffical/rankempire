@@ -296,16 +296,16 @@
   "date": "2026-11-16"
  },
  "seo-for-insurance": {
-  "hash": "9a5f8c11f326",
-  "date": "2026-11-16"
+  "hash": "4108d5e90a09",
+  "date": "2026-11-18"
  },
  "seo-for-landscaping": {
   "hash": "0e8f2a6cd9aa",
   "date": "2026-11-14"
  },
  "seo-for-lawyers": {
-  "hash": "f8f21ed4e83d",
-  "date": "2026-11-14"
+  "hash": "d3a7422fd517",
+  "date": "2026-11-18"
  },
  "seo-for-locksmiths": {
   "hash": "9560ed3a0ec8",
@@ -328,8 +328,8 @@
   "date": ""
  },
  "seo-for-personal-injury-lawyers": {
-  "hash": "40d3b834bf50",
-  "date": ""
+  "hash": "71bf0203b6e5",
+  "date": "2026-11-18"
  },
  "seo-for-pest-control": {
   "hash": "63fc8d6aff4a",
@@ -573,6 +573,18 @@
  },
  "blog/how-to-tell-if-seo-is-working": {
   "hash": "68567fedebf6",
+  "date": "2026-11-18"
+ },
+ "seo-for-car-accident-lawyers": {
+  "hash": "f1efe7fe4da1",
+  "date": "2026-11-18"
+ },
+ "seo-for-mass-tort-lawyers": {
+  "hash": "e93521631114",
+  "date": "2026-11-18"
+ },
+ "seo-for-final-expense-insurance": {
+  "hash": "a2bc8fa80ec5",
   "date": "2026-11-18"
  }
 }
