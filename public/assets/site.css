@@ -2958,3 +2958,5 @@ body.in-fd .cur,body.in-fd .cur-r{opacity:0!important}
 .nh .tr3 .btn.nh-book:hover{background:#fff!important;color:#0b0b0b!important;border-color:#fff!important}
 /* Render below-the-fold sections lazily (content-visibility); sizes reserve space so scrolling stays stable */
 main>section.x,main>section.ytb,main>section.fxs,main>section.pmq,main>section.robo,main>section.fcom{content-visibility:auto;contain-intrinsic-size:auto 900px}
+/* Accordion descriptions on dark sections: undo the generic .tp gradient so white text stays readable */
+.ytb .tp,.pov .tp{background:none}
