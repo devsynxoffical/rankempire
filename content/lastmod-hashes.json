@@ -204,8 +204,8 @@
   "date": "2026-11-12"
  },
  "seo-audit": {
-  "hash": "5e570c986e87",
-  "date": "2026-11-14"
+  "hash": "d7dd571487eb",
+  "date": "2026-11-18"
  },
  "seo-company": {
   "hash": "3a5e80d3d715",
@@ -570,5 +570,9 @@
  "locations/sacramento": {
   "hash": "0d12a1f0d52b",
   "date": "2026-11-17"
+ },
+ "blog/how-to-tell-if-seo-is-working": {
+  "hash": "68567fedebf6",
+  "date": "2026-11-18"
  }
 }
