@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-lawyers/","label":"SEO for Lawyers"},{"href":"/locations/charlotte/","label":"SEO Company in Charlotte"},{"href":"/locations/orlando/","label":"SEO Company in Orlando"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Find and Choose the Best SEO Company"}]} />;
+  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-car-accident-lawyers/","label":"SEO for Car Accident Lawyers"},{"href":"/seo-for-mass-tort-lawyers/","label":"SEO for Mass Tort Lawyers"},{"href":"/seo-for-lawyers/","label":"SEO for Lawyers"},{"href":"/locations/charlotte/","label":"SEO Company in Charlotte"},{"href":"/locations/orlando/","label":"SEO Company in Orlando"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/how-to-choose-an-seo-company/","label":"Guide: How to Find and Choose the Best SEO Company"}]} />;
 }

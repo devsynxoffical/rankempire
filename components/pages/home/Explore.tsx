@@ -119,7 +119,7 @@ export default function Explore() {
               {"Industries"}
             </h3>
             <p>
-              {"51 industry playbooks with their own keywords, page types and trust signals."}
+              {"54 industry playbooks with their own keywords, page types and trust signals."}
             </p>
             <div className="lk">
               <a href="/seo-for-accountants/" tabIndex={-1}>

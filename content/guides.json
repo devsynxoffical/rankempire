@@ -1045,7 +1045,7 @@
       },
       {
         "h": "Content that answers legal questions",
-        "p": "Clear answers to common questions (how long a case takes, what it costs, what to do first) win featured snippets and AI citations. See [answer engine optimization](/aeo/) and our [personal injury lawyer SEO](/seo-for-personal-injury-lawyers/) playbook. Accounting and tax firms follow a similar playbook; see [accountant SEO](/seo-for-accountants/)."
+        "p": "Clear answers to common questions (how long a case takes, what it costs, what to do first) win featured snippets and AI citations. See [answer engine optimization](/aeo/) and our [personal injury lawyer SEO](/seo-for-personal-injury-lawyers/) playbook. Accounting and tax firms follow a similar playbook; see [accountant SEO](/seo-for-accountants/). Injury firms focused on specific case types can see [car accident lawyer SEO](/seo-for-car-accident-lawyers/) and [mass tort marketing](/seo-for-mass-tort-lawyers/)."
       }
     ]
   },
@@ -1067,7 +1067,7 @@
       },
       {
         "h": "Links and authority",
-        "p": "PI is won by authority. Local news coverage, community sponsorships, legal directories and safety resources earn the links that move rankings. See our [link building](/link-building/) approach and [law firm SEO](/seo-for-lawyers/) playbook."
+        "p": "PI is won by authority. Local news coverage, community sponsorships, legal directories and safety resources earn the links that move rankings. See our [link building](/link-building/) approach and [law firm SEO](/seo-for-lawyers/) playbook. Firms that focus on motor vehicle cases can see our [car accident lawyer SEO and MVA landing pages](/seo-for-car-accident-lawyers/), and firms taking product and drug cases our [mass tort marketing](/seo-for-mass-tort-lawyers/) page."
       }
     ]
   },
@@ -2373,7 +2373,7 @@
       },
       {
         "h": "Quote flow and trust",
-        "p": "A short quote request form, clear contact options and reviews that mention claims help convert visitors. Business insurance pages by industry attract higher-value commercial clients. Local SEO plans for insurance agencies start at $599 a month; see our [local SEO packages](/seo-packages/local-seo/)."
+        "p": "A short quote request form, clear contact options and reviews that mention claims help convert visitors. Business insurance pages by industry attract higher-value commercial clients. Local SEO plans for insurance agencies start at $599 a month; see our [local SEO packages](/seo-packages/local-seo/). Agents who sell final expense or burial insurance can see our [final expense insurance SEO and lead pages](/seo-for-final-expense-insurance/)."
       }
     ]
   },
@@ -2624,6 +2624,72 @@
       {
         "h": "What results to expect in Sacramento",
         "p": "Suburban and long-tail searches often move within 60 to 90 days. Competitive Sacramento terms take four to six months. Impressions in Search Console rise first, then positions, then calls and leads. Plans start at $599 a month, as listed on our [local SEO packages](/seo-packages/local-seo/) page."
+      }
+    ]
+  },
+  "seo-for-car-accident-lawyers": {
+    "title": "Car accident lawyer SEO: how MVA firms sign more cases from search",
+    "intro": "Car accident cases decide the economics of most injury firms. This is how RankEmpire approaches SEO and landing pages for MVA practices, and where firms usually lose cases they should have signed.",
+    "sections": [
+      {
+        "h": "Landers that convert on a phone",
+        "p": "Most crash searches happen on mobile. A free case review lander should load fast, show one clear offer, ask only for name, phone and a short description, offer click-to-call and show reviews and the attorney's photo. Every extra field and every slow second loses cases."
+      },
+      {
+        "h": "One page per accident type",
+        "p": "Car, truck, rideshare, motorcycle, pedestrian and uninsured motorist cases each have different insurance rules and questions. Separate pages answer those questions properly and rank for the specific searches, which a single practice-area page cannot do."
+      },
+      {
+        "h": "Track signed cases, not clicks",
+        "p": "Calls and forms are only useful if they become signed cases. We track leads by page and keyword through intake, so the firm invests in the pages that produce cases rather than traffic."
+      },
+      {
+        "h": "Compliance built in",
+        "p": "Landers and case pages follow state bar advertising rules: disclaimers on results, no guarantees and careful use of testimonials. See our broader [personal injury lawyer SEO](/seo-for-personal-injury-lawyers/) page for the full practice."
+      }
+    ]
+  },
+  "seo-for-mass-tort-lawyers": {
+    "title": "Mass tort SEO: how firms sign qualified claimants from search",
+    "intro": "Mass tort search behaves differently from local legal search: demand follows the news, claimants research the product before they look for a lawyer, and eligibility matters more than volume. This is how we approach it.",
+    "sections": [
+      {
+        "h": "Publish early, update often",
+        "p": "Search demand for a tort rises with recalls, studies and rulings. Firms that publish an accurate hub before the peak, then add dated updates, keep ranking as interest grows; pages that are not updated lose rankings and trust."
+      },
+      {
+        "h": "Screen on the lander",
+        "p": "Qualifying questions on the landing page, such as product, dates of use and diagnosis, cut the number of unqualified leads intake has to handle and make cost per signed case measurable."
+      },
+      {
+        "h": "Accuracy is the ranking factor",
+        "p": "Health and legal topics are judged strictly on accuracy and expertise. Cite court records and official sources, name the attorney who reviewed the page and avoid overstating risks."
+      },
+      {
+        "h": "Combine with paid media",
+        "p": "SEO lowers cost per case over time but does not replace paid media at the start of a tort. We plan both so landers serve paid and organic traffic. Firms that also take car accident cases can see our [car accident lawyer SEO](/seo-for-car-accident-lawyers/) page."
+      }
+    ]
+  },
+  "seo-for-final-expense-insurance": {
+    "title": "Final expense SEO: how agents get exclusive inbound leads",
+    "intro": "Final expense agents usually compete on bought leads. SEO and landing pages create a second source: people who searched, read your page and asked you for a quote. This is how we build it.",
+    "sections": [
+      {
+        "h": "Exclusive leads instead of shared ones",
+        "p": "A person who requests a quote from your page is your lead alone. Even a modest number of these often converts better than larger volumes of shared leads, because the prospect already trusts the page they read."
+      },
+      {
+        "h": "Write for seniors and their children",
+        "p": "Many searches come from adult children researching coverage for a parent. Pages should answer both audiences in plain language, with readable type, clear phone numbers and no pressure."
+      },
+      {
+        "h": "Burial insurance and final expense on one page set",
+        "p": "Searchers use both terms for the same product. One set of pages that explains both, rather than separate near-duplicate pages, ranks better and avoids confusing visitors."
+      },
+      {
+        "h": "Compliance and trust",
+        "p": "Show state licenses, carriers and the agent's real identity, follow state advertising rules and collect consent for calls. Agencies offering other policies can see our [insurance agency SEO](/seo-for-insurance/) page."
       }
     ]
   }

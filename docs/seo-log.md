@@ -13,6 +13,15 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-18 (owner request: MVA, mass tort, final expense and burial insurance pages)
+
+- New agency service pages (owner chose agency pages over consumer lead-gen landers):
+  - /seo-for-car-accident-lawyers/ "Car Accident Lawyer SEO & MVA Landing Pages": case-type pages, free case review landers, mobile intake, bar-rule compliance.
+  - /seo-for-mass-tort-lawyers/ "Mass Tort Marketing: SEO & Landing Pages": tort hubs, eligibility landers, dated lawsuit updates, cost per qualified claimant.
+  - /seo-for-final-expense-insurance/ "Final Expense & Burial Insurance SEO and Lead Pages": one page for both terms (same product), quote landers, cost and no-exam pages, state advertising and consent rules.
+- Each has unique hero, statement, challenges, 6 page types, 4-step strategy, 6 FAQs, quick answer, guide and Service/FAQ/Breadcrumb schema. Added to the industries hub (cards and ItemList), industry count 51 to 54 (hub, header, home), cross-linked from personal injury, lawyers and insurance guides.
+- Keyword volumes: not available (Semrush exports do not cover these terms; Bing shows almost no volume). Built for business relevance; no volumes claimed.
+
 ## 2026-11-18 (SEO, AEO and GEO session)
 
 Baseline: Search Console returns data from 26 Oct 2026 only (21 days, so the 90-day view equals the full history): 43,981 impressions, 8 clicks (page+query data shows 2; the rest are anonymized queries). Daily average position 85.0 (10 Nov) to 80.9 (15 Nov). Positions 4-20: Chicago "best seo company near me" 10.7 (15 impressions), /industries/ "search optimization companies" 11.6, Austin "seo agency near me" 13.0. Bing: InIndex 5.

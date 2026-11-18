@@ -253,5 +253,20 @@
   "slug": "seo-for-wedding-venues",
   "name": "Wedding Venues & Event Companies",
   "category": "luxury-travel-and-events"
+ },
+ {
+  "slug": "seo-for-car-accident-lawyers",
+  "name": "Car Accident Lawyers",
+  "category": "legal"
+ },
+ {
+  "slug": "seo-for-mass-tort-lawyers",
+  "name": "Mass Tort Lawyers",
+  "category": "legal"
+ },
+ {
+  "slug": "seo-for-final-expense-insurance",
+  "name": "Final Expense & Burial Insurance",
+  "category": "professional-services"
  }
 ]

@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-personal-injury-lawyers/","label":"SEO for Personal Injury Lawyers"},{"href":"/locations/boston/","label":"SEO Company in Boston"},{"href":"/locations/las-vegas/","label":"SEO Company in Las Vegas"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/google-business-profile-optimization-checklist/","label":"Guide: Google Business Profile Optimization Checklist"}]} />;
+  return <RelatedLinks title="Related industries, cities and guides" items={[{"href":"/seo-for-personal-injury-lawyers/","label":"SEO for Personal Injury Lawyers"},{"href":"/seo-for-car-accident-lawyers/","label":"SEO for Car Accident Lawyers"},{"href":"/seo-for-mass-tort-lawyers/","label":"SEO for Mass Tort Lawyers"},{"href":"/locations/boston/","label":"SEO Company in Boston"},{"href":"/locations/las-vegas/","label":"SEO Company in Las Vegas"},{"href":"/blog/local-seo-90-day-roadmap/","label":"Guide: Local SEO for Service Businesses"},{"href":"/blog/google-business-profile-optimization-checklist/","label":"Guide: Google Business Profile Optimization Checklist"}]} />;
 }

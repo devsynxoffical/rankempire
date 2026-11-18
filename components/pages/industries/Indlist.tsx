@@ -540,6 +540,44 @@ export default function Indlist() {
                   </svg>
                 </span>
               </a>
+              <a className="ih-c" data-k="car accident lawyers mva motor vehicle accident" href="/seo-for-car-accident-lawyers/" data-r="" style={{"--d": "0.06s"} as React.CSSProperties}>
+                <span className="ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" />
+                  </svg>
+                </span>
+                <b>
+                  {"Car Accident Lawyers"}
+                </b>
+                <small>
+                  {"car accident lawyer near me"}
+                </small>
+                <span className="go">
+                  {"SEO for car accident lawyers "}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </span>
+              </a>
+              <a className="ih-c" data-k="mass tort lawyers mass tort marketing" href="/seo-for-mass-tort-lawyers/" data-r="" style={{"--d": "0.06s"} as React.CSSProperties}>
+                <span className="ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" />
+                  </svg>
+                </span>
+                <b>
+                  {"Mass Tort Lawyers"}
+                </b>
+                <small>
+                  {"mass tort lawsuit"}
+                </small>
+                <span className="go">
+                  {"SEO for mass tort lawyers "}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </span>
+              </a>
             </div>
           </div>
         </div>
@@ -883,6 +921,26 @@ export default function Indlist() {
                 </small>
                 <span className="go">
                   {"SEO for insurance agencies "}
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                </span>
+              </a>
+              <a className="ih-c" data-k="final expense burial insurance agents" href="/seo-for-final-expense-insurance/" data-r="" style={{"--d": "0.18s"} as React.CSSProperties}>
+                <span className="ic">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                    <path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6Z" />
+                    <path d="m9 12 2 2 4-4" />
+                  </svg>
+                </span>
+                <b>
+                  {"Final Expense & Burial Insurance"}
+                </b>
+                <small>
+                  {"burial insurance for seniors"}
+                </small>
+                <span className="go">
+                  {"SEO for final expense agents "}
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                     <path d="M5 12h14M13 6l6 6-6 6" />
                   </svg>

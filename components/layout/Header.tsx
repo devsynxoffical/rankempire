@@ -242,7 +242,7 @@ export default function Header({ active = '' }: { active?: string }) {
               </div>
               <div className="dfoot">
                 <span>
-                  {"SEO strategies for 51 industries"}
+                  {"SEO strategies for 54 industries"}
                 </span>
                 <a className="tlink" href="/industries/">
                   {"All industries"}
