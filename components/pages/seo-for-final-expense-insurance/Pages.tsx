@@ -15,33 +15,33 @@ export default function Pages() {
           <div className="sr2">
             <div className="pim">
               <div className="pm on">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-tech.webp" aria-label="Car accident page">
-                  <source data-src="/img/m-tech.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-fe-1.webp" aria-label="Final expense insurance page">
+                  <source data-src="/img/mv-fe-1.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-content.webp" aria-label="Truck accident page">
-                  <source data-src="/img/m-content.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-fe-2.webp" aria-label="Quote lander">
+                  <source data-src="/img/mv-fe-2.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-local.webp" aria-label="Premises liability page">
-                  <source data-src="/img/m-local.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-fe-3.webp" aria-label="Burial insurance cost page">
+                  <source data-src="/img/mv-fe-3.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.webp" aria-label="How contingency fees work page">
-                  <source data-src="/img/m-growth.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-fe-4.webp" aria-label="No medical exam and guaranteed issue page">
+                  <source data-src="/img/mv-fe-4.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.webp" aria-label="What to do after an accident guide">
-                  <source data-src="/img/m-ai.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-fe-5.webp" aria-label="Final expense vs burial insurance guide">
+                  <source data-src="/img/mv-fe-5.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.webp" aria-label="Statute of limitations page">
-                  <source data-src="/img/m-services.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-fe-6.webp" aria-label="Coverage for parents page">
+                  <source data-src="/img/mv-fe-6.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="ix">

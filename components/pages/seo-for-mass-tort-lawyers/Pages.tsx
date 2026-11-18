@@ -15,33 +15,33 @@ export default function Pages() {
           <div className="sr2">
             <div className="pim">
               <div className="pm on">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-tech.webp" aria-label="Car accident page">
-                  <source data-src="/img/m-tech.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-tort-1.webp" aria-label="Tort hub page">
+                  <source data-src="/img/mv-tort-1.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-content.webp" aria-label="Truck accident page">
-                  <source data-src="/img/m-content.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-tort-2.webp" aria-label="Eligibility lander">
+                  <source data-src="/img/mv-tort-2.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-local.webp" aria-label="Premises liability page">
-                  <source data-src="/img/m-local.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-tort-3.webp" aria-label="Lawsuit update page">
+                  <source data-src="/img/mv-tort-3.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.webp" aria-label="How contingency fees work page">
-                  <source data-src="/img/m-growth.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-tort-4.webp" aria-label="Settlement and timeline page">
+                  <source data-src="/img/mv-tort-4.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.webp" aria-label="What to do after an accident guide">
-                  <source data-src="/img/m-ai.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-tort-5.webp" aria-label="Mass tort vs class action guide">
+                  <source data-src="/img/mv-tort-5.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.webp" aria-label="Statute of limitations page">
-                  <source data-src="/img/m-services.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-tort-6.webp" aria-label="Injury and symptom pages">
+                  <source data-src="/img/mv-tort-6.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="ix">

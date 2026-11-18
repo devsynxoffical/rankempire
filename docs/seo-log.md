@@ -24,6 +24,8 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 
 - Design fix (site-wide): the "Pages every ... website needs" accordion showed its description as white text on a white box on every industry page, because a generic .tp gradient rule also matched it. Fixed with `.ytb .tp,.pov .tp{background:none}` (site.css v47); verified on the new pages and existing ones (e.g. dentists), desktop and mobile. Full-page screenshots also confirmed the new pages' layout; blank areas in full-page captures are only content-visibility skipping off-screen paint, not visible to users.
 
+- Service-specific motion images on the three new pages (owner request): 21 new 3D clips (hero + 6 page types per page) generated with Higgsfield (GPT Image 2.6 stills, Kling 3.0 5-second silent loops) in the site's glossy 3D style, encoded to 720x894 H.264 with WebP posters (public/img/mv-car-*, mv-tort-*, mv-fe-*, about 4.2 MB total); video labels in the page-type section corrected to the new page names.
+
 ## 2026-11-18 (SEO, AEO and GEO session)
 
 Baseline: Search Console returns data from 26 Oct 2026 only (21 days, so the 90-day view equals the full history): 43,981 impressions, 8 clicks (page+query data shows 2; the rest are anonymized queries). Daily average position 85.0 (10 Nov) to 80.9 (15 Nov). Positions 4-20: Chicago "best seo company near me" 10.7 (15 impressions), /industries/ "search optimization companies" 11.6, Austin "seo agency near me" 13.0. Bing: InIndex 5.

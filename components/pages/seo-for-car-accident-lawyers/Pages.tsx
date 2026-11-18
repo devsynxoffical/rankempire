@@ -15,33 +15,33 @@ export default function Pages() {
           <div className="sr2">
             <div className="pim">
               <div className="pm on">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-tech.webp" aria-label="Car accident page">
-                  <source data-src="/img/m-tech.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-car-1.webp" aria-label="Car accident case page">
+                  <source data-src="/img/mv-car-1.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-content.webp" aria-label="Truck accident page">
-                  <source data-src="/img/m-content.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-car-2.webp" aria-label="Free case review lander">
+                  <source data-src="/img/mv-car-2.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-local.webp" aria-label="Premises liability page">
-                  <source data-src="/img/m-local.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-car-3.webp" aria-label="Truck and commercial vehicle page">
+                  <source data-src="/img/mv-car-3.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-growth.webp" aria-label="How contingency fees work page">
-                  <source data-src="/img/m-growth.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-car-4.webp" aria-label="Rideshare and motorcycle pages">
+                  <source data-src="/img/mv-car-4.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-ai.webp" aria-label="What to do after an accident guide">
-                  <source data-src="/img/m-ai.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-car-5.webp" aria-label="What to do after a car accident guide">
+                  <source data-src="/img/mv-car-5.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="pm">
-                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/m-services.webp" aria-label="Statute of limitations page">
-                  <source data-src="/img/m-services.mp4" type="video/mp4" />
+                <video className="mv3d" autoPlay muted loop playsInline preload="none" poster="/img/mv-car-6.webp" aria-label="State fault and deadline page">
+                  <source data-src="/img/mv-car-6.mp4" type="video/mp4" />
                 </video>
               </div>
               <div className="ix">
