@@ -13,6 +13,14 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-19 (12-hour run, 1:17 AM PKT)
+
+Tracking (Search Console 10-16 Nov vs 3-9 Nov): 20,239 impressions (-2%), 2 clicks, average position 81.9 (up 2.0), 84 pages with impressions, 32 keywords in the top 20. Bing InIndex 11, 0 crawl issues, quota 81.
+Movers up: "seo company" now averages 21.9 (102 impressions, best page Dallas; was about 66-70 on Phoenix); "seo experts near me" 21.3 and "search engine optimization near me" 26.4 (New York); "seo agency for painting service" 33.0 and "painting contractor seo firm" 32.7 (Painters, after the 14 Nov title); "preschool seo company" 29.8 (Daycares); "best seo company near me" 32.2 (Chicago).
+Movers down: several "rank checker online" variants on /seo-tools/keyword-rank-checker/ (to 75-90) while others rose ("seo rank check online" 30.8): Google is still testing the page after the 12 and 16 Nov changes, so no further edits now.
+Indexing: newly indexed 18 Nov: /seo-for-car-accident-lawyers/, /seo-for-mass-tort-lawyers/, /seo-for-final-expense-insurance/, /blog/how-to-tell-if-seo-is-working/. Still waiting: Columbus, Sacramento, Washington DC, Fort Worth, Kansas City and 3 posts; resubmitted to the Indexing API and Bing.
+No page edits this run (recent changes still being measured).
+
 ## 2026-11-18 (scheduled session)
 
 Data: Search Console has no new days (latest 15 Nov: 3,214 impressions, position 80.9). Bing: InIndex 11 (was 5 on 17 Nov, 1 on 11 Nov), 0 crawl errors, 0 impressions, quota 81. No new changes: today's sessions already covered the actionable items.
