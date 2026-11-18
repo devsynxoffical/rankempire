@@ -19,7 +19,8 @@
     "surfaces": "node scripts/apply-surfaces.mjs",
     "pages": "node scripts/gsc-pages.mjs",
     "guides": "node scripts/apply-guides.mjs",
-    "kwmap": "python3 scripts/keyword-map.py"
+    "kwmap": "python3 scripts/keyword-map.py",
+    "track": "node scripts/track.mjs"
   },
   "dependencies": {
     "lenis": "^1.1.13",
