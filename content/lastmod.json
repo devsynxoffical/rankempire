@@ -6,7 +6,7 @@
  "blog/how-to-choose-an-seo-company": "2026-11-17",
  "blog/ai-agent-optimization": "2026-11-02",
  "blog/google-business-profile-optimization-checklist": "2026-11-17",
- "blog/how-much-does-seo-cost": "2026-11-18",
+ "blog/how-much-does-seo-cost": "2026-11-19",
  "blog/local-seo-90-day-roadmap": "2026-11-05",
  "blog/aeo-vs-geo-vs-seo": "2026-11-17",
  "blog/local-seo-checklist": "2026-11-17",
@@ -25,7 +25,7 @@
  "international-seo": "2026-11-12",
  "keyword-research": "2026-11-12",
  "link-building": "2026-11-12",
- "local-seo": "2026-11-16",
+ "local-seo": "2026-11-19",
  "locations/atlanta": "2026-11-16",
  "locations/austin": "2026-11-16",
  "locations/boston": "2026-11-16",
@@ -99,10 +99,10 @@
  "seo-for-wedding-planners": "2026-11-17",
  "seo-for-yoga-studios": "2026-11-17",
  "seo-packages/ecommerce-seo": "2026-11-11",
- "seo-packages": "2026-11-13",
+ "seo-packages": "2026-11-19",
  "seo-packages/local-seo": "2026-11-13",
  "seo-packages/saas-seo": "2026-11-13",
- "seo-services": "2026-11-16",
+ "seo-services": "2026-11-19",
  "seo-tools/backlink-checker": "2026-11-11",
  "seo-tools": "2026-11-13",
  "seo-tools/keyword-rank-checker": "2026-11-16",
@@ -145,5 +145,6 @@
  "blog/how-to-tell-if-seo-is-working": "2026-11-18",
  "seo-for-car-accident-lawyers": "2026-11-18",
  "seo-for-mass-tort-lawyers": "2026-11-18",
- "seo-for-final-expense-insurance": "2026-11-18"
+ "seo-for-final-expense-insurance": "2026-11-18",
+ "small-business-seo": "2026-11-19"
 }
