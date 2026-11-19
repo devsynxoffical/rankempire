@@ -1,7 +1,7 @@
 // Google Indexing API: send URL_UPDATED notifications.
 // The service account must be an OWNER of the Search Console property for www.rankempire.us.
 //   GINDEX_SA=.secrets/indexer-sa.json node scripts/gindex.mjs [url ...]   # no urls = every route in content/routes.json
-// Owner limits (19 Nov 2026): no requests before PAUSE_UNTIL, then at most DAILY_CAP URLs per day (Pakistan time).
+// Owner limits (19 Nov 2026): no requests before PAUSE_UNTIL, then at most DAILY_CAP URLs in any rolling 24 hours.
 // Every sent URL is logged in docs/indexing-api-log.csv, which the cap counts. URLs must be given explicitly.
 import fs from 'node:fs';
 import crypto from 'node:crypto';
@@ -35,17 +35,18 @@ const today = new Date(Date.now() + 5 * 3600e3).toISOString().slice(0, 10); // P
 if (today < PAUSE_UNTIL) { console.log(`Indexing API paused by the owner until ${PAUSE_UNTIL} (today ${today}). Nothing sent.`); process.exit(0); }
 let urls = process.argv.slice(2);
 if (!urls.length) { console.log('Give the URLs explicitly (no bulk submissions). Nothing sent.'); process.exit(0); }
-if (!fs.existsSync(LOG)) fs.writeFileSync(LOG, 'date_pkt,url,result\n');
-const sentToday = fs.readFileSync(LOG, 'utf8').split('\n').filter((l) => l.startsWith(today + ',') && l.endsWith(',ok')).length;
-const room = Math.max(0, DAILY_CAP - sentToday);
-if (urls.length > room) { console.log(`Daily cap ${DAILY_CAP}: ${sentToday} already sent today, sending ${room} of ${urls.length}.`); urls = urls.slice(0, room); }
-if (!urls.length) { console.log('Daily cap reached. Nothing sent.'); process.exit(0); }
+if (!fs.existsSync(LOG)) fs.writeFileSync(LOG, 'sent_utc,url,result\n');
+const since = Date.now() - 24 * 3600e3;
+const sent24 = fs.readFileSync(LOG, 'utf8').split('\n').slice(1).filter((l) => l.endsWith(',ok') && Date.parse(l.split(',')[0]) > since).length;
+const room = Math.max(0, DAILY_CAP - sent24);
+if (urls.length > room) { console.log(`Cap ${DAILY_CAP} per 24 hours: ${sent24} sent in the last 24 hours, sending ${room} of ${urls.length}.`); urls = urls.slice(0, room); }
+if (!urls.length) { console.log('24-hour cap reached. Nothing sent.'); process.exit(0); }
 const t = await token();
 let ok = 0, fail = 0;
 for (const url of urls) {
   const r = await fetch('https://indexing.googleapis.com/v3/urlNotifications:publish', { method: 'POST', headers: { authorization: `Bearer ${t}`, 'content-type': 'application/json' }, body: JSON.stringify({ url, type: 'URL_UPDATED' }) });
   const j = await r.json();
-  fs.appendFileSync(LOG, `${today},${url},${r.ok ? 'ok' : 'fail ' + r.status}\n`);
+  fs.appendFileSync(LOG, `${new Date().toISOString()},${url},${r.ok ? 'ok' : 'fail ' + r.status}\n`);
   if (r.ok) { ok++; console.log('ok  ', url); }
   else { fail++; console.log('FAIL', r.status, url, j.error?.message?.slice(0, 160)); if (r.status === 403 || r.status === 429) break; }
 }
