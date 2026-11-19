@@ -1,6 +1,6 @@
 # RankEmpire tracking report
 
-Generated 2026-11-19 08:18 UTC. Google data: 2026-11-11 to 2026-11-17 (last 7 days with data) compared with 2026-11-04 to 2026-11-10. Search Console data usually lags 2 to 3 days.
+Generated 2026-11-19 20:18 UTC. Google data: 2026-11-11 to 2026-11-17 (last 7 days with data) compared with 2026-11-04 to 2026-11-10. Search Console data usually lags 2 to 3 days.
 
 ## Totals
 
@@ -12,7 +12,7 @@ Generated 2026-11-19 08:18 UTC. Google data: 2026-11-11 to 2026-11-17 (last 7 da
 | Average position | 79.5 | 84.1 | +4.7 |
 | Queries | 3241 | 2822 | |
 | Pages with impressions | 85 | 90 | |
-| Bing indexed pages | 11 | | |
+| Bing indexed pages | 16 | | |
 | Bing impressions (7 days) | 0 | | |
 
 ## Pages
