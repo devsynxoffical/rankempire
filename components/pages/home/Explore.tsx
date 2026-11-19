@@ -59,7 +59,7 @@ export default function Explore() {
               {"Services"}
             </h3>
             <p>
-              {"21 SEO services for local, e-commerce and SaaS brands, from audits to link building."}
+              {"22 SEO services for local, e-commerce and SaaS brands, from audits to link building."}
             </p>
             <div className="lk">
               <a href="/local-seo/" tabIndex={-1}>
@@ -170,7 +170,7 @@ export default function Explore() {
               {"Locations"}
             </h3>
             <p>
-              {"Local SEO strategies for 17 US metros, built around how each city searches."}
+              {"Local SEO strategies for 29 US cities, built around how each city searches."}
             </p>
             <div className="lk">
               <a href="/locations/new-york/" tabIndex={-1}>
