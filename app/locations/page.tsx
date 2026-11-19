@@ -4,6 +4,7 @@ import Preloader from '@/components/layout/Preloader';
 import Header from '@/components/layout/Header';
 import MobileMenu from '@/components/layout/MobileMenu';
 import Footer from '@/components/layout/Footer';
+import DeepGuide from '@/components/sections/DeepGuide';
 import OrgSchema from '@/components/seo/OrgSchema';
 import SearchSurfaces from '@/components/sections/SearchSurfaces';
 import V0 from '@/components/pages/locations/V0';
@@ -35,6 +36,7 @@ export default function Page() {
         <SearchSurfaces slug="locations" kind="hub" audience="your business" kw="local seo company near me" question="Do I need a local SEO company in my city?" />
         <Cities />
         <WhyItMatters />
+        <DeepGuide slug="locations" />
         <Pmq />
         <Robo />
       </main>

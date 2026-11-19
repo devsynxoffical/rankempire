@@ -13,6 +13,12 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-19 (12-hour run, 1:17 PM PKT)
+
+Tracking (11-17 Nov vs 4-10 Nov): 21,057 impressions (+1%), 2 clicks, average position 79.5 (up 4.7), 85 pages with impressions, keywords in the top 20: 49 (was 32). Bing InIndex 11, 0 crawl issues.
+Gains: "best seo company near me" 20.9 (Chicago), "seo company" 21.7 (Austin), "seo experts near me" 22.8, "search engine optimization near me" 26.4, "seo company near me" 33.2 (New York); /locations/ hub 6-13 for "best seo company usa" queries; serp checker 9-11 for "serp rank checker tool", "serp checker tools". Drops: keyword rank checker "rank check online" variants (still being re-tested by Google; no edits).
+Change: guide on /locations/ (see docs/recovery/changes.md).
+
 ## 2026-11-19 (owner request: new SEO page with full layout and lead capture)
 
 - New /small-business-seo/ (see docs/recovery/changes.md): Semrush small-business cluster about 25,600 searches/month; targets "seo services for small business" (3,600, KD14) and "local seo for small business" (2,900, KD16). 20 sections including 8 new service-specific motion images, booking calendar and audit form. Only one page built: other candidates had little demand or are covered by existing pages.

@@ -2718,5 +2718,31 @@
         "p": "Track calls, forms and bookings by page, so you know which searches bring customers. See [how to tell if your SEO is working](/blog/how-to-tell-if-seo-is-working/) for what to check each month, and our [SEO packages](/seo-packages/) for plan details."
       }
     ]
+  },
+  "locations": {
+    "title": "Choosing an SEO company in the USA",
+    "intro": "Businesses looking for the best SEO company in the USA usually compare national agencies with local specialists. This guide explains how to judge them, what local SEO looks like city by city, and how RankEmpire works with businesses across the country.",
+    "sections": [
+      {
+        "h": "Is there a best SEO company in the USA?",
+        "p": "No independent ranking compares SEO companies by client results, and Google does not endorse any agency. Lists of the best SEO companies mix reviews, self-reported data and sometimes paid placements. The best SEO company for your business is the one that can show Search Console results for businesses like yours, names the person doing the work and publishes its pricing. Our guide on [who is the best SEO company in the USA](/blog/best-seo-company-in-the-usa/) explains how to compare them."
+      },
+      {
+        "h": "National agency or local specialist?",
+        "p": "Large national agencies suit brands with big budgets and many locations. Local and small businesses usually get better value from a specialist that understands map rankings, Google Business Profiles and reviews in their city. RankEmpire works remotely with businesses across the US, with one senior strategist per account and plans from $599 a month for [small businesses](/small-business-seo/)."
+      },
+      {
+        "h": "How local SEO differs from city to city",
+        "p": "Map results depend on where the searcher is, so each market has its own competitors. Dense cities such as [New York](/locations/new-york/) and [Chicago](/locations/chicago/) are split by neighborhood, sprawling metros such as [Dallas](/locations/dallas/), [Houston](/locations/houston/) and [Phoenix](/locations/phoenix/) by suburb, and fast-growing markets such as [Austin](/locations/austin/) reward businesses that build reviews early. Each city page below explains what matters there."
+      },
+      {
+        "h": "Finding an SEO company near you",
+        "p": "Searching for an SEO company near me shows agencies close to your location, but proximity matters less than whether the team measures your visibility from your customers' locations and knows your industry. Ask for a rank grid of your service area and a written 90-day plan. See [who is the best local SEO company](/blog/who-is-the-best-local-seo-company/) for what to check."
+      },
+      {
+        "h": "What SEO services cost in the US",
+        "p": "Most small businesses pay $500 to $2,500 a month for ongoing SEO; multi-location and national programs cost more. RankEmpire publishes its plans on the [SEO packages](/seo-packages/) page, and every engagement starts with a free audit."
+      }
+    ]
   }
 }
