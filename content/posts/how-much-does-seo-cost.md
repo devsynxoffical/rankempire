@@ -80,7 +80,7 @@ For what the monthly fee actually pays for, see [what an SEO company does](/blog
 
 ### How much does SEO cost per month for a small business?
 
-Most small businesses pay between $500 and $2,500 a month. Single-location local service businesses are at the lower end; businesses in competitive metros or with several locations are at the upper end. RankEmpire's local plans start at $599 a month.
+Most small businesses pay between $500 and $2,500 a month. Single-location local service businesses are at the lower end; businesses in competitive metros or with several locations are at the upper end. RankEmpire's local plans start at $599 a month; see [SEO services for small business](/small-business-seo/).
 
 ### Is it cheaper to do SEO yourself?
 

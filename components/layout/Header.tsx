@@ -47,6 +47,22 @@ export default function Header({ active = '' }: { active?: string }) {
                         </span>
                       </span>
                     </a>
+                    <a className="dl" href="/small-business-seo/">
+                      <span className="ic">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                          <path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z" />
+                          <circle cx="12" cy="9" r="2.5" />
+                        </svg>
+                      </span>
+                      <span>
+                        <b>
+                          {"Small Business SEO"}
+                        </b>
+                        <span>
+                          {"Plans for owner-run businesses"}
+                        </span>
+                      </span>
+                    </a>
                     <a className="dl" href="/ecommerce-seo/">
                       <span className="ic">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

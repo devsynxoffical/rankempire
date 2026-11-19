@@ -51,7 +51,7 @@ export default function Page() {
         <QuickAnswer slug="seo-services" />
         <ProofStrip context="SEO" />
         <Statement />
-        <SearchSurfaces slug="seo-services" kind="service" audience="your business" kw="seo services for small business" question="What SEO services does RankEmpire offer?" />
+        <SearchSurfaces slug="seo-services" kind="service" audience="your business" kw="search engine ranking services" question="What SEO services does RankEmpire offer?" />
         <Core />
         <Specialist />
         <InDepth />

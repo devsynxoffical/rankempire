@@ -15,6 +15,9 @@ export default function MobileMenu() {
           <a href="/local-seo/">
             {"Local SEO"}
           </a>
+          <a href="/small-business-seo/">
+            {"Small Business SEO"}
+          </a>
           <a href="/ecommerce-seo/">
             {"E-commerce SEO"}
           </a>

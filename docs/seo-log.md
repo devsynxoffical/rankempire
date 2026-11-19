@@ -13,6 +13,11 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-19 (owner request: new SEO page with full layout and lead capture)
+
+- New /small-business-seo/ (see docs/recovery/changes.md): Semrush small-business cluster about 25,600 searches/month; targets "seo services for small business" (3,600, KD14) and "local seo for small business" (2,900, KD16). 20 sections including 8 new service-specific motion images, booking calendar and audit form. Only one page built: other candidates had little demand or are covered by existing pages.
+- Noted: service-page pricing templates show $799/$1,499/$2,999 while local plans and schema use $599/$1,199/$2,199 (owner decision).
+
 ## 2026-11-19 (12-hour run, 1:17 AM PKT)
 
 Tracking (Search Console 10-16 Nov vs 3-9 Nov): 20,239 impressions (-2%), 2 clicks, average position 81.9 (up 2.0), 84 pages with impressions, 32 keywords in the top 20. Bing InIndex 11, 0 crawl issues, quota 81.

@@ -1505,7 +1505,7 @@
       },
       {
         "h": "How long local SEO takes",
-        "p": "Profile fixes and reviews often move map rankings within 30 to 60 days; competitive city terms take three to six months. Our [90-day local SEO roadmap](/blog/local-seo-90-day-roadmap/) shows the order of work, and local plans start at $599 a month."
+        "p": "Profile fixes and reviews often move map rankings within 30 to 60 days; competitive city terms take three to six months. Our [90-day local SEO roadmap](/blog/local-seo-90-day-roadmap/) shows the order of work, and local plans start at $599 a month. For one-to-three-location businesses, our [local SEO for small business](/small-business-seo/) plans start at $599 a month."
       }
     ]
   },
@@ -1961,7 +1961,7 @@
       },
       {
         "h": "How to decide",
-        "p": "Choose by business model first, then by number of locations, catalog size or market competitiveness. Our guide on [how much SEO costs](/blog/how-much-does-seo-cost/) explains price drivers, or [book a free strategy call](/book-a-call/) for a recommendation."
+        "p": "Choose by business model first, then by number of locations, catalog size or market competitiveness. Our guide on [how much SEO costs](/blog/how-much-does-seo-cost/) explains price drivers, or [book a free strategy call](/book-a-call/) for a recommendation. Small and owner-run businesses can see what a plan looks like in practice on our [SEO services for small business](/small-business-seo/) page."
       }
     ]
   },
@@ -2690,6 +2690,32 @@
       {
         "h": "Compliance and trust",
         "p": "Show state licenses, carriers and the agent's real identity, follow state advertising rules and collect consent for calls. Agencies offering other policies can see our [insurance agency SEO](/seo-for-insurance/) page."
+      }
+    ]
+  },
+  "small-business-seo": {
+    "title": "Small business SEO: where to start and what to expect",
+    "intro": "Small businesses get the most from SEO by doing a few things well, in the right order. This is the order we use and what each step changes.",
+    "sections": [
+      {
+        "h": "Start with the Google Business Profile",
+        "p": "For most small businesses the profile drives more calls than the website. Choose the most specific primary category, list every service, set accurate hours and service areas, add real photos and post every week. Our [Google Business Profile checklist](/blog/google-business-profile-optimization-checklist/) covers every field."
+      },
+      {
+        "h": "One page per service you want more of",
+        "p": "A single services page cannot rank for everything you do. Give each important service its own page with what it includes, starting prices, photos of real work and answers to common questions. Add area pages only for places you really serve."
+      },
+      {
+        "h": "Reviews that mention the job and the town",
+        "p": "Ask every customer, within a day, by text or email. Reviews that name the service and the area help both the map pack and AI assistants recommend you."
+      },
+      {
+        "h": "Local SEO for small business on a budget",
+        "p": "If budget is tight, focus on the profile, reviews and your top three service pages first; these move map rankings fastest. Our [local SEO checklist](/blog/local-seo-checklist/) is a good do-it-yourself start, and [how much SEO costs](/blog/how-much-does-seo-cost/) explains typical budgets."
+      },
+      {
+        "h": "Measure leads, not just rankings",
+        "p": "Track calls, forms and bookings by page, so you know which searches bring customers. See [how to tell if your SEO is working](/blog/how-to-tell-if-seo-is-working/) for what to check each month, and our [SEO packages](/seo-packages/) for plan details."
       }
     ]
   }
