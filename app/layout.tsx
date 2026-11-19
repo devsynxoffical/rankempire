@@ -95,7 +95,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="preload" href="/assets/fonts/dmsans-rP2Hp2ywxg089UriCZOIHQ.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <link rel="alternate" type="application/rss+xml" title="RankEmpire SEO Blog" href="/blog/feed.xml" />
         <link rel="stylesheet" href="/assets/fonts.css?v=1" />
-        <link rel="stylesheet" href="/assets/site.css?v=47" />
+        <link rel="stylesheet" href="/assets/site.css?v=48" />
         <script dangerouslySetInnerHTML={{ __html: SEEN }} />
       </head>
       <body suppressHydrationWarning>
@@ -107,7 +107,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <Analytics />
         <Script id="meta-pixel" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: PIXEL }} />
         <Script src="/assets/lenis.min.js?v=1" strategy="beforeInteractive" />
-        <Script src="/assets/site.js" strategy="afterInteractive" />
+        <Script src="/assets/site.js?v=2" strategy="afterInteractive" />
         <Script src="/assets/v3.js?v=34" strategy="afterInteractive" />
       </body>
     </html>

@@ -76,7 +76,7 @@ export default function Yc() {
           </div>
           {"\n"}
           <div className="yh-v">
-            <form className="form card ycf" data-mail="hello@rankempire.com" data-subject="Free SEO audit request" data-r="">
+            <form className="form card ycf" data-mail="hello@rankempire.com" data-wa="919625695456" data-subject="Free SEO audit request" data-r="">
               {"\n"}
               <div className="two">
                 <label>

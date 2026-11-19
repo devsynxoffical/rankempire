@@ -2960,3 +2960,6 @@ body.in-fd .cur,body.in-fd .cur-r{opacity:0!important}
 main>section.x,main>section.ytb,main>section.fxs,main>section.pmq,main>section.robo,main>section.fcom{content-visibility:auto;contain-intrinsic-size:auto 900px}
 /* Accordion descriptions on dark sections: undo the generic .tp gradient so white text stays readable */
 .ytb .tp,.pov .tp{background:none}
+
+/* Contact form fallback when no email app opens */
+.sent-box{margin-top:18px;padding:16px 18px;border-radius:14px;background:#f2fbf5;border:1px solid #b7e3c4;color:#111;font-size:15px;line-height:1.5}.sent-box p{margin:0 0 10px}.sent-box p:last-child{margin:0}.sb-btn{display:inline-block;margin:4px 10px 4px 0;padding:11px 18px;border-radius:10px;font-weight:600;text-decoration:none;color:#fff}.sb-wa{background:#1fa855}.sb-call{background:#111}.sb-mail{font-size:13px;color:#444}.sb-mail a{color:#111;text-decoration:underline}
