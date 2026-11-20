@@ -13,6 +13,12 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-20 (12-hour run, 1:17 PM PKT)
+
+Tracking (12-18 Nov vs 5-11 Nov): 22,003 impressions (+11%), 3 clicks, average position 77.0 (up 7.4), 82 pages with impressions, 53 keywords in the top 20. Bing InIndex 16, 0 crawl issues, quota 100.
+Gains: Chicago "best seo company near me" 9.7 (page 1, 14 impr); Phoenix "seo company" 22.5 (110 impr); Houston "seo experts near me" 22.8; New York near-me queries 31-36; SERP checker "serp rank checker tool" 14.7; keyword rank checker "online seo rank tracker" 14.5. Drops: keyword rank checker "rank check online" variants (re-test continues).
+No SEO change: the moving pages were changed within 21 days and are improving; other candidates are already covered. Indexing API: 0 sent (paused until 25 Nov).
+
 ## 2026-11-20 (12-hour run, 1:17 AM PKT)
 
 Monitoring only: Search Console has no new days (latest 17 Nov). Bing InIndex 16 (was 11), 0 crawl issues, quota 93. Indexing API: 0 URLs sent (paused until 25 Nov). No SEO changes.
