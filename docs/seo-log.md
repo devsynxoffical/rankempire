@@ -13,6 +13,10 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-21 (12-hour run, 1:17 AM PKT)
+
+SITE DOWN: www.rankempire.us returns HTTP 402 (Vercel x-vercel-error DEPLOYMENT_DISABLED) on all pages checked (/ and /small-business-seo/). The domain still points to Vercel; the Hostinger build is ready on the `hostinger` branch but not yet deployed/connected by the owner. Search Console has no new days (latest 18 Nov). Bing InIndex 16, 0 crawl issues. No SEO changes and no submissions (nothing should be submitted while the site is down). Indexing API: 0 sent.
+
 ## 2026-11-20 (12-hour run, 1:17 PM PKT)
 
 Tracking (12-18 Nov vs 5-11 Nov): 22,003 impressions (+11%), 3 clicks, average position 77.0 (up 7.4), 82 pages with impressions, 53 keywords in the top 20. Bing InIndex 16, 0 crawl issues, quota 100.

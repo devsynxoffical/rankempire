@@ -1,6 +1,6 @@
 # RankEmpire tracking report
 
-Generated 2026-11-20 08:18 UTC. Google data: 2026-11-12 to 2026-11-18 (last 7 days with data) compared with 2026-11-05 to 2026-11-11. Search Console data usually lags 2 to 3 days.
+Generated 2026-11-20 20:18 UTC. Google data: 2026-11-12 to 2026-11-18 (last 7 days with data) compared with 2026-11-05 to 2026-11-11. Search Console data usually lags 2 to 3 days.
 
 ## Totals
 
