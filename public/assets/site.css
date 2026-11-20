@@ -2966,3 +2966,8 @@ main>section.x,main>section.ytb,main>section.fxs,main>section.pmq,main>section.r
 /* Explore panels on phones/tablets: an open panel grows to fit its links and button instead of a fixed 520px */
 @media (max-width:1024px){.gv .p.on{height:auto;min-height:520px;interpolate-size:allow-keywords}.gv .p.on .body{position:relative;inset:auto}}
 @media (hover:none){.gv .p .body .lk a:hover{padding-left:0}}
+/* Robot on touch devices (no mouse to follow): gentle peek-and-float loop; respects reduced motion */
+@keyframes roboPeek{0%,100%{transform:translate(-16px,0) rotate(-2deg)}50%{transform:translate(0,-14px) rotate(3deg)}}
+@media (max-width:860px){.robo .rl{padding-left:0!important}}
+@media (hover:none),(pointer:coarse){.robo .rl{animation:roboPeek 4.8s ease-in-out infinite;will-change:transform;transform-origin:0 50%}}
+@media (prefers-reduced-motion:reduce){.robo .rl{animation:none}}
