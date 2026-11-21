@@ -13,6 +13,12 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-21 (12-hour run, 1:17 PM PKT)
+
+SITE BACK UP on Hostinger (server LiteSpeed, platform hostinger). Live check: all 148 pages 200; http->https, apex->www and missing-slash redirects 301; unknown URL 404; robots.txt, sitemaps, llms.txt, llms-full.txt, IndexNow key and feed served with correct types; long cache on assets; canonical correct. Resubmitted all sitemaps to Google, all 148 URLs to IndexNow and 27 priority URLs to Bing.
+Tracking (13-19 Nov vs 6-12 Nov): 23,594 impressions (+19%), 2 clicks, average position 76.1 (up 8.2), 84 pages with impressions, 56 keywords in the top 20. Bing InIndex 21 (was 16). Gains: Chicago "best seo company near me" 10.5; Phoenix "seo company" 23.7; Houston "seo experts near me" 23.3. Search Console data predates the outage (20-21 Nov); its effect will show in 2-3 days.
+No SEO changes (data still being measured). Indexing API: 0 sent (paused until 25 Nov).
+
 ## 2026-11-21 (12-hour run, 1:17 AM PKT)
 
 SITE DOWN: www.rankempire.us returns HTTP 402 (Vercel x-vercel-error DEPLOYMENT_DISABLED) on all pages checked (/ and /small-business-seo/). The domain still points to Vercel; the Hostinger build is ready on the `hostinger` branch but not yet deployed/connected by the owner. Search Console has no new days (latest 18 Nov). Bing InIndex 16, 0 crawl issues. No SEO changes and no submissions (nothing should be submitted while the site is down). Indexing API: 0 sent.

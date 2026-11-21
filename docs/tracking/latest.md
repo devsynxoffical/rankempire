@@ -1,18 +1,18 @@
 # RankEmpire tracking report
 
-Generated 2026-11-20 20:18 UTC. Google data: 2026-11-12 to 2026-11-18 (last 7 days with data) compared with 2026-11-05 to 2026-11-11. Search Console data usually lags 2 to 3 days.
+Generated 2026-11-21 08:18 UTC. Google data: 2026-11-13 to 2026-11-19 (last 7 days with data) compared with 2026-11-06 to 2026-11-12. Search Console data usually lags 2 to 3 days.
 
 ## Totals
 
 | | Last 7 days | Previous 7 days | Change |
 | --- | --- | --- | --- |
-| Impressions | 22003 | 19845 | +11% |
-| Clicks | 3 | 3 | +0 |
+| Impressions | 23594 | 19761 | +19% |
+| Clicks | 2 | 4 | -2 |
 | CTR | 0.0% | 0.0% | |
-| Average position | 77.0 | 84.4 | +7.4 |
-| Queries | 3273 | 2616 | |
-| Pages with impressions | 82 | 83 | |
-| Bing indexed pages | 16 | | |
+| Average position | 76.1 | 84.3 | +8.2 |
+| Queries | 3372 | 2653 | |
+| Pages with impressions | 84 | 72 | |
+| Bing indexed pages | 21 | | |
 | Bing impressions (7 days) | 0 | | |
 
 ## Pages
@@ -21,133 +21,135 @@ Position change: positive means the page moved up.
 
 | Page | Impr | Change | Clicks | Avg pos | Pos change | Top keyword (pos) |
 | --- | --- | --- | --- | --- | --- | --- |
-| /locations/new-york/ | 1994 | +11% | 0 | 83.7 | +3.3 | seo agency new york (90.0) |
-| /seo-tools/serp-checker/ | 1872 | +32% | 0 | 75.7 | +9.9 | serp checker (88.7) |
-| /seo-tools/keyword-rank-checker/ | 1724 | +35% | 0 | 65.1 | +11.9 | check seo ranking (29.6) |
-| /seo-tools/backlink-checker/ | 1331 | +3% | 0 | 88.0 | +3.8 | backlinks seo checker (78.0) |
-| /locations/dallas/ | 1266 | -3% | 1 | 82.7 | +5.1 | dallas seo (86.6) |
-| /locations/austin/ | 1230 | +5% | 0 | 79.4 | +3.4 | austin seo company (74.2) |
-| /locations/phoenix/ | 1185 | -55% | 0 | 79.7 | -0.6 | phoenix seo company (79.7) |
-| /locations/chicago/ | 1153 | +145% | 0 | 82.6 | +3.3 | chicago seo company (83.6) |
-| /locations/houston/ | 1142 | +191% | 0 | 77.8 | +7.7 | houston seo company (81.0) |
-| /seo-tools/website-seo-checker/ | 769 | +8% | 0 | 69.0 | +14.2 | seo checker tool (85.4) |
-| /seo-tools/keyword-research-tool/ | 609 | +712% | 0 | 65.6 | +12.6 | keyword page checker (70.6) |
-| /locations/san-diego/ | 593 | +5% | 0 | 80.4 | +8.0 | seo services san diego (80.8) |
-| /locations/miami/ | 585 | -2% | 0 | 82.5 | +5.1 | miami seo company (85.9) |
-| /seo-for-cleaning/ | 561 | +15% | 0 | 76.7 | +8.8 | cleaning company seo (87.3) |
-| /seo-for-plumbers/ | 538 | +3% | 0 | 72.8 | +15.8 | plumber seo company (62.0) |
-| /locations/san-francisco/ | 506 | +18% | 0 | 82.3 | +5.2 | seo company san francisco (82.4) |
-| /industries/ | 451 | +3369% | 0 | 60.4 | -6.4 | search engine optimization services (66.0) |
-| /seo-consulting/ | 432 | +10700% | 1 | 81.6 | -5.1 | seo consulting services (91.9) |
-| /locations/ | 391 | +2344% | 0 | 45.1 | +17.7 | search engine optimization company (29.1) |
-| /seo-for-accountants/ | 371 | -25% | 0 | 72.4 | -2.1 | accountant seo near me (44.5) |
-| /seo-for-med-spas/ | 350 | -37% | 0 | 87.6 | -2.3 | med spa seo (93.0) |
-| /seo-tools/seo-score-checker/ | 326 | -6% | 0 | 80.9 | +1.1 | seo score checker (93.5) |
-| /seo-for-auto-repair/ | 299 | +20% | 0 | 81.3 | +5.2 | auto repair seo (85.6) |
-| /locations/baltimore/ | 249 | new | 0 | 62.7 | new | search engine optimization baltimore (68.1) |
-| /national-seo/ | 234 | -7% | 0 | 84.2 | +3.7 | national seo (83.1) |
-| /seo-services/ | 212 | +316% | 0 | 54.1 | +29.2 | search engine ranking service (51.9) |
-| /seo-for-auto-detailing/ | 171 | -29% | 0 | 77.4 | -2.3 | auto detailing seo (83.4) |
-| /seo-for-hvac/ | 166 | +48% | 0 | 93.8 | -2.3 | hvac seo experts (90.9) |
-| /locations/philadelphia/ | 150 | new | 0 | 57.9 | new | seo services philadelphia (61.9) |
-| /locations/los-angeles/ | 143 | +16% | 0 | 81.6 | -2.5 | santa clarita search engine optimization (73.5) |
-| /seo-for-roofing/ | 134 | -50% | 0 | 90.2 | +0.1 | roofing seo services (96.0) |
-| /local-seo/ | 122 | +79% | 0 | 79.3 | +3.0 | local search seo services (80.5) |
-| /seo-packages/local-seo/ | 84 | +58% | 0 | 96.4 | -1.2 | local seo packages (96.6) |
-| /seo-for-painters/ | 80 | +567% | 0 | 65.1 | +8.8 | painting company seo (55.9) |
-| /seo-for-restaurants/ | 70 | +100% | 0 | 84.1 | +6.8 | restaurant seo services (85.7) |
-| /seo-tools/sitemap-checker/ | 67 | +52% | 0 | 75.5 | +11.6 | sitemap checker (84.7) |
-| /enterprise-seo/ | 64 | +100% | 0 | 80.4 | +7.4 | enterprise seo service (80.0) |
-| /seo-for-daycares/ | 62 | +59% | 0 | 69.1 | +14.7 | daycare seo (84.4) |
-| /seo-packages/ecommerce-seo/ | 61 | -36% | 0 | 86.4 | -2.7 | ecommerce seo packages (85.4) |
-| /seo-for-real-estate/ | 53 | -38% | 0 | 91.9 | +1.4 | real estate seo services (94.5) |
-| /locations/manhattan/ | 43 | new | 0 | 55.7 | new | rank tracking online new york city, ny (14.0) |
-| /seo-for-dentists/ | 35 | -96% | 0 | 82.0 | +10.1 | dental implant seo (90.0) |
-| /seo-packages/ | 34 | +209% | 0 | 85.3 | -41.8 | seo plans (81.2) |
-| /seo-for-limousine-companies/ | 31 | +417% | 0 | 82.5 | -5.3 | limo service seo (83.8) |
-| /seo-audit/ | 21 | -60% | 0 | 79.1 | +2.2 | seo audit expert (95.4) |
-| /seo-tools/ | 19 | +533% | 0 | 51.1 | -3.4 | seo tools check (29.8) |
-| /locations/orlando/ | 17 | +750% | 0 | 81.6 | -8.1 | search engine optimization orlando (82.8) |
-| /on-page-seo/ | 13 | +1200% | 0 | 71.9 | +27.1 | on site seo services (86.5) |
-| /seo-for-cafes/ | 13 | -57% | 0 | 48.2 | +25.2 | seo cafe (22.5) |
-| /blog/ | 11 | +22% | 0 | 55.9 | +2.5 | search engine experts (84.8) |
-| /case-studies/ | 11 | +1000% | 0 | 91.2 | -72.2 | website positioning reports (100.3) |
-| /seo-for-bakeries/ | 11 | +22% | 0 | 39.8 | +22.2 | seo for bakeries (34.4) |
-| /locations/charlotte/ | 10 | -95% | 0 | 80.0 | +1.0 | seo expert charlotte nc (88.5) |
-| / | 9 | +50% | 0 | 16.0 | -7.5 | seoguruhub ranksmart (89.0) |
-| /b2b-seo/ | 9 | -25% | 0 | 76.4 | +11.6 | b2b search engine optimization (89.3) |
+| /seo-tools/serp-checker/ | 2070 | +41% | 0 | 74.5 | +10.6 | serp checker (89.2) |
+| /locations/new-york/ | 1868 | -3% | 0 | 83.1 | +3.6 | seo agency new york (89.8) |
+| /seo-tools/keyword-rank-checker/ | 1673 | +20% | 0 | 63.5 | +12.3 | rank seo checker (87.3) |
+| /locations/phoenix/ | 1470 | -38% | 0 | 78.9 | +1.3 | phoenix seo company (79.2) |
+| /seo-tools/backlink-checker/ | 1418 | +2% | 0 | 88.5 | +2.8 | backlinks seo checker (77.3) |
+| /locations/houston/ | 1357 | +355% | 0 | 76.7 | +9.7 | houston seo company (79.9) |
+| /locations/chicago/ | 1329 | +190% | 0 | 81.3 | +4.6 | chicago seo company (78.5) |
+| /locations/austin/ | 1282 | +14% | 0 | 78.9 | +3.8 | austin seo company (72.3) |
+| /locations/dallas/ | 1259 | -6% | 1 | 81.7 | +5.8 | dallas seo services (87.5) |
+| /seo-consulting/ | 715 | +23733% | 1 | 82.5 | -0.5 | seo consulting services (90.6) |
+| /seo-tools/website-seo-checker/ | 699 | -5% | 0 | 66.9 | +15.7 | seo checker tool (83.8) |
+| /seo-tools/keyword-research-tool/ | 678 | +438% | 0 | 61.5 | +17.0 | keyword page checker (66.5) |
+| /locations/miami/ | 629 | 0% | 0 | 79.8 | +7.1 | miami seo company (83.5) |
+| /locations/san-diego/ | 588 | +1% | 0 | 79.3 | +8.6 | seo services san diego (80.0) |
+| /industries/ | 555 | +4945% | 0 | 60.9 | +2.1 | search engine optimization services (67.8) |
+| /seo-for-cleaning/ | 546 | +10% | 0 | 75.7 | +9.9 | cleaning company seo (88.1) |
+| /seo-for-plumbers/ | 542 | +9% | 0 | 72.3 | +15.6 | seo for plumbers (94.0) |
+| /locations/ | 540 | +4054% | 0 | 45.2 | +23.1 | search engine optimization company (28.4) |
+| /locations/san-francisco/ | 453 | -7% | 0 | 82.4 | +4.0 | san francisco seo company (80.4) |
+| /seo-for-med-spas/ | 372 | -35% | 0 | 88.0 | -3.5 | med spa seo (92.7) |
+| /seo-for-accountants/ | 327 | -35% | 0 | 72.0 | -1.0 | accountant seo near me (44.2) |
+| /seo-tools/seo-score-checker/ | 324 | -6% | 0 | 81.8 | -0.4 | seo score checker (92.8) |
+| /seo-for-auto-repair/ | 319 | +34% | 0 | 80.6 | +5.1 | auto repair seo (85.3) |
+| /locations/baltimore/ | 299 | new | 0 | 61.6 | new | search engine optimization baltimore (67.4) |
+| /seo-services/ | 246 | +347% | 0 | 51.0 | +35.5 | search engine ranking service (47.9) |
+| /national-seo/ | 240 | -5% | 0 | 84.2 | +3.6 | national seo (81.9) |
+| /seo-for-roofing/ | 181 | -27% | 0 | 89.9 | +0.7 | roofing seo services (96.5) |
+| /seo-for-hvac/ | 175 | +27% | 0 | 94.1 | -1.7 | seo company for hvac (96.0) |
+| /seo-for-auto-detailing/ | 169 | -27% | 0 | 77.7 | -2.5 | auto detailing seo (82.4) |
+| /locations/philadelphia/ | 155 | new | 0 | 57.9 | new | seo services philadelphia (61.9) |
+| /locations/los-angeles/ | 128 | -9% | 0 | 79.9 | -1.4 | santa clarita search engine optimization (74.1) |
+| /enterprise-seo/ | 126 | +282% | 0 | 84.4 | +3.1 | enterprise seo services (86.8) |
+| /seo-for-painters/ | 126 | +6200% | 0 | 67.1 | +3.9 | painting company seo (57.7) |
+| /local-seo/ | 125 | +71% | 0 | 79.3 | +3.4 | local search seo services (79.5) |
+| /seo-packages/local-seo/ | 96 | +75% | 0 | 96.4 | -0.6 | local seo packages (96.8) |
+| /seo-for-restaurants/ | 79 | +163% | 0 | 84.6 | +4.3 | restaurant seo services (86.4) |
+| /seo-packages/ecommerce-seo/ | 72 | -15% | 0 | 83.3 | +1.4 | ecommerce seo packages (80.9) |
+| /seo-tools/sitemap-checker/ | 70 | +37% | 0 | 75.3 | +11.4 | sitemap checker (85.6) |
+| /seo-for-daycares/ | 52 | +4% | 0 | 67.4 | +15.6 | daycare seo (84.5) |
+| /locations/manhattan/ | 42 | +4100% | 0 | 55.1 | +24.9 | rank tracking online new york city, ny (14.0) |
+| /seo-for-real-estate/ | 40 | -55% | 0 | 91.2 | +2.0 | real estate seo services (94.2) |
+| /seo-packages/ | 39 | +388% | 0 | 82.3 | -7.2 | seo plans (80.1) |
+| /seo-for-limousine-companies/ | 28 | +133% | 0 | 80.8 | +2.9 | limo service seo (82.3) |
+| /seo-for-dentists/ | 27 | -97% | 0 | 85.4 | +6.5 | dental implant seo (90.3) |
+| /seo-audit/ | 23 | -55% | 0 | 74.1 | +10.1 | seo audit expert (95.4) |
+| /locations/orlando/ | 21 | +425% | 0 | 74.0 | +8.3 | search engine optimization orlando (74.2) |
+| /seo-tools/ | 20 | +400% | 0 | 45.7 | +12.1 | seo tools check (27.7) |
+| /seo-for-cafes/ | 15 | -40% | 0 | 46.9 | +25.2 | coffee shop seo (68.8) |
+| /case-studies/ | 13 | new | 0 | 92.5 | new | website positioning reports (100.0) |
+| /on-page-seo/ | 12 | +500% | 0 | 77.1 | -22.6 | on site seo services (86.5) |
+| /seo-for-bakeries/ | 12 | +50% | 0 | 39.5 | +24.1 | seo for bakeries (34.6) |
+| /locations/charlotte/ | 11 | -76% | 0 | 75.8 | +2.4 | seo expert charlotte nc (87.3) |
+| / | 10 | +150% | 0 | 14.5 | -2.2 | seoguruhub ranksmart (89.0) |
 | /seo-for-photographers/ | 8 | new | 0 | 69.4 | new | photographer seo service (52.5) |
+| /seo-tools/schema-checker/ | 8 | new | 0 | 41.9 | new | schema checker (40.6) |
+| /b2b-seo/ | 7 | -50% | 0 | 73.4 | +14.4 | b2b search engine optimization (91.3) |
 | /seo-for-barbers/ | 6 | +500% | 0 | 100.2 | -94.2 | seo барбершопа (97.0) |
-| /seo-company/ | 4 | +33% | 0 | 14.0 | +7.3 |  |
-| /about-us/ | 3 | +200% | 0 | 6.7 | +4.3 |  |
-| /google-business-profile-seo/ | 3 | +0% | 0 | 56.7 | +16.7 | seo platform with google business profile signals (85.0) |
-| /seo-tools/meta-tag-checker/ | 3 | -50% | 0 | 79.0 | +2.0 | meta tag search (87.0) |
-| /seo-tools/seo-audit-tool/ | 3 | +200% | 0 | 97.0 | -16.0 | seo on page audit tool (97.0) |
-| /blog/ai-agent-optimization/ | 2 | new | 0 | 5.5 | new |  |
+| /blog/ | 4 | -71% | 0 | 14.5 | +56.2 | google ranking expert (37.0) |
+| /geo/ | 4 | +300% | 0 | 73.3 | -71.2 | generative engine optimization services (99.5) |
+| /seo-company/ | 4 | +100% | 0 | 14.0 | +9.0 |  |
+| /seo-tools/seo-audit-tool/ | 4 | new | 0 | 92.5 | new | seo on page audit tool (92.5) |
+| /about-us/ | 3 | new | 0 | 6.7 | new |  |
+| /our-team/ | 3 | new | 0 | 7.3 | new |  |
+| /seo-tools/meta-tag-checker/ | 3 | +0% | 0 | 79.0 | -2.0 | meta tag search (87.0) |
+| /blog/local-seo-checklist/ | 2 | new | 0 | 7.0 | new |  |
 | /book-a-call/ | 2 | new | 0 | 5.5 | new |  |
-| /ecommerce-seo/ | 2 | -50% | 0 | 40.0 | +4.0 |  |
+| /ecommerce-seo/ | 2 | -33% | 0 | 40.0 | +13.0 |  |
+| /google-business-profile-seo/ | 2 | -50% | 0 | 63.5 | +2.3 | seo platform with google business profile signals (85.0) |
 | /locations/denver/ | 2 | new | 0 | 71.5 | new | denver seo experts (71.5) |
-| /our-team/ | 2 | new | 0 | 8.0 | new |  |
 | /seo-for-chiropractors/ | 2 | +0% | 0 | 49.5 | +40.5 | chiropractor seo (49.5) |
+| /seo-for-landscaping/ | 2 | new | 0 | 88.5 | new | hire landscaping seo company (88.0) |
 | /seo-for-pest-control/ | 2 | new | 0 | 69.5 | new | pest control company search engine optimization (69.5) |
 | /seo-packages/saas-seo/ | 2 | +100% | 0 | 52.5 | +45.5 | saas seo cost (18.0) |
-| /seo-for-luxury-wedding-businesses/ | 1 | new | 1 | 2.0 | new |  |
-| /blog/local-seo-checklist/ | 1 | new | 0 | 6.0 | new |  |
+| /terms/ | 2 | +100% | 0 | 4.0 | -1.0 |  |
+| /aeo/ | 1 | +0% | 0 | 7.0 | +0.0 |  |
+| /blog/ai-agent-optimization/ | 1 | +0% | 0 | 10.0 | -9.0 |  |
 | /contact-us/ | 1 | new | 0 | 1.0 | new |  |
 | /locations/tampa/ | 1 | new | 0 | 23.0 | new | business seo service (23.0) |
 | /privacy-policy/ | 1 | new | 0 | 2.0 | new |  |
 | /saas-seo/ | 1 | +0% | 0 | 9.0 | +11.0 |  |
-| /seo-for-landscaping/ | 1 | new | 0 | 89.0 | new | seo services for landscaping (89.0) |
+| /seo-for-exotic-car-rental/ | 1 | new | 0 | 8.0 | new |  |
 | /seo-for-locksmiths/ | 1 | new | 0 | 60.0 | new | locksmith seo service (60.0) |
 | /seo-for-wedding-planners/ | 1 | new | 0 | 29.0 | new | wedding planners seo services (29.0) |
 | /seo-for-yacht-charter/ | 1 | -67% | 0 | 30.0 | +8.7 | yacht charter seo (30.0) |
-| /seo-tools/schema-checker/ | 1 | new | 0 | 51.0 | new | website schema checker (51.0) |
-| /terms/ | 1 | -67% | 0 | 5.0 | -2.0 |  |
 
 ## Top 40 keywords
 
 | Keyword | Page | Impr | Pos | Pos change |
 | --- | --- | --- | --- | --- |
-| search engine optimization services | /industries/ | 254 | 65.8 | -1.7 |
-| search engine optimization company | /locations/ | 176 | 31.7 | -0.7 |
-| serp checker | /seo-tools/serp-checker/ | 175 | 88.7 | new |
-| seo serp checker | /seo-tools/serp-checker/ | 149 | 85.4 | +1.5 |
-| miami seo company | /locations/miami/ | 148 | 85.9 | +2.7 |
-| free serp checker | /seo-tools/serp-checker/ | 143 | 84.7 | +4.0 |
-| serp checker online | /seo-tools/serp-checker/ | 132 | 83.1 | +2.7 |
-| seo company | /locations/phoenix/ | 110 | 22.5 | +46.8 |
-| keyword page checker | /seo-tools/keyword-research-tool/ | 110 | 63.7 | +33.3 |
-| backlinks seo checker | /seo-tools/backlink-checker/ | 109 | 78.0 | +7.2 |
-| austin seo company | /locations/austin/ | 99 | 74.2 | +6.6 |
-| dallas seo | /locations/dallas/ | 99 | 86.6 | +4.4 |
-| serp checker free | /seo-tools/serp-checker/ | 99 | 84.0 | +3.5 |
-| search engine ranking service | /seo-services/ | 93 | 51.9 | +35.7 |
-| med spa seo | /seo-for-med-spas/ | 92 | 93.0 | -2.3 |
-| austin seo | /locations/austin/ | 90 | 77.2 | -3.0 |
-| plumber seo company | /seo-for-plumbers/ | 85 | 62.0 | +27.2 |
-| serp free checker | /seo-tools/serp-checker/ | 85 | 88.5 | +0.0 |
-| serp seo checker | /seo-tools/serp-checker/ | 84 | 63.8 | +5.4 |
-| dallas seo services | /locations/dallas/ | 80 | 89.9 | -4.1 |
-| online serp checker | /seo-tools/serp-checker/ | 80 | 78.3 | +3.8 |
-| houston seo company | /locations/houston/ | 79 | 81.0 | +5.6 |
-| plumber seo services | /seo-for-plumbers/ | 78 | 68.9 | +23.3 |
-| check seo ranking | /seo-tools/keyword-rank-checker/ | 78 | 29.6 | +1.3 |
-| free online serp checker | /seo-tools/serp-checker/ | 76 | 78.0 | +11.1 |
-| austin seo expert | /locations/austin/ | 75 | 76.7 | +5.0 |
-| phoenix seo company | /locations/phoenix/ | 75 | 79.7 | -1.1 |
-| seo for plumbers | /seo-for-plumbers/ | 74 | 93.9 | +3.2 |
-| dallas seo company | /locations/dallas/ | 72 | 86.7 | +5.1 |
-| rank seo checker | /seo-tools/keyword-rank-checker/ | 65 | 88.3 | -0.6 |
-| seo company phoenix | /locations/phoenix/ | 64 | 83.2 | +6.0 |
-| serp checking tool | /seo-tools/serp-checker/ | 64 | 91.4 | +0.5 |
-| national seo | /national-seo/ | 63 | 83.1 | -8.5 |
-| seo phoenix | /locations/phoenix/ | 62 | 84.1 | +2.4 |
-| seo houston | /locations/houston/ | 60 | 81.3 | +13.8 |
-| backlink checker seo tools | /seo-tools/backlink-checker/ | 60 | 79.1 | +13.6 |
-| seo score checker | /seo-tools/seo-score-checker/ | 60 | 93.5 | -7.0 |
-| seo company houston | /locations/houston/ | 59 | 78.0 | +4.2 |
-| seo tools backlink checker | /seo-tools/backlink-checker/ | 59 | 83.2 | +11.2 |
-| seo services phoenix | /locations/phoenix/ | 56 | 83.0 | +4.5 |
+| search engine optimization services | /industries/ | 317 | 67.6 | -6.2 |
+| serp checker | /seo-tools/serp-checker/ | 259 | 89.2 | new |
+| search engine optimization company | /locations/ | 246 | 31.1 | -1.6 |
+| seo serp checker | /seo-tools/serp-checker/ | 140 | 83.3 | +3.4 |
+| miami seo company | /locations/miami/ | 137 | 83.5 | +4.2 |
+| free serp checker | /seo-tools/serp-checker/ | 130 | 84.2 | +3.9 |
+| seo company | /locations/phoenix/ | 123 | 23.7 | +45.7 |
+| serp checker online | /seo-tools/serp-checker/ | 123 | 82.9 | +2.8 |
+| keyword page checker | /seo-tools/keyword-research-tool/ | 117 | 59.1 | +29.7 |
+| seo consulting services | /seo-consulting/ | 110 | 90.6 | new |
+| med spa seo | /seo-for-med-spas/ | 110 | 92.7 | -2.5 |
+| seo consultant | /seo-consulting/ | 109 | 91.4 | new |
+| backlinks seo checker | /seo-tools/backlink-checker/ | 104 | 77.3 | +7.4 |
+| austin seo company | /locations/austin/ | 98 | 72.3 | +7.3 |
+| search engine ranking service | /seo-services/ | 97 | 47.9 | +40.4 |
+| dallas seo services | /locations/dallas/ | 94 | 87.5 | -2.7 |
+| serp checker free | /seo-tools/serp-checker/ | 92 | 83.4 | +3.6 |
+| seo for plumbers | /seo-for-plumbers/ | 90 | 94.0 | +2.6 |
+| austin seo | /locations/austin/ | 88 | 78.2 | -4.3 |
+| houston seo company | /locations/houston/ | 87 | 79.9 | +9.6 |
+| dallas seo | /locations/dallas/ | 85 | 87.0 | +2.6 |
+| serp seo checker | /seo-tools/serp-checker/ | 80 | 64.5 | +3.5 |
+| plumber seo services | /seo-for-plumbers/ | 77 | 66.7 | +20.6 |
+| online serp checker | /seo-tools/serp-checker/ | 76 | 75.7 | +6.8 |
+| serp free checker | /seo-tools/serp-checker/ | 76 | 87.5 | +1.5 |
+| dallas seo company | /locations/dallas/ | 75 | 88.7 | +1.8 |
+| phoenix seo company | /locations/phoenix/ | 74 | 79.2 | -1.4 |
+| plumber seo company | /seo-for-plumbers/ | 74 | 57.7 | +16.3 |
+| austin seo expert | /locations/austin/ | 73 | 75.4 | +6.4 |
+| free online serp checker | /seo-tools/serp-checker/ | 73 | 75.7 | +13.4 |
+| chicago seo company | /locations/chicago/ | 71 | 78.5 | +10.4 |
+| seo company houston | /locations/houston/ | 68 | 75.9 | +6.0 |
+| seo houston | /locations/houston/ | 67 | 82.2 | +9.8 |
+| seo score checker | /seo-tools/seo-score-checker/ | 67 | 92.8 | -4.7 |
+| seo company phoenix | /locations/phoenix/ | 65 | 81.0 | +6.9 |
+| search engine optimization service | /industries/ | 64 | 51.0 | new |
+| seo optimization companies | /locations/ | 63 | 69.3 | new |
+| serp checking tool | /seo-tools/serp-checker/ | 62 | 91.3 | +0.8 |
+| seo services phoenix | /locations/phoenix/ | 61 | 80.9 | +6.7 |
+| seo phoenix | /locations/phoenix/ | 60 | 83.3 | +1.7 |
 
 ## Keywords in positions 1 to 20
 
@@ -156,121 +158,121 @@ Position change: positive means the page moved up.
 - 3.0: how are enterprise marketing teams with large web estates maintaining real-time visibility into search content performance across all pages (1 impr, /enterprise-seo/)
 - 3.0: local seo services for cleaning companies near me (1 impr, /seo-for-cleaning/)
 - 5.0: seo manager austin (1 impr, /locations/austin/)
-- 5.0: checkingseoranking (1 impr, /seo-tools/keyword-rank-checker/)
 - 6.0: best seo marketing company in usa (1 impr, /locations/)
 - 6.0: overflow cafe seo (1 impr, /seo-for-cafes/)
 - 7.5: best seo company usa (2 impr, /locations/)
 - 8.0: expert search engine optimization services (1 impr, /industries/)
-- 8.0: for auto painting , summarize the seo/content landscape: top intents, formats that rank, and which brands dominate. (1 impr, /seo-for-auto-detailing/)
+- 9.0: search engine optimization agencies near me (1 impr, /locations/)
 - 9.0: desktop serp checker (1 impr, /seo-tools/serp-checker/)
 - 9.3: search optimization firm (3 impr, /industries/)
-- 9.7: best seo company near me (14 impr, /locations/chicago/)
-- 10.0: search engine optimizer services (1 impr, /industries/)
+- 9.5: dashboard keyword grouping in new york (2 impr, /locations/new-york/)
+- 10.5: best seo company near me (15 impr, /locations/chicago/)
 - 10.7: serp checker tools (3 impr, /seo-tools/serp-checker/)
-- 11.0: seo checker keyword (3 impr, /seo-tools/keyword-rank-checker/)
 - 11.0: search engine optimization services. (1 impr, /industries/)
-- 11.0: seo company for dentists alabaster (1 impr, /seo-for-dentists/)
 - 11.0: keyword rankings online (1 impr, /seo-tools/keyword-rank-checker/)
 - 11.0: online serp tracker (1 impr, /seo-tools/serp-checker/)
 - 11.2: seo ranking check kostenlos (5 impr, /seo-tools/keyword-rank-checker/)
 - 11.5: search engine optimization company upper east side (2 impr, /locations/manhattan/)
 - 11.5: rank-checker.online (2 impr, /seo-tools/keyword-rank-checker/)
+- 12.0: seo checker keyword (4 impr, /seo-tools/keyword-rank-checker/)
 - 12.0: seo company list (1 impr, /locations/)
 - 12.0: seo service provider (1 impr, /locations/austin/)
-- 12.2: seo service usa (6 impr, /locations/)
-- 12.8: keyword ranking tool online (4 impr, /seo-tools/keyword-rank-checker/)
+- 13.5: serp rank checker tool (34 impr, /seo-tools/serp-checker/)
 - 13.7: seo ranking ermitteln (3 impr, /seo-tools/keyword-rank-checker/)
 - 14.0: rank tracking online new york city, ny (5 impr, /locations/manhattan/)
 - 14.0: 17817: seo ranking checker (1 impr, /seo-tools/keyword-rank-checker/)
+- 14.0: seo keywords check (1 impr, /seo-tools/keyword-research-tool/)
+- 14.1: online seo rank tracker (26 impr, /seo-tools/keyword-rank-checker/)
+- 14.5: seo service usa (11 impr, /locations/)
 - 14.5: local ranking serp tool free online (2 impr, /seo-tools/serp-checker/)
-- 14.5: online seo rank tracker (19 impr, /seo-tools/keyword-rank-checker/)
-- 14.7: serp rank checker tool (21 impr, /seo-tools/serp-checker/)
+- 15.0: keywords search tool (1 impr, /seo-tools/keyword-research-tool/)
 - 16.0: search ranking service (1 impr, /seo-services/)
 - 16.0: online keyword ranking tool (1 impr, /seo-tools/keyword-rank-checker/)
 - 16.5: seo review tools rank checker (2 impr, /seo-tools/keyword-rank-checker/)
 - 17.0: roofing seo near me (1 impr, /seo-for-roofing/)
-- 17.0: rank my website (1 impr, /seo-tools/keyword-rank-checker/)
 - 17.5: top seo company near me (2 impr, /locations/new-york/)
+- 17.6: baltimore online reputation management (5 impr, /locations/baltimore/)
+- 17.8: serp tracker online (5 impr, /seo-tools/serp-checker/)
 
 ## Biggest gains (impr >= 3)
 
-- +85.6 to 9.7: best seo company near me (/locations/chicago/)
-- +61.4 to 22.8: seo experts near me (/locations/houston/)
+- +84.7 to 10.5: best seo company near me (/locations/chicago/)
+- +65.8 to 23.3: seo experts near me (/locations/houston/)
 - +54.4 to 31.6: deep cleaning services seo company (/seo-for-cleaning/)
-- +52.9 to 43.1: best houston seo company (/locations/houston/)
-- +52.0 to 35.0: find an seo services company near me (/locations/new-york/)
-- +48.7 to 35.4: preschool seo company (/seo-for-daycares/)
+- +51.1 to 44.9: best houston seo company (/locations/houston/)
+- +49.0 to 44.0: check seo of a page (/seo-tools/website-seo-checker/)
+- +48.8 to 48.3: seo site checker tool (/seo-tools/website-seo-checker/)
 - +47.0 to 45.0: seo checker tool free (/seo-tools/seo-score-checker/)
-- +46.8 to 22.5: seo company (/locations/phoenix/)
-- +45.5 to 31.5: seo company near me (/locations/new-york/)
+- +45.7 to 23.7: seo company (/locations/phoenix/)
+- +44.6 to 34.4: seo company near me (/locations/new-york/)
+- +44.5 to 42.5: find an seo services company near me (/locations/new-york/)
+- +44.4 to 34.6: preschool seo company (/seo-for-daycares/)
+- +43.0 to 41.8: cleaning service seo company (/seo-for-cleaning/)
 - +41.5 to 54.0: search results checker (/seo-tools/serp-checker/)
-- +39.5 to 52.0: brake repair shop search engine optimization (/seo-for-auto-repair/)
-- +38.5 to 60.0: check seo on page online (/seo-tools/website-seo-checker/)
-- +37.5 to 51.1: website seo checker tools (/seo-tools/website-seo-checker/)
-- +35.7 to 51.9: search engine ranking service (/seo-services/)
-- +35.0 to 57.0: plumber seo service (/seo-for-plumbers/)
-- +34.4 to 35.8: search engine optimization near me (/locations/new-york/)
-- +33.3 to 63.7: keyword page checker (/seo-tools/keyword-research-tool/)
-- +33.3 to 59.2: plumbing seo services (/seo-for-plumbers/)
-- +32.8 to 54.8: seo cleaning services (/seo-for-cleaning/)
-- +30.9 to 62.7: plumbers seo services (/seo-for-plumbers/)
+- +40.4 to 47.9: search engine ranking service (/seo-services/)
+- +39.4 to 49.2: website seo checker tools (/seo-tools/website-seo-checker/)
+- +39.4 to 58.6: cek keyword website (/seo-tools/keyword-research-tool/)
+- +38.0 to 60.0: check seo on page online (/seo-tools/website-seo-checker/)
+- +37.9 to 56.5: plumbers seo services (/seo-for-plumbers/)
+- +37.9 to 59.4: cleaning company local seo company (/seo-for-cleaning/)
+- +37.8 to 55.4: plumbers seo (/seo-for-plumbers/)
 
 ## Biggest drops (impr >= 3)
 
-- -58.1 to 90.5: seo rankings check (/seo-tools/keyword-rank-checker/)
-- -53.2 to 96.0: website ranking checker online (/seo-tools/keyword-rank-checker/)
-- -53.0 to 83.0: seo ranking check online (/seo-tools/keyword-rank-checker/)
-- -38.4 to 78.3: search engine optimization los angeles ca (/locations/los-angeles/)
-- -34.2 to 91.2: cleaning company ai seo agency (/seo-for-cleaning/)
-- -30.5 to 88.5: ai search agency for cleaning businesses (/seo-for-cleaning/)
-- -30.0 to 96.0: organic cheap seo growth phoenix az (/locations/phoenix/)
-- -28.6 to 88.9: website rank checker online (/seo-tools/keyword-rank-checker/)
-- -22.5 to 74.0: seo near me (/locations/houston/)
-- -22.2 to 80.3: seo ranking check (/seo-tools/keyword-rank-checker/)
-- -22.0 to 65.5: seo audit near me (/locations/baltimore/)
-- -21.7 to 87.0: york seo consultant (/locations/new-york/)
+- -55.8 to 88.1: seo rankings check (/seo-tools/keyword-rank-checker/)
+- -55.7 to 87.7: local maps seo services (/local-seo/)
+- -33.1 to 48.5: seo rank online (/seo-tools/keyword-rank-checker/)
+- -31.6 to 92.1: website rank checker online (/seo-tools/keyword-rank-checker/)
+- -30.2 to 90.3: med spa seo tampa (/seo-for-med-spas/)
+- -27.3 to 64.8: find seo ranking (/seo-tools/keyword-rank-checker/)
+- -25.7 to 92.7: ai search agency for cleaning businesses (/seo-for-cleaning/)
+- -22.7 to 54.7: check website keyword (/seo-tools/keyword-research-tool/)
+- -22.6 to 87.0: ranking check tool (/seo-tools/keyword-rank-checker/)
+- -21.6 to 42.2: check seo ranking (/seo-tools/keyword-rank-checker/)
+- -21.4 to 92.7: local seo phoenix az (/locations/phoenix/)
 - -20.9 to 52.2: seo tools content check (/seo-tools/website-seo-checker/)
-- -20.7 to 85.1: search engine optimization houston (/locations/houston/)
-- -20.2 to 39.4: seo rank online (/seo-tools/keyword-rank-checker/)
-- -17.9 to 80.9: ranking check tool (/seo-tools/keyword-rank-checker/)
-- -17.7 to 82.8: search engine optimization orlando (/locations/orlando/)
-- -17.3 to 88.0: brooklyn seo company (/locations/new-york/)
-- -16.0 to 59.0: seo consultation services (/seo-consulting/)
-- -15.9 to 85.4: seo company near me houston (/locations/houston/)
+- -19.0 to 79.7: seo ranking check (/seo-tools/keyword-rank-checker/)
+- -18.4 to 89.0: check seo rankings (/seo-tools/keyword-rank-checker/)
+- -18.3 to 60.3: seo look up (/seo-tools/website-seo-checker/)
+- -17.7 to 83.0: york seo consultant (/locations/new-york/)
+- -14.6 to 87.0: brooklyn seo company (/locations/new-york/)
+- -14.2 to 48.2: seo service near me (/locations/houston/)
+- -14.2 to 68.7: local seo company in new york (/locations/new-york/)
+- -13.5 to 97.5: seo companies in san francisco (/locations/san-francisco/)
 
-## New keywords this week (impr >= 3): 512
+## New keywords this week (impr >= 3): 576
 
-- serp checker (175 impr, pos 88.7, /seo-tools/serp-checker/)
-- search engine optimization service (54 impr, pos 54.5, /industries/)
-- seo consulting services (51 impr, pos 91.9, /seo-consulting/)
-- seo consultant (49 impr, pos 87.9, /seo-consulting/)
-- seo ranking services (47 impr, pos 59.3, /seo-services/)
-- seo optimization companies (45 impr, pos 68.7, /locations/)
-- keyword checker (45 impr, pos 67.3, /seo-tools/keyword-research-tool/)
-- seo services chicago (43 impr, pos 90.0, /locations/chicago/)
-- serp tool (43 impr, pos 29.0, /seo-tools/serp-checker/)
-- free seo keyword ranking report (34 impr, pos 64.4, /seo-tools/keyword-research-tool/)
-- free seo search (32 impr, pos 81.6, /seo-tools/keyword-research-tool/)
-- backlink checker tool online free (31 impr, pos 97.1, /seo-tools/backlink-checker/)
-- local search seo services (29 impr, pos 80.5, /local-seo/)
+- serp checker (259 impr, pos 89.2, /seo-tools/serp-checker/)
+- seo consulting services (110 impr, pos 90.6, /seo-consulting/)
+- seo consultant (109 impr, pos 91.4, /seo-consulting/)
+- search engine optimization service (64 impr, pos 51.0, /industries/)
+- seo optimization companies (63 impr, pos 69.3, /locations/)
+- serp tool (56 impr, pos 29.5, /seo-tools/serp-checker/)
+- seo consulting (50 impr, pos 95.5, /seo-consulting/)
+- miami seo services (42 impr, pos 72.3, /locations/miami/)
+- search engine ranking services (40 impr, pos 40.7, /seo-services/)
+- backlink checker tool online free (39 impr, pos 97.4, /seo-tools/backlink-checker/)
+- search optimization companies (37 impr, pos 47.0, /locations/)
+- seo consultation services (34 impr, pos 58.1, /seo-consulting/)
+- serp rank checker tool (34 impr, pos 13.5, /seo-tools/serp-checker/)
+- search engine consulting (33 impr, pos 65.5, /seo-consulting/)
+- seo consultant services (32 impr, pos 67.5, /seo-consulting/)
+- seo consultancy (31 impr, pos 72.0, /seo-consulting/)
+- online backlink checker tool (30 impr, pos 83.9, /seo-tools/backlink-checker/)
+- serps rank checker (28 impr, pos 37.5, /seo-tools/serp-checker/)
+- serps tool (27 impr, pos 28.6, /seo-tools/serp-checker/)
 - domain name seo checker (26 impr, pos 37.4, /seo-tools/keyword-rank-checker/)
-- search optimization companies (25 impr, pos 44.3, /locations/)
-- online backlink checker tool (25 impr, pos 83.0, /seo-tools/backlink-checker/)
-- search engine ranking services (24 impr, pos 41.3, /seo-services/)
-- serps rank checker (24 impr, pos 37.8, /seo-tools/serp-checker/)
-- search engine consulting (23 impr, pos 65.7, /seo-consulting/)
-- miami seo services (22 impr, pos 79.0, /locations/miami/)
-- seo services in miami (22 impr, pos 84.3, /locations/miami/)
-- seo consultant services (22 impr, pos 68.3, /seo-consulting/)
-- seo plans (22 impr, pos 81.2, /seo-packages/)
-- seo check page (22 impr, pos 45.5, /seo-tools/website-seo-checker/)
-- serp rank checker tool (21 impr, pos 14.7, /seo-tools/serp-checker/)
-- search engine optimisation company (20 impr, pos 46.7, /locations/)
-- search engine optimization baltimore (20 impr, pos 68.1, /locations/baltimore/)
-- seo company in chicago (19 impr, pos 75.5, /locations/chicago/)
-- best seo company in houston (19 impr, pos 74.7, /locations/houston/)
-- online seo rank tracker (19 impr, pos 14.5, /seo-tools/keyword-rank-checker/)
+- online seo rank tracker (26 impr, pos 14.1, /seo-tools/keyword-rank-checker/)
+- search engine optimization baltimore (24 impr, pos 67.4, /locations/baltimore/)
+- seo check page (24 impr, pos 46.8, /seo-tools/website-seo-checker/)
+- best seo company in houston (23 impr, pos 73.1, /locations/houston/)
+- search engine optimisation company (22 impr, pos 46.0, /locations/)
+- seo services in houston (22 impr, pos 84.0, /locations/houston/)
+- search engine optimization consulting (22 impr, pos 72.0, /seo-consulting/)
+- online keyword position checker (22 impr, pos 31.5, /seo-tools/keyword-rank-checker/)
+- seo ranking checker online free (22 impr, pos 82.3, /seo-tools/keyword-rank-checker/)
+- miami seo (21 impr, pos 74.4, /locations/miami/)
 
-## Pages with no impressions this week: 66
+## Pages with no impressions this week: 64
 
-/aeo/, /blog/how-to-choose-an-seo-company/, /blog/google-business-profile-optimization-checklist/, /blog/how-much-does-seo-cost/, /blog/local-seo-90-day-roadmap/, /blog/aeo-vs-geo-vs-seo/, /blog/technical-seo-basics/, /blog/why-most-seo-campaigns-fail/, /competitor-seo-analysis/, /content-seo/, /geo/, /international-seo/, /keyword-research/, /link-building/, /locations/atlanta/, /locations/boston/, /locations/las-vegas/, /locations/seattle/, /off-page-seo/, /seo-for-doctors/, /seo-for-electricians/, /seo-for-fencing-companies/, /seo-for-financial-advisors/, /seo-for-flooring-companies/, /seo-for-florists/, /seo-for-general-contractors/, /seo-for-gyms/, /seo-for-home-builders/, /seo-for-insurance/, /seo-for-lawyers/, /seo-for-movers/, /seo-for-orthodontists/, /seo-for-personal-injury-lawyers/, /seo-for-plastic-surgeons/, /seo-for-pool-service-companies/, /seo-for-property-management/, /seo-for-salons/, /seo-for-therapists/, /seo-for-towing/, /seo-for-tutors/, /seo-for-veterinarians/, /seo-for-yoga-studios/, /seo-tools/robots-txt-checker/, /technical-seo/, /seo-for-private-jet-charter/, /seo-for-exotic-car-rental/, /seo-for-wedding-venues/, /locations/brooklyn/, /locations/nashville/, /blog/how-we-got-our-pages-indexed/, /blog/seo-for-contractors/, /blog/seo-keywords-by-industry/, /locations/washington-dc/, /locations/columbus/, /blog/what-does-an-seo-company-do/, /locations/milwaukee/, /locations/fort-worth/, /blog/who-is-the-best-local-seo-company/, /blog/best-seo-company-in-the-usa/, /locations/kansas-city/, /locations/sacramento/, /blog/how-to-tell-if-seo-is-working/, /seo-for-car-accident-lawyers/, /seo-for-mass-tort-lawyers/, /seo-for-final-expense-insurance/, /small-business-seo/
+/blog/how-to-choose-an-seo-company/, /blog/google-business-profile-optimization-checklist/, /blog/how-much-does-seo-cost/, /blog/local-seo-90-day-roadmap/, /blog/aeo-vs-geo-vs-seo/, /blog/technical-seo-basics/, /blog/why-most-seo-campaigns-fail/, /competitor-seo-analysis/, /content-seo/, /international-seo/, /keyword-research/, /link-building/, /locations/atlanta/, /locations/boston/, /locations/las-vegas/, /locations/seattle/, /off-page-seo/, /seo-for-doctors/, /seo-for-electricians/, /seo-for-fencing-companies/, /seo-for-financial-advisors/, /seo-for-flooring-companies/, /seo-for-florists/, /seo-for-general-contractors/, /seo-for-gyms/, /seo-for-home-builders/, /seo-for-insurance/, /seo-for-lawyers/, /seo-for-movers/, /seo-for-orthodontists/, /seo-for-personal-injury-lawyers/, /seo-for-plastic-surgeons/, /seo-for-pool-service-companies/, /seo-for-property-management/, /seo-for-salons/, /seo-for-therapists/, /seo-for-towing/, /seo-for-tutors/, /seo-for-veterinarians/, /seo-for-yoga-studios/, /seo-tools/robots-txt-checker/, /technical-seo/, /seo-for-private-jet-charter/, /seo-for-luxury-wedding-businesses/, /seo-for-wedding-venues/, /locations/brooklyn/, /locations/nashville/, /blog/how-we-got-our-pages-indexed/, /blog/seo-for-contractors/, /blog/seo-keywords-by-industry/, /locations/washington-dc/, /locations/columbus/, /blog/what-does-an-seo-company-do/, /locations/milwaukee/, /locations/fort-worth/, /blog/who-is-the-best-local-seo-company/, /blog/best-seo-company-in-the-usa/, /locations/kansas-city/, /locations/sacramento/, /blog/how-to-tell-if-seo-is-working/, /seo-for-car-accident-lawyers/, /seo-for-mass-tort-lawyers/, /seo-for-final-expense-insurance/, /small-business-seo/
