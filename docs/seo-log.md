@@ -13,6 +13,10 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-22 (12-hour run, 1:17 AM PKT)
+
+Monitoring only: Search Console has no new days (latest 19 Nov, so the 20-21 Nov outage is not in the data yet). Site live on Hostinger (spot checks 200). Bing InIndex 21, 0 crawl issues, quota 73. URL Inspection: /small-business-seo/, Washington DC, Columbus, Sacramento and 2 posts "Discovered - currently not indexed"; Fort Worth and /blog/best-seo-company-in-the-usa/ unknown to Google. No SEO changes. Indexing API: 0 sent (paused until 25 Nov).
+
 ## 2026-11-21 (12-hour run, 1:17 PM PKT)
 
 SITE BACK UP on Hostinger (server LiteSpeed, platform hostinger). Live check: all 148 pages 200; http->https, apex->www and missing-slash redirects 301; unknown URL 404; robots.txt, sitemaps, llms.txt, llms-full.txt, IndexNow key and feed served with correct types; long cache on assets; canonical correct. Resubmitted all sitemaps to Google, all 148 URLs to IndexNow and 27 priority URLs to Bing.
