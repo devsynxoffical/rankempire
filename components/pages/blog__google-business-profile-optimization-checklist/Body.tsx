@@ -1,5 +1,6 @@
 // Generated from content/posts/google-business-profile-optimization-checklist.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 1526;
 export const FAQ = [{"q":"How long does it take for Google Business Profile changes to affect rankings?","a":"Category and service changes usually show within a few days to two weeks. Reviews, photos and posts compound over months. Profiles that were barely filled in often see map pack movement within the first month of a complete setup."},{"q":"Can I add keywords to my business name?","a":"No. Google's guidelines require the real-world name, and keyword-stuffed names are the most common reason for suspensions. Put the keywords in categories, services and the description instead."},{"q":"How many reviews do I need to rank in the map pack?","a":"Enough to be competitive with the businesses currently showing for your searches, and a steady flow afterward. For most single-location service businesses that is four to eight new reviews a month, every month."},{"q":"Do Google posts help ranking?","a":"Marginally on their own, but active profiles hold positions better and convert more viewers, and posts are a free place to promote offers. One post a week is the right cadence."},{"q":"Should a service area business show its address?","a":"Only if customers visit the location. If they do not, hide the address and set the service area. Showing a home address for a service business is against the guidelines and can get the profile suspended."}];
@@ -71,6 +72,7 @@ export default function Body() {
           <p>{"Marginally on their own, but active profiles hold positions better and convert more viewers, and posts are a free place to promote offers. One post a week is the right cadence."}</p>
           <h3>{"Should a service area business show its address?"}</h3>
           <p>{"Only if customers visit the location. If they do not, hide the address and set the service area. Showing a home address for a service business is against the guidelines and can get the profile suspended."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

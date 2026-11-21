@@ -1,5 +1,6 @@
 // Generated from content/posts/why-most-seo-campaigns-fail.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 1274;
 export const FAQ = [{"q":"How long should I give an SEO campaign before judging it?","a":"Six months, provided the leading indicators (indexed pages, impressions, average position) are moving in the right order from month two. If nothing has moved by month four, including impressions, the sequencing or the foundation is wrong."},{"q":"Is it the agency's fault or the website's?","a":"Usually both are involved. A good agency audits the site first and tells you what has to change before content and links can work. If a campaign started with articles or links and skipped the audit, the order was wrong regardless of who did the work."},{"q":"Can a failed campaign be rescued?","a":"Almost always. The typical rescue is an audit (a short SEO consulting engagement works well if your team will do the fixes), a cleanup of thin or duplicated pages, a rebuild of the page-per-intent structure, conversion tracking, and then a return to earning authority. Progress tends to be faster than a fresh start because some authority already exists."},{"q":"What is a realistic SEO budget for a small business?","a":"It depends on the market, but our SEO packages start at single-location local plans and scale to multi-location and national programs. The right budget is the one that funds the full sequence above rather than a piece of it."}];
@@ -67,6 +68,7 @@ export default function Body() {
           <p>{"Almost always. The typical rescue is an audit (a short "}<a href="/seo-consulting/">{"SEO consulting"}</a>{" engagement works well if your team will do the fixes), a cleanup of thin or duplicated pages, a rebuild of the page-per-intent structure, conversion tracking, and then a return to earning authority. Progress tends to be faster than a fresh start because some authority already exists."}</p>
           <h3>{"What is a realistic SEO budget for a small business?"}</h3>
           <p>{"It depends on the market, but our "}<a href="/seo-packages/">{"SEO packages"}</a>{" start at single-location local plans and scale to multi-location and national programs. The right budget is the one that funds the full sequence above rather than a piece of it."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

@@ -1,5 +1,6 @@
 // Generated from content/posts/who-is-the-best-local-seo-company.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 1068;
 export const FAQ = [{"q":"Who is the best local SEO company?","a":"No company is the best for every business. The best local SEO company for you is one that can show Search Console and Google Business Profile results for similar businesses, measures map visibility with rank grids, gives you a written plan and publishes fair pricing without long contracts."},{"q":"Who is Google's best local SEO company?","a":"Google does not recommend or certify SEO companies. The Google Partners badge applies to Google Ads, not to SEO. Any agency claiming to be Google's preferred SEO company is misleading you."},{"q":"Who is the best local SEO company in the nation?","a":"There is no independent national ranking based on client results. Directories and \"best of\" lists combine reviews, self-reported data and sometimes paid placement. Use them to build a shortlist, then judge each company on proof, people, plan, price and ownership."},{"q":"How do I find the best local SEO company near me?","a":"Shortlist three to five companies from directories, referrals and your own searches, ask each for results from businesses like yours, a 90-day plan and pricing, and compare them side by side using the table above."},{"q":"What type of company needs SEO the most?","a":"Businesses whose customers search before they buy and choose a provider nearby: home services, medical and dental practices, law firms, restaurants, salons and other local services. For them, appearing in the map pack directly drives calls and bookings."}];
@@ -61,6 +62,7 @@ export default function Body() {
           <p>{"Shortlist three to five companies from directories, referrals and your own searches, ask each for results from businesses like yours, a 90-day plan and pricing, and compare them side by side using the table above."}</p>
           <h3>{"What type of company needs SEO the most?"}</h3>
           <p>{"Businesses whose customers search before they buy and choose a provider nearby: home services, medical and dental practices, law firms, restaurants, salons and other local services. For them, appearing in the map pack directly drives calls and bookings."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

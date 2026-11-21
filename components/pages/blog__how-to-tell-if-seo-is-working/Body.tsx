@@ -1,5 +1,6 @@
 // Generated from content/posts/how-to-tell-if-seo-is-working.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 1204;
 export const FAQ = [{"q":"How do I know if my SEO is working?","a":"Check Google Search Console. If impressions are rising, average positions for your target searches are improving and important pages are indexed, SEO is working. Clicks and leads follow once pages reach the first page of results."},{"q":"How do I tell if my SEO company is working?","a":"Ask for monthly Search Console data, positions for agreed target keywords, a list of pages changed and organic leads. If your company reports only tasks completed or links built, without this data, it is hard to know whether the work is paying off."},{"q":"Does SEO really work?","a":"Yes, for businesses whose customers search for what they sell, but it takes months and depends on the site's technical health, content and authority. It does not work when nobody searches for the service or when shortcuts such as bought links are used."},{"q":"Why is my SEO not working?","a":"The most common reasons are pages that are not indexed, content that does not match what people search for, one page targeting too many topics, low authority from few real links, and judging results too early."},{"q":"How long does it take to see SEO results?","a":"Impressions usually rise within weeks, positions improve over two to six months, and clicks and leads grow once pages reach the first page. Competitive searches take longer."},{"q":"How do I track SEO results?","a":"Use Google Search Console for impressions, clicks, positions and indexing, analytics for organic visits and leads, and call tracking or form events for conversions. Compare month over month rather than day to day."}];
@@ -71,6 +72,7 @@ export default function Body() {
           <p>{"Impressions usually rise within weeks, positions improve over two to six months, and clicks and leads grow once pages reach the first page. Competitive searches take longer."}</p>
           <h3>{"How do I track SEO results?"}</h3>
           <p>{"Use Google Search Console for impressions, clicks, positions and indexing, analytics for organic visits and leads, and call tracking or form events for conversions. Compare month over month rather than day to day."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

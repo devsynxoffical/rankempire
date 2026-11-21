@@ -1,5 +1,6 @@
 // Generated from content/posts/seo-keywords-by-industry.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 1654;
 export const FAQ = [{"q":"What are the best SEO keywords for a local business?","a":"The best keywords combine a specific service with a location or an urgent need, such as \"emergency plumber Houston\" or \"ceramic coating Scottsdale\". They have lower search volume than broad terms but far higher intent, and they are easier to rank for."},{"q":"Should I put \"near me\" in my keywords?","a":"Usually not on the page itself. Google interprets \"near me\" using the searcher's location and your Google Business Profile, service areas and reviews. Focus on accurate location details and pages for the areas you serve."},{"q":"How many keywords should one page target?","a":"One primary keyword and a handful of close variants with the same intent. If two keywords need different answers, they need different pages."},{"q":"How do I find which keywords my site already ranks for?","a":"Open Google Search Console, go to Performance and look at the Queries tab. It lists every search that showed your site, with impressions and average position. Pages at positions 11 to 30 are the quickest wins."},{"q":"Do I need a paid keyword tool?","a":"Not to start. Search Console, Google's autocomplete, People Also Ask boxes and your own customer calls give plenty of keywords. Paid tools add search volume and difficulty data, which helps when choosing between many options."}];
@@ -107,6 +108,7 @@ export default function Body() {
           <p>{"Open Google Search Console, go to Performance and look at the Queries tab. It lists every search that showed your site, with impressions and average position. Pages at positions 11 to 30 are the quickest wins."}</p>
           <h3>{"Do I need a paid keyword tool?"}</h3>
           <p>{"Not to start. Search Console, Google's autocomplete, People Also Ask boxes and your own customer calls give plenty of keywords. Paid tools add search volume and difficulty data, which helps when choosing between many options."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

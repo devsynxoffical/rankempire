@@ -1,5 +1,6 @@
 // Generated from content/posts/how-to-choose-an-seo-company.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 1466;
 export const FAQ = [{"q":"How do I know if an SEO company is legitimate?","a":"Check for real Search Console results shared with permission, a named strategist, clear monthly deliverables, transparent link building methods and fair contract terms. Avoid any company that guarantees rankings or results in 30 days."},{"q":"How much should I pay an SEO company?","a":"Most small businesses pay $500 to $2,500 a month, multi-location and e-commerce programs $2,000 to $8,000, and national or enterprise programs more. The right price funds the full sequence of work rather than a piece of it. See our pricing for exact plans."},{"q":"How long before an SEO company shows results?","a":"Expect early movement on low-competition and branded searches within four to eight weeks, meaningful gains for core terms in four to six months, and compounding growth after that. Leading indicators like impressions and positions should move first."},{"q":"Should I sign a long-term SEO contract?","a":"A short onboarding period of around three months is reasonable because early work is front-loaded. After that, month to month with 30 days notice is fair and keeps the agency accountable."},{"q":"What should an SEO company report every month?","a":"Work completed, rankings and visibility for target searches, organic traffic, and the business results that matter: calls, form submissions, bookings and revenue from organic search, plus what comes next."},{"q":"Is it better to hire an SEO company or a freelancer?","a":"Freelancers can be excellent for focused tasks and smaller budgets. Agencies make sense when you need several skills at once, such as technical SEO, content, links and local work, or continuity if one person is unavailable."}];
@@ -86,6 +87,7 @@ export default function Body() {
           <p>{"Work completed, rankings and visibility for target searches, organic traffic, and the business results that matter: calls, form submissions, bookings and revenue from organic search, plus what comes next."}</p>
           <h3>{"Is it better to hire an SEO company or a freelancer?"}</h3>
           <p>{"Freelancers can be excellent for focused tasks and smaller budgets. Agencies make sense when you need several skills at once, such as technical SEO, content, links and local work, or continuity if one person is unavailable."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

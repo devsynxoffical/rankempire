@@ -61,6 +61,7 @@ function build(post) {
   mkdirSync(`app/blog/${post.slug}`, { recursive: true });
   const body = `// Generated from content/posts/${post.slug}.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = ${words};
 export const FAQ = ${JSON.stringify(faq)};
@@ -85,6 +86,7 @@ ${toc.map((t) => `          <a href="#${t.id}">${inline(t.t)}</a>`).join('\n')}
         </aside>
         <article className="prose" data-r="">
 ${blocks.map((b) => '          ' + b).join('\n')}
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

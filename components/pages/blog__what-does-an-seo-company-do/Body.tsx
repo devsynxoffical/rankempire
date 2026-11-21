@@ -1,5 +1,6 @@
 // Generated from content/posts/what-does-an-seo-company-do.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 1205;
 export const FAQ = [{"q":"What does an SEO company do?","a":"An SEO company improves a business's visibility in search engines and AI answers. It fixes technical problems, builds and improves pages that match customer searches, optimizes the Google Business Profile, earns reviews and links, and reports results from Search Console and lead data."},{"q":"What is an SEO agency?","a":"An SEO agency is a team of specialists that handles search engine optimization for other businesses: strategy, technical SEO, content, local SEO and link building. \"SEO agency\" and \"SEO company\" usually mean the same thing."},{"q":"What are SEO services?","a":"SEO services are the tasks that improve how a website ranks in search: technical fixes, keyword and content work, on-page optimization, local SEO, link building and reporting. Agencies sell them as monthly plans or one-time projects such as audits."},{"q":"Do I need an SEO company or can I do SEO myself?","a":"You can do the basics yourself with a few hours a week and good guides. An SEO company makes sense when your market is competitive, when nobody has time to work on SEO consistently, or when technical problems need a specialist."},{"q":"How long before an SEO company shows results?","a":"Early gains on low-competition searches often appear within four to eight weeks. Competitive terms usually take four to six months. Impressions in Search Console rise first, then positions, then clicks and leads."},{"q":"What does an SEO consultant do?","a":"An SEO consultant audits a site, sets strategy and advises a business or its team on what to change. Unlike a full-service agency, a consultant often leaves most of the implementation to the client's team."}];
@@ -71,6 +72,7 @@ export default function Body() {
           <p>{"Early gains on low-competition searches often appear within four to eight weeks. Competitive terms usually take four to six months. Impressions in Search Console rise first, then positions, then clicks and leads."}</p>
           <h3>{"What does an SEO consultant do?"}</h3>
           <p>{"An SEO consultant audits a site, sets strategy and advises a business or its team on what to change. Unlike a full-service agency, a consultant often leaves most of the implementation to the client's team."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

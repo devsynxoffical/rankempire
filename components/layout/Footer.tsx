@@ -1,3 +1,4 @@
+import PreferredSource from '@/components/sections/PreferredSource';
 import site from '@/content/site.json';
 
 const LABELS: Record<string, string> = { facebook: 'Facebook', linkedin: 'LinkedIn', instagram: 'Instagram', youtube: 'YouTube', x: 'X/Twitter' };
@@ -174,6 +175,7 @@ export default function Footer() {
           <a className="femail" href="mailto:hello@rankempire.com">
             {"hello@rankempire.com"}
           </a>
+          <PreferredSource />
         </div>
         <div className="fmeta">
           <span>

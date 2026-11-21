@@ -1,5 +1,6 @@
 // Generated from content/posts/technical-seo-basics.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 1169;
 export const FAQ = [{"q":"What is the difference between crawling and indexing?","a":"Crawling is Google visiting a page and reading it. Indexing is Google deciding to store it and make it eligible to appear in results. A page can be crawled and still excluded from the index if it is a duplicate, thin, blocked by a noindex tag, or judged not useful enough."},{"q":"How do I know if Google has indexed my page?","a":"Use the URL Inspection tool in Google Search Console. It shows whether the page is indexed, when it was last crawled, the canonical Google chose, and any blocking issues. The Pages report lists every excluded URL with the reason."},{"q":"Does site speed really affect rankings?","a":"Yes, through Core Web Vitals, and it affects conversions even more. The ranking effect is modest between two fast sites but significant when a site fails the thresholds on mobile."},{"q":"How often should I run a technical audit?","a":"A full audit once a year, or after any redesign, platform change or migration. Monthly, check the Pages and Core Web Vitals reports in Search Console for anything new."}];
@@ -71,6 +72,7 @@ export default function Body() {
           <p>{"Yes, through Core Web Vitals, and it affects conversions even more. The ranking effect is modest between two fast sites but significant when a site fails the thresholds on mobile."}</p>
           <h3>{"How often should I run a technical audit?"}</h3>
           <p>{"A full audit once a year, or after any redesign, platform change or migration. Monthly, check the Pages and Core Web Vitals reports in Search Console for anything new."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

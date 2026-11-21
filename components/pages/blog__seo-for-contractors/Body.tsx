@@ -1,5 +1,6 @@
 // Generated from content/posts/seo-for-contractors.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 1246;
 export const FAQ = [{"q":"What is the most important SEO factor for contractors?","a":"For most contractors it is the Google Business Profile: the right primary category, accurate service areas, steady reviews that mention the job and town, and regular photos. The website supports it with one strong page per job."},{"q":"Should contractors publish prices on their website?","a":"Publishing starting prices or ranges usually helps. Customers and AI assistants compare options, and specific numbers make a contractor easier to choose. You can explain what changes the final price without committing to a fixed quote."},{"q":"What is local SEO for contractors?","a":"Local SEO for contractors is the work that puts a trade business in Google Maps and the local results for searches in its service area: a complete Google Business Profile, one page per service, pages for the towns you serve, steady reviews and local links."},{"q":"Do contractors need a page for every city they serve?","a":"Only for towns where you have real work, reviews and something specific to say. A few strong service area pages outperform dozens of near-identical ones."},{"q":"Is SEO or Google Local Services Ads better for contractors?","a":"They work together. Local Services Ads buy immediate visibility for a fee per lead, while SEO builds rankings that keep producing calls without paying per click. Many contractors use ads while their organic rankings grow."},{"q":"How much does SEO cost for a contractor?","a":"Single-location local plans at RankEmpire start at $599 a month. Multi-location and competitive metro programs cost more. See our SEO packages for what each plan includes."}];
@@ -76,6 +77,7 @@ export default function Body() {
           <p>{"They work together. Local Services Ads buy immediate visibility for a fee per lead, while SEO builds rankings that keep producing calls without paying per click. Many contractors use ads while their organic rankings grow."}</p>
           <h3>{"How much does SEO cost for a contractor?"}</h3>
           <p>{"Single-location local plans at RankEmpire start at $599 a month. Multi-location and competitive metro programs cost more. See our "}<a href="/seo-packages/">{"SEO packages"}</a>{" for what each plan includes."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

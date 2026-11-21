@@ -1,5 +1,6 @@
 // Generated from content/posts/ai-agent-optimization.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 1743;
 export const FAQ = [{"q":"What is AI agent optimization (AGO)?","a":"AI agent optimization is the practice of making a business easy for AI agents to find, verify and transact with when they act on a user's behalf. It focuses on structured business data, consistent listings, published prices and availability, and booking or quote flows an agent can complete."},{"q":"How is AGO different from GEO?","a":"Generative engine optimization gets your brand mentioned and cited in AI answers. AI agent optimization goes a step further and makes your business usable when the assistant takes an action, such as comparing quotes or booking an appointment. GEO earns the mention; AGO earns the transaction."},{"q":"Do AI agents really book appointments today?","a":"Yes, in growing numbers. Assistants can already search, compare, fill in forms and place calls for some tasks, and booking and shopping features are expanding across the major AI platforms. Businesses with clean data and simple booking flows are the ones agents can use reliably."},{"q":"What is the quickest AGO win for a local business?","a":"Make your business data identical across your website and every major listing, add LocalBusiness schema with your hours, service area and price range, and publish starting prices with a simple booking or quote form. Those three steps remove most of the reasons an agent would skip you."},{"q":"Does AGO replace SEO?","a":"No. Agents discover businesses through the same search indexes and listings that SEO and local SEO improve. AGO builds on that foundation by making the business verifiable and actionable once it is found."},{"q":"How do I measure AI agent optimization?","a":"Track structured data coverage and listing accuracy, run a monthly set of agent-style prompts across the main assistants to see whether your business is chosen, and tag bookings and inquiries that arrive through AI assistants or voice calls."}];
@@ -76,6 +77,7 @@ export default function Body() {
           <p>{"No. Agents discover businesses through the same search indexes and listings that SEO and local SEO improve. AGO builds on that foundation by making the business verifiable and actionable once it is found."}</p>
           <h3>{"How do I measure AI agent optimization?"}</h3>
           <p>{"Track structured data coverage and listing accuracy, run a monthly set of agent-style prompts across the main assistants to see whether your business is chosen, and tag bookings and inquiries that arrive through AI assistants or voice calls."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

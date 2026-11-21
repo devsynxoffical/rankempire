@@ -1,5 +1,6 @@
 // Generated from content/posts/how-we-got-our-pages-indexed.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 944;
 export const FAQ = [{"q":"How long does it take Google to index a new website?","a":"Small, well-linked sites are often indexed within days. Larger new sites with little authority can wait weeks or months for most pages. Fixing duplicates, internal links and sitemaps, then requesting indexing, usually shortens that from months to weeks."},{"q":"Why are my pages \"Discovered, currently not indexed\"?","a":"Google found the URL but decided crawling it was not worth the effort yet. Common causes are low site authority, thin or duplicated content, weak internal linking and too many similar pages. Improve those, then resubmit the sitemap."},{"q":"Does the Google Indexing API work for normal pages?","a":"Google officially supports it only for job postings and livestream pages. It often speeds up crawling for other pages, but it does not guarantee indexing or rankings. Fixing page quality and internal links matters more."},{"q":"Why do I have impressions but no clicks?","a":"Impressions at positions 50 to 100 mean Google shows your page deep in the results, where almost nobody scrolls. Clicks start when pages reach the first page, which usually requires links and mentions from other sites on top of good on-page SEO."}];
@@ -65,6 +66,7 @@ export default function Body() {
           <p>{"Google officially supports it only for job postings and livestream pages. It often speeds up crawling for other pages, but it does not guarantee indexing or rankings. Fixing page quality and internal links matters more."}</p>
           <h3>{"Why do I have impressions but no clicks?"}</h3>
           <p>{"Impressions at positions 50 to 100 mean Google shows your page deep in the results, where almost nobody scrolls. Clicks start when pages reach the first page, which usually requires links and mentions from other sites on top of good on-page SEO."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

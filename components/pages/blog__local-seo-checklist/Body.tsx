@@ -1,5 +1,6 @@
 // Generated from content/posts/local-seo-checklist.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 1162;
 export const FAQ = [{"q":"What matters most for ranking in the Google map pack?","a":"Relevance (a complete profile and site that clearly match the search), distance (which you cannot change) and prominence (reviews, links and mentions). The profile and reviews are the fastest levers; links and mentions compound over months."},{"q":"How often should I post on Google Business Profile?","a":"Weekly is enough to keep the profile active. Posts are a minor ranking factor on their own, but profiles with recent activity hold positions better and convert more viewers into calls."},{"q":"Do citations still matter for local SEO?","a":"Consistent citations matter; volume does not. Fix the major platforms and your industry's directories, make every listing identical, and stop there. Hundreds of low-quality directory listings add nothing."}];
@@ -72,6 +73,7 @@ export default function Body() {
           <p>{"Weekly is enough to keep the profile active. Posts are a minor ranking factor on their own, but profiles with recent activity hold positions better and convert more viewers into calls."}</p>
           <h3>{"Do citations still matter for local SEO?"}</h3>
           <p>{"Consistent citations matter; volume does not. Fix the major platforms and your industry's directories, make every listing identical, and stop there. Hundreds of low-quality directory listings add nothing."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>

@@ -1,5 +1,6 @@
 // Generated from content/posts/local-seo-90-day-roadmap.md by scripts/build-posts.mjs. Edit the Markdown, not this file.
 import AuthorCard from '@/components/blog/AuthorCard';
+import PreferredSource from '@/components/sections/PreferredSource';
 
 export const WORDS = 2002;
 export const FAQ = [{"q":"How long does local SEO take to work?","a":"Profile and relevance fixes often show movement within two to four weeks on branded and low-competition searches. Competitive map pack terms usually take three to six months, because prominence signals like reviews and local links compound over time."},{"q":"Do I need a separate page for every city I serve?","a":"Only for the areas that matter commercially and only if you can write something true and specific about each one. A handful of detailed area pages outperform dozens of city-swapped duplicates, which Google filters."},{"q":"How many Google reviews do I need?","a":"Enough to match or beat the businesses currently in the map pack for your searches, and a steady flow afterward. For most single-location service businesses that means four to eight new reviews a month, every month."},{"q":"Should I use a tracking number on my Google Business Profile?","a":"Yes, if you set the tracking number as the primary number and list your real number as an additional number, so the name, address and phone details stay consistent across the web. Call tracking is how you prove the profile is producing leads."},{"q":"What is a local rank grid?","a":"A map of your service area divided into points, each showing where you rank for a keyword when the search happens from that spot. It replaces the misleading single check from your office with a true picture of visibility across the whole area."},{"q":"Can local SEO help if I do not have a storefront?","a":"Yes. Service area businesses can hide their address and set the areas they serve. The roadmap is the same, with more weight on area pages, reviews that mention locations, and local links, since there is no storefront prominence to lean on."}];
@@ -84,6 +85,7 @@ export default function Body() {
           <p>{"A map of your service area divided into points, each showing where you rank for a keyword when the search happens from that spot. It replaces the misleading single check from your office with a true picture of visibility across the whole area."}</p>
           <h3>{"Can local SEO help if I do not have a storefront?"}</h3>
           <p>{"Yes. Service area businesses can hide their address and set the areas they serve. The roadmap is the same, with more weight on area pages, reviews that mention locations, and local links, since there is no storefront prominence to lean on."}</p>
+          <PreferredSource variant="post" />
           <AuthorCard />
         </article>
       </div>
