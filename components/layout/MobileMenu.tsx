@@ -18,8 +18,14 @@ export default function MobileMenu() {
           <a href="/small-business-seo/">
             {"Small Business SEO"}
           </a>
+          <a href="/local-citation-building/">
+            {"Local Citation Building"}
+          </a>
           <a href="/ecommerce-seo/">
             {"E-commerce SEO"}
+          </a>
+          <a href="/shopify-seo/">
+            {"Shopify SEO"}
           </a>
           <a href="/saas-seo/">
             {"SaaS SEO"}
@@ -116,6 +122,12 @@ export default function MobileMenu() {
           </a>
           <a href="/seo-tools/seo-audit-tool/">
             {"SEO Audit Tool"}
+          </a>
+          <a href="/seo-tools/serp-checker/">
+            {"SERP Checker"}
+          </a>
+          <a href="/seo-tools/seo-score-checker/">
+            {"SEO Score Checker"}
           </a>
           <a href="/seo-tools/keyword-rank-checker/">
             {"Keyword Rank Checker"}

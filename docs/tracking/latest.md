@@ -1,6 +1,6 @@
 # RankEmpire tracking report
 
-Generated 2026-11-21 20:19 UTC. Google data: 2026-11-13 to 2026-11-19 (last 7 days with data) compared with 2026-11-06 to 2026-11-12. Search Console data usually lags 2 to 3 days.
+Generated 2026-11-22 07:18 UTC. Google data: 2026-11-13 to 2026-11-19 (last 7 days with data) compared with 2026-11-06 to 2026-11-12. Search Console data usually lags 2 to 3 days.
 
 ## Totals
 
@@ -12,7 +12,7 @@ Generated 2026-11-21 20:19 UTC. Google data: 2026-11-13 to 2026-11-19 (last 7 da
 | Average position | 76.1 | 84.3 | +8.2 |
 | Queries | 3372 | 2653 | |
 | Pages with impressions | 84 | 72 | |
-| Bing indexed pages | 21 | | |
+| Bing indexed pages | 24 | | |
 | Bing impressions (7 days) | 0 | | |
 
 ## Pages
@@ -194,6 +194,49 @@ Position change: positive means the page moved up.
 - 17.6: baltimore online reputation management (5 impr, /locations/baltimore/)
 - 17.8: serp tracker online (5 impr, /seo-tools/serp-checker/)
 
+## Target keywords (main keyword of each page)
+
+Average position of target keywords that have data: 80.2 (14 of 36 ranking). Keywords by Google page: page 1: 13, page 2: 43, page 3: 70.
+
+| Page | Target keyword | Pos | Pos change |
+| --- | --- | --- | --- |
+| /locations/manhattan/ | manhattan seo company | 45.0 | new |
+| /locations/philadelphia/ | philadelphia seo company | 62.3 | new |
+| /locations/baltimore/ | baltimore seo company | 73.0 | new |
+| /seo-for-accountants/ | accountant seo services | 77.5 | -0.2 |
+| /locations/chicago/ | chicago seo company | 78.5 | +10.4 |
+| /locations/houston/ | houston seo company | 79.9 | +9.6 |
+| /seo-for-auto-repair/ | seo for auto repair shops | 81.1 | new |
+| /seo-for-auto-detailing/ | auto detailing seo | 82.4 | +2.3 |
+| /seo-for-daycares/ | daycare seo | 84.5 | +5.4 |
+| /locations/new-york/ | new york seo agency | 87.5 | +4.2 |
+| /locations/los-angeles/ | search engine optimization los angeles | 88.8 | -5.6 |
+| /seo-consulting/ | seo consultant | 91.4 | new |
+| /seo-for-plumbers/ | seo for plumbers | 94.0 | +2.6 |
+| /national-seo/ | national seo services | 97.2 | +1.7 |
+| /seo-for-electricians/ | electrician seo | - |  |
+| /seo-tools/backlink-checker/ | free backlink checker | - |  |
+| /seo-for-flooring-companies/ | flooring company seo | - |  |
+| /seo-for-doctors/ | doctor seo services | - |  |
+| /seo-for-orthodontists/ | orthodontist seo | - |  |
+| /seo-for-movers/ | moving company seo | - |  |
+| /aeo/ | answer engine optimization | - |  |
+| /locations/brooklyn/ | brooklyn seo company | - |  |
+| /locations/tampa/ | seo company tampa | - |  |
+| /locations/nashville/ | seo company nashville | - |  |
+| /locations/washington-dc/ | dc seo company | - |  |
+| /locations/columbus/ | columbus seo company | - |  |
+| /locations/milwaukee/ | seo company milwaukee | - |  |
+| /locations/fort-worth/ | seo company fort worth | - |  |
+| /locations/kansas-city/ | seo agency kansas city | - |  |
+| /locations/sacramento/ | seo company sacramento | - |  |
+| /seo-for-car-accident-lawyers/ | car accident lawyer seo | - |  |
+| /seo-for-mass-tort-lawyers/ | mass tort marketing | - |  |
+| /seo-for-final-expense-insurance/ | final expense insurance seo | - |  |
+| /small-business-seo/ | seo services for small business | - |  |
+| /shopify-seo/ | shopify seo expert | - |  |
+| /local-citation-building/ | local citation building | - |  |
+
 ## Biggest gains (impr >= 3)
 
 - +84.7 to 10.5: best seo company near me (/locations/chicago/)
@@ -273,6 +316,6 @@ Position change: positive means the page moved up.
 - seo ranking checker online free (22 impr, pos 82.3, /seo-tools/keyword-rank-checker/)
 - miami seo (21 impr, pos 74.4, /locations/miami/)
 
-## Pages with no impressions this week: 64
+## Pages with no impressions this week: 66
 
-/blog/how-to-choose-an-seo-company/, /blog/google-business-profile-optimization-checklist/, /blog/how-much-does-seo-cost/, /blog/local-seo-90-day-roadmap/, /blog/aeo-vs-geo-vs-seo/, /blog/technical-seo-basics/, /blog/why-most-seo-campaigns-fail/, /competitor-seo-analysis/, /content-seo/, /international-seo/, /keyword-research/, /link-building/, /locations/atlanta/, /locations/boston/, /locations/las-vegas/, /locations/seattle/, /off-page-seo/, /seo-for-doctors/, /seo-for-electricians/, /seo-for-fencing-companies/, /seo-for-financial-advisors/, /seo-for-flooring-companies/, /seo-for-florists/, /seo-for-general-contractors/, /seo-for-gyms/, /seo-for-home-builders/, /seo-for-insurance/, /seo-for-lawyers/, /seo-for-movers/, /seo-for-orthodontists/, /seo-for-personal-injury-lawyers/, /seo-for-plastic-surgeons/, /seo-for-pool-service-companies/, /seo-for-property-management/, /seo-for-salons/, /seo-for-therapists/, /seo-for-towing/, /seo-for-tutors/, /seo-for-veterinarians/, /seo-for-yoga-studios/, /seo-tools/robots-txt-checker/, /technical-seo/, /seo-for-private-jet-charter/, /seo-for-luxury-wedding-businesses/, /seo-for-wedding-venues/, /locations/brooklyn/, /locations/nashville/, /blog/how-we-got-our-pages-indexed/, /blog/seo-for-contractors/, /blog/seo-keywords-by-industry/, /locations/washington-dc/, /locations/columbus/, /blog/what-does-an-seo-company-do/, /locations/milwaukee/, /locations/fort-worth/, /blog/who-is-the-best-local-seo-company/, /blog/best-seo-company-in-the-usa/, /locations/kansas-city/, /locations/sacramento/, /blog/how-to-tell-if-seo-is-working/, /seo-for-car-accident-lawyers/, /seo-for-mass-tort-lawyers/, /seo-for-final-expense-insurance/, /small-business-seo/
+/blog/how-to-choose-an-seo-company/, /blog/google-business-profile-optimization-checklist/, /blog/how-much-does-seo-cost/, /blog/local-seo-90-day-roadmap/, /blog/aeo-vs-geo-vs-seo/, /blog/technical-seo-basics/, /blog/why-most-seo-campaigns-fail/, /competitor-seo-analysis/, /content-seo/, /international-seo/, /keyword-research/, /link-building/, /locations/atlanta/, /locations/boston/, /locations/las-vegas/, /locations/seattle/, /off-page-seo/, /seo-for-doctors/, /seo-for-electricians/, /seo-for-fencing-companies/, /seo-for-financial-advisors/, /seo-for-flooring-companies/, /seo-for-florists/, /seo-for-general-contractors/, /seo-for-gyms/, /seo-for-home-builders/, /seo-for-insurance/, /seo-for-lawyers/, /seo-for-movers/, /seo-for-orthodontists/, /seo-for-personal-injury-lawyers/, /seo-for-plastic-surgeons/, /seo-for-pool-service-companies/, /seo-for-property-management/, /seo-for-salons/, /seo-for-therapists/, /seo-for-towing/, /seo-for-tutors/, /seo-for-veterinarians/, /seo-for-yoga-studios/, /seo-tools/robots-txt-checker/, /technical-seo/, /seo-for-private-jet-charter/, /seo-for-luxury-wedding-businesses/, /seo-for-wedding-venues/, /locations/brooklyn/, /locations/nashville/, /blog/how-we-got-our-pages-indexed/, /blog/seo-for-contractors/, /blog/seo-keywords-by-industry/, /locations/washington-dc/, /locations/columbus/, /blog/what-does-an-seo-company-do/, /locations/milwaukee/, /locations/fort-worth/, /blog/who-is-the-best-local-seo-company/, /blog/best-seo-company-in-the-usa/, /locations/kansas-city/, /locations/sacramento/, /blog/how-to-tell-if-seo-is-working/, /seo-for-car-accident-lawyers/, /seo-for-mass-tort-lawyers/, /seo-for-final-expense-insurance/, /small-business-seo/, /shopify-seo/, /local-citation-building/

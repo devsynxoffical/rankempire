@@ -13,6 +13,14 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-22 (owner request: positions 1-20, more pages, improve existing pages)
+
+- Analysis (GSC 23 Oct-19 Nov): 94% of impressions come from positions 51-100; target keywords average 80.2. Main gap is authority (spam backlink profile, no Google Business Profile or directory listings), not on-page work.
+- New pages: /shopify-seo/ (about 8,000 searches/month, KD 13-23) and /local-citation-building/ (about 15,000, KD 22-40), each with 8 service-specific motion images, pricing, booking and FAQ.
+- Existing pages: SERP Checker and SEO Score Checker added to the header and mobile menus (keywords at 13-30).
+- Tracking: target-keyword average and page 1/2/3 counts added to the 12-hour report.
+- docs/directory-profiles.md: ready-to-paste texts for Google Business Profile, Bing Places, Clutch, DesignRush and others (owner to create the accounts).
+
 ## 2026-11-22 (12-hour run, 1:17 AM PKT)
 
 Monitoring only: Search Console has no new days (latest 19 Nov, so the 20-21 Nov outage is not in the data yet). Site live on Hostinger (spot checks 200). Bing InIndex 21, 0 crawl issues, quota 73. URL Inspection: /small-business-seo/, Washington DC, Columbus, Sacramento and 2 posts "Discovered - currently not indexed"; Fort Worth and /blog/best-seo-company-in-the-usa/ unknown to Google. No SEO changes. Indexing API: 0 sent (paused until 25 Nov).

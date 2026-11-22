@@ -2,5 +2,5 @@
 import RelatedLinks from '@/components/sections/RelatedLinks';
 
 export default function Related() {
-  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/local-seo/","label":"Local SEO"},{"href":"/google-business-profile-seo/","label":"Google Business Profile SEO"},{"href":"/seo-packages/local-seo/","label":"Local SEO Packages"},{"href":"/seo-audit/","label":"SEO Audit"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"},{"href":"/blog/local-seo-checklist/","label":"Guide: The Local SEO Checklist for Service Businesses"},{"href":"/book-a-call/","label":"Book a free strategy call"},{"href":"/case-studies/","label":"Verified client results"}]} />;
+  return <RelatedLinks title="Related services, guides and results" items={[{"href":"/local-seo/","label":"Local SEO"},{"href":"/google-business-profile-seo/","label":"Google Business Profile SEO"},{"href":"/local-citation-building/","label":"Local Citation Building"},{"href":"/seo-packages/local-seo/","label":"Local SEO Packages"},{"href":"/blog/how-much-does-seo-cost/","label":"Guide: How Much Does SEO Cost in 2026"},{"href":"/blog/local-seo-checklist/","label":"Guide: The Local SEO Checklist for Service Businesses"},{"href":"/book-a-call/","label":"Book a free strategy call"},{"href":"/case-studies/","label":"Verified client results"}]} />;
 }

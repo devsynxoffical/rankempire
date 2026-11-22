@@ -14,7 +14,7 @@ const SERVICE_LABEL = {
   'content-seo': 'Content SEO', 'ecommerce-seo': 'E-commerce SEO', 'enterprise-seo': 'Enterprise SEO', 'google-business-profile-seo': 'Google Business Profile SEO',
   'international-seo': 'International SEO', 'keyword-research': 'Keyword Research', 'link-building': 'Link Building', 'local-seo': 'Local SEO', 'national-seo': 'National SEO',
   'off-page-seo': 'Off-Page SEO', 'on-page-seo': 'On-Page SEO', 'saas-seo': 'SaaS SEO', 'seo-audit': 'SEO Audit', 'seo-company': 'SEO Company', 'seo-consulting': 'SEO Consulting',
-  'seo-services': 'All SEO Services', 'small-business-seo': 'SEO for Small Business', 'book-a-call': 'Book a Free Strategy Call', 'technical-seo': 'Technical SEO', 'seo-packages': 'SEO Packages and Pricing', 'seo-packages/local-seo': 'Local SEO Packages',
+  'seo-services': 'All SEO Services', 'small-business-seo': 'SEO for Small Business', 'shopify-seo': 'Shopify SEO', 'local-citation-building': 'Local Citation Building', 'book-a-call': 'Book a Free Strategy Call', 'technical-seo': 'Technical SEO', 'seo-packages': 'SEO Packages and Pricing', 'seo-packages/local-seo': 'Local SEO Packages',
   'seo-packages/ecommerce-seo': 'E-commerce SEO Packages', 'seo-packages/saas-seo': 'SaaS SEO Packages', 'about-us': 'About RankEmpire', 'industries': 'All 51 Industries', 'case-studies': 'Verified Results', 'locations': 'All 17 Locations', 'seo-tools/backlink-checker': 'Free Backlink Checker',
 };
 const svc = (slug) => ({ href: `/${slug}/`, label: SERVICE_LABEL[slug] });
@@ -24,13 +24,13 @@ const SERVICES = {
   'b2b-seo': [['saas-seo', 'content-seo', 'link-building', 'keyword-research'], ['why-most-seo-campaigns-fail', 'aeo-vs-geo-vs-seo']],
   'competitor-seo-analysis': [['keyword-research', 'seo-tools/backlink-checker', 'link-building', 'seo-consulting'], ['why-most-seo-campaigns-fail', 'technical-seo-basics']],
   'content-seo': [['keyword-research', 'on-page-seo', 'aeo', 'off-page-seo'], ['aeo-vs-geo-vs-seo', 'seo-keywords-by-industry']],
-  'ecommerce-seo': [['technical-seo', 'content-seo', 'international-seo', 'seo-packages/ecommerce-seo'], ['technical-seo-basics', 'why-most-seo-campaigns-fail']],
+  'ecommerce-seo': [['shopify-seo', 'technical-seo', 'content-seo', 'seo-packages/ecommerce-seo'], ['technical-seo-basics', 'why-most-seo-campaigns-fail']],
   'enterprise-seo': [['technical-seo', 'national-seo', 'international-seo', 'seo-consulting'], ['technical-seo-basics', 'why-most-seo-campaigns-fail']],
-  'google-business-profile-seo': [['local-seo', 'seo-packages/local-seo', 'link-building', 'seo-audit'], ['google-business-profile-optimization-checklist', 'local-seo-90-day-roadmap']],
+  'google-business-profile-seo': [['local-seo', 'local-citation-building', 'seo-packages/local-seo', 'seo-audit'], ['google-business-profile-optimization-checklist', 'local-seo-90-day-roadmap']],
   'international-seo': [['enterprise-seo', 'technical-seo', 'national-seo', 'content-seo'], ['technical-seo-basics', 'why-most-seo-campaigns-fail']],
   'keyword-research': [['content-seo', 'competitor-seo-analysis', 'on-page-seo', 'seo-consulting'], ['seo-keywords-by-industry', 'aeo-vs-geo-vs-seo']],
   'link-building': [['off-page-seo', 'content-seo', 'seo-tools/backlink-checker', 'b2b-seo'], ['why-most-seo-campaigns-fail', 'local-seo-90-day-roadmap']],
-  'local-seo': [['google-business-profile-seo', 'seo-packages/local-seo', 'small-business-seo', 'seo-company'], ['local-seo-90-day-roadmap', 'seo-for-contractors']],
+  'local-seo': [['google-business-profile-seo', 'local-citation-building', 'seo-packages/local-seo', 'small-business-seo'], ['local-seo-90-day-roadmap', 'seo-for-contractors']],
   'national-seo': [['enterprise-seo', 'international-seo', 'link-building', 'seo-company'], ['why-most-seo-campaigns-fail', 'aeo-vs-geo-vs-seo']],
   'off-page-seo': [['link-building', 'geo', 'seo-tools/backlink-checker', 'competitor-seo-analysis'], ['why-most-seo-campaigns-fail', 'aeo-vs-geo-vs-seo']],
   'on-page-seo': [['technical-seo', 'content-seo', 'keyword-research', 'aeo'], ['technical-seo-basics', 'aeo-vs-geo-vs-seo']],
@@ -39,7 +39,9 @@ const SERVICES = {
   'seo-company': [['seo-services', 'seo-packages', 'local-seo', 'about-us'], ['how-to-choose-an-seo-company', 'how-much-does-seo-cost']],
   'seo-consulting': [['seo-audit', 'enterprise-seo', 'international-seo', 'seo-packages'], ['what-does-an-seo-company-do', 'how-to-choose-an-seo-company']],
   'seo-services': [['local-seo', 'small-business-seo', 'ecommerce-seo', 'saas-seo'], ['what-does-an-seo-company-do', 'how-to-choose-an-seo-company']],
-  'small-business-seo': [['local-seo', 'google-business-profile-seo', 'seo-packages/local-seo', 'seo-audit'], ['how-much-does-seo-cost', 'local-seo-checklist']],
+  'shopify-seo': [['ecommerce-seo', 'technical-seo', 'on-page-seo', 'seo-packages/ecommerce-seo'], ['technical-seo-basics', 'how-much-does-seo-cost']],
+  'local-citation-building': [['local-seo', 'google-business-profile-seo', 'small-business-seo', 'seo-packages/local-seo'], ['local-seo-checklist', 'google-business-profile-optimization-checklist']],
+  'small-business-seo': [['local-seo', 'google-business-profile-seo', 'local-citation-building', 'seo-packages/local-seo'], ['how-much-does-seo-cost', 'local-seo-checklist']],
   'technical-seo': [['seo-audit', 'on-page-seo', 'enterprise-seo', 'international-seo'], ['technical-seo-basics', 'how-we-got-our-pages-indexed']],
 };
 const INDUSTRY_POST = { 'home-services': 'seo-for-contractors', 'medical-and-health': 'local-seo-checklist', 'legal': 'local-seo-90-day-roadmap', 'automotive': 'seo-keywords-by-industry', 'food-and-hospitality': 'local-seo-checklist', 'professional-services': 'why-most-seo-campaigns-fail', 'real-estate-and-property': 'local-seo-90-day-roadmap', 'beauty-fitness-and-lifestyle': 'local-seo-checklist', 'luxury-travel-and-events': 'google-business-profile-optimization-checklist' };

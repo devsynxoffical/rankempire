@@ -508,5 +508,15 @@
     "q": "What are SEO services for small business?",
     "a": "SEO services for small business make a local or owner-run company show up when nearby customers search for what it sells: a complete Google Business Profile, one page per service and area, steady reviews, accurate directory listings and a fast mobile website, measured in calls, forms and bookings. RankEmpire's small business plans start at $599 a month, month to month after onboarding.",
     "description": "SEO services for small business: Google Maps, service pages and reviews that bring calls and leads. Plans from $599/mo, month to month. Free audit."
+  },
+  "shopify-seo": {
+    "q": "What does a Shopify SEO expert do?",
+    "a": "A Shopify SEO expert makes a Shopify store rank for the searches its buyers use: collection pages that target category searches, unique product pages, clean canonicals for Shopify's duplicate product URLs, a fast theme, product schema for rich results and buying guides that earn links, measured in organic orders. RankEmpire's ecommerce plans start at $799 a month, month to month after onboarding.",
+    "description": "Shopify SEO services from a senior expert: collections, product pages, speed, schema and content that grow organic sales. Free Shopify SEO audit."
+  },
+  "local-citation-building": {
+    "q": "What is local citation building?",
+    "a": "Local citation building lists your business name, address and phone number consistently on the directories, maps and data aggregators that Google, Apple, Bing and AI assistants check, and fixes wrong or duplicate listings. Accurate citations support map pack rankings and correct answers about your business. RankEmpire includes citation building and cleanup in local SEO plans from $599 a month.",
+    "description": "Local citation building and cleanup: consistent name, address and phone on the directories Google, Apple, Bing and AI assistants trust. Free citation audit."
   }
 }

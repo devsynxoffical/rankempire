@@ -437,6 +437,38 @@ export default function Header({ active = '' }: { active?: string }) {
                     </span>
                   </span>
                 </a>
+                <a className="dl" href="/seo-tools/serp-checker/">
+                  <span className="ic">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M4 6h16M4 12h10M4 18h6" />
+                      <path d="m17 15 3 3-3 3" />
+                    </svg>
+                  </span>
+                  <span>
+                    <b>
+                      {"SERP Checker"}
+                    </b>
+                    <span>
+                      {"Free SERP rank checker tool"}
+                    </span>
+                  </span>
+                </a>
+                <a className="dl" href="/seo-tools/seo-score-checker/">
+                  <span className="ic">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M4 14a8 8 0 0 1 16 0" />
+                      <path d="m12 14 4-4" />
+                    </svg>
+                  </span>
+                  <span>
+                    <b>
+                      {"SEO Score Checker"}
+                    </b>
+                    <span>
+                      {"Free SEO checker, no trial"}
+                    </span>
+                  </span>
+                </a>
                 <a className="dl" href="/seo-tools/schema-checker/">
                   <span className="ic">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -458,7 +490,7 @@ export default function Header({ active = '' }: { active?: string }) {
               </div>
               <div className="dfoot">
                 <span>
-                  {"6 of 11 free tools, private and instant"}
+                  {"8 of 11 free tools, private and instant"}
                 </span>
                 <a className="tlink" href="/seo-tools/">
                   {"All SEO tools"}
