@@ -2437,6 +2437,52 @@ If budget is tight, focus on the profile, reviews and your top three service pag
 ### Measure leads, not just rankings
 Track calls, forms and bookings by page, so you know which searches bring customers. See how to tell if your SEO is working (https://www.rankempire.us/blog/how-to-tell-if-seo-is-working/) for what to check each month, and our SEO packages (https://www.rankempire.us/seo-packages/) for plan details.
 
+## Shopify SEO: what to fix first
+URL: https://www.rankempire.us/shopify-seo/
+
+Q: What does a Shopify SEO expert do?
+A: A Shopify SEO expert makes a Shopify store rank for the searches its buyers use: collection pages that target category searches, unique product pages, clean canonicals for Shopify's duplicate product URLs, a fast theme, product schema for rich results and buying guides that earn links, measured in organic orders. RankEmpire's ecommerce plans start at $799 a month, month to month after onboarding.
+
+Shopify gives stores a solid base, but a few platform habits hold most stores back. This is the order we fix them in.
+
+### Make collection pages worth ranking
+Collections usually match the searches with the most buyers, such as "men's trail running shoes". Add a short, useful introduction, clear filters and FAQs, and link related collections. A collection with no text rarely beats a marketplace.
+
+### Fix Shopify's duplicate product URLs
+Shopify links to products through /collections/name/products/ paths as well as /products/. Make sure internal links point to the canonical /products/ URL and that tag and filter pages do not flood the index. Our technical SEO basics (https://www.rankempire.us/blog/technical-seo-basics/) guide explains canonicals and indexing.
+
+### Write product pages for buyers, not suppliers
+Replace manufacturer copy on the products that sell with unique descriptions, real photos, sizing and shipping answers. Product schema with price, stock and reviews helps earn rich results.
+
+### Speed: fewer apps, lighter theme
+Every app can add scripts to every page. Remove the ones you do not use, compress images and test on mobile. Faster stores rank and convert better.
+
+### Measure organic revenue
+Track orders from organic search in Shopify and GA4, not just rankings. See how to tell if your SEO is working (https://www.rankempire.us/blog/how-to-tell-if-seo-is-working/), our ecommerce SEO services (https://www.rankempire.us/ecommerce-seo/) and how much SEO costs (https://www.rankempire.us/blog/how-much-does-seo-cost/).
+
+## Local citations: what to fix first
+URL: https://www.rankempire.us/local-citation-building/
+
+Q: What is local citation building?
+A: Local citation building lists your business name, address and phone number consistently on the directories, maps and data aggregators that Google, Apple, Bing and AI assistants check, and fixes wrong or duplicate listings. Accurate citations support map pack rankings and correct answers about your business. RankEmpire includes citation building and cleanup in local SEO plans from $599 a month.
+
+Citation work pays off when it is done in the right order. This is the order we use for every local business.
+
+### Agree one exact version of your details
+Pick one business name, address format and phone number, matching your website and Google Business Profile, and use it everywhere. Small differences such as Suite vs Ste matter less than wrong numbers or old addresses.
+
+### Fix the core platforms first
+Google Business Profile, Apple Business Connect, Bing Places, Yelp, Facebook and the BBB are seen by the most customers and checked most by search engines and AI assistants. Our Google Business Profile checklist (https://www.rankempire.us/blog/google-business-profile-optimization-checklist/) covers the most important one.
+
+### Remove duplicates
+Duplicate listings split reviews and confuse search engines. Search each platform for your old addresses and phone numbers, and merge or remove what you find.
+
+### Add industry and city directories
+After the core, add the directories for your trade and your city, such as professional associations and the local chamber. These are worth more than hundreds of generic sites.
+
+### Citations are one part of local SEO
+Citations support rankings, but reviews, service pages and the profile itself do most of the work. See our local SEO checklist (https://www.rankempire.us/blog/local-seo-checklist/), the 90-day local SEO roadmap (https://www.rankempire.us/blog/local-seo-90-day-roadmap/) and our local SEO services (https://www.rankempire.us/local-seo/).
+
 # Blog posts
 
 ## How to Tell If Your SEO Is Working (and If Your SEO Company Is)
