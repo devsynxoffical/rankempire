@@ -31,7 +31,7 @@ export default function PageHero() {
           </span>
         </h1>
         <p className="lead" data-r="">
-          {"Find where a domain appears in a results list. Paste the result URLs for a keyword and we show the position of your domain and competitors."}
+          {"Check where your website ranks in Google for any keyword. Search the keyword, paste the result URLs and this free rank checker shows your position and the competitors above you. To track rankings over time, check again each week or use Google Search Console."}
         </p>
       </div>
     </section>

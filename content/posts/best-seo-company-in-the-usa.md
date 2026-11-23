@@ -2,6 +2,8 @@ Who is the best SEO company in the USA? The honest answer is that it depends on 
 
 ## Why there is no single best SEO company
 
+If you need local results, compare our [SEO services in the USA by city](/locations/) and our [SEO company in Phoenix](/locations/phoenix/).
+
 "Best" depends on the job. A national ecommerce brand, a SaaS company and a plumber in Phoenix need very different work:
 
 | Your business | What the best SEO company for you does well |

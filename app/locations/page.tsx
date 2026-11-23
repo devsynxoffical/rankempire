@@ -14,12 +14,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "SEO Companies in the USA: Local SEO by City | RankEmpire" },
-  description: "RankEmpire provides local SEO services in New York, Los Angeles, Chicago, Houston, Phoenix, Dallas, Miami and 22 more US cities. Free audit in 2 days.",
+  title: { absolute: "SEO Services USA: SEO Companies by City | RankEmpire" },
+  description: "SEO services in the USA from one senior team: local SEO in New York, Chicago, Houston, Phoenix, Dallas, Miami and 23 more cities. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/locations/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Companies in the USA: Local SEO by City | RankEmpire", description: "RankEmpire provides local SEO services in New York, Los Angeles, Chicago, Houston, Phoenix, Dallas, Miami and 22 more US cities. Free audit in 2 days.", url: "https://www.rankempire.us/locations/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Companies in the USA: Local SEO by City | RankEmpire", description: "RankEmpire provides local SEO services in New York, Los Angeles, Chicago, Houston, Phoenix, Dallas, Miami and 22 more US cities. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Services USA: SEO Companies by City | RankEmpire", description: "SEO services in the USA from one senior team: local SEO in New York, Chicago, Houston, Phoenix, Dallas, Miami and 23 more cities. Free audit.", url: "https://www.rankempire.us/locations/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Services USA: SEO Companies by City | RankEmpire", description: "SEO services in the USA from one senior team: local SEO in New York, Chicago, Houston, Phoenix, Dallas, Miami and 23 more cities. Free audit." },
 };
 
 export default function Page() {

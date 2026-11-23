@@ -32,6 +32,8 @@ const PAUSE_UNTIL = '2026-11-25';
 const DAILY_CAP = 20;
 const LOG = 'docs/indexing-api-log.csv';
 const today = new Date(Date.now() + 5 * 3600e3).toISOString().slice(0, 10); // Pakistan time (UTC+5)
+// Owner instruction (23 Nov 2026): do not use the Google Indexing API at all. Use sitemaps and IndexNow.
+console.log('Google Indexing API disabled by the owner (23 Nov 2026). Nothing sent.'); process.exit(0);
 if (today < PAUSE_UNTIL) { console.log(`Indexing API paused by the owner until ${PAUSE_UNTIL} (today ${today}). Nothing sent.`); process.exit(0); }
 let urls = process.argv.slice(2);
 if (!urls.length) { console.log('Give the URLs explicitly (no bulk submissions). Nothing sent.'); process.exit(0); }

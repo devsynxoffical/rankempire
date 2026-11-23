@@ -16,11 +16,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Free Keyword Research Tool & Keyword Ideas | RankEmpire" },
-  description: "Free keyword research tool and online SEO keyword checker: get hundreds of keyword ideas from one seed term, grouped by question, commercial and local intent.",
+  description: "Free keyword research tool and SEO keyword checker: get hundreds of keyword ideas from one seed term, grouped by question, commercial and local intent.",
   alternates: { canonical: "https://www.rankempire.us/seo-tools/keyword-research-tool/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Keyword Research Tool & Keyword Ideas | RankEmpire", description: "Free keyword research tool and online SEO keyword checker: get hundreds of keyword ideas from one seed term, grouped by question, commercial and local intent.", url: "https://www.rankempire.us/seo-tools/keyword-research-tool/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
-  twitter: { card: 'summary_large_image', title: "Free Keyword Research Tool & Keyword Ideas | RankEmpire", description: "Free keyword research tool and online SEO keyword checker: get hundreds of keyword ideas from one seed term, grouped by question, commercial and local intent." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Free Keyword Research Tool & Keyword Ideas | RankEmpire", description: "Free keyword research tool and SEO keyword checker: get hundreds of keyword ideas from one seed term, grouped by question, commercial and local intent.", url: "https://www.rankempire.us/seo-tools/keyword-research-tool/", images: ["https://www.rankempire.us/img/s-tech.webp"] },
+  twitter: { card: 'summary_large_image', title: "Free Keyword Research Tool & Keyword Ideas | RankEmpire", description: "Free keyword research tool and SEO keyword checker: get hundreds of keyword ideas from one seed term, grouped by question, commercial and local intent." },
 };
 
 export default function Page() {

@@ -26,7 +26,7 @@ export default function V0() {
             <h1 data-r="">
               {"SEO company serving "}
               <span className="acc">
-                {"17 US cities"}
+                {"29 US cities"}
               </span>
             </h1>
             <p className="lead" data-r="">

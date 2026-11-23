@@ -2,6 +2,8 @@ There is no single best local SEO company for every business. Google does not ra
 
 ## Is there an official "best local SEO company"?
 
+For a worked example, see how we answer [best SEO company near me in Chicago](/locations/chicago/) and what to ask [SEO experts near me in Houston](/locations/houston/).
+
 No. Three things are often mistaken for an official ranking:
 
 - **Google.** Google does not rank or recommend SEO agencies. Its Search Central documentation explains what a good SEO should do and warns against anyone who guarantees rankings, but it does not name companies. Google Partners is a program for Google Ads, not for SEO.

@@ -31,7 +31,7 @@ export default function PageHero() {
           </span>
         </h1>
         <p className="lead" data-r="">
-          {"Get a 0 to 100 SEO score for any page based on 14 on-page checks, with a clear fix for every issue."}
+          {"This SEO checker is free, with no trial and no sign-up. Paste a page's source code and it scores the page from 0 to 100 across 14 on-page checks, with a fix for every issue it finds. It runs in your browser, so nothing is stored."}
         </p>
       </div>
     </section>

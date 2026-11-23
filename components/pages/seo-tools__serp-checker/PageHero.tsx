@@ -31,7 +31,7 @@ export default function PageHero() {
           </span>
         </h1>
         <p className="lead" data-r="">
-          {"Preview how your title and description appear in Google search results on desktop and mobile, with pixel width checks."}
+          {"A SERP rank checker tool shows how your page appears in Google and where it ranks for a keyword. This free SERP checker previews your title and description at Google's pixel widths on desktop and mobile, and our free keyword rank checker finds your position. Both run in your browser with no sign-up."}
         </p>
       </div>
     </section>
