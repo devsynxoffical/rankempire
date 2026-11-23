@@ -42,17 +42,17 @@ export default function Cols3() {
                 {"Turning search into revenue"}
               </h3>
               <p style={{marginTop: "14px"} as React.CSSProperties}>
-                {"We simplify technical problems, connect scattered marketing data and turn ambitious goals into rankings you can measure."}
+                {"Audit: technical, content and Google Business Profile review."}
               </p>
               <ul className="chk">
                 <li>
-                  {"Strategy that guides every decision"}
+                  {"Plan: keywords and pages chosen by buyer intent and difficulty."}
                 </li>
                 <li>
-                  {"Pages built for real searches"}
+                  {"Build: fixes, new pages, links and local signals."}
                 </li>
                 <li>
-                  {"Reporting in plain English"}
+                  {"Report: monthly Search Console results, not vanity charts."}
                 </li>
               </ul>
             </div>

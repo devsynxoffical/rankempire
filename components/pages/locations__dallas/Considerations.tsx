@@ -33,7 +33,7 @@ export default function Considerations() {
               {"Fast growing northern suburbs"}
             </h3>
             <p>
-              {"Frisco, McKinney, Prosper, and Allen have grown quickly, and many service categories there are still maturing in search. Businesses that build strong local pages and steady reviews in these areas early can establish visibility before competition fully catches up and the cost of ranking rises."}
+              {"DFW is spread across many cities, so Maps rankings change from Plano to Fort Worth. Each service area needs its own location signals, reviews and pages."}
             </p>
             <span className="ln"></span>
           </article>

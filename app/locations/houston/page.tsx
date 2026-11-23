@@ -47,7 +47,7 @@ export default function Page() {
       <main id="main">
         <V0 />
         <QuickAnswer slug="locations/houston" />
-        <ProofStrip context="Houston SEO" />
+        <ProofStrip context="Houston SEO" text="An education website we work with reached 25.4K clicks in 3 months at a 19.5% average CTR. Every report we show comes straight from Search Console." />
         <Statement />
         <SearchSurfaces slug="locations/houston" kind="city" audience="businesses in Houston" city="Houston" kw="seo company houston" question="How much does local SEO cost in Houston?" />
         <Considerations />

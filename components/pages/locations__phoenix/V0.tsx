@@ -30,7 +30,7 @@ export default function V0() {
               {"Phoenix, AZ"}
             </span>
             <h1 data-r="">
-              {"SEO company in "}
+              {"SEO Company in "}
               <span className="acc">
                 {"Phoenix"}
               </span>

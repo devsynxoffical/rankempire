@@ -11,7 +11,7 @@ export default function MoreResults() {
             {"Straight from Google Search Console."}
           </h2>
           <p>
-            {"No mockups and no estimates. These are live performance reports from client accounts, shared with permission."}
+            {"No mockups and no estimates. These are live Search Console reports from client accounts, shared with permission: 3.5M+ clicks and 435M+ impressions tracked, including an education client at 26.9% CTR and position 6.1 in 28 days."}
           </p>
         </div>
         <div className="mr-tot" data-r="">

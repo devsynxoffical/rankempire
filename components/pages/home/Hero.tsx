@@ -80,7 +80,7 @@ export default function Hero() {
             </span>
           </span>
           <span className="sr-only">
-            {"RankEmpire: SEO company for local, e-commerce and SaaS brands"}
+            {"SEO Services in the USA for Google and AI Search"}
           </span>
         </h1>
         {"\n"}

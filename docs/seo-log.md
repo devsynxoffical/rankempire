@@ -16,7 +16,7 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 ## 2026-11-23 (owner content brief: 6 pages)
 
 - Applied now: SEO titles, meta descriptions and the brief's FAQs (FAQPage schema matched word for word) on the homepage, SERP checker, Dallas, Houston, Chicago and Phoenix. Three values trimmed to fit 60/155 characters.
-- Held until 30 Nov (brief rule 16, all six pages edited within 7 days): H1s and section copy, listed in docs/recovery/content-brief-pending.md.
+- H1s and section copy applied the same day at the owner's request (adaptations in docs/recovery/content-brief-pending.md).
 - Homepage "17.6" card checked: correct published CTR figure, no change.
 
 ## 2026-11-23 (owner brief: rankempire.us ranking improvements)

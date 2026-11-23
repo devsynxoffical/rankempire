@@ -18,7 +18,7 @@ export default function AiSearch() {
                 {" answer engines."}
               </h2>
               <p>
-                {"Search is splitting into four surfaces. We optimize for all of them in one program, so you show up whether a customer types, asks or lets an AI decide."}
+                {"Classic "}<a href="/seo-services/">{"SEO"}</a>{" gets you into Google's results. AEO and GEO get your business quoted in AI answers from ChatGPT, Google AI Overviews and Perplexity. We do both, so you are found whichever way your buyers search."}
               </p>
             </div>
           </div>

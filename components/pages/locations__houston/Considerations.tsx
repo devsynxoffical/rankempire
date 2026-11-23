@@ -37,7 +37,7 @@ export default function Considerations() {
               {"Submarket targeting"}
             </h3>
             <p>
-              {"Houston functions as a collection of submarkets, including Katy, The Woodlands, Sugar Land, Pearland, and the Inner Loop. Each has its own competitors and search patterns. Building dedicated content and profile signals for the areas you truly serve works better than a single citywide page that tries to speak to everyone at once."}
+              {"Houston covers a huge area with strong competition in home services, medical, legal and energy. Ranking across Katy, Sugar Land and The Woodlands needs location-specific pages and reviews."}
             </p>
             <span className="ln"></span>
           </article>

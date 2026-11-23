@@ -37,10 +37,10 @@ export default function How() {
               </span>
             </div>
             <h3>
-              {"Type your title"}
+              {"Enter your title and keyword"}
             </h3>
             <p>
-              {"The preview updates as you type and estimates pixel width."}
+              {"Type the page title with the keyword you want to rank for. The preview updates as you type."}
             </p>
             <span className="ln"></span>
           </article>
@@ -66,10 +66,10 @@ export default function How() {
               </span>
             </div>
             <h3>
-              {"Write the description"}
+              {"Enter your page URL and description"}
             </h3>
             <p>
-              {"Aim for a clear benefit and a reason to click within about 920 pixels."}
+              {"Add the URL and a description that gives a clear reason to click, within about 920 pixels."}
             </p>
             <span className="ln"></span>
           </article>
@@ -94,10 +94,10 @@ export default function How() {
               </span>
             </div>
             <h3>
-              {"Check the URL"}
+              {"See your Google preview and ranking position"}
             </h3>
             <p>
-              {"Short, readable URLs build trust in search results."}
+              {"Check the result on desktop and mobile, then find your position with the free keyword rank checker."}
             </p>
             <span className="ln"></span>
           </article>

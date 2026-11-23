@@ -124,11 +124,11 @@
   "date": "2026-11-14"
  },
  "locations/chicago": {
-  "hash": "f7afda1fdd5f",
+  "hash": "b683a2002506",
   "date": "2026-11-23"
  },
  "locations/dallas": {
-  "hash": "8290e1c22b20",
+  "hash": "13e5eae1e1f2",
   "date": "2026-11-23"
  },
  "locations/denver": {
@@ -136,7 +136,7 @@
   "date": ""
  },
  "locations/houston": {
-  "hash": "caaf590101a0",
+  "hash": "993e9582fe74",
   "date": "2026-11-23"
  },
  "locations": {
@@ -164,8 +164,8 @@
   "date": ""
  },
  "locations/phoenix": {
-  "hash": "f75f9270137a",
-  "date": "2026-11-11"
+  "hash": "1724c249bad5",
+  "date": "2026-11-23"
  },
  "locations/san-diego": {
   "hash": "dd7c28a67427",
@@ -452,7 +452,7 @@
   "date": "2026-11-23"
  },
  "seo-tools/serp-checker": {
-  "hash": "609c14e8d17c",
+  "hash": "e02a8d08203b",
   "date": "2026-11-23"
  },
  "seo-tools/sitemap-checker": {

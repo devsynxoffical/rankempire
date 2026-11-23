@@ -14,7 +14,7 @@ export default function Rankgrid() {
                 {"See exactly where you rank, street by street."}
               </h2>
               <p>
-                {"We track the map pack from 121 points across your service area, not just from your office. Pick a keyword, drag the slider and watch the grid turn green."}
+                {"Our "}<a href="/local-seo/">{"local rank grid"}</a>{" shows where your business appears in Maps across your service area, so you can see exactly which neighborhoods you win and which you lose."}
               </p>
             </div>
             {"\n"}

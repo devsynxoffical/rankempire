@@ -27,7 +27,7 @@ export default function PageHero() {
         <h1 data-r="">
           {"Free "}
           <span className="acc">
-            {"SERP Checker"}
+            {"SERP Rank Checker"}
           </span>
         </h1>
         <p className="lead" data-r="">

@@ -11,7 +11,7 @@ export default function Pricing() {
             {"Local SEO pricing in Dallas"}
           </h2>
           <p>
-            {"Plans for single and multi-location businesses."}
+            {"Starter $599 a month for one location, Pro $1,199 for up to three, Multi-location $2,199 for four or more."}
           </p>
         </div>
         <div className="xp-g">

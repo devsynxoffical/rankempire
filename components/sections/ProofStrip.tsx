@@ -7,7 +7,7 @@ const STATS = [
   { k: '3.45M', label: 'organic clicks in 3 months', who: 'Publisher network', c: '#ec4e3b' },
 ];
 
-export default function ProofStrip({ context }: { context: string }) {
+export default function ProofStrip({ context, text }: { context: string; text?: string }) {
   return (
     <section className="prf" aria-labelledby="prf-h">
       <div className="wrap">
@@ -19,7 +19,7 @@ export default function ProofStrip({ context }: { context: string }) {
             </span>
             <h2 id="prf-h" className="prf-t">Real results, not mockups</h2>
             <p>
-              {`The numbers behind our ${context} work come straight from clients' Search Console accounts, shared with permission.`}
+              {text ?? `The numbers behind our ${context} work come straight from clients' Search Console accounts, shared with permission.`}
             </p>
           </div>
           <ul className="prf-g">
