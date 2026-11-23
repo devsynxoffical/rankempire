@@ -13,6 +13,11 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-23 (12-hour run, 1:17 PM PKT)
+
+Tracking (15-21 Nov vs 8-14 Nov): 26,413 impressions (+30%), 1 click, average position 74.0 (up 9.4), 89 pages with impressions, 56 keywords in the top 20; target-keyword average 76.5 (15 of 36). Bing InIndex 28 (was 24), 0 crawl issues, quota 100. Google index: 141 of 150 (audit 23 Nov).
+Changes (plan step 1): Chicago "best SEO company near me" section and FAQ; /locations/ "search engine optimization company for the whole USA" section and home page link. Home page mobile speed is next. Indexing API: 0 sent (paused until 25 Nov).
+
 ## 2026-11-23 (12-hour run, 1:17 AM PKT)
 
 Tracking (14-20 Nov vs 7-13 Nov): 24,893 impressions (+23%), 1 click, average position 75.0 (up 8.9), 57 keywords in the top 20; target-keyword average 78.6 (15 of 36 ranking, was 80.2); keywords on page 1/2/3: 12/45/70. Bing InIndex 24, 0 crawl issues, quota 94.

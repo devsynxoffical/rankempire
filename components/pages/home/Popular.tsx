@@ -3,6 +3,7 @@ import RelatedLinks from '@/components/sections/RelatedLinks';
 // Homepage links to the pages Search Console shows the most impressions for, so the site's
 // strongest page passes authority to them. Update from `npm run pages` as rankings change.
 const ITEMS = [
+  { href: '/locations/', label: 'SEO company in the USA' },
   { href: '/locations/new-york/', label: 'New York SEO company' },
   { href: '/locations/chicago/', label: 'Chicago SEO company' },
   { href: '/locations/houston/', label: 'Houston SEO agency' },
