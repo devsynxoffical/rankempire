@@ -13,6 +13,12 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-23 (owner content brief: 6 pages)
+
+- Applied now: SEO titles, meta descriptions and the brief's FAQs (FAQPage schema matched word for word) on the homepage, SERP checker, Dallas, Houston, Chicago and Phoenix. Three values trimmed to fit 60/155 characters.
+- Held until 30 Nov (brief rule 16, all six pages edited within 7 days): H1s and section copy, listed in docs/recovery/content-brief-pending.md.
+- Homepage "17.6" card checked: correct published CTR figure, no change.
+
 ## 2026-11-23 (owner brief: rankempire.us ranking improvements)
 
 - Task 1 (searches in positions 1-25): SERP checker, keyword rank checker, SEO score checker, /locations/, Chicago, Phoenix, Houston: titles/descriptions where allowed, direct answers, H2s, 5 FAQs each with schema, 3+ internal links each.

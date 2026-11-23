@@ -24,23 +24,23 @@ import Robo from '@/components/sections/Robo';
 import Script from '@/components/pages/home/Script';
 
 export const metadata: Metadata = {
-  title: "RankEmpire — SEO, AEO & GEO Agency for Google & AI Search",
-  description: "Revenue-focused SEO, Answer Engine Optimization and Generative Engine Optimization that wins rankings in Google, ChatGPT, Perplexity and AI Overviews.",
+  title: { absolute: "SEO Services USA: SEO, AEO and GEO Agency | RankEmpire" },
+  description: "SEO services for US businesses that want to rank on Google and get cited by AI search. 3.5M+ clicks tracked in client Search Console. Plans from $599.",
   alternates: { canonical: "https://www.rankempire.us/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
   openGraph: {
     type: 'website',
     siteName: 'RankEmpire',
     locale: 'en_US',
-    title: "RankEmpire — SEO, AEO & GEO Agency for Google & AI Search",
-    description: "Revenue-focused SEO, Answer Engine Optimization and Generative Engine Optimization that wins rankings in Google, ChatGPT, Perplexity and AI Overviews.",
+    title: "SEO Services USA: SEO, AEO and GEO Agency | RankEmpire",
+    description: "SEO services for US businesses that want to rank on Google and get cited by AI search. 3.5M+ clicks tracked in client Search Console. Plans from $599.",
     url: "https://www.rankempire.us/",
     images: [{ url: "https://www.rankempire.us/img/team.webp", width: 1200, height: 630, alt: "RankEmpire SEO Agency Team and Results" }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: "RankEmpire — SEO, AEO & GEO Agency for Google & AI Search",
-    description: "Revenue-focused SEO, Answer Engine Optimization and Generative Engine Optimization that wins rankings in Google, ChatGPT, Perplexity and AI Overviews.",
+    title: "SEO Services USA: SEO, AEO and GEO Agency | RankEmpire",
+    description: "SEO services for US businesses that want to rank on Google and get cited by AI search. 3.5M+ clicks tracked in client Search Console. Plans from $599.",
     images: ["https://www.rankempire.us/img/team.webp"],
   },
 };
@@ -50,7 +50,7 @@ export default function Page() {
     <>
       <OrgSchema />
       <WebSiteSchema />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How long does SEO take to work?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Most clients see early movement in 60 to 90 days and meaningful results in 4 to 6 months. Competitive markets and new websites take longer. We share a realistic timeline after the audit.\"}}, {\"@type\": \"Question\", \"name\": \"What is included in every RankEmpire plan?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"An initial audit, a prioritized roadmap, the work itself, monthly reporting in plain English and a live dashboard. You also get a named strategist you can reach directly.\"}}, {\"@type\": \"Question\", \"name\": \"Do you work with businesses outside the US?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Our focus is the US market, but we support international SEO for US companies expanding abroad and for brands entering the US.\"}}, {\"@type\": \"Question\", \"name\": \"Do I have to sign a long contract?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No. After a 3 month onboarding period, plans are month to month. You can cancel with 30 days notice.\"}}, {\"@type\": \"Question\", \"name\": \"Are there setup fees?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No setup fees on standard plans. Custom enterprise programs may include a one-time onboarding project, quoted up front.\"}}, {\"@type\": \"Question\", \"name\": \"Can I change plans later?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. You can upgrade or downgrade at the start of any month.\"}}, {\"@type\": \"Question\", \"name\": \"Do you guarantee first page rankings?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No honest SEO company can guarantee rankings, because Google controls the results. We commit to the work, the transparency and the process that produce results.\"}}, {\"@type\": \"Question\", \"name\": \"How do you report results?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Monthly reports cover rankings, traffic, conversions and the work completed, plus a live dashboard you can check anytime.\"}}]}" }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: "{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How much do SEO services cost in the USA?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Local SEO plans start at $599 a month for one location, $1,199 for up to three locations and $2,199 for four or more. National and ecommerce SEO are quoted after an audit.\"}}, {\"@type\": \"Question\", \"name\": \"What is the difference between SEO, AEO and GEO?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"SEO ranks your pages in search results. AEO (answer engine optimization) structures content so it is chosen as a direct answer. GEO (generative engine optimization) helps AI tools like ChatGPT cite your business.\"}}, {\"@type\": \"Question\", \"name\": \"How long does SEO take to work?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Most sites see movement in Search Console within 4 to 12 weeks, and stronger results over 6 to 12 months, depending on competition and the site's starting point.\"}}, {\"@type\": \"Question\", \"name\": \"Do you show real results?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. The homepage shows live Search Console reports from client accounts, shared with permission, with clicks, impressions, CTR and position.\"}}, {\"@type\": \"Question\", \"name\": \"Do you work with businesses across the US?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. We work with local, multi-location and national businesses across the US, with city pages for markets like Dallas, Houston, Chicago and Phoenix.\"}}]}" }} />
       <PersonSchema />
       <SkipLink />
       <Preloader />
