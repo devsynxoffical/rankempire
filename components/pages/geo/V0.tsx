@@ -30,7 +30,7 @@ export default function V0() {
               {"Generative Engine Optimization"}
             </span>
             <h1 data-r="">
-              {"Get cited by "}
+              {"Generative engine optimization to get cited by "}
               <span className="acc">
                 {"AI search"}
               </span>

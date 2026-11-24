@@ -534,6 +534,18 @@
     "intro": "Answer engine optimization (AEO) is the practice of structuring pages so search engines, voice assistants and AI answer boxes can lift a direct answer from them. It focuses on the passage rather than the page: a real question as the heading, a complete answer in the first two sentences, and schema that labels what each block is.",
     "sections": [
       {
+        "h": "How to optimize for answer engines in 2026",
+        "p": "1. Find the questions your buyers ask in Search Console, People Also Ask and Google's suggestions. 2. Give each important question its own H2, using the buyer's wording. 3. Answer it in the first 40 to 60 words, then add detail. 4. Put prices, comparisons and timelines in a table, and how-to answers in numbered steps. 5. Add FAQ schema that matches the visible text word for word. 6. Track featured snippets, People Also Ask and AI Overview citations every month. Answer engine optimization vs traditional SEO is covered in our [AEO vs GEO vs SEO](/blog/aeo-vs-geo-vs-seo/) guide, and [how to rank in ChatGPT](/blog/how-to-rank-in-chatgpt/) shows the same structure applied to AI assistants."
+      },
+      {
+        "h": "How to optimize for answer engines in 2026",
+        "p": "1. Find the questions your buyers ask in Search Console, People Also Ask and Google's suggestions. 2. Give each important question its own H2, using the buyer's wording. 3. Answer it in the first 40 to 60 words, then add detail. 4. Put prices, comparisons and timelines in a table, and how-to answers in numbered steps. 5. Add FAQ schema that matches the visible text word for word. 6. Track featured snippets, People Also Ask and AI Overview citations every month. Answer engine optimization vs traditional SEO is covered in our [AEO vs GEO vs SEO](/blog/aeo-vs-geo-vs-seo/) guide, and [how to rank in ChatGPT](/blog/how-to-rank-in-chatgpt/) shows the same structure applied to AI assistants."
+      },
+      {
+        "h": "How to optimize for answer engines in 2026",
+        "p": "1. Find the questions your buyers ask in Search Console, People Also Ask and Google's suggestions. 2. Give each important question its own H2, using the buyer's wording. 3. Answer it in the first 40 to 60 words, then add detail. 4. Put prices, comparisons and timelines in a table, and how-to answers in numbered steps. 5. Add FAQ schema that matches the visible text word for word. 6. Track featured snippets, People Also Ask and AI Overview citations every month. Answer engine optimization vs traditional SEO is covered in our [AEO vs GEO vs SEO](/blog/aeo-vs-geo-vs-seo/) guide, and [how to rank in ChatGPT](/blog/how-to-rank-in-chatgpt/) shows the same structure applied to AI assistants."
+      },
+      {
         "h": "What answer engine optimization includes",
         "p": "Question research from Search Console and People Also Ask, rewritten headings and openings that answer first, FAQ blocks where the questions are unique to the page, FAQPage, HowTo, Service and Organization schema, Speakable markup for voice assistants, and monthly tracking of the featured snippets, People Also Ask results and AI Overview citations you own."
       },
@@ -1647,6 +1659,30 @@
     "title": "Generative engine optimization: how to get cited by ChatGPT, Perplexity and AI Overviews",
     "intro": "Generative engine optimization (GEO) is the work of making a brand easy for AI systems to find, understand, trust and cite when they write answers. ChatGPT, Perplexity, Gemini and Google AI Overviews read several sources and combine them; GEO makes sure your business is one of those sources. No one can guarantee a citation, but these practices make one far more likely.",
     "sections": [
+      {
+        "h": "Generative engine optimization best practices: a checklist",
+        "p": "1. Allow GPTBot, OAI-SearchBot, PerplexityBot, Google-Extended and ClaudeBot in robots.txt. 2. Publish an llms.txt file that lists your main pages, prices and results. 3. Answer each buyer question on its own page section, with a direct answer first. 4. State who you serve, prices, timelines and one published result in plain text. 5. Use the same brand name, description, logo and contact details everywhere, linked with Organization schema and sameAs. 6. Earn mentions in reviews, directories, list articles and communities. 7. Track your buyer prompts in ChatGPT, Perplexity, Gemini and AI Mode every month. See [how to rank in ChatGPT](/blog/how-to-rank-in-chatgpt/) and [the best GEO tools](/blog/best-generative-engine-optimization-tools/) for the details."
+      },
+      {
+        "h": "LLM SEO and generative engine optimization",
+        "p": "LLM SEO is another name for the same work: helping large language models find, understand and cite your content. The foundations are classic SEO (crawlable, fast, well-linked pages), plus answer-first writing, plain facts and brand mentions that let an AI assistant confirm you are a real, trusted source. Our [answer engine optimization](/aeo/) service covers the page structure side of it."
+      },
+      {
+        "h": "Generative engine optimization best practices: a checklist",
+        "p": "1. Allow GPTBot, OAI-SearchBot, PerplexityBot, Google-Extended and ClaudeBot in robots.txt. 2. Publish an llms.txt file that lists your main pages, prices and results. 3. Answer each buyer question on its own page section, with a direct answer first. 4. State who you serve, prices, timelines and one published result in plain text. 5. Use the same brand name, description, logo and contact details everywhere, linked with Organization schema and sameAs. 6. Earn mentions in reviews, directories, list articles and communities. 7. Track your buyer prompts in ChatGPT, Perplexity, Gemini and AI Mode every month. See [how to rank in ChatGPT](/blog/how-to-rank-in-chatgpt/) and [the best GEO tools](/blog/best-generative-engine-optimization-tools/) for the details."
+      },
+      {
+        "h": "LLM SEO and generative engine optimization",
+        "p": "LLM SEO is another name for the same work: helping large language models find, understand and cite your content. The foundations are classic SEO (crawlable, fast, well-linked pages), plus answer-first writing, plain facts and brand mentions that let an AI assistant confirm you are a real, trusted source. Our [answer engine optimization](/aeo/) service covers the page structure side of it."
+      },
+      {
+        "h": "Generative engine optimization best practices: a checklist",
+        "p": "1. Allow GPTBot, OAI-SearchBot, PerplexityBot, Google-Extended and ClaudeBot in robots.txt. 2. Publish an llms.txt file that lists your main pages, prices and results. 3. Answer each buyer question on its own page section, with a direct answer first. 4. State who you serve, prices, timelines and one published result in plain text. 5. Use the same brand name, description, logo and contact details everywhere, linked with Organization schema and sameAs. 6. Earn mentions in reviews, directories, list articles and communities. 7. Track your buyer prompts in ChatGPT, Perplexity, Gemini and AI Mode every month. See [how to rank in ChatGPT](/blog/how-to-rank-in-chatgpt/) and [the best GEO tools](/blog/best-generative-engine-optimization-tools/) for the details."
+      },
+      {
+        "h": "LLM SEO and generative engine optimization",
+        "p": "LLM SEO is another name for the same work: helping large language models find, understand and cite your content. The foundations are classic SEO (crawlable, fast, well-linked pages), plus answer-first writing, plain facts and brand mentions that let an AI assistant confirm you are a real, trusted source. Our [answer engine optimization](/aeo/) service covers the page structure side of it."
+      },
       {
         "h": "How AI answers choose sources",
         "p": "Most AI answers start from a search index, then pick passages that answer the question clearly, come from trusted sites and contain specific facts. Pages that already rank, use clear headings and state concrete numbers are cited far more often than vague pages. Our guide to [AEO vs GEO vs SEO](/blog/aeo-vs-geo-vs-seo/) explains the differences."

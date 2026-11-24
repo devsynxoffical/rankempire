@@ -1,12 +1,12 @@
 {
   "aeo": {
     "q": "What is answer engine optimization?",
-    "a": "Answer engine optimization (AEO) is the practice of structuring pages so that search engines, voice assistants and AI answer boxes can lift a direct answer from them. It focuses on the passage, not the page: a clear question as the heading, a complete answer in the first two sentences, and schema that labels what the block is. RankEmpire runs AEO inside every SEO plan, tracked as featured snippets, People Also Ask results and AI Overview citations you own.",
+    "a": "Answer engine optimization (AEO) structures your pages so Google, voice assistants and AI tools can lift a direct answer from them. Each key question gets its own heading, a 40 to 60 word answer, a table or steps where they help, and matching schema. RankEmpire includes AEO in every SEO plan.",
     "description": "Answer engine optimization (AEO) that wins featured snippets, People Also Ask, voice answers and AI Overview citations. Free audit, month to month."
   },
   "geo": {
     "q": "What is generative engine optimization?",
-    "a": "Generative engine optimization (GEO) is the work of getting a brand retrieved, trusted and cited by AI assistants such as ChatGPT, Perplexity, Gemini and Google AI Mode. Those engines synthesize answers from several sources, so GEO concentrates on entity clarity, original and quotable facts, brand mentions across the web, freshness and open access for AI crawlers. RankEmpire tracks share of citations per prompt alongside classic rankings."
+    "a": "Generative engine optimization (GEO) gets your brand named and cited by AI assistants such as ChatGPT, Perplexity, Gemini and Google AI Mode. It combines crawlable pages, clear quotable facts, consistent brand data and mentions on trusted sites. RankEmpire includes GEO in every plan and tracks citations per prompt."
   },
   "b2b-seo": {
     "q": "How is B2B SEO different from regular SEO?",

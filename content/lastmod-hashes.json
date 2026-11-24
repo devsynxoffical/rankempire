@@ -4,8 +4,8 @@
   "date": ""
  },
  "aeo": {
-  "hash": "13c6056f917b",
-  "date": ""
+  "hash": "456e928f853e",
+  "date": "2026-11-24"
  },
  "b2b-seo": {
   "hash": "34b9ff81eaf9",
@@ -76,8 +76,8 @@
   "date": "2026-11-14"
  },
  "geo": {
-  "hash": "bfee06cd8ecf",
-  "date": "2026-11-11"
+  "hash": "8a018ff17b9f",
+  "date": "2026-11-24"
  },
  "google-business-profile-seo": {
   "hash": "9013f75b369e",
@@ -598,5 +598,13 @@
  "local-citation-building": {
   "hash": "22a42ca0b8d0",
   "date": "2026-11-22"
+ },
+ "blog/how-to-rank-in-chatgpt": {
+  "hash": "68567fedebf6",
+  "date": "2026-11-24"
+ },
+ "blog/best-generative-engine-optimization-tools": {
+  "hash": "68567fedebf6",
+  "date": "2026-11-24"
  }
 }

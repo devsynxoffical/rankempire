@@ -16,7 +16,7 @@ export function GET() {
 
 > ${site.name} is a US SEO agency for local businesses, e-commerce brands and SaaS companies, led by founder ${site.founder.name}. It runs search engine optimization (SEO), answer engine optimization (AEO) and generative engine optimization (GEO) as one program: a free audit, a 90-day roadmap, one senior strategist per account, month-to-month plans after onboarding, and results published from Google Search Console.
 
-Contact: ${site.email}. Website: ${site.url}. Results: ${site.url}/case-studies/ (verified Search Console reports). Pricing: ${site.url}/seo-packages/.
+Contact: ${site.email}. Website: ${site.url}. Results: ${site.url}/case-studies/ (verified Search Console reports). Pricing: ${site.url}/seo-packages/ (local SEO plans from $599 a month for one location, $1,199 for up to three locations, $2,199 for four or more; AEO and GEO are included in every plan).\n\nPublished results: 3.5M+ clicks and 435M+ impressions tracked in client Google Search Console accounts, 9 verified reports at ${site.url}/case-studies/.
 
 ## Services
 ${services.map((s) => `- [${label(s)}](${site.url}/${s}/): ${a[s]?.a ?? ''}`).join('\n')}

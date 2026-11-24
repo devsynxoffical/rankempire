@@ -13,6 +13,13 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-24 (owner AEO/GEO plan, rankempire.us section)
+
+- /aeo/ and /geo/: new titles (AEO Agency, GEO Agency), 50-word definition answers, 6 FAQs each, best-practices and how-to sections; GEO H1 now contains the keyword.
+- New guides: How to rank in ChatGPT; Best generative engine optimization tools.
+- robots.txt allows OAI-SearchBot and ChatGPT-User; llms.txt lists prices and published results.
+- Baseline (owner report): AI visibility 0, AI mentions 0, pages cited 0.
+
 ## 2026-11-24 (12-hour run, 1:17 PM PKT)
 
 Tracking (16-22 Nov vs 9-15 Nov): 27,964 impressions (+37%), 1 click, average position 73.2 (up 9.6), 54 keywords in the top 20; target-keyword average 75.2 (was 76.5). Bing InIndex 29, 0 crawl issues. Gains: tool pages ("check seo ranking free" 24.9, "seo site checker tool" 24.3, "website keywords checker" 23.5). Drops: Phoenix "search engine optimization near me" 84.5, Houston "seo firms near me" 56.
