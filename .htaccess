@@ -11,6 +11,10 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule ^(.*)$ https://www.rankempire.us/$1 [R=301,L]
 
+# 1b) /index.html and /folder/index.html -> folder URL (avoid duplicate URLs)
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+RewriteRule ^(.*/)?index\.html$ https://www.rankempire.us/$1 [R=301,L]
+
 # 2) Add the trailing slash to page URLs (/about-us -> /about-us/)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !/$
