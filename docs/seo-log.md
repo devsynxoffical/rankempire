@@ -13,6 +13,11 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-26 (12-hour run, 1:17 PM PKT)
+
+Tracking (18-24 Nov vs 11-17 Nov): 33,011 impressions (+57%), 3 clicks, average position 73.9 (up 5.6), 82 keywords in the top 20 (was 70); target-keyword average 74.7. Bing InIndex 40 (was 32), 0 crawl issues. Tool pages reaching page 1: website SEO checker "seo site checker tool" 5.3, "seo tool check site" 12.5; keyword rank checker "check seo ranking free" 7.3, "keyword position checker online" 11.9, "rank checker online" 14.7; keyword research tool "site keyword checker" 18.5. Drops: Phoenix "search engine optimization near me" 84.4; /locations/ "seo firms near me" 71.
+Changes: San Francisco Bay Area section and 2 FAQs; Sacramento 2 FAQs.
+
 ## 2026-11-26 (12-hour run, 1:17 AM PKT)
 
 Monitoring only: Search Console has no new days (latest 23 Nov). Site live. Bing InIndex 32, 0 crawl issues, quota 96. No SEO changes. Google Indexing API not used.
