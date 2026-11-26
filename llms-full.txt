@@ -549,6 +549,9 @@ Businesses in Santa Clarita, Valencia and the San Fernando Valley compete in the
 ### Choosing among SEO companies in LA
 Ask any of the SEO companies in Los Angeles you consider for verified Search Console results, a rank grid across your whole area and month-to-month terms after onboarding. Our guide on how to choose an SEO company (https://www.rankempire.us/blog/how-to-choose-an-seo-company/) lists the questions to ask, and our case studies (https://www.rankempire.us/case-studies/) show our verified reports. Teams with in-house marketers may prefer SEO consulting (https://www.rankempire.us/seo-consulting/).
 
+### Santa Monica and the Westside
+Santa Monica, Venice, Culver City and the rest of the Westside are their own search market, with different competitors in Google Maps than Downtown LA or the San Fernando Valley. Businesses based on the Westside should verify their Google Business Profile at their real address, list the Westside cities they serve, and build a page for each area where they do real work, with local photos, projects and reviews. Businesses elsewhere in Los Angeles County need separate pages to show up in Westside searches, because Google weighs distance heavily in map results. For the rest of California, see our San Diego SEO company (https://www.rankempire.us/locations/san-diego/) and San Francisco SEO company (https://www.rankempire.us/locations/san-francisco/) pages.
+
 ## Miami SEO company: how we rank South Florida businesses
 URL: https://www.rankempire.us/locations/miami/
 
@@ -1790,6 +1793,9 @@ A: RankEmpire offers local SEO, e-commerce SEO, SaaS and B2B SEO, technical SEO,
 
 SEO ranking services are only worth paying for if the rankings bring customers. Our services are organized around the searches that produce calls, leads and sales for your business, measured in Search Console and in your revenue, not in vanity keyword counts.
 
+### What is a search engine ranking service?
+A search engine ranking service improves where your website appears in Google and Bing for the searches your customers use, and turns those rankings into calls, leads and sales. Good ranking services fix technical problems first, then build the pages, content, Google Business Profile and links that earn higher positions, and report the results from Google Search Console every month. Be wary of any service that guarantees a number one position: Google does not sell rankings. See how much SEO costs (https://www.rankempire.us/blog/how-much-does-seo-cost/), how to tell if SEO is working (https://www.rankempire.us/blog/how-to-tell-if-seo-is-working/) and our free keyword rank checker (https://www.rankempire.us/seo-tools/keyword-rank-checker/) to check where you rank today.
+
 ### How our SEO ranking service works
 Every engagement starts with an SEO audit (https://www.rankempire.us/seo-audit/) and a keyword-to-page map, then fixes the technical foundation, builds or rewrites the pages that should rank, earns links and mentions, and reports monthly on rankings, traffic and leads. One senior strategist owns the work from start to finish.
 
@@ -2309,6 +2315,9 @@ Ask for results from Google Search Console, published pricing, the name of the s
 
 ### What results to expect in Philadelphia
 Neighborhood and long-tail searches often move within 60 to 90 days. Competitive Philadelphia terms take four to six months. Impressions in Search Console rise first, then positions, then calls and leads. Plans start at $599 a month, as listed on our local SEO packages (https://www.rankempire.us/seo-packages/local-seo/) page.
+
+### Search engine optimization in Philadelphia, neighborhood by neighborhood
+Philadelphia searches change between Center City, Fishtown and Northern Liberties, University City, South Philly and the Northeast, and again across the Main Line, King of Prussia and the South Jersey suburbs. Search engine optimization in Philadelphia works best when each area you really serve has its own page with local jobs, photos and reviews, and your Google Business Profile lists those areas. We plan those pages around the searches people in each part of the region use, and report rankings and leads from Google Search Console every month. For nearby markets, see our New York SEO company (https://www.rankempire.us/locations/new-york/) and Baltimore SEO company (https://www.rankempire.us/locations/baltimore/) pages.
 
 ## Milwaukee SEO company: how we rank Wisconsin businesses
 URL: https://www.rankempire.us/locations/milwaukee/
