@@ -13,6 +13,12 @@ Running record of SEO, AEO and GEO work on www.rankempire.us: what was done, the
 | Indexed pages | 131 of 131 |
 | GA4 | Installed 2026-11-10 (G-LJCCYX956M); data starts from this date |
 
+## 2026-11-26 (owner request: two days of SEO, AEO and GEO work)
+
+- Metadata: all 152 pages audited; 49 pages fixed (titles under 60, descriptions under 155), no duplicates, one H1 everywhere, clean slugs.
+- Pages: SEO Services (search engine ranking service answer, FAQs, duplicate FAQ removed), Los Angeles (Santa Monica and Westside), Philadelphia (neighborhood section).
+- Technical/AEO/GEO: Proof loop image alt text corrected; llms.txt lists the newer service pages; /index.html redirects added.
+
 ## 2026-11-26 (12-hour run, 1:17 PM PKT)
 
 Tracking (18-24 Nov vs 11-17 Nov): 33,011 impressions (+57%), 3 clicks, average position 73.9 (up 5.6), 82 keywords in the top 20 (was 70); target-keyword average 74.7. Bing InIndex 40 (was 32), 0 crawl issues. Tool pages reaching page 1: website SEO checker "seo site checker tool" 5.3, "seo tool check site" 12.5; keyword rank checker "check seo ranking free" 7.3, "keyword position checker online" 11.9, "rank checker online" 14.7; keyword research tool "site keyword checker" 18.5. Drops: Phoenix "search engine optimization near me" 84.4; /locations/ "seo firms near me" 71.

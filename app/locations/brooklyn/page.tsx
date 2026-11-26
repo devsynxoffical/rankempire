@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Brooklyn SEO Company & SEO Agency | RankEmpire" },
-  description: "Brooklyn SEO company for businesses in Williamsburg, Park Slope, DUMBO, Bushwick and Bay Ridge. Local SEO, Google Maps and AI search. Free audit in 2 days.",
+  description: "Brooklyn SEO company for businesses in Williamsburg, Park Slope, DUMBO, Bushwick and Bay Ridge. Local SEO, Google Maps and AI search. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/locations/brooklyn/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Brooklyn SEO Company & SEO Agency | RankEmpire", description: "Brooklyn SEO company for businesses in Williamsburg, Park Slope, DUMBO, Bushwick and Bay Ridge. Local SEO, Google Maps and AI search. Free audit in 2 days.", url: "https://www.rankempire.us/locations/brooklyn/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Brooklyn SEO Company & SEO Agency | RankEmpire", description: "Brooklyn SEO company for businesses in Williamsburg, Park Slope, DUMBO, Bushwick and Bay Ridge. Local SEO, Google Maps and AI search. Free audit in 2 days." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Brooklyn SEO Company & SEO Agency | RankEmpire", description: "Brooklyn SEO company for businesses in Williamsburg, Park Slope, DUMBO, Bushwick and Bay Ridge. Local SEO, Google Maps and AI search. Free audit.", url: "https://www.rankempire.us/locations/brooklyn/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Brooklyn SEO Company & SEO Agency | RankEmpire", description: "Brooklyn SEO company for businesses in Williamsburg, Park Slope, DUMBO, Bushwick and Bay Ridge. Local SEO, Google Maps and AI search. Free audit." },
 };
 
 export default function Page() {

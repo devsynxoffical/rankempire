@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Chiropractic SEO Services for Chiropractors | RankEmpire" },
-  description: "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile optimization and reviews.",
+  description: "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile work and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-chiropractors/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Chiropractic SEO Services for Chiropractors | RankEmpire", description: "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile optimization and reviews.", url: "https://www.rankempire.us/seo-for-chiropractors/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Chiropractic SEO Services for Chiropractors | RankEmpire", description: "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile optimization and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Chiropractic SEO Services for Chiropractors | RankEmpire", description: "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile work and reviews.", url: "https://www.rankempire.us/seo-for-chiropractors/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Chiropractic SEO Services for Chiropractors | RankEmpire", description: "SEO for chiropractors: rank for back pain, neck pain, sciatica and auto injury searches with condition pages, Google Business Profile work and reviews." },
 };
 
 export default function Page() {

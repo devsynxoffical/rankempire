@@ -26,11 +26,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Enterprise SEO Services & Packages | RankEmpire" },
-  description: "Enterprise SEO services from enterprise SEO experts: technical SEO at scale, governance, international setups, programmatic content and stakeholder reporting.",
+  description: "Enterprise SEO services from senior SEO experts: technical SEO at scale, governance, international setups, programmatic content and stakeholder reporting.",
   alternates: { canonical: "https://www.rankempire.us/enterprise-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Enterprise SEO Services & Packages | RankEmpire", description: "Enterprise SEO services from enterprise SEO experts: technical SEO at scale, governance, international setups, programmatic content and stakeholder reporting.", url: "https://www.rankempire.us/enterprise-seo/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "Enterprise SEO Services & Packages | RankEmpire", description: "Enterprise SEO services from enterprise SEO experts: technical SEO at scale, governance, international setups, programmatic content and stakeholder reporting." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Enterprise SEO Services & Packages | RankEmpire", description: "Enterprise SEO services from senior SEO experts: technical SEO at scale, governance, international setups, programmatic content and stakeholder reporting.", url: "https://www.rankempire.us/enterprise-seo/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Enterprise SEO Services & Packages | RankEmpire", description: "Enterprise SEO services from senior SEO experts: technical SEO at scale, governance, international setups, programmatic content and stakeholder reporting." },
 };
 
 export default function Page() {

@@ -24,11 +24,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Boston SEO Company & SEO Agency | RankEmpire" },
-  description: "SEO company in Boston: local SEO, Google Business Profile optimization and content for businesses in Back Bay, Cambridge, Somerville, Brookline and Quincy.",
+  description: "SEO company in Boston: local SEO, Google Business Profile work and content for businesses in Back Bay, Cambridge, Brookline, Somerville and Quincy.",
   alternates: { canonical: "https://www.rankempire.us/locations/boston/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Boston SEO Company & SEO Agency | RankEmpire", description: "SEO company in Boston: local SEO, Google Business Profile optimization and content for businesses in Back Bay, Cambridge, Somerville, Brookline and Quincy.", url: "https://www.rankempire.us/locations/boston/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Boston SEO Company & SEO Agency | RankEmpire", description: "SEO company in Boston: local SEO, Google Business Profile optimization and content for businesses in Back Bay, Cambridge, Somerville, Brookline and Quincy." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Boston SEO Company & SEO Agency | RankEmpire", description: "SEO company in Boston: local SEO, Google Business Profile work and content for businesses in Back Bay, Cambridge, Brookline, Somerville and Quincy.", url: "https://www.rankempire.us/locations/boston/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Boston SEO Company & SEO Agency | RankEmpire", description: "SEO company in Boston: local SEO, Google Business Profile work and content for businesses in Back Bay, Cambridge, Brookline, Somerville and Quincy." },
 };
 
 export default function Page() {

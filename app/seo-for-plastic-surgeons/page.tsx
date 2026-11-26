@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Plastic Surgeon SEO & Plastic Surgery SEO | RankEmpire" },
-  description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility.",
+  description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local reach.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-plastic-surgeons/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Plastic Surgeon SEO & Plastic Surgery SEO | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility.", url: "https://www.rankempire.us/seo-for-plastic-surgeons/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Plastic Surgeon SEO & Plastic Surgery SEO | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Plastic Surgeon SEO & Plastic Surgery SEO | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local reach.", url: "https://www.rankempire.us/seo-for-plastic-surgeons/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Plastic Surgeon SEO & Plastic Surgery SEO | RankEmpire", description: "SEO for plastic surgeons: rank for procedure searches with cost, recovery and candidate pages, surgeon credentials, galleries, reviews and local reach." },
 };
 
 export default function Page() {

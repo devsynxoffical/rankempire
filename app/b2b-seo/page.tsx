@@ -22,11 +22,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "B2B SEO Agency: Pipeline From Organic Search | RankEmpire" },
-  description: "B2B SEO that fills the pipeline: bottom-funnel pages, buyer-intent content, account-based landing pages and attribution from organic search to closed deals.",
+  description: "B2B SEO that fills the pipeline: bottom-funnel pages, buyer-intent content, account-based landing pages and attribution from organic search to deals.",
   alternates: { canonical: "https://www.rankempire.us/b2b-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "B2B SEO Agency: Pipeline From Organic Search | RankEmpire", description: "B2B SEO that fills the pipeline: bottom-funnel pages, buyer-intent content, account-based landing pages and attribution from organic search to closed deals.", url: "https://www.rankempire.us/b2b-seo/", images: ["https://www.rankempire.us/img/x-ai.webp"] },
-  twitter: { card: 'summary_large_image', title: "B2B SEO Agency: Pipeline From Organic Search | RankEmpire", description: "B2B SEO that fills the pipeline: bottom-funnel pages, buyer-intent content, account-based landing pages and attribution from organic search to closed deals." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "B2B SEO Agency: Pipeline From Organic Search | RankEmpire", description: "B2B SEO that fills the pipeline: bottom-funnel pages, buyer-intent content, account-based landing pages and attribution from organic search to deals.", url: "https://www.rankempire.us/b2b-seo/", images: ["https://www.rankempire.us/img/x-ai.webp"] },
+  twitter: { card: 'summary_large_image', title: "B2B SEO Agency: Pipeline From Organic Search | RankEmpire", description: "B2B SEO that fills the pipeline: bottom-funnel pages, buyer-intent content, account-based landing pages and attribution from organic search to deals." },
 };
 
 export default function Page() {

@@ -24,12 +24,12 @@ import Related from '@/components/pages/seo-for-final-expense-insurance/Related'
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "Final Expense & Burial Insurance SEO and Lead Pages | RankEmpire" },
-  description: "SEO and landing pages for final expense and burial insurance agents: quote landers, cost and eligibility pages, compliant content and exclusive inbound leads.",
+  title: { absolute: "Final Expense & Burial Insurance SEO | RankEmpire" },
+  description: "SEO and landing pages for final expense and burial insurance agents: quote landers, cost and eligibility pages, compliant content and inbound leads.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-final-expense-insurance/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Final Expense & Burial Insurance SEO and Lead Pages | RankEmpire", description: "SEO and landing pages for final expense and burial insurance agents: quote landers, cost and eligibility pages, compliant content and exclusive inbound leads.", url: "https://www.rankempire.us/seo-for-final-expense-insurance/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "Final Expense & Burial Insurance SEO and Lead Pages | RankEmpire", description: "SEO and landing pages for final expense and burial insurance agents: quote landers, cost and eligibility pages, compliant content and exclusive inbound leads." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Final Expense & Burial Insurance SEO | RankEmpire", description: "SEO and landing pages for final expense and burial insurance agents: quote landers, cost and eligibility pages, compliant content and inbound leads.", url: "https://www.rankempire.us/seo-for-final-expense-insurance/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Final Expense & Burial Insurance SEO | RankEmpire", description: "SEO and landing pages for final expense and burial insurance agents: quote landers, cost and eligibility pages, compliant content and inbound leads." },
 };
 
 export default function Page() {

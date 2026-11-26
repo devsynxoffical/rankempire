@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Private Jet Charter SEO Services | RankEmpire" },
-  description: "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI search visibility.",
+  description: "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI visibility.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-private-jet-charter/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Private Jet Charter SEO Services | RankEmpire", description: "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI search visibility.", url: "https://www.rankempire.us/seo-for-private-jet-charter/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "Private Jet Charter SEO Services | RankEmpire", description: "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI search visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Private Jet Charter SEO Services | RankEmpire", description: "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI visibility.", url: "https://www.rankempire.us/seo-for-private-jet-charter/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "Private Jet Charter SEO Services | RankEmpire", description: "SEO for private jet charter companies: rank for charter, empty leg and route searches with route pages, aircraft pages, trust signals and AI visibility." },
 };
 
 export default function Page() {

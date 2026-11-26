@@ -26,11 +26,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Salon SEO & SEO for Hair Salons | RankEmpire" },
-  description: "Salon SEO that fills chairs: SEO for hair salons and beauty salons with Google Maps, balayage and extension pages, stylist profiles and reviews. Free audit.",
+  description: "Salon SEO that fills chairs: SEO for hair and beauty salons with Google Maps, balayage and extension pages, stylist profiles and reviews. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-salons/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Salon SEO & SEO for Hair Salons | RankEmpire", description: "Salon SEO that fills chairs: SEO for hair salons and beauty salons with Google Maps, balayage and extension pages, stylist profiles and reviews. Free audit.", url: "https://www.rankempire.us/seo-for-salons/", images: ["https://www.rankempire.us/img/i-beauty.webp"] },
-  twitter: { card: 'summary_large_image', title: "Salon SEO & SEO for Hair Salons | RankEmpire", description: "Salon SEO that fills chairs: SEO for hair salons and beauty salons with Google Maps, balayage and extension pages, stylist profiles and reviews. Free audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Salon SEO & SEO for Hair Salons | RankEmpire", description: "Salon SEO that fills chairs: SEO for hair and beauty salons with Google Maps, balayage and extension pages, stylist profiles and reviews. Free audit.", url: "https://www.rankempire.us/seo-for-salons/", images: ["https://www.rankempire.us/img/i-beauty.webp"] },
+  twitter: { card: 'summary_large_image', title: "Salon SEO & SEO for Hair Salons | RankEmpire", description: "Salon SEO that fills chairs: SEO for hair and beauty salons with Google Maps, balayage and extension pages, stylist profiles and reviews. Free audit." },
 };
 
 export default function Page() {

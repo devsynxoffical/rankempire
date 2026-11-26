@@ -17,11 +17,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "SEO Packages & Pricing for Small Business | RankEmpire" },
-  description: "Monthly SEO packages for small business from $599: transparent SEO pricing for local, e-commerce and SaaS brands. No contracts. Compare plans and get a quote.",
+  description: "Monthly SEO packages for small business from $599: clear SEO pricing for local, e-commerce and SaaS brands. No contracts. Compare plans and get a quote.",
   alternates: { canonical: "https://www.rankempire.us/seo-packages/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Packages & Pricing for Small Business | RankEmpire", description: "Monthly SEO packages for small business from $599: transparent SEO pricing for local, e-commerce and SaaS brands. No contracts. Compare plans and get a quote.", url: "https://www.rankempire.us/seo-packages/", images: ["https://www.rankempire.us/img/team.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Packages & Pricing for Small Business | RankEmpire", description: "Monthly SEO packages for small business from $599: transparent SEO pricing for local, e-commerce and SaaS brands. No contracts. Compare plans and get a quote." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Packages & Pricing for Small Business | RankEmpire", description: "Monthly SEO packages for small business from $599: clear SEO pricing for local, e-commerce and SaaS brands. No contracts. Compare plans and get a quote.", url: "https://www.rankempire.us/seo-packages/", images: ["https://www.rankempire.us/img/team.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Packages & Pricing for Small Business | RankEmpire", description: "Monthly SEO packages for small business from $599: clear SEO pricing for local, e-commerce and SaaS brands. No contracts. Compare plans and get a quote." },
 };
 
 export default function Page() {

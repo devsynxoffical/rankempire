@@ -26,11 +26,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "SEO for Flooring Companies & Flooring SEO | RankEmpire" },
-  description: "SEO and marketing for flooring companies and flooring contractors: hardwood, LVP, tile and carpet pages, showroom Google Maps and project galleries. Free audit.",
+  description: "SEO for flooring companies and flooring contractors: hardwood, LVP, tile and carpet pages, showroom Google Maps and project galleries. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-flooring-companies/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Flooring Companies & Flooring SEO | RankEmpire", description: "SEO and marketing for flooring companies and flooring contractors: hardwood, LVP, tile and carpet pages, showroom Google Maps and project galleries. Free audit.", url: "https://www.rankempire.us/seo-for-flooring-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Flooring Companies & Flooring SEO | RankEmpire", description: "SEO and marketing for flooring companies and flooring contractors: hardwood, LVP, tile and carpet pages, showroom Google Maps and project galleries. Free audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Flooring Companies & Flooring SEO | RankEmpire", description: "SEO for flooring companies and flooring contractors: hardwood, LVP, tile and carpet pages, showroom Google Maps and project galleries. Free audit.", url: "https://www.rankempire.us/seo-for-flooring-companies/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO for Flooring Companies & Flooring SEO | RankEmpire", description: "SEO for flooring companies and flooring contractors: hardwood, LVP, tile and carpet pages, showroom Google Maps and project galleries. Free audit." },
 };
 
 export default function Page() {

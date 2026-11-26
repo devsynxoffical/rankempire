@@ -14,12 +14,12 @@ import Pmq from '@/components/sections/Pmq';
 import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
-  title: { absolute: "SEO by Industry: Search Optimization for 54 Industries | RankEmpire" },
+  title: { absolute: "Search Optimization by Industry: 54 Playbooks | RankEmpire" },
   description: "Search engine optimization services by industry: SEO playbooks for 54 business types in home services, medical, legal, automotive, real estate and more.",
   alternates: { canonical: "https://www.rankempire.us/industries/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO by Industry: Search Optimization for 54 Industries | RankEmpire", description: "Search engine optimization services by industry: SEO playbooks for 54 business types in home services, medical, legal, automotive, real estate and more.", url: "https://www.rankempire.us/industries/", images: ["https://www.rankempire.us/img/team.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO by Industry: Search Optimization for 54 Industries | RankEmpire", description: "Search engine optimization services by industry: SEO playbooks for 54 business types in home services, medical, legal, automotive, real estate and more." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Search Optimization by Industry: 54 Playbooks | RankEmpire", description: "Search engine optimization services by industry: SEO playbooks for 54 business types in home services, medical, legal, automotive, real estate and more.", url: "https://www.rankempire.us/industries/", images: ["https://www.rankempire.us/img/team.webp"] },
+  twitter: { card: 'summary_large_image', title: "Search Optimization by Industry: 54 Playbooks | RankEmpire", description: "Search engine optimization services by industry: SEO playbooks for 54 business types in home services, medical, legal, automotive, real estate and more." },
 };
 
 export default function Page() {

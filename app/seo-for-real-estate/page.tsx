@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Real Estate SEO Services for Agents & Brokers | RankEmpire" },
-  description: "Real estate SEO expert services for agents and brokerages: search engine optimization for neighborhood, seller and buyer searches, agent profiles and reviews.",
+  description: "Real estate SEO services for agents and brokerages: search engine optimization for neighborhood, seller and buyer searches, agent profiles and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-real-estate/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Real Estate SEO Services for Agents & Brokers | RankEmpire", description: "Real estate SEO expert services for agents and brokerages: search engine optimization for neighborhood, seller and buyer searches, agent profiles and reviews.", url: "https://www.rankempire.us/seo-for-real-estate/", images: ["https://www.rankempire.us/img/i-realestate.webp"] },
-  twitter: { card: 'summary_large_image', title: "Real Estate SEO Services for Agents & Brokers | RankEmpire", description: "Real estate SEO expert services for agents and brokerages: search engine optimization for neighborhood, seller and buyer searches, agent profiles and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Real Estate SEO Services for Agents & Brokers | RankEmpire", description: "Real estate SEO services for agents and brokerages: search engine optimization for neighborhood, seller and buyer searches, agent profiles and reviews.", url: "https://www.rankempire.us/seo-for-real-estate/", images: ["https://www.rankempire.us/img/i-realestate.webp"] },
+  twitter: { card: 'summary_large_image', title: "Real Estate SEO Services for Agents & Brokers | RankEmpire", description: "Real estate SEO services for agents and brokerages: search engine optimization for neighborhood, seller and buyer searches, agent profiles and reviews." },
 };
 
 export default function Page() {

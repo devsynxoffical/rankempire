@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Roofing SEO Services & Roofing SEO Experts | RankEmpire" },
-  description: "Roofing SEO experts: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews. Free roofing SEO audit.",
+  description: "Roofing SEO experts: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews. Free roofing audit.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-roofing/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Roofing SEO Services & Roofing SEO Experts | RankEmpire", description: "Roofing SEO experts: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews. Free roofing SEO audit.", url: "https://www.rankempire.us/seo-for-roofing/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "Roofing SEO Services & Roofing SEO Experts | RankEmpire", description: "Roofing SEO experts: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews. Free roofing SEO audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Roofing SEO Services & Roofing SEO Experts | RankEmpire", description: "Roofing SEO experts: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews. Free roofing audit.", url: "https://www.rankempire.us/seo-for-roofing/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Roofing SEO Services & Roofing SEO Experts | RankEmpire", description: "Roofing SEO experts: rank for roof repair, replacement and storm damage searches with roof-type pages, insurance content and reviews. Free roofing audit." },
 };
 
 export default function Page() {

@@ -24,11 +24,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Denver SEO Company & SEO Agency | RankEmpire" },
-  description: "SEO company in Denver: local SEO, Google Business Profile optimization and content for businesses in LoDo, RiNo, Capitol Hill, Highlands, Aurora and Lakewood.",
+  description: "SEO company in Denver: local SEO, Google Business Profile optimization and content for businesses in LoDo, RiNo, Capitol Hill, Aurora and Lakewood.",
   alternates: { canonical: "https://www.rankempire.us/locations/denver/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Denver SEO Company & SEO Agency | RankEmpire", description: "SEO company in Denver: local SEO, Google Business Profile optimization and content for businesses in LoDo, RiNo, Capitol Hill, Highlands, Aurora and Lakewood.", url: "https://www.rankempire.us/locations/denver/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Denver SEO Company & SEO Agency | RankEmpire", description: "SEO company in Denver: local SEO, Google Business Profile optimization and content for businesses in LoDo, RiNo, Capitol Hill, Highlands, Aurora and Lakewood." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Denver SEO Company & SEO Agency | RankEmpire", description: "SEO company in Denver: local SEO, Google Business Profile optimization and content for businesses in LoDo, RiNo, Capitol Hill, Aurora and Lakewood.", url: "https://www.rankempire.us/locations/denver/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Denver SEO Company & SEO Agency | RankEmpire", description: "SEO company in Denver: local SEO, Google Business Profile optimization and content for businesses in LoDo, RiNo, Capitol Hill, Aurora and Lakewood." },
 };
 
 export default function Page() {

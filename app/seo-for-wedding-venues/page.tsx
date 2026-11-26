@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Wedding Venue SEO Services & Marketing | RankEmpire" },
-  description: "SEO for wedding venues and event companies: win venue, capacity and pricing searches with map pack optimization, space pages, real events and AI visibility.",
+  description: "SEO for wedding venues and event companies: win venue, capacity and pricing searches with map pack optimization, space pages and real events.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-wedding-venues/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Wedding Venue SEO Services & Marketing | RankEmpire", description: "SEO for wedding venues and event companies: win venue, capacity and pricing searches with map pack optimization, space pages, real events and AI visibility.", url: "https://www.rankempire.us/seo-for-wedding-venues/", images: ["https://www.rankempire.us/img/v3-ring.webp"] },
-  twitter: { card: 'summary_large_image', title: "Wedding Venue SEO Services & Marketing | RankEmpire", description: "SEO for wedding venues and event companies: win venue, capacity and pricing searches with map pack optimization, space pages, real events and AI visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Wedding Venue SEO Services & Marketing | RankEmpire", description: "SEO for wedding venues and event companies: win venue, capacity and pricing searches with map pack optimization, space pages and real events.", url: "https://www.rankempire.us/seo-for-wedding-venues/", images: ["https://www.rankempire.us/img/v3-ring.webp"] },
+  twitter: { card: 'summary_large_image', title: "Wedding Venue SEO Services & Marketing | RankEmpire", description: "SEO for wedding venues and event companies: win venue, capacity and pricing searches with map pack optimization, space pages and real events." },
 };
 
 export default function Page() {

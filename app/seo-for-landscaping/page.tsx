@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Landscaping SEO & SEO for Landscapers | RankEmpire" },
-  description: "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack optimization.",
+  description: "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack work.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-landscaping/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Landscaping SEO & SEO for Landscapers | RankEmpire", description: "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack optimization.", url: "https://www.rankempire.us/seo-for-landscaping/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "Landscaping SEO & SEO for Landscapers | RankEmpire", description: "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack optimization." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Landscaping SEO & SEO for Landscapers | RankEmpire", description: "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack work.", url: "https://www.rankempire.us/seo-for-landscaping/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "Landscaping SEO & SEO for Landscapers | RankEmpire", description: "SEO for landscaping companies: rank for lawn care, landscape design, hardscape and irrigation searches with service pages, galleries and map pack work." },
 };
 
 export default function Page() {

@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Financial Advisor SEO & SEO for Advisors | RankEmpire" },
-  description: "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local visibility.",
+  description: "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local reach.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-financial-advisors/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Financial Advisor SEO & SEO for Advisors | RankEmpire", description: "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local visibility.", url: "https://www.rankempire.us/seo-for-financial-advisors/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
-  twitter: { card: 'summary_large_image', title: "Financial Advisor SEO & SEO for Advisors | RankEmpire", description: "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Financial Advisor SEO & SEO for Advisors | RankEmpire", description: "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local reach.", url: "https://www.rankempire.us/seo-for-financial-advisors/", images: ["https://www.rankempire.us/img/i-pro.webp"] },
+  twitter: { card: 'summary_large_image', title: "Financial Advisor SEO & SEO for Advisors | RankEmpire", description: "SEO for financial advisors: rank for retirement planning and wealth management searches with compliant service pages, advisor profiles and local reach." },
 };
 
 export default function Page() {

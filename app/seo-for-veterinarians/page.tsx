@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Veterinary SEO & SEO for Vet Clinics | RankEmpire" },
-  description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization.",
+  description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency hours, reviews and map pack optimization.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-veterinarians/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Veterinary SEO & SEO for Vet Clinics | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-veterinarians/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Veterinary SEO & SEO for Vet Clinics | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency profile hours, reviews and map pack optimization." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Veterinary SEO & SEO for Vet Clinics | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency hours, reviews and map pack optimization.", url: "https://www.rankempire.us/seo-for-veterinarians/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Veterinary SEO & SEO for Vet Clinics | RankEmpire", description: "SEO for veterinarians: win routine, emergency and specialty pet care searches with service pages, emergency hours, reviews and map pack optimization." },
 };
 
 export default function Page() {

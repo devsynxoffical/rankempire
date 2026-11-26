@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "SEO for Bakeries: Bakery SEO Services | RankEmpire" },
-  description: "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google Business Profile, reviews and holiday content.",
+  description: "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google profile, reviews and holiday posts.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-bakeries/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Bakeries: Bakery SEO Services | RankEmpire", description: "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google Business Profile, reviews and holiday content.", url: "https://www.rankempire.us/seo-for-bakeries/", images: ["https://www.rankempire.us/img/i-food.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO for Bakeries: Bakery SEO Services | RankEmpire", description: "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google Business Profile, reviews and holiday content." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO for Bakeries: Bakery SEO Services | RankEmpire", description: "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google profile, reviews and holiday posts.", url: "https://www.rankempire.us/seo-for-bakeries/", images: ["https://www.rankempire.us/img/i-food.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO for Bakeries: Bakery SEO Services | RankEmpire", description: "SEO for bakeries: rank for custom cake, wedding cake and bread searches with product pages, a photo-rich Google profile, reviews and holiday posts." },
 };
 
 export default function Page() {

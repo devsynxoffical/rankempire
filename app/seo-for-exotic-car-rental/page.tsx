@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Exotic Car Rental SEO Services | RankEmpire" },
-  description: "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements, reviews and AI visibility.",
+  description: "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-exotic-car-rental/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Exotic Car Rental SEO Services | RankEmpire", description: "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements, reviews and AI visibility.", url: "https://www.rankempire.us/seo-for-exotic-car-rental/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
-  twitter: { card: 'summary_large_image', title: "Exotic Car Rental SEO Services | RankEmpire", description: "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements, reviews and AI visibility." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Exotic Car Rental SEO Services | RankEmpire", description: "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements and reviews.", url: "https://www.rankempire.us/seo-for-exotic-car-rental/", images: ["https://www.rankempire.us/img/i-auto.webp"] },
+  twitter: { card: 'summary_large_image', title: "Exotic Car Rental SEO Services | RankEmpire", description: "SEO for exotic car rental companies: rank for Lamborghini, Ferrari and luxury car rental searches with model pages, requirements and reviews." },
 };
 
 export default function Page() {

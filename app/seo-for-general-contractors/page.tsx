@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "General Contractor SEO Services & Experts | RankEmpire" },
-  description: "SEO for general contractors: rank for kitchen, bathroom, addition and remodel searches with project pages, neighborhood galleries, trust signals and reviews.",
+  description: "SEO for general contractors: rank for kitchen, bathroom, addition and remodel searches with project pages, neighborhood galleries, trust and reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-general-contractors/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "General Contractor SEO Services & Experts | RankEmpire", description: "SEO for general contractors: rank for kitchen, bathroom, addition and remodel searches with project pages, neighborhood galleries, trust signals and reviews.", url: "https://www.rankempire.us/seo-for-general-contractors/", images: ["https://www.rankempire.us/img/i-home.webp"] },
-  twitter: { card: 'summary_large_image', title: "General Contractor SEO Services & Experts | RankEmpire", description: "SEO for general contractors: rank for kitchen, bathroom, addition and remodel searches with project pages, neighborhood galleries, trust signals and reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "General Contractor SEO Services & Experts | RankEmpire", description: "SEO for general contractors: rank for kitchen, bathroom, addition and remodel searches with project pages, neighborhood galleries, trust and reviews.", url: "https://www.rankempire.us/seo-for-general-contractors/", images: ["https://www.rankempire.us/img/i-home.webp"] },
+  twitter: { card: 'summary_large_image', title: "General Contractor SEO Services & Experts | RankEmpire", description: "SEO for general contractors: rank for kitchen, bathroom, addition and remodel searches with project pages, neighborhood galleries, trust and reviews." },
 };
 
 export default function Page() {

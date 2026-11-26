@@ -27,12 +27,12 @@ import Robo from '@/components/sections/Robo';
 import BookCall from '@/components/sections/BookCall';
 
 export const metadata: Metadata = {
-  title: { absolute: "SEO Services for Small Business: Local SEO Plans | RankEmpire" },
+  title: { absolute: "SEO Services for Small Business: Local Plans | RankEmpire" },
   description: "SEO services for small business: Google Maps, service pages and reviews that bring calls and leads. Plans from $599/mo, month to month. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/small-business-seo/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Services for Small Business: Local SEO Plans | RankEmpire", description: "SEO services for small business: Google Maps, service pages and reviews that bring calls and leads. Plans from $599/mo, month to month. Free audit.", url: "https://www.rankempire.us/small-business-seo/", images: ["https://www.rankempire.us/img/w2.webp"] },
-  twitter: { card: 'summary_large_image', title: "SEO Services for Small Business: Local SEO Plans | RankEmpire", description: "SEO services for small business: Google Maps, service pages and reviews that bring calls and leads. Plans from $599/mo, month to month. Free audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "SEO Services for Small Business: Local Plans | RankEmpire", description: "SEO services for small business: Google Maps, service pages and reviews that bring calls and leads. Plans from $599/mo, month to month. Free audit.", url: "https://www.rankempire.us/small-business-seo/", images: ["https://www.rankempire.us/img/w2.webp"] },
+  twitter: { card: 'summary_large_image', title: "SEO Services for Small Business: Local Plans | RankEmpire", description: "SEO services for small business: Google Maps, service pages and reviews that bring calls and leads. Plans from $599/mo, month to month. Free audit." },
 };
 
 export default function Page() {

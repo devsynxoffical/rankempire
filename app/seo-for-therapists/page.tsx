@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Therapist & Counselor SEO Services | RankEmpire" },
-  description: "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile optimization and compliant reviews.",
+  description: "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile work and compliant reviews.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-therapists/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Therapist & Counselor SEO Services | RankEmpire", description: "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile optimization and compliant reviews.", url: "https://www.rankempire.us/seo-for-therapists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
-  twitter: { card: 'summary_large_image', title: "Therapist & Counselor SEO Services | RankEmpire", description: "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile optimization and compliant reviews." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Therapist & Counselor SEO Services | RankEmpire", description: "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile work and compliant reviews.", url: "https://www.rankempire.us/seo-for-therapists/", images: ["https://www.rankempire.us/img/i-med.webp"] },
+  twitter: { card: 'summary_large_image', title: "Therapist & Counselor SEO Services | RankEmpire", description: "SEO for therapists and counselors: reach clients searching by concern, insurance and telehealth with concern pages, profile work and compliant reviews." },
 };
 
 export default function Page() {

@@ -24,11 +24,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Fort Worth SEO Company & SEO Agency, TX | RankEmpire" },
-  description: "Fort Worth SEO company for Tarrant County businesses in Downtown, Near Southside, Alliance, Keller, Southlake and Arlington. Local SEO and Maps. Free audit.",
+  description: "Fort Worth SEO company for Tarrant County businesses in Downtown, Near Southside, Alliance, Keller and Southlake. Local SEO and Maps. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/locations/fort-worth/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Fort Worth SEO Company & SEO Agency, TX | RankEmpire", description: "Fort Worth SEO company for Tarrant County businesses in Downtown, Near Southside, Alliance, Keller, Southlake and Arlington. Local SEO and Maps. Free audit.", url: "https://www.rankempire.us/locations/fort-worth/", images: ["https://www.rankempire.us/img/city.webp"] },
-  twitter: { card: 'summary_large_image', title: "Fort Worth SEO Company & SEO Agency, TX | RankEmpire", description: "Fort Worth SEO company for Tarrant County businesses in Downtown, Near Southside, Alliance, Keller, Southlake and Arlington. Local SEO and Maps. Free audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Fort Worth SEO Company & SEO Agency, TX | RankEmpire", description: "Fort Worth SEO company for Tarrant County businesses in Downtown, Near Southside, Alliance, Keller and Southlake. Local SEO and Maps. Free audit.", url: "https://www.rankempire.us/locations/fort-worth/", images: ["https://www.rankempire.us/img/city.webp"] },
+  twitter: { card: 'summary_large_image', title: "Fort Worth SEO Company & SEO Agency, TX | RankEmpire", description: "Fort Worth SEO company for Tarrant County businesses in Downtown, Near Southside, Alliance, Keller and Southlake. Local SEO and Maps. Free audit." },
 };
 
 export default function Page() {

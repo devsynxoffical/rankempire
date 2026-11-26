@@ -39,7 +39,7 @@ export default function Pmq() {
                   </span>
                 </div>
                 <div className="pw-s">
-                  <img src="/img/pf-anastasia.webp" alt="Search Console report, Client offer architecture" loading="lazy" />
+                  <img src="/img/pf-anastasia.webp" alt="Recorded client strategy call on Zoom" loading="lazy" />
                   <span className="pw-g"></span>
                 </div>
                 <div className="pw-f">
@@ -66,7 +66,7 @@ export default function Pmq() {
                   </span>
                 </div>
                 <div className="pw-s">
-                  <img src="/img/pf-ann.webp" alt="Search Console report, Live growth breakdown" loading="lazy" />
+                  <img src="/img/pf-ann.webp" alt="Recorded call with a client reviewing growth" loading="lazy" />
                   <span className="pw-g"></span>
                 </div>
                 <div className="pw-f">
@@ -93,7 +93,7 @@ export default function Pmq() {
                   </span>
                 </div>
                 <div className="pw-s">
-                  <img src="/img/pf-analytics.webp" alt="Search Console report, Real-time tracking" loading="lazy" />
+                  <img src="/img/pf-analytics.webp" alt="Screen share of a live tracking report during a client call" loading="lazy" />
                   <span className="pw-g"></span>
                 </div>
                 <div className="pw-f">
@@ -120,7 +120,7 @@ export default function Pmq() {
                   </span>
                 </div>
                 <div className="pw-s">
-                  <img src="/img/pf-george.webp" alt="Search Console report, Backend conversion review" loading="lazy" />
+                  <img src="/img/pf-george.webp" alt="Recorded group call reviewing a client's conversion setup" loading="lazy" />
                   <span className="pw-g"></span>
                 </div>
                 <div className="pw-f">
@@ -147,7 +147,7 @@ export default function Pmq() {
                   </span>
                 </div>
                 <div className="pw-s">
-                  <img src="/img/pf-edgar_jeermei.webp" alt="Search Console report, Offer and angle mapping" loading="lazy" />
+                  <img src="/img/pf-edgar_jeermei.webp" alt="Recorded call with two clients mapping offers" loading="lazy" />
                   <span className="pw-g"></span>
                 </div>
                 <div className="pw-f">
@@ -174,7 +174,7 @@ export default function Pmq() {
                   </span>
                 </div>
                 <div className="pw-s">
-                  <img src="/img/pf-guilia.webp" alt="Search Console report, High-ticket pipeline setup" loading="lazy" />
+                  <img src="/img/pf-guilia.webp" alt="Recorded onboarding call with a client" loading="lazy" />
                   <span className="pw-g"></span>
                 </div>
                 <div className="pw-f">
@@ -201,7 +201,7 @@ export default function Pmq() {
                   </span>
                 </div>
                 <div className="pw-s">
-                  <img src="/img/pf-ig_shot.webp" alt="Search Console report, Acquisition proof" loading="lazy" />
+                  <img src="/img/pf-ig_shot.webp" alt="Recorded call with a client sharing results" loading="lazy" />
                   <span className="pw-g"></span>
                 </div>
                 <div className="pw-f">
@@ -228,7 +228,7 @@ export default function Pmq() {
                   </span>
                 </div>
                 <div className="pw-s">
-                  <img src="/img/pf-owne.webp" alt="Search Console report, Unit economics audit" loading="lazy" />
+                  <img src="/img/pf-owne.webp" alt="Recorded workshop call reviewing an analytics report" loading="lazy" />
                   <span className="pw-g"></span>
                 </div>
                 <div className="pw-f">
@@ -255,7 +255,7 @@ export default function Pmq() {
                   </span>
                 </div>
                 <div className="pw-s">
-                  <img src="/img/pf-sina.webp" alt="Search Console report, Closing optimization" loading="lazy" />
+                  <img src="/img/pf-sina.webp" alt="Recorded pipeline review call with two clients" loading="lazy" />
                   <span className="pw-g"></span>
                 </div>
                 <div className="pw-f">

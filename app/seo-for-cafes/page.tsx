@@ -25,11 +25,11 @@ import Robo from '@/components/sections/Robo';
 
 export const metadata: Metadata = {
   title: { absolute: "Cafe & Coffee Shop SEO Services | RankEmpire" },
-  description: "Cafe and coffee shop SEO: win coffee, brunch and best cafe near me searches with Google Business Profile optimization, menu pages, reviews and local content.",
+  description: "Cafe and coffee shop SEO: win coffee, brunch and best cafe near me searches with Google Business Profile work, menu pages, reviews and local posts.",
   alternates: { canonical: "https://www.rankempire.us/seo-for-cafes/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Cafe & Coffee Shop SEO Services | RankEmpire", description: "Cafe and coffee shop SEO: win coffee, brunch and best cafe near me searches with Google Business Profile optimization, menu pages, reviews and local content.", url: "https://www.rankempire.us/seo-for-cafes/", images: ["https://www.rankempire.us/img/i-food.webp"] },
-  twitter: { card: 'summary_large_image', title: "Cafe & Coffee Shop SEO Services | RankEmpire", description: "Cafe and coffee shop SEO: win coffee, brunch and best cafe near me searches with Google Business Profile optimization, menu pages, reviews and local content." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Cafe & Coffee Shop SEO Services | RankEmpire", description: "Cafe and coffee shop SEO: win coffee, brunch and best cafe near me searches with Google Business Profile work, menu pages, reviews and local posts.", url: "https://www.rankempire.us/seo-for-cafes/", images: ["https://www.rankempire.us/img/i-food.webp"] },
+  twitter: { card: 'summary_large_image', title: "Cafe & Coffee Shop SEO Services | RankEmpire", description: "Cafe and coffee shop SEO: win coffee, brunch and best cafe near me searches with Google Business Profile work, menu pages, reviews and local posts." },
 };
 
 export default function Page() {

@@ -28,11 +28,11 @@ import BookCall from '@/components/sections/BookCall';
 
 export const metadata: Metadata = {
   title: { absolute: "Local Citation Building Services for Local SEO | RankEmpire" },
-  description: "Local citation building and cleanup: consistent name, address and phone on the directories Google, Apple, Bing and AI assistants trust. Free citation audit.",
+  description: "Local citation building and cleanup: consistent name, address and phone on the directories Google, Apple, Bing and AI assistants trust. Free audit.",
   alternates: { canonical: "https://www.rankempire.us/local-citation-building/" },
   robots: "index,follow,max-image-preview:large,max-snippet:-1",
-  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Local Citation Building Services for Local SEO | RankEmpire", description: "Local citation building and cleanup: consistent name, address and phone on the directories Google, Apple, Bing and AI assistants trust. Free citation audit.", url: "https://www.rankempire.us/local-citation-building/", images: ["https://www.rankempire.us/img/w2.webp"] },
-  twitter: { card: 'summary_large_image', title: "Local Citation Building Services for Local SEO | RankEmpire", description: "Local citation building and cleanup: consistent name, address and phone on the directories Google, Apple, Bing and AI assistants trust. Free citation audit." },
+  openGraph: { type: 'website', siteName: 'RankEmpire', locale: 'en_US', title: "Local Citation Building Services for Local SEO | RankEmpire", description: "Local citation building and cleanup: consistent name, address and phone on the directories Google, Apple, Bing and AI assistants trust. Free audit.", url: "https://www.rankempire.us/local-citation-building/", images: ["https://www.rankempire.us/img/w2.webp"] },
+  twitter: { card: 'summary_large_image', title: "Local Citation Building Services for Local SEO | RankEmpire", description: "Local citation building and cleanup: consistent name, address and phone on the directories Google, Apple, Bing and AI assistants trust. Free audit." },
 };
 
 export default function Page() {
